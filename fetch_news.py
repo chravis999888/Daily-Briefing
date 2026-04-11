@@ -1,5 +1,6 @@
 import os
 import json
+import time
 import requests
 import feedparser
 import anthropic
@@ -358,15 +359,18 @@ def main():
     print("Fetching Breaking News from Guardian...")
     guardian_articles = fetch_guardian("world news war crisis disaster attack geopolitical", 20)
     breaking = process_breaking_news(guardian_articles)
+    time.sleep(60)
 
     print("Fetching Australia news...")
     abc_rss = fetch_rss("https://www.abc.net.au/news/feed/51120/rss.xml", "ABC News")
     newsdata_aus = fetch_newsdata("australia politics government election", country="au")
     australia = process_australia(abc_rss, newsdata_aus)
+    time.sleep(60)
 
     print("Fetching Archaeology news...")
     newsdata_arch = fetch_newsdata("archaeology paleoanthropology fossil discovery human evolution ancient DNA homo")
     archaeology = process_archaeology(newsdata_arch)
+    time.sleep(60)
 
     print("Fetching Football news...")
     bbc_football = fetch_rss("https://feeds.bbci.co.uk/sport/football/rss.xml", "BBC Sport")

@@ -40,24 +40,27 @@ def relative_time(date_str):
     if not date_str:
         return ""
     try:
+        dt = None
         from email.utils import parsedate_to_datetime
-        try:
-            dt = parsedate_to_datetime(date_str)
-        except:
-            for fmt in ["%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d"]:
-                try:
-                    dt = datetime.strptime(date_str[:19], fmt[:19])
-                    dt = dt.replace(tzinfo=timezone.utc)
-                    break
-                except:
-                    continue
-            else:
-                return ""
+        for parser in [
+            lambda s: parsedate_to_datetime(s),
+            lambda s: datetime.strptime(s, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc),
+            lambda s: datetime.strptime(s, "%Y-%m-%dT%H:%M:%S%z"),
+            lambda s: datetime.strptime(s[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc),
+            lambda s: datetime.strptime(s[:19], "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc),
+            lambda s: datetime.strptime(s[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc),
+        ]:
+            try:
+                dt = parser(date_str)
+                break
+            except:
+                continue
+        if not dt:
+            return ""
         now = datetime.now(timezone.utc)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
-        diff = now - dt
-        seconds = diff.total_seconds()
+        seconds = (now - dt).total_seconds()
         if seconds < 3600:
             mins = int(seconds // 60)
             return "just now" if mins < 2 else f"{mins} mins ago"
@@ -107,9 +110,11 @@ def get_ai_summary(headline, content=""):
     prompt = f"""In 3-4 sentences, explain this news story clearly and factually.
 Headline: "{headline}"
 {f'Article content: {content[:1500]}' if content else ''}
-Cover what happened, why it matters, and any important background. Plain English, no fluff. No markdown, no # symbols, just plain sentences."""
+Cover what happened, why it matters, and any important background. Plain English, no fluff. Start directly with the explanation — do not use any markdown, headers, bullet points, or # symbols."""
     text = call_haiku(prompt, 400)
-    return text.lstrip("#").lstrip("*").strip()
+    import re
+    text = re.sub(r'^#+\s*\w*\s*', '', text).strip()
+    return text
 
 def fetch_guardian(query, page_size=10):
     url = "https://content.guardianapis.com/search"
@@ -226,7 +231,7 @@ Raw JSON only, no markdown."""
     results = []
     for story in stories:
         orig = next((a for a in articles if a["url"] == story.get("url","")), {})
-        articles_list = [{"title": orig.get("title", story.get("headline","")), "source": story.get("source","The Guardian"), "url": story.get("url","")}]
+        articles_list = [{"title": orig.get("title","") or story.get("headline",""), "source": story.get("source","The Guardian"), "url": story.get("url","")}]
         if story.get("deeper_search"):
             search_prompt = f"""Search for latest news about: "{story['headline']}"
 Find articles from Reuters, BBC, AP, Al Jazeera.

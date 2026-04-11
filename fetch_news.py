@@ -75,7 +75,7 @@ def relative_time(date_str):
     except:
         return ""
 
-def call_claude(prompt, max_tokens=1000):
+def call_haiku(prompt, max_tokens=500):
     msg = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=max_tokens,
@@ -83,9 +83,17 @@ def call_claude(prompt, max_tokens=1000):
     )
     return msg.content[0].text
 
-def call_claude_with_search(prompt, max_tokens=1500):
+def call_sonnet(prompt, max_tokens=1000):
     msg = client.messages.create(
-        model="claude-haiku-4-5-20251001",
+        model="claude-sonnet-4-6",
+        max_tokens=max_tokens,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    return msg.content[0].text
+
+def call_sonnet_with_search(prompt, max_tokens=1500):
+    msg = client.messages.create(
+        model="claude-sonnet-4-6",
         max_tokens=max_tokens,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         messages=[{"role": "user", "content": prompt}]
@@ -99,8 +107,8 @@ def get_ai_summary(headline, content=""):
     prompt = f"""In 3-4 sentences, explain this news story clearly and factually.
 Headline: "{headline}"
 {f'Article content: {content[:1500]}' if content else ''}
-Cover what happened, why it matters, and any important background. Plain English, no fluff. Do not use markdown, no # symbols, just plain sentences."""
-    text = call_claude(prompt, 400)
+Cover what happened, why it matters, and any important background. Plain English, no fluff. No markdown, no # symbols, just plain sentences."""
+    text = call_haiku(prompt, 400)
     return text.lstrip("#").lstrip("*").strip()
 
 def fetch_guardian(query, page_size=10):
@@ -199,7 +207,7 @@ Here are recent articles:
 
 Select ONLY stories that are historic in scale — active major wars significantly escalating with large casualties, world leader deaths, terrorist attacks killing hundreds+, catastrophic natural disasters with mass casualties, nuclear threats. DO NOT include diplomatic talks, peace negotiations, ceasefire discussions, court cases, political scandals, or warnings from officials. Only include something if it involves large-scale violence, death, or an irreversible world-changing event actively happening now. If nothing meets this bar return [].
 
-Read the actual content carefully and write headlines with specific facts — numbers, names, locations.
+Read the actual content carefully and write headlines with specific facts — numbers, names, locations. ONLY include a story if the specific numbers and facts you use in the headline are explicitly stated in the article content provided. If you have to infer, estimate or extrapolate any fact, exclude the story entirely.
 
 {HEADLINE_RULES}
 
@@ -209,7 +217,7 @@ Return ONLY a JSON array:
 [{{"headline":"...","timestamp":"...","deeper_search":false,"url":"...","source":"..."}}]
 Raw JSON only, no markdown."""
 
-    text = call_claude(prompt, 1000)
+    text = call_sonnet(prompt, 1000)
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -225,7 +233,7 @@ Find articles from Reuters, BBC, AP, Al Jazeera.
 Return ONLY JSON array of up to 5 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-            search_text = call_claude_with_search(search_prompt, 800)
+            search_text = call_sonnet_with_search(search_prompt, 800)
             try:
                 extra = json.loads(search_text.replace("```json","").replace("```","").strip())
                 articles_list = extra
@@ -256,7 +264,7 @@ Return ONLY a JSON array:
 [{{"headline":"...","timestamp":"...","url":"...","source":"...","deeper_context":false,"context_angle":""}}]
 Raw JSON only, no markdown."""
 
-    text = call_claude(prompt, 1000)
+    text = call_sonnet(prompt, 1000)
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -271,7 +279,7 @@ Raw JSON only, no markdown."""
 Return ONLY JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-            search_text = call_claude_with_search(search_prompt, 600)
+            search_text = call_sonnet_with_search(search_prompt, 600)
             try:
                 extra = json.loads(search_text.replace("```json","").replace("```","").strip())
                 articles_list = articles_list + extra
@@ -301,7 +309,7 @@ Return ONLY a JSON array:
 [{{"headline":"...","timestamp":"...","url":"...","source":"..."}}]
 Raw JSON only, no markdown."""
 
-    text = call_claude(prompt, 800)
+    text = call_sonnet(prompt, 800)
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -337,7 +345,7 @@ Return ONLY a JSON array:
 [{{"headline":"...","timestamp":"...","url":"...","source":"...","deeper_context":false,"context_angle":""}}]
 Raw JSON only, no markdown."""
 
-    text = call_claude(prompt, 1000)
+    text = call_sonnet(prompt, 1000)
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -352,7 +360,7 @@ Raw JSON only, no markdown."""
 Return ONLY JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-            search_text = call_claude_with_search(search_prompt, 600)
+            search_text = call_sonnet_with_search(search_prompt, 600)
             try:
                 extra = json.loads(search_text.replace("```json","").replace("```","").strip())
                 articles_list = articles_list + extra

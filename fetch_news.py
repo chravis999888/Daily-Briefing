@@ -5,8 +5,6 @@ import requests
 import feedparser
 import anthropic
 from datetime import datetime, timezone, timedelta
-
-AEST = timezone(timedelta(hours=10))
 from pathlib import Path
 
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
@@ -15,6 +13,8 @@ GUARDIAN_KEY = os.environ["GUARDIAN_API_KEY"]
 
 client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
+AEST = timezone(timedelta(hours=10))
+
 ACCENTS = {
     "breaking": "#c0392b",
     "australia": "#2e7bbf",
@@ -22,10 +22,24 @@ ACCENTS = {
     "football": "#2a7a52"
 }
 
+HEADLINE_RULES = """
+CRITICAL HEADLINE RULES — these are non-negotiable:
+- The headline must state the ACTUAL FACT. It is a one-sentence summary that fully informs the reader without them needing to click.
+- NEVER use vague phrases like "faces critical moment", "races against time", "sparks debate", "raises concerns", "under pressure", "amid tensions", "could impact", "warns of", "signals", "eyes", "targets", "mulls".
+- NEVER write a headline that teases without informing. If you can't tell what actually happened from the headline alone, rewrite it.
+- BAD: "Prime Minister faces critical moment as government races against time on key policy"
+- GOOD: "Albanese's Help to Buy housing scheme passes Senate after Greens back amended bill"
+- BAD: "Scientists make breakthrough discovery that could rewrite human history"  
+- GOOD: "450,000-year-old skull fragment found in Israel identified as new Homo species distinct from Neanderthals"
+- BAD: "Club faces uncertain future amid managerial uncertainty"
+- GOOD: "Thomas Tuchel sacked by Bayern Munich after 3 consecutive Bundesliga losses"
+The headline must read like a factual summary, not a news article title designed to get clicks.
+"""
+
 def aest_now():
     return datetime.now(AEST).strftime("%I:%M %p AEST").lstrip("0")
 
-
+def call_claude(prompt, max_tokens=1000):
     msg = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=max_tokens,
@@ -44,6 +58,15 @@ def call_claude_with_search(prompt, max_tokens=1500):
         if block.type == "text":
             return block.text
     return ""
+
+def get_ai_summary(headline, context=""):
+    prompt = f"""In 3-4 sentences, explain this news story clearly and factually:
+"{headline}"
+{f'Additional context: {context}' if context else ''}
+
+Cover: what happened, why it matters, any important background context.
+Write in plain English. Be direct and informative. No fluff, no "it remains to be seen", no speculation."""
+    return call_claude(prompt, 400)
 
 def fetch_guardian(query, page_size=10):
     url = "https://content.guardianapis.com/search"
@@ -81,11 +104,7 @@ def fetch_rss(url, source_name):
 
 def fetch_newsdata(query, country=None, category=None):
     url = "https://newsdata.io/api/1/news"
-    params = {
-        "apikey": NEWSDATA_KEY,
-        "q": query,
-        "language": "en"
-    }
+    params = {"apikey": NEWSDATA_KEY, "q": query, "language": "en"}
     if country:
         params["country"] = country
     if category:
@@ -103,16 +122,20 @@ def process_breaking_news(articles):
     if not articles:
         return []
     headlines = "\n".join([f"- {a['title']} ({a['source']})" for a in articles[:20]])
-    prompt = f"""You are a world news editor. Today is {datetime.now(timezone.utc).strftime('%A %d %B %Y')}.
+    prompt = f"""You are a world news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent headlines from The Guardian:
 {headlines}
 
-Your job:
-1. Identify only stories that are truly world-altering — major wars escalating, world leader deaths, large scale attacks, catastrophic natural disasters with mass casualties, massive geopolitical shocks. If nothing meets this bar, return an empty array.
-2. For each significant story, write a plain English headline that explains what actually happened and why it matters — not clickbait, the actual substance.
-3. Estimate how long ago this broke (e.g. "2 hours ago", "yesterday").
-4. Flag if the story warrants a deeper multi-source search (true/false).
+Select ONLY stories that are historic in scale — active major wars significantly escalating with large casualties, world leader deaths, terrorist attacks killing hundreds+, catastrophic natural disasters with mass casualties, nuclear threats, geopolitical shocks that will be studied in history books. 
+
+DO NOT include: diplomatic talks, ceasefire negotiations, court cases, political scandals, economic news, warnings or concerns from officials, institutional crises. Only include something if it involves large-scale violence, death, or an irreversible world-changing event that is actively happening right now.
+
+If nothing meets this bar, return [].
+
+{HEADLINE_RULES}
+
+Also estimate how long ago this broke and whether it needs a deeper multi-source search.
 
 Return ONLY a JSON array:
 [{{"headline":"...","timestamp":"...","deeper_search":true,"guardian_title":"...","url":"..."}}]
@@ -139,9 +162,11 @@ Raw JSON only."""
                 articles_list = extra
             except:
                 pass
+        summary = get_ai_summary(story["headline"])
         results.append({
             "headline": story["headline"],
             "timestamp": story.get("timestamp",""),
+            "summary": summary,
             "articles": articles_list
         })
     return results
@@ -151,17 +176,23 @@ def process_australia(rss_articles, newsdata_articles):
     if not all_articles:
         return []
     headlines = "\n".join([f"- {a['title']} ({a['source']})" for a in all_articles[:30]])
-    prompt = f"""You are an Australian political and domestic news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
+    prompt = f"""You are an Australian political news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent headlines:
 {headlines}
 
-Your job:
-1. Select ONLY stories that are specifically about Australian domestic affairs — federal or state parliament decisions, major Australian policy changes, elections and polling, significant Australian political events, major cultural or social shifts within Australia, significant Australian court decisions. 
-2. DO NOT include: international news even if it involves Australians, crime stories, local accidents, industry stories unless they involve major national policy, anything that isn't directly about Australian politics or significant domestic affairs.
-3. For each story write a plain English headline that states the actual fact — not a teaser. Tell me exactly what happened. E.g. "Albanese government's housing bill fails in Senate after Greens withdraw support" not "Albanese faces critical moment on housing". Be specific and factual.
-4. Estimate how long ago (e.g. "3 hours ago", "yesterday", "2 days ago").
-5. Aim for 2-4 stories. If nothing genuinely meets the bar, return [].
+Select ONLY stories about Australian domestic politics and significant national affairs:
+- Federal or state parliament votes, bills passed or failed, budget decisions
+- Federal or state election news, polling shifts, party leadership changes
+- Major Australian court decisions with national significance (like High Court rulings)
+- Significant national policy changes that affect most Australians
+- Major national cultural or social events with political significance
+
+DO NOT include: international news (even if Australians are involved), road accidents, local crimes, industry news, sport, weather, human interest stories, anything a tabloid would run. If a story isn't about Australian governance or national politics, exclude it.
+
+Aim for 2-4 stories. If nothing meets the bar return [].
+
+{HEADLINE_RULES}
 
 Return ONLY a JSON array:
 [{{"headline":"...","timestamp":"...","deeper_context":false,"context_angle":"","articles":[{{"title":"...","source":"...","url":"..."}}]}}]
@@ -186,9 +217,11 @@ Raw JSON only."""
                 story["articles"] = story.get("articles", []) + extra
             except:
                 pass
+        summary = get_ai_summary(story["headline"])
         results.append({
             "headline": story["headline"],
             "timestamp": story.get("timestamp",""),
+            "summary": summary,
             "articles": story.get("articles", [])
         })
     return results
@@ -202,10 +235,18 @@ def process_archaeology(articles):
 Here are recent headlines:
 {headlines}
 
-Your job:
-1. Select only significant archaeological or palaeoanthropological discoveries — homo lineage finds, ancient DNA breakthroughs, new fossil species, findings that challenge or rewrite human evolution. Aim for 2-4 stories ordered by significance.
-2. For each story write a plain English headline explaining what was actually discovered and what it means for our understanding of human evolution — not the journal title, the actual finding and its significance.
-3. Estimate how long ago announced (e.g. "2 weeks ago", "last month", "3 days ago").
+Select ONLY significant archaeological or palaeoanthropological discoveries:
+- New hominin species or subspecies identified
+- Fossil finds that push back dates of human evolution or migration
+- Ancient DNA findings that change our understanding of human lineage
+- Discoveries that directly contradict or significantly update existing models of human evolution
+- Major finds related to Homo sapiens, Neanderthals, Denisovans, Homo erectus, or other Homo lineage species
+
+DO NOT include: general archaeology not related to human evolution, dinosaur finds, ancient civilisation discoveries, cultural artefacts, unless they directly relate to hominin evolution.
+
+Aim for 2-4 stories ordered by significance. If nothing meets the bar return [].
+
+{HEADLINE_RULES}
 
 Return ONLY a JSON array:
 [{{"headline":"...","timestamp":"...","articles":[{{"title":"...","source":"...","url":"..."}}]}}]
@@ -213,9 +254,20 @@ Raw JSON only, no markdown."""
 
     text = call_claude(prompt)
     try:
-        return json.loads(text.replace("```json","").replace("```","").strip())
+        stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
         return []
+
+    results = []
+    for story in stories:
+        summary = get_ai_summary(story["headline"])
+        results.append({
+            "headline": story["headline"],
+            "timestamp": story.get("timestamp",""),
+            "summary": summary,
+            "articles": story.get("articles", [])
+        })
+    return results
 
 def process_football(articles):
     if not articles:
@@ -226,11 +278,21 @@ def process_football(articles):
 Here are recent headlines from BBC Sport:
 {headlines}
 
-Your job:
-1. Select only significant stories from Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League — significant match results and upsets, key player injuries, manager sackings, confirmed transfers, extraordinary performances. Aim for 4-6 stories.
-2. For each story write a plain English headline explaining what happened — actual scorelines, actual player names, actual significance.
-3. Estimate how long ago (e.g. "2 hours ago", "yesterday").
-4. Flag if the story connects to a broader narrative worth exploring (true/false) and if so what angle (e.g. "Mbappe performance connects to Golden Boot race").
+Select ONLY significant stories from Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League:
+- Match results with actual scorelines, especially upsets or title-race implications
+- Key player injuries affecting a team's season
+- Manager sackings or confirmed appointments
+- Confirmed major transfers
+- Extraordinary individual performances with stats
+- Significant title race developments, relegation battles, European qualification
+
+DO NOT include: transfer rumours, minor injuries, press conference opinions, preview articles, fantasy football content.
+
+Aim for 4-6 stories. If nothing meets the bar return [].
+
+{HEADLINE_RULES}
+
+Also flag if a story connects to a broader narrative worth exploring (e.g. a performance connecting to a Golden Boot race, a result changing the title standings).
 
 Return ONLY a JSON array:
 [{{"headline":"...","timestamp":"...","deeper_context":false,"context_angle":"","articles":[{{"title":"...","source":"...","url":"..."}}]}}]
@@ -255,9 +317,11 @@ Raw JSON only."""
                 story["articles"] = story.get("articles", []) + extra
             except:
                 pass
+        summary = get_ai_summary(story["headline"])
         results.append({
             "headline": story["headline"],
             "timestamp": story.get("timestamp",""),
+            "summary": summary,
             "articles": story.get("articles", [])
         })
     return results
@@ -283,44 +347,45 @@ def build_html(all_data):
             for i, story in enumerate(cat["data"]):
                 num = f"0{i+1}" if i+1 < 10 else str(i+1)
                 arts = story.get("articles", [])
+                summary = story.get("summary", "").replace("'", "&#39;").replace('"', "&quot;")
                 art_html = "".join([
-                    f'<a href="{a.get("url","#")}" target="_blank" rel="noreferrer noopener" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:8px 11px;border-radius:8px;background:#1a1a18;text-decoration:none;margin-bottom:3px;">'
+                    f'<a href="{a.get("url","#")}" target="_blank" rel="noreferrer noopener" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:8px 11px;border-radius:8px;background:#161614;text-decoration:none;margin-bottom:3px;">'
                     f'<span style="font-size:13px;color:#f0ece4;line-height:1.4;flex:1;font-weight:300;">{a.get("title","").replace("<","&lt;").replace(">","&gt;")}</span>'
-                    f'<span style="font-size:11px;color:#333330;white-space:nowrap;flex-shrink:0;">{a.get("source","")}</span>'
+                    f'<span style="font-size:11px;color:#333330;white-space:nowrap;flex-shrink:0;margin-left:8px;">{a.get("source","")}</span>'
                     f'</a>'
                     for a in arts if a.get("url","").startswith("http")
                 ])
-                stories_html += f'''
-<div style="border-bottom:1px solid rgba(255,255,255,0.07);">
-  <div onclick="this.parentElement.classList.toggle('open');this.querySelector('.bar').style.background=this.parentElement.classList.contains('open')?'{ac}':'rgba(255,255,255,0.12)';this.querySelector('.chev').style.transform=this.parentElement.classList.contains('open')?'rotate(180deg)':'none';"
-    style="display:flex;align-items:flex-start;gap:14px;padding:16px 0;cursor:pointer;">
-    <span style="font-size:11px;color:#333330;min-width:18px;margin-top:4px;">{num}</span>
+                meta_parts = []
+                if story.get("timestamp"):
+                    meta_parts.append(f'<span style="color:{ac};font-weight:500;">{story["timestamp"]}</span>')
+                if arts:
+                    meta_parts.append(f'<span style="color:#6e6b64;">{arts[0].get("source","")}</span>')
+                if len(arts) > 1:
+                    meta_parts.append(f'<span style="color:#444440;">{len(arts)} sources</span>')
+                meta_html = ' <span style="color:#2a2a28;">·</span> '.join(meta_parts)
+
+                stories_html += f'''<div class="story" id="story-{cat["id"]}-{i}" style="border-bottom:1px solid rgba(255,255,255,0.07);">
+  <div class="story-header" style="display:flex;align-items:flex-start;gap:14px;padding:18px 0;cursor:pointer;">
+    <span style="font-size:11px;color:#2a2a28;min-width:18px;margin-top:3px;font-variant-numeric:tabular-nums;">{num}</span>
     <div style="flex:1;">
-      <div style="font-size:15px;font-weight:400;line-height:1.5;color:#f0ece4;margin-bottom:5px;letter-spacing:-0.01em;">{story["headline"]}</div>
-      <div style="font-size:11px;color:#6e6b64;">
-        {f'<span style="color:{ac};font-weight:500;">{story.get("timestamp","")}</span>' if story.get("timestamp") else ""}
-        {f'<span style="display:inline-block;width:3px;height:3px;border-radius:50%;background:#333330;margin:0 6px 1px;"></span>' if story.get("timestamp") and arts else ""}
-        {arts[0].get("source","") if arts else ""}
-        {f'<span style="display:inline-block;width:3px;height:3px;border-radius:50%;background:#333330;margin:0 6px 1px;"></span><span>{len(arts)} sources</span>' if len(arts) > 1 else ""}
-      </div>
+      <div style="font-size:15px;font-weight:400;line-height:1.5;color:#f0ece4;margin-bottom:6px;letter-spacing:-0.01em;">{story["headline"].replace("<","&lt;").replace(">","&gt;")}</div>
+      <div style="font-size:11px;display:flex;gap:6px;align-items:center;flex-wrap:wrap;">{meta_html}</div>
     </div>
-    <div class="chev" style="font-size:10px;color:#333330;margin-top:5px;flex-shrink:0;transition:transform 0.2s;">&#9660;</div>
-    <div class="bar" style="position:absolute;width:3px;height:20px;border-radius:2px;background:rgba(255,255,255,0.12);margin-top:3px;display:none;"></div>
+    <div class="chev" style="font-size:10px;color:#2a2a28;margin-top:4px;flex-shrink:0;transition:transform 0.2s;">&#9660;</div>
   </div>
-  <div style="display:none;padding:0 0 18px 32px;" class="story-body">
-    <div style="font-size:11px;color:#6e6b64;margin-bottom:12px;">{story.get("timestamp","")}</div>
+  <div class="story-body" style="display:none;padding:0 0 20px 32px;">
+    <div style="font-size:13px;line-height:1.7;color:#8a8680;background:#1a1a18;border-left:2px solid {ac};padding:12px 16px;border-radius:0 8px 8px 0;margin-bottom:14px;font-style:italic;">{story.get("summary","").replace("<","&lt;").replace(">","&gt;")}</div>
     {art_html}
   </div>
 </div>'''
 
-        sections_html += f'''
-<div style="margin-bottom:4rem;">
+        sections_html += f'''<div style="margin-bottom:4rem;">
   <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1.25rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
     <div style="display:flex;align-items:center;gap:12px;">
       <div style="width:3px;height:22px;border-radius:2px;background:{ac};flex-shrink:0;"></div>
-      <div style="font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:500;">{cat["label"]}</div>
+      <div style="font-family:\'Playfair Display\',serif;font-size:1.2rem;font-weight:500;">{cat["label"]}</div>
     </div>
-    <span style="font-size:11px;color:#333330;">Updated {updated_str}</span>
+    <span style="font-size:11px;color:#2a2a28;">Updated {updated_str}</span>
   </div>
   {stories_html}
 </div>'''
@@ -335,26 +400,29 @@ def build_html(all_data):
 <style>
 *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0;}}
 html,body{{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-size:15px;line-height:1.6;min-height:100vh;}}
-.open .story-body{{display:block!important;}}
+.story-header:hover .chev{{color:#6e6b64;}}
 </style>
 </head>
 <body>
 <div style="max-width:860px;margin:0 auto;padding:3rem 2rem 6rem;">
   <div style="margin-bottom:3.5rem;">
-    <div style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#6e6b64;margin-bottom:10px;">{date_str}</div>
+    <div style="font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:#444440;margin-bottom:10px;">{date_str}</div>
     <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:12px;">
       <h1 style="font-family:'Playfair Display',serif;font-size:2.8rem;font-weight:700;letter-spacing:-0.02em;line-height:1.1;">Your briefing</h1>
-      <span style="font-size:11px;color:#333330;padding-bottom:8px;">Auto-updates every 30–60 min</span>
+      <span style="font-size:11px;color:#2a2a28;padding-bottom:8px;">Refreshes automatically</span>
     </div>
   </div>
   {sections_html}
 </div>
 <script>
-document.querySelectorAll('[onclick]').forEach(el=>{{
-  el.addEventListener('click',function(){{
-    const body=this.parentElement.querySelector('.story-body');
-    const bar=this.querySelector('.bar');
-    if(body)body.style.display=body.style.display==='block'?'none':'block';
+document.querySelectorAll('.story-header').forEach(function(header) {{
+  header.addEventListener('click', function() {{
+    var story = this.parentElement;
+    var body = story.querySelector('.story-body');
+    var chev = this.querySelector('.chev');
+    var isOpen = body.style.display === 'block';
+    body.style.display = isOpen ? 'none' : 'block';
+    chev.style.transform = isOpen ? 'none' : 'rotate(180deg)';
   }});
 }});
 </script>
@@ -363,18 +431,18 @@ document.querySelectorAll('[onclick]').forEach(el=>{{
 
 def main():
     print("Fetching Breaking News from Guardian...")
-    guardian_articles = fetch_guardian("world news war crisis disaster attack geopolitical", 20)
+    guardian_articles = fetch_guardian("world war attack disaster crisis killed invasion", 20)
     breaking = process_breaking_news(guardian_articles)
     time.sleep(60)
 
     print("Fetching Australia news...")
     abc_rss = fetch_rss("https://www.abc.net.au/news/feed/51120/rss.xml", "ABC News")
-    newsdata_aus = fetch_newsdata("australia politics government election", country="au")
+    newsdata_aus = fetch_newsdata("australia parliament senate election albanese budget policy", country="au")
     australia = process_australia(abc_rss, newsdata_aus)
     time.sleep(60)
 
     print("Fetching Archaeology news...")
-    newsdata_arch = fetch_newsdata("archaeology paleoanthropology fossil discovery human evolution ancient DNA homo")
+    newsdata_arch = fetch_newsdata("paleoanthropology fossil hominin ancient DNA homo sapiens neanderthal discovery")
     archaeology = process_archaeology(newsdata_arch)
     time.sleep(60)
 

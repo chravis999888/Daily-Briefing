@@ -4,7 +4,9 @@ import time
 import requests
 import feedparser
 import anthropic
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+
+AEST = timezone(timedelta(hours=10))
 from pathlib import Path
 
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
@@ -20,7 +22,10 @@ ACCENTS = {
     "football": "#2a7a52"
 }
 
-def call_claude(prompt, max_tokens=1000):
+def aest_now():
+    return datetime.now(AEST).strftime("%I:%M %p AEST").lstrip("0")
+
+
     msg = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=max_tokens,
@@ -146,16 +151,17 @@ def process_australia(rss_articles, newsdata_articles):
     if not all_articles:
         return []
     headlines = "\n".join([f"- {a['title']} ({a['source']})" for a in all_articles[:30]])
-    prompt = f"""You are an Australian news editor. Today is {datetime.now(timezone.utc).strftime('%A %d %B %Y')}.
+    prompt = f"""You are an Australian political and domestic news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent headlines:
 {headlines}
 
 Your job:
-1. Select only stories that would make the front page of a major Australian newspaper — major political decisions, significant crimes or disasters, major economic news, elections, policy changes, things Australians would be talking about today. Aim for 3-5 stories.
-2. For each story write a plain English headline explaining what actually happened — not clickbait.
-3. Estimate how long ago (e.g. "3 hours ago", "yesterday", "2 days ago").
-4. Flag if the story connects to a bigger picture worth exploring (true/false) and if so what angle.
+1. Select ONLY stories that are specifically about Australian domestic affairs — federal or state parliament decisions, major Australian policy changes, elections and polling, significant Australian political events, major cultural or social shifts within Australia, significant Australian court decisions. 
+2. DO NOT include: international news even if it involves Australians, crime stories, local accidents, industry stories unless they involve major national policy, anything that isn't directly about Australian politics or significant domestic affairs.
+3. For each story write a plain English headline that states the actual fact — not a teaser. Tell me exactly what happened. E.g. "Albanese government's housing bill fails in Senate after Greens withdraw support" not "Albanese faces critical moment on housing". Be specific and factual.
+4. Estimate how long ago (e.g. "3 hours ago", "yesterday", "2 days ago").
+5. Aim for 2-4 stories. If nothing genuinely meets the bar, return [].
 
 Return ONLY a JSON array:
 [{{"headline":"...","timestamp":"...","deeper_context":false,"context_angle":"","articles":[{{"title":"...","source":"...","url":"..."}}]}}]
@@ -191,7 +197,7 @@ def process_archaeology(articles):
     if not articles:
         return []
     headlines = "\n".join([f"- {a['title']} ({a['source']})" for a in articles[:20]])
-    prompt = f"""You are a science editor specialising in human origins. Today is {datetime.now(timezone.utc).strftime('%A %d %B %Y')}.
+    prompt = f"""You are a science editor specialising in human origins. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent headlines:
 {headlines}
@@ -215,7 +221,7 @@ def process_football(articles):
     if not articles:
         return []
     headlines = "\n".join([f"- {a['title']} ({a['source']})" for a in articles[:30]])
-    prompt = f"""You are a football editor. Today is {datetime.now(timezone.utc).strftime('%A %d %B %Y')}.
+    prompt = f"""You are a football editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent headlines from BBC Sport:
 {headlines}
@@ -257,8 +263,8 @@ Raw JSON only."""
     return results
 
 def build_html(all_data):
-    date_str = datetime.now(timezone.utc).strftime("%A %d %B %Y").upper()
-    updated_str = datetime.now(timezone.utc).strftime("%H:%M UTC")
+    date_str = datetime.now(AEST).strftime("%A %d %B %Y").upper()
+    updated_str = datetime.now(AEST).strftime("%I:%M %p AEST").lstrip("0")
 
     categories = [
         {"id": "breaking", "label": "Breaking News", "data": all_data["breaking"]},
@@ -278,11 +284,11 @@ def build_html(all_data):
                 num = f"0{i+1}" if i+1 < 10 else str(i+1)
                 arts = story.get("articles", [])
                 art_html = "".join([
-                    f'<a href="{a.get("url","#")}" target="_blank" rel="noreferrer" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:8px 11px;border-radius:8px;background:#1a1a18;text-decoration:none;margin-bottom:3px;">'
-                    f'<span style="font-size:13px;color:#f0ece4;line-height:1.4;flex:1;font-weight:300;">{a.get("title","")}</span>'
+                    f'<a href="{a.get("url","#")}" target="_blank" rel="noreferrer noopener" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:8px 11px;border-radius:8px;background:#1a1a18;text-decoration:none;margin-bottom:3px;">'
+                    f'<span style="font-size:13px;color:#f0ece4;line-height:1.4;flex:1;font-weight:300;">{a.get("title","").replace("<","&lt;").replace(">","&gt;")}</span>'
                     f'<span style="font-size:11px;color:#333330;white-space:nowrap;flex-shrink:0;">{a.get("source","")}</span>'
                     f'</a>'
-                    for a in arts
+                    for a in arts if a.get("url","").startswith("http")
                 ])
                 stories_html += f'''
 <div style="border-bottom:1px solid rgba(255,255,255,0.07);">

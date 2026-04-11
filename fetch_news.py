@@ -23,17 +23,14 @@ ACCENTS = {
 }
 
 HEADLINE_RULES = """
-CRITICAL HEADLINE RULES — these are non-negotiable:
-- The headline must state the ACTUAL FACT. It is a one-sentence summary that fully informs the reader without them needing to click.
-- NEVER use vague phrases like "faces critical moment", "races against time", "sparks debate", "raises concerns", "under pressure", "amid tensions", "could impact", "warns of", "signals", "eyes", "targets", "mulls".
-- NEVER write a headline that teases without informing. If you can't tell what actually happened from the headline alone, rewrite it.
+CRITICAL HEADLINE RULES:
+- Write a single sentence that states the actual fact. The reader should be fully informed without needing to click.
+- NEVER use: "faces", "races against time", "sparks debate", "raises concerns", "under pressure", "amid tensions", "could impact", "warns of", "signals", "eyes", "targets", "mulls", "critical moment"
 - BAD: "Prime Minister faces critical moment as government races against time on key policy"
 - GOOD: "Albanese's Help to Buy housing scheme passes Senate after Greens back amended bill"
-- BAD: "Scientists make breakthrough discovery that could rewrite human history"  
-- GOOD: "450,000-year-old skull fragment found in Israel identified as new Homo species distinct from Neanderthals"
-- BAD: "Club faces uncertain future amid managerial uncertainty"
-- GOOD: "Thomas Tuchel sacked by Bayern Munich after 3 consecutive Bundesliga losses"
-The headline must read like a factual summary, not a news article title designed to get clicks.
+- BAD: "Scientists make breakthrough discovery that could rewrite human history"
+- GOOD: "450,000-year-old skull found in Israel identified as new Homo species distinct from Neanderthals"
+The headline must be a factual summary, not a teaser.
 """
 
 def aest_now():
@@ -59,13 +56,11 @@ def call_claude_with_search(prompt, max_tokens=1500):
             return block.text
     return ""
 
-def get_ai_summary(headline, context=""):
-    prompt = f"""In 3-4 sentences, explain this news story clearly and factually:
-"{headline}"
-{f'Additional context: {context}' if context else ''}
-
-Cover: what happened, why it matters, any important background context.
-Write in plain English. Be direct and informative. No fluff, no "it remains to be seen", no speculation."""
+def get_ai_summary(headline, content=""):
+    prompt = f"""In 3-4 sentences, explain this news story clearly and factually.
+Headline: "{headline}"
+{f'Article content: {content[:1500]}' if content else ''}
+Cover what happened, why it matters, and any important background. Plain English, no fluff."""
     return call_claude(prompt, 400)
 
 def fetch_guardian(query, page_size=10):
@@ -75,13 +70,24 @@ def fetch_guardian(query, page_size=10):
         "api-key": GUARDIAN_KEY,
         "page-size": page_size,
         "order-by": "newest",
-        "show-fields": "headline,trailText,shortUrl"
+        "show-fields": "headline,trailText,bodyText"
     }
     try:
         r = requests.get(url, params=params, timeout=10)
         data = r.json()
         results = data.get("response", {}).get("results", [])
-        return [{"title": a.get("webTitle", ""), "url": a.get("webUrl", ""), "source": "The Guardian", "time": a.get("webPublicationDate", "")} for a in results]
+        articles = []
+        for a in results:
+            fields = a.get("fields", {})
+            body = fields.get("bodyText", "") or fields.get("trailText", "")
+            articles.append({
+                "title": a.get("webTitle", ""),
+                "url": a.get("webUrl", ""),
+                "source": "The Guardian",
+                "time": a.get("webPublicationDate", ""),
+                "content": body[:2000]
+            })
+        return articles
     except Exception as e:
         print(f"Guardian fetch error: {e}")
         return []
@@ -91,11 +97,13 @@ def fetch_rss(url, source_name):
         feed = feedparser.parse(url)
         articles = []
         for entry in feed.entries[:20]:
+            summary = entry.get("summary", "") or entry.get("description", "")
             articles.append({
                 "title": entry.get("title", ""),
                 "url": entry.get("link", ""),
                 "source": source_name,
-                "time": entry.get("published", "")
+                "time": entry.get("published", ""),
+                "content": summary[:1000]
             })
         return articles
     except Exception as e:
@@ -104,7 +112,12 @@ def fetch_rss(url, source_name):
 
 def fetch_newsdata(query, country=None, category=None):
     url = "https://newsdata.io/api/1/news"
-    params = {"apikey": NEWSDATA_KEY, "q": query, "language": "en"}
+    params = {
+        "apikey": NEWSDATA_KEY,
+        "q": query,
+        "language": "en",
+        "full_content": 1
+    }
     if country:
         params["country"] = country
     if category:
@@ -113,35 +126,51 @@ def fetch_newsdata(query, country=None, category=None):
         r = requests.get(url, params=params, timeout=10)
         data = r.json()
         results = data.get("results", [])
-        return [{"title": a.get("title", ""), "url": a.get("link", ""), "source": a.get("source_id", ""), "time": a.get("pubDate", "")} for a in results]
+        articles = []
+        for a in results:
+            content = a.get("full_content") or a.get("content") or a.get("description") or ""
+            articles.append({
+                "title": a.get("title", ""),
+                "url": a.get("link", ""),
+                "source": a.get("source_id", ""),
+                "time": a.get("pubDate", ""),
+                "content": content[:2000]
+            })
+        return articles
     except Exception as e:
         print(f"NewsData fetch error: {e}")
         return []
 
+def format_articles_for_prompt(articles):
+    parts = []
+    for a in articles[:15]:
+        content = a.get("content", "").strip()
+        if content:
+            parts.append(f"SOURCE: {a['source']}\nTITLE: {a['title']}\nCONTENT: {content[:800]}\nURL: {a['url']}\n")
+        else:
+            parts.append(f"SOURCE: {a['source']}\nTITLE: {a['title']}\nURL: {a['url']}\n")
+    return "\n---\n".join(parts)
+
 def process_breaking_news(articles):
     if not articles:
         return []
-    headlines = "\n".join([f"- {a['title']} ({a['source']})" for a in articles[:20]])
+    formatted = format_articles_for_prompt(articles)
     prompt = f"""You are a world news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
-Here are recent headlines from The Guardian:
-{headlines}
+Here are recent articles with their content:
+{formatted}
 
-Select ONLY stories that are historic in scale — active major wars significantly escalating with large casualties, world leader deaths, terrorist attacks killing hundreds+, catastrophic natural disasters with mass casualties, nuclear threats, geopolitical shocks that will be studied in history books. 
+Select ONLY stories that are historic in scale — active major wars significantly escalating with large casualties, world leader deaths, terrorist attacks killing hundreds+, catastrophic natural disasters with mass casualties, nuclear threats. DO NOT include diplomatic talks, peace negotiations, ceasefire discussions, court cases, political scandals, or official warnings. Only include something if it involves large-scale violence, death, or an irreversible world-changing event actively happening now. If nothing meets this bar return [].
 
-DO NOT include: diplomatic talks, ceasefire negotiations, court cases, political scandals, economic news, warnings or concerns from officials, institutional crises. Only include something if it involves large-scale violence, death, or an irreversible world-changing event that is actively happening right now.
-
-If nothing meets this bar, return [].
+For each selected story, read the actual article content and write a headline that states the specific facts. Include numbers, names, locations. Estimate timestamp and whether deeper search is needed.
 
 {HEADLINE_RULES}
 
-Also estimate how long ago this broke and whether it needs a deeper multi-source search.
-
 Return ONLY a JSON array:
-[{{"headline":"...","timestamp":"...","deeper_search":true,"guardian_title":"...","url":"..."}}]
+[{{"headline":"...","timestamp":"...","deeper_search":false,"url":"...","source":"..."}}]
 Raw JSON only, no markdown."""
 
-    text = call_claude(prompt)
+    text = call_claude(prompt, 1000)
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -149,10 +178,10 @@ Raw JSON only, no markdown."""
 
     results = []
     for story in stories:
-        articles_list = [{"title": story.get("guardian_title",""), "source": "The Guardian", "url": story.get("url","")}]
+        articles_list = [{"title": story.get("headline",""), "source": story.get("source",""), "url": story.get("url","")}]
         if story.get("deeper_search"):
             search_prompt = f"""Search for the latest news about: "{story['headline']}"
-Find articles from multiple major sources (Reuters, BBC, AP, Al Jazeera etc).
+Find articles from multiple major sources (Reuters, BBC, AP, Al Jazeera).
 Return ONLY a JSON array of up to 5 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
@@ -162,7 +191,8 @@ Raw JSON only."""
                 articles_list = extra
             except:
                 pass
-        summary = get_ai_summary(story["headline"])
+        orig = next((a for a in articles if a["url"] == story.get("url","")), {})
+        summary = get_ai_summary(story["headline"], orig.get("content",""))
         results.append({
             "headline": story["headline"],
             "timestamp": story.get("timestamp",""),
@@ -175,30 +205,23 @@ def process_australia(rss_articles, newsdata_articles):
     all_articles = rss_articles + newsdata_articles
     if not all_articles:
         return []
-    headlines = "\n".join([f"- {a['title']} ({a['source']})" for a in all_articles[:30]])
+    formatted = format_articles_for_prompt(all_articles)
     prompt = f"""You are an Australian political news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
-Here are recent headlines:
-{headlines}
+Here are recent articles with their content:
+{formatted}
 
-Select ONLY stories about Australian domestic politics and significant national affairs:
-- Federal or state parliament votes, bills passed or failed, budget decisions
-- Federal or state election news, polling shifts, party leadership changes
-- Major Australian court decisions with national significance (like High Court rulings)
-- Significant national policy changes that affect most Australians
-- Major national cultural or social events with political significance
+Select ONLY stories about Australian domestic politics: federal or state parliament votes, bills passed or failed, budget decisions, elections, party leadership changes, High Court rulings, major national policy changes. DO NOT include international news, road accidents, crime, industry news, sport, weather, or human interest stories. Aim for 2-4 stories. If nothing meets the bar return [].
 
-DO NOT include: international news (even if Australians are involved), road accidents, local crimes, industry news, sport, weather, human interest stories, anything a tabloid would run. If a story isn't about Australian governance or national politics, exclude it.
-
-Aim for 2-4 stories. If nothing meets the bar return [].
+For each selected story, read the actual article content and write a headline with the specific facts — what bill, what vote result, what policy, what court ruling. Be specific.
 
 {HEADLINE_RULES}
 
 Return ONLY a JSON array:
-[{{"headline":"...","timestamp":"...","deeper_context":false,"context_angle":"","articles":[{{"title":"...","source":"...","url":"..."}}]}}]
+[{{"headline":"...","timestamp":"...","url":"...","source":"...","deeper_context":false,"context_angle":""}}]
 Raw JSON only, no markdown."""
 
-    text = call_claude(prompt)
+    text = call_claude(prompt, 1000)
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -206,53 +229,48 @@ Raw JSON only, no markdown."""
 
     results = []
     for story in stories:
+        orig = next((a for a in all_articles if a["url"] == story.get("url","")), {})
+        articles_list = [{"title": orig.get("title",""), "source": story.get("source",""), "url": story.get("url","")}]
         if story.get("deeper_context") and story.get("context_angle"):
-            search_prompt = f"""Search for context on this Australian news story: "{story['context_angle']}"
-Return ONLY a JSON array of up to 3 relevant articles:
+            search_prompt = f"""Search for context on: "{story['context_angle']}"
+Return ONLY a JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
             search_text = call_claude_with_search(search_prompt, 600)
             try:
                 extra = json.loads(search_text.replace("```json","").replace("```","").strip())
-                story["articles"] = story.get("articles", []) + extra
+                articles_list = articles_list + extra
             except:
                 pass
-        summary = get_ai_summary(story["headline"])
+        summary = get_ai_summary(story["headline"], orig.get("content",""))
         results.append({
             "headline": story["headline"],
             "timestamp": story.get("timestamp",""),
             "summary": summary,
-            "articles": story.get("articles", [])
+            "articles": articles_list
         })
     return results
 
 def process_archaeology(articles):
     if not articles:
         return []
-    headlines = "\n".join([f"- {a['title']} ({a['source']})" for a in articles[:20]])
+    formatted = format_articles_for_prompt(articles)
     prompt = f"""You are a science editor specialising in human origins. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
-Here are recent headlines:
-{headlines}
+Here are recent articles with their content:
+{formatted}
 
-Select ONLY significant archaeological or palaeoanthropological discoveries:
-- New hominin species or subspecies identified
-- Fossil finds that push back dates of human evolution or migration
-- Ancient DNA findings that change our understanding of human lineage
-- Discoveries that directly contradict or significantly update existing models of human evolution
-- Major finds related to Homo sapiens, Neanderthals, Denisovans, Homo erectus, or other Homo lineage species
+Select ONLY significant palaeoanthropological discoveries: new hominin species, fossil finds pushing back human evolution dates, ancient DNA findings changing understanding of human lineage, discoveries contradicting existing models of Homo sapiens, Neanderthals, Denisovans, Homo erectus. DO NOT include general archaeology, dinosaurs, ancient civilisations unless directly related to hominin evolution. Aim for 2-4 stories ordered by significance. If nothing meets the bar return [].
 
-DO NOT include: general archaeology not related to human evolution, dinosaur finds, ancient civilisation discoveries, cultural artefacts, unless they directly relate to hominin evolution.
-
-Aim for 2-4 stories ordered by significance. If nothing meets the bar return [].
+Read the actual content and write headlines with the specific discovery, location, age, and significance.
 
 {HEADLINE_RULES}
 
 Return ONLY a JSON array:
-[{{"headline":"...","timestamp":"...","articles":[{{"title":"...","source":"...","url":"..."}}]}}]
+[{{"headline":"...","timestamp":"...","url":"...","source":"..."}}]
 Raw JSON only, no markdown."""
 
-    text = call_claude(prompt)
+    text = call_claude(prompt, 800)
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -260,45 +278,37 @@ Raw JSON only, no markdown."""
 
     results = []
     for story in stories:
-        summary = get_ai_summary(story["headline"])
+        orig = next((a for a in articles if a["url"] == story.get("url","")), {})
+        articles_list = [{"title": orig.get("title",""), "source": story.get("source",""), "url": story.get("url","")}]
+        summary = get_ai_summary(story["headline"], orig.get("content",""))
         results.append({
             "headline": story["headline"],
             "timestamp": story.get("timestamp",""),
             "summary": summary,
-            "articles": story.get("articles", [])
+            "articles": articles_list
         })
     return results
 
 def process_football(articles):
     if not articles:
         return []
-    headlines = "\n".join([f"- {a['title']} ({a['source']})" for a in articles[:30]])
+    formatted = format_articles_for_prompt(articles)
     prompt = f"""You are a football editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
-Here are recent headlines from BBC Sport:
-{headlines}
+Here are recent articles with their content:
+{formatted}
 
-Select ONLY significant stories from Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League:
-- Match results with actual scorelines, especially upsets or title-race implications
-- Key player injuries affecting a team's season
-- Manager sackings or confirmed appointments
-- Confirmed major transfers
-- Extraordinary individual performances with stats
-- Significant title race developments, relegation battles, European qualification
+Select ONLY significant stories from Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League: match results with scorelines, key injuries, manager sackings, confirmed transfers, extraordinary performances. NO rumours, previews, or press conference opinions. Aim for 4-6 stories. If nothing meets the bar return [].
 
-DO NOT include: transfer rumours, minor injuries, press conference opinions, preview articles, fantasy football content.
-
-Aim for 4-6 stories. If nothing meets the bar return [].
+Read the actual content and write headlines with specific details — actual scores, player names, clubs, significance.
 
 {HEADLINE_RULES}
 
-Also flag if a story connects to a broader narrative worth exploring (e.g. a performance connecting to a Golden Boot race, a result changing the title standings).
-
 Return ONLY a JSON array:
-[{{"headline":"...","timestamp":"...","deeper_context":false,"context_angle":"","articles":[{{"title":"...","source":"...","url":"..."}}]}}]
+[{{"headline":"...","timestamp":"...","url":"...","source":"...","deeper_context":false,"context_angle":""}}]
 Raw JSON only, no markdown."""
 
-    text = call_claude(prompt)
+    text = call_claude(prompt, 1000)
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -306,23 +316,25 @@ Raw JSON only, no markdown."""
 
     results = []
     for story in stories:
+        orig = next((a for a in articles if a["url"] == story.get("url","")), {})
+        articles_list = [{"title": orig.get("title",""), "source": story.get("source",""), "url": story.get("url","")}]
         if story.get("deeper_context") and story.get("context_angle"):
             search_prompt = f"""Search for context on this football story: "{story['context_angle']}"
-Return ONLY a JSON array of up to 3 relevant articles:
+Return ONLY a JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
             search_text = call_claude_with_search(search_prompt, 600)
             try:
                 extra = json.loads(search_text.replace("```json","").replace("```","").strip())
-                story["articles"] = story.get("articles", []) + extra
+                articles_list = articles_list + extra
             except:
                 pass
-        summary = get_ai_summary(story["headline"])
+        summary = get_ai_summary(story["headline"], orig.get("content",""))
         results.append({
             "headline": story["headline"],
             "timestamp": story.get("timestamp",""),
             "summary": summary,
-            "articles": story.get("articles", [])
+            "articles": articles_list
         })
     return results
 
@@ -347,7 +359,7 @@ def build_html(all_data):
             for i, story in enumerate(cat["data"]):
                 num = f"0{i+1}" if i+1 < 10 else str(i+1)
                 arts = story.get("articles", [])
-                summary = story.get("summary", "").replace("'", "&#39;").replace('"', "&quot;")
+                summary = story.get("summary", "")
                 art_html = "".join([
                     f'<a href="{a.get("url","#")}" target="_blank" rel="noreferrer noopener" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;padding:8px 11px;border-radius:8px;background:#161614;text-decoration:none;margin-bottom:3px;">'
                     f'<span style="font-size:13px;color:#f0ece4;line-height:1.4;flex:1;font-weight:300;">{a.get("title","").replace("<","&lt;").replace(">","&gt;")}</span>'
@@ -374,7 +386,7 @@ def build_html(all_data):
     <div class="chev" style="font-size:10px;color:#2a2a28;margin-top:4px;flex-shrink:0;transition:transform 0.2s;">&#9660;</div>
   </div>
   <div class="story-body" style="display:none;padding:0 0 20px 32px;">
-    <div style="font-size:13px;line-height:1.7;color:#8a8680;background:#1a1a18;border-left:2px solid {ac};padding:12px 16px;border-radius:0 8px 8px 0;margin-bottom:14px;font-style:italic;">{story.get("summary","").replace("<","&lt;").replace(">","&gt;")}</div>
+    <div style="font-size:13px;line-height:1.7;color:#8a8680;background:#1a1a18;border-left:2px solid {ac};padding:12px 16px;border-radius:0 8px 8px 0;margin-bottom:14px;font-style:italic;">{summary.replace("<","&lt;").replace(">","&gt;")}</div>
     {art_html}
   </div>
 </div>'''
@@ -431,7 +443,7 @@ document.querySelectorAll('.story-header').forEach(function(header) {{
 
 def main():
     print("Fetching Breaking News from Guardian...")
-    guardian_articles = fetch_guardian("world war attack disaster crisis killed invasion", 20)
+    guardian_articles = fetch_guardian("world war attack disaster crisis killed invasion", 15)
     breaking = process_breaking_news(guardian_articles)
     time.sleep(60)
 

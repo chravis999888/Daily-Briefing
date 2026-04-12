@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Build Briefing",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["fetch_news.py"],
+      "port": null
+    },
+    {
+      "name": "Preview Server",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8080", "--directory", "dist"],
+      "port": 8080
+    }
+  ]
+}

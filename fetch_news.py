@@ -7,14 +7,23 @@ import feedparser
 import anthropic
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from gdeltdoc import GdeltDoc, Filters
+from pytrends.request import TrendReq
 
-ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
-NEWSDATA_KEY = os.environ["NEWSDATA_API_KEY"]
-GUARDIAN_KEY = os.environ["GUARDIAN_API_KEY"]
+MOCK_MODE = False
 
-client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
-gd = GdeltDoc()
+ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+NEWSDATA_KEY = os.environ.get("NEWSDATA_API_KEY", "")
+GUARDIAN_KEY = os.environ.get("GUARDIAN_API_KEY", "")
+
+if not MOCK_MODE:
+    if not ANTHROPIC_KEY:
+        raise EnvironmentError("ANTHROPIC_API_KEY not set")
+    if not NEWSDATA_KEY:
+        raise EnvironmentError("NEWSDATA_API_KEY not set")
+    if not GUARDIAN_KEY:
+        raise EnvironmentError("GUARDIAN_API_KEY not set")
+
+client = anthropic.Anthropic(api_key=ANTHROPIC_KEY) if not MOCK_MODE else None
 
 AEST = timezone(timedelta(hours=10))
 MEMORY_FILE = "memory.json"
@@ -66,9 +75,15 @@ def load_pinned():
         pass
     return []
 
-def get_yesterday_stories(memory, category):
-    yesterday = (datetime.now(AEST) - timedelta(days=1)).strftime("%Y-%m-%d")
-    return memory.get("stories", {}).get(yesterday, {}).get(category, [])
+def get_previous_stories(memory, category, limit=3):
+    today = datetime.now(AEST).strftime("%Y-%m-%d")
+    stories_by_date = memory.get("stories", {})
+    for date in sorted(stories_by_date.keys(), reverse=True):
+        if date < today:
+            stories = stories_by_date[date].get(category, [])
+            if stories:
+                return stories[:limit]
+    return []
 
 def save_today_stories(memory, category, stories):
     today = datetime.now(AEST).strftime("%Y-%m-%d")
@@ -82,6 +97,16 @@ def save_today_stories(memory, category, stories):
     ]
     cutoff = (datetime.now(AEST) - timedelta(days=3)).strftime("%Y-%m-%d")
     memory["stories"] = {k: v for k, v in memory["stories"].items() if k >= cutoff}
+    return memory
+
+def save_trend_topics(memory, topics):
+    today = datetime.now(AEST).strftime("%Y-%m-%d")
+    if "world_trends" not in memory:
+        memory["world_trends"] = {}
+    memory["world_trends"][today] = topics
+    # Keep only last 30 days
+    cutoff = (datetime.now(AEST) - timedelta(days=30)).strftime("%Y-%m-%d")
+    memory["world_trends"] = {k: v for k, v in memory["world_trends"].items() if k >= cutoff}
     return memory
 
 def detect_developing_situations(memory, all_data):
@@ -117,6 +142,7 @@ def relative_time(date_str):
         dt = None
         from email.utils import parsedate_to_datetime
         for parser in [
+            lambda s: datetime.fromisoformat(s),
             lambda s: parsedate_to_datetime(s),
             lambda s: datetime.strptime(s, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc),
             lambda s: datetime.strptime(s, "%Y-%m-%dT%H:%M:%S%z"),
@@ -214,45 +240,71 @@ Cover what happened, why it matters, and any important background or broader sig
 
 # ── Fetchers ──────────────────────────────────────────────────────────────────
 
-def fetch_gdelt_articles(query, timespan="24h", max_records=25):
+def fetch_gdelt_articles(query, timespan="2h", max_records=25):
+    url = "https://api.gdeltproject.org/api/v2/doc/doc"
+    params = {
+        "query": query,
+        "mode": "artlist",
+        "maxrecords": max_records,
+        "timespan": timespan,
+        "format": "json"
+    }
+    DOMAIN_BLACKLIST = ["wikipedia.org", "wikipedia.com", "britannica.com", "fandom.com", "wikimedia.org"]
     try:
-        f = Filters(keyword=query, timespan=timespan, num_records=max_records)
-        df = gd.article_search(f)
+        r = requests.get(url, params=params, timeout=15)
+        data = r.json()
+        now_utc = datetime.now(timezone.utc)
         articles = []
-        for _, row in df.iterrows():
+        for a in data.get("articles", []):
+            domain = a.get("domain", "")
+            if any(bl in domain for bl in DOMAIN_BLACKLIST):
+                continue
+            seendate = a.get("seendate", "")
+            if seendate:
+                try:
+                    dt = datetime.strptime(seendate[:15], "%Y%m%dT%H%M%S").replace(tzinfo=timezone.utc)
+                    if (now_utc - dt).total_seconds() > 6 * 3600:
+                        continue
+                except Exception:
+                    pass
             articles.append({
-                "title": row.get("title", ""),
-                "url": row.get("url", ""),
-                "source": row.get("domain", ""),
-                "time": str(row.get("seendate", "")),
+                "title": a.get("title", ""),
+                "url": a.get("url", ""),
+                "source": domain,
+                "time": seendate,
                 "content": ""
             })
         return articles
     except Exception as e:
-        print(f"GDELT fetch error: {e}")
+        print(f"GDELT REST fetch error: {e}")
         return []
 
-def fetch_gdelt_top_stories(timespan):
+# NOTE: pytrends is an unofficial library that reverse-engineers Google Trends.
+# It occasionally breaks when Google changes their internals.
+# If the world topics section stops working, check pytrends first.
+def fetch_google_trends():
     try:
-        f = Filters(timespan=timespan, num_records=50)
-        df = gd.article_search(f)
-        if df is None or df.empty:
-            return []
-        from collections import Counter
-        domain_counts = Counter(df["domain"].tolist())
-        title_groups = {}
-        for _, row in df.iterrows():
-            title = row.get("title","")
-            if not title:
-                continue
-            key = title[:40].lower()
-            if key not in title_groups:
-                title_groups[key] = {"title": title, "url": row.get("url",""), "source": row.get("domain",""), "time": str(row.get("seendate","")), "count": 0}
-            title_groups[key]["count"] += 1
-        top = sorted(title_groups.values(), key=lambda x: x["count"], reverse=True)[:15]
-        return top
+        pytrends = TrendReq(hl='en-US', tz=0)
+        df = pytrends.trending_searches(pn='united_states')
+        topics = df[0].tolist()[:15]
+        return topics
     except Exception as e:
-        print(f"GDELT top stories error: {e}")
+        print(f"Google Trends fetch error: {e}")
+        return []
+
+def fetch_reddit_top(timespan="day"):
+    subreddits = "worldnews+news+europe"
+    time_map = {"day": "day", "week": "week", "month": "month"}
+    t = time_map.get(timespan, "day")
+    sort = "rising" if timespan == "day" else "top"
+    url = f"https://www.reddit.com/r/{subreddits}/{sort}.json?limit=25&t={t}"
+    headers = {"User-Agent": "DailyBriefing/1.0"}
+    try:
+        r = requests.get(url, headers=headers, timeout=10)
+        posts = r.json()["data"]["children"]
+        return [p["data"]["title"] for p in posts if not p["data"].get("stickied")]
+    except Exception as e:
+        print(f"Reddit fetch error: {e}")
         return []
 
 def fetch_guardian(query, page_size=15, section=None):
@@ -352,33 +404,78 @@ def format_articles_for_prompt(articles, limit=25):
 
 # ── World Topics ──────────────────────────────────────────────────────────────
 
-def process_world_topics(today_articles, week_articles, month_articles):
+def process_world_topics(trends_topics, reddit_today, reddit_week, reddit_month):
     results = {}
-    for label, articles in [("today", today_articles), ("week", week_articles), ("month", month_articles)]:
-        if not articles:
-            results[label] = []
-            continue
-        formatted = "\n---\n".join([f"TITLE: {a['title']}\nSOURCE: {a['source']}\nCOVERAGE COUNT: {a.get('count',1)}\nURL: {a['url']}" for a in articles[:15]])
-        prompt = f"""You are a global news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
-Here are the most globally covered stories based on GDELT data for the {label}:
+    # TODAY — Google Trends primary, Reddit secondary
+    today_combined = []
+    if trends_topics:
+        today_combined += [f"[TRENDING SEARCH] {t}" for t in trends_topics[:15]]
+    if reddit_today:
+        today_combined += [f"[REDDIT] {t}" for t in reddit_today[:15]]
+
+    if today_combined:
+        formatted = "\n".join(today_combined)
+        prompt = f"""You are a global news and culture editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
+
+Here are today's trending Google searches and top Reddit posts from r/worldnews and r/news:
 {formatted}
 
-Select the top 5 most significant stories the world is talking about. For each:
-- Write a plain English headline stating what the story is actually about
-- Write a single sentence explaining why the world is paying attention
-- Note approximately how many outlets are covering it
+These represent what people are actually searching for and engaging with globally right now — from geopolitics to culture to viral moments.
+
+Identify the 5 most significant topics people are talking about. These can range from major world events to cultural controversies to viral stories. For each:
+- Write a clean plain English topic label (e.g. "Ukraine ceasefire talks", "Andrew Tate extradition", "US abortion pill ruling")
+- Write one sentence explaining why the world is paying attention right now
+- Note whether it appears in both search trends and Reddit (stronger signal) or just one
 
 Return ONLY a JSON array:
-[{{"headline":"...","why":"...","coverage":"hundreds of outlets","url":"...","source":"..."}}]
+[{{"headline":"...","why":"...","signal":"both sources"|"trends only"|"reddit only"}}]
 Raw JSON only, no markdown."""
         text = call_haiku(prompt, 800)
         try:
-            stories = json.loads(text.replace("```json","").replace("```","").strip())
-            results[label] = stories
+            results["today"] = json.loads(text.replace("```json","").replace("```","").strip())
         except:
-            results[label] = []
+            results["today"] = []
+    else:
+        results["today"] = []
+
+    # WEEK — Reddit top posts, clustered by Claude from memory
+    # (handled separately via aggregate_trend_memory)
+    results["week"] = []
+    results["month"] = []
+
     return results
+
+
+def aggregate_trend_memory(memory, days):
+    """Pull raw trend topics from last N days of memory and cluster them via Claude."""
+    cutoff = (datetime.now(AEST) - timedelta(days=days)).strftime("%Y-%m-%d")
+    raw = []
+    for date, topics in memory.get("world_trends", {}).items():
+        if date >= cutoff:
+            raw += topics
+    if not raw:
+        return []
+
+    formatted = "\n".join(raw)
+    period = "week" if days <= 7 else "month"
+    prompt = f"""You are a global news editor. Here are raw trending topic strings collected daily over the past {days} days:
+{formatted}
+
+Many of these refer to the same underlying story with slightly different wording.
+Cluster them into the top 5 distinct topics that dominated this {period}. For each:
+- Write a clean canonical topic label
+- Write one sentence on why it dominated
+- Note roughly how many days it appeared
+
+Return ONLY a JSON array:
+[{{"headline":"...","why":"...","signal":"trending for X days"}}]
+Raw JSON only, no markdown."""
+    text = call_haiku(prompt, 800)
+    try:
+        return json.loads(text.replace("```json","").replace("```","").strip())
+    except:
+        return []
 
 # ── Developing Situations ─────────────────────────────────────────────────────
 
@@ -447,6 +544,7 @@ Here are recent articles:
 {formatted}
 
 Select ONLY stories that are historic in scale — active major wars significantly escalating with large casualties, world leader deaths, terrorist attacks killing hundreds+, catastrophic natural disasters with mass casualties, nuclear threats. DO NOT include diplomatic talks, peace negotiations, ceasefire discussions, court cases, political scandals, or warnings. If nothing meets this bar return [].
+CRITICAL: Only include stories where the article describes a specific event that occurred in the last 6 hours. Do NOT include background articles, explainers, or ongoing situation coverage where no new event is described today. If the article is about a situation rather than a specific new development, exclude it.
 
 For each story:
 - Write a specific factual headline with real numbers, names, locations
@@ -685,18 +783,6 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
         # Suggest core topic by stripping match details to get the underlying story
         suggested = story["headline"][:60].rstrip(".,")
 
-        art_html = "".join([
-            f'<a href="{a.get("url","#")}" target="_blank" rel="noreferrer noopener" '
-            f'style="display:flex;align-items:center;justify-content:space-between;gap:12px;'
-            f'padding:9px 14px;border-radius:8px;background:#0d0d0c;text-decoration:none;'
-            f'margin-bottom:4px;border:1px solid rgba(255,255,255,0.05);">'
-            f'<span style="font-size:13px;color:#c8c4bc;line-height:1.4;flex:1;font-weight:300;">'
-            f'{a.get("title","").replace("<","&lt;").replace(">","&gt;")}</span>'
-            f'<span style="font-size:11px;color:#444440;white-space:nowrap;flex-shrink:0;margin-left:8px;">'
-            f'{a.get("source","")}</span></a>'
-            for a in arts if a.get("url","").startswith("http")
-        ])
-
         meta_parts = []
         if story.get("timestamp"):
             meta_parts.append(f'<span style="color:{ac};font-weight:500;font-size:11px;">{story["timestamp"]}</span>')
@@ -712,26 +798,19 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
         score_dot = f'<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:{ac};margin-right:8px;margin-bottom:1px;vertical-align:middle;flex-shrink:0;"></span>' if score >= 8 else ""
         opacity = "0.55" if is_yesterday else "1"
 
-        image_html = ""
-        if is_top and image and image.startswith("http"):
-            image_html = f'<div style="width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:8px;margin-bottom:12px;"><img src="{image}" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.parentElement.style.display=\'none\'"/></div>'
-
         star_btn = "" if is_yesterday else f'<button class="star-btn" onclick="showStarPopup(\'{headline_escaped}\',\'{suggested.replace(chr(39), chr(92)+chr(39))}\');event.stopPropagation();" title="Track this story" style="background:none;border:none;cursor:pointer;padding:4px;color:#333330;font-size:14px;flex-shrink:0;line-height:1;margin-left:4px;transition:color 0.15s;" onmouseover="this.style.color=\'#c9a96e\'" onmouseout="this.style.color=\'#333330\'">&#9734;</button>'
 
-        return f'''<div class="story" style="border-radius:10px;background:{card_bg};border:{card_border};margin-bottom:8px;opacity:{opacity};">
-  <div class="story-header" style="display:flex;align-items:flex-start;gap:14px;padding:16px 18px;cursor:pointer;border-radius:10px;">
+        summary_escaped = story.get("summary","").replace("'", "\\'").replace('"', '&quot;').replace("\n", " ")
+        articles_json = json.dumps(story.get("articles", [])).replace('"', '&quot;')
+
+        return f'''<div class="story" onclick="openModal('{headline_escaped}','{summary_escaped}',{articles_json},'{image}')" style="border-radius:10px;background:{card_bg};border:{card_border};margin-bottom:8px;opacity:{opacity};cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor=''" >
+  <div style="display:flex;align-items:flex-start;gap:14px;padding:16px 18px;border-radius:10px;">
     <span style="font-size:11px;color:#2a2a28;min-width:20px;margin-top:3px;flex-shrink:0;">{num}</span>
     <div style="flex:1;min-width:0;">
       <div style="font-size:{headline_size};font-weight:400;line-height:1.45;color:#f0ece4;margin-bottom:8px;letter-spacing:-0.01em;display:flex;align-items:flex-start;">{score_dot}<span>{story["headline"].replace("<","&lt;").replace(">","&gt;")}</span></div>
       <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">{meta_html}</div>
     </div>
     {star_btn}
-    <div class="chev" style="font-size:10px;color:#2a2a28;margin-top:4px;flex-shrink:0;transition:transform 0.2s;margin-left:4px;">&#9660;</div>
-  </div>
-  <div class="story-body" style="display:none;padding:0 18px 18px 52px;">
-    {image_html}
-    <div style="font-size:13px;line-height:1.75;color:#8a8680;background:#111110;border-left:2px solid {ac};padding:12px 16px;border-radius:0 8px 8px 0;margin-bottom:12px;">{summary}</div>
-    {art_html}
   </div>
 </div>'''
 
@@ -763,7 +842,7 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
             display_style = "block" if idx == 0 else "none"
             panels_html += f'<div id="panel-{label}" style="display:{display_style};">{stories_html}</div>'
 
-        return f'''<div style="margin-bottom:3.5rem;">
+        return f'''<div>
   <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
     <div style="display:flex;align-items:center;gap:10px;">
       <div style="width:3px;height:24px;border-radius:2px;background:#7b68c8;flex-shrink:0;"></div>
@@ -790,7 +869,7 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
                 for a in arts if a.get("url","").startswith("http")
             ]) if s.get("has_update") else ""
 
-            update_style = "font-size:13px;line-height:1.7;color:#8a8680;" if s.get("has_update") else "font-size:13px;color:#333330;font-style:italic;"
+            update_style = "font-size:13px;line-height:1.7;color:#8a8680;" if s.get("has_update") else "font-size:13px;line-height:1.7;color:#8a8680;font-style:italic;"
         sit_id = f"sit-{hash(s['topic']) & 0xFFFFFF}"
         remove_btn = f'<button onclick="removeSituation(\'{s["topic"].replace(chr(39), chr(92)+chr(39))}\')" title="Stop tracking" style="background:none;border:none;cursor:pointer;color:#333330;font-size:16px;padding:0;line-height:1;transition:color 0.15s;" onmouseover="this.style.color=\'#c0392b\'" onmouseout="this.style.color=\'#333330\'">&#215;</button>'
         items_html += f'''<div id="{sit_id}" style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:16px 18px;margin-bottom:8px;transition:opacity 0.4s;">
@@ -802,7 +881,7 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
   {f'<div style="margin-top:10px;">{art_html}</div>' if art_html else ""}
 </div>'''
 
-        return f'''<div style="margin-bottom:3.5rem;">
+        return f'''<div>
   <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
     <div style="display:flex;align-items:center;gap:10px;">
       <div style="width:3px;height:24px;border-radius:2px;background:{ac};flex-shrink:0;"></div>
@@ -819,17 +898,42 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
     if not breaking_stories:
         breaking_stories_html = '<p style="padding:1.5rem 0.5rem;color:#333330;font-size:13px;">Nothing significant right now.</p>'
     else:
-        breaking_stories_html = ""
-        for i, story in enumerate(breaking_stories):
-            breaking_stories_html += render_story(story, i, ac_b, is_top=(i==0))
+        breaking_stories_html = '<div style="display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:10px;">'
+        for i, story in enumerate(breaking_stories[:3]):
+            is_top = (i == 0)
+            hl_size = "16px" if is_top else "13px"
+            card_bg = "#1e1816" if is_top else "#1c1c1a"
+            card_border = "rgba(192,57,43,0.25)" if is_top else "rgba(255,255,255,0.07)"
+            dot = f'<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:{ac_b};margin-right:8px;margin-bottom:1px;vertical-align:middle;"></span>' if is_top else ""
+            arts = story.get("articles", [])
+            source = arts[0].get("source","") if arts else ""
+            sources_count = f" · {len(arts)} sources" if len(arts) > 1 else ""
+            ts = story.get("timestamp","")
+            meta = " · ".join(filter(None, [ts, source])) + sources_count
+            headline_escaped = story["headline"].replace("'", "\\'").replace('"', '&quot;')
+            summary_escaped = story.get("summary","").replace("'", "\\'").replace('"', '&quot;').replace("\n", " ")
+            articles_json = json.dumps(story.get("articles", [])).replace('"', '&quot;')
+            breaking_stories_html += f'''<div onclick="openModal('{headline_escaped}','{summary_escaped}',{articles_json},'{story.get('image','')}')" style="background:{card_bg};border:1px solid {card_border};border-radius:10px;padding:16px 18px;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor='{card_border}'">
+  <div style="font-size:{hl_size};line-height:1.5;color:#f0ece4;font-weight:400;margin-bottom:8px;">{dot}{story["headline"].replace("<","&lt;").replace(">","&gt;")}</div>
+  <div style="font-size:11px;color:#555550;">{meta}</div>
+</div>'''
+        breaking_stories_html += '</div>'
     yesterday_breaking = yesterday_data.get("breaking",[])
     yest_b_html = ""
     if yesterday_breaking:
-        yest_b_html = f'<div style="margin-top:1.5rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.05);"><p style="font-size:11px;color:#333330;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:10px;">From yesterday</p>'
-        for i, s in enumerate(yesterday_breaking):
-            fake = {"headline": s["headline"], "timestamp": "yesterday", "score": s.get("score",5), "summary": "", "articles": []}
-            yest_b_html += render_story(fake, i, ac_b, is_yesterday=True)
-        yest_b_html += "</div>"
+        prev_cards = ""
+        for i, s in enumerate(yesterday_breaking[:3]):
+            hl = s["headline"].replace("<","&lt;").replace(">","&gt;")
+            ts = s.get("timestamp","")
+            headline_esc = s["headline"].replace("'", "\\'").replace('"', '&quot;')
+            prev_cards += f'''<div style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:14px 16px;cursor:default;">
+  <div style="font-size:12px;line-height:1.5;color:#c8c4bc;font-weight:400;margin-bottom:6px;">{hl}</div>
+  <div style="font-size:11px;color:#444440;">{ts}</div>
+</div>'''
+        yest_b_html = f'''<div style="margin-top:1.5rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.05);opacity:0.45;">
+  <p style="font-size:11px;color:#555550;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:10px;text-align:center;">Previously</p>
+  <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:10px;">{prev_cards}</div>
+</div>'''
 
     breaking_html = f'''<div style="margin-bottom:3.5rem;">
   <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
@@ -862,7 +966,7 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
                 s_html += render_story(story, i, ac, is_top=(i==0))
         yest_html = ""
         if cat["yesterday"]:
-            yest_html = f'<div style="margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.05);"><p style="font-size:11px;color:#333330;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:8px;">From yesterday</p>'
+            yest_html = f'<div style="margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.05);"><p style="font-size:11px;color:#333330;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:8px;">Previously</p>'
             for i, s in enumerate(cat["yesterday"]):
                 fake = {"headline": s["headline"], "timestamp": "yesterday", "score": s.get("score",5), "summary": "", "articles": []}
                 yest_html += render_story(fake, i, ac, is_yesterday=True)
@@ -896,7 +1000,7 @@ html,body{{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-
 </style>
 </head>
 <body>
-<div style="max-width:1100px;margin:0 auto;padding:3rem 2rem 6rem;">
+<div style="max-width:1600px;margin:0 auto;padding:3rem 3rem 6rem;">
 
   <div style="margin-bottom:3rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(255,255,255,0.07);">
     <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#333330;margin-bottom:12px;">{date_str}</div>
@@ -906,11 +1010,26 @@ html,body{{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-
     </div>
   </div>
 
-  {render_world_topics()}
-  {render_developing()}
   {breaking_html}
+  <div style="display:grid;grid-template-columns:3fr 2fr;gap:2rem;margin-bottom:3.5rem;">
+    {render_world_topics()}
+    {render_developing()}
+  </div>
   <div class="grid-3" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;margin-bottom:3.5rem;">{cols_html}</div>
 
+</div>
+
+<!-- Story modal -->
+<div id="modal-overlay" onclick="closeModal()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:2000;align-items:center;justify-content:center;padding:2rem;">
+  <div id="modal-box" onclick="event.stopPropagation()" style="background:#1c1c1a;border:1px solid rgba(255,255,255,0.12);border-radius:16px;width:min(780px,90vw);max-height:85vh;overflow-y:auto;transform:translateY(20px);opacity:0;transition:transform 0.25s ease,opacity 0.25s ease;">
+    <div style="padding:2rem 2rem 0;">
+      <div id="modal-image" style="display:none;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;margin-bottom:1.5rem;"><img id="modal-img-el" style="width:100%;height:100%;object-fit:cover;" onerror="document.getElementById('modal-image').style.display='none'"/></div>
+      <div id="modal-headline" style="font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:500;line-height:1.4;color:#f0ece4;margin-bottom:1.25rem;"></div>
+      <div id="modal-summary" style="font-size:14px;line-height:1.8;color:#8a8680;border-left:2px solid #555550;padding:12px 16px;border-radius:0 8px 8px 0;background:#111110;margin-bottom:1.5rem;"></div>
+    </div>
+    <div id="modal-articles" style="padding:0 2rem 2rem;display:flex;flex-direction:column;gap:6px;"></div>
+    <button onclick="closeModal()" style="position:sticky;bottom:0;display:block;width:100%;padding:14px;background:#111110;border:none;border-top:1px solid rgba(255,255,255,0.07);color:#555550;font-size:13px;cursor:pointer;border-radius:0 0 16px 16px;font-family:Inter,sans-serif;transition:color 0.15s;" onmouseover="this.style.color='#f0ece4'" onmouseout="this.style.color='#555550'">Close</button>
+  </div>
 </div>
 
 <!-- Star popup overlay -->
@@ -1025,16 +1144,54 @@ function removeSituation(topic) {{
   }});
 }}
 
-// ── Story expand ──
-document.querySelectorAll('.story-header').forEach(function(h){{
-  h.addEventListener('click',function(e){{
-    if (e.target.closest('.star-btn')) return;
-    var body=this.parentElement.querySelector('.story-body');
-    var chev=this.querySelector('.chev');
-    var isOpen=body.style.display==='block';
-    body.style.display=isOpen?'none':'block';
-    chev.style.transform=isOpen?'none':'rotate(180deg)';
-  }});
+// ── Story modal ──
+function openModal(headline, summary, articles, image) {{
+  document.getElementById('modal-headline').textContent = headline;
+  document.getElementById('modal-summary').textContent = summary;
+  var imgWrap = document.getElementById('modal-image');
+  var imgEl = document.getElementById('modal-img-el');
+  if (image && image.startsWith('http')) {{
+    imgEl.src = image;
+    imgWrap.style.display = 'block';
+  }} else {{
+    imgWrap.style.display = 'none';
+  }}
+  var artContainer = document.getElementById('modal-articles');
+  artContainer.innerHTML = '';
+  if (articles && articles.length) {{
+    articles.forEach(function(a) {{
+      if (!a.url || !a.url.startsWith('http')) return;
+      var el = document.createElement('a');
+      el.href = a.url;
+      el.target = '_blank';
+      el.rel = 'noreferrer noopener';
+      el.style.cssText = 'display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;border-radius:8px;background:#111110;text-decoration:none;border:1px solid rgba(255,255,255,0.05);transition:border-color 0.15s;';
+      el.onmouseover = function(){{this.style.borderColor='rgba(255,255,255,0.12)';}};
+      el.onmouseout = function(){{this.style.borderColor='rgba(255,255,255,0.05)';}};
+      el.innerHTML = '<span style="font-size:13px;color:#c8c4bc;line-height:1.4;flex:1;font-weight:300;">' + (a.title||'').replace(/</g,'&lt;') + '</span><span style="font-size:11px;color:#444440;white-space:nowrap;flex-shrink:0;margin-left:8px;">' + (a.source||'') + '</span>';
+      artContainer.appendChild(el);
+    }});
+  }}
+  var overlay = document.getElementById('modal-overlay');
+  var box = document.getElementById('modal-box');
+  overlay.style.display = 'flex';
+  box.scrollTop = 0;
+  setTimeout(function() {{
+    box.style.transform = 'translateY(0)';
+    box.style.opacity = '1';
+  }}, 10);
+}}
+
+function closeModal() {{
+  var overlay = document.getElementById('modal-overlay');
+  var box = document.getElementById('modal-box');
+  box.style.transform = 'translateY(20px)';
+  box.style.opacity = '0';
+  setTimeout(function() {{ overlay.style.display = 'none'; }}, 250);
+}}
+
+document.addEventListener('keydown', function(e) {{
+  if (e.key === 'Escape') closeModal();
 }});
 
 // ── World tabs ──
@@ -1056,7 +1213,7 @@ setInterval(function(){{
   fetch(window.location.href+'?ts='+Date.now())
     .then(function(r){{return r.text();}})
     .then(function(html){{
-      var match = html.match(/var BUILD_TS = (\d+)/);
+      var match = html.match(/var BUILD_TS = (\\d+)/);
       if(match && parseInt(match[1]) > BUILD_TS){{
         document.getElementById('refresh-status').textContent = 'New update — reloading...';
         setTimeout(function(){{ window.location.reload(); }}, 2000);
@@ -1066,18 +1223,248 @@ setInterval(function(){{
 </body>
 </html>'''
 
+# ── Mock Mode ─────────────────────────────────────────────────────────────────
+
+def mock_data():
+    all_data = {
+        "breaking": [
+            {
+                "headline": "Russian forces launch largest missile barrage of the war, striking Kyiv and 6 other cities simultaneously with 180 drones and 40 cruise missiles",
+                "score": 9, "timestamp": "2 hrs ago",
+                "summary": "Russia launched its largest coordinated missile attack of the conflict overnight, firing 180 Shahed drones and 40 cruise missiles at Ukrainian cities. Ukrainian air defences intercepted around 130 projectiles but at least 40 struck targets in Kyiv, Kharkiv, Zaporizhzhia, Dnipro and three other cities. At least 23 civilians were killed and 91 injured. The strikes targeted energy infrastructure, knocking out power to 1.4 million homes. The attack came hours after peace talks in Istanbul were suspended without agreement.",
+                "image": "https://picsum.photos/seed/war/780/440",
+                "articles": [
+                    {"title": "Russia fires record 180 drones and 40 cruise missiles at Ukraine overnight", "source": "The Guardian", "url": "https://theguardian.com"},
+                    {"title": "Ukraine says 23 dead after Russia's largest ever missile attack", "source": "Reuters", "url": "https://reuters.com"},
+                    {"title": "Istanbul peace talks collapse hours before missile barrage", "source": "BBC News", "url": "https://bbc.com"},
+                ]
+            },
+            {
+                "headline": "7.8-magnitude earthquake strikes southern Turkey near Syrian border, 340 confirmed dead as rescuers search collapsed buildings",
+                "score": 8, "timestamp": "4 hrs ago",
+                "summary": "A powerful 7.8-magnitude earthquake struck Hatay province in southern Turkey at 3:14 AM local time, collapsing hundreds of buildings and killing at least 340 people. The quake was felt across Lebanon, Syria and Cyprus. Turkish emergency services and international rescue teams have deployed to the region. The same area was devastated by a catastrophic earthquake in February 2023 that killed over 50,000 people.",
+                "image": "https://picsum.photos/seed/quake/780/440",
+                "articles": [
+                    {"title": "Earthquake kills 340 in Turkey's Hatay province, thousands missing", "source": "AP", "url": "https://apnews.com"},
+                    {"title": "Turkey earthquake: rescuers race to pull survivors from rubble", "source": "BBC News", "url": "https://bbc.com"},
+                    {"title": "Same region hit by 2023 disaster faces renewed catastrophe", "source": "Al Jazeera", "url": "https://aljazeera.com"},
+                ]
+            },
+            {
+                "headline": "North Korea fires three ballistic missiles into Sea of Japan, US and South Korea scramble jets in response",
+                "score": 7, "timestamp": "6 hrs ago",
+                "summary": "North Korea launched three short-range ballistic missiles from the Sunan area near Pyongyang early Saturday morning, all landing in the Sea of Japan within Japan's exclusive economic zone. The launches came one day after the US and South Korea concluded joint naval exercises in the region. South Korea's Joint Chiefs of Staff condemned the launches and the US Indo-Pacific Command issued a statement calling the launches destabilising.",
+                "image": "",
+                "articles": [
+                    {"title": "North Korea fires three ballistic missiles toward Japan", "source": "Reuters", "url": "https://reuters.com"},
+                    {"title": "UN Security Council to hold emergency session over DPRK launches", "source": "The Guardian", "url": "https://theguardian.com"},
+                ]
+            },
+        ],
+        "australia": [
+            {
+                "headline": "Senate passes $14.6bn housing bill after Greens withdraw opposition in exchange for social housing funding boost",
+                "score": 8, "timestamp": "3 hrs ago",
+                "summary": "The Albanese government's flagship housing legislation passed the Senate 36-34 after the Greens agreed to support the bill following a last-minute deal that increases social housing funding by $1.2 billion. The Help to Buy scheme will allow 40,000 Australians per year to purchase homes with a government equity contribution of up to 40 percent. The Coalition opposed the bill, arguing it will inflate house prices. Housing Minister Clare O'Neil called it the most significant federal housing intervention in a generation.",
+                "image": "",
+                "articles": [
+                    {"title": "Help to Buy housing bill passes Senate after Greens do deal", "source": "ABC News", "url": "https://abc.net.au"},
+                    {"title": "Greens secure $1.2bn social housing boost in exchange for housing vote", "source": "SMH", "url": "https://smh.com.au"},
+                    {"title": "Opposition slams housing scheme as inflationary after Senate defeat", "source": "The Australian", "url": "https://theaustralian.com.au"},
+                ]
+            },
+            {
+                "headline": "High Court rules NSW government's koala protection policy unconstitutional, opening 2.3 million hectares to logging",
+                "score": 7, "timestamp": "5 hrs ago",
+                "summary": "Australia's High Court voted 5-2 to strike down New South Wales' koala habitat protection overlays, finding they exceeded state environmental planning powers. The ruling potentially reopens 2.3 million hectares of coastal forest to logging that had been protected since 2021. Environmental groups called it a catastrophic setback while the timber industry welcomed the decision. The Minns government said it would introduce new legislation within 60 days to restore protections.",
+                "image": "",
+                "articles": [
+                    {"title": "High Court strikes down NSW koala habitat protections in 5-2 ruling", "source": "SMH", "url": "https://smh.com.au"},
+                    {"title": "Minns government promises new koala legislation within 60 days", "source": "ABC News", "url": "https://abc.net.au"},
+                ]
+            },
+        ],
+        "archaeology": [
+            {
+                "headline": "750,000-year-old stone tools found in Philippines challenge theory that only Homo erectus reached island Southeast Asia this early",
+                "score": 9, "timestamp": "1 day ago",
+                "summary": "Archaeologists excavating Luzon's Cagayan Valley have uncovered 754 stone tools dated to approximately 750,000 years ago using argon-argon and paleomagnetic dating methods. The tools pre-date the oldest known fossils of Homo luzonensis by 600,000 years and are far too early to be attributed to modern humans or Denisovans. The find suggests an unknown hominin species capable of crossing open water reached the Philippine archipelago during the Early Pleistocene, upending current models of early human dispersal in Southeast Asia.",
+                "image": "",
+                "articles": [
+                    {"title": "Stone tools push back human presence in Philippines by 200,000 years", "source": "Nature", "url": "https://nature.com"},
+                    {"title": "Mystery hominin crossed open ocean to reach Philippines 750,000 years ago", "source": "New Scientist", "url": "https://newscientist.com"},
+                    {"title": "Cagayan Valley dig upends Southeast Asian prehistory", "source": "Science", "url": "https://science.org"},
+                ]
+            },
+            {
+                "headline": "Ancient DNA from 6,000-year-old Irish megalith reveals first-cousin marriage among Neolithic elites and a distinct genetic lineage that vanished",
+                "score": 7, "timestamp": "2 days ago",
+                "summary": "Genomic analysis of 36 individuals buried in the Newgrange passage tomb between 3200 and 2900 BCE shows that the central burial belonged to a man whose parents were first-degree relatives — most likely a brother and sister — indicating deliberate elite inbreeding similar to later Egyptian pharaohs and Inca rulers. The study also identified a distinct Neolithic genetic lineage with no detectable ancestry in modern Europeans, suggesting this population was largely replaced during the Bronze Age Steppe migration.",
+                "image": "",
+                "articles": [
+                    {"title": "Newgrange tomb DNA reveals incest and a lost European lineage", "source": "Science", "url": "https://science.org"},
+                    {"title": "Ireland's Neolithic elites practised deliberate sibling marriage, genome study finds", "source": "Nature", "url": "https://nature.com"},
+                ]
+            },
+        ],
+        "football": [
+            {
+                "headline": "Arsenal beat Manchester City 2-1 at the Etihad to go top of Premier League on goal difference with 4 games remaining",
+                "score": 9, "timestamp": "yesterday",
+                "summary": "Arsenal claimed a crucial victory at the Etihad Stadium, with Bukayo Saka scoring an 87th-minute winner after Martin Odegaard's opener was cancelled out by Erling Haaland's equaliser. The result puts Arsenal level on points with City at the top of the Premier League table but ahead on goal difference with four matches remaining. It is Arsenal's first win at the Etihad in 9 attempts across all competitions.",
+                "image": "",
+                "articles": [
+                    {"title": "Saka 87th-minute winner sends Arsenal top as City suffer title blow", "source": "The Guardian", "url": "https://theguardian.com/football"},
+                    {"title": "Manchester City 1-2 Arsenal: Haaland equaliser not enough as Saka clinches it", "source": "BBC Sport", "url": "https://bbc.com/sport"},
+                    {"title": "Arsenal go top on goal difference with four games to play", "source": "Sky Sports", "url": "https://skysports.com"},
+                ]
+            },
+            {
+                "headline": "Real Madrid eliminate Bayern Munich 3-2 on aggregate to reach Champions League final, Vinicius Jr scores twice in second leg",
+                "score": 8, "timestamp": "yesterday",
+                "summary": "Real Madrid reached their fifth Champions League final in ten years after Vinicius Jr scored twice in a 2-1 second-leg win over Bayern Munich at the Bernabeu. Harry Kane pulled one back for Bayern in the 78th minute to set up a tense finish but Madrid held on. They will face Inter Milan in the final in Istanbul on June 1st. It is the 18th Champions League final in Real Madrid's history.",
+                "image": "",
+                "articles": [
+                    {"title": "Vinicius double sends Real Madrid to Istanbul final", "source": "Marca", "url": "https://marca.com"},
+                    {"title": "Real Madrid 2-1 Bayern Munich (3-2 agg): player ratings", "source": "The Guardian", "url": "https://theguardian.com/football"},
+                    {"title": "Real Madrid vs Inter Milan: Champions League final preview", "source": "BBC Sport", "url": "https://bbc.com/sport"},
+                ]
+            },
+            {
+                "headline": "Lamine Yamal becomes youngest player in La Liga history to reach 20 assists in a season at age 17",
+                "score": 7, "timestamp": "8 hrs ago",
+                "summary": "Barcelona's Lamine Yamal set up two goals in Saturday's 3-0 win over Getafe to take his La Liga assist tally to 20 for the season, breaking the record previously held by Lionel Messi set in 2009. The 17-year-old has also scored 16 goals this campaign. Barcelona manager Hansi Flick called it a historic achievement for the youngest player to ever represent Spain at a major tournament.",
+                "image": "",
+                "articles": [
+                    {"title": "Yamal breaks Messi's La Liga assist record at 17", "source": "Marca", "url": "https://marca.com"},
+                    {"title": "Barcelona 3-0 Getafe: Yamal two assists as Barca cruise", "source": "ESPN", "url": "https://espn.com"},
+                ]
+            },
+            {
+                "headline": "Nottingham Forest relegated from Premier League after 1-0 defeat to Everton leaves them 18th with one match left",
+                "score": 7, "timestamp": "3 hrs ago",
+                "summary": "Nottingham Forest were relegated from the Premier League after a 1-0 home defeat to Everton. Dominic Calvert-Lewin's 54th-minute header proved decisive. Forest remain 18th with 31 points and cannot mathematically escape the bottom three. It ends a three-year stay in the top flight for the club.",
+                "image": "",
+                "articles": [
+                    {"title": "Nottingham Forest relegated as Everton win at the City Ground", "source": "Sky Sports", "url": "https://skysports.com"},
+                    {"title": "Calvert-Lewin header condemns Forest to Championship", "source": "BBC Sport", "url": "https://bbc.com/sport"},
+                ]
+            },
+            {
+                "headline": "PSG win Ligue 1 title for 12th time despite drawing 1-1 with Rennes; Monaco's win elsewhere not enough",
+                "score": 6, "timestamp": "2 hrs ago",
+                "summary": "Paris Saint-Germain were confirmed as Ligue 1 champions for the twelfth time after drawing 1-1 at Rennes while Monaco beat Lyon 2-0 but could not close the four-point gap. It is PSG's first title without Kylian Mbappe, who left for Real Madrid last summer. Manager Luis Enrique praised the squad's resilience following a difficult transitional season.",
+                "image": "",
+                "articles": [
+                    {"title": "PSG crowned Ligue 1 champions for record 12th time", "source": "L'Equipe", "url": "https://lequipe.fr"},
+                    {"title": "First title without Mbappe caps Luis Enrique's debut season in Paris", "source": "The Guardian", "url": "https://theguardian.com/football"},
+                ]
+            },
+        ]
+    }
+
+    world_topics = {
+        "today": [
+            {"headline": "Ukraine-Russia peace talks collapse in Istanbul", "why": "Negotiations broke down after Russia refused to withdraw from occupied territories, raising fears of further escalation.", "signal": "both sources"},
+            {"headline": "US tariffs on Chinese goods raised to 145%", "why": "The White House announced a new round of tariff increases, sending global markets into sharp decline.", "signal": "both sources"},
+            {"headline": "Turkey earthquake rescue operations ongoing", "why": "Hundreds confirmed dead after a 7.8-magnitude quake near the Syrian border with thousands still missing.", "signal": "reddit only"},
+            {"headline": "North Korea missile launches condemned by G7", "why": "Three ballistic missiles fired into the Sea of Japan triggered an emergency UN Security Council session.", "signal": "trends only"},
+            {"headline": "OpenAI releases GPT-5 to general public", "why": "The new model scores above human level on all major benchmarks, sparking widespread debate about AI timelines.", "signal": "both sources"},
+        ],
+        "week": [
+            {"headline": "Global ceasefire negotiations in multiple conflicts", "why": "Simultaneous diplomatic pushes in Ukraine, Gaza and Sudan dominated international headlines all week.", "signal": "trending for 6 days"},
+            {"headline": "US Federal Reserve holds rates amid inflation data", "why": "Markets were volatile as the Fed signalled no cuts before Q3, disappointing investors expecting relief.", "signal": "trending for 5 days"},
+            {"headline": "Apple WWDC announcements", "why": "Apple revealed sweeping AI integration across all platforms, with on-device models replacing Siri.", "signal": "trending for 4 days"},
+            {"headline": "Champions League semi-finals", "why": "High-drama second legs across all four ties kept football dominating social media throughout the week.", "signal": "trending for 7 days"},
+            {"headline": "Measles outbreak spreads across US states", "why": "CDC declared a public health emergency as cases reached a 30-year high following vaccine hesitancy campaigns.", "signal": "trending for 3 days"},
+        ],
+        "month": [
+            {"headline": "US-China trade war escalation", "why": "The tariff spiral dominated economic coverage for the entire month as recession fears grew globally.", "signal": "trending for 28 days"},
+            {"headline": "Gaza ceasefire negotiations", "why": "Multiple rounds of talks mediated by Qatar and Egypt kept the conflict at the top of global news agendas.", "signal": "trending for 25 days"},
+            {"headline": "AI regulation bills advancing in US and EU", "why": "Landmark legislation moving through both US Congress and the European Parliament attracted sustained attention.", "signal": "trending for 18 days"},
+            {"headline": "Premier League title race", "why": "The tightest title race in a decade between Arsenal and Manchester City ran across every week of the month.", "signal": "trending for 30 days"},
+            {"headline": "Climate records shattered globally", "why": "April 2026 became the hottest April ever recorded, extending a 13-month streak of record-breaking temperatures.", "signal": "trending for 22 days"},
+        ]
+    }
+
+    developing_situations = [
+        {
+            "topic": "Ukraine war",
+            "type": "pinned",
+            "update": "Russia's overnight missile barrage was the largest of the conflict, striking 7 cities with 180 drones and 40 cruise missiles. 23 civilians confirmed dead. Peace talks in Istanbul suspended without agreement earlier the same day.",
+            "has_update": True,
+            "articles": [
+                {"title": "Russia launches record missile barrage at Ukraine", "source": "The Guardian", "url": "https://theguardian.com"},
+                {"title": "Istanbul talks collapse as Russia rejects withdrawal terms", "source": "Reuters", "url": "https://reuters.com"},
+                {"title": "Ukraine air defences intercept 130 of 220 projectiles", "source": "BBC", "url": "https://bbc.com"},
+            ]
+        },
+        {
+            "topic": "Gaza ceasefire talks",
+            "type": "pinned",
+            "update": "Qatar-mediated negotiations continue in Doha with both sides represented. A new framework proposal involving a 60-day pause and hostage release is reportedly on the table but Hamas has not yet formally responded.",
+            "has_update": True,
+            "articles": [
+                {"title": "Qatar hosts new round of Gaza ceasefire talks", "source": "Al Jazeera", "url": "https://aljazeera.com"},
+                {"title": "60-day pause proposal outline published", "source": "Haaretz", "url": "https://haaretz.com"},
+            ]
+        },
+        {
+            "topic": "US-China trade war",
+            "type": "auto",
+            "update": "No significant updates today beyond market reactions to the new 145% tariff announcement. Beijing has scheduled a press conference for Monday.",
+            "has_update": False,
+            "articles": []
+        },
+    ]
+
+    yesterday_data = {
+        "breaking": [
+            {"headline": "Israeli airstrike on Rafah kills 34, Palestinian health ministry reports", "score": 8, "timestamp": "yesterday"},
+        ],
+        "australia": [
+            {"headline": "RBA holds cash rate at 4.1% for fifth consecutive meeting despite falling inflation", "score": 7, "timestamp": "yesterday"},
+        ],
+        "archaeology": [],
+        "football": [
+            {"headline": "Manchester United sack Ruben Amorim after 5 consecutive Premier League defeats, club 14th", "score": 8, "timestamp": "yesterday"},
+        ],
+    }
+
+    return all_data, yesterday_data, world_topics, developing_situations
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
+    if MOCK_MODE:
+        print("MOCK_MODE enabled — skipping all API calls.")
+        all_data, yesterday_data, world_topics, developing_situations = mock_data()
+        Path("dist").mkdir(exist_ok=True)
+        with open("dist/index.html", "w", encoding="utf-8") as f:
+            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+        print("Done. dist/index.html written.")
+        return
+
     memory = load_memory()
     pinned = load_pinned()
 
-    print("Fetching world topics from GDELT...")
-    today_topics = fetch_gdelt_top_stories("24h")
-    week_topics = fetch_gdelt_top_stories("7d")
-    month_topics = fetch_gdelt_top_stories("30d")
-    world_topics = process_world_topics(today_topics, week_topics, month_topics)
-    time.sleep(30)
+    print("Fetching world topics...")
+    trends_today = fetch_google_trends()
+    reddit_today = fetch_reddit_top("day")
+    reddit_week = fetch_reddit_top("week")
+    reddit_month = fetch_reddit_top("month")
+
+    # Save today's raw trend topics to memory before processing
+    raw_today_topics = trends_today[:10] + reddit_today[:10]
+    memory = save_trend_topics(memory, raw_today_topics)
+
+    world_topics = process_world_topics(trends_today, reddit_today, reddit_week, reddit_month)
+    # Aggregate weekly and monthly from memory
+    world_topics["week"] = aggregate_trend_memory(memory, 7)
+    world_topics["month"] = aggregate_trend_memory(memory, 30)
+
+    time.sleep(10)
 
     print("Fetching Breaking News...")
     gdelt_breaking = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="2h", max_records=25)
@@ -1128,10 +1515,10 @@ def main():
     developing_situations = process_developing_situations(pinned, auto_detected, all_fetched)
 
     yesterday_data = {
-        "breaking": get_yesterday_stories(memory, "breaking"),
-        "australia": get_yesterday_stories(memory, "australia"),
-        "archaeology": get_yesterday_stories(memory, "archaeology"),
-        "football": get_yesterday_stories(memory, "football")
+        "breaking": get_previous_stories(memory, "breaking"),
+        "australia": get_previous_stories(memory, "australia"),
+        "archaeology": get_previous_stories(memory, "archaeology"),
+        "football": get_previous_stories(memory, "football")
     }
 
     for cat in ["breaking", "australia", "archaeology", "football"]:

@@ -7,9 +7,8 @@ import feedparser
 import anthropic
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from pytrends.request import TrendReq
-
 MOCK_MODE = False
+RUN_MODE = os.environ.get("RUN_MODE", "full")
 
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 NEWSDATA_KEY = os.environ.get("NEWSDATA_API_KEY", "")
@@ -99,6 +98,47 @@ def save_today_stories(memory, category, stories):
     memory["stories"] = {k: v for k, v in memory["stories"].items() if k >= cutoff}
     return memory
 
+def get_articles_hash(articles):
+    """Hash the titles of a list of articles to detect changes."""
+    titles = sorted([a.get("title","") for a in articles])
+    return hash(tuple(titles))
+
+def category_has_changed(memory, category, articles):
+    """Returns True if articles are different from last run."""
+    current_hash = get_articles_hash(articles)
+    last_hash = memory.get("article_hashes", {}).get(category)
+    return current_hash != last_hash
+
+def save_article_hash(memory, category, articles):
+    """Save current article hash to memory."""
+    if "article_hashes" not in memory:
+        memory["article_hashes"] = {}
+    memory["article_hashes"][category] = get_articles_hash(articles)
+    return memory
+
+def get_cached_category(memory, category):
+    """Get the most recently saved stories for a category."""
+    today = datetime.now(AEST).strftime("%Y-%m-%d")
+    stories = memory.get("stories", {}).get(today, {}).get(category)
+    if stories:
+        return stories
+    # Fall back to previous
+    return get_previous_stories(memory, category)
+
+def get_cached_summary(memory, url):
+    return memory.get("summaries", {}).get(url)
+
+def save_summary(memory, url, summary):
+    if "summaries" not in memory:
+        memory["summaries"] = {}
+    memory["summaries"][url] = summary
+    # Trim to last 500 entries to avoid bloat
+    if len(memory["summaries"]) > 500:
+        keys = list(memory["summaries"].keys())
+        for k in keys[:-500]:
+            del memory["summaries"][k]
+    return memory
+
 def save_trend_topics(memory, topics):
     today = datetime.now(AEST).strftime("%Y-%m-%d")
     if "world_trends" not in memory:
@@ -143,6 +183,7 @@ def relative_time(date_str):
         from email.utils import parsedate_to_datetime
         for parser in [
             lambda s: datetime.fromisoformat(s),
+            lambda s: datetime.fromisoformat(s.replace("Z", "+00:00")),
             lambda s: parsedate_to_datetime(s),
             lambda s: datetime.strptime(s, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc),
             lambda s: datetime.strptime(s, "%Y-%m-%dT%H:%M:%S%z"),
@@ -229,6 +270,22 @@ def call_sonnet_with_search(prompt, max_tokens=1500, retries=3):
             break
     return ""
 
+def call_haiku_with_search(prompt, max_tokens=500):
+    try:
+        msg = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=max_tokens,
+            tools=[{"type": "web_search_20250305", "name": "web_search"}],
+            messages=[{"role": "user", "content": prompt}]
+        )
+        for block in msg.content:
+            if block.type == "text":
+                return block.text
+        return ""
+    except Exception as e:
+        print(f"Haiku search error: {e}")
+        return ""
+
 def get_ai_summary(headline, content="", context=""):
     prompt = f"""In 3-4 sentences, explain this news story clearly and factually.
 Headline: "{headline}"
@@ -279,32 +336,59 @@ def fetch_gdelt_articles(query, timespan="2h", max_records=25):
         print(f"GDELT REST fetch error: {e}")
         return []
 
-# NOTE: pytrends is an unofficial library that reverse-engineers Google Trends.
-# It occasionally breaks when Google changes their internals.
-# If the world topics section stops working, check pytrends first.
-def fetch_google_trends():
+def fetch_google_news_rss():
     try:
-        pytrends = TrendReq(hl='en-US', tz=0)
-        df = pytrends.trending_searches(pn='united_states')
-        topics = df[0].tolist()[:15]
-        return topics
+        feed = feedparser.parse("https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en")
+        topics = []
+        for entry in feed.entries[:20]:
+            topics.append(entry.get("title", ""))
+        return [t for t in topics if t]
     except Exception as e:
-        print(f"Google Trends fetch error: {e}")
+        print(f"Google News RSS fetch error: {e}")
         return []
 
-def fetch_reddit_top(timespan="day"):
-    subreddits = "worldnews+news+europe"
-    time_map = {"day": "day", "week": "week", "month": "month"}
-    t = time_map.get(timespan, "day")
-    sort = "rising" if timespan == "day" else "top"
-    url = f"https://www.reddit.com/r/{subreddits}/{sort}.json?limit=25&t={t}"
+def fetch_youtube_trending():
+    api_key = os.environ.get("YOUTUBE_API_KEY", "")
+    if not api_key:
+        return []
+    url = "https://www.googleapis.com/youtube/v3/videos"
+    params = {
+        "part": "snippet",
+        "chart": "mostPopular",
+        "regionCode": "US",
+        "maxResults": 20,
+        "key": api_key
+    }
+    try:
+        r = requests.get(url, params=params, timeout=10)
+        data = r.json()
+        return [item["snippet"]["title"] for item in data.get("items", [])]
+    except Exception as e:
+        print(f"YouTube trending fetch error: {e}")
+        return []
+
+def fetch_google_trends_rss():
+    try:
+        feed = feedparser.parse("https://trends.google.com/trending/rss?geo=US")
+        topics = []
+        for entry in feed.entries[:20]:
+            topics.append(entry.get("title", ""))
+        return [t for t in topics if t]
+    except Exception as e:
+        print(f"Google Trends RSS fetch error: {e}")
+        return []
+
+def fetch_reddit_json():
+    url = "https://www.reddit.com/r/worldnews+news/top.json?limit=25&t=day"
     headers = {"User-Agent": "DailyBriefing/1.0"}
     try:
         r = requests.get(url, headers=headers, timeout=10)
+        if r.status_code != 200:
+            return []
         posts = r.json()["data"]["children"]
         return [p["data"]["title"] for p in posts if not p["data"].get("stickied")]
     except Exception as e:
-        print(f"Reddit fetch error: {e}")
+        print(f"Reddit JSON fetch error: {e}")
         return []
 
 def fetch_guardian(query, page_size=15, section=None):
@@ -390,46 +474,87 @@ def fetch_newsdata(query, country=None):
         print(f"NewsData fetch error: {e}")
         return []
 
-def format_articles_for_prompt(articles, limit=25):
+def format_articles_for_prompt(articles, limit=25, titles_only=False):
     parts = []
     for a in articles[:limit]:
-        content = a.get("content", "").strip()
         rel = relative_time(a.get("time", ""))
         time_str = f"PUBLISHED: {rel}\n" if rel else ""
-        if content:
-            parts.append(f"SOURCE: {a['source']}\nTITLE: {a['title']}\n{time_str}CONTENT: {content[:600]}\nURL: {a['url']}")
-        else:
+        if titles_only:
             parts.append(f"SOURCE: {a['source']}\nTITLE: {a['title']}\n{time_str}URL: {a['url']}")
+        else:
+            content = a.get("content", "").strip()
+            if content:
+                parts.append(f"SOURCE: {a['source']}\nTITLE: {a['title']}\n{time_str}CONTENT: {content[:600]}\nURL: {a['url']}")
+            else:
+                parts.append(f"SOURCE: {a['source']}\nTITLE: {a['title']}\n{time_str}URL: {a['url']}")
     return "\n---\n".join(parts)
 
 # ── World Topics ──────────────────────────────────────────────────────────────
 
-def process_world_topics(trends_topics, reddit_today, reddit_week, reddit_month):
+def fetch_world_topic_sources():
+    """Fetch from all sources with fallback chain. Returns merged topic list."""
+    topics = []
+
+    # Google News RSS — primary
+    google_news = fetch_google_news_rss()
+    if google_news:
+        topics += [f"[NEWS] {t}" for t in google_news[:15]]
+        print(f"Google News RSS: {len(google_news)} topics")
+    else:
+        print("Google News RSS failed")
+
+    # YouTube trending — cultural signal
+    youtube = fetch_youtube_trending()
+    if youtube:
+        topics += [f"[YOUTUBE] {t}" for t in youtube[:10]]
+        print(f"YouTube trending: {len(youtube)} topics")
+    else:
+        print("YouTube trending failed")
+
+    # Google Trends RSS — search signal
+    trends = fetch_google_trends_rss()
+    if trends:
+        topics += [f"[TRENDING] {t}" for t in trends[:10]]
+        print(f"Google Trends RSS: {len(trends)} topics")
+    else:
+        print("Google Trends RSS failed")
+
+    # Reddit JSON — fallback discussion signal
+    if not google_news and not youtube:
+        reddit = fetch_reddit_json()
+        if reddit:
+            topics += [f"[REDDIT] {t}" for t in reddit[:15]]
+            print(f"Reddit JSON fallback: {len(reddit)} topics")
+
+    return topics
+
+def process_world_topics(memory):
+    """Process today's topics and aggregate weekly/monthly from memory."""
     results = {}
 
-    # TODAY — Google Trends primary, Reddit secondary
-    today_combined = []
-    if trends_topics:
-        today_combined += [f"[TRENDING SEARCH] {t}" for t in trends_topics[:15]]
-    if reddit_today:
-        today_combined += [f"[REDDIT] {t}" for t in reddit_today[:15]]
+    # TODAY
+    raw_topics = fetch_world_topic_sources()
+    memory = save_trend_topics(memory, [t.split("] ", 1)[-1] for t in raw_topics])
 
-    if today_combined:
-        formatted = "\n".join(today_combined)
+    if raw_topics:
+        formatted = "\n".join(raw_topics)
         prompt = f"""You are a global news and culture editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
-Here are today's trending Google searches and top Reddit posts from r/worldnews and r/news:
+Here are signals from multiple sources showing what people are searching, watching, and reading globally today:
 {formatted}
 
-These represent what people are actually searching for and engaging with globally right now — from geopolitics to culture to viral moments.
+[NEWS] = Google News top stories
+[YOUTUBE] = YouTube trending videos
+[TRENDING] = Google trending searches
+[REDDIT] = Reddit top posts
 
-Identify the 5 most significant topics people are talking about. These can range from major world events to cultural controversies to viral stories. For each:
-- Write a clean plain English topic label (e.g. "Ukraine ceasefire talks", "Andrew Tate extradition", "US abortion pill ruling")
-- Write one sentence explaining why the world is paying attention right now
-- Note whether it appears in both search trends and Reddit (stronger signal) or just one
+Identify the 5 most significant topics people are talking about globally today. Include the full spectrum — major world events, political controversies, cultural moments, viral stories. For each:
+- Write a clean plain English topic label
+- Write one sentence explaining why people are paying attention right now
+- Note which sources it appeared in
 
 Return ONLY a JSON array:
-[{{"headline":"...","why":"...","signal":"both sources"|"trends only"|"reddit only"}}]
+[{{"headline":"...","why":"...","signal":"..."}}]
 Raw JSON only, no markdown."""
         text = call_haiku(prompt, 800)
         try:
@@ -439,12 +564,11 @@ Raw JSON only, no markdown."""
     else:
         results["today"] = []
 
-    # WEEK — Reddit top posts, clustered by Claude from memory
-    # (handled separately via aggregate_trend_memory)
-    results["week"] = []
-    results["month"] = []
+    # WEEK and MONTH — from memory
+    results["week"] = aggregate_trend_memory(memory, 7)
+    results["month"] = aggregate_trend_memory(memory, 30)
 
-    return results
+    return results, memory
 
 
 def aggregate_trend_memory(memory, days):
@@ -531,13 +655,13 @@ Raw JSON only, no markdown."""
 
 # ── Category Processors ───────────────────────────────────────────────────────
 
-def process_breaking_news(gdelt_articles, guardian_articles):
+def process_breaking_news(gdelt_articles, guardian_articles, memory):
     guardian_urls = {a["url"] for a in guardian_articles}
     all_articles = guardian_articles + [a for a in gdelt_articles if a["url"] not in guardian_urls]
     if not all_articles:
-        return []
+        return [], memory
 
-    formatted = format_articles_for_prompt(all_articles, 25)
+    formatted = format_articles_for_prompt(all_articles, 25, titles_only=True)
     prompt = f"""You are a world news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent articles:
@@ -565,7 +689,7 @@ Raw JSON only, no markdown."""
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
-        return []
+        return [], memory
 
     stories.sort(key=lambda x: x.get("score", 5), reverse=True)
     results = []
@@ -587,7 +711,11 @@ Raw JSON only."""
             except:
                 pass
         ts = relative_time(orig.get("time","")) or story.get("timestamp","")
-        summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+        url = story.get("url", "")
+        summary = get_cached_summary(memory, url)
+        if not summary:
+            summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+            memory = save_summary(memory, url, summary)
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -596,38 +724,49 @@ Raw JSON only."""
             "image": orig.get("image",""),
             "articles": articles_list
         })
-    return results
+    return results, memory
 
-def process_australia(rss_articles, newsdata_articles):
+def process_australia(rss_articles, newsdata_articles, memory):
     all_articles = rss_articles + newsdata_articles
     if not all_articles:
-        return []
+        return [], memory
 
-    formatted = format_articles_for_prompt(all_articles, 25)
-    prompt = f"""You are an Australian political news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
+    formatted = format_articles_for_prompt(all_articles, 25, titles_only=True)
+    prompt = f"""You are an Australian federal politics editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent articles:
 {formatted}
 
-Select ONLY stories about Australian domestic politics: federal or state parliament votes, bills passed or failed, budget decisions, elections, party leadership changes, High Court rulings, major national policy changes. NO international news, accidents, crime, sport, weather. Aim for 2-4 stories. If nothing meets the bar return [].
+Select ONLY stories about Australian FEDERAL parliament: bills passed or defeated in the House or Senate, federal budget decisions, federal elections, federal party leadership changes, High Court rulings on federal matters, major national policy changes announced by federal ministers.
+
+REJECT everything else — including:
+- State or territory parliament (WA, NSW, Qld, Vic etc.)
+- Economic forecasts, modelling, or reports from consultancies or think tanks (e.g. Deloitte, Grattan Institute)
+- Business news, commodity prices, fuel costs
+- Crime, accidents, weather, sport
+- International news
+- Anything where no actual parliamentary vote, bill, or federal decision has occurred
+
+If nothing meets this bar return [].
 
 For each story:
-- Write a specific factual headline
+- Write a specific factual headline stating what was decided and by whom
 - Assign importance score 1-10
 - Estimate timestamp
 - Identify a "so_what" broader political context
+- Set "deeper_search": true ONLY if this is a High Court ruling or major constitutional matter
 
 {HEADLINE_RULES}
 
 Return ONLY a JSON array:
-[{{"headline":"...","score":7,"timestamp":"...","so_what":"...","url":"...","source":""}}]
+[{{"headline":"...","score":7,"timestamp":"...","so_what":"...","url":"...","source":"","deeper_search":false}}]
 Raw JSON only, no markdown."""
 
     text = call_sonnet(prompt, 1000)
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
-        return []
+        return [], memory
 
     stories.sort(key=lambda x: x.get("score", 5), reverse=True)
     results = []
@@ -640,14 +779,29 @@ Raw JSON only, no markdown."""
 Return ONLY JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-            search_text = call_sonnet_with_search(search_prompt, 600)
+            search_text = call_haiku_with_search(search_prompt, 600)
+            try:
+                extra = json.loads(search_text.replace("```json","").replace("```","").strip())
+                articles_list = articles_list + extra
+            except:
+                pass
+        if story.get("deeper_search") and context:
+            search_prompt = f"""Search for context on: "{context}"
+Return ONLY JSON array of up to 3 articles:
+[{{"title":"...","source":"...","url":"https://..."}}]
+Raw JSON only."""
+            search_text = call_haiku_with_search(search_prompt, 600)
             try:
                 extra = json.loads(search_text.replace("```json","").replace("```","").strip())
                 articles_list = articles_list + extra
             except:
                 pass
         ts = relative_time(orig.get("time","")) or story.get("timestamp","")
-        summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+        url = story.get("url", "")
+        summary = get_cached_summary(memory, url)
+        if not summary:
+            summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+            memory = save_summary(memory, url, summary)
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -656,13 +810,13 @@ Raw JSON only."""
             "image": orig.get("image",""),
             "articles": articles_list
         })
-    return results
+    return results, memory
 
-def process_archaeology(articles):
+def process_archaeology(articles, memory):
     if not articles:
-        return []
+        return [], memory
 
-    formatted = format_articles_for_prompt(articles, 20)
+    formatted = format_articles_for_prompt(articles, 20, titles_only=True)
     prompt = f"""You are a science editor specialising in human origins. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent articles:
@@ -686,7 +840,7 @@ Raw JSON only, no markdown."""
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
-        return []
+        return [], memory
 
     stories.sort(key=lambda x: x.get("score", 5), reverse=True)
     results = []
@@ -695,7 +849,11 @@ Raw JSON only, no markdown."""
         articles_list = [{"title": orig.get("title",""), "source": story.get("source",""), "url": story.get("url","")}]
         context = story.get("so_what","")
         ts = relative_time(orig.get("time","")) or story.get("timestamp","")
-        summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+        url = story.get("url", "")
+        summary = get_cached_summary(memory, url)
+        if not summary:
+            summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+            memory = save_summary(memory, url, summary)
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -704,13 +862,13 @@ Raw JSON only, no markdown."""
             "image": orig.get("image",""),
             "articles": articles_list
         })
-    return results
+    return results, memory
 
-def process_football(articles):
+def process_football(articles, memory):
     if not articles:
-        return []
+        return [], memory
 
-    formatted = format_articles_for_prompt(articles, 30)
+    formatted = format_articles_for_prompt(articles, 30, titles_only=True)
     prompt = f"""You are a football editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent articles:
@@ -727,14 +885,14 @@ For each story:
 {HEADLINE_RULES}
 
 Return ONLY a JSON array:
-[{{"headline":"...","score":7,"timestamp":"...","so_what":"...","url":"...","source":""}}]
+[{{"headline":"...","score":7,"timestamp":"...","so_what":"...","url":"...","source":"","deeper_search":false}}]
 Raw JSON only, no markdown."""
 
     text = call_sonnet(prompt, 1200)
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
-        return []
+        return [], memory
 
     stories.sort(key=lambda x: x.get("score", 5), reverse=True)
     results = []
@@ -747,15 +905,30 @@ Raw JSON only, no markdown."""
 Return ONLY JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-            search_text = call_sonnet_with_search(search_prompt, 600)
+            search_text = call_haiku_with_search(search_prompt, 600)
             try:
                 extra = json.loads(search_text.replace("```json","").replace("```","").strip())
                 articles_list = articles_list + extra
                 context = story["so_what"]
             except:
                 pass
+        if story.get("deeper_search") and context:
+            search_prompt = f"""Search for context on: "{context}"
+Return ONLY JSON array of up to 3 articles:
+[{{"title":"...","source":"...","url":"https://..."}}]
+Raw JSON only."""
+            search_text = call_haiku_with_search(search_prompt, 600)
+            try:
+                extra = json.loads(search_text.replace("```json","").replace("```","").strip())
+                articles_list = articles_list + extra
+            except:
+                pass
         ts = relative_time(orig.get("time","")) or story.get("timestamp","")
-        summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+        url = story.get("url", "")
+        summary = get_cached_summary(memory, url)
+        if not summary:
+            summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+            memory = save_summary(memory, url, summary)
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -764,7 +937,7 @@ Raw JSON only."""
             "image": orig.get("image",""),
             "articles": articles_list
         })
-    return results
+    return results, memory
 
 # ── HTML Builder ──────────────────────────────────────────────────────────────
 
@@ -1449,27 +1622,50 @@ def main():
     memory = load_memory()
     pinned = load_pinned()
 
+    if RUN_MODE == "breaking_only":
+        print("Breaking-only run...")
+        gdelt_breaking = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="2h", max_records=25)
+        if not gdelt_breaking:
+            print("GDELT failed or returned nothing — using Guardian only for breaking news")
+        guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
+
+        if not category_has_changed(memory, "breaking", gdelt_breaking + guardian_breaking):
+            print("Breaking news: no new articles, skipping")
+            return
+
+        breaking, memory = process_breaking_news(gdelt_breaking, guardian_breaking, memory)
+        memory = save_article_hash(memory, "breaking", gdelt_breaking + guardian_breaking)
+
+        all_data = {
+            "breaking": breaking,
+            "australia": get_cached_category(memory, "australia"),
+            "archaeology": get_cached_category(memory, "archaeology"),
+            "football": get_cached_category(memory, "football")
+        }
+        world_topics, memory = process_world_topics(memory)
+        yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
+        developing_situations = process_developing_situations(pinned, [], gdelt_breaking + guardian_breaking)
+
+        memory = save_today_stories(memory, "breaking", breaking)
+        save_memory(memory)
+
+        Path("dist").mkdir(exist_ok=True)
+        with open("dist/index.html", "w", encoding="utf-8") as f:
+            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+        print("Done. dist/index.html written.")
+        return
+
+    # Full run continues below...
+
     print("Fetching world topics...")
-    trends_today = fetch_google_trends()
-    reddit_today = fetch_reddit_top("day")
-    reddit_week = fetch_reddit_top("week")
-    reddit_month = fetch_reddit_top("month")
-
-    # Save today's raw trend topics to memory before processing
-    raw_today_topics = trends_today[:10] + reddit_today[:10]
-    memory = save_trend_topics(memory, raw_today_topics)
-
-    world_topics = process_world_topics(trends_today, reddit_today, reddit_week, reddit_month)
-    # Aggregate weekly and monthly from memory
-    world_topics["week"] = aggregate_trend_memory(memory, 7)
-    world_topics["month"] = aggregate_trend_memory(memory, 30)
-
-    time.sleep(10)
+    world_topics, memory = process_world_topics(memory)
 
     print("Fetching Breaking News...")
     gdelt_breaking = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="2h", max_records=25)
+    if not gdelt_breaking:
+        print("GDELT failed or returned nothing — using Guardian only for breaking news")
     guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
-    breaking = process_breaking_news(gdelt_breaking, guardian_breaking)
+    breaking, memory = process_breaking_news(gdelt_breaking, guardian_breaking, memory)
     time.sleep(60)
 
     print("Fetching Australia news...")
@@ -1477,7 +1673,7 @@ def main():
     smh_rss = fetch_rss("https://www.smh.com.au/rss/feed.xml", "SMH")
     age_rss = fetch_rss("https://www.theage.com.au/rss/feed.xml", "The Age")
     newsdata_aus = fetch_newsdata("australia parliament senate election albanese budget policy", country="au")
-    australia = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus)
+    australia, memory = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus, memory)
     time.sleep(60)
 
     print("Fetching Archaeology news...")
@@ -1485,7 +1681,7 @@ def main():
     newscientist_rss = fetch_rss("https://www.newscientist.com/subject/humans/feed/", "New Scientist")
     science_rss = fetch_rss("https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science", "Science")
     newsdata_arch = fetch_newsdata("paleoanthropology fossil hominin ancient DNA homo sapiens neanderthal discovery")
-    archaeology = process_archaeology(nature_rss + newscientist_rss + science_rss + newsdata_arch)
+    archaeology, memory = process_archaeology(nature_rss + newscientist_rss + science_rss + newsdata_arch, memory)
     time.sleep(60)
 
     print("Fetching Football news...")
@@ -1498,7 +1694,7 @@ def main():
     lequipe_rss = fetch_rss("https://www.lequipe.fr/rss/actu_rss_Football.xml", "L'Equipe")
     gazzetta_rss = fetch_rss("https://www.gazzetta.it/rss/home.xml", "Gazzetta dello Sport")
     sky_rss = fetch_rss("https://www.skysports.com/rss/12040", "Sky Sports")
-    football = process_football(guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss)
+    football, memory = process_football(guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss, memory)
 
     all_data = {
         "breaking": breaking,

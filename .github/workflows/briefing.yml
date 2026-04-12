@@ -2,8 +2,14 @@ name: Build Daily Briefing
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/30 * * * *'  # Breaking news check every 30 min
+    - cron: '0 */2 * * *'   # Full rebuild every 2 hours
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: false
+        default: 'full'
 
 jobs:
   build:
@@ -24,6 +30,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
           GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          RUN_MODE: ${{ github.event.schedule == '*/30 * * * *' && 'breaking_only' || 'full' }}
         run: python fetch_news.py
 
       - name: Commit memory file
@@ -31,7 +39,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add memory.json || true
-          git diff --staged --quiet || git commit -m "Update story memory"
+          git diff --staged --quiet || git commit -m "Update story memory [skip ci]"
           git push || true
 
       - name: Deploy to Netlify

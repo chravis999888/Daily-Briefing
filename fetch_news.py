@@ -163,7 +163,37 @@ def fetch_rss(url, source_name):
         print(f"RSS fetch error {url}: {e}")
         return []
 
-def fetch_newsdata(query, country=None, category=None):
+def fetch_guardian_football():
+    url = "https://content.guardianapis.com/search"
+    params = {
+        "q": "premier league OR la liga OR serie a OR bundesliga OR ligue 1 OR champions league",
+        "section": "football",
+        "api-key": GUARDIAN_KEY,
+        "page-size": 20,
+        "order-by": "newest",
+        "show-fields": "headline,trailText,bodyText"
+    }
+    try:
+        r = requests.get(url, params=params, timeout=10)
+        data = r.json()
+        results = data.get("response", {}).get("results", [])
+        articles = []
+        for a in results:
+            fields = a.get("fields", {})
+            body = fields.get("bodyText", "") or fields.get("trailText", "")
+            articles.append({
+                "title": a.get("webTitle", ""),
+                "url": a.get("webUrl", ""),
+                "source": "The Guardian",
+                "time": a.get("webPublicationDate", ""),
+                "content": body[:2000]
+            })
+        return articles
+    except Exception as e:
+        print(f"Guardian football fetch error: {e}")
+        return []
+
+
     url = "https://newsdata.io/api/1/news"
     params = {"apikey": NEWSDATA_KEY, "q": query, "language": "en", "full_content": 1}
     if country:
@@ -335,14 +365,16 @@ def process_football(articles):
     formatted = format_articles_for_prompt(articles)
     prompt = f"""You are a football editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
-Here are recent articles:
+Here are recent articles from The Guardian and Sky Sports:
 {formatted}
 
 Select ONLY significant stories from Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League. Only include: confirmed match results with scorelines, confirmed player injuries affecting a team's season, confirmed manager sackings or appointments, confirmed major transfers, extraordinary individual performances with stats, significant title race or relegation developments with actual standings.
 
 NO rumours, NO previews, NO press conference opinions, NO "could", NO "might", NO vague title race articles without actual standings data.
 
-Read the actual content and write headlines with specific details — actual scores, player names, clubs, league positions, points gaps.
+Read the actual content carefully and write headlines with specific details — actual scores, player names, clubs, league positions, points gaps. Use the article's published time as the timestamp. ONLY include a story if the specific facts in the headline are explicitly stated in the article content. If you have to infer any number or fact, exclude the story.
+
+Prefer Guardian articles over Sky Sports where both cover the same story.
 
 {HEADLINE_RULES}
 
@@ -359,7 +391,7 @@ Raw JSON only, no markdown."""
     results = []
     for story in stories:
         orig = next((a for a in articles if a["url"] == story.get("url","")), {})
-        articles_list = [{"title": orig.get("title",""), "source": story.get("source","BBC Sport"), "url": story.get("url","")}]
+        articles_list = [{"title": orig.get("title",""), "source": story.get("source","The Guardian"), "url": story.get("url","")}]
         if story.get("deeper_context") and story.get("context_angle"):
             search_prompt = f"""Search for context on: "{story['context_angle']}"
 Return ONLY JSON array of up to 3 articles:
@@ -497,8 +529,9 @@ def main():
     time.sleep(60)
 
     print("Fetching Football news...")
-    bbc_football = fetch_rss("https://feeds.bbci.co.uk/sport/football/rss.xml", "BBC Sport")
-    football = process_football(bbc_football)
+    guardian_football = fetch_guardian_football()
+    sky_sports_rss = fetch_rss("https://www.skysports.com/rss/12040", "Sky Sports")
+    football = process_football(guardian_football + sky_sports_rss)
 
     all_data = {
         "breaking": breaking,

@@ -217,7 +217,7 @@ def fetch_newsdata(query, country=None, category=None):
 
 def format_articles_for_prompt(articles):
     parts = []
-    for a in articles[:15]:
+    for a in articles[:30]:
         content = a.get("content", "").strip()
         rel = relative_time(a.get("time", ""))
         time_str = f"PUBLISHED: {rel}\n" if rel else ""
@@ -362,9 +362,9 @@ def process_football(articles):
 Here are recent articles from The Guardian and Sky Sports:
 {formatted}
 
-Select ONLY significant stories from Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League. Only include: confirmed match results with scorelines, confirmed player injuries affecting a team's season, confirmed manager sackings or appointments, confirmed major transfers, extraordinary individual performances with stats, significant title race or relegation developments with actual standings.
+Select ONLY significant stories from Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League. Cover all leagues equally — do not favour Premier League over others. Only include: confirmed match results with scorelines, confirmed player injuries affecting a team's season, confirmed manager sackings or appointments, confirmed major transfers, extraordinary individual performances with stats, significant title race or relegation developments with actual standings.
 
-NO rumours, NO previews, NO press conference opinions, NO vague title race articles without actual standings data.
+Aim for 6-10 stories spread across the leagues. If a league had no significant news, it's fine to skip it, but try to represent as many leagues as possible.
 
 Read the actual content carefully and write headlines with specific details — actual scores, player names, clubs, league positions, points gaps. ONLY include a story if the specific facts in the headline are explicitly stated in the article content. Prefer Guardian articles over Sky Sports where both cover the same story.
 
@@ -523,10 +523,16 @@ def main():
     print("Fetching Football news...")
     guardian_football = fetch_guardian(
         "premier league OR la liga OR serie a OR bundesliga OR ligue 1 OR champions league",
-        page_size=20, section="football"
+        page_size=15, section="football"
     )
+    marca_rss = fetch_rss("https://e00-marca.uecdn.es/rss/futbol/primera-division.xml", "Marca")
+    kicker_rss = fetch_rss("https://newsfeed.kicker.de/news/fussball", "Kicker")
+    lequipe_rss = fetch_rss("https://www.lequipe.fr/rss/actu_rss_Football.xml", "L'Equipe")
+    gazzetta_rss = fetch_rss("https://www.gazzetta.it/rss/home.xml", "Gazzetta dello Sport")
+    uefa_rss = fetch_rss("https://www.uefa.com/rssfeed/news/latest/index.xml", "UEFA")
     sky_rss = fetch_rss("https://www.skysports.com/rss/12040", "Sky Sports")
-    football = process_football(guardian_football + sky_rss)
+    all_football = guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + uefa_rss + sky_rss
+    football = process_football(all_football)
 
     all_data = {
         "breaking": breaking,

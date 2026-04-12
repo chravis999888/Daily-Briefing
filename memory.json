@@ -56,49 +56,96 @@
     },
     "2026-04-13": {
       "breaking": [],
-      "australia": [],
+      "australia": [
+        {
+          "headline": "Albanese and Wong travel to Brunei and Malaysia to negotiate fuel supply agreements amid US blockade of Strait of Hormuz",
+          "timestamp": "47 mins ago",
+          "score": 7
+        }
+      ],
       "archaeology": [],
-      "football": []
+      "football": [
+        {
+          "headline": "Manchester City beat Chelsea 3-0 at Stamford Bridge to close gap on Premier League leaders Arsenal",
+          "timestamp": "4 hrs ago",
+          "score": 9
+        },
+        {
+          "headline": "Liverpool beat Fulham 2-0 to maintain pressure at the top of the Premier League",
+          "timestamp": "yesterday",
+          "score": 8
+        },
+        {
+          "headline": "Sunderland beat Tottenham 1-0 to leave Roberto De Zerbi's side without a win and deepening their poor run",
+          "timestamp": "6 hrs ago",
+          "score": 7
+        },
+        {
+          "headline": "Neco Williams strike earns Nottingham Forest a 1-1 draw with Aston Villa to boost Forest's Premier League survival bid",
+          "timestamp": "6 hrs ago",
+          "score": 7
+        },
+        {
+          "headline": "Valencia drop to three points above La Liga relegation zone after a dismal matchday 31 result",
+          "timestamp": "3 hrs ago",
+          "score": 7
+        },
+        {
+          "headline": "Jean-Philippe Mateta penalty completes Crystal Palace 2-1 comeback win over Newcastle United",
+          "timestamp": "6 hrs ago",
+          "score": 6
+        },
+        {
+          "headline": "Vedat Muriqi reaches 55 goals for Mallorca according to coach Demichelis after latest La Liga fixture",
+          "timestamp": "3 hrs ago",
+          "score": 6
+        },
+        {
+          "headline": "Luton Town win the Vertu Trophy beating Stockport County thanks to a Nahki Wells double at Wembley",
+          "timestamp": "5 hrs ago",
+          "score": 5
+        }
+      ]
     }
   },
   "developing": {},
   "world_trends": {
     "2026-04-13": [
-      "Hungary election live: Polls in Hungary close in tightly fought election after 16 years under Viktor Orb\u00e1n - The Guardian",
-      "Deadlock on Strait of Hormuz and Iran\u2019s nuclear stockpile led to impasse, officials say - CNN",
+      "Orban, Beacon to the Right, Concedes Defeat in Hungary\u2019s Election - The New York Times",
+      "Trump announces Strait of Hormuz blockade after Iran talks collapse - Politico",
+      "Planeloads of negotiators and too little time: US and Iran\u2019s 21 hours of talks - The Guardian",
       "\"Eric may have tipped the scale\": Swalwell scandal threatens surge of House expulsions - Axios",
-      "A Hezbollah commander describes battling Israel in Lebanon - NPR",
-      "\u2018This is the last warning:\u2019 Iran radioes US during Strait of Hormuz demining effort: Report - The Hill",
       "Reports of multiple people shot inside Chick-fil-A in Union, New Jersey; investigation ongoing - ABC7 New York",
-      "Iran War Live Updates: Trump Says U.S. Will \u2018Blockade\u2019 Strait of Hormuz After Peace Talks Fail - The New York Times",
+      "Israeli strike kills infant girl in south Lebanon during father's funeral - Reuters",
       "Trump Fires Board That Oversees Presidio in San Francisco - The New York Times",
-      "China open to Taiwanese TV and imports after opposition visit - Financial Times",
-      "Mississippi reveals its full history for America\u2019s anniversary year, a contrast to federal efforts - Politico",
-      "\u2018Everything is gone\u2019: Israel destroys entire villages in Lebanon - The Guardian",
-      "At least 30 dead in stampede at Haiti\u2019s historic Citadelle Laferriere - Al Jazeera",
-      "On Africa trip, Pope Leo will face debate over polygamy as Catholicism booms - The Washington Post",
+      "Doubts deepen about San Diego warships\u2019 ability to clear mines from Strait of Hormuz - San Diego Union-Tribune",
+      "Stabbings on New York City subway leave 3 hurt as officers fatally shoot knife-wielding man - PBS",
+      "China says it will resume some ties with Taiwan after visit by opposition leader - Politico",
       "Russia and Ukraine accuse each other of violating Putin\u2019s Easter ceasefire - AP News",
-      "Bessent and Powell call emergency meeting with bank CEOs after Anthropic's Mythos AI finds thousands of zero-day exploits - moneywise.com",
+      "Nigeria: Civilians feared dead after air strike at Borno market - BBC",
+      "A country-by-country glance at Pope Leo XIV's trip to Africa - NPR",
+      "UK freezes deal to return Chagos Islands to Mauritius - DW.com",
+      "UK financial regulators rush to assess risks of Anthropic\u2019s latest AI model - Financial Times",
       "Gucci Mane - Crash Dummy [Official Audio]",
       "Digital Circus Ep 9 Finale [TRAILER]",
       "Fox & Friends Weekend",
       "KATSEYE (\ucea3\uce20\uc544\uc774) \"PINKY UP\" Official MV",
       "Agefield High: Rock the School \u2013 Official Gameplay Overview Trailer",
       "Live From the Masters",
-      "Carin Le\u00f3n - Desp\u00eddase Bien (Letra)",
+      "Hit The Road - Baby Crash f/ G Herbo & NoHookChe | From The Block [PLAYGROUND] Performance \ud83c\udf99",
       "Marvel WTF Just Happened?!",
       "Oklahoma at Texas",
-      "Hit The Road - Baby Crash f/ G Herbo & NoHookChe | From The Block [PLAYGROUND] Performance \ud83c\udf99",
-      "christian yelich",
-      "henley golfer",
-      "terence crawford",
-      "magyar",
-      "dijonai carrington",
-      "thurman cafe",
-      "aj mccarron",
-      "jordan spieth majors",
-      "guardians of the galaxy",
-      "max homa"
+      "Carin Le\u00f3n - Desp\u00eddase Bien (Letra)",
+      "nba starting lineups",
+      "texas house of representatives",
+      "rory mcilroy caddie",
+      "mcilroy wife",
+      "ty france",
+      "carson kelly",
+      "arkansas baseball",
+      "magic vs celtics",
+      "hornets vs knicks",
+      "bucks vs 76ers"
     ]
   },
   "summaries": {
@@ -108,7 +155,12 @@
     "https://www.theguardian.com/football/2026/apr/12/sunderland-tottenham-premier-league-match-report": "Sunderland defeated Tottenham 1-0 at home with a goal from Nordi Mukiele in the second half, dropping Tottenham further into relegation trouble in the Premier League with six matches remaining. The loss marks another setback for Tottenham under their new manager Roberto De Zerbi, their third manager this season, and leaves them in the bottom three while Sunderland rose to 10th place. The result is significant because it severely damages Tottenham's hopes of securing European qualification and suggests the club's ambitious pre-season expectations have gone badly wrong. De Zerbi is attempting to implement attacking football at Tottenham, but the performance against Sunderland showed little evidence of improvement.",
     "https://www.theguardian.com/football/2026/apr/12/crystal-palace-newcastle-premier-league-match-report": "Crystal Palace defeated Newcastle United 2-1 at home in a Premier League match, with Jean-Philippe Mateta scoring both the equalizing goal and a late penalty to secure the victory. Newcastle took the lead through William Osula's first-half goal but appeared lacking in confidence throughout the match. The loss marks Newcastle's third consecutive defeat and damages their European qualification hopes, while Crystal Palace strengthens their position away from the relegation zone and builds momentum following their recent Conference League victory over Fiorentina.",
     "https://www.theguardian.com/football/live/2026/apr/12/premier-league-clockwatch-sunderland-tottenham-nottingham-forest-aston-villa-crystal-palace-newcastle": "Nottingham Forest and Aston Villa played to a 1-1 draw in their Premier League match on Sunday, April 12. The result leaves both teams separated by just one goal difference in the league standings, with Forest on -12 and Spurs on -11, keeping the battle for European qualification spots tight heading into the final matches of the season. Forest's upcoming fixture against Burnley is crucial, as a victory would significantly improve their chances of securing Champions League or Europa League qualification. The draw reflects the competitive pressure at this stage of the season, where points are scarce and every result can shift the race for the remaining European places.",
-    "https://www.marca.com/futbol/sevilla/2026/04/12/ramos-celebra-victoria-sevilla.html": "Sevilla defeated Atl\u00e9tico Madrid in a LaLiga match on April 12, with defender Sergio Ramos publicly celebrating the victory on social media. The win is significant for Sevilla's league position, as the club continues to improve its standing in the LaLiga table following this positive result. This victory suggests Sevilla is mounting a push up the standings, moving away from mid-table or relegation concerns depending on their starting position. The public celebration by Ramos underscores the importance of the result to the team's momentum in the competition."
+    "https://www.marca.com/futbol/sevilla/2026/04/12/ramos-celebra-victoria-sevilla.html": "Sevilla defeated Atl\u00e9tico Madrid in a LaLiga match on April 12, with defender Sergio Ramos publicly celebrating the victory on social media. The win is significant for Sevilla's league position, as the club continues to improve its standing in the LaLiga table following this positive result. This victory suggests Sevilla is mounting a push up the standings, moving away from mid-table or relegation concerns depending on their starting position. The public celebration by Ramos underscores the importance of the result to the team's momentum in the competition.",
+    "https://www.abc.net.au/news/2026-04-13/federal-politics-live-albanese-fuel-iran-critical-minerals/106551548": "Prime Minister Anthony Albanese is traveling to Brunei and Malaysia to negotiate fuel and fertiliser supply agreements, reflecting concerns about Australia's energy security. Australia relies heavily on imported liquid fuel transported through Middle Eastern and Asian sea routes, which have become vulnerable due to US-Iran tensions affecting the Strait of Hormuz. The Prime Minister's direct involvement in these negotiations signals the federal government views this as a critical issue requiring urgent attention at the highest level. This move highlights Australia's exposure to geopolitical disruptions in global energy markets and the need to diversify supply sources.",
+    "https://www.theguardian.com/football/2026/apr/12/nottingham-forest-aston-villa-premier-league-match-report": "Nottingham Forest drew 1-1 with Aston Villa in a Premier League match, with Neco Williams scoring to cancel out an own goal by Murillo. The result earned Forest a crucial point in their fight against relegation, moving them three points clear of the drop zone. The draw was particularly significant for Forest because news came through that Tottenham were still losing to Sunderland, further improving Forest's survival prospects. For Villa, the result was frustrating as they failed to capitalize on several chances and missed the opportunity to strengthen their position in the race for European qualification.",
+    "https://www.marca.com/futbol/valencia/2026/04/12/valencia-desploma-tres-puntos-descenso-jornada-nefasta.html": "Valencia CF suffered a defeat to Elche while their rivals Mallorca won their match, dropping Valencia to just three points above the La Liga relegation zone after matchday 31. This result is particularly concerning as the club faces Mallorca in an upcoming visit to Son Moix stadium in ten days. The loss reflects an alarming slump that puts Valencia in serious danger of relegation to Spain's second division. The team's precarious position highlights how quickly their situation has deteriorated in the latter stages of the season.",
+    "https://www.marca.com/futbol/mallorca/2026/04/12/demichelis-55-goles-muriqi-reflejan-humildad.html": "Vedat Muriqi has become Mallorca's all-time leading goalscorer in La Liga history with 55 goals, achieving this milestone in the team's latest fixture. The achievement coincides with Mallorca securing back-to-back victories for the first time this season, demonstrating strong recent form. Muriqi's prolific scoring record is particularly notable given that Mallorca is a mid-table side, making his performance one of the standout individual stories in La Liga this season. His consistent goal-scoring has established him as a key player for the club and a significant contributor to their recent improved results.",
+    "https://www.theguardian.com/football/2026/apr/12/luton-win-vertu-trophy-as-nahki-wells-double-breaks-stockport-hearts": "Luton Town won the Vertu Trophy at Wembley Stadium, defeating Stockport County 2-0 with striker Nahki Wells scoring twice. This was manager Jack Wilshere's first trophy since taking charge of the club six months ago. The victory is significant for Luton as their first major silverware since being relegated from the Premier League two years ago, and it comes as the club attempts to recover from a dramatic fall in status. Both clubs have experienced difficult periods\u2014Luton from the Premier League down to League One, and Stockport from near liquidation in 2009\u2014but this trophy win signals Luton's ongoing attempt to stabilize and rebuild."
   },
   "article_hashes": {
     "breaking": -7919859642793298268

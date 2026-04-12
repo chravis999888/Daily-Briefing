@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import time
 import requests
@@ -86,24 +87,45 @@ def call_haiku(prompt, max_tokens=500):
     )
     return msg.content[0].text
 
-def call_sonnet(prompt, max_tokens=1000):
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=max_tokens,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    return msg.content[0].text
+def call_sonnet(prompt, max_tokens=1000, retries=3):
+    for attempt in range(retries):
+        try:
+            msg = client.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=max_tokens,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            return msg.content[0].text
+        except anthropic.RateLimitError:
+            wait = 30 * (attempt + 1)
+            print(f"Sonnet rate limit hit, waiting {wait}s before retry {attempt+1}/{retries}...")
+            time.sleep(wait)
+        except Exception as e:
+            print(f"Sonnet error: {e}")
+            break
+    print("Sonnet failed after retries, falling back to Haiku...")
+    return call_haiku(prompt, max_tokens)
 
-def call_sonnet_with_search(prompt, max_tokens=1500):
-    msg = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=max_tokens,
-        tools=[{"type": "web_search_20250305", "name": "web_search"}],
-        messages=[{"role": "user", "content": prompt}]
-    )
-    for block in msg.content:
-        if block.type == "text":
-            return block.text
+def call_sonnet_with_search(prompt, max_tokens=1500, retries=3):
+    for attempt in range(retries):
+        try:
+            msg = client.messages.create(
+                model="claude-sonnet-4-6",
+                max_tokens=max_tokens,
+                tools=[{"type": "web_search_20250305", "name": "web_search"}],
+                messages=[{"role": "user", "content": prompt}]
+            )
+            for block in msg.content:
+                if block.type == "text":
+                    return block.text
+            return ""
+        except anthropic.RateLimitError:
+            wait = 30 * (attempt + 1)
+            print(f"Sonnet search rate limit hit, waiting {wait}s before retry {attempt+1}/{retries}...")
+            time.sleep(wait)
+        except Exception as e:
+            print(f"Sonnet search error: {e}")
+            break
     return ""
 
 def get_ai_summary(headline, content=""):
@@ -112,11 +134,9 @@ Headline: "{headline}"
 {f'Article content: {content[:1500]}' if content else ''}
 Cover what happened, why it matters, and any important background. Plain English, no fluff. Start directly with the explanation — do not use any markdown, headers, bullet points, or # symbols."""
     text = call_haiku(prompt, 400)
-    import re
-    text = re.sub(r'^#+\s*\w*\s*', '', text).strip()
-    return text
+    return re.sub(r'^#+\s*\w*\s*', '', text).strip()
 
-def fetch_guardian(query, page_size=10):
+def fetch_guardian(query, page_size=15, section=None):
     url = "https://content.guardianapis.com/search"
     params = {
         "q": query,
@@ -125,6 +145,8 @@ def fetch_guardian(query, page_size=10):
         "order-by": "newest",
         "show-fields": "headline,trailText,bodyText"
     }
+    if section:
+        params["section"] = section
     try:
         r = requests.get(url, params=params, timeout=10)
         data = r.json()
@@ -163,37 +185,7 @@ def fetch_rss(url, source_name):
         print(f"RSS fetch error {url}: {e}")
         return []
 
-def fetch_guardian_football():
-    url = "https://content.guardianapis.com/search"
-    params = {
-        "q": "premier league OR la liga OR serie a OR bundesliga OR ligue 1 OR champions league",
-        "section": "football",
-        "api-key": GUARDIAN_KEY,
-        "page-size": 20,
-        "order-by": "newest",
-        "show-fields": "headline,trailText,bodyText"
-    }
-    try:
-        r = requests.get(url, params=params, timeout=10)
-        data = r.json()
-        results = data.get("response", {}).get("results", [])
-        articles = []
-        for a in results:
-            fields = a.get("fields", {})
-            body = fields.get("bodyText", "") or fields.get("trailText", "")
-            articles.append({
-                "title": a.get("webTitle", ""),
-                "url": a.get("webUrl", ""),
-                "source": "The Guardian",
-                "time": a.get("webPublicationDate", ""),
-                "content": body[:2000]
-            })
-        return articles
-    except Exception as e:
-        print(f"Guardian football fetch error: {e}")
-        return []
-
-
+def fetch_newsdata(query, country=None, category=None):
     url = "https://newsdata.io/api/1/news"
     params = {"apikey": NEWSDATA_KEY, "q": query, "language": "en", "full_content": 1}
     if country:
@@ -204,8 +196,12 @@ def fetch_guardian_football():
         r = requests.get(url, params=params, timeout=10)
         data = r.json()
         results = data.get("results", [])
+        if not isinstance(results, list):
+            return []
         articles = []
         for a in results:
+            if not isinstance(a, dict):
+                continue
             content = a.get("full_content") or a.get("content") or a.get("description") or ""
             articles.append({
                 "title": a.get("title", ""),
@@ -242,11 +238,9 @@ Here are recent articles:
 
 Select ONLY stories that are historic in scale — active major wars significantly escalating with large casualties, world leader deaths, terrorist attacks killing hundreds+, catastrophic natural disasters with mass casualties, nuclear threats. DO NOT include diplomatic talks, peace negotiations, ceasefire discussions, court cases, political scandals, or warnings from officials. Only include something if it involves large-scale violence, death, or an irreversible world-changing event actively happening now. If nothing meets this bar return [].
 
-Read the actual content carefully and write headlines with specific facts — numbers, names, locations. ONLY include a story if the specific numbers and facts you use in the headline are explicitly stated in the article content provided. If you have to infer, estimate or extrapolate any fact, exclude the story entirely.
+Read the actual content carefully and write headlines with specific facts — numbers, names, locations. ONLY include a story if the specific numbers and facts you use in the headline are explicitly stated in the article content. If you have to infer, estimate or extrapolate any fact, exclude the story entirely.
 
 {HEADLINE_RULES}
-
-Also include the article's published time as timestamp (e.g. "2 hours ago") and whether deeper search is needed.
 
 Return ONLY a JSON array:
 [{{"headline":"...","timestamp":"...","deeper_search":false,"url":"...","source":"..."}}]
@@ -291,7 +285,7 @@ Here are recent articles:
 
 Select ONLY stories about Australian domestic politics: federal or state parliament votes, bills passed or failed, budget decisions, elections, party leadership changes, High Court rulings, major national policy changes. DO NOT include international news, road accidents, crime, industry news, sport, weather, or human interest stories. Aim for 2-4 stories. If nothing meets the bar return [].
 
-Read the actual content and write headlines with specific facts — the actual bill name, the actual vote result, the actual policy, the actual court ruling. Be specific with names and outcomes.
+Read the actual content and write headlines with specific facts — the actual bill name, the actual vote result, the actual policy, the actual court ruling. Be specific with names and outcomes. ONLY include a story if the specific facts in the headline are explicitly stated in the article content.
 
 {HEADLINE_RULES}
 
@@ -336,7 +330,7 @@ Here are recent articles:
 
 Select ONLY significant palaeoanthropological discoveries: new hominin species, fossil finds pushing back human evolution dates, ancient DNA findings changing understanding of human lineage. DO NOT include general archaeology, dinosaurs, or ancient civilisations unless directly related to hominin evolution. Aim for 2-4 stories. If nothing meets the bar return [].
 
-Read the actual content and write headlines with the specific discovery, location, age, species, and significance.
+Read the actual content and write headlines with the specific discovery, location, age, species, and significance. ONLY include a story if the specific facts in the headline are explicitly stated in the article content.
 
 {HEADLINE_RULES}
 
@@ -370,11 +364,9 @@ Here are recent articles from The Guardian and Sky Sports:
 
 Select ONLY significant stories from Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Champions League. Only include: confirmed match results with scorelines, confirmed player injuries affecting a team's season, confirmed manager sackings or appointments, confirmed major transfers, extraordinary individual performances with stats, significant title race or relegation developments with actual standings.
 
-NO rumours, NO previews, NO press conference opinions, NO "could", NO "might", NO vague title race articles without actual standings data.
+NO rumours, NO previews, NO press conference opinions, NO vague title race articles without actual standings data.
 
-Read the actual content carefully and write headlines with specific details — actual scores, player names, clubs, league positions, points gaps. Use the article's published time as the timestamp. ONLY include a story if the specific facts in the headline are explicitly stated in the article content. If you have to infer any number or fact, exclude the story.
-
-Prefer Guardian articles over Sky Sports where both cover the same story.
+Read the actual content carefully and write headlines with specific details — actual scores, player names, clubs, league positions, points gaps. ONLY include a story if the specific facts in the headline are explicitly stated in the article content. Prefer Guardian articles over Sky Sports where both cover the same story.
 
 {HEADLINE_RULES}
 
@@ -513,8 +505,8 @@ document.querySelectorAll('.story-header').forEach(function(header){{
 
 def main():
     print("Fetching Breaking News from Guardian...")
-    guardian_articles = fetch_guardian("world war attack disaster crisis killed invasion", 15)
-    breaking = process_breaking_news(guardian_articles)
+    guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
+    breaking = process_breaking_news(guardian_breaking)
     time.sleep(60)
 
     print("Fetching Australia news...")
@@ -529,9 +521,12 @@ def main():
     time.sleep(60)
 
     print("Fetching Football news...")
-    guardian_football = fetch_guardian_football()
-    sky_sports_rss = fetch_rss("https://www.skysports.com/rss/12040", "Sky Sports")
-    football = process_football(guardian_football + sky_sports_rss)
+    guardian_football = fetch_guardian(
+        "premier league OR la liga OR serie a OR bundesliga OR ligue 1 OR champions league",
+        page_size=20, section="football"
+    )
+    sky_rss = fetch_rss("https://www.skysports.com/rss/12040", "Sky Sports")
+    football = process_football(guardian_football + sky_rss)
 
     all_data = {
         "breaking": breaking,

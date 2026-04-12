@@ -55,22 +55,16 @@
       ]
     },
     "2026-04-13": {
-      "breaking": [
-        {
-          "headline": "Trump announces immediate US blockade of the Strait of Hormuz as US-Israel war on Iran continues, with Israel reporting $11.52bn in war costs so far",
-          "timestamp": "4 mins ago",
-          "score": 9
-        }
-      ],
+      "breaking": [],
       "australia": [
         {
-          "headline": "Deloitte Access Economics modelling shows Australian fuel price spike could trigger mass unemployment and surging inflation",
-          "timestamp": "2026-04-13T12:00:00+10:00",
+          "headline": "Deloitte Access Economics modelling shows Australian oil price spike could trigger mass unemployment and surging inflation",
+          "timestamp": "2026-04-13T11:00:00+11:00",
           "score": 7
         },
         {
-          "headline": "WA Government considers building its own strategic diesel stockpile as US-Iran conflict threatens fuel supply chains",
-          "timestamp": "10 hrs ago",
+          "headline": "WA Government considering building its own strategic diesel stockpile as fuel shortage concerns grow",
+          "timestamp": "11 hrs ago",
           "score": 6
         }
       ],
@@ -78,5 +72,8 @@
       "football": []
     }
   },
-  "developing": {}
+  "developing": {},
+  "world_trends": {
+    "2026-04-13": []
+  }
 }

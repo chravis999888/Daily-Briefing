@@ -26,6 +26,14 @@ jobs:
           GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
         run: python fetch_news.py
 
+      - name: Commit memory file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add memory.json || true
+          git diff --staged --quiet || git commit -m "Update story memory"
+          git push || true
+
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v2.0
         with:

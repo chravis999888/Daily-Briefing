@@ -49,9 +49,7 @@ jobs:
 
       - name: Deploy to Netlify
         run: |
-          cd dist
-          zip -r ../dist.zip .
-          cd ..
+          cd dist && zip -r ../dist.zip index.html && cd ..
           curl -X POST \
             -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
             -H "Content-Type: application/zip" \

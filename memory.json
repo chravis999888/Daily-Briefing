@@ -56,48 +56,54 @@
     },
     "2026-04-13": {
       "breaking": [],
-      "australia": [],
+      "australia": [
+        {
+          "headline": "Prime Minister Albanese appoints new Australian Defence Force chief",
+          "timestamp": "59 mins ago",
+          "score": 7
+        }
+      ],
       "archaeology": [],
       "football": [
         {
-          "headline": "Manchester City beat Chelsea 3-0 at Stamford Bridge to pile pressure on Arsenal in Premier League title race",
-          "timestamp": "6 hrs ago",
+          "headline": "Manchester City beat Chelsea 3-0 at Stamford Bridge to keep Premier League title pressure on Arsenal",
+          "timestamp": "11 hrs ago",
           "score": 9
         },
         {
-          "headline": "Sunderland beat Tottenham 1-0 to deepen Roberto De Zerbi's crisis and leave Spurs in serious danger",
-          "timestamp": "8 hrs ago",
-          "score": 8
-        },
-        {
-          "headline": "Liverpool beat Fulham 2-0 to maintain their push at the top of the Premier League",
+          "headline": "Liverpool beat Fulham 2-0 to maintain momentum in Premier League title race",
           "timestamp": "yesterday",
           "score": 8
         },
         {
-          "headline": "Kylian Mbapp\u00e9 was absent from Real Madrid's squad in the latest La Liga matchday",
-          "timestamp": "2 hrs ago",
-          "score": 8
-        },
-        {
-          "headline": "Nottingham Forest draw 1-1 with Aston Villa as Neco Williams goal boosts Forest's Premier League survival hopes",
-          "timestamp": "8 hrs ago",
+          "headline": "Sunderland beat Tottenham 1-0 to leave De Zerbi's side in deepening Premier League crisis",
+          "timestamp": "13 hrs ago",
           "score": 7
         },
         {
-          "headline": "Jean-Philippe Mateta penalty gives Crystal Palace a 2-1 comeback win over Newcastle United",
-          "timestamp": "8 hrs ago",
+          "headline": "Nottingham Forest draw 1-1 with Aston Villa thanks to Neco Williams strike, boosting their survival hopes",
+          "timestamp": "13 hrs ago",
           "score": 7
         },
         {
-          "headline": "Valencia drop to within three points of relegation after a disastrous matchday in La Liga",
-          "timestamp": "5 hrs ago",
+          "headline": "Valencia drop to three points above the La Liga relegation zone after a disastrous matchday result",
+          "timestamp": "2026-04-12T18:00:00Z",
           "score": 7
         },
         {
-          "headline": "Vedat Muriqi has scored 55 goals for Mallorca according to coach Demichelis, an extraordinary tally in La Liga",
-          "timestamp": "5 hrs ago",
-          "score": 7
+          "headline": "Jean-Philippe Mateta penalty seals Crystal Palace 2-1 comeback win over Newcastle United",
+          "timestamp": "13 hrs ago",
+          "score": 6
+        },
+        {
+          "headline": "Mallorca striker Vedat Muriqi reaches 55 La Liga goals according to coach Demichelis after latest match",
+          "timestamp": "2026-04-12T18:30:00Z",
+          "score": 6
+        },
+        {
+          "headline": "Villarreal coach Marcelino says current mentality will likely see them finish third in La Liga",
+          "timestamp": "6 hrs ago",
+          "score": 5
         }
       ]
     }
@@ -105,41 +111,41 @@
   "developing": {},
   "world_trends": {
     "2026-04-13": [
-      "Hungary election: Orban concedes 'painful' defeat to Magyar - DW.com",
-      "The U.S. military says it will blockade Iranian ports as Iran peace talks collapse - NPR",
+      "Dow futures drop 500 points after Trump announces Strait of Hormuz blockade as talks fail: Live updates - CNBC",
+      "Who Is Peter Magyar, the Man Who Toppled Hungary\u2019s Orban - The New York Times",
+      "Eric Swalwell exits California governor race after sex assault allegations - Al Jazeera",
       "Inside Vance\u2019s Iran negotiations: No deal, but \u2018friendly\u2019 talks - The Washington Post",
-      "LAUSD and teachers union reach tentative agreement days before threatened strike - Los Angeles Times",
-      "Abuse allegations against lead Democrat shake race for California governor - Al Jazeera",
-      "One dead and six wounded after mass shooting at Chick-fil-A in New Jersey - The Guardian",
+      "Trump takes aim at Pope Leo, calling him \"WEAK on Crime, and terrible for Foreign Policy.\" - CBS News",
+      "Strongest storm on planet bearing down on U.S. islands in Western Pacific - San Francisco Chronicle",
       "Trump Fires Board That Oversees Presidio in San Francisco - The New York Times",
-      "DHS probing Swalwell over allegations he illegally employed nanny - Politico",
+      "DHS investigating claim about Swalwell nanny filed by conspiracy theorist - The Guardian",
       "Monday severe weather in Minnesota: Tornadoes and baseball-sized hail possible - Bring Me The News",
-      "\u2018Everything is gone\u2019: Israel destroys entire villages in Lebanon - The Guardian",
-      "Trump Weighs Limited Strikes on Iran After Talks Collapse - WSJ",
-      "A country-by-country glance at Pope Leo XIV's trip to Africa - NPR",
-      "Nigerian airstrike hits market, 200 feared dead in northeast Yobe state - Reuters",
-      "Oil Surges, US Futures Drop on Hormuz Blockade: Markets Wrap - Bloomberg.com",
-      "UK regulators rush to assess risks of latest Anthropic AI model, FT reports - Reuters",
-      "Gucci Mane - Crash Dummy [Official Audio]",
+      "Trump Weighs Limited Strikes Against Iran After Peace Talks Collapse - WSJ",
+      "Ukraine war briefing: Easter truce expires as both sides accuse the other of violations - The Guardian",
+      "Stampede at Haiti\u2019s Citadelle Laferri\u00e8re Mars a Haitian Source of Pride - The New York Times",
+      "Peru\u2019s voters face choice of 35 contenders for ninth president in 10 years - AP News",
+      "Pope Leo in Africa: Pontiff prioritises world's fastest-growing Catholic region - BBC",
+      "Oil Jumps, Stocks Fall on Move to Block Hormuz: Markets Wrap - Bloomberg.com",
+      "Sunset en la Sanse - MT Manuel Turizo x D\u00e1lmata | Video Oficial",
       "Digital Circus Ep 9 Finale [TRAILER]",
-      "Sunday Morning Futures With Maria Bartiromo",
-      "KATSEYE (\ucea3\uce20\uc544\uc774) \"PINKY UP\" Official MV",
-      "Agefield High: Rock the School \u2013 Official Gameplay Overview Trailer",
       "Live From the Masters",
-      "Hit The Road - Baby Crash f/ G Herbo & NoHookChe | From The Block [PLAYGROUND] Performance \ud83c\udf99",
+      "Finesse2Tymes ''2FithyRicky'' - Who Do You Think You Are ''J Prince Jr Diss''",
+      "Euphoria Season 3 \"This Season On\" Trailer (HD) HBO Zendaya series",
+      "Sunday Morning Futures With Maria Bartiromo",
+      "DeeBaby - Merry Go Round / Arm & a Leg ( OFFICIAL MUSIC VIDEO )",
       "Invincible Season 4 Episode 7 Trailer: The Most Powerful Viltrumite",
-      "Oklahoma at Texas",
-      "Carin Le\u00f3n - Desp\u00eddase Bien (Letra)",
-      "warriors vs clippers",
-      "nuggets vs spurs",
-      "suns vs thunder",
-      "grizzlies vs rockets",
-      "pelicans vs timberwolves",
-      "mike tomlin",
-      "baylor scheierman",
-      "wet leg",
-      "dtf st. louis episodes",
-      "chris mcintosh"
+      "Bristol",
+      "Peysoh - THE ANTHEM (Official Video)",
+      "subtronics coachella",
+      "montana",
+      "sensex",
+      "dominic fike",
+      "hunter schafer",
+      "alfredo adame",
+      "jaylen petty",
+      "rich eisen",
+      "miu miu",
+      "super typhoon sinlaku"
     ]
   },
   "summaries": {
@@ -155,9 +161,96 @@
     "https://www.marca.com/futbol/valencia/2026/04/12/valencia-desploma-tres-puntos-descenso-jornada-nefasta.html": "Valencia CF suffered a defeat to Elche while their rivals Mallorca won their match, dropping Valencia to just three points above the La Liga relegation zone after matchday 31. This result is particularly concerning as the club faces Mallorca in an upcoming visit to Son Moix stadium in ten days. The loss reflects an alarming slump that puts Valencia in serious danger of relegation to Spain's second division. The team's precarious position highlights how quickly their situation has deteriorated in the latter stages of the season.",
     "https://www.marca.com/futbol/mallorca/2026/04/12/demichelis-55-goles-muriqi-reflejan-humildad.html": "Vedat Muriqi has become Mallorca's all-time leading goalscorer in La Liga history with 55 goals, achieving this milestone in the team's latest fixture. The achievement coincides with Mallorca securing back-to-back victories for the first time this season, demonstrating strong recent form. Muriqi's prolific scoring record is particularly notable given that Mallorca is a mid-table side, making his performance one of the standout individual stories in La Liga this season. His consistent goal-scoring has established him as a key player for the club and a significant contributor to their recent improved results.",
     "https://www.theguardian.com/football/2026/apr/12/luton-win-vertu-trophy-as-nahki-wells-double-breaks-stockport-hearts": "Luton Town won the Vertu Trophy at Wembley Stadium, defeating Stockport County 2-0 with striker Nahki Wells scoring twice. This was manager Jack Wilshere's first trophy since taking charge of the club six months ago. The victory is significant for Luton as their first major silverware since being relegated from the Premier League two years ago, and it comes as the club attempts to recover from a dramatic fall in status. Both clubs have experienced difficult periods\u2014Luton from the Premier League down to League One, and Stockport from near liquidation in 2009\u2014but this trophy win signals Luton's ongoing attempt to stabilize and rebuild.",
-    "https://www.marca.com/futbol/real-madrid/2026/04/12/mbappe-pierde.html": "Kylian Mbapp\u00e9 was not included in Real Madrid's squad for their most recent La Liga match. The French striker's absence comes at a critical point in the season when Real Madrid is competing in the title race. Mbapp\u00e9's performance has declined noticeably over his last seven games, making his unavailability a significant loss to the team's attacking capabilities. This development could impact Real Madrid's ability to challenge for the league championship."
+    "https://www.marca.com/futbol/real-madrid/2026/04/12/mbappe-pierde.html": "Kylian Mbapp\u00e9 was not included in Real Madrid's squad for their most recent La Liga match. The French striker's absence comes at a critical point in the season when Real Madrid is competing in the title race. Mbapp\u00e9's performance has declined noticeably over his last seven games, making his unavailability a significant loss to the team's attacking capabilities. This development could impact Real Madrid's ability to challenge for the league championship.",
+    "https://www.abc.net.au/news/2026-04-13/albanese-names-new-defence-force-chief/106558194": "Prime Minister Albanese has appointed Vice Admiral Mark Hammond as the new chief of the Australian Defence Force, replacing David Johnston who is retiring in July. Hammond brings 40 years of naval experience to the role. The appointment is significant because the ADF chief sets military strategy and leadership during a period of increased tensions in the Asia-Pacific region and ongoing major defence commitments, particularly through the AUKUS alliance framework with the US and UK.",
+    "https://www.marca.com/futbol/valencia/2026/04/12/valencia-desploma-tres-puntos-descenso-jornada-nefasta": "Valencia suffered a significant defeat that dropped them to just three points above La Liga's relegation zone, intensifying their battle for survival in Spain's top division. With few matches remaining in the season, the club's position has become critically unstable, as they can no longer afford poor results if they want to avoid being demoted to the second tier. This loss highlights Valencia's struggles this season and suggests they may be headed for relegation unless they mount an immediate turnaround. The result is particularly concerning given the limited opportunities left to accumulate the points needed to guarantee safety.",
+    "https://www.marca.com/futbol/mallorca/2026/04/12/demichelis-55-goles-muriqi-reflejan-humildad": "Vedat Muriqi, the striker for Mallorca, has reached 55 goals in La Liga according to coach Demichelis following his performance in their latest match. This milestone represents an exceptional individual achievement that places Muriqi among the league's top scorers and puts him in contention for the Golden Boot award. The tally demonstrates his significance as a key player for Mallorca and highlights his impact on the team's competitive standing this season. His scoring consistency and goal-scoring prowess have established him as one of La Liga's most productive forwards.",
+    "https://www.marca.com/futbol/villarreal/2026/04/13/marcelino-mentalidad-posiblemente-seremos-terceros.html": "Villarreal coach Marcelino has stated that his team's current mentality and performance level will likely result in a third-place finish in La Liga this season. The coach's comments suggest he views third place as a realistic ceiling for the club's ambitions in the current campaign. This matters because it indicates Villarreal will secure a Champions League spot for next season, but the manager appears to be managing expectations about competing for the title or even the second-place finish. Marcelino praised his team's first-half performance while making these realistic assessments about their final positioning."
   },
   "article_hashes": {
     "breaking": -1214081465596149067
+  },
+  "world_topics_cache": {
+    "today": [
+      {
+        "headline": "Trump Administration Blocks Strait of Hormuz as Iran Negotiations Collapse",
+        "why": "Markets are reacting sharply with oil prices jumping and stock futures dropping 500 points after Trump announced a blockade of a critical global oil chokepoint following failed peace talks with Iran, creating immediate geopolitical and economic consequences.",
+        "signal": "[NEWS] CNBC, WSJ, Bloomberg; [YOUTUBE] Maria Bartiromo"
+      },
+      {
+        "headline": "Peter Magyar Topples Viktor Orban's Rule in Hungary",
+        "why": "Hungary's longtime authoritarian leader Viktor Orban has been removed from power by challenger Peter Magyar, marking a major political shift in Central Europe and ending over a decade of Orban's controversial governance.",
+        "signal": "[NEWS] New York Times"
+      },
+      {
+        "headline": "Super Typhoon Sinlaku Approaches U.S. Pacific Islands",
+        "why": "The strongest storm currently on Earth is bearing down on U.S. territories in the Western Pacific, creating urgent weather warnings and potential for significant damage and humanitarian impact.",
+        "signal": "[NEWS] San Francisco Chronicle; [TRENDING] super typhoon sinlaku"
+      },
+      {
+        "headline": "Eric Swalwell Withdraws from California Governor Race Amid Sex Assault Allegations",
+        "why": "U.S. congressman Eric Swalwell has exited California's gubernatorial race following sex assault allegations, while DHS investigates related claims about his nanny filed by a conspiracy theorist.",
+        "signal": "[NEWS] Al Jazeera, The Guardian"
+      },
+      {
+        "headline": "Trump Criticizes Pope Leo Over Crime and Foreign Policy",
+        "why": "The president has publicly attacked Pope Leo for being weak on crime and poor on foreign policy, marking an unusual conflict between the U.S. administration and the Catholic Church leadership.",
+        "signal": "[NEWS] CBS News"
+      }
+    ],
+    "week": [
+      {
+        "headline": "Trump's Strait of Hormuz Blockade Announcement and Iran Negotiations Collapse",
+        "why": "Trump's announcement of a blockade on the Strait of Hormuz triggered immediate market reaction with futures dropping 500 points and oil prices spiking, while simultaneous reporting on failed peace talks with Iran dominated financial and political coverage.",
+        "signal": "trending for 3 days"
+      },
+      {
+        "headline": "Peter Magyar's Challenge to Viktor Orb\u00e1n's Rule in Hungary",
+        "why": "The emergence of Peter Magyar as a political force capable of toppling Hungary's long-standing PM Orb\u00e1n represented a significant shift in Central European politics and garnered major international news attention.",
+        "signal": "trending for 2 days"
+      },
+      {
+        "headline": "Eric Swalwell's Exit from California Governor Race Over Sex Assault Allegations",
+        "why": "The California congressman withdrew from the gubernatorial race following sexual assault allegations, with additional reporting on investigations into claims about his nanny filed by conspiracy theorists, creating sustained political controversy.",
+        "signal": "trending for 2 days"
+      },
+      {
+        "headline": "Trump's Dismissal of the Presidio Board and Criticism of Pope Leo",
+        "why": "Trump's decision to fire the board overseeing San Francisco's Presidio combined with his public criticism of Pope Leo on crime and foreign policy reflected escalating conflicts with traditional institutions.",
+        "signal": "trending for 2 days"
+      },
+      {
+        "headline": "Super Typhoon Sinlaku Bearing Down on U.S. Pacific Islands",
+        "why": "The strongest storm on the planet approaching U.S. territories in the Western Pacific generated urgent weather alerts and continuous coverage of the severe weather threat.",
+        "signal": "trending for 2 days"
+      }
+    ],
+    "month": [
+      {
+        "headline": "Trump Administration's Iran Confrontation and Strait of Hormuz Blockade",
+        "why": "Trump's announcement of a Strait of Hormuz blockade triggered market turmoil and diplomatic tensions, dominating financial and foreign policy coverage as oil prices spiked and peace talks collapsed.",
+        "signal": "trending for 8 days"
+      },
+      {
+        "headline": "Eric Swalwell's California Governor Campaign Collapse Over Sex Assault Allegations",
+        "why": "The congressman's withdrawal from the race after assault allegations and subsequent DHS investigation into claims about his nanny became a major political story involving conspiracy theories and credibility questions.",
+        "signal": "trending for 6 days"
+      },
+      {
+        "headline": "Peter Magyar's Challenge to Victor Orban's Rule in Hungary",
+        "why": "The emergence of Magyar as a political force who toppled Orban dominated international political coverage as a significant shift in Hungarian governance.",
+        "signal": "trending for 5 days"
+      },
+      {
+        "headline": "Pope Leo's Africa Visit and Trump's Criticism of the Pontiff",
+        "why": "The Pope's prioritization of Africa's fastest-growing Catholic regions combined with Trump's unusual public attacks on the pontiff created overlapping diplomatic and religious controversy.",
+        "signal": "trending for 4 days"
+      },
+      {
+        "headline": "Ukraine War Easter Truce Violations and Military Stalemate",
+        "why": "The expiration of Easter ceasefire agreements with mutual accusations of violations continued to dominate conflict reporting as the war dragged on.",
+        "signal": "trending for 3 days"
+      }
+    ]
   }
 }

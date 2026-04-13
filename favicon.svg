@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img">
+  <title>Daily Briefing</title>
+  <desc>Daily Briefing favicon — pulse dot mark</desc>
+  <!-- Dark background -->
+  <rect width="32" height="32" rx="4" fill="#1c1c1a"/>
+  <!-- Outer ring -->
+  <circle cx="16" cy="16" r="11" fill="none" stroke="#c0392b" stroke-width="1.5" opacity="0.35"/>
+  <!-- Mid ring -->
+  <circle cx="16" cy="16" r="7" fill="none" stroke="#c0392b" stroke-width="1.5" opacity="0.6"/>
+  <!-- Core dot -->
+  <circle cx="16" cy="16" r="4" fill="#c0392b"/>
+</svg>

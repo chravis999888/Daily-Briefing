@@ -7,6 +7,7 @@ import feedparser
 import anthropic
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from email.utils import parsedate_to_datetime
 MOCK_MODE = False
 RUN_MODE = os.environ.get("RUN_MODE", "full")
 RUN_CATEGORY = os.environ.get("RUN_CATEGORY", "")
@@ -28,6 +29,34 @@ client = anthropic.Anthropic(api_key=ANTHROPIC_KEY) if not MOCK_MODE else None
 AEST = timezone(timedelta(hours=10))
 MEMORY_FILE = "memory.json"
 PINNED_FILE = "pinned.txt"
+HEALTH_FILE = "health.json"
+
+def load_health():
+    try:
+        if Path(HEALTH_FILE).exists():
+            with open(HEALTH_FILE, "r") as f:
+                return json.load(f)
+    except:
+        pass
+    return {"runs": [], "errors": []}
+
+def save_health(health):
+    try:
+        with open(HEALTH_FILE, "w") as f:
+            json.dump(health, f, indent=2)
+    except Exception as e:
+        print(f"Health save error: {e}")
+
+def log_run(health, run_type, errors):
+    now = datetime.now(AEST).isoformat()
+    health["runs"].append({
+        "timestamp": now,
+        "run_type": run_type,
+        "errors": errors,
+        "status": "degraded" if errors else "ok"
+    })
+    health["runs"] = health["runs"][-50:]
+    return health
 
 ACCENTS = {
     "breaking": "#c0392b",
@@ -222,13 +251,15 @@ def relative_time(date_str):
         return ""
     try:
         dt = None
-        from email.utils import parsedate_to_datetime
         for parser in [
             lambda s: datetime.fromisoformat(s),
             lambda s: datetime.fromisoformat(s.replace("Z", "+00:00")),
             lambda s: parsedate_to_datetime(s),
             lambda s: datetime.strptime(s, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc),
             lambda s: datetime.strptime(s, "%Y-%m-%dT%H:%M:%S%z"),
+            lambda s: datetime.strptime(s, "%a, %d %b %Y %H:%M:%S %z"),
+            lambda s: datetime.strptime(s, "%a, %d %b %Y %H:%M:%S GMT").replace(tzinfo=timezone.utc),
+            lambda s: datetime.strptime(s[:25], "%Y-%m-%dT%H:%M:%S+00:00").replace(tzinfo=timezone.utc),
             lambda s: datetime.strptime(s[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc),
             lambda s: datetime.strptime(s[:19], "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc),
             lambda s: datetime.strptime(s[:10], "%Y-%m-%d").replace(tzinfo=timezone.utc),
@@ -516,6 +547,43 @@ def fetch_newsdata(query, country=None):
         print(f"NewsData fetch error: {e}")
         return []
 
+def fetch_fabrizio_romano():
+    try:
+        from bs4 import BeautifulSoup
+        r = requests.get("https://t.me/s/FabrizioRomanoTG",
+                        headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+        soup = BeautifulSoup(r.text, "html.parser")
+        messages = soup.find_all("div", class_="tgme_widget_message_text")
+        articles = []
+        for msg in messages[-20:]:
+            text = msg.get_text(strip=True)
+            if not text or len(text) < 20:
+                continue
+            articles.append({
+                "title": text[:200],
+                "url": "https://t.me/FabrizioRomanoTG",
+                "source": "Fabrizio Romano",
+                "time": "",
+                "content": text[:500],
+                "image": ""
+            })
+        return articles
+    except Exception as e:
+        print(f"Fabrizio Romano fetch error: {e}")
+        return []
+
+def generate_tracking_suggestions(headline):
+    prompt = f"""Given this news headline, suggest 3-4 short trackable topic labels from specific to broad.
+Headline: "{headline}"
+Return ONLY a JSON array of short strings (2-5 words each):
+["specific topic", "broader topic", "even broader", "widest context"]
+Raw JSON only."""
+    text = call_haiku(prompt, 200)
+    try:
+        return json.loads(text.replace("```json","").replace("```","").strip())
+    except:
+        return [headline[:40]]
+
 def format_articles_for_prompt(articles, limit=25, titles_only=False):
     parts = []
     for a in articles[:limit]:
@@ -773,7 +841,9 @@ Raw JSON only."""
                     context = story.get("so_what","")
                 except:
                     pass
-        ts = relative_time(orig.get("time","")) or story.get("timestamp","")
+        ts = relative_time(orig.get("time",""))
+        if not ts:
+            ts = relative_time(story.get("timestamp",""))
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
         if not summary:
@@ -785,7 +855,8 @@ Raw JSON only."""
             "timestamp": ts,
             "summary": summary,
             "image": orig.get("image",""),
-            "articles": articles_list
+            "articles": articles_list,
+            "tracking_suggestions": generate_tracking_suggestions(story["headline"])
         })
     return results, memory
 
@@ -869,7 +940,9 @@ Raw JSON only."""
                     articles_list = articles_list + extra
                 except:
                     pass
-        ts = relative_time(orig.get("time","")) or story.get("timestamp","")
+        ts = relative_time(orig.get("time",""))
+        if not ts:
+            ts = relative_time(story.get("timestamp",""))
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
         if not summary:
@@ -881,7 +954,8 @@ Raw JSON only."""
             "timestamp": ts,
             "summary": summary,
             "image": orig.get("image",""),
-            "articles": articles_list
+            "articles": articles_list,
+            "tracking_suggestions": generate_tracking_suggestions(story["headline"])
         })
     return results, memory
 
@@ -921,7 +995,9 @@ Raw JSON only, no markdown."""
         orig = next((a for a in articles if a["url"] == story.get("url","")), {})
         articles_list = [{"title": orig.get("title",""), "source": story.get("source",""), "url": story.get("url","")}]
         context = story.get("so_what","")
-        ts = relative_time(orig.get("time","")) or story.get("timestamp","")
+        ts = relative_time(orig.get("time",""))
+        if not ts:
+            ts = relative_time(story.get("timestamp",""))
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
         if not summary:
@@ -933,7 +1009,8 @@ Raw JSON only, no markdown."""
             "timestamp": ts,
             "summary": summary,
             "image": orig.get("image",""),
-            "articles": articles_list
+            "articles": articles_list,
+            "tracking_suggestions": generate_tracking_suggestions(story["headline"])
         })
     return results, memory
 
@@ -1007,7 +1084,9 @@ Raw JSON only."""
                     articles_list = articles_list + extra
                 except:
                     pass
-        ts = relative_time(orig.get("time","")) or story.get("timestamp","")
+        ts = relative_time(orig.get("time",""))
+        if not ts:
+            ts = relative_time(story.get("timestamp",""))
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
         if not summary:
@@ -1019,16 +1098,38 @@ Raw JSON only."""
             "timestamp": ts,
             "summary": summary,
             "image": orig.get("image",""),
-            "articles": articles_list
+            "articles": articles_list,
+            "tracking_suggestions": generate_tracking_suggestions(story["headline"])
         })
     return results, memory
 
 # ── HTML Builder ──────────────────────────────────────────────────────────────
 
-def build_html(all_data, yesterday_data, world_topics, developing_situations):
+def build_html(all_data, yesterday_data, world_topics, developing_situations, health=None):
     date_str = datetime.now(AEST).strftime("%A %d %B %Y").upper()
     updated_str = datetime.now(AEST).strftime("%I:%M %p AEST").lstrip("0")
     build_ts = int(datetime.now(timezone.utc).timestamp())
+
+    last_run = health["runs"][-1] if health and health.get("runs") else None
+    if last_run:
+        has_errors = bool(last_run.get("errors"))
+        dot_color = "#e67e22" if has_errors else "#2ecc71"
+        status_title = "Some sources failed last run" if has_errors else "All systems operational"
+        health_dot = f'<span title="{status_title}" style="display:inline-block;width:7px;height:7px;border-radius:50%;background:{dot_color};margin-right:6px;vertical-align:middle;"></span>'
+    else:
+        health_dot = ""
+
+    gh_setup_btn = '''<button id="gh-connect-btn" onclick="setupGhToken()" style="background:none;border:1px solid rgba(255,255,255,0.08);border-radius:6px;cursor:pointer;padding:4px 10px;color:#444440;font-size:11px;font-family:Inter,sans-serif;transition:all 0.15s;display:none;" onmouseover="this.style.color='#f0ece4';this.style.borderColor='rgba(255,255,255,0.2)'" onmouseout="this.style.color='#444440';this.style.borderColor='rgba(255,255,255,0.08)'">Connect GitHub</button>
+<button id="gh-connected-btn" style="background:none;border:1px solid rgba(42,122,110,0.3);border-radius:6px;padding:4px 10px;color:#4aaa99;font-size:11px;font-family:Inter,sans-serif;display:none;">&#10003; GitHub connected</button>'''
+
+    logo_html = '''<div style="display:flex;align-items:center;gap:12px;">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 32" width="160" height="26">
+    <circle cx="14" cy="16" r="12" fill="none" stroke="#c0392b" stroke-width="1" opacity="0.25"/>
+    <circle cx="14" cy="16" r="8" fill="none" stroke="#c0392b" stroke-width="1.2" opacity="0.45"/>
+    <circle cx="14" cy="16" r="4.5" fill="#c0392b"/>
+    <text x="32" y="22" font-family="\'Playfair Display\',Georgia,serif" font-size="20" font-weight="400" fill="#e8e4dc" letter-spacing="0.02em">Daily Briefing</text>
+  </svg>
+</div>'''
 
     def render_story(story, i, ac, is_top=False, is_yesterday=False):
         num = f"0{i+1}" if i+1 < 10 else str(i+1)
@@ -1055,7 +1156,9 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
         score_dot = f'<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:{ac};margin-right:8px;margin-bottom:1px;vertical-align:middle;flex-shrink:0;"></span>' if score >= 8 else ""
         opacity = "0.55" if is_yesterday else "1"
 
-        star_btn = "" if is_yesterday else f'<button class="star-btn" onclick="showStarPopup(\'{headline_escaped}\',\'{suggested.replace(chr(39), chr(92)+chr(39))}\');event.stopPropagation();" title="Track this story" style="background:none;border:none;cursor:pointer;padding:4px;color:#333330;font-size:14px;flex-shrink:0;line-height:1;margin-left:4px;transition:color 0.15s;" onmouseover="this.style.color=\'#c9a96e\'" onmouseout="this.style.color=\'#333330\'">&#9734;</button>'
+        suggestions_json = json.dumps(story.get("tracking_suggestions", [suggested]))
+        suggestions_attr = suggestions_json.replace('"', '&quot;')
+        star_btn = "" if is_yesterday else f'<button class="star-btn" onclick="showStarPopup(\'{headline_escaped}\',{suggestions_attr});event.stopPropagation();" title="Track this story" style="background:none;border:none;cursor:pointer;padding:4px;color:#333330;font-size:14px;flex-shrink:0;line-height:1;margin-left:4px;transition:color 0.15s;" onmouseover="this.style.color=\'#c9a96e\'" onmouseout="this.style.color=\'#333330\'">&#9734;</button>'
 
         summary_escaped = story.get("summary","").replace("'", "\\'").replace('"', '&quot;').replace("\n", " ")
         articles_json = json.dumps(story.get("articles", [])).replace('"', '&quot;')
@@ -1128,9 +1231,9 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
             ]) if s.get("has_update") else ""
 
             update_style = "font-size:13px;line-height:1.7;color:#8a8680;" if s.get("has_update") else "font-size:13px;line-height:1.7;color:#8a8680;font-style:italic;"
-        sit_id = f"sit-{hash(s['topic']) & 0xFFFFFF}"
-        remove_btn = f'<button onclick="removeSituation(\'{s["topic"].replace(chr(39), chr(92)+chr(39))}\')" title="Stop tracking" style="background:none;border:none;cursor:pointer;color:#333330;font-size:16px;padding:0;line-height:1;transition:color 0.15s;" onmouseover="this.style.color=\'#c0392b\'" onmouseout="this.style.color=\'#333330\'">&#215;</button>'
-        items_html += f'''<div id="{sit_id}" style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:16px 18px;margin-bottom:8px;transition:opacity 0.4s;">
+            sit_id = f"sit-{hash(s['topic']) & 0xFFFFFF}"
+            remove_btn = f'<button onclick="removeSituation(\'{s["topic"].replace(chr(39), chr(92)+chr(39))}\')" title="Stop tracking" style="background:none;border:none;cursor:pointer;color:#333330;font-size:16px;padding:0;line-height:1;transition:color 0.15s;" onmouseover="this.style.color=\'#c0392b\'" onmouseout="this.style.color=\'#333330\'">&#215;</button>'
+            items_html += f'''<div id="{sit_id}" style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:16px 18px;margin-bottom:8px;transition:opacity 0.4s;">
   <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
     <div style="font-size:14px;font-weight:500;color:#f0ece4;">{s["topic"].replace("<","&lt;").replace(">","&gt;")}{badge}</div>
     {remove_btn}
@@ -1231,10 +1334,12 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
                 yest_html += render_story(fake, i, ac, is_yesterday=True)
             yest_html += "</div>"
         refresh_btn = f'<button id="refresh-{cat["id"]}" onclick="triggerCategoryRefresh(\'{cat["id"]}\')" title="Refresh {cat["label"]}" style="background:none;border:none;cursor:pointer;padding:4px;color:#2a2a28;font-size:12px;flex-shrink:0;line-height:1;transition:color 0.15s;display:none;" onmouseover="this.style.color=\'#6e6b64\'" onmouseout="this.style.color=\'#2a2a28\'">↻</button>'
+        count_badge = f'<span style="font-size:10px;color:#333330;background:rgba(255,255,255,0.05);padding:2px 8px;border-radius:999px;">{len(stories)}</span>'
         cols_html += f'''<div style="min-width:0;">
   <div style="display:flex;align-items:center;gap:10px;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
     <div style="width:3px;height:22px;border-radius:2px;background:{ac};flex-shrink:0;"></div>
     <div style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:500;letter-spacing:-0.01em;">{cat["label"]}</div>
+    {count_badge}
     {refresh_btn}
   </div>
   {s_html}
@@ -1250,6 +1355,11 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Daily Briefing</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <style>
 *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0;}}
 html,body{{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-size:15px;line-height:1.6;min-height:100vh;}}
@@ -1266,8 +1376,11 @@ html,body{{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-
   <div style="margin-bottom:3rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(255,255,255,0.07);">
     <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#333330;margin-bottom:12px;">{date_str}</div>
     <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:12px;">
-      <h1 style="font-family:'Playfair Display',serif;font-size:3rem;font-weight:700;letter-spacing:-0.03em;line-height:1;">Your briefing</h1>
-      <span style="font-size:11px;color:#2a2a28;padding-bottom:6px;" id="refresh-status">Refreshes automatically</span>
+      {logo_html}
+      <div style="display:flex;align-items:center;gap:10px;padding-bottom:6px;">
+        {gh_setup_btn}
+        <span style="font-size:11px;color:#2a2a28;" id="refresh-status">{health_dot}Refreshes automatically</span>
+      </div>
     </div>
   </div>
 
@@ -1298,7 +1411,8 @@ html,body{{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-
   <div style="background:#1c1c1a;border:1px solid rgba(255,255,255,0.12);border-radius:16px;padding:1.5rem;width:min(440px,90vw);">
     <div style="font-size:14px;font-weight:500;color:#f0ece4;margin-bottom:6px;">Track this situation</div>
     <div id="star-headline-preview" style="font-size:12px;color:#555550;margin-bottom:14px;font-style:italic;line-height:1.4;"></div>
-    <div style="font-size:12px;color:#6e6b64;margin-bottom:6px;">Track as:</div>
+    <div id="star-pills" style="margin-bottom:10px;"></div>
+    <div style="font-size:12px;color:#6e6b64;margin-bottom:6px;">Or type a custom topic:</div>
     <input id="star-input" type="text" style="width:100%;padding:10px 14px;border-radius:8px;border:1px solid rgba(255,255,255,0.12);background:#111110;color:#f0ece4;font-size:14px;font-family:Inter,sans-serif;outline:none;margin-bottom:10px;" placeholder="e.g. Arsenal title race" onkeydown="if(event.key==='Enter')confirmStar();if(event.key==='Escape')closeStarPopup();"/>
     <div id="star-status" style="font-size:12px;color:#4aaa99;margin-bottom:12px;min-height:18px;"></div>
     <div style="display:flex;gap:8px;justify-content:flex-end;">
@@ -1353,17 +1467,54 @@ function writePinned(token, topics, sha, cb) {{
   .catch(function() {{ if (cb) cb(false); }});
 }}
 
+// ── GitHub token setup ──
+function setupGhToken() {{
+  var tok = prompt("Enter your GitHub Personal Access Token:\\n(One-time setup — stored locally in your browser)\\n\\nNeeds 'repo' scope at github.com/settings/tokens");
+  if (!tok) return;
+  ghToken = tok.trim();
+  localStorage.setItem("gh_token", ghToken);
+  updateGhButtons();
+}}
+
+function updateGhButtons() {{
+  var connectBtn = document.getElementById('gh-connect-btn');
+  var connectedBtn = document.getElementById('gh-connected-btn');
+  if (ghToken) {{
+    if (connectBtn) connectBtn.style.display = 'none';
+    if (connectedBtn) connectedBtn.style.display = 'inline-block';
+    document.querySelectorAll('[id^="refresh-"]').forEach(function(btn) {{ btn.style.display = 'inline-block'; }});
+  }} else {{
+    if (connectBtn) connectBtn.style.display = 'inline-block';
+    if (connectedBtn) connectedBtn.style.display = 'none';
+  }}
+}}
+// Run on page load
+updateGhButtons();
+
 // ── Star popup ──
-function showStarPopup(headline, suggestedTopic) {{
+function showStarPopup(headline, suggestions) {{
   var overlay = document.getElementById("star-overlay");
   var input = document.getElementById("star-input");
   var status = document.getElementById("star-status");
+  var pillsContainer = document.getElementById("star-pills");
   overlay.style.display = "flex";
-  input.value = suggestedTopic;
+  input.value = (suggestions && suggestions[0]) ? suggestions[0] : "";
   status.textContent = "";
+  if (pillsContainer) {{
+    pillsContainer.innerHTML = "";
+    (suggestions || []).forEach(function(s) {{
+      var pill = document.createElement("button");
+      pill.textContent = s;
+      pill.style.cssText = "padding:5px 12px;border-radius:999px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:#8a8680;cursor:pointer;font-size:12px;font-family:Inter,sans-serif;margin:3px;transition:all 0.15s;";
+      pill.onmouseover = function(){{this.style.background='rgba(201,169,110,0.15)';this.style.color='#c9a96e';this.style.borderColor='rgba(201,169,110,0.3)';}};
+      pill.onmouseout = function(){{this.style.background='transparent';this.style.color='#8a8680';this.style.borderColor='rgba(255,255,255,0.1)';}};
+      pill.onclick = function(){{input.value=s;}};
+      pillsContainer.appendChild(pill);
+    }});
+  }}
+  document.getElementById("star-headline-preview").textContent = '"' + headline.substring(0,80) + (headline.length>80?"...":'"');
   input.focus();
   input.select();
-  document.getElementById("star-headline-preview").textContent = '"' + headline.substring(0,80) + (headline.length>80?"...":'"');
 }}
 
 function closeStarPopup() {{
@@ -1381,7 +1532,14 @@ function confirmStar() {{
       writePinned(token, topics, sha, function(ok) {{
         if (ok) {{
           status.textContent = "✓ Now tracking: " + topic;
-          setTimeout(closeStarPopup, 1500);
+          fetch('https://api.github.com/repos/' + GITHUB_REPO + '/actions/workflows/briefing.yml/dispatches', {{
+            method: 'POST',
+            headers: {{ 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' }},
+            body: JSON.stringify({{ ref: 'main', inputs: {{ mode: 'deploy_only', category: '' }} }})
+          }}).then(function() {{
+            status.textContent = "✓ Tracked — briefing updating...";
+            setTimeout(closeStarPopup, 2000);
+          }});
         }} else {{
           status.textContent = "Failed — check your token";
         }}
@@ -1472,10 +1630,8 @@ function switchTab(label){{
 // ── Category refresh ──
 function triggerCategoryRefresh(category) {{
   if (!ghToken) {{
-    var tok = prompt("Enter your GitHub Personal Access Token to enable refresh:\\n(One-time setup — stored locally in your browser)");
-    if (!tok) return;
-    ghToken = tok.trim();
-    localStorage.setItem("gh_token", ghToken);
+    setupGhToken();
+    if (!ghToken) return;
   }}
   var btn = document.getElementById("refresh-" + category);
   if (btn) btn.textContent = "…";
@@ -1491,10 +1647,7 @@ function triggerCategoryRefresh(category) {{
   .catch(function() {{ if (btn) {{ btn.textContent = "✗"; setTimeout(function() {{ btn.textContent = "↻"; }}, 3000); }} }});
 }}
 
-// Show refresh buttons if token is set
-if (ghToken) {{
-  document.querySelectorAll('[id^="refresh-"]').forEach(function(btn) {{ btn.style.display = "inline-block"; }});
-}}
+// (refresh button visibility handled by updateGhButtons above)
 
 // ── Auto-refresh ──
 setInterval(function(){{
@@ -1725,10 +1878,16 @@ def mock_data():
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
+    import shutil
     if MOCK_MODE:
         print("MOCK_MODE enabled — skipping all API calls.")
         all_data, yesterday_data, world_topics, developing_situations = mock_data()
         Path("dist").mkdir(exist_ok=True)
+        favicon_files = ["favicon.ico", "favicon.svg", "favicon-32.png", "favicon-16.png", "apple-touch-icon.png", "logo.svg"]
+        for fname in favicon_files:
+            src = Path(fname)
+            if src.exists():
+                shutil.copy(src, Path("dist") / fname)
         with open("dist/index.html", "w", encoding="utf-8") as f:
             f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
         print("Done. dist/index.html written.")
@@ -1736,32 +1895,46 @@ def main():
 
     memory = load_memory()
     pinned = load_pinned()
+    health = load_health()
 
     if RUN_MODE == "deploy_only":
         print("Deploy-only run — rebuilding HTML from cache, zero API calls.")
+        errors = []
         all_data = {cat: get_cached_category(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
         yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
         world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []})
         developing_situations = process_developing_situations(pinned, [], [])
+        health = log_run(health, "deploy_only", errors)
+        save_health(health)
         Path("dist").mkdir(exist_ok=True)
+        favicon_files = ["favicon.ico", "favicon.svg", "favicon-32.png", "favicon-16.png", "apple-touch-icon.png", "logo.svg"]
+        for fname in favicon_files:
+            src = Path(fname)
+            if src.exists():
+                shutil.copy(src, Path("dist") / fname)
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
         print("Done. dist/index.html written from cache.")
         return
 
     if RUN_MODE == "breaking_only":
         print("Breaking-only run...")
-        gdelt_breaking = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="2h", max_records=25)
+        errors = []
+        gdelt_breaking = fetch_gdelt_articles("war attack disaster killed", timespan="1h", max_records=25)
         if not gdelt_breaking:
             print("GDELT failed or returned nothing — using Guardian only for breaking news")
+            errors.append("GDELT fetch failed")
         guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
 
-        if not category_has_changed(memory, "breaking", gdelt_breaking + guardian_breaking):
-            print("Breaking news: no new articles, skipping")
-            return
+        new_breaking, memory = process_breaking_news(gdelt_breaking, guardian_breaking, memory)
+        if new_breaking:
+            breaking = new_breaking
+            memory = save_article_hash(memory, "breaking", gdelt_breaking + guardian_breaking)
+        else:
+            print("Breaking news: no new stories passed the bar, keeping existing")
+            breaking = get_cached_category(memory, "breaking")
 
-        breaking, memory = process_breaking_news(gdelt_breaking, guardian_breaking, memory)
-        memory = save_article_hash(memory, "breaking", gdelt_breaking + guardian_breaking)
+        memory = save_today_stories(memory, "breaking", breaking)
 
         all_data = {
             "breaking": breaking,
@@ -1773,17 +1946,24 @@ def main():
         yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
         developing_situations = process_developing_situations(pinned, [], gdelt_breaking + guardian_breaking)
 
-        memory = save_today_stories(memory, "breaking", breaking)
         save_memory(memory)
+        health = log_run(health, "breaking_only", errors)
+        save_health(health)
 
         Path("dist").mkdir(exist_ok=True)
+        favicon_files = ["favicon.ico", "favicon.svg", "favicon-32.png", "favicon-16.png", "apple-touch-icon.png", "logo.svg"]
+        for fname in favicon_files:
+            src = Path(fname)
+            if src.exists():
+                shutil.copy(src, Path("dist") / fname)
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
         print("Done. dist/index.html written.")
         return
 
     elif RUN_MODE == "category" and RUN_CATEGORY:
         print(f"Category-only run: {RUN_CATEGORY}...")
+        errors = []
 
         if RUN_CATEGORY == "football":
             guardian_football = fetch_guardian("premier league OR la liga OR serie a OR bundesliga OR ligue 1 OR champions league", page_size=15, section="football")
@@ -1792,7 +1972,15 @@ def main():
             lequipe_rss = fetch_rss("https://www.lequipe.fr/rss/actu_rss_Football.xml", "L'Equipe")
             gazzetta_rss = fetch_rss("https://www.gazzetta.it/rss/home.xml", "Gazzetta dello Sport")
             sky_rss = fetch_rss("https://www.skysports.com/rss/12040", "Sky Sports")
-            articles = guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss
+            espn_rss = fetch_rss("https://www.espn.com/espn/rss/soccer/news", "ESPN FC")
+            bbc_football_rss = fetch_rss("https://feeds.bbci.co.uk/sport/football/rss.xml", "BBC Sport")
+            football_italia_rss = fetch_rss("https://www.football-italia.net/rss.xml", "Football Italia")
+            bundesliga_rss = fetch_rss("https://www.bundesliga.com/api/rss/news/en", "Bundesliga")
+            uefa_rss = fetch_rss("https://www.uefa.com/rss.xml", "UEFA")
+            goal_rss = fetch_rss("https://www.goal.com/feeds/en/news", "Goal.com")
+            fabrizio_romano = fetch_fabrizio_romano()
+            articles = (guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
+                        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss + fabrizio_romano)
             if category_has_changed(memory, "football", articles):
                 result, memory = process_football(articles, memory)
                 memory = save_article_hash(memory, "football", articles)
@@ -1830,7 +2018,12 @@ def main():
             newscientist_rss = fetch_rss("https://www.newscientist.com/subject/humans/feed/", "New Scientist")
             science_rss = fetch_rss("https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science", "Science")
             newsdata_arch = fetch_newsdata("paleoanthropology fossil hominin ancient DNA homo sapiens neanderthal discovery")
-            articles = nature_rss + newscientist_rss + science_rss + newsdata_arch
+            physorg_rss = fetch_rss("https://phys.org/rss-feed/biology-news/evolution/", "PhysOrg")
+            eurekalert_rss = fetch_rss("https://www.eurekalert.org/rss/all.xml", "EurekAlert")
+            sciencedaily_rss = fetch_rss("https://www.sciencedaily.com/rss/fossils_ruins/human_evolution.xml", "ScienceDaily")
+            conversation_rss = fetch_rss("https://theconversation.com/us/science/rss", "The Conversation")
+            articles = (nature_rss + newscientist_rss + science_rss + newsdata_arch +
+                        physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss)
             if category_has_changed(memory, "archaeology", articles):
                 result, memory = process_archaeology(articles, memory)
                 memory = save_article_hash(memory, "archaeology", articles)
@@ -1862,21 +2055,30 @@ def main():
         if RUN_CATEGORY in ("breaking", "australia", "archaeology", "football"):
             memory = save_today_stories(memory, RUN_CATEGORY, result)
         save_memory(memory)
+        health = log_run(health, f"category:{RUN_CATEGORY}", errors)
+        save_health(health)
         Path("dist").mkdir(exist_ok=True)
+        favicon_files = ["favicon.ico", "favicon.svg", "favicon-32.png", "favicon-16.png", "apple-touch-icon.png", "logo.svg"]
+        for fname in favicon_files:
+            src = Path(fname)
+            if src.exists():
+                shutil.copy(src, Path("dist") / fname)
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
         print(f"Done. Category-only run for {RUN_CATEGORY} complete.")
         return
 
     # Full run continues below...
+    errors = []
 
     print("Fetching world topics...")
     world_topics, memory = process_world_topics(memory)
 
     print("Fetching Breaking News...")
-    gdelt_breaking = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="2h", max_records=25)
+    gdelt_breaking = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="1h", max_records=25)
     if not gdelt_breaking:
         print("GDELT failed or returned nothing — using Guardian only for breaking news")
+        errors.append("GDELT fetch failed")
     guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
     breaking, memory = process_breaking_news(gdelt_breaking, guardian_breaking, memory)
     time.sleep(60)
@@ -1894,7 +2096,13 @@ def main():
     newscientist_rss = fetch_rss("https://www.newscientist.com/subject/humans/feed/", "New Scientist")
     science_rss = fetch_rss("https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science", "Science")
     newsdata_arch = fetch_newsdata("paleoanthropology fossil hominin ancient DNA homo sapiens neanderthal discovery")
-    archaeology, memory = process_archaeology(nature_rss + newscientist_rss + science_rss + newsdata_arch, memory)
+    physorg_rss = fetch_rss("https://phys.org/rss-feed/biology-news/evolution/", "PhysOrg")
+    eurekalert_rss = fetch_rss("https://www.eurekalert.org/rss/all.xml", "EurekAlert")
+    sciencedaily_rss = fetch_rss("https://www.sciencedaily.com/rss/fossils_ruins/human_evolution.xml", "ScienceDaily")
+    conversation_rss = fetch_rss("https://theconversation.com/us/science/rss", "The Conversation")
+    archaeology, memory = process_archaeology(
+        nature_rss + newscientist_rss + science_rss + newsdata_arch +
+        physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss, memory)
     time.sleep(60)
 
     print("Fetching Football news...")
@@ -1907,7 +2115,17 @@ def main():
     lequipe_rss = fetch_rss("https://www.lequipe.fr/rss/actu_rss_Football.xml", "L'Equipe")
     gazzetta_rss = fetch_rss("https://www.gazzetta.it/rss/home.xml", "Gazzetta dello Sport")
     sky_rss = fetch_rss("https://www.skysports.com/rss/12040", "Sky Sports")
-    football, memory = process_football(guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss, memory)
+    espn_rss = fetch_rss("https://www.espn.com/espn/rss/soccer/news", "ESPN FC")
+    bbc_football_rss = fetch_rss("https://feeds.bbci.co.uk/sport/football/rss.xml", "BBC Sport")
+    football_italia_rss = fetch_rss("https://www.football-italia.net/rss.xml", "Football Italia")
+    bundesliga_rss = fetch_rss("https://www.bundesliga.com/api/rss/news/en", "Bundesliga")
+    uefa_rss = fetch_rss("https://www.uefa.com/rss.xml", "UEFA")
+    goal_rss = fetch_rss("https://www.goal.com/feeds/en/news", "Goal.com")
+    fabrizio_romano = fetch_fabrizio_romano()
+    football, memory = process_football(
+        guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
+        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss + fabrizio_romano,
+        memory)
 
     all_data = {
         "breaking": breaking,
@@ -1919,7 +2137,9 @@ def main():
     print("Processing developing situations...")
     all_fetched = (gdelt_breaking + guardian_breaking + abc_rss + smh_rss + age_rss +
                    newsdata_aus + nature_rss + newscientist_rss + science_rss + newsdata_arch +
-                   guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss)
+                   physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss +
+                   guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
+                   espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss + fabrizio_romano)
     auto_detected = detect_developing_situations(memory, all_data)
     developing_situations = process_developing_situations(pinned, auto_detected, all_fetched)
 
@@ -1933,10 +2153,17 @@ def main():
     for cat in ["breaking", "australia", "archaeology", "football"]:
         memory = save_today_stories(memory, cat, all_data[cat])
     save_memory(memory)
+    health = log_run(health, "full", errors)
+    save_health(health)
 
     Path("dist").mkdir(exist_ok=True)
+    favicon_files = ["favicon.ico", "favicon.svg", "favicon-32.png", "favicon-16.png", "apple-touch-icon.png", "logo.svg"]
+    for fname in favicon_files:
+        src = Path(fname)
+        if src.exists():
+            shutil.copy(src, Path("dist") / fname)
     with open("dist/index.html", "w", encoding="utf-8") as f:
-        f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+        f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
     print("Done. dist/index.html written.")
 
 if __name__ == "__main__":

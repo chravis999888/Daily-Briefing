@@ -578,6 +578,7 @@ Headline: "{headline}"
 Return ONLY a JSON array of short strings (2-5 words each):
 ["specific topic", "broader topic", "even broader", "widest context"]
 Raw JSON only."""
+    time.sleep(2)
     text = call_haiku(prompt, 200)
     try:
         return json.loads(text.replace("```json","").replace("```","").strip())
@@ -786,7 +787,7 @@ def process_breaking_news(gdelt_articles, guardian_articles, memory):
     if not all_articles:
         return [], memory
 
-    formatted = format_articles_for_prompt(all_articles, 25, titles_only=True)
+    formatted = format_articles_for_prompt(all_articles, 30, titles_only=True)
     prompt = f"""You are a world news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent articles:
@@ -865,7 +866,7 @@ def process_australia(rss_articles, newsdata_articles, memory):
     if not all_articles:
         return [], memory
 
-    formatted = format_articles_for_prompt(all_articles, 25, titles_only=True)
+    formatted = format_articles_for_prompt(all_articles, 30, titles_only=True)
     prompt = f"""You are an Australian federal politics editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent articles:
@@ -963,7 +964,7 @@ def process_archaeology(articles, memory):
     if not articles:
         return [], memory
 
-    formatted = format_articles_for_prompt(articles, 20, titles_only=True)
+    formatted = format_articles_for_prompt(articles, 30, titles_only=True)
     prompt = f"""You are a science editor specialising in human origins. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent articles:
@@ -1980,7 +1981,7 @@ def main():
             goal_rss = fetch_rss("https://www.goal.com/feeds/en/news", "Goal.com")
             fabrizio_romano = fetch_fabrizio_romano()
             articles = (guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
-                        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss + fabrizio_romano)
+                        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss + fabrizio_romano)[:40]
             if category_has_changed(memory, "football", articles):
                 result, memory = process_football(articles, memory)
                 memory = save_article_hash(memory, "football", articles)
@@ -2123,8 +2124,8 @@ def main():
     goal_rss = fetch_rss("https://www.goal.com/feeds/en/news", "Goal.com")
     fabrizio_romano = fetch_fabrizio_romano()
     football, memory = process_football(
-        guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
-        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss + fabrizio_romano,
+        (guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
+        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss + fabrizio_romano)[:40],
         memory)
 
     all_data = {

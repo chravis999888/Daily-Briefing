@@ -55,39 +55,33 @@
       ]
     },
     "2026-04-13": {
-      "breaking": [
-        {
-          "headline": "US blockade of Iran's ports begins today, as Pope Leo states he has no intention to debate Trump over the war",
-          "timestamp": "9 mins ago",
-          "score": 8
-        }
-      ],
+      "breaking": [],
       "australia": [
         {
-          "headline": "Coalition announces support for Labor's crackdown on NDIS providers as Health Minister Mark Butler prepares to release savings plan",
+          "headline": "Coalition backs Labor's crackdown on NDIS providers as Health Minister Mark Butler prepares to unveil savings plan",
           "timestamp": "10 hrs ago",
-          "score": 6
+          "score": 7
         }
       ],
       "archaeology": [
         {
-          "headline": "New genomic modelling argues the proposed severe Homo sapiens population bottleneck around 900,000 years ago, which suggested near-extinction to roughly 1,280 breeding individuals, may be a statistical artefact of the analytical method rather than a real demographic event",
-          "timestamp": "3 days ago",
+          "headline": "Reanalysis of genomic bottleneck evidence questions whether Homo sapiens came close to extinction around 900,000 years ago, casting doubt on the severe population crash proposed in a widely cited 2023 study",
+          "timestamp": "4 days ago",
           "score": 8
         },
         {
-          "headline": "Genetic analysis shows Neanderthal population was already fragmented and declining before Homo sapiens expanded into Europe, with low genetic diversity indicating small, isolated groups rather than a single large population collapse",
+          "headline": "Genetic analysis of Neanderthal remains shows population decline predated contact with modern humans, suggesting internal demographic fragility rather than competitive exclusion drove their extinction",
           "timestamp": "2 weeks ago",
           "score": 7
         },
         {
-          "headline": "Zooarchaeological analysis of butchered straight-tusked elephant bones reveals Neanderthals coordinated large-group hunts of Palaeoloxodon antiquus approximately 125,000 years ago, with carcass processing evidence indicating systematic, communal exploitation",
-          "timestamp": "1 week ago",
-          "score": 7
+          "headline": "Stone tool assemblage shift recorded at African sites dated to approximately 200,000 years ago linked to environmental and social network changes rather than cognitive leaps, according to new behavioural analysis",
+          "timestamp": "4 days ago",
+          "score": 6
         },
         {
-          "headline": "Experimental and archaeological evidence from 200,000-year-old African sites indicates early Homo sapiens shifted abruptly from Acheulean to Middle Stone Age toolkits in response to environmental instability rather than gradual cognitive change, with climate-driven resource stress as the primary driver",
-          "timestamp": "4 days ago",
+          "headline": "Skeletal analysis of Australopithecus specimens indicates the genus experienced obstructed labour analogous to modern humans, pushing the origin of difficult birth further back than 2 million years ago",
+          "timestamp": "4 weeks ago",
           "score": 6
         }
       ],
@@ -101,27 +95,27 @@
       "Trump unleashes tirade against \"weak,\" \"terrible\" Pope Leo - Axios",
       "Hungary opposition's landslide win heralds reforms, thaw in EU ties - Reuters",
       "Swalwell exits California governor's race after assault allegations as rivals seek his supporters - AP News",
+      "Inside Vance\u2019s Iran negotiations: No deal, but \u2018friendly\u2019 talks - The Washington Post",
       "Pope on board plane to Algeria: \u2018I am not a politician, I speak of the Gospel' - Vatican News",
-      "How a $75 billion windfall from Congress has insulated ICE - NPR",
       "Lynette Hooker disappeared in the Bahamas over a week ago. Here\u2019s a timeline of the key developments - CNN",
       "The Last Day at Kids of Faith: Parents Navigating a Child Care Crisis - The New York Times",
-      "Trump Fires Board That Oversees Presidio in San Francisco - The New York Times",
-      "Inside Vance\u2019s Iran negotiations: No deal, but \u2018friendly\u2019 talks - The Washington Post",
+      "Pres. Donald Trump fires entire San Francisco Presidio Board of Trustees, report says - ABC7 San Francisco",
+      "Mayor Zohran Mamdani announces site of first New York City-run grocery store - CBS News",
       "UK 'not supporting' U.S. Iran blockade as France's Macron confirms 'multinational' talks on the Strait of Hormuz - CNBC",
       "Elections and Defections Are Likely to Unshackle Canada\u2019s Liberals - The New York Times",
       "Lebanese bury 13 officers killed by Israel as grief and outrage surge ahead of talks in the US - AP News",
       "Strongest storm on planet bearing down on U.S. islands in Western Pacific - San Francisco Chronicle",
-      "Oil back above $100 as US to blockade Iranian ports after peace talks fail - BBC",
+      "Dow futures fall 450 points after Trump announces Strait of Hormuz blockade as talks fail: Live updates - CNBC",
       "Finesse2Tymes ''2FithyRicky'' - Who Do You Think You Are ''J Prince Jr Diss''",
       "Digital Circus Ep 9 Finale [TRAILER]",
       "Live From the Masters",
-      "Sunset en la Sanse - MT Manuel Turizo x D\u00e1lmata | Video Oficial",
-      "Euphoria Season 3 \"This Season On\" Trailer (HD) HBO Zendaya series",
-      "Food City 500",
       "DeeBaby - Merry Go Round / Arm & a Leg ( OFFICIAL MUSIC VIDEO )",
-      "Invincible Season 4 Episode 7 Trailer: The Most Powerful Viltrumite",
-      "Orlando Magic at Boston Celtics",
-      "Peysoh - THE ANTHEM (Official Video)",
+      "Euphoria Season 3 \"This Season On\" Trailer (HD) HBO Zendaya series",
+      "Denver Nuggets at San Antonio Spurs",
+      "Sunset en la Sanse - MT Manuel Turizo x D\u00e1lmata | Video Oficial",
+      "Food City 500",
+      "TXT (\ud22c\ubaa8\ub85c\uc6b0\ubc14\uc774\ud22c\uac8c\ub354) '\ud558\ub8e8\uc5d0 \ud558\ub8e8\ub9cc \ub354 (Stick With You)' Official MV",
+      "Sunday Night in America With Trey Gowdy",
       "gabriel diallo",
       "goldman sachs",
       "rebecca crews",
@@ -158,7 +152,8 @@
     "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/": "A 2023 study claimed that human ancestors went through a severe population bottleneck around 900,000 years ago, shrinking to just 1,280 breeding individuals and nearly going extinct. New genomic modeling now challenges this finding, suggesting the bottleneck may not have actually happened\u2014instead, it could be an artifact created by the statistical methods used to analyze the data. The original study had significant implications for how scientists understood human evolution, including the development of our larger brains and how modern humans emerged as a species. This contradiction highlights how genetic analysis can produce dramatically different conclusions depending on methodology, leaving the true demographic history of early human populations still uncertain.",
     "https://www.newscientist.com/article/2520319-genetic-clues-tell-the-story-of-neanderthals-decline/": "A genetic study of Neanderthal DNA reveals that their populations were already small, scattered, and genetically isolated long before Homo sapiens arrived in Europe, indicating the species was already in decline. The low genetic diversity found in Neanderthal remains shows they lived in fragmented groups rather than as one unified population, suggesting they were vulnerable before any competition with modern humans began. This challenges the traditional explanation that Homo sapiens simply outcompeted and displaced a thriving Neanderthal population, instead suggesting Neanderthals faced structural problems\u2014like small group size and isolation\u2014that made them susceptible to extinction regardless of modern human expansion. The findings reshape how scientists understand Neanderthal extinction, pointing to pre-existing demographic weakness rather than rapid human-driven displacement as the primary factor in their disappearance roughly 40,000 years ago.",
     "https://www.newscientist.com/article/2520535-ancient-bones-reveal-vivid-details-of-a-neanderthal-elephant-hunt/": "Researchers analyzing butchered bones from straight-tusked elephants found at an archaeological site discovered evidence that Neanderthals hunted these massive animals around 125,000 years ago through coordinated group efforts rather than individual kills or scavenging. The bones show systematic cut marks indicating the animals were deliberately killed and processed by multiple individuals working together, suggesting Neanderthals possessed the social organization and planning abilities needed for large-scale hunts. This finding challenges the long-held assumption that Neanderthals were either scavengers or only hunted in small, uncoordinated groups incapable of complex cooperation. The discovery significantly elevates our understanding of Neanderthal intelligence and social complexity, showing they could accomplish feats comparable to early humans.",
-    "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/": "Researchers studying 200,000-year-old African archaeological sites found that early humans switched their tool-making styles rapidly rather than gradually, driven by environmental stress and climate changes rather than sudden cognitive advances. The shift from the older Acheulean tools to Middle Stone Age toolkits appears to have been a practical response to resource scarcity caused by unstable environmental conditions. This challenges the long-held theory that such toolkit changes reflected major leaps in human intelligence or symbolic thinking. The finding matters because it reframes a pivotal moment in human prehistory as an ecological adaptation problem-solving rather than evidence of a fundamental change in how our ancestors' brains worked."
+    "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/": "Researchers studying 200,000-year-old African archaeological sites found that early humans switched their tool-making styles rapidly rather than gradually, driven by environmental stress and climate changes rather than sudden cognitive advances. The shift from the older Acheulean tools to Middle Stone Age toolkits appears to have been a practical response to resource scarcity caused by unstable environmental conditions. This challenges the long-held theory that such toolkit changes reflected major leaps in human intelligence or symbolic thinking. The finding matters because it reframes a pivotal moment in human prehistory as an ecological adaptation problem-solving rather than evidence of a fundamental change in how our ancestors' brains worked.",
+    "https://www.newscientist.com/article/2519325-our-extinct-australopithecus-relatives-may-have-had-difficult-births/": "Researchers analyzed skeletal remains of Australopithecus, an early human ancestor that lived over 2 million years ago, and found evidence that females experienced obstructed labor\u2014difficult childbirth\u2014similar to modern humans. This discovery pushes back the evolutionary timeline of childbirth complications by millions of years, suggesting the problem existed before the genus Homo emerged. Previously, scientists assumed difficult birth was unique to humans and directly caused by our ancestors' rapidly expanding brains, which created a mismatch with the narrow pelvis needed for bipedalism. The findings indicate that the biological conflict between brain size and pelvis shape\u2014known as the \"obstetric dilemma\"\u2014has much deeper evolutionary roots than thought, originating in pre-human species that didn't have notably larger brains."
   },
   "article_hashes": {
     "breaking": 7515558193837072886
@@ -166,83 +161,83 @@
   "world_topics_cache": {
     "today": [
       {
-        "headline": "Trump Administration's Iran Blockade Fails to Gain International Support",
-        "why": "After failed peace talks, the Trump administration is attempting to blockade Iranian ports, but key allies including the UK and France are refusing to participate, signaling a major diplomatic split.",
-        "signal": "[NEWS] Trump Said Other Countries Would Help Blockade Iran. So Far, There Are No Takers; [NEWS] UK 'not supporting' U.S. Iran blockade; [NEWS] Inside Vance's Iran negotiations: No deal, but 'friendly' talks; [BBC] Oil back above $100 as US to blockade Iranian ports"
+        "headline": "Trump's Failed Iran Blockade and International Diplomatic Collapse",
+        "why": "Trump's attempt to organize a multinational blockade of Iran has foundered with no international support, while VP Vance conducts separate negotiations that have yielded no agreement, signaling a major breakdown in U.S. foreign policy strategy.",
+        "signal": "[NEWS] Trump Said Other Countries Would Help Blockade Iran. So Far, There Are No Takers; [NEWS] Inside Vance's Iran negotiations: No deal, but 'friendly' talks; [NEWS] UK 'not supporting' U.S. Iran blockade as France's Macron confirms 'multinational' talks on the Strait of Hormuz; [TRENDING] Dow futures fall 450 points after Trump announces Strait of Hormuz blockade"
       },
       {
-        "headline": "Pope Leo and Trump's Public Conflict Escalates",
-        "why": "Trump has launched attacks on Pope Leo calling him 'weak' and 'terrible,' while the Pope is en route to Algeria reiterating his role is spiritual not political, representing a rare and significant clash between the U.S. president and the Vatican.",
-        "signal": "[NEWS] Trump unleashes tirade against 'weak,' 'terrible' Pope Leo; [NEWS] Pope on board plane to Algeria: 'I am not a politician, I speak of the Gospel'"
+        "headline": "Trump's Public Conflict with Pope Leo",
+        "why": "Trump has launched a direct personal attack on the Pope, calling him 'weak' and 'terrible,' while the Pope responds by reaffirming his focus on the Gospel rather than politics, marking an unusually public clash between the U.S. President and the Vatican.",
+        "signal": "[NEWS] Trump unleashes tirade against 'weak,' 'terrible' Pope Leo - Axios; [NEWS] Pope on board plane to Algeria: 'I am not a politician, I speak of the Gospel' - Vatican News"
       },
       {
-        "headline": "Hungary's Opposition Wins Landslide Election, Reshaping EU Dynamics",
-        "why": "Hungary's opposition achieved an unexpected landslide victory that signals potential major political reforms and a thaw in the country's fraught relationship with the European Union.",
-        "signal": "[NEWS] Hungary opposition's landslide win heralds reforms, thaw in EU ties"
+        "headline": "Hungary's Opposition Secures Landslide Election Victory",
+        "why": "Hungary's opposition parties have won a decisive electoral victory that promises to reshape the country's political direction and potentially repair relations with the European Union after years of tension.",
+        "signal": "[NEWS] Hungary opposition's landslide win heralds reforms, thaw in EU ties - Reuters"
       },
       {
-        "headline": "Lebanese Bury 13 Officers Killed by Israel Amid Rising Tensions",
-        "why": "Israel has killed 13 Lebanese officers, triggering widespread grief and outrage as planned U.S.-mediated talks approach, escalating tensions in an already volatile region.",
-        "signal": "[NEWS] Lebanese bury 13 officers killed by Israel as grief and outrage surge ahead of talks in the US"
+        "headline": "Lebanese Officers Killed by Israel Amid U.S. Diplomatic Efforts",
+        "why": "The death of 13 Lebanese military officers at Israeli hands has sparked widespread grief and outrage in Lebanon just as U.S.-brokered talks are underway, threatening to destabilize regional negotiations.",
+        "signal": "[NEWS] Lebanese bury 13 officers killed by Israel as grief and outrage surge ahead of talks in the US - AP News"
       },
       {
-        "headline": "Strongest Storm on Record Approaches U.S. Pacific Territories",
-        "why": "An unprecedented planetary storm is bearing down on U.S. islands in the Western Pacific, representing an extreme weather event capturing urgent global attention.",
-        "signal": "[NEWS] Strongest storm on planet bearing down on U.S. islands in Western Pacific"
+        "headline": "Lynette Hooker Disappearance Investigation in the Bahamas",
+        "why": "The week-long search for missing American Lynette Hooker in the Bahamas continues to dominate news coverage with significant developments and public concern about her whereabouts.",
+        "signal": "[NEWS] Lynette Hooker disappeared in the Bahamas over a week ago. Here's a timeline of the key developments - CNN"
       }
     ],
     "week": [
       {
-        "headline": "Trump Administration's Failed Iran Blockade Coalition",
-        "why": "Trump called for international naval blockade of Iran following failed peace negotiations, but the UK, France, and other allies declined to participate, exposing diplomatic isolation.",
+        "headline": "Trump's Failed Iran Blockade Diplomacy",
+        "why": "Trump's announcement of a Strait of Hormuz blockade against Iran failed to secure international support, with UK and France pursuing separate negotiations instead.",
         "signal": "trending for 4 days"
       },
       {
-        "headline": "Trump's Public Feud with Pope Francis",
-        "why": "Trump launched personal attacks on Pope Leo (likely referring to Pope Francis) while the Pope was traveling to Algeria, triggering immediate Vatican pushback and international media coverage.",
+        "headline": "Trump's Public Attack on Pope Francis",
+        "why": "Trump launched a verbal tirade against Pope Francis, calling him 'weak' and 'terrible,' while the Pope responded by emphasizing his focus on Gospel rather than politics.",
         "signal": "trending for 2 days"
       },
       {
-        "headline": "Hungary Opposition's Landslide Election Victory",
-        "why": "Hungary's opposition achieved a major electoral upset, signaling potential policy reversals and improved EU relations after years of tension under current leadership.",
+        "headline": "Hungary Opposition's Election Victory",
+        "why": "Hungary's opposition parties achieved a landslide election victory, signaling potential democratic reforms and improved relations with the European Union.",
+        "signal": "trending for 1 day"
+      },
+      {
+        "headline": "Lynette Hooker Disappearance in the Bahamas",
+        "why": "The week-long disappearance of Lynette Hooker in the Bahamas generated sustained news coverage with ongoing developments in the investigation.",
         "signal": "trending for 2 days"
       },
       {
-        "headline": "Israeli Strike Kills 13 Lebanese Military Officers",
-        "why": "Israel conducted an airstrike that killed Lebanese officers, escalating regional tensions ahead of U.S.-brokered peace negotiations with Hezbollah.",
-        "signal": "trending for 2 days"
-      },
-      {
-        "headline": "Canadian Liberal Government Political Crisis",
-        "why": "Multiple defections and anticipated elections threaten to collapse Justin Trudeau's Liberal coalition government, signaling imminent political realignment.",
-        "signal": "trending for 2 days"
+        "headline": "Trump Fires San Francisco Presidio Board of Trustees",
+        "why": "Trump removed the entire board overseeing the Presidio military installation in San Francisco as part of broader administrative actions.",
+        "signal": "trending for 1 day"
       }
     ],
     "month": [
       {
-        "headline": "Trump Administration's Iran Blockade Initiative",
-        "why": "Trump announced plans to blockade Iranian ports after failed peace talks, but faced international resistance with UK and France declining to support the embargo.",
+        "headline": "Trump's Failed Iran Blockade Diplomacy",
+        "why": "Trump announced a blockade of Iran's Strait of Hormuz but faced international rejection, with UK and France declining support and stock markets reacting negatively to the economic threat.",
         "signal": "trending for 8 days"
       },
       {
         "headline": "Trump's Conflict with Pope Francis",
-        "why": "Trump launched public attacks on Pope Francis, characterizing him as 'weak' and 'terrible,' while the Pope responded by emphasizing his focus on gospel rather than politics.",
+        "why": "Trump publicly attacked Pope Francis as 'weak' and 'terrible,' triggering international media coverage of the unprecedented clash between the U.S. president and the pontiff.",
         "signal": "trending for 5 days"
       },
       {
-        "headline": "Hungary's Opposition Landslide Election Victory",
-        "why": "Hungary's opposition parties achieved a decisive electoral victory, signaling potential reforms and an improved relationship with the European Union.",
+        "headline": "Hungary Opposition's Electoral Victory and EU Relations",
+        "why": "Hungary's opposition parties achieved a landslide election victory, signaling potential political reforms and an anticipated thaw in tensions with the European Union.",
         "signal": "trending for 4 days"
       },
       {
-        "headline": "Lynette Hooker Disappearance in the Bahamas",
-        "why": "A major missing person case captured sustained media attention as new developments emerged in the search for Lynette Hooker in the Bahamas.",
-        "signal": "trending for 6 days"
+        "headline": "Eric Swalwell's Exit from California Governor's Race",
+        "why": "U.S. Congressman Eric Swalwell withdrew from the California gubernatorial race following assault allegations, reshaping the state's political landscape.",
+        "signal": "trending for 3 days"
       },
       {
-        "headline": "Israeli-Lebanese Military Escalation and Ceasefire Negotiations",
-        "why": "Israel killed 13 Lebanese officers, triggering widespread grief and outrage ahead of diplomatic talks in the United States to resolve ongoing tensions.",
-        "signal": "trending for 5 days"
+        "headline": "Israeli-Lebanese Military Tensions and Casualties",
+        "why": "Israel killed 13 Lebanese military officers, triggering widespread grief and outrage ahead of planned U.S.-brokered diplomatic talks in the region.",
+        "signal": "trending for 3 days"
       }
     ]
   }

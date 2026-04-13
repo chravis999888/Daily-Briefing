@@ -57,8 +57,8 @@
     "2026-04-13": {
       "breaking": [
         {
-          "headline": "US blockade of Iran's ports begins today after Trump declares he does not want further talks",
-          "timestamp": "16 mins ago",
+          "headline": "US blockade of Iran's ports begins today as Trump states he will not pursue further talks with Iran",
+          "timestamp": "6 mins ago",
           "score": 9
         }
       ],
@@ -118,19 +118,19 @@
   "world_trends": {
     "2026-04-13": [
       "Dow futures drop 500 points after Trump announces Strait of Hormuz blockade as talks fail: Live updates - CNBC",
-      "Forint Surges as Orban\u2019s Loss Starts New Era for Hungary-EU Ties - Bloomberg.com",
+      "Hungarian opposition ousts Viktor Orb\u00e1n after 16 years in power | Hungary - The Guardian",
       "Eric Swalwell exits California governor race after sex assault allegations - Al Jazeera",
       "Trump lambasts Pope Leo XIV, extending feud over Iran war with American pontiff - NPR",
-      "Trump Weighs Limited Strikes Against Iran After Peace Talks Collapse - WSJ",
       "Inside Vance\u2019s Iran negotiations: No deal, but \u2018friendly\u2019 talks - The Washington Post",
+      "Trump Weighs Limited Strikes Against Iran After Peace Talks Collapse - WSJ",
       "Trump Fires Board That Oversees Presidio in San Francisco - The New York Times",
-      "Oil Jumps, Stocks Fall on Move to Block Hormuz: Markets Wrap - Bloomberg.com",
       "Trump Says Gas Prices Might Not Drop By Midterms, Underscoring G.O.P. Peril - The New York Times",
-      "One dead and several injured after mass shooting at Chick-fil-A in New Jersey - Gothamist",
-      "Haiti: More than 30 killed in stampede at historical fort - DW.com",
-      "Pope Leo in Africa: Pontiff prioritises world's fastest-growing Catholic region - BBC",
+      "Cuban president says he has 'no fear' of US - Politico",
+      "Stampede at Haiti\u2019s Citadelle Laferri\u00e8re Mars a Haitian Source of Pride - The New York Times",
       "Strongest storm on planet bearing down on U.S. islands in Western Pacific - San Francisco Chronicle",
-      "\u2018Everything is gone\u2019: Israel destroys entire villages in Lebanon - The Guardian",
+      "Pope Leo in Africa: Pontiff prioritises world's fastest-growing Catholic region - BBC",
+      "Ukraine war briefing: Easter truce expires as both sides accuse the other of violations - The Guardian",
+      "Oil Jumps, Stocks Fall on Move to Block Hormuz: Markets Wrap - Bloomberg.com",
       "Exclusive | McDonald\u2019s to Add Energy Drinks, Crafted Sodas to Menus - WSJ",
       "Finesse2Tymes ''2FithyRicky'' - Who Do You Think You Are ''J Prince Jr Diss''",
       "Digital Circus Ep 9 Finale [TRAILER]",
@@ -142,6 +142,7 @@
       "Invincible Season 4 Episode 7 Trailer: The Most Powerful Viltrumite",
       "The Big Weekend Show",
       "Peysoh - THE ANTHEM (Official Video)",
+      "sykkuno drama",
       "coachella headliners 2026",
       "what time does coachella end",
       "coachella 2023",
@@ -150,8 +151,7 @@
       "seattle",
       "coachella weather",
       "bernie sanders",
-      "shakira",
-      "karol.g"
+      "shakira"
     ]
   },
   "summaries": {
@@ -176,88 +176,88 @@
     "https://www.marca.com/futbol/villarreal/2026/04/13/marcelino-mentalidad-posiblemente-seremos-terceros": "Villarreal's coach Marcelino has stated that his team is unlikely to finish higher than third place in La Liga given their current mentality and approach. His comments suggest Villarreal are focused on securing a Champions League qualification spot rather than competing seriously for the title against the league's top two teams. This assessment indicates a realistic acknowledgment of the gap between Villarreal and dominant clubs like Real Madrid and Barcelona, and reflects the coach's pragmatic approach to the club's competitive position."
   },
   "article_hashes": {
-    "breaking": -1214081465596149067
+    "breaking": 386372815240539198
   },
   "world_topics_cache": {
     "today": [
       {
-        "headline": "Trump's Strait of Hormuz Blockade Announcement Triggers Market Crash",
-        "why": "Trump announced a blockade of the Strait of Hormuz as Iran peace talks collapse, causing Dow futures to drop 500 points and oil prices to spike amid fears of global energy crisis and military escalation.",
-        "signal": "[NEWS] CNBC, Bloomberg, WSJ, NYT"
+        "headline": "Trump's Strait of Hormuz Blockade Announcement Triggers Market Selloff",
+        "why": "Trump announced a blockade of the Strait of Hormuz as Iran peace talks collapsed, causing Dow futures to drop 500 points and oil prices to spike amid fears of supply disruption and military escalation.",
+        "signal": "[NEWS] CNBC, Bloomberg, WSJ; [TRENDING] multiple market-related searches"
       },
       {
-        "headline": "Trump-Pope Leo XIV Feud Escalates Over Iran War",
-        "why": "Trump publicly lambasted Pope Leo XIV, extending an unprecedented conflict between a U.S. president and the Catholic Church over military intervention in Iran, drawing international attention to the religious and diplomatic rift.",
-        "signal": "[NEWS] NPR, BBC"
-      },
-      {
-        "headline": "Israel Destroys Entire Villages in Lebanon Campaign",
-        "why": "Israeli forces have destroyed entire villages in Lebanon in an expanding military operation, marking a significant escalation in the regional conflict with major humanitarian implications.",
+        "headline": "Viktor Orb\u00e1n Ousted After 16 Years as Hungarian Opposition Wins Power",
+        "why": "Hungary's opposition parties have successfully removed Viktor Orb\u00e1n from power after his longest-serving tenure, marking a significant political shift in Central Europe.",
         "signal": "[NEWS] The Guardian"
       },
       {
-        "headline": "Hungary's Political Realignment After Orban's Electoral Loss",
-        "why": "Viktor Orban lost a major election in Hungary, triggering a significant shift in EU-Hungary relations and causing the forint to surge as markets react to the potential end of his political dominance.",
-        "signal": "[NEWS] Bloomberg"
+        "headline": "Trump's Escalating Feud with Pope Leo XIV Over Iran War",
+        "why": "Trump publicly attacked Pope Leo XIV for his position on the Iran conflict, extending a rare religious and diplomatic dispute between a U.S. president and the Catholic pontiff.",
+        "signal": "[NEWS] NPR"
       },
       {
-        "headline": "Coachella 2026 Festival Event Coverage and Anticipation",
-        "why": "Coachella 2026 is generating massive global search interest with users seeking headliner information, timing details, and weather conditions, indicating the festival is a major cultural moment this weekend.",
-        "signal": "[TRENDING] Google Trends (coachella headliners, coachella end time, coachella weather)"
+        "headline": "Eric Swalwell Exits California Governor Race Following Sex Assault Allegations",
+        "why": "U.S. Representative Eric Swalwell withdrew from the California gubernatorial race after sex assault allegations emerged, impacting the state's political landscape.",
+        "signal": "[NEWS] Al Jazeera"
+      },
+      {
+        "headline": "Major Storm System Threatens U.S. Pacific Islands",
+        "why": "The strongest storm currently on the planet is bearing down on U.S. territories in the Western Pacific, prompting emergency preparations and widespread public concern.",
+        "signal": "[NEWS] San Francisco Chronicle"
       }
     ],
     "week": [
       {
-        "headline": "Trump Administration's Iran Policy Crisis and Strait of Hormuz Blockade",
-        "why": "Multiple stories tracked Trump's escalating tensions with Iran, including failed peace talks led by Vance, threats of limited strikes, and a blockade announcement that triggered market volatility and oil price spikes.",
-        "signal": "trending for 5 days"
-      },
-      {
-        "headline": "Trump-Pope Leo XIV Conflict Over Iran War Policy",
-        "why": "Trump's public feud with the newly identified Pope Leo XIV extended into geopolitical territory, with the pontiff opposing Trump's Iran military escalation plans.",
+        "headline": "Trump administration threatens Strait of Hormuz blockade as Iran nuclear talks collapse",
+        "why": "Multiple reports across financial and political outlets covered the dramatic escalation in US-Iran tensions, market volatility triggered by potential energy disruption, and failed diplomatic negotiations.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Hungary's Election Defeat and Orban's Era Ending",
-        "why": "Orban's electoral loss triggered a significant shift in Hungary-EU relations and currency markets, with the Forint surging on expectations of policy changes.",
+        "headline": "Viktor Orb\u00e1n's 16-year rule in Hungary ends with opposition electoral victory",
+        "why": "Major European political realignment dominated international news as Hungary's long-serving prime minister was ousted from power after nearly two decades.",
+        "signal": "trending for 1 day"
+      },
+      {
+        "headline": "Eric Swalwell withdraws from California gubernatorial race following sex assault allegations",
+        "why": "High-profile political candidate's sudden exit due to serious allegations generated significant news coverage during state election cycle.",
+        "signal": "trending for 1 day"
+      },
+      {
+        "headline": "Trump escalates public feud with Pope Leo XIV over Iran military conflict",
+        "why": "Unprecedented tension between a US president and the Catholic Church leader attracted significant coverage given the geopolitical and religious significance.",
         "signal": "trending for 2 days"
       },
       {
-        "headline": "Israel's Military Operations Destroying Lebanese Villages",
-        "why": "Escalating Israeli military actions in Lebanon destroyed entire villages, representing a significant expansion of regional conflict.",
-        "signal": "trending for 2 days"
-      },
-      {
-        "headline": "Haiti Stampede Disaster at Historical Fort",
-        "why": "A mass casualty event killed over 30 people in a stampede at a historical fort site, highlighting humanitarian crisis conditions.",
+        "headline": "Easter truce in Ukraine war expires amid mutual accusations of violations",
+        "why": "The breakdown of temporary ceasefire and resumption of active conflict in Ukraine sustained international news attention throughout the reporting period.",
         "signal": "trending for 1 day"
       }
     ],
     "month": [
       {
-        "headline": "Trump Administration's Iran Policy Crisis and Strait of Hormuz Blockade",
-        "why": "Multiple reports tracked Trump's failed Iran peace negotiations, threats of limited strikes, blockade announcements, and resulting market volatility with oil prices spiking and stock futures dropping.",
+        "headline": "Trump Administration Tensions with Iran Over Strait of Hormuz Blockade",
+        "why": "Multiple reports tracked Trump's announcement of blocking the Strait of Hormuz, failed negotiations with Iran, threatened limited strikes, and resulting market volatility with oil prices spiking and stock futures dropping.",
         "signal": "trending for 8 days"
       },
       {
-        "headline": "Trump's Conflict with Pope Leo XIV Over Iran War",
-        "why": "An unusual diplomatic feud emerged between Trump and the American Pope Leo XIV regarding Iran war policy, generating coverage across major news outlets.",
+        "headline": "Viktor Orb\u00e1n's Defeat and Hungarian Opposition Victory",
+        "why": "Hungary's political earthquake dominated coverage as opposition forces successfully ousted Prime Minister Viktor Orb\u00e1n after his 16-year grip on power.",
+        "signal": "trending for 5 days"
+      },
+      {
+        "headline": "Trump's Conflict with Pope Leo XIV Over Iran War Policy",
+        "why": "An unusual diplomatic feud emerged between Trump and a new American pontiff (Pope Leo XIV) centered on disagreements over Iran war decisions, extending across multiple news cycles.",
         "signal": "trending for 4 days"
       },
       {
-        "headline": "Hungary's Political Shift: Orban's Electoral Loss and EU Relations",
-        "why": "Viktor Orban's election loss marked a significant turning point in Hungarian politics with implications for EU-Hungary relations and currency markets.",
+        "headline": "Eric Swalwell Withdraws from California Governor Race Following Sex Assault Allegations",
+        "why": "The California politician's exit from the gubernatorial race following serious allegations generated significant political news coverage.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Israel's Military Operations and Village Destruction in Lebanon",
-        "why": "Reports of Israeli military destroying entire Lebanese villages generated sustained international news coverage regarding the regional conflict.",
-        "signal": "trending for 2 days"
-      },
-      {
-        "headline": "Extreme Weather Event: Major Storm System Approaching Western Pacific U.S. Islands",
-        "why": "A record-strength storm system bearing down on U.S. Pacific territories dominated weather and disaster preparedness reporting.",
-        "signal": "trending for 2 days"
+        "headline": "Ukraine Easter Truce Ceasefire Collapse with Mutual Violation Accusations",
+        "why": "The expiration of a temporary Easter ceasefire in the Ukraine war with both sides accusing each other of violations maintained ongoing conflict coverage.",
+        "signal": "trending for 4 days"
       }
     ]
   }

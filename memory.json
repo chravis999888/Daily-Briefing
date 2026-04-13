@@ -55,56 +55,103 @@
       ]
     },
     "2026-04-13": {
-      "breaking": [],
+      "breaking": [
+        {
+          "headline": "US blockade of Iran's ports begins today after Trump declares he does not want further talks",
+          "timestamp": "16 mins ago",
+          "score": 9
+        }
+      ],
       "australia": [
         {
-          "headline": "Albanese appoints new Australian Defence Force chief",
-          "timestamp": "1 hr ago",
+          "headline": "Prime Minister Albanese appoints new Australian Defence Force Chief",
+          "timestamp": "3 hrs ago",
           "score": 7
         }
       ],
       "archaeology": [],
-      "football": []
+      "football": [
+        {
+          "headline": "Manchester City beat Chelsea 3-0 at Stamford Bridge to close gap on Premier League leaders Arsenal",
+          "timestamp": "13 hrs ago",
+          "score": 9
+        },
+        {
+          "headline": "Sunderland beat Tottenham 1-0 to leave De Zerbi's side mired in poor form and deeper into trouble",
+          "timestamp": "16 hrs ago",
+          "score": 7
+        },
+        {
+          "headline": "Neco Williams goal earns Nottingham Forest a 1-1 draw with Aston Villa to boost the club's Premier League survival hopes",
+          "timestamp": "16 hrs ago",
+          "score": 7
+        },
+        {
+          "headline": "Liverpool beat Fulham 2-0 to maintain pressure at the top of the Premier League",
+          "timestamp": "yesterday",
+          "score": 7
+        },
+        {
+          "headline": "Valencia drop to three points above the La Liga relegation zone after a disastrous matchday result",
+          "timestamp": "2026-04-12T18:00:00Z",
+          "score": 7
+        },
+        {
+          "headline": "Jean-Philippe Mateta penalty gives Crystal Palace a 2-1 comeback win over Newcastle United",
+          "timestamp": "16 hrs ago",
+          "score": 6
+        },
+        {
+          "headline": "Vedat Muriqi reaches 55 goals for Mallorca as coach Demichelis praises the striker's humility",
+          "timestamp": "2026-04-12T18:00:00Z",
+          "score": 6
+        },
+        {
+          "headline": "Villarreal coach Marcelino says third place is the likely ceiling for his side given current mentality",
+          "timestamp": "2026-04-13T09:00:00Z",
+          "score": 5
+        }
+      ]
     }
   },
   "developing": {},
   "world_trends": {
     "2026-04-13": [
-      "Middle East crisis live: Iran warns US blockade of strait of Hormuz would violate ceasefire - The Guardian",
-      "Who Is Peter Magyar, the Man Who Toppled Hungary\u2019s Orban - The New York Times",
+      "Dow futures drop 500 points after Trump announces Strait of Hormuz blockade as talks fail: Live updates - CNBC",
+      "Forint Surges as Orban\u2019s Loss Starts New Era for Hungary-EU Ties - Bloomberg.com",
       "Eric Swalwell exits California governor race after sex assault allegations - Al Jazeera",
-      "Inside Vance\u2019s Iran negotiations: No deal, but \u2018friendly\u2019 talks - The Washington Post",
       "Trump lambasts Pope Leo XIV, extending feud over Iran war with American pontiff - NPR",
-      "Strongest storm on planet bearing down on U.S. islands in Western Pacific - San Francisco Chronicle",
-      "Trump Fires Board That Oversees Presidio in San Francisco - The New York Times",
       "Trump Weighs Limited Strikes Against Iran After Peace Talks Collapse - WSJ",
-      "Oil prices surge on blockade vow, failed U.S.-Iran talks - Axios",
+      "Inside Vance\u2019s Iran negotiations: No deal, but \u2018friendly\u2019 talks - The Washington Post",
+      "Trump Fires Board That Oversees Presidio in San Francisco - The New York Times",
+      "Oil Jumps, Stocks Fall on Move to Block Hormuz: Markets Wrap - Bloomberg.com",
       "Trump Says Gas Prices Might Not Drop By Midterms, Underscoring G.O.P. Peril - The New York Times",
-      "At least 30 dead in stampede at Haiti\u2019s historic Citadelle Laferriere - Al Jazeera",
-      "Spanish premier urges China to take bigger role in multipolar order - Reuters",
+      "One dead and several injured after mass shooting at Chick-fil-A in New Jersey - Gothamist",
+      "Haiti: More than 30 killed in stampede at historical fort - DW.com",
       "Pope Leo in Africa: Pontiff prioritises world's fastest-growing Catholic region - BBC",
+      "Strongest storm on planet bearing down on U.S. islands in Western Pacific - San Francisco Chronicle",
       "\u2018Everything is gone\u2019: Israel destroys entire villages in Lebanon - The Guardian",
-      "JBS Reaches Labor Deal With Striking Meatpacking Workers - WSJ",
+      "Exclusive | McDonald\u2019s to Add Energy Drinks, Crafted Sodas to Menus - WSJ",
       "Finesse2Tymes ''2FithyRicky'' - Who Do You Think You Are ''J Prince Jr Diss''",
       "Digital Circus Ep 9 Finale [TRAILER]",
       "Live From the Masters",
       "Sunset en la Sanse - MT Manuel Turizo x D\u00e1lmata | Video Oficial",
       "Euphoria Season 3 \"This Season On\" Trailer (HD) HBO Zendaya series",
-      "The Big Weekend Show",
+      "Food City 500",
       "DeeBaby - Merry Go Round / Arm & a Leg ( OFFICIAL MUSIC VIDEO )",
       "Invincible Season 4 Episode 7 Trailer: The Most Powerful Viltrumite",
-      "Bristol",
+      "The Big Weekend Show",
       "Peysoh - THE ANTHEM (Official Video)",
-      "supriya ganesh leaving the pitt",
-      "fin affleck",
-      "subtronics coachella",
-      "montana",
-      "dominic fike",
-      "sensex",
-      "hunter schafer",
-      "alfredo adame",
-      "jaylen petty",
-      "rich eisen"
+      "coachella headliners 2026",
+      "what time does coachella end",
+      "coachella 2023",
+      "anuel aa",
+      "colombia",
+      "seattle",
+      "coachella weather",
+      "bernie sanders",
+      "shakira",
+      "karol.g"
     ]
   },
   "summaries": {
@@ -124,7 +171,9 @@
     "https://www.abc.net.au/news/2026-04-13/albanese-names-new-defence-force-chief/106558194": "Prime Minister Albanese has appointed Vice Admiral Mark Hammond as the new chief of the Australian Defence Force, replacing David Johnston who is retiring in July. Hammond brings 40 years of naval experience to the role. The appointment is significant because the ADF chief sets military strategy and leadership during a period of increased tensions in the Asia-Pacific region and ongoing major defence commitments, particularly through the AUKUS alliance framework with the US and UK.",
     "https://www.marca.com/futbol/valencia/2026/04/12/valencia-desploma-tres-puntos-descenso-jornada-nefasta": "Valencia suffered a significant defeat that dropped them to just three points above La Liga's relegation zone, intensifying their battle for survival in Spain's top division. With few matches remaining in the season, the club's position has become critically unstable, as they can no longer afford poor results if they want to avoid being demoted to the second tier. This loss highlights Valencia's struggles this season and suggests they may be headed for relegation unless they mount an immediate turnaround. The result is particularly concerning given the limited opportunities left to accumulate the points needed to guarantee safety.",
     "https://www.marca.com/futbol/mallorca/2026/04/12/demichelis-55-goles-muriqi-reflejan-humildad": "Vedat Muriqi, the striker for Mallorca, has reached 55 goals in La Liga according to coach Demichelis following his performance in their latest match. This milestone represents an exceptional individual achievement that places Muriqi among the league's top scorers and puts him in contention for the Golden Boot award. The tally demonstrates his significance as a key player for Mallorca and highlights his impact on the team's competitive standing this season. His scoring consistency and goal-scoring prowess have established him as one of La Liga's most productive forwards.",
-    "https://www.marca.com/futbol/villarreal/2026/04/13/marcelino-mentalidad-posiblemente-seremos-terceros.html": "Villarreal coach Marcelino has stated that his team's current mentality and performance level will likely result in a third-place finish in La Liga this season. The coach's comments suggest he views third place as a realistic ceiling for the club's ambitions in the current campaign. This matters because it indicates Villarreal will secure a Champions League spot for next season, but the manager appears to be managing expectations about competing for the title or even the second-place finish. Marcelino praised his team's first-half performance while making these realistic assessments about their final positioning."
+    "https://www.marca.com/futbol/villarreal/2026/04/13/marcelino-mentalidad-posiblemente-seremos-terceros.html": "Villarreal coach Marcelino has stated that his team's current mentality and performance level will likely result in a third-place finish in La Liga this season. The coach's comments suggest he views third place as a realistic ceiling for the club's ambitions in the current campaign. This matters because it indicates Villarreal will secure a Champions League spot for next season, but the manager appears to be managing expectations about competing for the title or even the second-place finish. Marcelino praised his team's first-half performance while making these realistic assessments about their final positioning.",
+    "https://www.theguardian.com/world/live/2026/apr/13/iran-war-live-news-ceasefire-peace-talks-us-trump-strait-hormuz-blockade-middle-east-crisis-latest-updates": "The article's headline describes a US blockade of Iranian ports beginning after Trump declares he won't pursue further talks, but the article content primarily focuses on Trump criticizing Pope Leo XIV rather than detailing the blockade itself. According to the provided context, the blockade represents a significant military escalation that could obstruct the Strait of Hormuz, through which about 20% of global oil supplies pass, potentially driving up oil prices and risking direct military conflict. This move marks a departure from previous measures like sanctions or airstrikes, indicating a hardening of US policy toward Iran under Trump's administration.",
+    "https://www.marca.com/futbol/villarreal/2026/04/13/marcelino-mentalidad-posiblemente-seremos-terceros": "Villarreal's coach Marcelino has stated that his team is unlikely to finish higher than third place in La Liga given their current mentality and approach. His comments suggest Villarreal are focused on securing a Champions League qualification spot rather than competing seriously for the title against the league's top two teams. This assessment indicates a realistic acknowledgment of the gap between Villarreal and dominant clubs like Real Madrid and Barcelona, and reflects the coach's pragmatic approach to the club's competitive position."
   },
   "article_hashes": {
     "breaking": -1214081465596149067
@@ -132,83 +181,83 @@
   "world_topics_cache": {
     "today": [
       {
-        "headline": "Iran-US tensions escalate as ceasefire collapses and Trump considers military strikes",
-        "why": "Multiple reports indicate failed U.S.-Iran peace negotiations, Iranian threats to blockade the Strait of Hormuz, oil price surges, and Trump's consideration of limited military action against Iran, creating a major geopolitical crisis.",
-        "signal": "[NEWS] Multiple outlets including Guardian, Washington Post, WSJ, NPR covering Iran blockade warnings, failed negotiations, potential strikes, and oil market impacts"
+        "headline": "Trump's Strait of Hormuz Blockade Announcement Triggers Market Crash",
+        "why": "Trump announced a blockade of the Strait of Hormuz as Iran peace talks collapse, causing Dow futures to drop 500 points and oil prices to spike amid fears of global energy crisis and military escalation.",
+        "signal": "[NEWS] CNBC, Bloomberg, WSJ, NYT"
       },
       {
-        "headline": "Trump administration removes San Francisco Presidio board and escalates feud with Pope Leo XIV over Iran policy",
-        "why": "Trump is firing a federal board overseeing a major San Francisco landmark while simultaneously feuding publicly with the Pope over the Iran conflict, reflecting deep institutional and diplomatic tensions.",
-        "signal": "[NEWS] New York Times reporting on Presidio board firing; NPR reporting Trump's attacks on Pope Leo XIV"
+        "headline": "Trump-Pope Leo XIV Feud Escalates Over Iran War",
+        "why": "Trump publicly lambasted Pope Leo XIV, extending an unprecedented conflict between a U.S. president and the Catholic Church over military intervention in Iran, drawing international attention to the religious and diplomatic rift.",
+        "signal": "[NEWS] NPR, BBC"
       },
       {
-        "headline": "Peter Magyar's political uprising topples Hungary's Viktor Orban",
-        "why": "A major Central European political shift is occurring with Magyar successfully challenging Orban's long-standing authoritarian government, representing significant democratic change in the region.",
-        "signal": "[NEWS] New York Times featuring prominent coverage of Magyar's victory over Orban"
+        "headline": "Israel Destroys Entire Villages in Lebanon Campaign",
+        "why": "Israeli forces have destroyed entire villages in Lebanon in an expanding military operation, marking a significant escalation in the regional conflict with major humanitarian implications.",
+        "signal": "[NEWS] The Guardian"
       },
       {
-        "headline": "Catastrophic stampede kills 30+ at Haiti's Citadelle Laferriere historic site",
-        "why": "A major mass casualty event at an important cultural landmark is drawing urgent international attention and raising questions about safety and crowd management in Haiti.",
-        "signal": "[NEWS] Al Jazeera reporting at least 30 deaths in stampede at historic Citadelle Laferriere"
+        "headline": "Hungary's Political Realignment After Orban's Electoral Loss",
+        "why": "Viktor Orban lost a major election in Hungary, triggering a significant shift in EU-Hungary relations and causing the forint to surge as markets react to the potential end of his political dominance.",
+        "signal": "[NEWS] Bloomberg"
       },
       {
-        "headline": "Eric Swalwell withdraws from California governor race following sex assault allegations",
-        "why": "A major U.S. political candidate is exiting a high-profile gubernatorial race due to serious personal misconduct allegations, affecting California's political landscape.",
-        "signal": "[NEWS] Al Jazeera reporting Swalwell's exit from governor race"
+        "headline": "Coachella 2026 Festival Event Coverage and Anticipation",
+        "why": "Coachella 2026 is generating massive global search interest with users seeking headliner information, timing details, and weather conditions, indicating the festival is a major cultural moment this weekend.",
+        "signal": "[TRENDING] Google Trends (coachella headliners, coachella end time, coachella weather)"
       }
     ],
     "week": [
       {
-        "headline": "US-Iran tensions over Strait of Hormuz blockade and failed peace negotiations",
-        "why": "Escalating diplomatic crisis dominated headlines as Iran threatened to blockade the Strait of Hormuz, peace talks collapsed, and Trump considered military strikes while oil prices surged.",
-        "signal": "trending for 6 days"
+        "headline": "Trump Administration's Iran Policy Crisis and Strait of Hormuz Blockade",
+        "why": "Multiple stories tracked Trump's escalating tensions with Iran, including failed peace talks led by Vance, threats of limited strikes, and a blockade announcement that triggered market volatility and oil price spikes.",
+        "signal": "trending for 5 days"
       },
       {
-        "headline": "Israeli military operations destroying villages in Lebanon",
-        "why": "Major regional conflict story with reports of large-scale destruction of Lebanese villages by Israeli forces received sustained international news coverage.",
+        "headline": "Trump-Pope Leo XIV Conflict Over Iran War Policy",
+        "why": "Trump's public feud with the newly identified Pope Leo XIV extended into geopolitical territory, with the pontiff opposing Trump's Iran military escalation plans.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Peter Magyar's challenge to Viktor Orban's political dominance in Hungary",
-        "why": "High-profile Eastern European political story about the emergence of a figure toppling Hungary's long-ruling prime minister captured global media attention.",
+        "headline": "Hungary's Election Defeat and Orban's Era Ending",
+        "why": "Orban's electoral loss triggered a significant shift in Hungary-EU relations and currency markets, with the Forint surging on expectations of policy changes.",
         "signal": "trending for 2 days"
       },
       {
-        "headline": "Pope Leo XIV's diplomatic engagement in Africa and feud with Trump over Iran policy",
-        "why": "Unusual dual storyline combining the pontiff's African tour with an unprecedented public conflict with the US administration over international relations and war.",
-        "signal": "trending for 3 days"
+        "headline": "Israel's Military Operations Destroying Lebanese Villages",
+        "why": "Escalating Israeli military actions in Lebanon destroyed entire villages, representing a significant expansion of regional conflict.",
+        "signal": "trending for 2 days"
       },
       {
-        "headline": "JBS meatpacking labor strike resolution",
-        "why": "Major labor agreement at one of the world's largest protein production companies ended a significant worker strike affecting food supply chains.",
-        "signal": "trending for 2 days"
+        "headline": "Haiti Stampede Disaster at Historical Fort",
+        "why": "A mass casualty event killed over 30 people in a stampede at a historical fort site, highlighting humanitarian crisis conditions.",
+        "signal": "trending for 1 day"
       }
     ],
     "month": [
       {
-        "headline": "U.S.-Iran tensions and failed peace negotiations",
-        "why": "Multiple reports tracked escalating rhetoric between Trump administration and Iran, including failed ceasefire talks, threats of military strikes, blockade warnings, and oil price impacts.",
+        "headline": "Trump Administration's Iran Policy Crisis and Strait of Hormuz Blockade",
+        "why": "Multiple reports tracked Trump's failed Iran peace negotiations, threats of limited strikes, blockade announcements, and resulting market volatility with oil prices spiking and stock futures dropping.",
         "signal": "trending for 8 days"
       },
       {
-        "headline": "Peter Magyar's challenge to Viktor Orban in Hungary",
-        "why": "Magyar emerged as a significant political figure toppling Hungary's long-standing Prime Minister Orban, representing a major shift in Central European politics.",
+        "headline": "Trump's Conflict with Pope Leo XIV Over Iran War",
+        "why": "An unusual diplomatic feud emerged between Trump and the American Pope Leo XIV regarding Iran war policy, generating coverage across major news outlets.",
+        "signal": "trending for 4 days"
+      },
+      {
+        "headline": "Hungary's Political Shift: Orban's Electoral Loss and EU Relations",
+        "why": "Viktor Orban's election loss marked a significant turning point in Hungarian politics with implications for EU-Hungary relations and currency markets.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Israel's military operations destroying Lebanese villages",
-        "why": "Escalating Israeli military campaign in Lebanon resulted in widespread destruction and civilian displacement, becoming a major humanitarian crisis story.",
+        "headline": "Israel's Military Operations and Village Destruction in Lebanon",
+        "why": "Reports of Israeli military destroying entire Lebanese villages generated sustained international news coverage regarding the regional conflict.",
         "signal": "trending for 2 days"
       },
       {
-        "headline": "Trump's removal of Presidio oversight board in San Francisco",
-        "why": "Trump administration's targeted action against a specific federal board governing a major San Francisco landmark reflected broader governance disputes.",
+        "headline": "Extreme Weather Event: Major Storm System Approaching Western Pacific U.S. Islands",
+        "why": "A record-strength storm system bearing down on U.S. Pacific territories dominated weather and disaster preparedness reporting.",
         "signal": "trending for 2 days"
-      },
-      {
-        "headline": "JBS meatpacking labor strike resolution",
-        "why": "Major labor agreement with striking workers at JBS, one of the world's largest meat processing companies, resolved significant supply chain labor dispute.",
-        "signal": "trending for 1 day"
       }
     ]
   }

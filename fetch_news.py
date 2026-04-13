@@ -1859,6 +1859,8 @@ def main():
         world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []}) if RUN_CATEGORY != "world_topics" else world_topics
         yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
         developing_situations = process_developing_situations(pinned, [], [])
+        if RUN_CATEGORY in ("breaking", "australia", "archaeology", "football"):
+            memory = save_today_stories(memory, RUN_CATEGORY, result)
         save_memory(memory)
         Path("dist").mkdir(exist_ok=True)
         with open("dist/index.html", "w", encoding="utf-8") as f:

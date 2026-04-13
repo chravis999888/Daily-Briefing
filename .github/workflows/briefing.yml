@@ -7,9 +7,13 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Run mode'
+        description: 'Run mode (full, breaking_only, category)'
         required: false
         default: 'full'
+      category:
+        description: 'Category to refresh (australia, archaeology, football, world_topics)'
+        required: false
+        default: ''
 
 jobs:
   build:
@@ -31,7 +35,8 @@ jobs:
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
           GUARDIAN_API_KEY: ${{ secrets.GUARDIAN_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          RUN_MODE: ${{ github.event.schedule == '*/30 * * * *' && 'breaking_only' || 'full' }}
+          RUN_MODE: ${{ github.event.inputs.mode || (github.event.schedule == '*/30 * * * *' && 'breaking_only' || 'full') }}
+          RUN_CATEGORY: ${{ github.event.inputs.category || '' }}
         run: python fetch_news.py
 
       - name: Commit memory file
@@ -43,11 +48,15 @@ jobs:
           git push || true
 
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v2.0
-        with:
-          publish-dir: './dist'
-          production-branch: main
-          production-deploy: true
+        run: |
+          cd dist
+          zip -r ../dist.zip .
+          cd ..
+          curl -X POST \
+            -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+            -H "Content-Type: application/zip" \
+            --data-binary @dist.zip \
+            "https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID/deploys"
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

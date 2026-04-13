@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Run mode (full, breaking_only, category)'
+        description: 'Run mode (full, breaking_only, category, deploy_only)'
         required: false
         default: 'full'
       category:

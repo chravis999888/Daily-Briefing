@@ -1737,6 +1737,18 @@ def main():
     memory = load_memory()
     pinned = load_pinned()
 
+    if RUN_MODE == "deploy_only":
+        print("Deploy-only run — rebuilding HTML from cache, zero API calls.")
+        all_data = {cat: get_cached_category(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
+        yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
+        world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []})
+        developing_situations = process_developing_situations(pinned, [], [])
+        Path("dist").mkdir(exist_ok=True)
+        with open("dist/index.html", "w", encoding="utf-8") as f:
+            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+        print("Done. dist/index.html written from cache.")
+        return
+
     if RUN_MODE == "breaking_only":
         print("Breaking-only run...")
         gdelt_breaking = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="2h", max_records=25)

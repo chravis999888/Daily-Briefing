@@ -9,6 +9,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 MOCK_MODE = False
 RUN_MODE = os.environ.get("RUN_MODE", "full")
+RUN_CATEGORY = os.environ.get("RUN_CATEGORY", "")
 
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 NEWSDATA_KEY = os.environ.get("NEWSDATA_API_KEY", "")
@@ -138,6 +139,47 @@ def save_summary(memory, url, summary):
         for k in keys[:-500]:
             del memory["summaries"][k]
     return memory
+
+def find_related_cached_stories(memory, topic, days=7):
+    """Check memory for stories related to this topic before firing web search."""
+    cutoff = (datetime.now(AEST) - timedelta(days=days)).strftime("%Y-%m-%d")
+    all_cached = []
+    for date, cats in memory.get("stories", {}).items():
+        if date < cutoff:
+            continue
+        for cat, stories in cats.items():
+            for s in stories:
+                all_cached.append(s)
+
+    if not all_cached:
+        return None
+
+    formatted = "\n".join([f"- {s.get('headline', '')}" for s in all_cached[:50]])
+    prompt = f"""Topic: "{topic}"
+
+Recent cached headlines:
+{formatted}
+
+Which of these headlines are directly related to the same story or situation as the topic above? Return only the matching headlines as a JSON array of strings. If none match, return [].
+Raw JSON only."""
+
+    text = call_haiku(prompt, 400)
+    try:
+        matches = json.loads(text.replace("```json","").replace("```","").strip())
+        if matches and len(matches) > 0:
+            sources = []
+            for match in matches[:4]:
+                for date, cats in memory.get("stories", {}).items():
+                    for cat, stories in cats.items():
+                        for s in stories:
+                            if s.get("headline","")[:50] == match[:50]:
+                                url = next((a.get("url","") for a in s.get("articles",[]) if a.get("url","")), "")
+                                if url:
+                                    sources.append({"title": match, "source": "Previously covered", "url": url})
+            return sources if sources else None
+    except:
+        return None
+    return None
 
 def save_trend_topics(memory, topics):
     today = datetime.now(AEST).strftime("%Y-%m-%d")
@@ -553,6 +595,10 @@ Identify the 5 most significant topics people are talking about globally today. 
 - Write one sentence explaining why people are paying attention right now
 - Note which sources it appeared in
 
+IMPORTANT: Each topic must be a specific named event, person, situation or story — not a generic category.
+REJECT topics like: "entertainment news", "sports content", "trending videos", "music releases", "gaming content", "lifestyle news".
+ONLY include: named conflicts, named people, named events, specific political situations, specific technological developments.
+
 Return ONLY a JSON array:
 [{{"headline":"...","why":"...","signal":"..."}}]
 Raw JSON only, no markdown."""
@@ -567,6 +613,9 @@ Raw JSON only, no markdown."""
     # WEEK and MONTH — from memory
     results["week"] = aggregate_trend_memory(memory, 7)
     results["month"] = aggregate_trend_memory(memory, 30)
+
+    # Cache results so category-only runs can retrieve them
+    memory["world_topics_cache"] = results
 
     return results, memory
 
@@ -591,6 +640,10 @@ Cluster them into the top 5 distinct topics that dominated this {period}. For ea
 - Write a clean canonical topic label
 - Write one sentence on why it dominated
 - Note roughly how many days it appeared
+
+IMPORTANT: Each topic must be a specific named event, person, situation or story — not a generic category.
+REJECT topics like: "entertainment news", "sports content", "trending videos", "music releases", "gaming content", "lifestyle news".
+ONLY include: named conflicts, named people, named events, specific political situations, specific technological developments.
 
 Return ONLY a JSON array:
 [{{"headline":"...","why":"...","signal":"trending for X days"}}]
@@ -639,15 +692,19 @@ Raw JSON only, no markdown."""
     try:
         updates = json.loads(text.replace("```json","").replace("```","").strip())
     except:
-        return []
+        updates = []
 
-    for u in updates:
-        topic = u.get("topic","")
-        situation_type = next((t["type"] for t in all_topics if t["topic"].lower() == topic.lower()), "auto")
+    # Index Claude's output by topic for lookup
+    updates_by_topic = {u.get("topic","").lower(): u for u in updates}
+
+    # Always include every tracked topic — pinned ones especially must always appear
+    for t in all_topics:
+        topic = t["topic"]
+        u = updates_by_topic.get(topic.lower(), {})
         situations.append({
             "topic": topic,
-            "type": situation_type,
-            "update": u.get("update",""),
+            "type": t["type"],
+            "update": u.get("update", "No significant updates today."),
             "has_update": u.get("has_update", False),
             "articles": u.get("articles", [])
         })
@@ -699,17 +756,23 @@ Raw JSON only, no markdown."""
         context = ""
         if story.get("deeper_search") or story.get("so_what"):
             search_q = story.get("so_what") or story["headline"]
-            search_prompt = f"""Search for latest news and context about: "{search_q}"
+            cached_sources = find_related_cached_stories(memory, search_q)
+            if cached_sources:
+                print(f"Using cached context for: {search_q}")
+                articles_list = cached_sources
+                context = story.get("so_what","")
+            else:
+                search_prompt = f"""Search for latest news and context about: "{search_q}"
 Return ONLY JSON array of up to 5 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-            search_text = call_sonnet_with_search(search_prompt, 800)
-            try:
-                extra = json.loads(search_text.replace("```json","").replace("```","").strip())
-                articles_list = extra
-                context = story.get("so_what","")
-            except:
-                pass
+                search_text = call_sonnet_with_search(search_prompt, 800)
+                try:
+                    extra = json.loads(search_text.replace("```json","").replace("```","").strip())
+                    articles_list = extra
+                    context = story.get("so_what","")
+                except:
+                    pass
         ts = relative_time(orig.get("time","")) or story.get("timestamp","")
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
@@ -775,27 +838,37 @@ Raw JSON only, no markdown."""
         articles_list = [{"title": orig.get("title",""), "source": story.get("source",""), "url": story.get("url","")}]
         context = story.get("so_what","")
         if context:
-            search_prompt = f"""Search for context on: "{context}"
+            cached_sources = find_related_cached_stories(memory, context)
+            if cached_sources:
+                print(f"Using cached context for: {context}")
+                articles_list = articles_list + cached_sources
+            else:
+                search_prompt = f"""Search for context on: "{context}"
 Return ONLY JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-            search_text = call_haiku_with_search(search_prompt, 600)
-            try:
-                extra = json.loads(search_text.replace("```json","").replace("```","").strip())
-                articles_list = articles_list + extra
-            except:
-                pass
+                search_text = call_haiku_with_search(search_prompt, 600)
+                try:
+                    extra = json.loads(search_text.replace("```json","").replace("```","").strip())
+                    articles_list = articles_list + extra
+                except:
+                    pass
         if story.get("deeper_search") and context:
-            search_prompt = f"""Search for context on: "{context}"
+            cached_sources = find_related_cached_stories(memory, context)
+            if cached_sources:
+                print(f"Using cached context (deeper) for: {context}")
+                articles_list = articles_list + cached_sources
+            else:
+                search_prompt = f"""Search for context on: "{context}"
 Return ONLY JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-            search_text = call_haiku_with_search(search_prompt, 600)
-            try:
-                extra = json.loads(search_text.replace("```json","").replace("```","").strip())
-                articles_list = articles_list + extra
-            except:
-                pass
+                search_text = call_haiku_with_search(search_prompt, 600)
+                try:
+                    extra = json.loads(search_text.replace("```json","").replace("```","").strip())
+                    articles_list = articles_list + extra
+                except:
+                    pass
         ts = relative_time(orig.get("time","")) or story.get("timestamp","")
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
@@ -901,28 +974,39 @@ Raw JSON only, no markdown."""
         articles_list = [{"title": orig.get("title",""), "source": story.get("source","The Guardian"), "url": story.get("url","")}]
         context = story.get("so_what","")
         if context:
-            search_prompt = f"""Search for context on: "{context}"
-Return ONLY JSON array of up to 3 articles:
-[{{"title":"...","source":"...","url":"https://..."}}]
-Raw JSON only."""
-            search_text = call_haiku_with_search(search_prompt, 600)
-            try:
-                extra = json.loads(search_text.replace("```json","").replace("```","").strip())
-                articles_list = articles_list + extra
+            cached_sources = find_related_cached_stories(memory, context)
+            if cached_sources:
+                print(f"Using cached context for: {context}")
+                articles_list = articles_list + cached_sources
                 context = story["so_what"]
-            except:
-                pass
-        if story.get("deeper_search") and context:
-            search_prompt = f"""Search for context on: "{context}"
+            else:
+                search_prompt = f"""Search for context on: "{context}"
 Return ONLY JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-            search_text = call_haiku_with_search(search_prompt, 600)
-            try:
-                extra = json.loads(search_text.replace("```json","").replace("```","").strip())
-                articles_list = articles_list + extra
-            except:
-                pass
+                search_text = call_haiku_with_search(search_prompt, 600)
+                try:
+                    extra = json.loads(search_text.replace("```json","").replace("```","").strip())
+                    articles_list = articles_list + extra
+                    context = story["so_what"]
+                except:
+                    pass
+        if story.get("deeper_search") and context:
+            cached_sources = find_related_cached_stories(memory, context)
+            if cached_sources:
+                print(f"Using cached context (deeper) for: {context}")
+                articles_list = articles_list + cached_sources
+            else:
+                search_prompt = f"""Search for context on: "{context}"
+Return ONLY JSON array of up to 3 articles:
+[{{"title":"...","source":"...","url":"https://..."}}]
+Raw JSON only."""
+                search_text = call_haiku_with_search(search_prompt, 600)
+                try:
+                    extra = json.loads(search_text.replace("```json","").replace("```","").strip())
+                    articles_list = articles_list + extra
+                except:
+                    pass
         ts = relative_time(orig.get("time","")) or story.get("timestamp","")
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
@@ -1020,6 +1104,7 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
     <div style="display:flex;align-items:center;gap:10px;">
       <div style="width:3px;height:24px;border-radius:2px;background:#7b68c8;flex-shrink:0;"></div>
       <div style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:500;letter-spacing:-0.01em;">What the world is talking about</div>
+      <button id="refresh-world_topics" onclick="triggerCategoryRefresh('world_topics')" title="Refresh World Topics" style="background:none;border:none;cursor:pointer;padding:4px;color:#2a2a28;font-size:13px;flex-shrink:0;line-height:1;transition:color 0.15s;display:none;" onmouseover="this.style.color='#6e6b64'" onmouseout="this.style.color='#2a2a28'">↻</button>
     </div>
     <div style="display:flex;gap:4px;">{tabs_html}</div>
   </div>
@@ -1028,10 +1113,10 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
 
     # Developing situations section
     def render_developing():
-        if not developing_situations:
-            return ""
         ac = ACCENTS["developing"]
         items_html = ""
+        if not developing_situations:
+            items_html = '<p style="font-size:13px;line-height:1.7;color:#8a8680;font-style:italic;padding:1rem 0;">No situations being tracked. Star a story to start tracking.</p>'
         for s in developing_situations:
             badge = f'<span style="font-size:10px;padding:2px 8px;border-radius:999px;background:{"rgba(42,122,110,0.2)" if s["type"]=="auto" else "rgba(123,104,200,0.2)"};color:{"#4aaa99" if s["type"]=="auto" else "#b8b0e8"};margin-left:8px;vertical-align:middle;">{"auto" if s["type"]=="auto" else "pinned"}</span>'
             arts = s.get("articles",[])
@@ -1113,6 +1198,7 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
     <div style="display:flex;align-items:center;gap:10px;">
       <div style="width:3px;height:24px;border-radius:2px;background:{ac_b};flex-shrink:0;"></div>
       <div style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:500;letter-spacing:-0.01em;">Breaking News</div>
+      <button id="refresh-breaking" onclick="triggerCategoryRefresh('breaking')" title="Refresh Breaking News" style="background:none;border:none;cursor:pointer;padding:4px;color:#2a2a28;font-size:13px;flex-shrink:0;line-height:1;transition:color 0.15s;display:none;" onmouseover="this.style.color='#6e6b64'" onmouseout="this.style.color='#2a2a28'">↻</button>
     </div>
     <span style="font-size:11px;color:#2a2a28;">Updated {updated_str}</span>
   </div>
@@ -1144,10 +1230,12 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations):
                 fake = {"headline": s["headline"], "timestamp": "yesterday", "score": s.get("score",5), "summary": "", "articles": []}
                 yest_html += render_story(fake, i, ac, is_yesterday=True)
             yest_html += "</div>"
+        refresh_btn = f'<button id="refresh-{cat["id"]}" onclick="triggerCategoryRefresh(\'{cat["id"]}\')" title="Refresh {cat["label"]}" style="background:none;border:none;cursor:pointer;padding:4px;color:#2a2a28;font-size:12px;flex-shrink:0;line-height:1;transition:color 0.15s;display:none;" onmouseover="this.style.color=\'#6e6b64\'" onmouseout="this.style.color=\'#2a2a28\'">↻</button>'
         cols_html += f'''<div style="min-width:0;">
   <div style="display:flex;align-items:center;gap:10px;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
     <div style="width:3px;height:22px;border-radius:2px;background:{ac};flex-shrink:0;"></div>
     <div style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:500;letter-spacing:-0.01em;">{cat["label"]}</div>
+    {refresh_btn}
   </div>
   {s_html}
   {yest_html}
@@ -1379,6 +1467,33 @@ function switchTab(label){{
       tab.style.fontWeight = l===label?'500':'400';
     }}
   }});
+}}
+
+// ── Category refresh ──
+function triggerCategoryRefresh(category) {{
+  if (!ghToken) {{
+    var tok = prompt("Enter your GitHub Personal Access Token to enable refresh:\\n(One-time setup — stored locally in your browser)");
+    if (!tok) return;
+    ghToken = tok.trim();
+    localStorage.setItem("gh_token", ghToken);
+  }}
+  var btn = document.getElementById("refresh-" + category);
+  if (btn) btn.textContent = "…";
+  fetch("https://api.github.com/repos/" + GITHUB_REPO + "/actions/workflows/briefing.yml/dispatches", {{
+    method: "POST",
+    headers: {{ "Authorization": "Bearer " + ghToken, "Accept": "application/vnd.github+json", "Content-Type": "application/json" }},
+    body: JSON.stringify({{ ref: "main", inputs: {{ mode: "category", category: category }} }})
+  }})
+  .then(function(r) {{
+    if (btn) btn.textContent = r.ok ? "✓" : "✗";
+    setTimeout(function() {{ if (btn) btn.textContent = "↻"; }}, 3000);
+  }})
+  .catch(function() {{ if (btn) {{ btn.textContent = "✗"; setTimeout(function() {{ btn.textContent = "↻"; }}, 3000); }} }});
+}}
+
+// Show refresh buttons if token is set
+if (ghToken) {{
+  document.querySelectorAll('[id^="refresh-"]').forEach(function(btn) {{ btn.style.display = "inline-block"; }});
 }}
 
 // ── Auto-refresh ──
@@ -1653,6 +1768,90 @@ def main():
         with open("dist/index.html", "w", encoding="utf-8") as f:
             f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
         print("Done. dist/index.html written.")
+        return
+
+    elif RUN_MODE == "category" and RUN_CATEGORY:
+        print(f"Category-only run: {RUN_CATEGORY}...")
+
+        if RUN_CATEGORY == "football":
+            guardian_football = fetch_guardian("premier league OR la liga OR serie a OR bundesliga OR ligue 1 OR champions league", page_size=15, section="football")
+            marca_rss = fetch_rss("https://e00-marca.uecdn.es/rss/futbol/primera-division.xml", "Marca")
+            kicker_rss = fetch_rss("https://newsfeed.kicker.de/news/fussball", "Kicker")
+            lequipe_rss = fetch_rss("https://www.lequipe.fr/rss/actu_rss_Football.xml", "L'Equipe")
+            gazzetta_rss = fetch_rss("https://www.gazzetta.it/rss/home.xml", "Gazzetta dello Sport")
+            sky_rss = fetch_rss("https://www.skysports.com/rss/12040", "Sky Sports")
+            articles = guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss
+            if category_has_changed(memory, "football", articles):
+                result, memory = process_football(articles, memory)
+                memory = save_article_hash(memory, "football", articles)
+            else:
+                print("Football: no new articles, skipping")
+                result = get_cached_category(memory, "football")
+            all_data = {
+                "breaking": get_cached_category(memory, "breaking"),
+                "australia": get_cached_category(memory, "australia"),
+                "archaeology": get_cached_category(memory, "archaeology"),
+                "football": result
+            }
+
+        elif RUN_CATEGORY == "australia":
+            abc_rss = fetch_rss("https://www.abc.net.au/news/feed/51120/rss.xml", "ABC News")
+            smh_rss = fetch_rss("https://www.smh.com.au/rss/feed.xml", "SMH")
+            age_rss = fetch_rss("https://www.theage.com.au/rss/feed.xml", "The Age")
+            newsdata_aus = fetch_newsdata("australia parliament senate election albanese budget policy", country="au")
+            articles = abc_rss + smh_rss + age_rss + newsdata_aus
+            if category_has_changed(memory, "australia", articles):
+                result, memory = process_australia(articles, memory)
+                memory = save_article_hash(memory, "australia", articles)
+            else:
+                print("Australia: no new articles, skipping")
+                result = get_cached_category(memory, "australia")
+            all_data = {
+                "breaking": get_cached_category(memory, "breaking"),
+                "australia": result,
+                "archaeology": get_cached_category(memory, "archaeology"),
+                "football": get_cached_category(memory, "football")
+            }
+
+        elif RUN_CATEGORY == "archaeology":
+            nature_rss = fetch_rss("https://www.nature.com/nature.rss", "Nature")
+            newscientist_rss = fetch_rss("https://www.newscientist.com/subject/humans/feed/", "New Scientist")
+            science_rss = fetch_rss("https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science", "Science")
+            newsdata_arch = fetch_newsdata("paleoanthropology fossil hominin ancient DNA homo sapiens neanderthal discovery")
+            articles = nature_rss + newscientist_rss + science_rss + newsdata_arch
+            if category_has_changed(memory, "archaeology", articles):
+                result, memory = process_archaeology(articles, memory)
+                memory = save_article_hash(memory, "archaeology", articles)
+            else:
+                print("Archaeology: no new articles, skipping")
+                result = get_cached_category(memory, "archaeology")
+            all_data = {
+                "breaking": get_cached_category(memory, "breaking"),
+                "australia": get_cached_category(memory, "australia"),
+                "archaeology": result,
+                "football": get_cached_category(memory, "football")
+            }
+
+        elif RUN_CATEGORY == "world_topics":
+            world_topics, memory = process_world_topics(memory)
+            all_data = {
+                "breaking": get_cached_category(memory, "breaking"),
+                "australia": get_cached_category(memory, "australia"),
+                "archaeology": get_cached_category(memory, "archaeology"),
+                "football": get_cached_category(memory, "football")
+            }
+        else:
+            print(f"Unknown category: {RUN_CATEGORY}, aborting.")
+            return
+
+        world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []}) if RUN_CATEGORY != "world_topics" else world_topics
+        yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
+        developing_situations = process_developing_situations(pinned, [], [])
+        save_memory(memory)
+        Path("dist").mkdir(exist_ok=True)
+        with open("dist/index.html", "w", encoding="utf-8") as f:
+            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+        print(f"Done. Category-only run for {RUN_CATEGORY} complete.")
         return
 
     # Full run continues below...

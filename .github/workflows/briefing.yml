@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Run mode (full, breaking_only, category)'
+        description: 'Run mode (full, breaking_only, category, deploy_only)'
         required: false
         default: 'full'
       category:
@@ -47,16 +47,11 @@ jobs:
           git diff --staged --quiet || git commit -m "Update story memory [skip ci]"
           git push || true
 
+      - name: Install Netlify CLI
+        run: npm install -g netlify-cli
+
       - name: Deploy to Netlify
-        run: |
-          cd dist
-          zip -r ../dist.zip .
-          cd ..
-          curl -X POST \
-            -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
-            -H "Content-Type: application/zip" \
-            --data-binary @dist.zip \
-            "https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID/deploys"
+        run: netlify deploy --prod --dir=dist
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

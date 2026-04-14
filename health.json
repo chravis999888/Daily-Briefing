@@ -23,6 +23,14 @@
         "GDELT fetch failed"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-04-14T19:52:04.651218+10:00",
+      "run_type": "full",
+      "errors": [
+        "GDELT fetch failed"
+      ],
+      "status": "degraded"
     }
   ],
   "errors": []

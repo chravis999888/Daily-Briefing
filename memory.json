@@ -86,6 +86,75 @@
         }
       ],
       "football": []
+    },
+    "2026-04-14": {
+      "breaking": [],
+      "australia": [
+        {
+          "headline": "Coalition releases migration policy proposing Australian values test for visa applicants, with Angus Taylor spruiking the plan",
+          "timestamp": "2 hrs ago",
+          "score": 5
+        }
+      ],
+      "archaeology": [
+        {
+          "headline": "New Scientist reports genetic analysis may overturn the hypothesis that early Homo sapiens experienced a near-extinction bottleneck, suggesting population history was more complex than previously modelled",
+          "timestamp": "4 days ago",
+          "score": 7
+        },
+        {
+          "headline": "Genetic study of Neanderthal remains identifies demographic signals of prolonged population decline preceding their disappearance approximately 40,000 years ago, with low diversity consistent with small isolated groups",
+          "timestamp": "3 weeks ago",
+          "score": 7
+        },
+        {
+          "headline": "Australopithecus pelvic morphology analysis indicates birth canal constraints produced difficult parturition comparable to modern humans, pushing the obstetric dilemma back at least 2-3 million years before the genus Homo",
+          "timestamp": "4 weeks ago",
+          "score": 7
+        },
+        {
+          "headline": "Stone tool assemblage shift 200,000 years ago in early Homo sapiens sites attributed to new environmental or social pressures rather than simple cultural drift, according to fresh analysis of African archaeological record",
+          "timestamp": "5 days ago",
+          "score": 6
+        }
+      ],
+      "football": [
+        {
+          "headline": "Ghanaian winger Dominic Frimpong, 20, was killed in an armed attack on his team's bus in Ghana",
+          "timestamp": "21 hrs ago",
+          "score": 9
+        },
+        {
+          "headline": "Leeds United beat Manchester United 2-1 at Old Trafford as Noah Okafor scored twice and Lisandro Mart\u00ednez was sent off for hair-pulling",
+          "timestamp": "12 hrs ago",
+          "score": 8
+        },
+        {
+          "headline": "Barcelona moved to the verge of the La Liga title as Lamine Yamal starred in a winning performance that left them requiring minimal points to clinch the championship",
+          "timestamp": "19 hrs ago",
+          "score": 8
+        },
+        {
+          "headline": "Napoli's Serie A title defence is effectively over as Inter lead the standings and Antonio Conte's side have been unable to keep pace, with Scott McTominay their sole consistent performer",
+          "timestamp": "21 hrs ago",
+          "score": 7
+        },
+        {
+          "headline": "Athletic Club are on course for their most defeats in a single season in their history, surpassing relegated side Elche's loss tally",
+          "timestamp": "5 hrs ago",
+          "score": 7
+        },
+        {
+          "headline": "Bayern Munich are challenging Real Madrid's all-time record points or wins tally in the Bundesliga this season",
+          "timestamp": "5 hrs ago",
+          "score": 6
+        },
+        {
+          "headline": "UEFA sponsorship revenue from club competitions is set to exceed \u20ac1 billion for the first time, driven by the expanded Champions League format",
+          "timestamp": "2 hrs ago",
+          "score": 6
+        }
+      ]
     }
   },
   "developing": {},
@@ -126,6 +195,43 @@
       "king charles reportedly requests prince william leave camilla alone",
       "smci stock",
       "celtics playoff schedule"
+    ],
+    "2026-04-14": [
+      "Live Updates: U.S. imposes military blockade of Iranian ports on Strait of Hormuz - CBS News",
+      "Vance Says Pope Leo Should Stay Out of U.S. Affairs - The New York Times",
+      "A dozen battleground Dems send Swalwell\u2019s campaign donations to charity - Politico",
+      "P\u00e9ter Magyar vows to pursue those who \u2018plundered\u2019 Hungary after election win - The Guardian",
+      "Tony Gonzales announces plans to quit Congress early - Axios",
+      "Last-ditch negotiations to prevent a Tuesday LAUSD extend past midnight into Tuesday - Los Angeles Times",
+      "Michigan Man Is Released in Wife\u2019s Disappearance in the Bahamas - The New York Times",
+      "Why a powerful storm in the Western Pacific may be a concerning sign - The Washington Post",
+      "2 dead in U.S. military strike on alleged drug boat in eastern Pacific - NBC News",
+      "DOJ fires at least 4 prosecutors involved in FACE Act cases during Biden administration - CBS News",
+      "U.K. inquiry lays bare 'catastrophic' missed chances before stabbings at dance class - NPR",
+      "Prince Harry and Meghan arrive in Australia for a low-key, privately funded visit - AP News",
+      "With Algeria Visit, Pope Leo Returns to His Augustinian Roots - The New York Times",
+      "Tankers pass Strait of Hormuz on first day of US blockade, data shows - Reuters",
+      "Asian Equities Rise, Oil Falls on U.S.-Iran Talk Hopes - WSJ",
+      "Laufey - Madwoman (Official Music Video)",
+      "The Hunger Games: Sunrise on the Reaping (2026) Official Trailer \u2013 Joseph Zada",
+      "Jesse Watters Primetime",
+      "Allstar JR - Expensive Wristwatches",
+      "Season 2: Summit Official Trailer | Overwatch",
+      "The Source With Kaitlan Collins",
+      "TXT (\ud22c\ubaa8\ub85c\uc6b0\ubc14\uc774\ud22c\uac8c\ub354) '\ud558\ub8e8\uc5d0 \ud558\ub8e8\ub9cc \ub354 (Stick With You)' Official MV",
+      "INSIDIOUS: OUT OF THE FURTHER - Official Trailer (4K)",
+      "Deadline: White House",
+      "The Cranberries - Zombie (Lyrics)",
+      "alan ritchson",
+      "weather forecast today",
+      "t rowe price",
+      "netflix new releases",
+      "mortgage rates today",
+      "stock market today",
+      "greg abbott",
+      "ga lottery",
+      "saipan",
+      "nba"
     ]
   },
   "summaries": {
@@ -153,7 +259,15 @@
     "https://www.newscientist.com/article/2520319-genetic-clues-tell-the-story-of-neanderthals-decline/": "A genetic study of Neanderthal DNA reveals that their populations were already small, scattered, and genetically isolated long before Homo sapiens arrived in Europe, indicating the species was already in decline. The low genetic diversity found in Neanderthal remains shows they lived in fragmented groups rather than as one unified population, suggesting they were vulnerable before any competition with modern humans began. This challenges the traditional explanation that Homo sapiens simply outcompeted and displaced a thriving Neanderthal population, instead suggesting Neanderthals faced structural problems\u2014like small group size and isolation\u2014that made them susceptible to extinction regardless of modern human expansion. The findings reshape how scientists understand Neanderthal extinction, pointing to pre-existing demographic weakness rather than rapid human-driven displacement as the primary factor in their disappearance roughly 40,000 years ago.",
     "https://www.newscientist.com/article/2520535-ancient-bones-reveal-vivid-details-of-a-neanderthal-elephant-hunt/": "Researchers analyzing butchered bones from straight-tusked elephants found at an archaeological site discovered evidence that Neanderthals hunted these massive animals around 125,000 years ago through coordinated group efforts rather than individual kills or scavenging. The bones show systematic cut marks indicating the animals were deliberately killed and processed by multiple individuals working together, suggesting Neanderthals possessed the social organization and planning abilities needed for large-scale hunts. This finding challenges the long-held assumption that Neanderthals were either scavengers or only hunted in small, uncoordinated groups incapable of complex cooperation. The discovery significantly elevates our understanding of Neanderthal intelligence and social complexity, showing they could accomplish feats comparable to early humans.",
     "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/": "Researchers studying 200,000-year-old African archaeological sites found that early humans switched their tool-making styles rapidly rather than gradually, driven by environmental stress and climate changes rather than sudden cognitive advances. The shift from the older Acheulean tools to Middle Stone Age toolkits appears to have been a practical response to resource scarcity caused by unstable environmental conditions. This challenges the long-held theory that such toolkit changes reflected major leaps in human intelligence or symbolic thinking. The finding matters because it reframes a pivotal moment in human prehistory as an ecological adaptation problem-solving rather than evidence of a fundamental change in how our ancestors' brains worked.",
-    "https://www.newscientist.com/article/2519325-our-extinct-australopithecus-relatives-may-have-had-difficult-births/": "Researchers analyzed skeletal remains of Australopithecus, an early human ancestor that lived over 2 million years ago, and found evidence that females experienced obstructed labor\u2014difficult childbirth\u2014similar to modern humans. This discovery pushes back the evolutionary timeline of childbirth complications by millions of years, suggesting the problem existed before the genus Homo emerged. Previously, scientists assumed difficult birth was unique to humans and directly caused by our ancestors' rapidly expanding brains, which created a mismatch with the narrow pelvis needed for bipedalism. The findings indicate that the biological conflict between brain size and pelvis shape\u2014known as the \"obstetric dilemma\"\u2014has much deeper evolutionary roots than thought, originating in pre-human species that didn't have notably larger brains."
+    "https://www.newscientist.com/article/2519325-our-extinct-australopithecus-relatives-may-have-had-difficult-births/": "Researchers analyzed skeletal remains of Australopithecus, an early human ancestor that lived over 2 million years ago, and found evidence that females experienced obstructed labor\u2014difficult childbirth\u2014similar to modern humans. This discovery pushes back the evolutionary timeline of childbirth complications by millions of years, suggesting the problem existed before the genus Homo emerged. Previously, scientists assumed difficult birth was unique to humans and directly caused by our ancestors' rapidly expanding brains, which created a mismatch with the narrow pelvis needed for bipedalism. The findings indicate that the biological conflict between brain size and pelvis shape\u2014known as the \"obstetric dilemma\"\u2014has much deeper evolutionary roots than thought, originating in pre-human species that didn't have notably larger brains.",
+    "https://www.abc.net.au/news/2026-04-14/angus-taylor-coalition-migration-policy-plan-australian-values/106563718": "The Coalition has announced a new migration policy that would require visa applicants to undergo stricter screening to ensure they align with Australian values, with the ability to reject or remove those who don't comply. Senior Coalition member Angus Taylor is promoting the plan as the party positions immigration as a central election issue ahead of the 2026 federal poll. However, the policy faces practical questions about how an \"Australian values\" test would actually be defined, assessed, and implemented. The announcement appears designed to differentiate the Coalition from Labor on immigration ahead of the upcoming election.",
+    "https://www.theguardian.com/football/2026/apr/13/dominic-frimpong-killed-armed-robbers-team-bus-ghana": "Dominic Frimpong, a 20-year-old winger for Ghanaian club Berekum Chelsea, was killed during an armed robbery on his team's bus on Sunday as players returned from a Premier League match. Six masked gunmen blocked the road and fired at the bus when it attempted to escape; Frimpong was struck in the head and died in hospital, making him the only casualty among the 30 people on board. The incident has shocked Ghana's football community, with the Ghana Football Association issuing a statement of condolences to his family and club. The attack highlights the dangers of armed crime in Ghana and represents a tragedy for African football, as Frimpong was an emerging young talent who had scored two goals in 13 appearances for his club.",
+    "https://www.theguardian.com/football/2026/apr/13/manchester-united-leeds-premier-league-match-report": "Leeds United defeated Manchester United 2-1 at Old Trafford, with Noah Okafor scoring both goals in a significant upset\u2014their first league win at the stadium since 1981. Manchester United's Lisandro Mart\u00ednez was sent off in the 56th minute for pulling an opponent's hair, leaving his team to play the remainder with 10 men; Casemiro scored a late consolation goal. The victory lifts Leeds six points clear of Tottenham in the battle to avoid relegation, while it marks the first home loss for Manchester United's interim manager Michael Carrick, though United remain favored to secure Champions League qualification. Mart\u00ednez faces a three-match suspension, though the club may appeal the controversial red card decision.",
+    "https://www.theguardian.com/football/2026/apr/13/lamine-yamal-all-smiles-as-he-guides-barcelona-to-verge-of-title-la-liga": "Barcelona moved to the brink of winning the La Liga title after defeating rivals RCD Espanyol in a derby match, with 18-year-old forward Lamine Yamal scoring a crucial goal in the final moments of the game on Saturday night. Yamal's performance was central to Barcelona's dominant season, and the victory leaves them needing only minimal points to officially clinch the championship. This marks Barcelona's third league title in four years, continuing their period of sustained success in Spanish football. The symbolic nature of winning against Espanyol is significant, as Barcelona has now claimed multiple recent championships specifically in derbies against this local rival.",
+    "https://www.theguardian.com/football/2026/apr/13/serie-a-napoli-title-race-mctominay-conte-inter": "Inter Milan have effectively secured the Serie A title after defeating Como 4-3 away while their rivals Napoli and Milan both lost, extending Inter's lead to nine points with six games remaining. Napoli, who won last season's championship, have failed to keep pace this season and have been unable to mount a serious title defense despite Scott McTominay being their consistent performer. Inter manager Christian Chivu downplayed the victory in post-match interviews by joking that his team still needs points to qualify for the Champions League, mimicking the psychological tactics other managers use. With Inter having lost only five Serie A games all season, a nine-point lead with six matches left makes their third title in four seasons virtually assured.",
+    "https://www.marca.com/futbol/athletic/2026/04/14/athletic-temporada-derrotas-historia-elche-descenso.html": "Athletic Club is on pace to record the most losses in a single season in their entire history, having already accumulated 22 defeats across all competitions with 15 coming in the domestic league alone\u2014two more losses than relegated side Elche. The milestone is particularly significant because it represents a historic low for a club with strong traditional standards, even though Athletic Club has managed to avoid dropping into the relegation zone. This alarming performance reflects a severe decline in form and results, marking a troubling period for the Basque institution despite their safety from demotion.",
+    "https://www.marca.com/futbol/bundesliga/2026/04/14/bayern-amenaza-madrid-records.html": "Bayern Munich is pursuing Real Madrid's all-time record for points or wins in a domestic league season, having already broken the Bundesliga goal-scoring record this campaign. The Spanish club's benchmark comes from their 2011/12 season when Real Madrid scored 121 goals in La Liga. Bayern's historic offensive performance demonstrates their dominance in German football and puts them on track to potentially surpass multiple longstanding records. This achievement is significant because it highlights Bayern's sustained excellence and could establish new benchmarks for efficiency and dominance in European domestic competitions.",
+    "https://www.theguardian.com/football/2026/apr/14/sponsorship-uefa-club-competitions-1billion-champions-league": "UEFA is on track to earn over \u20ac1 billion annually from sponsorships of its club competitions for the first time, driven by new deals with major brands like Pepsi, AB InBev, and potentially Nike. The revenue boost, which represents a 40% increase, comes from the expanded Champions League format and new TV rights agreements for 2027-2031. This milestone reflects the growing commercial value of European club football and will significantly increase UEFA's total annual revenue to over \u20ac6 billion, with the majority of funds flowing to Champions League clubs. The financial growth underscores how format changes and global sponsorship deals are reshaping the economics of professional European football."
   },
   "article_hashes": {
     "breaking": 7515558193837072886
@@ -161,83 +275,83 @@
   "world_topics_cache": {
     "today": [
       {
-        "headline": "Trump's Failed Iran Blockade and International Diplomatic Collapse",
-        "why": "Trump's attempt to organize a multinational blockade of Iran has foundered with no international support, while VP Vance conducts separate negotiations that have yielded no agreement, signaling a major breakdown in U.S. foreign policy strategy.",
-        "signal": "[NEWS] Trump Said Other Countries Would Help Blockade Iran. So Far, There Are No Takers; [NEWS] Inside Vance's Iran negotiations: No deal, but 'friendly' talks; [NEWS] UK 'not supporting' U.S. Iran blockade as France's Macron confirms 'multinational' talks on the Strait of Hormuz; [TRENDING] Dow futures fall 450 points after Trump announces Strait of Hormuz blockade"
+        "headline": "U.S. Military Blockade of Iranian Ports at Strait of Hormuz",
+        "why": "The U.S. has imposed a military blockade on Iranian ports in the Strait of Hormuz, a critical global shipping chokepoint, with tankers navigating the route on the first day and markets responding to de-escalation talk hopes.",
+        "signal": "[NEWS] CBS News, Reuters, WSJ"
       },
       {
-        "headline": "Trump's Public Conflict with Pope Leo",
-        "why": "Trump has launched a direct personal attack on the Pope, calling him 'weak' and 'terrible,' while the Pope responds by reaffirming his focus on the Gospel rather than politics, marking an unusually public clash between the U.S. President and the Vatican.",
-        "signal": "[NEWS] Trump unleashes tirade against 'weak,' 'terrible' Pope Leo - Axios; [NEWS] Pope on board plane to Algeria: 'I am not a politician, I speak of the Gospel' - Vatican News"
+        "headline": "Pope Leo's Involvement in U.S. Political Affairs",
+        "why": "Vice President Vance publicly criticized Pope Leo for interfering in U.S. affairs, marking a rare high-level clash between the Vatican and the Trump administration over the Pope's Algeria visit and his advocacy positions.",
+        "signal": "[NEWS] The New York Times (multiple stories)"
       },
       {
-        "headline": "Hungary's Opposition Secures Landslide Election Victory",
-        "why": "Hungary's opposition parties have won a decisive electoral victory that promises to reshape the country's political direction and potentially repair relations with the European Union after years of tension.",
-        "signal": "[NEWS] Hungary opposition's landslide win heralds reforms, thaw in EU ties - Reuters"
+        "headline": "LAUSD Strike Negotiations Extending into Tuesday",
+        "why": "Last-ditch negotiations to prevent a Tuesday Los Angeles Unified School District strike continued past midnight, affecting the education of hundreds of thousands of students in the nation's second-largest school district.",
+        "signal": "[NEWS] Los Angeles Times"
       },
       {
-        "headline": "Lebanese Officers Killed by Israel Amid U.S. Diplomatic Efforts",
-        "why": "The death of 13 Lebanese military officers at Israeli hands has sparked widespread grief and outrage in Lebanon just as U.S.-brokered talks are underway, threatening to destabilize regional negotiations.",
-        "signal": "[NEWS] Lebanese bury 13 officers killed by Israel as grief and outrage surge ahead of talks in the US - AP News"
+        "headline": "P\u00e9ter Magyar's Victory and Vow to Prosecute Hungarian Officials",
+        "why": "Hungarian opposition leader P\u00e9ter Magyar won an election and vowed to pursue those who 'plundered' Hungary, signaling a major political shift in the country and potential accountability measures against the previous government.",
+        "signal": "[NEWS] The Guardian"
       },
       {
-        "headline": "Lynette Hooker Disappearance Investigation in the Bahamas",
-        "why": "The week-long search for missing American Lynette Hooker in the Bahamas continues to dominate news coverage with significant developments and public concern about her whereabouts.",
-        "signal": "[NEWS] Lynette Hooker disappeared in the Bahamas over a week ago. Here's a timeline of the key developments - CNN"
+        "headline": "U.K. Public Inquiry Reveals Critical Failures Before Dance Class Stabbings",
+        "why": "A U.K. inquiry has exposed 'catastrophic' missed opportunities by authorities before a mass stabbing at a dance class, raising serious questions about law enforcement's response to warning signs.",
+        "signal": "[NEWS] NPR"
       }
     ],
     "week": [
       {
-        "headline": "Trump's Failed Iran Blockade Diplomacy",
-        "why": "Trump's announcement of a Strait of Hormuz blockade against Iran failed to secure international support, with UK and France pursuing separate negotiations instead.",
-        "signal": "trending for 4 days"
+        "headline": "Trump Administration's Iran Strait of Hormuz Blockade and Failed International Coalition",
+        "why": "Trump announced a military blockade of Iranian ports on the Strait of Hormuz, but key U.S. allies including the UK and France refused to participate, undermining the multilateral strategy.",
+        "signal": "trending for 5 days"
       },
       {
-        "headline": "Trump's Public Attack on Pope Francis",
-        "why": "Trump launched a verbal tirade against Pope Francis, calling him 'weak' and 'terrible,' while the Pope responded by emphasizing his focus on Gospel rather than politics.",
+        "headline": "Trump's Public Conflict with Pope Leo over Political Authority",
+        "why": "Trump launched personal attacks on Pope Leo for speaking on political matters, with VP Vance joining the criticism, creating an unusual diplomatic tension between the U.S. administration and the Vatican.",
+        "signal": "trending for 3 days"
+      },
+      {
+        "headline": "Hungary's Opposition Landslide Election Victory and EU Relations",
+        "why": "Hungary's opposition achieved a major election win with P\u00e9ter Magyar vowing to pursue those responsible for past corruption, signaling potential political reforms and improved EU relations.",
         "signal": "trending for 2 days"
       },
       {
-        "headline": "Hungary Opposition's Election Victory",
-        "why": "Hungary's opposition parties achieved a landslide election victory, signaling potential democratic reforms and improved relations with the European Union.",
-        "signal": "trending for 1 day"
+        "headline": "Lynette Hooker's Disappearance in the Bahamas",
+        "why": "A high-profile missing person case in the Bahamas generated significant media coverage with timeline developments and updates on the investigation.",
+        "signal": "trending for 3 days"
       },
       {
-        "headline": "Lynette Hooker Disappearance in the Bahamas",
-        "why": "The week-long disappearance of Lynette Hooker in the Bahamas generated sustained news coverage with ongoing developments in the investigation.",
+        "headline": "Powerful Storm System Approaching U.S. Western Pacific Territory",
+        "why": "The strongest storm on the planet bore down on U.S. islands in the Western Pacific, raising concerns about severe weather impacts and climate patterns.",
         "signal": "trending for 2 days"
-      },
-      {
-        "headline": "Trump Fires San Francisco Presidio Board of Trustees",
-        "why": "Trump removed the entire board overseeing the Presidio military installation in San Francisco as part of broader administrative actions.",
-        "signal": "trending for 1 day"
       }
     ],
     "month": [
       {
-        "headline": "Trump's Failed Iran Blockade Diplomacy",
-        "why": "Trump announced a blockade of Iran's Strait of Hormuz but faced international rejection, with UK and France declining support and stock markets reacting negatively to the economic threat.",
+        "headline": "U.S. Military Blockade of Iran's Strait of Hormuz",
+        "why": "Trump administration imposed a blockade on Iranian ports with minimal international support, triggering market reactions and diplomatic negotiations that dominated headlines throughout the month.",
         "signal": "trending for 8 days"
       },
       {
-        "headline": "Trump's Conflict with Pope Francis",
-        "why": "Trump publicly attacked Pope Francis as 'weak' and 'terrible,' triggering international media coverage of the unprecedented clash between the U.S. president and the pontiff.",
+        "headline": "Trump Administration Conflicts with Pope Leo",
+        "why": "Trump's public criticism of Pope Leo for commenting on U.S. affairs, and subsequent responses from Vice President Vance, sparked sustained controversy over the separation of religious and political authority.",
         "signal": "trending for 5 days"
       },
       {
         "headline": "Hungary Opposition's Electoral Victory and EU Relations",
-        "why": "Hungary's opposition parties achieved a landslide election victory, signaling potential political reforms and an anticipated thaw in tensions with the European Union.",
+        "why": "Hungarian opposition achieved a landslide election win against the Orb\u00e1n government, signaling potential reforms and a thaw in tensions with the European Union.",
+        "signal": "trending for 3 days"
+      },
+      {
+        "headline": "Lynette Hooker Disappearance in the Bahamas",
+        "why": "Missing person case in the Bahamas generated sustained media coverage with timeline updates and developments, including the release of a Michigan man connected to the investigation.",
         "signal": "trending for 4 days"
       },
       {
-        "headline": "Eric Swalwell's Exit from California Governor's Race",
-        "why": "U.S. Congressman Eric Swalwell withdrew from the California gubernatorial race following assault allegations, reshaping the state's political landscape.",
-        "signal": "trending for 3 days"
-      },
-      {
-        "headline": "Israeli-Lebanese Military Tensions and Casualties",
-        "why": "Israel killed 13 Lebanese military officers, triggering widespread grief and outrage ahead of planned U.S.-brokered diplomatic talks in the region.",
-        "signal": "trending for 3 days"
+        "headline": "DOJ Prosecutor Firings from Biden-Era FACE Act Cases",
+        "why": "Trump administration dismissed at least 4 federal prosecutors who handled abortion-related prosecutions under the previous administration, representing a significant shift in DOJ personnel and policy priorities.",
+        "signal": "trending for 2 days"
       }
     ]
   }

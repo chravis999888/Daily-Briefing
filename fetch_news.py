@@ -1891,6 +1891,7 @@ def main():
                 shutil.copy(src, Path("dist") / fname)
         with open("dist/index.html", "w", encoding="utf-8") as f:
             f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+        Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written.")
         return
 
@@ -1915,6 +1916,7 @@ def main():
                 shutil.copy(src, Path("dist") / fname)
         with open("dist/index.html", "w", encoding="utf-8") as f:
             f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
+        Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written from cache.")
         return
 
@@ -1959,6 +1961,7 @@ def main():
                 shutil.copy(src, Path("dist") / fname)
         with open("dist/index.html", "w", encoding="utf-8") as f:
             f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
+        Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written.")
         return
 
@@ -2066,6 +2069,7 @@ def main():
                 shutil.copy(src, Path("dist") / fname)
         with open("dist/index.html", "w", encoding="utf-8") as f:
             f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
+        Path("dist/.deploy_needed").touch()
         print(f"Done. Category-only run for {RUN_CATEGORY} complete.")
         return
 
@@ -2165,6 +2169,7 @@ def main():
             shutil.copy(src, Path("dist") / fname)
     with open("dist/index.html", "w", encoding="utf-8") as f:
         f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
+    Path("dist/.deploy_needed").touch()
     print("Done. dist/index.html written.")
 
 if __name__ == "__main__":

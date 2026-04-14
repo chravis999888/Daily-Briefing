@@ -8,7 +8,7 @@
 - Developing situations tracker — star/pin system, auto-detection, remove button
 - Cost optimisations — article hashing, caching, deploy-only mode, per-story sleeps, memory-based summary reuse
 - Mock mode — hardcoded data for local preview without burning API credits
-- Cloudflare Pages migration — replacing Netlify (mid-setup, see In Progress)
+- Cloudflare Pages deployment — wrangler deploy via GitHub Actions, sentinel-file gating, confirmed working end-to-end
 - Rate limit fixes — sleep spacing across all four processors
 - "Previously" cards — yesterday's stories shown below each category
 
@@ -16,7 +16,7 @@
 
 ## 🔄 In Progress
 
-- **Cloudflare Pages deployment** — API token and secrets added to GitHub, briefing.yml updated. Last run hit a 529 overloaded error (transient Anthropic issue, not a code bug). Needs a clean manual full run to confirm deployment working end-to-end.
+Nothing currently in progress.
 
 ---
 

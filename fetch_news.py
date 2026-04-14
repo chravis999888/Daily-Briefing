@@ -820,6 +820,7 @@ Raw JSON only, no markdown."""
     stories.sort(key=lambda x: x.get("score", 5), reverse=True)
     results = []
     for story in stories:
+        time.sleep(3)
         orig = next((a for a in all_articles if a["url"] == story.get("url","")), {})
         articles_list = [{"title": orig.get("title","") or story.get("headline",""), "source": story.get("source",""), "url": story.get("url","")}]
         context = ""
@@ -906,6 +907,7 @@ Raw JSON only, no markdown."""
     stories.sort(key=lambda x: x.get("score", 5), reverse=True)
     results = []
     for story in stories:
+        time.sleep(3)
         orig = next((a for a in all_articles if a["url"] == story.get("url","")), {})
         articles_list = [{"title": orig.get("title",""), "source": story.get("source",""), "url": story.get("url","")}]
         context = story.get("so_what","")
@@ -993,6 +995,7 @@ Raw JSON only, no markdown."""
     stories.sort(key=lambda x: x.get("score", 5), reverse=True)
     results = []
     for story in stories:
+        time.sleep(3)
         orig = next((a for a in articles if a["url"] == story.get("url","")), {})
         articles_list = [{"title": orig.get("title",""), "source": story.get("source",""), "url": story.get("url","")}]
         context = story.get("so_what","")
@@ -1048,6 +1051,7 @@ Raw JSON only, no markdown."""
     stories.sort(key=lambda x: x.get("score", 5), reverse=True)
     results = []
     for story in stories:
+        time.sleep(3)
         orig = next((a for a in articles if a["url"] == story.get("url","")), {})
         articles_list = [{"title": orig.get("title",""), "source": story.get("source","The Guardian"), "url": story.get("url","")}]
         context = story.get("so_what","")
@@ -2086,16 +2090,16 @@ def main():
         errors.append("GDELT fetch failed")
     guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
     breaking, memory = process_breaking_news(gdelt_breaking, guardian_breaking, memory)
-    time.sleep(60)
 
+    time.sleep(60)
     print("Fetching Australia news...")
     abc_rss = fetch_rss("https://www.abc.net.au/news/feed/51120/rss.xml", "ABC News")
     smh_rss = fetch_rss("https://www.smh.com.au/rss/feed.xml", "SMH")
     age_rss = fetch_rss("https://www.theage.com.au/rss/feed.xml", "The Age")
     newsdata_aus = fetch_newsdata("australia parliament senate election albanese budget policy", country="au")
     australia, memory = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus, memory)
-    time.sleep(60)
 
+    time.sleep(60)
     print("Fetching Archaeology news...")
     nature_rss = fetch_rss("https://www.nature.com/nature.rss", "Nature")
     newscientist_rss = fetch_rss("https://www.newscientist.com/subject/humans/feed/", "New Scientist")
@@ -2108,8 +2112,8 @@ def main():
     archaeology, memory = process_archaeology(
         nature_rss + newscientist_rss + science_rss + newsdata_arch +
         physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss, memory)
-    time.sleep(60)
 
+    time.sleep(60)
     print("Fetching Football news...")
     guardian_football = fetch_guardian(
         "premier league OR la liga OR serie a OR bundesliga OR ligue 1 OR champions league",

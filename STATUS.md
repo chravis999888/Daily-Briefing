@@ -1,0 +1,99 @@
+# Daily Briefing — Project Status
+
+## ✅ Shipped
+
+- UI overhaul — modal system, 3-column layout, breaking news full-width at top
+- Logo and favicon — pulse dot mark, Playfair Display wordmark
+- World trends section — Google News RSS + YouTube + Google Trends RSS + Reddit fallback, Today/Week/Month tabs built from memory
+- Developing situations tracker — star/pin system, auto-detection, remove button
+- Cost optimisations — article hashing, caching, deploy-only mode, per-story sleeps, memory-based summary reuse
+- Mock mode — hardcoded data for local preview without burning API credits
+- Cloudflare Pages migration — replacing Netlify (mid-setup, see In Progress)
+- Rate limit fixes — sleep spacing across all four processors
+- "Previously" cards — yesterday's stories shown below each category
+
+---
+
+## 🔄 In Progress
+
+- **Cloudflare Pages deployment** — API token and secrets added to GitHub, briefing.yml updated. Last run hit a 529 overloaded error (transient Anthropic issue, not a code bug). Needs a clean manual full run to confirm deployment working end-to-end.
+
+---
+
+## 📋 Next Up
+
+### v3.0 — Bug fixes
+- Previously cards — clicking them should open modal with summary snippet
+- Star popup stale pinned.txt bug — sometimes shows outdated topics
+- Auto-refresh 404 handling — graceful fallback if page not found on poll
+- Tracking suggestions — move into Sonnet pass instead of separate Haiku calls
+- GDELT failure alert — email or webhook after 3 consecutive failures
+- Deploy flag — only deploy to Cloudflare when content actually changed
+- Breaking news persistence — don't overwrite with empty on failed runs
+- GDELT root cause diagnosis
+- Archaeology duplicate detection — same story different headline
+- Archaeology recency filter on RSS feeds
+- Fabrizio Romano — confirm working in production
+- Foreign language RSS — drop or replace with English equivalents
+
+### v3.1 — Infra Reset
+- Jinja2 templating — extract 1500-line HTML f-string into template.html
+- Cloudflare Workers + KV — replace GitHub API browser hacks for starring/deleting/refreshing
+- render_story() consolidation — one function not three diverged versions
+- Memory/KV migration plan — decide what stays in GitHub vs moves to KV
+
+### v4.0 — Features
+- Cost/stats dashboard — separate cost_log.json, token accumulator, Chart.js visualisation, AUD conversion at 1.55
+- Sleep mode — restrict cron to waking hours (user to confirm hours, Brisbane AEST)
+- Instant delete on developing situations — no page reload needed
+- Loading state for category refresh buttons
+- Breaking news graceful degradation — handle 1, 2, or 3 stories without breaking grid
+- Settings/stats modal — ⚙ icon in header
+
+### v4.1 — Polish
+- Mobile responsiveness — full pass
+- Typography — tighten type scale, Playfair Display on all headlines
+- Modal improvements — tracking pills, better image handling
+- JS robustness — var globals, error boundaries, safe JSON parsing
+
+### v4.2 — Personalisation
+- Favourite team/league preferences
+- Thumbs up/down feedback loop
+- Per-user prompts
+- Category creation UI
+
+### v5.0 — Product
+- Multi-user — GitHub OAuth, shared processing pipeline
+- Brother's instance
+- Landing page and onboarding flow
+
+---
+
+## 🐛 Known Issues
+
+- **GDELT consistently failing** — falling back to Guardian only for breaking news on every run
+- **Auto-developing situations not triggering** — needs ~1 week of consistent memory history to build up enough signal
+- **529 overloaded errors** — transient Anthropic API issue, retry after 10-15 mins
+
+---
+
+## 📁 Key Files
+
+| File | Purpose |
+|------|---------|
+| `fetch_news.py` | Everything — fetchers, processors, HTML builder (~2200 lines) |
+| `.github/workflows/briefing.yml` | Scheduling and deployment |
+| `memory.json` | Story cache, summaries, world trends, article hashes |
+| `health.json` | Run status and errors |
+| `requirements.txt` | anthropic, requests, feedparser, beautifulsoup4 |
+| `STATUS.md` | This file — update whenever a feature ships |
+
+---
+
+## 📌 Context
+
+- Owner is in Brisbane, Australia — all timestamps in AEST (UTC+10)
+- AUD conversion hardcoded at 1.55
+- Claude Code handles all file edits — paste briefs directly into Claude Code chat
+- Editorial philosophy: strict quality bars, factual headlines, no clickbait — see `HEADLINE_RULES` constant in `fetch_news.py`
+- **Always add to Claude Code briefs:** "When done, update STATUS.md — move completed items to ✅ Shipped, update 🔄 In Progress and 🐛 Known Issues accordingly."

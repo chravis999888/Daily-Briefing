@@ -47,11 +47,11 @@ jobs:
           git diff --staged --quiet || git commit -m "Update story memory"
           git push || true
 
-      - name: Install Netlify CLI
-        run: npm install -g netlify-cli
-
-      - name: Deploy to Netlify
-        run: netlify deploy --prod --dir=dist
+      - name: Deploy to Cloudflare Pages
+        if: hashFiles('dist/.deploy_needed') != ''
+        run: |
+          npm install -g wrangler
+          wrangler pages deploy dist --project-name=daily-briefing --commit-dirty=true
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

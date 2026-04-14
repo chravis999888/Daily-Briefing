@@ -31,6 +31,14 @@
         "GDELT fetch failed"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-04-15T01:04:53.261445+10:00",
+      "run_type": "breaking_only",
+      "errors": [
+        "GDELT fetch failed"
+      ],
+      "status": "degraded"
     }
   ],
   "errors": []

@@ -155,6 +155,15 @@
           "score": 6
         }
       ]
+    },
+    "2026-04-15": {
+      "breaking": [
+        {
+          "headline": "IMF warns US-Iran war escalation could trigger global recession as UK growth forecasts are slashed, with oil prices surging and Strait of Hormuz blockade underway",
+          "timestamp": "1 hr ago",
+          "score": 8
+        }
+      ]
     }
   },
   "developing": {},
@@ -232,6 +241,43 @@
       "ga lottery",
       "saipan",
       "nba"
+    ],
+    "2026-04-15": [
+      "Live Updates: In Iran war, push to resume talks intensifies as U.S. blockade of Iran's ports enters Day 2 - CBS News",
+      "JD Vance defends Trump amid spat with Pope Leo: \u2018Stick to matters of morality\u2019 - The Guardian",
+      "Swalwell exit shakes up chaotic California governor's race - BBC",
+      "How many ships have passed the Strait of Hormuz and how many were attacked? - Al Jazeera",
+      "Fresh Iran talks could begin this week as US continues blockade on ports - Fox News",
+      "Los Angeles Schools Strike Narrowly Averted in Last-Minute Deal - The New York Times",
+      "Bahamas police release Michigan man questioned after wife disappeared from their boat - The Guardian",
+      "GOP leaders prepare to steamroll opponents of DHS funding plan - Politico",
+      "Jack White Questions How Christians Can Support Trump \u2018After This Blasphemy\u2019 - Rolling Stone",
+      "Monster typhoon in the Pacific Ocean is bearing down on group of remote U.S. islands - PBS",
+      "Iran War Live Updates: Israel and Lebanon Are Set for Rare Direct Talks as Strikes Go On - The New York Times",
+      "Serbia's Aleksandar Vu\u010di\u0107 clashes with P\u00e9ter Magyar over Putin 'godfather' remark - Euronews.com",
+      "School shooting in Turkey leaves 16 wounded, governor says - Reuters",
+      "As War Chills Economy, Dubai\u2019s Most Vulnerable Bear the Cost - The New York Times",
+      "Middle East War Will Slow Global Economic Growth, I.M.F. Warns - The New York Times",
+      "Laufey - Madwoman (Official Music Video)",
+      "The Hunger Games: Sunrise on the Reaping (2026) Official Trailer \u2013 Joseph Zada",
+      "Jesse Watters Primetime",
+      "Allstar JR - Expensive Wristwatches",
+      "Season 2: Summit Official Trailer | Overwatch",
+      "2026 WNBA Draft",
+      "The Cranberries - Zombie (Lyrics)",
+      "INSIDIOUS: OUT OF THE FURTHER - Official Trailer (4K)",
+      "Chicago Cubs at Philadelphia Phillies",
+      "TXT (\ud22c\ubaa8\ub85c\uc6b0\ubc14\uc774\ud22c\uac8c\ub354) '\ud558\ub8e8\uc5d0 \ud558\ub8e8\ub9cc \ub354 (Stick With You)' Official MV",
+      "carlos alcaraz",
+      "elmet group",
+      "flood watch",
+      "bublik",
+      "otto virtanen",
+      "sombr presale",
+      "ionq stock",
+      "hood stock",
+      "klm",
+      "asts stock"
     ]
   },
   "summaries": {
@@ -267,91 +313,92 @@
     "https://www.theguardian.com/football/2026/apr/13/serie-a-napoli-title-race-mctominay-conte-inter": "Inter Milan have effectively secured the Serie A title after defeating Como 4-3 away while their rivals Napoli and Milan both lost, extending Inter's lead to nine points with six games remaining. Napoli, who won last season's championship, have failed to keep pace this season and have been unable to mount a serious title defense despite Scott McTominay being their consistent performer. Inter manager Christian Chivu downplayed the victory in post-match interviews by joking that his team still needs points to qualify for the Champions League, mimicking the psychological tactics other managers use. With Inter having lost only five Serie A games all season, a nine-point lead with six matches left makes their third title in four seasons virtually assured.",
     "https://www.marca.com/futbol/athletic/2026/04/14/athletic-temporada-derrotas-historia-elche-descenso.html": "Athletic Club is on pace to record the most losses in a single season in their entire history, having already accumulated 22 defeats across all competitions with 15 coming in the domestic league alone\u2014two more losses than relegated side Elche. The milestone is particularly significant because it represents a historic low for a club with strong traditional standards, even though Athletic Club has managed to avoid dropping into the relegation zone. This alarming performance reflects a severe decline in form and results, marking a troubling period for the Basque institution despite their safety from demotion.",
     "https://www.marca.com/futbol/bundesliga/2026/04/14/bayern-amenaza-madrid-records.html": "Bayern Munich is pursuing Real Madrid's all-time record for points or wins in a domestic league season, having already broken the Bundesliga goal-scoring record this campaign. The Spanish club's benchmark comes from their 2011/12 season when Real Madrid scored 121 goals in La Liga. Bayern's historic offensive performance demonstrates their dominance in German football and puts them on track to potentially surpass multiple longstanding records. This achievement is significant because it highlights Bayern's sustained excellence and could establish new benchmarks for efficiency and dominance in European domestic competitions.",
-    "https://www.theguardian.com/football/2026/apr/14/sponsorship-uefa-club-competitions-1billion-champions-league": "UEFA is on track to earn over \u20ac1 billion annually from sponsorships of its club competitions for the first time, driven by new deals with major brands like Pepsi, AB InBev, and potentially Nike. The revenue boost, which represents a 40% increase, comes from the expanded Champions League format and new TV rights agreements for 2027-2031. This milestone reflects the growing commercial value of European club football and will significantly increase UEFA's total annual revenue to over \u20ac6 billion, with the majority of funds flowing to Champions League clubs. The financial growth underscores how format changes and global sponsorship deals are reshaping the economics of professional European football."
+    "https://www.theguardian.com/football/2026/apr/14/sponsorship-uefa-club-competitions-1billion-champions-league": "UEFA is on track to earn over \u20ac1 billion annually from sponsorships of its club competitions for the first time, driven by new deals with major brands like Pepsi, AB InBev, and potentially Nike. The revenue boost, which represents a 40% increase, comes from the expanded Champions League format and new TV rights agreements for 2027-2031. This milestone reflects the growing commercial value of European club football and will significantly increase UEFA's total annual revenue to over \u20ac6 billion, with the majority of funds flowing to Champions League clubs. The financial growth underscores how format changes and global sponsorship deals are reshaping the economics of professional European football.",
+    "https://www.theguardian.com/business/2026/apr/14/iran-war-global-recession-imf-uk-growth-forecasts-oil-prices": "The International Monetary Fund warned that further escalation in the US-Iran conflict could trigger a global recession, with oil prices already surging above $100 per barrel following failed peace talks and a US blockade of the Strait of Hormuz, a critical global shipping route. The IMF cut its 2026 growth forecasts globally and particularly for the UK, citing rising economic damage from the Middle East conflict and soaring energy costs that threaten inflation. In a worst-case scenario involving a prolonged war and sustained high energy prices, the organization said the world faces a serious risk of recession\u2014something that has occurred only four times since 1980. This situation matters because disruption to Middle Eastern oil supplies can ripple through the global economy, affecting everything from fuel prices to manufacturing costs and consumer spending worldwide."
   },
   "article_hashes": {
-    "breaking": 7515558193837072886
+    "breaking": 9216589290985588634
   },
   "world_topics_cache": {
     "today": [
       {
-        "headline": "U.S. Military Blockade of Iranian Ports at Strait of Hormuz",
-        "why": "The U.S. has imposed a military blockade on Iranian ports in the Strait of Hormuz, a critical global shipping chokepoint, with tankers navigating the route on the first day and markets responding to de-escalation talk hopes.",
-        "signal": "[NEWS] CBS News, Reuters, WSJ"
+        "headline": "Iran War and U.S. Port Blockade Escalation",
+        "why": "A major military escalation is unfolding with the U.S. implementing a blockade of Iranian ports while simultaneous diplomatic efforts to resume talks are underway, with direct Israel-Lebanon negotiations also occurring despite ongoing strikes.",
+        "signal": "[NEWS] CBS News, Fox News, The New York Times, Al Jazeera"
       },
       {
-        "headline": "Pope Leo's Involvement in U.S. Political Affairs",
-        "why": "Vice President Vance publicly criticized Pope Leo for interfering in U.S. affairs, marking a rare high-level clash between the Vatican and the Trump administration over the Pope's Algeria visit and his advocacy positions.",
-        "signal": "[NEWS] The New York Times (multiple stories)"
+        "headline": "Trump-Pope Leo XVI Religious and Political Clash",
+        "why": "Vice President JD Vance is publicly defending Trump against criticism from Pope Leo, creating a significant collision between religious authority and political leadership that is resonating across global media.",
+        "signal": "[NEWS] The Guardian, Rolling Stone"
       },
       {
-        "headline": "LAUSD Strike Negotiations Extending into Tuesday",
-        "why": "Last-ditch negotiations to prevent a Tuesday Los Angeles Unified School District strike continued past midnight, affecting the education of hundreds of thousands of students in the nation's second-largest school district.",
-        "signal": "[NEWS] Los Angeles Times"
+        "headline": "California Governor's Race Disrupted by Eric Swalwell's Exit",
+        "why": "The unexpected withdrawal of a major Democratic candidate is reshaping what was already described as a chaotic gubernatorial race in the nation's most populous state.",
+        "signal": "[NEWS] BBC"
       },
       {
-        "headline": "P\u00e9ter Magyar's Victory and Vow to Prosecute Hungarian Officials",
-        "why": "Hungarian opposition leader P\u00e9ter Magyar won an election and vowed to pursue those who 'plundered' Hungary, signaling a major political shift in the country and potential accountability measures against the previous government.",
-        "signal": "[NEWS] The Guardian"
+        "headline": "IMF Warning on Middle East War's Global Economic Impact",
+        "why": "International financial institutions are publicly cautioning that the ongoing Middle East conflict will measurably slow global economic growth, signaling widespread concerns about systemic economic consequences.",
+        "signal": "[NEWS] The New York Times"
       },
       {
-        "headline": "U.K. Public Inquiry Reveals Critical Failures Before Dance Class Stabbings",
-        "why": "A U.K. inquiry has exposed 'catastrophic' missed opportunities by authorities before a mass stabbing at a dance class, raising serious questions about law enforcement's response to warning signs.",
-        "signal": "[NEWS] NPR"
+        "headline": "Massive Typhoon Approaching Remote U.S. Pacific Islands",
+        "why": "A severe weather event is moving toward inhabited U.S. territories, creating urgent public safety concerns and capturing significant media attention for the immediate threat it poses.",
+        "signal": "[NEWS] PBS"
       }
     ],
     "week": [
       {
-        "headline": "Trump Administration's Iran Strait of Hormuz Blockade and Failed International Coalition",
-        "why": "Trump announced a military blockade of Iranian ports on the Strait of Hormuz, but key U.S. allies including the UK and France refused to participate, undermining the multilateral strategy.",
+        "headline": "U.S. Military Blockade of Iran's Strait of Hormuz Ports",
+        "why": "Trump administration imposed a blockade on Iranian ports with international negotiations failing to secure allied support, causing market volatility and diplomatic tensions.",
+        "signal": "trending for 6 days"
+      },
+      {
+        "headline": "Trump's Public Dispute with Pope Leo",
+        "why": "Trump launched attacks on the Pope for commenting on U.S. affairs, with VP Vance defending Trump and telling the Pope to stay out of politics, sparking religious and political backlash.",
         "signal": "trending for 5 days"
       },
       {
-        "headline": "Trump's Public Conflict with Pope Leo over Political Authority",
-        "why": "Trump launched personal attacks on Pope Leo for speaking on political matters, with VP Vance joining the criticism, creating an unusual diplomatic tension between the U.S. administration and the Vatican.",
+        "headline": "Hungary's Opposition Landslide Election Victory",
+        "why": "Opposition leader P\u00e9ter Magyar's decisive election win signaled potential reforms and improved EU relations, with clashes emerging over past governance and regional tensions with Serbia.",
+        "signal": "trending for 4 days"
+      },
+      {
+        "headline": "Israel-Lebanon Direct Talks Amid Ongoing Military Strikes",
+        "why": "Rare direct negotiations between Israel and Lebanon were set to begin as military strikes continued, alongside reports of Israeli operations killing Lebanese officers.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Hungary's Opposition Landslide Election Victory and EU Relations",
-        "why": "Hungary's opposition achieved a major election win with P\u00e9ter Magyar vowing to pursue those responsible for past corruption, signaling potential political reforms and improved EU relations.",
-        "signal": "trending for 2 days"
-      },
-      {
-        "headline": "Lynette Hooker's Disappearance in the Bahamas",
-        "why": "A high-profile missing person case in the Bahamas generated significant media coverage with timeline developments and updates on the investigation.",
+        "headline": "Congressman Eric Swalwell Exits California Governor's Race",
+        "why": "Swalwell withdrew from the California governor's race following assault allegations, reshaping the competitive field and forcing rivals to pursue his campaign supporters.",
         "signal": "trending for 3 days"
-      },
-      {
-        "headline": "Powerful Storm System Approaching U.S. Western Pacific Territory",
-        "why": "The strongest storm on the planet bore down on U.S. islands in the Western Pacific, raising concerns about severe weather impacts and climate patterns.",
-        "signal": "trending for 2 days"
       }
     ],
     "month": [
       {
-        "headline": "U.S. Military Blockade of Iran's Strait of Hormuz",
-        "why": "Trump administration imposed a blockade on Iranian ports with minimal international support, triggering market reactions and diplomatic negotiations that dominated headlines throughout the month.",
+        "headline": "U.S. Military Blockade of Iran's Strait of Hormuz Ports",
+        "why": "Trump administration imposed a blockade on Iranian ports amid failed negotiations, with daily updates on ship passages, international response, and economic impacts dominating headlines.",
+        "signal": "trending for 12 days"
+      },
+      {
+        "headline": "Trump's Public Feud with Pope Leo Over Political Involvement",
+        "why": "Vice President Vance and Trump escalated criticism of Pope Leo's political statements during Algeria visit, sparking debate about religious leaders' role in politics.",
         "signal": "trending for 8 days"
       },
       {
-        "headline": "Trump Administration Conflicts with Pope Leo",
-        "why": "Trump's public criticism of Pope Leo for commenting on U.S. affairs, and subsequent responses from Vice President Vance, sparked sustained controversy over the separation of religious and political authority.",
+        "headline": "Hungary's Opposition Election Victory and EU Relations Reset",
+        "why": "P\u00e9ter Magyar's opposition party achieved a landslide victory, signaling potential reforms and improved ties with the EU after years of tension.",
+        "signal": "trending for 6 days"
+      },
+      {
+        "headline": "Lynette Hooker Missing Person Case in the Bahamas",
+        "why": "High-profile disappearance of a woman from a boat in the Bahamas with evolving developments including police questioning and timeline revelations.",
+        "signal": "trending for 7 days"
+      },
+      {
+        "headline": "Los Angeles Unified School District Strike Negotiations and Settlement",
+        "why": "LAUSD narrowly averted a major strike through last-minute negotiations that extended past midnight, affecting hundreds of thousands of students.",
         "signal": "trending for 5 days"
-      },
-      {
-        "headline": "Hungary Opposition's Electoral Victory and EU Relations",
-        "why": "Hungarian opposition achieved a landslide election win against the Orb\u00e1n government, signaling potential reforms and a thaw in tensions with the European Union.",
-        "signal": "trending for 3 days"
-      },
-      {
-        "headline": "Lynette Hooker Disappearance in the Bahamas",
-        "why": "Missing person case in the Bahamas generated sustained media coverage with timeline updates and developments, including the release of a Michigan man connected to the investigation.",
-        "signal": "trending for 4 days"
-      },
-      {
-        "headline": "DOJ Prosecutor Firings from Biden-Era FACE Act Cases",
-        "why": "Trump administration dismissed at least 4 federal prosecutors who handled abortion-related prosecutions under the previous administration, representing a significant shift in DOJ personnel and policy priorities.",
-        "signal": "trending for 2 days"
       }
     ]
   }

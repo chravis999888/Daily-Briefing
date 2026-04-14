@@ -29,6 +29,18 @@
 - Tracking suggestions — move into Sonnet pass instead of separate Haiku calls
 - GDELT failure alert — email or webhook after 3 consecutive failures
 - Deploy flag — only deploy to Cloudflare when content actually changed
+- Breaking news persistence — don't overwrite with empty on failed runs
+- GDELT root cause diagnosis
+- Archaeology duplicate detection — same story different headline
+- Archaeology recency filter on RSS feeds
+- Fabrizio Romano — confirm working in production
+- Foreign language RSS — drop or replace with English equivalents
+
+### v3.1 — Infra Reset
+- Jinja2 templating — extract 1500-line HTML f-string into template.html
+- Cloudflare Workers + KV — replace GitHub API browser hacks for starring/deleting/refreshing
+- render_story() consolidation — one function not three diverged versions
+- Memory/KV migration plan — decide what stays in GitHub vs moves to KV
 
 ### v4.0 — Features
 - Cost/stats dashboard — separate cost_log.json, token accumulator, Chart.js visualisation, AUD conversion at 1.55

@@ -122,7 +122,9 @@ def save_today_stories(memory, category, stories):
     if today not in memory["stories"]:
         memory["stories"][today] = {}
     memory["stories"][today][category] = [
-        {"headline": s["headline"], "timestamp": s.get("timestamp",""), "score": s.get("score", 5)}
+        {"headline": s["headline"], "timestamp": s.get("timestamp",""), "score": s.get("score", 5),
+         "summary": s.get("summary",""), "url": s.get("url",""), "image": s.get("image",""),
+         "articles": s.get("articles",[]), "tracking_suggestions": s.get("tracking_suggestions",[])}
         for s in stories
     ]
     cutoff = (datetime.now(AEST) - timedelta(days=3)).strftime("%Y-%m-%d")
@@ -936,6 +938,7 @@ Raw JSON only."""
             "score": story.get("score", 5),
             "timestamp": ts,
             "summary": summary,
+            "url": url,
             "image": orig.get("image",""),
             "articles": articles_list,
             "tracking_suggestions": generate_tracking_suggestions(story["headline"])
@@ -1036,6 +1039,7 @@ Raw JSON only."""
             "score": story.get("score", 5),
             "timestamp": ts,
             "summary": summary,
+            "url": url,
             "image": orig.get("image",""),
             "articles": articles_list,
             "tracking_suggestions": generate_tracking_suggestions(story["headline"])
@@ -1092,6 +1096,7 @@ Raw JSON only, no markdown."""
             "score": story.get("score", 5),
             "timestamp": ts,
             "summary": summary,
+            "url": url,
             "image": orig.get("image",""),
             "articles": articles_list,
             "tracking_suggestions": generate_tracking_suggestions(story["headline"])
@@ -1182,6 +1187,7 @@ Raw JSON only."""
             "score": story.get("score", 5),
             "timestamp": ts,
             "summary": summary,
+            "url": url,
             "image": orig.get("image",""),
             "articles": articles_list,
             "tracking_suggestions": generate_tracking_suggestions(story["headline"])

@@ -73,7 +73,7 @@ Nothing currently in progress.
 
 ## 🐛 Known Issues
 
-- **GDELT consistently failing** — retries + RSS fallback in place; 2h gate prevents hammering; breaking news now has Reuters/AP/BBC/Al Jazeera as backbone regardless of GDELT status
+- **GDELT consistently failing** — retries + RSS fallback in place; 2h gate prevents hammering; breaking news now has Reuters/AP/BBC/Al Jazeera as backbone regardless of GDELT status; memory corruption guard added (isinstance check + reload from disk if corrupted)
 - **Auto-developing situations not triggering** — needs ~1 week of consistent memory history to build up enough signal
 - **529 overloaded errors** — transient Anthropic API issue, retry after 10-15 mins
 

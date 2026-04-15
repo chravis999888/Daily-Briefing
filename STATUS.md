@@ -18,7 +18,7 @@
 
 ## 🔄 In Progress
 
-Nothing currently in progress.
+Nothing currently in progress. Next full run will repopulate memory.json with fixed story structure (summary + url + image + articles now persisted).
 
 ---
 
@@ -74,6 +74,7 @@ Nothing currently in progress.
 ## 🐛 Known Issues
 
 - **GDELT consistently failing** — retries + RSS fallback in place; 2h gate prevents hammering; breaking news now has Reuters/AP/BBC/Al Jazeera as backbone regardless of GDELT status; memory corruption guard added (isinstance check + reload from disk if corrupted)
+- **Summaries missing from HTML** — fixed: save_today_stories now persists summary/url/image/articles/tracking_suggestions; all four processors now include url in results dict. Next full run will repopulate cache with correct structure.
 - **Auto-developing situations not triggering** — needs ~1 week of consistent memory history to build up enough signal
 - **529 overloaded errors** — transient Anthropic API issue, retry after 10-15 mins
 

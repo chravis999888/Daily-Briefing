@@ -22,7 +22,7 @@ Nothing currently in progress.
 
 ## 📋 Next Up
 
-### v3.0 — Bug fixes
+### v0.5 — Bug fixes
 - Previously cards — clicking them should open modal with summary snippet
 - Star popup stale pinned.txt bug — sometimes shows outdated topics
 - Auto-refresh 404 handling — graceful fallback if page not found on poll
@@ -36,13 +36,13 @@ Nothing currently in progress.
 - Fabrizio Romano — confirm working in production
 - Foreign language RSS — drop or replace with English equivalents
 
-### v3.1 — Infra Reset
+### v0.6 — Infra Reset
 - Jinja2 templating — extract 1500-line HTML f-string into template.html
 - Cloudflare Workers + KV — replace GitHub API browser hacks for starring/deleting/refreshing
 - render_story() consolidation — one function not three diverged versions
 - Memory/KV migration plan — decide what stays in GitHub vs moves to KV
 
-### v4.0 — Features
+### v0.7 — Features
 - Cost/stats dashboard — separate cost_log.json, token accumulator, Chart.js visualisation, AUD conversion at 1.55
 - Sleep mode — restrict cron to waking hours (user to confirm hours, Brisbane AEST)
 - Instant delete on developing situations — no page reload needed
@@ -50,19 +50,19 @@ Nothing currently in progress.
 - Breaking news graceful degradation — handle 1, 2, or 3 stories without breaking grid
 - Settings/stats modal — ⚙ icon in header
 
-### v4.1 — Polish
+### v0.8 — Polish
 - Mobile responsiveness — full pass
 - Typography — tighten type scale, Playfair Display on all headlines
 - Modal improvements — tracking pills, better image handling
 - JS robustness — var globals, error boundaries, safe JSON parsing
 
-### v4.2 — Personalisation
+### v0.9 — Personalisation
 - Favourite team/league preferences
 - Thumbs up/down feedback loop
 - Per-user prompts
 - Category creation UI
 
-### v5.0 — Product
+### v1.0 — Product
 - Multi-user — GitHub OAuth, shared processing pipeline
 - Brother's instance
 - Landing page and onboarding flow

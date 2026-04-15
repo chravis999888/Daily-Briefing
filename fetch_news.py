@@ -2008,6 +2008,9 @@ def main():
         print("Breaking-only run...")
         errors = []
         gdelt_breaking, gdelt_err, memory = fetch_gdelt_articles("war attack disaster killed", timespan="1h", max_records=25, memory=memory)
+        if not isinstance(memory, dict):
+            print(f"ERROR: memory corrupted after GDELT call (got {type(memory)}), reloading from disk")
+            memory = load_memory()
         if gdelt_err:
             print(f"GDELT: {gdelt_err}")
             if "skipped" not in gdelt_err:
@@ -2019,7 +2022,7 @@ def main():
         aljazeera_rss = fetch_rss("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera")
         all_breaking = gdelt_breaking + guardian_breaking + reuters_rss + ap_rss + bbc_rss + aljazeera_rss
 
-        new_breaking, memory = process_breaking_news(gdelt_breaking, all_breaking, memory)
+        new_breaking, memory = process_breaking_news([], all_breaking, memory)
         if new_breaking:
             breaking = new_breaking
             memory = save_article_hash(memory, "breaking", all_breaking)
@@ -2171,6 +2174,9 @@ def main():
 
     print("Fetching Breaking News...")
     gdelt_breaking, gdelt_err, memory = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="1h", max_records=25, memory=memory)
+    if not isinstance(memory, dict):
+        print(f"ERROR: memory corrupted after GDELT call (got {type(memory)}), reloading from disk")
+        memory = load_memory()
     if gdelt_err:
         print(f"GDELT: {gdelt_err}")
         if "skipped" not in gdelt_err:
@@ -2181,7 +2187,7 @@ def main():
     bbc_rss = fetch_rss("https://feeds.bbci.co.uk/news/rss.xml", "BBC News")
     aljazeera_rss = fetch_rss("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera")
     all_breaking = gdelt_breaking + guardian_breaking + reuters_rss + ap_rss + bbc_rss + aljazeera_rss
-    breaking, memory = process_breaking_news(gdelt_breaking, all_breaking, memory)
+    breaking, memory = process_breaking_news([], all_breaking, memory)
 
     time.sleep(60)
     print("Fetching Australia news...")

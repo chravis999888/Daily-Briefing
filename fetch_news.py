@@ -370,22 +370,15 @@ Cover what happened, why it matters, and any important background or broader sig
 
 # ── Fetchers ──────────────────────────────────────────────────────────────────
 
-def fetch_gdelt_articles(query, timespan="2h", max_records=25):
-    url = "https://api.gdeltproject.org/api/v2/doc/doc"
-    params = {
-        "query": query,
-        "mode": "artlist",
-        "maxrecords": max_records,
-        "timespan": timespan,
-        "format": "json"
-    }
+def fetch_gdelt_articles(query, timespan="1h", max_records=25):
     DOMAIN_BLACKLIST = ["wikipedia.org", "wikipedia.com", "britannica.com", "fandom.com", "wikimedia.org"]
-    try:
-        r = requests.get(url, params=params, timeout=15)
-        data = r.json()
+    base_url = "https://api.gdeltproject.org/api/v2/doc/doc"
+    params = {"query": query, "mode": "artlist", "maxrecords": max_records, "timespan": timespan}
+
+    def _parse_articles(raw_list):
         now_utc = datetime.now(timezone.utc)
         articles = []
-        for a in data.get("articles", []):
+        for a in raw_list:
             domain = a.get("domain", "")
             if any(bl in domain for bl in DOMAIN_BLACKLIST):
                 continue
@@ -397,17 +390,84 @@ def fetch_gdelt_articles(query, timespan="2h", max_records=25):
                         continue
                 except Exception:
                     pass
-            articles.append({
-                "title": a.get("title", ""),
-                "url": a.get("url", ""),
-                "source": domain,
-                "time": seendate,
-                "content": ""
-            })
+            articles.append({"title": a.get("title", ""), "url": a.get("url", ""),
+                             "source": domain, "time": seendate, "content": ""})
         return articles
+
+    def _parse_rss_articles(feed):
+        now_utc = datetime.now(timezone.utc)
+        articles = []
+        for e in feed.entries:
+            url = e.get("link", "")
+            domain = url.split("/")[2] if url.startswith("http") else ""
+            if any(bl in domain for bl in DOMAIN_BLACKLIST):
+                continue
+            pub = e.get("published", "")
+            if pub:
+                try:
+                    dt = parsedate_to_datetime(pub)
+                    if dt.tzinfo is None:
+                        dt = dt.replace(tzinfo=timezone.utc)
+                    if (now_utc - dt).total_seconds() > 6 * 3600:
+                        continue
+                except Exception:
+                    pass
+            articles.append({"title": e.get("title", ""), "url": url,
+                             "source": domain, "time": pub, "content": ""})
+        return articles
+
+    def _attempt_json():
+        r = requests.get(base_url, params={**params, "format": "json"}, timeout=30)
+        if r.status_code != 200:
+            return [], f"GDELT fetch failed: HTTP {r.status_code}"
+        try:
+            data = r.json()
+        except Exception as e:
+            return [], f"GDELT fetch failed: JSON decode error — {e}"
+        articles = _parse_articles(data.get("articles", []))
+        return articles, ""
+
+    def _attempt_rss():
+        rss_url = base_url + "?" + "&".join(f"{k}={v}" for k, v in {**params, "format": "rss"}.items())
+        feed = feedparser.parse(rss_url)
+        articles = _parse_rss_articles(feed)
+        return articles, "" if articles else "GDELT RSS returned empty"
+
+    # First JSON attempt
+    try:
+        articles, err = _attempt_json()
+        if articles:
+            return articles, ""
+        print(f"GDELT JSON attempt 1: {err or 'empty'} — retrying in 5s")
     except Exception as e:
-        print(f"GDELT REST fetch error: {e}")
-        return []
+        err = f"GDELT fetch failed: {e}"
+        print(f"GDELT JSON attempt 1 exception: {e} — retrying in 5s")
+
+    time.sleep(5)
+
+    # Second JSON attempt
+    try:
+        articles, err = _attempt_json()
+        if articles:
+            return articles, ""
+        print(f"GDELT JSON attempt 2: {err or 'empty'} — falling back to RSS")
+    except Exception as e:
+        err = f"GDELT fetch failed: {e}"
+        print(f"GDELT JSON attempt 2 exception: {e} — falling back to RSS")
+
+    # RSS fallback
+    try:
+        articles, rss_err = _attempt_rss()
+        if articles:
+            print(f"GDELT RSS fallback succeeded: {len(articles)} articles")
+            return articles, ""
+        final_err = err + "; RSS fallback also empty"
+        print(f"GDELT RSS fallback: {rss_err}")
+        return [], final_err
+    except Exception as e:
+        final_err = err + f"; RSS fallback failed: {e}"
+        print(f"GDELT RSS fallback exception: {e}")
+        return [], final_err
 
 def fetch_google_news_rss():
     try:
@@ -1927,10 +1987,12 @@ def main():
     if RUN_MODE == "breaking_only":
         print("Breaking-only run...")
         errors = []
-        gdelt_breaking = fetch_gdelt_articles("war attack disaster killed", timespan="1h", max_records=25)
-        if not gdelt_breaking:
-            print("GDELT failed or returned nothing — using Guardian only for breaking news")
-            errors.append("GDELT fetch failed")
+        gdelt_breaking, gdelt_err = fetch_gdelt_articles("war attack disaster killed", timespan="1h", max_records=25)
+        if gdelt_err:
+            print(f"GDELT: {gdelt_err}")
+            errors.append(gdelt_err)
+        elif not gdelt_breaking:
+            print("GDELT returned nothing — using Guardian only for breaking news")
         guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
 
         new_breaking, memory = process_breaking_news(gdelt_breaking, guardian_breaking, memory)
@@ -2084,10 +2146,12 @@ def main():
     world_topics, memory = process_world_topics(memory)
 
     print("Fetching Breaking News...")
-    gdelt_breaking = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="1h", max_records=25)
-    if not gdelt_breaking:
-        print("GDELT failed or returned nothing — using Guardian only for breaking news")
-        errors.append("GDELT fetch failed")
+    gdelt_breaking, gdelt_err = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="1h", max_records=25)
+    if gdelt_err:
+        print(f"GDELT: {gdelt_err}")
+        errors.append(gdelt_err)
+    elif not gdelt_breaking:
+        print("GDELT returned nothing — using Guardian only for breaking news")
     guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
     breaking, memory = process_breaking_news(gdelt_breaking, guardian_breaking, memory)
 

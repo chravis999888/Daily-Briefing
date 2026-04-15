@@ -7,6 +7,7 @@
 - World trends section — Google News RSS + YouTube + Google Trends RSS + Reddit fallback, Today/Week/Month tabs built from memory
 - Developing situations tracker — star/pin system, auto-detection, remove button
 - Cost optimisations — article hashing, caching, deploy-only mode, per-story sleeps, memory-based summary reuse
+- GDELT hardening — separated JSON/network error handling, 30s timeout, HTTP status logging, one retry with 5s sleep, RSS fallback, error string bubbled up into health.json
 - Mock mode — hardcoded data for local preview without burning API credits
 - Cloudflare Pages deployment — wrangler deploy via GitHub Actions, sentinel-file gating, confirmed working end-to-end
 - Rate limit fixes — sleep spacing across all four processors
@@ -30,7 +31,7 @@ Nothing currently in progress.
 - GDELT failure alert — email or webhook after 3 consecutive failures
 - Deploy flag — only deploy to Cloudflare when content actually changed
 - Breaking news persistence — don't overwrite with empty on failed runs
-- GDELT root cause diagnosis
+- GDELT root cause diagnosis — error now captured in health.json; watch next few runs
 - Archaeology duplicate detection — same story different headline
 - Archaeology recency filter on RSS feeds
 - Fabrizio Romano — confirm working in production
@@ -71,7 +72,7 @@ Nothing currently in progress.
 
 ## 🐛 Known Issues
 
-- **GDELT consistently failing** — falling back to Guardian only for breaking news on every run
+- **GDELT consistently failing** — now retries once + RSS fallback; exact error will appear in health.json after next run
 - **Auto-developing situations not triggering** — needs ~1 week of consistent memory history to build up enough signal
 - **529 overloaded errors** — transient Anthropic API issue, retry after 10-15 mins
 

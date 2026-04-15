@@ -306,10 +306,10 @@
     "2026-04-15": [
       "U.S. blockade has turned back six merchant ships leaving Strait of Hormuz - The Washington Post",
       "New accuser says Eric Swalwell sexually assaulted her in 2018 - The Guardian",
-      "US-Iran peace talks could resume in next two days, Trump says - The Guardian",
-      "Vance Says Pope Leo Should Be More Careful When Talking About Theology - The New York Times",
-      "Rubio launches direct negotiations between Israel and Lebanon - Axios",
-      "Justice Department fires 4 prosecutors accused of bias against anti-abortion activists - AP News",
+      "Trump says Iran talks may resume this week, but opposes enrichment compromise - The Washington Post",
+      "\u2018They\u2019re not getting what they voted for\u2019: Jesus meme lays bare GOP frustrations with Trump - Politico",
+      "Lebanon and Israel hold first direct diplomatic talks in decades in Washington - AP News",
+      "Justice Department says Biden DOJ weaponized law to go after anti-abortion activists - NPR",
       "Woman killed by police at Omaha Walmart after allegedly kidnapping, slashing child - CBS News",
       "Hampshire College Will Close Amid Student Enrollment Declines - The New York Times",
       "Mike Johnson faces FISA mayhem - Politico",
@@ -318,7 +318,7 @@
       "After losing loved ones, an Israeli and a Palestinian work together for Middle East peace - NPR",
       "At Auschwitz, Diaspora Jews who lived through terror march alongside Holocaust survivors - The Times of Israel",
       "Exclusive: Congo to receive first group of deportees from US this week, sources say - Reuters",
-      "Stocks post back-to-back gains as traders remain optimistic for U.S.-Iran deal: Live updates - CNBC",
+      "Stock market today: S&P 500, Nasdaq rally toward record highs, oil tumbles as Iran deal optimism grows - Yahoo Finance",
       "\"PINKY UP\" MV (Choreography Ver.) | KATSEYE",
       "GODZILLA MINUS ZERO | First Look Teaser",
       "The Will Cain Show",
@@ -329,16 +329,16 @@
       "GODZILLA MINUS ZERO Official Teaser Trailer (2026)",
       "This Gotta Be Game Of The Year",
       "The Cranberries - Zombie (Sub. Espa\u00f1ol + Lyrics)",
+      "kyle tucker",
+      "edwin diaz",
+      "billy crystal",
+      "zach galifianakis",
+      "mason miller",
+      "padres score",
+      "trinity rodman",
       "bts",
-      "patrick wisdom",
-      "nashville",
-      "nick offerman",
-      "fox 23",
-      "steven yeun",
-      "america",
-      "carson city",
-      "comcast data breach settlement",
-      "tornado siren"
+      "assassin creed black flag",
+      "patrick wisdom"
     ]
   },
   "summaries": {
@@ -392,84 +392,85 @@
   "world_topics_cache": {
     "today": [
       {
-        "headline": "U.S.-Iran Naval Standoff and Peace Talk Prospects",
-        "why": "The U.S. blockade of merchant ships at the Strait of Hormuz is escalating tensions while Trump simultaneously signals peace talks could resume within days, creating major uncertainty for global markets and Middle East stability.",
-        "signal": "[NEWS] U.S. blockade, [NEWS] US-Iran peace talks, [CNBC] Stocks post back-to-back gains"
+        "headline": "U.S. blockade of Iranian merchant ships at Strait of Hormuz escalates Middle East tensions",
+        "why": "The Trump administration is escalating pressure on Iran through a naval blockade while simultaneously suggesting talks may resume, creating uncertainty about U.S. policy direction and threatening global oil supplies.",
+        "signal": "[NEWS] Washington Post, [NEWS] Trump Iran talks statement, [FINANCE] Oil prices tumbling on deal optimism"
       },
       {
-        "headline": "Trump Administration's Justice Department Purge and Political Prosecutions",
-        "why": "The firing of four prosecutors accused of bias against anti-abortion activists signals a major politicization of the Justice Department, following broader patterns of personnel removals under the current administration.",
-        "signal": "[NEWS] Justice Department fires 4 prosecutors"
+        "headline": "Lebanon and Israel conduct first direct diplomatic talks in decades brokered in Washington",
+        "why": "This historic breakthrough in direct negotiations between two countries with a fraught history signals a potential shift in Middle East peace efforts and demonstrates diplomatic progress amid regional tensions.",
+        "signal": "[NEWS] AP News"
       },
       {
-        "headline": "Rubio's Direct Israel-Lebanon Negotiations Initiative",
-        "why": "Secretary of State Rubio is launching new direct negotiations between Israel and Lebanon, representing a significant diplomatic shift in Middle East peace efforts amid broader regional tensions.",
-        "signal": "[NEWS] Rubio launches direct negotiations, [NEWS] After losing loved ones Israeli and Palestinian work together"
+        "headline": "Hungary's political transition post-Orban attracts investor interest as new chapter begins",
+        "why": "The end of Viktor Orban's era in Hungary represents a significant geopolitical shift in Eastern Europe with major implications for EU relations and regional governance.",
+        "signal": "[NEWS] Reuters"
       },
       {
-        "headline": "Eric Swalwell Sexual Assault Accusation and Political Scandal",
-        "why": "A new accuser has come forward against U.S. Congressman Eric Swalwell alleging sexual assault in 2018, reviving scrutiny of the Democratic politician's conduct.",
-        "signal": "[NEWS] New accuser says Eric Swalwell sexually assaulted her"
+        "headline": "Republican Party frustration with Trump leadership over unfulfilled campaign promises",
+        "why": "Internal GOP divisions are intensifying with party members publicly expressing dissatisfaction with Trump's governance and policy direction, indicating growing fractures within the party.",
+        "signal": "[NEWS] Politico"
       },
       {
-        "headline": "Hungary's Post-Orban Political and Economic Transition",
-        "why": "Hungary is entering a landmark new chapter following the Orban era, with investors reassessing the country's direction and generating significant international business interest.",
-        "signal": "[NEWS] Investors size up landmark new chapter for Hungary post-Orban"
+        "headline": "New sexual assault accusation against U.S. Congressman Eric Swalwell from 2018 incident",
+        "why": "The fresh allegation against a sitting congressman reignites questions about accountability in Congress and follows broader scrutiny of political figures' conduct.",
+        "signal": "[NEWS] The Guardian"
       }
     ],
     "week": [
       {
         "headline": "U.S. Military Blockade of Iranian Strait of Hormuz",
-        "why": "Trump administration imposed a blockade on Iranian ports at the Strait of Hormuz, causing market volatility and international diplomatic responses as allies like UK and France declined to participate.",
+        "why": "Trump administration imposed a blockade on Iranian ports at the Strait of Hormuz, causing international responses, market volatility, and diplomatic negotiations with limited international support.",
         "signal": "trending for 6 days"
       },
       {
-        "headline": "Trump Administration Conflicts with Pope Leo",
-        "why": "Vice President Vance and Trump publicly attacked Pope Leo for commenting on U.S. affairs and theology, with the Pope responding that he speaks only of the Gospel during his Algeria visit.",
+        "headline": "Trump's Public Conflict with Pope Leo",
+        "why": "Trump launched criticism at Pope Leo for perceived political interference, with Vice President Vance joining the dispute over the Pope's role in U.S. affairs.",
+        "signal": "trending for 3 days"
+      },
+      {
+        "headline": "Eric Swalwell Exits California Governor's Race Amid Sexual Assault Allegations",
+        "why": "Democratic congressman Swalwell withdrew from the California governor's race following multiple assault allegations and scrutiny from political rivals.",
         "signal": "trending for 4 days"
       },
       {
-        "headline": "Eric Swalwell Exits California Governor's Race Over Assault Allegations",
-        "why": "Democratic congressman Swalwell withdrew from the California gubernatorial race after new sexual assault allegations surfaced, prompting rival campaigns to seek his supporters' donations.",
+        "headline": "Hungarian Opposition Victory and P\u00e9ter Magyar's Reforms",
+        "why": "Hungary's opposition achieved a landslide electoral victory, signaling potential EU reconciliation and anti-corruption reforms under P\u00e9ter Magyar's leadership.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Hungarian Opposition Landslide Victory Under P\u00e9ter Magyar",
-        "why": "Hungary's opposition parties achieved a decisive electoral victory against Viktor Orb\u00e1n's government, signaling potential EU policy reforms and improved European Union relations.",
-        "signal": "trending for 3 days"
-      },
-      {
-        "headline": "U.S.-Iran Peace Negotiations Resume",
-        "why": "Trump administration indicated that U.S.-Iran peace talks could resume within two days following the blockade announcement, with stock markets responding positively to negotiation prospects.",
+        "headline": "Lebanon-Israel Direct Diplomatic Talks in Washington",
+        "why": "Lebanon and Israel held their first direct diplomatic negotiations in decades, facilitated by the U.S. amid broader Middle East tensions.",
         "signal": "trending for 3 days"
       }
     ],
     "month": [
       {
         "headline": "U.S. Military Blockade of Iranian Strait of Hormuz",
-        "why": "Trump administration imposed a blockade on Iranian ports at the Strait of Hormuz, causing international diplomatic responses, market volatility, and ongoing negotiations for resolution.",
+        "why": "Trump administration imposed a blockade on Iranian ports at the Strait of Hormuz, causing significant geopolitical tension, market volatility, and failed international coalition-building efforts with traditional allies.",
         "signal": "trending for 12 days"
       },
       {
-        "headline": "Trump Administration's Conflict with Pope Leo",
-        "why": "Vice President Vance and Trump publicly attacked Pope Leo for commenting on U.S. politics and theology, escalating into a sustained political and religious controversy.",
+        "headline": "Eric Swalwell Sexual Assault Allegations and California Governor's Race Exit",
+        "why": "Multiple sexual assault allegations against California politician Eric Swalwell forced him to withdraw from the gubernatorial race, creating significant political upheaval in the 2026 election cycle.",
         "signal": "trending for 8 days"
       },
       {
-        "headline": "Eric Swalwell's California Governor Campaign Collapse",
-        "why": "Congressman Swalwell withdrew from California's gubernatorial race following new assault allegations from multiple accusers, forcing rivals to compete for his supporters.",
+        "headline": "Hungary's Opposition Landslide Election Victory Over Viktor Orb\u00e1n",
+        "why": "Hungary's opposition parties achieved a decisive electoral victory, signaling potential major political reforms and a thaw in relations with the European Union after years of Orb\u00e1n's authoritarian governance.",
+        "signal": "trending for 7 days"
+      },
+      {
+        "headline": "Trump Administration Confrontation with Pope Leo Over Political Interference",
+        "why": "Vice President Vance and Trump publicly attacked Pope Leo for commenting on U.S. political matters, creating unprecedented tension between the American administration and the Vatican during the pontiff's Algeria visit.",
         "signal": "trending for 6 days"
       },
       {
-        "headline": "Hungary's Opposition Victory and EU Relations Reset",
-        "why": "Hungary's opposition parties achieved a landslide election victory over Viktor Orb\u00e1n's government, signaling potential reforms and a thaw in relations with the European Union.",
+        "headline": "Lebanon-Israel First Direct Diplomatic Talks in Decades",
+        "why": "After years of indirect conflict and tension, Lebanon and Israel held their first direct diplomatic negotiations in Washington, marking a historic shift in Middle East peace efforts amid ongoing regional violence.",
         "signal": "trending for 5 days"
-      },
-      {
-        "headline": "U.S. Justice Department Firing of Prosecutors",
-        "why": "The DOJ dismissed multiple prosecutors accused of bias against anti-abortion activists, part of broader Trump administration personnel changes affecting the federal judiciary.",
-        "signal": "trending for 4 days"
       }
     ]
-  }
+  },
+  "last_gdelt_attempt": "2026-04-15T04:16:10.194707+00:00"
 }

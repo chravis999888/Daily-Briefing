@@ -55,6 +55,12 @@
         "GDELT fetch failed: HTTP 429; RSS fallback failed: URL can't contain control characters. '/api/v2/doc/doc?query=war attack disaster killed&mode=artlist&maxrecords=25&timespan=1h&format=rss' (found at least ' ')"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-04-15T14:16:28.308033+10:00",
+      "run_type": "breaking_only",
+      "errors": [],
+      "status": "ok"
     }
   ],
   "errors": []

@@ -161,7 +161,12 @@
         {
           "headline": "US military killed four people in a boat strike in the eastern Pacific, Pentagon confirms",
           "timestamp": "1 hr ago",
-          "score": 6
+          "score": 6,
+          "summary": "",
+          "url": "",
+          "image": "",
+          "articles": [],
+          "tracking_suggestions": []
         }
       ],
       "australia": [
@@ -304,41 +309,41 @@
       "nba"
     ],
     "2026-04-15": [
-      "U.S. blockade has turned back six merchant ships leaving Strait of Hormuz - The Washington Post",
-      "New accuser says Eric Swalwell sexually assaulted her in 2018 - The Guardian",
+      "Live Updates: U.S. says blockade of Iranian ports \"fully implemented\" as Trump weighs more talks with Iran - CBS News",
+      "JD Vance Says Pope Should Be Careful With Words After Iran Critique - Bloomberg.com",
+      "What Swalwell\u2019s exit means for Democrats in California\u2019s governor race - The Washington Post",
       "Trump says Iran talks may resume this week, but opposes enrichment compromise - The Washington Post",
-      "\u2018They\u2019re not getting what they voted for\u2019: Jesus meme lays bare GOP frustrations with Trump - Politico",
-      "Lebanon and Israel hold first direct diplomatic talks in decades in Washington - AP News",
-      "Justice Department says Biden DOJ weaponized law to go after anti-abortion activists - NPR",
+      "Justice Department fires 4 prosecutors accused of bias against anti-abortion activists - AP News",
+      "Trump takes aim at Pope Leo again, days after calling him 'weak on crime' - CNBC",
       "Woman killed by police at Omaha Walmart after allegedly kidnapping, slashing child - CBS News",
-      "Hampshire College Will Close Amid Student Enrollment Declines - The New York Times",
-      "Mike Johnson faces FISA mayhem - Politico",
+      "Camp Mystic official testifies that he didn\u2019t see flood warnings issued the day before storm hit - The Texas Tribune",
       "Hochul Proposes Tax on N.Y.C. Second Homes That Are Worth $5 Million - The New York Times",
-      "Investors size up landmark new chapter for Hungary post-Orban - Reuters",
-      "After losing loved ones, an Israeli and a Palestinian work together for Middle East peace - NPR",
-      "At Auschwitz, Diaspora Jews who lived through terror march alongside Holocaust survivors - The Times of Israel",
-      "Exclusive: Congo to receive first group of deportees from US this week, sources say - Reuters",
-      "Stock market today: S&P 500, Nasdaq rally toward record highs, oil tumbles as Iran deal optimism grows - Yahoo Finance",
+      "Hampshire College in Amherst will permanently close in the fall - WBUR",
+      "Diplomats try to arrange more US-Iran talks during first full day of American blockade - AP News",
+      "Ashly Robinson's family demands answers after New Jersey influencer died on trip with fiance in Zanzibar - CBS News",
+      "Israel-Lebanon talks unlikely to yield much until Iran undergoes fundamental change - The Times of Israel",
+      "Thousands gather in Poland for annual 'March of the Living' to remember Holocaust victims - Euronews.com",
+      "Asia stocks extend rally on tech surge, US-Iran peace hopes - Investing.com",
       "\"PINKY UP\" MV (Choreography Ver.) | KATSEYE",
       "GODZILLA MINUS ZERO | First Look Teaser",
-      "The Will Cain Show",
+      "Jesse Watters Primetime",
       "Laufey - Madwoman (Official Music Video)",
       "Black Cat: The Master Thief| Character Reveal Trailer | Marvel Rivals",
-      "Morning Joe",
+      "Deadline: White House",
       "Allstar JR - Expensive Wristwatches",
       "GODZILLA MINUS ZERO Official Teaser Trailer (2026)",
-      "This Gotta Be Game Of The Year",
+      "CNN Global Report: War With Iran",
       "The Cranberries - Zombie (Sub. Espa\u00f1ol + Lyrics)",
-      "kyle tucker",
-      "edwin diaz",
-      "billy crystal",
-      "zach galifianakis",
-      "mason miller",
-      "padres score",
-      "trinity rodman",
-      "bts",
-      "assassin creed black flag",
-      "patrick wisdom"
+      "t rowe price",
+      "xbox series x",
+      "fidelity investments",
+      "carnival cruise line",
+      "power outage near me",
+      "cbse class 10 result 2026 date",
+      "chapman",
+      "bright horizons",
+      "seattle",
+      "accident attorney"
     ]
   },
   "summaries": {
@@ -392,85 +397,85 @@
   "world_topics_cache": {
     "today": [
       {
-        "headline": "U.S. blockade of Iranian merchant ships at Strait of Hormuz escalates Middle East tensions",
-        "why": "The Trump administration is escalating pressure on Iran through a naval blockade while simultaneously suggesting talks may resume, creating uncertainty about U.S. policy direction and threatening global oil supplies.",
-        "signal": "[NEWS] Washington Post, [NEWS] Trump Iran talks statement, [FINANCE] Oil prices tumbling on deal optimism"
+        "headline": "U.S. Blockade of Iranian Ports and Renewed Diplomatic Talks",
+        "why": "The Trump administration has fully implemented a naval blockade of Iranian ports while simultaneously signaling willingness to resume talks this week, creating major uncertainty about escalation versus negotiation in a critical geopolitical standoff.",
+        "signal": "[NEWS] CBS, AP, Washington Post; [YOUTUBE] CNN Global Report"
       },
       {
-        "headline": "Lebanon and Israel conduct first direct diplomatic talks in decades brokered in Washington",
-        "why": "This historic breakthrough in direct negotiations between two countries with a fraught history signals a potential shift in Middle East peace efforts and demonstrates diplomatic progress amid regional tensions.",
+        "headline": "Trump's Escalating Conflict with Pope Leo Over Crime and Foreign Policy",
+        "why": "President Trump has publicly attacked the Pope multiple times in recent days, with VP JD Vance warning the pontiff to be 'careful with words,' reflecting an unprecedented breach between a U.S. administration and the Catholic Church.",
+        "signal": "[NEWS] CNBC, Bloomberg, Washington Post"
+      },
+      {
+        "headline": "Justice Department Fires Prosecutors Accused of Bias Against Anti-Abortion Activists",
+        "why": "The firing of four prosecutors signals a major shift in how the Trump administration's DOJ is handling cases involving anti-abortion activists, raising concerns about politicized prosecutions.",
         "signal": "[NEWS] AP News"
       },
       {
-        "headline": "Hungary's political transition post-Orban attracts investor interest as new chapter begins",
-        "why": "The end of Viktor Orban's era in Hungary represents a significant geopolitical shift in Eastern Europe with major implications for EU relations and regional governance.",
-        "signal": "[NEWS] Reuters"
+        "headline": "Hampshire College Announces Permanent Closure in Fall 2026",
+        "why": "The 160-year-old liberal arts college in Massachusetts is shutting down permanently, marking a significant contraction in U.S. higher education amid broader enrollment and financial pressures.",
+        "signal": "[NEWS] WBUR"
       },
       {
-        "headline": "Republican Party frustration with Trump leadership over unfulfilled campaign promises",
-        "why": "Internal GOP divisions are intensifying with party members publicly expressing dissatisfaction with Trump's governance and policy direction, indicating growing fractures within the party.",
-        "signal": "[NEWS] Politico"
-      },
-      {
-        "headline": "New sexual assault accusation against U.S. Congressman Eric Swalwell from 2018 incident",
-        "why": "The fresh allegation against a sitting congressman reignites questions about accountability in Congress and follows broader scrutiny of political figures' conduct.",
-        "signal": "[NEWS] The Guardian"
+        "headline": "Death of Influencer Ashly Robinson in Zanzibar Raises Investigation Questions",
+        "why": "A New Jersey influencer died during a trip to Zanzibar with her fianc\u00e9, with her family demanding answers and suggesting potential foul play in what has become a viral missing-person-turned-death case.",
+        "signal": "[NEWS] CBS News"
       }
     ],
     "week": [
       {
         "headline": "U.S. Military Blockade of Iranian Strait of Hormuz",
-        "why": "Trump administration imposed a blockade on Iranian ports at the Strait of Hormuz, causing international responses, market volatility, and diplomatic negotiations with limited international support.",
+        "why": "Trump administration implemented a blockade of Iranian ports on the Strait of Hormuz, sparking international diplomatic responses and market reactions as the U.S. sought allied support that largely failed to materialize.",
         "signal": "trending for 6 days"
       },
       {
-        "headline": "Trump's Public Conflict with Pope Leo",
-        "why": "Trump launched criticism at Pope Leo for perceived political interference, with Vice President Vance joining the dispute over the Pope's role in U.S. affairs.",
-        "signal": "trending for 3 days"
-      },
-      {
-        "headline": "Eric Swalwell Exits California Governor's Race Amid Sexual Assault Allegations",
-        "why": "Democratic congressman Swalwell withdrew from the California governor's race following multiple assault allegations and scrutiny from political rivals.",
+        "headline": "Trump Administration Conflict with Pope Leo",
+        "why": "Trump engaged in a public dispute with Pope Leo over his criticism of U.S. Iran policy, with Vice President Vance defending Trump by telling the Pope to stay out of U.S. affairs.",
         "signal": "trending for 4 days"
       },
       {
-        "headline": "Hungarian Opposition Victory and P\u00e9ter Magyar's Reforms",
-        "why": "Hungary's opposition achieved a landslide electoral victory, signaling potential EU reconciliation and anti-corruption reforms under P\u00e9ter Magyar's leadership.",
+        "headline": "Hungary Opposition Victory and EU Relations",
+        "why": "Hungary's opposition achieved a landslide election victory, signaling potential reforms and a thaw in tensions with the European Union after years of friction.",
+        "signal": "trending for 2 days"
+      },
+      {
+        "headline": "Eric Swalwell Exits California Governor's Race",
+        "why": "Democratic congressman Eric Swalwell withdrew from the California gubernatorial race following assault allegations, prompting rivals to compete for his supporters and fundraising.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Lebanon-Israel Direct Diplomatic Talks in Washington",
-        "why": "Lebanon and Israel held their first direct diplomatic negotiations in decades, facilitated by the U.S. amid broader Middle East tensions.",
-        "signal": "trending for 3 days"
+        "headline": "U.S.-Iran Nuclear Negotiations and Talks",
+        "why": "Vice President Vance conducted Iran negotiations described as 'friendly' with no deal reached, while Trump indicated talks may resume despite his opposition to enrichment compromises.",
+        "signal": "trending for 5 days"
       }
     ],
     "month": [
       {
-        "headline": "U.S. Military Blockade of Iranian Strait of Hormuz",
-        "why": "Trump administration imposed a blockade on Iranian ports at the Strait of Hormuz, causing significant geopolitical tension, market volatility, and failed international coalition-building efforts with traditional allies.",
-        "signal": "trending for 12 days"
-      },
-      {
-        "headline": "Eric Swalwell Sexual Assault Allegations and California Governor's Race Exit",
-        "why": "Multiple sexual assault allegations against California politician Eric Swalwell forced him to withdraw from the gubernatorial race, creating significant political upheaval in the 2026 election cycle.",
+        "headline": "Trump Administration Imposes Military Blockade of Iranian Ports at Strait of Hormuz",
+        "why": "Trump announced a blockade of Iran's ports, but faced international resistance with the UK and France refusing to participate, while tanker traffic continued and negotiations remained uncertain.",
         "signal": "trending for 8 days"
       },
       {
-        "headline": "Hungary's Opposition Landslide Election Victory Over Viktor Orb\u00e1n",
-        "why": "Hungary's opposition parties achieved a decisive electoral victory, signaling potential major political reforms and a thaw in relations with the European Union after years of Orb\u00e1n's authoritarian governance.",
-        "signal": "trending for 7 days"
-      },
-      {
-        "headline": "Trump Administration Confrontation with Pope Leo Over Political Interference",
-        "why": "Vice President Vance and Trump publicly attacked Pope Leo for commenting on U.S. political matters, creating unprecedented tension between the American administration and the Vatican during the pontiff's Algeria visit.",
+        "headline": "Trump Publicly Attacks Pope Leo Over Iran Stance and Social Commentary",
+        "why": "Trump launched multiple tirades against Pope Leo for his criticism of Trump's Iran policy and characterization as 'weak on crime,' drawing responses from Vice President Vance.",
         "signal": "trending for 6 days"
       },
       {
-        "headline": "Lebanon-Israel First Direct Diplomatic Talks in Decades",
-        "why": "After years of indirect conflict and tension, Lebanon and Israel held their first direct diplomatic negotiations in Washington, marking a historic shift in Middle East peace efforts amid ongoing regional violence.",
-        "signal": "trending for 5 days"
+        "headline": "California Democrat Eric Swalwell Exits Governor's Race Following Assault Allegations",
+        "why": "Swalwell withdrew from the California governor's race amid assault allegations, forcing other Democratic candidates to compete for his supporters and donor base.",
+        "signal": "trending for 4 days"
+      },
+      {
+        "headline": "Hungary's Opposition Achieves Landslide Election Victory, Signaling EU Reconciliation",
+        "why": "Hungary's opposition won decisively, with P\u00e9ter Magyar vowing to pursue accountability for corruption and promising to improve fractured EU relations.",
+        "signal": "trending for 3 days"
+      },
+      {
+        "headline": "U.S. Military Strike Kills Two on Suspected Drug Boat in Eastern Pacific",
+        "why": "The U.S. military conducted a strike on an alleged drug trafficking vessel in the eastern Pacific, resulting in two deaths and raising questions about enforcement operations.",
+        "signal": "trending for 2 days"
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-15T04:16:10.194707+00:00"
+  "last_gdelt_attempt": "2026-04-15T09:06:13.569865+00:00"
 }

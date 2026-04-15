@@ -77,6 +77,17 @@ Nothing currently in progress.
 - **Auto-developing situations not triggering** — needs ~1 week of consistent memory history to build up enough signal
 - **529 overloaded errors** — transient Anthropic API issue, retry after 10-15 mins
 - **Football sourcing bias** — context articles sometimes skewed by player nationality rather than footballing relevance. Example: Enez Abde/Real Betis story pulled Marca, Mundo Betis and Africa Soccer rather than major European outlets because he is Moroccan. Needs prompt-level fix in context article search.
+- **World topics on every breaking-only run** — `process_world_topics` is called in every 30-minute breaking-only run, fetching Google News, YouTube, Google Trends and Reddit and making 3 Haiku calls. World topics only need updating in full runs. Unnecessary API and cost spend every half hour.
+- **Double context search in Australia and Football** — when a story has both `context` and `deeper_search: true`, both processors run `find_related_cached_stories` + `call_haiku_with_search` twice with the same query. Results are appended to `articles_list` twice, producing duplicate article entries in the modal and doubling API calls for those stories.
+- **`call_haiku` has no error handling** — `call_sonnet` has retries, rate limit backoff and a Haiku fallback. `call_haiku` is a bare call with no try/except. A 429 or 529 from Haiku will raise an unhandled exception and crash the entire run.
+- **Sonnet silent Haiku fallback** — any Sonnet error other than `RateLimitError` (network error, 529 overloaded etc.) silently falls back to Haiku with no health log entry written. Summaries and story selection degrade to Haiku quality with no visible signal.
+- **GDELT race condition** — the 2-hour gate relies on `last_gdelt_attempt` in committed `memory.json`. If two runs are dispatched close together (manual dispatch + scheduled cron), both can read the same memory before either commits, both see the gate as inactive and both hit GDELT simultaneously. Likely cause of some of the 429s in health.json.
+- **Escape key doesn't close star popup** — the keydown handler only calls `closeModal()`. If the star popup is open, Escape does nothing. `closeStarPopup()` needs to be added to the handler.
+- **Star popup can't be dismissed by clicking outside** — the story modal closes when clicking the overlay background. The star popup overlay has no `onclick` handler so click-outside-to-dismiss doesn't work.
+- **Haiku used for complex reasoning** — world topics clustering and developing situations processing use Haiku despite having complex REJECT/ONLY instructions. Haiku frequently doesn't follow these reliably, likely why world topics sometimes returns generic categories despite explicit instructions.
+- **Dead `errors` key in health.json** — the top-level `"errors": []` key is written in the default health dict and never populated by `log_run`. Whatever it was intended for is unimplemented.
+- **Summary cache eviction is insertion-order not LRU** — when the summary cache exceeds 500 entries it deletes the oldest-inserted keys regardless of recent use. Recurring stories lose cached summaries faster than new ones.
+- **`call_sonnet_with_search` silent empty return** — if Sonnet uses web search but the response contains only `tool_use` blocks with no final `text` block, the function returns empty string silently. Callers treat this the same as a legitimate empty result.
 
 ---
 

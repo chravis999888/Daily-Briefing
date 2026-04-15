@@ -75,6 +75,7 @@ Nothing currently in progress. Next full run will repopulate memory.json with fi
 
 - **GDELT consistently failing** — retries + RSS fallback in place; 2h gate prevents hammering; breaking news now has Reuters/AP/BBC/Al Jazeera as backbone regardless of GDELT status; memory corruption guard added (isinstance check + reload from disk if corrupted)
 - **Summaries missing from HTML** — fixed: save_today_stories now persists summary/url/image/articles/tracking_suggestions; all four processors now include url in results dict. Next full run will repopulate cache with correct structure.
+- **429 rate limit on tracking suggestions** — fixed: generate_tracking_suggestions now catches anthropic.RateLimitError and returns [] instead of crashing; explicit time.sleep(2) added before each call in all four processor loops (after existing time.sleep(3)); internal sleep removed from function body
 - **Auto-developing situations not triggering** — needs ~1 week of consistent memory history to build up enough signal
 - **529 overloaded errors** — transient Anthropic API issue, retry after 10-15 mins
 

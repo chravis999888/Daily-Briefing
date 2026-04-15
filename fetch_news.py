@@ -367,9 +367,25 @@ def get_ai_summary(headline, content="", context=""):
 Headline: "{headline}"
 {f'Article content: {content[:1200]}' if content else ''}
 {f'Additional context: {context}' if context else ''}
-Cover what happened, why it matters, and any important background or broader significance. Plain English, no fluff. Start directly — no markdown, no # symbols."""
-    text = call_haiku(prompt, 500)
-    return re.sub(r'^#+\s*\w*\s*', '', text).strip()
+Cover what happened, why it matters, and any important background or broader significance. Plain English, no fluff.
+
+Also suggest 3-4 short trackable topic labels for this story, from specific to broad (2-5 words each).
+
+Return a JSON object:
+{{"summary": "3-4 sentence explanation...", "tracking_suggestions": ["specific topic", "broader topic", "wider context"]}}
+Raw JSON only, no markdown."""
+    text = call_sonnet(prompt, 600)
+    try:
+        data = json.loads(text.replace("```json","").replace("```","").strip())
+        summary = re.sub(r'^#+\s*\w*\s*', '', str(data.get("summary", ""))).strip()
+        suggestions = data.get("tracking_suggestions", [])
+        if not isinstance(suggestions, list):
+            suggestions = []
+        return summary, suggestions
+    except Exception:
+        # Fallback: treat entire response as summary, no suggestions
+        summary = re.sub(r'^#+\s*\w*\s*', '', text).strip()
+        return summary, []
 
 # ── Fetchers ──────────────────────────────────────────────────────────────────
 
@@ -628,21 +644,6 @@ def fetch_newsdata(query, country=None):
     except Exception as e:
         print(f"NewsData fetch error: {e}")
         return []
-
-def generate_tracking_suggestions(headline):
-    prompt = f"""Given this news headline, suggest 3-4 short trackable topic labels from specific to broad.
-Headline: "{headline}"
-Return ONLY a JSON array of short strings (2-5 words each):
-["specific topic", "broader topic", "even broader", "widest context"]
-Raw JSON only."""
-    try:
-        text = call_haiku(prompt, 200)
-        return json.loads(text.replace("```json","").replace("```","").strip())
-    except anthropic.RateLimitError:
-        print(f"Rate limit hit on tracking suggestions for: {headline[:60]} — skipping")
-        return []
-    except Exception:
-        return [headline[:40]]
 
 def format_articles_for_prompt(articles, limit=25, titles_only=False):
     parts = []
@@ -908,10 +909,10 @@ Raw JSON only."""
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
         if not summary:
-            summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+            summary, suggestions = get_ai_summary(story["headline"], orig.get("content",""), context)
             memory = save_summary(memory, url, summary)
-        time.sleep(2)
-        suggestions = generate_tracking_suggestions(story["headline"])
+        else:
+            suggestions = []
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -1011,10 +1012,10 @@ Raw JSON only."""
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
         if not summary:
-            summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+            summary, suggestions = get_ai_summary(story["headline"], orig.get("content",""), context)
             memory = save_summary(memory, url, summary)
-        time.sleep(2)
-        suggestions = generate_tracking_suggestions(story["headline"])
+        else:
+            suggestions = []
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -1028,6 +1029,18 @@ Raw JSON only."""
     return results, memory
 
 def process_archaeology(articles, memory):
+    if not articles:
+        return [], memory
+
+    # Filter out URLs already seen in memory to prevent old stories resurfacing
+    seen_urls = set()
+    for date, cats in memory.get("stories", {}).items():
+        for cat, stories in cats.items():
+            for s in stories:
+                seen_urls.add(s.get("url", ""))
+                for a in s.get("articles", []):
+                    seen_urls.add(a.get("url", ""))
+    articles = [a for a in articles if a.get("url", "") not in seen_urls]
     if not articles:
         return [], memory
 
@@ -1070,10 +1083,10 @@ Raw JSON only, no markdown."""
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
         if not summary:
-            summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+            summary, suggestions = get_ai_summary(story["headline"], orig.get("content",""), context)
             memory = save_summary(memory, url, summary)
-        time.sleep(2)
-        suggestions = generate_tracking_suggestions(story["headline"])
+        else:
+            suggestions = []
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -1163,10 +1176,10 @@ Raw JSON only."""
         url = story.get("url", "")
         summary = get_cached_summary(memory, url)
         if not summary:
-            summary = get_ai_summary(story["headline"], orig.get("content",""), context)
+            summary, suggestions = get_ai_summary(story["headline"], orig.get("content",""), context)
             memory = save_summary(memory, url, summary)
-        time.sleep(2)
-        suggestions = generate_tracking_suggestions(story["headline"])
+        else:
+            suggestions = []
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),

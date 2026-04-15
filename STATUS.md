@@ -16,6 +16,7 @@
 - Summaries missing from HTML — save_today_stories now persists all fields; url added to all four results dicts
 - 429 rate limit crash on tracking suggestions — RateLimitError caught, returns []; sleep(2) added before each call
 - GDELT root cause diagnosis — exact error captured in health.json; gate skips logged as info not error
+- v0.5 Bug fixes pass 1 — GDELT RSS URL fix (urllib.parse.urlencode), star popup cache busting (?t=Date.now + Cache-Control), Previously cards clickable (full story passed to render_story; breaking PREVIOUSLY cards get onclick+cursor:pointer), breaking news persistence in full run (fallback to cache on empty), deploy flag only on content change (all run modes), health dot custom tooltip (CSS hover, fade-in), Fabrizio Romano Telegram scraper removed
 
 ---
 
@@ -28,17 +29,13 @@ Nothing currently in progress.
 ## 📋 Next Up
 
 ### v0.5 — Bug fixes
-- Previously cards — clicking them should open modal with summary snippet
-- Star popup stale pinned.txt bug — sometimes shows outdated topics
 - Auto-refresh 404 handling — graceful fallback if page not found on poll
 - Tracking suggestions — move into Sonnet pass instead of separate Haiku calls
 - GDELT failure alert — email or webhook after 3 consecutive failures
-- Deploy flag — only deploy to Cloudflare when content actually changed
-- Breaking news persistence — don't overwrite with empty on failed runs
 - Archaeology duplicate detection — same story different headline
 - Archaeology recency filter on RSS feeds
-- Fabrizio Romano — confirm working in production
 - Foreign language RSS — drop or replace with English equivalents
+- Fabrizio Romano — gold standard transfer source, needs a reliable feed. Telegram scraper removed as too fragile. Find a stable solution.
 
 ### v0.6 — Infra Reset
 - Jinja2 templating — extract 1500-line HTML f-string into template.html
@@ -78,6 +75,7 @@ Nothing currently in progress.
 - **GDELT rate-limited on shared GitHub Actions IPs** — 2h gate + Reuters/AP/BBC/Al Jazeera RSS backbone in place as fallback
 - **Auto-developing situations not triggering** — needs ~1 week of consistent memory history to build up enough signal
 - **529 overloaded errors** — transient Anthropic API issue, retry after 10-15 mins
+- **Football sourcing bias** — context articles sometimes skewed by player nationality rather than footballing relevance. Example: Enez Abde/Real Betis story pulled Marca, Mundo Betis and Africa Soccer rather than major European outlets because he is Moroccan. Needs prompt-level fix in context article search.
 
 ---
 

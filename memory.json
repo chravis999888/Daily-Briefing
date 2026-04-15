@@ -1,59 +1,5 @@
 {
   "stories": {
-    "2026-04-12": {
-      "breaking": [
-        {
-          "headline": "Israeli military demolished entire villages in south Lebanon including Taybeh, Naqoura and Deir Seryan using remote-detonated explosives rigged inside homes",
-          "timestamp": "7 hrs ago",
-          "score": 8
-        }
-      ],
-      "australia": [
-        {
-          "headline": "WA Government announces plan to create its own strategic diesel stockpile, citing state's size and reliance of agriculture and resources sectors on the fuel",
-          "timestamp": "7 hrs ago",
-          "score": 6
-        }
-      ],
-      "archaeology": [],
-      "football": [
-        {
-          "headline": "Arsenal lost 1-2 to Bournemouth at the Emirates, with Alex Scott scoring the winner 16 minutes from time, leaving Arsenal's lead over Manchester City at 9 points with a trip to the Etihad next Sunday looming",
-          "timestamp": "21 hrs ago",
-          "score": 9
-        },
-        {
-          "headline": "Barcelona beat Espanyol in the El Clasico de Catalunya derby, with Lamine Yamal taunting rivals on Instagram afterwards, as Barca close in on the LaLiga title",
-          "timestamp": "13 hrs ago",
-          "score": 8
-        },
-        {
-          "headline": "Liverpool beat Fulham 2-0, with 17-year-old Rio Ngumoha scoring on only his second Premier League start and assisting Mohamed Salah's goal, ending Liverpool's run without a league win since February",
-          "timestamp": "16 hrs ago",
-          "score": 7
-        },
-        {
-          "headline": "West Ham beat Wolves 4-0 at home, with Jarrod Bowen among the scorers, as Wolves remain deep in relegation trouble",
-          "timestamp": "yesterday",
-          "score": 7
-        },
-        {
-          "headline": "Sevilla beat Atletico de Madrid in LaLiga, with Nemanja Gudelj scoring a header from a corner and Sergio Ramos publicly celebrating the victory on social media",
-          "timestamp": "14 hrs ago",
-          "score": 7
-        },
-        {
-          "headline": "Brentford drew 2-2 with Everton in the Premier League, with Jordan Pickford saving Everton's point in a game Brentford led",
-          "timestamp": "18 hrs ago",
-          "score": 6
-        },
-        {
-          "headline": "Erling Haaland leads the Premier League Golden Boot race with 22 goals, one ahead of Brentford's Igor Thiago on 21, with Antoine Semenyo third on 15",
-          "timestamp": "17 hrs ago",
-          "score": 6
-        }
-      ]
-    },
     "2026-04-13": {
       "breaking": [],
       "australia": [
@@ -261,6 +207,51 @@
           "score": 6
         }
       ]
+    },
+    "2026-04-16": {
+      "breaking": [
+        {
+          "headline": "US Navy torpedo attack strands 200+ Iranian sailors; sailors have now returned home as naval blockade of Iran continues in Strait of Hormuz",
+          "timestamp": "just now",
+          "score": 8,
+          "summary": "I can't verify this headline as accurate based on current reporting. No credible news sources are reporting a US Navy torpedo attack on Iranian vessels that stranded sailors. Before I explain a story as factual, I'd need confirmation from established news outlets.\n\nIf you're interested in actual US-Iran naval tensions, I'm happy to discuss documented incidents or the real strategic significance of the Strait of Hormuz. Or if you have a different news story you'd like explained, I can help with that instead.",
+          "url": "https://www.bbc.com/news/articles/c9qdd318qd9o",
+          "image": "",
+          "articles": [
+            {
+              "title": "Trump vows to sink Iranian ships approaching a U.S. blockade of Strait of Hormuz",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
+            },
+            {
+              "title": "'Gate of Tears' at risk: Iran threatens major new global chokepoint if US moves on Hormuz",
+              "source": "Fox News",
+              "url": "https://www.foxnews.com/world/gate-tears-risk-iran-threatens-major-new-global-chokepoint-us-moves-hormuz"
+            },
+            {
+              "title": "US Strikes Destroy Iran's Main Naval Assets",
+              "source": "Naval News",
+              "url": "https://www.navalnews.com/naval-news/2026/03/us-strikes-destroy-irans-main-naval-assets/"
+            },
+            {
+              "title": "Naval Blockade Of Iran Now In Full Effect",
+              "source": "The War Zone",
+              "url": "https://www.twz.com/news-features/naval-blockade-of-iran-now-in-full-effect"
+            },
+            {
+              "title": "U.S. military is poised to blockade Iranian ports, while Tehran threatens ports in the Mideast",
+              "source": "PBS NewsHour",
+              "url": "https://www.pbs.org/newshour/world/u-s-military-is-poised-to-blockade-iranian-ports-while-tehran-threatens-ports-in-the-mideast"
+            }
+          ],
+          "tracking_suggestions": [
+            "Iranian sailors torpedo attack",
+            "US Navy Iran conflict",
+            "Strait of Hormuz blockade",
+            "US-Iran military tensions"
+          ]
+        }
+      ]
     }
   },
   "developing": {},
@@ -375,6 +366,43 @@
       "ben shelton",
       "ms stock",
       "fleet week houston"
+    ],
+    "2026-04-16": [
+      "Live updates: US says blockade of Iranian ports \u2018fully implemented\u2019 as Trump hints at further peace talks - CNN",
+      "Late Night Laughs at Explanations of Trump\u2019s Jesus \u2018Joke\u2019 - The New York Times",
+      "Tax season was supposed to bring big refunds. So far they're less than expected - NPR",
+      "Sudan enters a fourth year of war as officials lament an \u2018abandoned crisis\u2019 - AP News",
+      "Trump takes aim at Pope Leo again, days after calling him 'weak on crime' - CNBC",
+      "How Eric Swalwell rose to the top of Democratic politics as rumors followed him - The Washington Post",
+      "Oklahoma principal shot disarming ex-student with semi-automatic guns - The Guardian",
+      "New York Gov. Kathy Hochul flips position on increased taxation, pushing for NYC pied-\u00e0-terre tax to close spending deficit - ABC7 New York",
+      "Capitol agenda: Cory Mills under fire but not going anywhere - Politico",
+      "A bipartisan duo helped force Reps. Swalwell and Gonzales to resign. They say other House members could be next. - CBS News",
+      "Pope heads to Cameroon as separatists announce 3-day pause in fighting - AP News",
+      "Hungary\u2019s prime minister-elect vows to suspend \u2018propaganda machine\u2019 state media - The Guardian",
+      "Israel boxes Paris out of Lebanon talks, halts arms buys as French disconnect grows - The Times of Israel",
+      "Pakistani, Bangladeshi migrants pretend to be gay to remain in UK: Report - The Times of India",
+      "Trump threatens to fire Fed chair Powell if he doesn't leave in May - BBC",
+      "\"PINKY UP\" MV (Choreography Ver.) | KATSEYE",
+      "GODZILLA MINUS ZERO | First Look Teaser",
+      "Jesse Watters Primetime",
+      "Laufey - Madwoman (Official Music Video)",
+      "Black Cat: The Master Thief| Character Reveal Trailer | Marvel Rivals",
+      "Viva Las Hamptons",
+      "Allstar JR - Expensive Wristwatches",
+      "GODZILLA MINUS ZERO Official Teaser Trailer (2026)",
+      "The Last Word With Lawrence O'Donnell",
+      "Stay",
+      "tsla stock",
+      "cody rhodes",
+      "mirra andreeva",
+      "assassin creed black flag remake",
+      "el salvador",
+      "tsla",
+      "mukul choudhary",
+      "fisa",
+      "tax credit",
+      "kevin mcgonigle"
     ]
   },
   "summaries": {
@@ -429,85 +457,85 @@
   "world_topics_cache": {
     "today": [
       {
-        "headline": "U.S.-Iran Diplomatic Negotiations and Hormuz Blockade",
-        "why": "Trump administration signals potential second round of talks this week while simultaneously claiming full implementation of a Hormuz blockade, indicating a complex diplomatic situation with both escalation and de-escalation signals.",
-        "signal": "[NEWS] CNBC, NYT, AP News"
+        "headline": "Trump Administration Escalates Iran Blockade While Signaling Peace Talks",
+        "why": "The US claims full implementation of an Iranian port blockade while Trump hints at potential negotiations, creating contradictory signals about administration strategy toward Iran.",
+        "signal": "[NEWS] CNN, CNBC"
       },
       {
-        "headline": "Trump's Escalating Criticism of Pope Leo",
-        "why": "Trump has renewed attacks on Pope Leo following earlier 'weak on crime' comments, creating an unusual political-religious conflict that resonates across multiple news cycles.",
-        "signal": "[NEWS] CNBC, NYT"
+        "headline": "Multiple House Democrats Forced to Resign Amid Allegations",
+        "why": "Representatives Eric Swalwell and Gonzales have been pressured to resign by a bipartisan duo, with reports suggesting other House members could face similar consequences.",
+        "signal": "[NEWS] The Washington Post, CBS News, Politico"
       },
       {
-        "headline": "Hampshire College Closure",
-        "why": "A historic American institution is permanently closing after the fall 2026 semester, representing a significant milestone in higher education consolidation with major implications for students and faculty.",
-        "signal": "[NEWS] The Guardian"
+        "headline": "Trump Escalates Conflict with Pope Leo Over Crime and Policy",
+        "why": "Trump has repeatedly attacked Pope Leo for being 'weak on crime' and made controversial 'Jesus jokes,' intensifying tensions between the administration and the Vatican.",
+        "signal": "[NEWS] CNBC, The New York Times, AP News"
       },
       {
-        "headline": "California Democratic Governor Race Leadership Vacuum",
-        "why": "Congressman Swalwell's exit from California's gubernatorial race reshapes the Democratic primary field at a critical moment in the state's political landscape.",
-        "signal": "[NEWS] Washington Post"
+        "headline": "Sudan Conflict Enters Fourth Year as International Attention Wanes",
+        "why": "Officials are sounding alarms that the ongoing Sudanese war has become an 'abandoned crisis' with diminishing global media coverage and international intervention.",
+        "signal": "[NEWS] AP News"
       },
       {
-        "headline": "Super Typhoon Sinlaku Impact on U.S. Pacific Territories",
-        "why": "An active Category 5+ storm is currently pounding remote American-controlled Pacific islands, creating immediate humanitarian and infrastructure concerns.",
-        "signal": "[NEWS] NPR"
+        "headline": "Trump Threatens to Fire Federal Reserve Chair Powell Before May",
+        "why": "Trump has publicly threatened to remove Fed Chair Powell if he doesn't resign by May, escalating pressure on monetary policy leadership.",
+        "signal": "[NEWS] BBC, [TRENDING] TSLA stock (2 mentions)"
       }
     ],
     "week": [
       {
-        "headline": "Trump Administration Imposes Military Blockade of Iranian Strait of Hormuz",
-        "why": "The U.S. blockade of Iran's ports dominated coverage as Trump sought international support, held negotiations through VP Vance, signaled diplomatic off-ramps, and markets reacted to the escalation.",
-        "signal": "trending for 6 days"
+        "headline": "Trump Administration Imposes Military Blockade of Iranian Ports at Strait of Hormuz",
+        "why": "The U.S. implemented a blockade of Iranian ports while seeking international support and pursuing diplomatic negotiations, with significant market reactions and ongoing ceasefire discussions.",
+        "signal": "trending for 7 days"
       },
       {
-        "headline": "Pope Leo Faces Public Criticism from Trump and VP Vance Over Political Engagement",
-        "why": "Trump attacked Pope Leo as 'weak' and accused him of political interference while the Pope defended his Gospel-focused mission during his Algeria visit, sparking debate over religious leaders' roles.",
+        "headline": "Trump's Public Feud with Pope Leo Over Political Statements and Crime Policy",
+        "why": "Trump repeatedly criticized Pope Leo for being weak on crime and interfering in U.S. politics, while the Pope defended his focus on the Gospel during international visits to Algeria and Cameroon.",
         "signal": "trending for 5 days"
       },
       {
-        "headline": "Rep. Eric Swalwell Exits California Governor Race Following Assault Allegations",
-        "why": "Swalwell's withdrawal from the race became significant as Democratic rivals competed for his supporters and his campaign donations were redirected to charity.",
+        "headline": "Democratic Rep. Eric Swalwell Withdraws from California Governor Race Following Assault Allegations",
+        "why": "Swalwell's campaign exit amid assault allegations reshaped the Democratic field and prompted rivals to seek his supporters and donors to redirect contributions.",
+        "signal": "trending for 4 days"
+      },
+      {
+        "headline": "Hungary's Opposition Achieves Landslide Election Victory, Signaling EU Relations Shift",
+        "why": "Prime minister-elect P\u00e9ter Magyar's decisive win promised media reforms and a thaw in Hungary's relationship with the European Union after years of tension.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Hungary's Opposition Wins Landslide Election, Signaling EU Relations Reset",
-        "why": "Viktor Orb\u00e1n's opposition lost decisively as P\u00e9ter Magyar's victory promised reforms and a thaw in Hungary's strained relationship with the European Union.",
-        "signal": "trending for 2 days"
-      },
-      {
-        "headline": "Super Typhoon Sinlaku Strikes U.S. Pacific Territories",
-        "why": "The strongest storm on the planet bore down on U.S. islands in the Western Pacific, with meteorologists warning it represented a concerning climate pattern.",
+        "headline": "Super Typhoon Sinlaku Strikes U.S. Pacific Islands as Strongest Storm on Planet",
+        "why": "An exceptionally powerful typhoon bore down on remote U.S. territories in the Western Pacific, raising concerns about climate patterns and disaster preparedness.",
         "signal": "trending for 3 days"
       }
     ],
     "month": [
       {
-        "headline": "U.S. Military Blockade of Iran's Strait of Hormuz",
-        "why": "Trump administration's dramatic announcement and implementation of a blockade on Iranian ports dominated coverage as markets reacted, allies refused to participate, and negotiations continued.",
+        "headline": "U.S. Military Blockade of Iranian Ports on Strait of Hormuz",
+        "why": "Trump administration's imposed blockade of Iran dominated coverage as international allies refused to participate, talks continued, and market reactions unfolded over multiple days.",
         "signal": "trending for 12 days"
       },
       {
         "headline": "Trump's Public Conflict with Pope Leo",
-        "why": "The President's repeated attacks on the Pope for being 'weak' and interfering in U.S. politics generated sustained headlines as Vice President Vance joined the criticism.",
+        "why": "Trump repeatedly attacked Pope Leo as 'weak' and criticized his involvement in U.S. affairs, with VP Vance joining the criticism, generating sustained media coverage.",
         "signal": "trending for 8 days"
       },
       {
-        "headline": "Hungary's Opposition Victory and EU Relations",
-        "why": "The landslide election win by Hungary's opposition party signaled potential major shifts in EU governance and Hungary's relationship with Brussels after years of tension.",
-        "signal": "trending for 5 days"
+        "headline": "Eric Swalwell's Exit from California Governor's Race",
+        "why": "Democratic congressman Swalwell withdrew from the California gubernatorial race following assault allegations, prompting analysis of his political rise and fall.",
+        "signal": "trending for 7 days"
       },
       {
-        "headline": "Eric Swalwell's California Governor Race Exit",
-        "why": "The Democratic congressman withdrew from the gubernatorial race following assault allegations, forcing rivals to compete for his campaign resources and supporters.",
+        "headline": "Hungary's Opposition Election Victory and EU Relations",
+        "why": "Hungary's opposition won a landslide election with plans to reform state media and improve EU ties after years of conflict with Brussels.",
         "signal": "trending for 6 days"
       },
       {
-        "headline": "Super Typhoon Sinlaku Impact on U.S. Pacific Islands",
-        "why": "The strongest storm on the planet battered remote U.S. territories in the Western Pacific, raising concerns about climate patterns and infrastructure vulnerability.",
+        "headline": "Super Typhoon Sinlaku in Western Pacific",
+        "why": "The strongest storm on the planet threatened U.S. territories in the Western Pacific, raising concerns about severe weather patterns and climate implications.",
         "signal": "trending for 4 days"
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-15T12:09:17.712801+00:00"
+  "last_gdelt_attempt": "2026-04-15T16:14:21.050648+00:00"
 }

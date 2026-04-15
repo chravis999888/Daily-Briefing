@@ -660,11 +660,13 @@ Headline: "{headline}"
 Return ONLY a JSON array of short strings (2-5 words each):
 ["specific topic", "broader topic", "even broader", "widest context"]
 Raw JSON only."""
-    time.sleep(2)
-    text = call_haiku(prompt, 200)
     try:
+        text = call_haiku(prompt, 200)
         return json.loads(text.replace("```json","").replace("```","").strip())
-    except:
+    except anthropic.RateLimitError:
+        print(f"Rate limit hit on tracking suggestions for: {headline[:60]} — skipping")
+        return []
+    except Exception:
         return [headline[:40]]
 
 def format_articles_for_prompt(articles, limit=25, titles_only=False):
@@ -933,6 +935,8 @@ Raw JSON only."""
         if not summary:
             summary = get_ai_summary(story["headline"], orig.get("content",""), context)
             memory = save_summary(memory, url, summary)
+        time.sleep(2)
+        suggestions = generate_tracking_suggestions(story["headline"])
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -941,7 +945,7 @@ Raw JSON only."""
             "url": url,
             "image": orig.get("image",""),
             "articles": articles_list,
-            "tracking_suggestions": generate_tracking_suggestions(story["headline"])
+            "tracking_suggestions": suggestions
         })
     return results, memory
 
@@ -1034,6 +1038,8 @@ Raw JSON only."""
         if not summary:
             summary = get_ai_summary(story["headline"], orig.get("content",""), context)
             memory = save_summary(memory, url, summary)
+        time.sleep(2)
+        suggestions = generate_tracking_suggestions(story["headline"])
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -1042,7 +1048,7 @@ Raw JSON only."""
             "url": url,
             "image": orig.get("image",""),
             "articles": articles_list,
-            "tracking_suggestions": generate_tracking_suggestions(story["headline"])
+            "tracking_suggestions": suggestions
         })
     return results, memory
 
@@ -1091,6 +1097,8 @@ Raw JSON only, no markdown."""
         if not summary:
             summary = get_ai_summary(story["headline"], orig.get("content",""), context)
             memory = save_summary(memory, url, summary)
+        time.sleep(2)
+        suggestions = generate_tracking_suggestions(story["headline"])
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -1099,7 +1107,7 @@ Raw JSON only, no markdown."""
             "url": url,
             "image": orig.get("image",""),
             "articles": articles_list,
-            "tracking_suggestions": generate_tracking_suggestions(story["headline"])
+            "tracking_suggestions": suggestions
         })
     return results, memory
 
@@ -1182,6 +1190,8 @@ Raw JSON only."""
         if not summary:
             summary = get_ai_summary(story["headline"], orig.get("content",""), context)
             memory = save_summary(memory, url, summary)
+        time.sleep(2)
+        suggestions = generate_tracking_suggestions(story["headline"])
         results.append({
             "headline": story["headline"],
             "score": story.get("score", 5),
@@ -1190,7 +1200,7 @@ Raw JSON only."""
             "url": url,
             "image": orig.get("image",""),
             "articles": articles_list,
-            "tracking_suggestions": generate_tracking_suggestions(story["headline"])
+            "tracking_suggestions": suggestions
         })
     return results, memory
 

@@ -211,44 +211,350 @@
     "2026-04-16": {
       "breaking": [
         {
-          "headline": "US Navy torpedo attack strands 200+ Iranian sailors; sailors have now returned home as naval blockade of Iran continues in Strait of Hormuz",
+          "headline": "Israeli triple-tap airstrike kills three paramedics in Lebanon, officials say",
           "timestamp": "just now",
-          "score": 8,
-          "summary": "I can't verify this headline as accurate based on current reporting. No credible news sources are reporting a US Navy torpedo attack on Iranian vessels that stranded sailors. Before I explain a story as factual, I'd need confirmation from established news outlets.\n\nIf you're interested in actual US-Iran naval tensions, I'm happy to discuss documented incidents or the real strategic significance of the Strait of Hormuz. Or if you have a different news story you'd like explained, I can help with that instead.",
-          "url": "https://www.bbc.com/news/articles/c9qdd318qd9o",
+          "score": 7,
+          "summary": "An Israeli airstrike killed three paramedics in Lebanon in what officials describe as a 'triple-tap' strike, meaning the site was hit multiple times in succession, a tactic that prevents first responders from reaching victims safely. The deaths raise serious concerns about the deliberate or reckless targeting of medical personnel, which is protected under international humanitarian law and could constitute a war crime. This incident signals that Israeli military operations have expanded beyond Gaza into Lebanon, heightening fears of broader regional conflict involving Hezbollah and potentially drawing in other actors. The killing of aid and medical workers has been a recurring flashpoint in the conflict, drawing international condemnation and calls for accountability.",
+          "url": "https://www.bbc.com/news/articles/cgqkkxd09e2o",
           "image": "",
           "articles": [
             {
-              "title": "Trump vows to sink Iranian ships approaching a U.S. blockade of Strait of Hormuz",
-              "source": "NPR",
+              "title": "US Navy torpedo attack strands 200+ Iranian sailors; sailors have now returned home as naval blockade of Iran continues in Strait of Hormuz",
+              "source": "Previously covered",
               "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
             },
             {
-              "title": "'Gate of Tears' at risk: Iran threatens major new global chokepoint if US moves on Hormuz",
-              "source": "Fox News",
-              "url": "https://www.foxnews.com/world/gate-tears-risk-iran-threatens-major-new-global-chokepoint-us-moves-hormuz"
-            },
-            {
-              "title": "US Strikes Destroy Iran's Main Naval Assets",
-              "source": "Naval News",
-              "url": "https://www.navalnews.com/naval-news/2026/03/us-strikes-destroy-irans-main-naval-assets/"
-            },
-            {
-              "title": "Naval Blockade Of Iran Now In Full Effect",
-              "source": "The War Zone",
-              "url": "https://www.twz.com/news-features/naval-blockade-of-iran-now-in-full-effect"
-            },
-            {
-              "title": "U.S. military is poised to blockade Iranian ports, while Tehran threatens ports in the Mideast",
-              "source": "PBS NewsHour",
-              "url": "https://www.pbs.org/newshour/world/u-s-military-is-poised-to-blockade-iranian-ports-while-tehran-threatens-ports-in-the-mideast"
+              "title": "US Navy torpedo attack strands 200+ Iranian sailors; sailors have now returned home as naval blockade of Iran continues in Strait of Hormuz",
+              "source": "Previously covered",
+              "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
             }
           ],
           "tracking_suggestions": [
-            "Iranian sailors torpedo attack",
-            "US Navy Iran conflict",
-            "Strait of Hormuz blockade",
-            "US-Iran military tensions"
+            "Lebanon paramedic strike",
+            "Israel-Lebanon military operations",
+            "medical worker targeting IHL",
+            "Middle East regional escalation"
+          ]
+        }
+      ],
+      "australia": [
+        {
+          "headline": "Australian government announces $53 billion increase in defence spending over the next decade, citing erosion of international norms, as announced by Deputy PM Richard Marles",
+          "timestamp": "7 hrs ago",
+          "score": 8,
+          "summary": "The Australian government has announced a $53 billion increase in defence spending over the next decade, with Deputy Prime Minister Richard Marles citing intensifying global risks and the erosion of international norms as the driving factors. This represents one of the largest peacetime defence commitments in Australian history and signals a significant shift in how the Albanese government is prioritising national security. The decision reflects growing concern about the deteriorating global security environment, likely referencing tensions in the Indo-Pacific region and broader geopolitical instability. The spending increase is expected to become a major point of debate in upcoming federal budget discussions and the next election campaign.",
+          "url": "https://www.abc.net.au/news/2026-04-15/defence-spend-53b-next-decade-intensifying-risks-richard-marles/106568890",
+          "image": "https://live-production.wcms.abc-cdn.net.au/242902019a7d9656aecaeab63f008666?impolicy=wcms_crop_resize&cropH=3218&cropW=2413&xPos=1653&yPos=0&width=862&height=1149",
+          "articles": [
+            {
+              "title": "Defence spending to climb by $53 billion as 'international norms' erode",
+              "source": "ABC News",
+              "url": "https://www.abc.net.au/news/2026-04-15/defence-spend-53b-next-decade-intensifying-risks-richard-marles/106568890"
+            },
+            {
+              "title": "Record peacetime spend set for Australia's military",
+              "source": "The Queanbeyan Age",
+              "url": "https://www.queanbeyanage.com.au/story/9224641/record-peacetime-spend-set-for-australias-military/"
+            },
+            {
+              "title": "Albanese Government grows and accelerates Defence spending",
+              "source": "Defence Ministers",
+              "url": "https://www.minister.defence.gov.au/media-releases/2025-03-25/albanese-government-grows-accelerates-defence-spending"
+            },
+            {
+              "title": "A generational investment in Australia's Defence",
+              "source": "Defence Ministers",
+              "url": "https://www.minister.defence.gov.au/media-releases/2024-05-14/generational-investment-australias-defence"
+            }
+          ],
+          "tracking_suggestions": [
+            "Australia defence budget",
+            "Indo-Pacific security",
+            "Albanese government policy",
+            "global military spending"
+          ]
+        }
+      ],
+      "archaeology": [
+        {
+          "headline": "New genetic evidence indicates Neanderthals received gene flow from an early modern human population, reversing the assumed one-directional introgression narrative and suggesting Neanderthals may be partly descended from Homo sapiens",
+          "timestamp": "19 hrs ago",
+          "score": 8,
+          "summary": "A new genetic analysis reported by New Scientist suggests that Neanderthals descended from early modern humans rather than representing a separate evolutionary branch, which would reverse the established understanding of human evolution. The conventional model has held that Neanderthals and modern humans diverged from a common ancestor and evolved along separate paths, but this research indicates modern humans may have actually come first, with Neanderthals branching off afterward. This matters because it would fundamentally reshape our understanding of how our species developed and interacted with other human lineages over hundreds of thousands of years. The finding challenges decades of anthropological consensus and would require substantial supporting evidence to gain acceptance in the scientific community.",
+          "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Ancient DNA from West Eurasian samples spanning thousands of years reveals pervasive directional natural selection acting across multiple genomic loci, reshaping understanding of post-migration adaptation in prehistoric populations",
+          "timestamp": "just now",
+          "score": 7,
+          "summary": "A major study analyzing nearly 16,000 ancient genomes from people who lived across West Eurasia over thousands of years found that natural selection was actively and continuously reshaping human genetics throughout prehistory \u2014 not just occasionally. Hundreds of genetic variants shifted steadily in frequency over time, meaning populations were adapting to their environments long after groups of people migrated into new regions. This challenges a widely held view that most physical and biological changes in prehistoric West Eurasians were mainly explained by one population replacing another, rather than gradual in-place adaptation. The findings suggest evolution was an ongoing, pervasive force in shaping these ancient populations, and that previous models likely underestimated how much natural selection contributed to human biological change after the major prehistoric migrations.",
+          "url": "https://www.nature.com/articles/s41586-026-10358-1",
+          "image": "",
+          "articles": [
+            {
+              "title": "Ancient DNA reveals pervasive directional selection across West Eurasia",
+              "source": "Nature",
+              "url": "https://www.nature.com/articles/s41586-026-10358-1"
+            }
+          ],
+          "tracking_suggestions": [
+            "ancient West Eurasian natural selection",
+            "prehistoric genomic adaptation",
+            "ancient DNA population genetics",
+            "human evolutionary history"
+          ]
+        },
+        {
+          "headline": "Neanderthal neonates had significantly larger body mass at birth than modern human infants, based on new skeletal growth analysis, indicating divergent life history strategies between the two species",
+          "timestamp": "just now",
+          "score": 7,
+          "summary": "A new skeletal growth analysis has found that Neanderthal newborns were significantly heavier at birth than modern human infants, challenging the long-held assumption that the two species followed roughly similar developmental paths. The findings suggest Neanderthals invested more energy in producing larger offspring at birth, which would have placed a greater physical burden on Neanderthal mothers during pregnancy and nursing. This matters because differences in maternal energy costs and infant dependency periods could have given early modern humans a competitive reproductive advantage, potentially contributing to why Neanderthals went extinct around 40,000 years ago. The research adds to a growing body of evidence that Neanderthals were biologically more distinct from us than previously thought, not just culturally or cognitively.",
+          "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/"
+            }
+          ],
+          "tracking_suggestions": [
+            "Neanderthal birth weight research",
+            "hominin developmental biology",
+            "human-Neanderthal competition",
+            "human evolutionary history"
+          ]
+        }
+      ],
+      "football": [
+        {
+          "headline": "PSG beat Liverpool 2-0 at Anfield (3-1 agg) as Demb\u00e9l\u00e9 scores twice to eliminate Arne Slot's side from the Champions League quarter-finals",
+          "timestamp": "22 hrs ago",
+          "score": 9,
+          "summary": "Paris Saint-Germain defeated Liverpool 2-0 at Anfield with goals from Ousmane Demb\u00e9l\u00e9 to advance to the Champions League semi-finals with a 4-1 aggregate victory over the two legs. Despite the final scoreline, Liverpool competed fiercely for much of the match and created chances, but couldn't overcome the deficit from PSG's 3-0 win in Paris the previous week. The loss eliminates Liverpool from European competition and marks another disappointing quarter-final exit for manager Arne Slot's side, who have now struggled against PSG in consecutive seasons.",
+          "url": "https://www.theguardian.com/football/2026/apr/14/liverpool-paris-saint-germain-champions-league-match-report",
+          "image": "https://media.guim.co.uk/4933842aefb2c3f09182e0a7b5567ac3f713454a/425_291_1968_1575/500.jpg",
+          "articles": [
+            {
+              "title": "Demb\u00e9l\u00e9 delivers knockout double as PSG end Liverpool\u2019s European dream",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/14/liverpool-paris-saint-germain-champions-league-match-report"
+            },
+            {
+              "title": "Liverpool 0-2 PSG (Apr 14, 2026) Final Score - ESPN",
+              "source": "ESPN",
+              "url": "https://www.espn.com/soccer/match/_/gameId/401862889/paris-saint-germain-liverpool"
+            },
+            {
+              "title": "PSG eye rare Champions League repeat after ousting Liverpool - ESPN",
+              "source": "ESPN",
+              "url": "https://www.espn.com/soccer/story/_/id/48488392/psg-eye-champions-league-repeat-liverpool-win"
+            },
+            {
+              "title": "Liverpool 0-2 PSG Stats (0-4 Agg): Demb\u00e9l\u00e9 Sends Parisians Into UCL Semi-Finals and Renders Reds' Season Trophyless | Opta Analyst",
+              "source": "Opta Analyst",
+              "url": "https://theanalyst.com/articles/liverpool-vs-psg-stats-champions-league-04-2026"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Atl\u00e9tico Madrid beat Barcelona 1-2 on the night but advance 3-2 on aggregate to the Champions League semi-finals after Lookman strike and Garc\u00eda red card",
+          "timestamp": "22 hrs ago",
+          "score": 9,
+          "summary": "Atl\u00e9tico Madrid lost 2-1 to Barcelona at home but advanced to the Champions League semi-finals 3-2 on aggregate, with an Ademola Lookman goal and a Barcelona red card for Garc\u00eda proving decisive across the two legs. Despite the home defeat, Atl\u00e9tico celebrated wildly, as reaching the semi-finals ended a ten-year wait dating back to their 2016 appearance. Manager Diego Simeone, in his 14th year at the club, credited the team's resilience and faith for overcoming a Barcelona side featuring young star Lamine Yamal. Atl\u00e9tico have now eliminated Barcelona from the Champions League three times under Simeone, previously doing so in 2014 and 2016 when they went on to reach the final both times.",
+          "url": "https://www.theguardian.com/football/2026/apr/14/atletico-madrid-barcelona-champions-league-match-report",
+          "image": "https://media.guim.co.uk/daf10e291199e04b1f8ec2774b30b4999dd8836d/1111_491_2162_1730/500.jpg",
+          "articles": [
+            {
+              "title": "Atl\u00e9tico hold off Barcelona comeback after Lookman strike and Garc\u00eda red",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/14/atletico-madrid-barcelona-champions-league-match-report"
+            },
+            {
+              "title": "Atletico Madrid 1-2 Barcelona (agg: 3-2): Diego Simeone's men lose on the night but reach Champions League semi-finals",
+              "source": "Sky Sports",
+              "url": "https://www.skysports.com/football/atletico-madrid-vs-barcelona/report/554944"
+            },
+            {
+              "title": "Atletico edge Barcelona on aggregate to reach Champions League semifinal | Football News | Al Jazeera",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/sports/2026/4/14/atletico-edge-barcelona-on-aggregate-to-reach-champions-league-semifinal"
+            },
+            {
+              "title": "Despite Yamal's form, Atleti wash away Bar\u00e7a out of Champions League - ESPN",
+              "source": "ESPN",
+              "url": "https://www.espn.com/soccer/story/_/id/48488181/despite-lamine-yamals-form-atletico-wash-away-barcelona-champions-league"
+            }
+          ],
+          "tracking_suggestions": [
+            "Atl\u00e9tico Madrid Champions League 2025",
+            "Barcelona European exit",
+            "Champions League semi-finals",
+            "Simeone Atl\u00e9tico era"
+          ]
+        },
+        {
+          "headline": "Arsenal host Sporting and Bayern Munich host Real Madrid in Champions League quarter-final second legs currently being played on Wednesday 15 April",
+          "timestamp": "3 mins ago",
+          "score": 8,
+          "summary": "Arsenal and Bayern Munich are hosting the second legs of their Champions League quarter-final ties against Sporting CP and Real Madrid respectively on April 15. Arsenal, holding a lead from the first leg, have been playing nervously and frantically despite being ahead, while Real Madrid have dramatically pulled level with Bayern at 4-4 on aggregate thanks to a Mbappe goal, making that tie very tight. The winners of both matches will advance to the Champions League semi-finals. These are high-stakes knockout games with significant implications for which clubs will compete for the European title this season.",
+          "url": "https://www.theguardian.com/football/live/2026/apr/15/arsenal-v-sporting-champions-league-quarter-final-second-leg-live",
+          "image": "https://media.guim.co.uk/ed8bfb178739d11bb24619ab43e2823e8f6cf0a1/28_0_5356_4287/500.jpg",
+          "articles": [
+            {
+              "title": "Arsenal v Sporting: Champions League quarter-final, second leg \u2013 live",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/live/2026/apr/15/arsenal-v-sporting-champions-league-quarter-final-second-leg-live"
+            },
+            {
+              "title": "UEFA Champions League Schedule 2025-2026",
+              "source": "Paramount+",
+              "url": "https://www.paramountplus.com/sneak-peak/uefa-champions-league-schedule/"
+            },
+            {
+              "title": "Champions League quarter-finals: Last eight and potential semi-final head-to-head records",
+              "source": "UEFA.com",
+              "url": "https://www.uefa.com/uefachampionsleague/news/02a3-202ba9464c81-03661caeafa1-1000--champions-league-quarter-finals-last-eight-and-potential-s/"
+            },
+            {
+              "title": "Champions League quarter-final ties and dates confirmed",
+              "source": "UEFA.com",
+              "url": "https://www.uefa.com/uefachampionsleague/news/02a3-202d9ac10d17-a37e1f50256a-1000--champions-league-quarter-final-ties-and-dates-confirmed/"
+            },
+            {
+              "title": "Real Madrid 1-2 Arsenal (1-5 agg): Gunners oust holders to advance",
+              "source": "UEFA.com",
+              "url": "https://www.uefa.com/uefachampionsleague/news/0298-1d899aa0cba7-29346cd404a3-1000--real-madrid-1-2-arsenal-1-5-agg-gunners-oust-holders-to-ad/"
+            },
+            {
+              "title": "Real Madrid 1-2 Arsenal (Apr 16, 2025) Final Score",
+              "source": "ESPN",
+              "url": "https://www.espn.com/soccer/match/_/gameId/733612/arsenal-real-madrid"
+            },
+            {
+              "title": "2025/26 Champions League: All the fixtures and results",
+              "source": "UEFA.com",
+              "url": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a2f63fe2d-ebf9ad643892-1000--2025-26-champions-league-all-the-fixtures-and-results/"
+            }
+          ],
+          "tracking_suggestions": [
+            "Champions League Quarter-Finals",
+            "Arsenal vs Sporting CP",
+            "Bayern vs Real Madrid",
+            "UEFA Champions League 2025"
+          ]
+        },
+        {
+          "headline": "Liverpool striker Hugo Ekitike is ruled out for the rest of the season and the 2026 World Cup with France after sustaining a serious injury in the PSG defeat",
+          "timestamp": "38 mins ago",
+          "score": 8,
+          "summary": "Liverpool striker Hugo Ekitike has been ruled out for the rest of the season and the 2026 World Cup after suffering a suspected achilles tendon rupture during Liverpool's Champions League quarter-final defeat to PSG on Tuesday. France head coach Didier Deschamps confirmed the 23-year-old will miss this summer's tournament, where France are set to play in the United States against Senegal, Iraq, and Norway. The injury is a significant blow to Liverpool, as Ekitike is the club's top scorer this season with 17 goals, and his absence comes with six games still to play in their fight to secure Champions League qualification for next season. Scans have been taken and Liverpool are expected to release a full medical update later this week, but an achilles rupture typically requires many months of recovery.",
+          "url": "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france",
+          "image": "https://media.guim.co.uk/3a25ceadcf542b8cedb19986d296ad70fa907974/385_0_4598_3678/500.jpg",
+          "articles": [
+            {
+              "title": "Liverpool\u2019s Hugo Ekitike ruled out for rest of season and World Cup with France ",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france"
+            },
+            {
+              "title": "France's Ekitike to miss World Cup after Liverpool Champions League injury",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/sports/2026/4/15/frances-ekitike-to-miss-world-cup-after-liverpool-champions-league-injury"
+            },
+            {
+              "title": "Hugo Ekitike ruptures Achilles, to miss World Cup",
+              "source": "ESPN",
+              "url": "https://www.espn.com/soccer/story/_/id/48492214/hugo-ekitike-ruptures-achilles-miss-world-cup-nine-months-sources"
+            },
+            {
+              "title": "Hugo Ekitike injury: Liverpool striker suffers suspected Achilles injury with fears he could miss at least six months",
+              "source": "Sky Sports",
+              "url": "https://www.skysports.com/football/news/11669/13531985/hugo-ekitike-injury-liverpool-striker-suffers-suspected-achilles-injury-with-fears-he-could-miss-at-least-six-months"
+            }
+          ],
+          "tracking_suggestions": [
+            "Hugo Ekitike injury update",
+            "Liverpool Champions League qualification",
+            "France 2026 World Cup squad",
+            "Premier League top scorer race"
+          ]
+        },
+        {
+          "headline": "Bournemouth head coach Andoni Iraola will leave the club at the end of the 2025-26 season, with Premier League rivals reported to be monitoring his availability",
+          "timestamp": "yesterday",
+          "score": 7,
+          "summary": "Andoni Iraola has announced he will leave Bournemouth when his contract expires at the end of the 2025-26 season, after informing the club's leadership and players of his decision. The 43-year-old Spanish manager has led a successful three-year tenure at Bournemouth, significantly improving the club's Premier League performance, but has decided to pursue other opportunities. Several high-profile candidates are being linked with the vacant position, including Marco Rose from RB Leipzig and Kieran McKenna from Ipswich, while Iraola himself may be of interest to Athletic Bilbao. This development matters because Bournemouth will need to find a replacement capable of maintaining the progress made under Iraola's management.",
+          "url": "https://www.theguardian.com/football/2026/apr/14/andoni-iraola-leave-bournemouth-end-of-season-football",
+          "image": "https://media.guim.co.uk/075e39b308c4376f98ab36039b3caa72a7209e78/767_202_2563_2050/500.jpg",
+          "articles": [
+            {
+              "title": "Iraola to leave Bournemouth at end of season with Premier League rivals on notice",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/14/andoni-iraola-leave-bournemouth-end-of-season-football"
+            },
+            {
+              "title": "Iraola to leave Bournemouth at end of season with Premier League rivals on notice",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/bournemouth"
+            },
+            {
+              "title": "Andoni Iraola: Bournemouth head coach to leave at end of season",
+              "source": "Sky Sports",
+              "url": "https://www.skysports.com/football/news/11743/13531626/andoni-iraola-bournemouth-head-coach-to-leave-at-end-of-season"
+            },
+            {
+              "title": "Bournemouth: Kieran McKenna on shortlist but Marco Rose believed to be frontrunner to replace Andoni Iraola",
+              "source": "Sky Sports",
+              "url": "https://www.skysports.com/football/news/11743/13532012/bournemouth-kieran-mckenna-on-shortlist-but-marco-rose-believed-to-be-frontrunner-to-replace-andoni-iraola"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Valencia have suffered 14 league defeats this season, placing them in La Liga's top-10 worst single-season loss records as relegation pressure intensifies",
+          "timestamp": "6 hrs ago",
+          "score": 6,
+          "summary": "Valencia have lost 14 league matches so far this La Liga season, a total bad enough to place them among the worst single-season loss records in the club's history. With seven games still remaining, that figure is likely to grow, and the all-time worst record of 18 defeats in a single season is now a realistic possibility. The club are under serious relegation pressure, meaning the stakes are not just historical embarrassment but potential demotion from Spain's top flight. For a club of Valencia's stature and history, this represents a significant and alarming low point.",
+          "url": "https://www.marca.com/futbol/valencia/2026/04/15/valencia-suma-14-derrotas-top-10-partidos-perdidos-temporada.html",
+          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/15/17762598477115_150x0.jpg",
+          "articles": [
+            {
+              "title": "El Valencia suma 14 derrotas y ya est\u00e1 en el Top-10 de partidos perdidos en una temporada",
+              "source": "Marca",
+              "url": "https://www.marca.com/futbol/valencia/2026/04/15/valencia-suma-14-derrotas-top-10-partidos-perdidos-temporada.html"
+            },
+            {
+              "title": "From 2001 Champions League finalists to La Liga relegation candidates - Reasons behind Valencia's demise",
+              "source": "Transfermarkt",
+              "url": "https://www.transfermarkt.us/from-2001-ucl-finalists-to-laliga-relegation-candidates-reasons-behind-valencias-demise/view/news/450893"
+            },
+            {
+              "title": "The Constant Struggles of Valencia",
+              "source": "Breaking The Lines",
+              "url": "https://breakingthelines.com/investigation-piece/the-constant-struggles-of-valencia/"
+            },
+            {
+              "title": "Valencia dragged into LaLiga's madcap relegation scrap",
+              "source": "OneFootball",
+              "url": "https://onefootball.com/en/news/valencia-dragged-into-laligas-madcap-relegation-scrap-36697308"
+            }
+          ],
+          "tracking_suggestions": [
+            "Valencia relegation battle",
+            "La Liga bottom table",
+            "Valencia CF season collapse",
+            "Spanish football crisis clubs"
           ]
         }
       ]
@@ -368,41 +674,41 @@
       "fleet week houston"
     ],
     "2026-04-16": [
-      "Live updates: US says blockade of Iranian ports \u2018fully implemented\u2019 as Trump hints at further peace talks - CNN",
-      "Late Night Laughs at Explanations of Trump\u2019s Jesus \u2018Joke\u2019 - The New York Times",
-      "Tax season was supposed to bring big refunds. So far they're less than expected - NPR",
-      "Sudan enters a fourth year of war as officials lament an \u2018abandoned crisis\u2019 - AP News",
-      "Trump takes aim at Pope Leo again, days after calling him 'weak on crime' - CNBC",
-      "How Eric Swalwell rose to the top of Democratic politics as rumors followed him - The Washington Post",
-      "Oklahoma principal shot disarming ex-student with semi-automatic guns - The Guardian",
-      "New York Gov. Kathy Hochul flips position on increased taxation, pushing for NYC pied-\u00e0-terre tax to close spending deficit - ABC7 New York",
+      "Live Nation illegally monopolized ticketing market, jury in antitrust trial finds - NBC News",
+      "Iran War News Live Updates: Blockade \u2018Fully Implemented\u2019 as Mediators Push for U.S.-Iran Ceasefire Extension - WSJ",
+      "Johnson backs Trump, Vance in criticism of pope - Politico",
+      "War powers vote will test Senate\u2019s support for Trump\u2019s war with Iran - The Washington Post",
+      "Pope: Algeria visit a \u2018special blessing\u2019 and opportuntity to promote dialogue - Vatican News",
+      "Inside the sudden downfall of Eric Swalwell - CNN",
+      "Husband of missing American woman in the Bahamas leaves country, lawyer says - NBC News",
       "Capitol agenda: Cory Mills under fire but not going anywhere - Politico",
-      "A bipartisan duo helped force Reps. Swalwell and Gonzales to resign. They say other House members could be next. - CBS News",
-      "Pope heads to Cameroon as separatists announce 3-day pause in fighting - AP News",
+      "Bernie Sanders pushes resolutions to block US weapons sales to Israel - The Guardian",
+      "Gavin Newsom faces growing pressure to intervene in a scrambled California governor\u2019s race - CNN",
+      "Israeli security cabinet to discuss possible Lebanon ceasefire, senior official says - Reuters",
+      "Trump says new talks with Iran will happen soon. And, Eric Swalwell faces new allegations - NPR",
       "Hungary\u2019s prime minister-elect vows to suspend \u2018propaganda machine\u2019 state media - The Guardian",
-      "Israel boxes Paris out of Lebanon talks, halts arms buys as French disconnect grows - The Times of Israel",
       "Pakistani, Bangladeshi migrants pretend to be gay to remain in UK: Report - The Times of India",
-      "Trump threatens to fire Fed chair Powell if he doesn't leave in May - BBC",
+      "Trump threatens to fire Powell, won\u2019t halt probe of Fed renovations - The Washington Post",
       "\"PINKY UP\" MV (Choreography Ver.) | KATSEYE",
       "GODZILLA MINUS ZERO | First Look Teaser",
       "Jesse Watters Primetime",
       "Laufey - Madwoman (Official Music Video)",
       "Black Cat: The Master Thief| Character Reveal Trailer | Marvel Rivals",
       "Viva Las Hamptons",
-      "Allstar JR - Expensive Wristwatches",
+      "Clave Especial, Los Gemelos De Sinaloa, Fuerza Regida - FERRARI (Official)",
       "GODZILLA MINUS ZERO Official Teaser Trailer (2026)",
       "The Last Word With Lawrence O'Donnell",
-      "Stay",
-      "tsla stock",
-      "cody rhodes",
-      "mirra andreeva",
-      "assassin creed black flag remake",
-      "el salvador",
-      "tsla",
-      "mukul choudhary",
-      "fisa",
-      "tax credit",
-      "kevin mcgonigle"
+      "Grupo Frontera, Fuerza Regida - COQUETA (Letra)",
+      "severe thunderstorm watch",
+      "adrian del castillo",
+      "harry kane",
+      "manuel neuer",
+      "soccer",
+      "\u6b27\u51a0",
+      "paul walter hauser",
+      "bayer",
+      "connelly early",
+      "madrid club"
     ]
   },
   "summaries": {
@@ -449,93 +755,101 @@
     "https://www.theguardian.com/football/2026/apr/14/andoni-iraola-leave-bournemouth-end-of-season-football": "Andoni Iraola has announced he will leave Bournemouth when his contract expires at the end of the 2025-26 season, after informing the club's leadership and players of his decision. The 43-year-old Spanish manager has led a successful three-year tenure at Bournemouth, significantly improving the club's Premier League performance, but has decided to pursue other opportunities. Several high-profile candidates are being linked with the vacant position, including Marco Rose from RB Leipzig and Kieran McKenna from Ipswich, while Iraola himself may be of interest to Athletic Bilbao. This development matters because Bournemouth will need to find a replacement capable of maintaining the progress made under Iraola's management.",
     "https://www.marca.com/futbol/sevilla/2026/04/15/almeyda-dolido-traicion-sevilla-dia-me-dijeron-me-quedaria-final.html": "Mat\u00edas Almeyda, the former Sevilla manager, claims that club officials assured him the day before his dismissal that he would remain in his position through the end of the season. Almeyda made these comments during an interview with Mexican YouTuber Adri\u00e1n Marcelo, suggesting a sudden reversal of the club's decision. His departure adds to Sevilla's ongoing managerial instability during what has been a struggling LaLiga campaign. The incident highlights the club's difficulties both on the pitch and in their handling of coaching decisions.",
     "https://www.marca.com/futbol/real-madrid/2026/04/14/cta-corrige-alberola-rojas-penalti-sobre-mbappe-asterisco.html": "Spain's refereeing committee has overturned the decision of referee Alberola Rojas regarding a penalty that was awarded against Kylian Mbapp\u00e9 in a recent Real Madrid match, though with some limitations or conditions attached to the reversal. The incident has become part of an ongoing controversy surrounding LaLiga refereeing decisions that could affect the title race. The committee explained their ruling in a segment of their program \"Tiempo de Revisi\u00f3n\" (Review Time), indicating this was a significant enough decision to warrant public explanation and analysis of the penalty call.",
-    "https://www.bbc.com/news/articles/c9qdd318qd9o": "I can't verify this headline as accurate based on current reporting. No credible news sources are reporting a US Navy torpedo attack on Iranian vessels that stranded sailors. Before I explain a story as factual, I'd need confirmation from established news outlets.\n\nIf you're interested in actual US-Iran naval tensions, I'm happy to discuss documented incidents or the real strategic significance of the Strait of Hormuz. Or if you have a different news story you'd like explained, I can help with that instead."
+    "https://www.bbc.com/news/articles/c9qdd318qd9o": "I can't verify this headline as accurate based on current reporting. No credible news sources are reporting a US Navy torpedo attack on Iranian vessels that stranded sailors. Before I explain a story as factual, I'd need confirmation from established news outlets.\n\nIf you're interested in actual US-Iran naval tensions, I'm happy to discuss documented incidents or the real strategic significance of the Strait of Hormuz. Or if you have a different news story you'd like explained, I can help with that instead.",
+    "https://www.bbc.com/news/articles/cgqkkxd09e2o": "An Israeli airstrike killed three paramedics in Lebanon in what officials describe as a 'triple-tap' strike, meaning the site was hit multiple times in succession, a tactic that prevents first responders from reaching victims safely. The deaths raise serious concerns about the deliberate or reckless targeting of medical personnel, which is protected under international humanitarian law and could constitute a war crime. This incident signals that Israeli military operations have expanded beyond Gaza into Lebanon, heightening fears of broader regional conflict involving Hezbollah and potentially drawing in other actors. The killing of aid and medical workers has been a recurring flashpoint in the conflict, drawing international condemnation and calls for accountability.",
+    "https://www.abc.net.au/news/2026-04-15/defence-spend-53b-next-decade-intensifying-risks-richard-marles/106568890": "The Australian government has announced a $53 billion increase in defence spending over the next decade, with Deputy Prime Minister Richard Marles citing intensifying global risks and the erosion of international norms as the driving factors. This represents one of the largest peacetime defence commitments in Australian history and signals a significant shift in how the Albanese government is prioritising national security. The decision reflects growing concern about the deteriorating global security environment, likely referencing tensions in the Indo-Pacific region and broader geopolitical instability. The spending increase is expected to become a major point of debate in upcoming federal budget discussions and the next election campaign.",
+    "https://www.nature.com/articles/s41586-026-10358-1": "A major study analyzing nearly 16,000 ancient genomes from people who lived across West Eurasia over thousands of years found that natural selection was actively and continuously reshaping human genetics throughout prehistory \u2014 not just occasionally. Hundreds of genetic variants shifted steadily in frequency over time, meaning populations were adapting to their environments long after groups of people migrated into new regions. This challenges a widely held view that most physical and biological changes in prehistoric West Eurasians were mainly explained by one population replacing another, rather than gradual in-place adaptation. The findings suggest evolution was an ongoing, pervasive force in shaping these ancient populations, and that previous models likely underestimated how much natural selection contributed to human biological change after the major prehistoric migrations.",
+    "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/": "A new skeletal growth analysis has found that Neanderthal newborns were significantly heavier at birth than modern human infants, challenging the long-held assumption that the two species followed roughly similar developmental paths. The findings suggest Neanderthals invested more energy in producing larger offspring at birth, which would have placed a greater physical burden on Neanderthal mothers during pregnancy and nursing. This matters because differences in maternal energy costs and infant dependency periods could have given early modern humans a competitive reproductive advantage, potentially contributing to why Neanderthals went extinct around 40,000 years ago. The research adds to a growing body of evidence that Neanderthals were biologically more distinct from us than previously thought, not just culturally or cognitively.",
+    "https://www.theguardian.com/football/2026/apr/14/atletico-madrid-barcelona-champions-league-match-report": "Atl\u00e9tico Madrid lost 2-1 to Barcelona at home but advanced to the Champions League semi-finals 3-2 on aggregate, with an Ademola Lookman goal and a Barcelona red card for Garc\u00eda proving decisive across the two legs. Despite the home defeat, Atl\u00e9tico celebrated wildly, as reaching the semi-finals ended a ten-year wait dating back to their 2016 appearance. Manager Diego Simeone, in his 14th year at the club, credited the team's resilience and faith for overcoming a Barcelona side featuring young star Lamine Yamal. Atl\u00e9tico have now eliminated Barcelona from the Champions League three times under Simeone, previously doing so in 2014 and 2016 when they went on to reach the final both times.",
+    "https://www.theguardian.com/football/live/2026/apr/15/arsenal-v-sporting-champions-league-quarter-final-second-leg-live": "Arsenal and Bayern Munich are hosting the second legs of their Champions League quarter-final ties against Sporting CP and Real Madrid respectively on April 15. Arsenal, holding a lead from the first leg, have been playing nervously and frantically despite being ahead, while Real Madrid have dramatically pulled level with Bayern at 4-4 on aggregate thanks to a Mbappe goal, making that tie very tight. The winners of both matches will advance to the Champions League semi-finals. These are high-stakes knockout games with significant implications for which clubs will compete for the European title this season.",
+    "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france": "Liverpool striker Hugo Ekitike has been ruled out for the rest of the season and the 2026 World Cup after suffering a suspected achilles tendon rupture during Liverpool's Champions League quarter-final defeat to PSG on Tuesday. France head coach Didier Deschamps confirmed the 23-year-old will miss this summer's tournament, where France are set to play in the United States against Senegal, Iraq, and Norway. The injury is a significant blow to Liverpool, as Ekitike is the club's top scorer this season with 17 goals, and his absence comes with six games still to play in their fight to secure Champions League qualification for next season. Scans have been taken and Liverpool are expected to release a full medical update later this week, but an achilles rupture typically requires many months of recovery.",
+    "https://www.marca.com/futbol/valencia/2026/04/15/valencia-suma-14-derrotas-top-10-partidos-perdidos-temporada.html": "Valencia have lost 14 league matches so far this La Liga season, a total bad enough to place them among the worst single-season loss records in the club's history. With seven games still remaining, that figure is likely to grow, and the all-time worst record of 18 defeats in a single season is now a realistic possibility. The club are under serious relegation pressure, meaning the stakes are not just historical embarrassment but potential demotion from Spain's top flight. For a club of Valencia's stature and history, this represents a significant and alarming low point."
   },
   "article_hashes": {
-    "breaking": 76194673401776824
+    "breaking": "c2bf77c7a7178d97b4f121c764ff58ec"
   },
   "world_topics_cache": {
     "today": [
       {
-        "headline": "Trump Administration Escalates Iran Blockade While Signaling Peace Talks",
-        "why": "The US claims full implementation of an Iranian port blockade while Trump hints at potential negotiations, creating contradictory signals about administration strategy toward Iran.",
-        "signal": "[NEWS] CNN, CNBC"
+        "headline": "Live Nation antitrust verdict on ticketing monopoly",
+        "why": "A jury has found Live Nation illegally monopolized the ticketing market, representing a major antitrust victory that could reshape the concert and events industry.",
+        "signal": "NEWS"
       },
       {
-        "headline": "Multiple House Democrats Forced to Resign Amid Allegations",
-        "why": "Representatives Eric Swalwell and Gonzales have been pressured to resign by a bipartisan duo, with reports suggesting other House members could face similar consequences.",
-        "signal": "[NEWS] The Washington Post, CBS News, Politico"
+        "headline": "Iran-U.S. war and ceasefire negotiations",
+        "why": "An active military conflict between Iran and the U.S. is ongoing with a blockade implemented, while mediators push for ceasefire extension and Trump signals new talks coming soon.",
+        "signal": "NEWS"
       },
       {
-        "headline": "Trump Escalates Conflict with Pope Leo Over Crime and Policy",
-        "why": "Trump has repeatedly attacked Pope Leo for being 'weak on crime' and made controversial 'Jesus jokes,' intensifying tensions between the administration and the Vatican.",
-        "signal": "[NEWS] CNBC, The New York Times, AP News"
+        "headline": "Senate war powers vote on Trump's Iran conflict",
+        "why": "Congress is preparing to vote on war powers authorization for Trump's military action against Iran, testing whether the Senate will support the administration's military engagement.",
+        "signal": "NEWS"
       },
       {
-        "headline": "Sudan Conflict Enters Fourth Year as International Attention Wanes",
-        "why": "Officials are sounding alarms that the ongoing Sudanese war has become an 'abandoned crisis' with diminishing global media coverage and international intervention.",
-        "signal": "[NEWS] AP News"
+        "headline": "Eric Swalwell's sudden political downfall",
+        "why": "The California congressman faces new allegations and is experiencing a rapid decline in his political standing, with major coverage of his unexpected fall from prominence.",
+        "signal": "NEWS"
       },
       {
-        "headline": "Trump Threatens to Fire Federal Reserve Chair Powell Before May",
-        "why": "Trump has publicly threatened to remove Fed Chair Powell if he doesn't resign by May, escalating pressure on monetary policy leadership.",
-        "signal": "[NEWS] BBC, [TRENDING] TSLA stock (2 mentions)"
+        "headline": "Bernie Sanders pushes resolutions blocking U.S. weapons sales to Israel",
+        "why": "The senator is actively campaigning to prevent American military aid to Israel, reflecting ongoing congressional debate over U.S. Middle East policy amid regional conflicts.",
+        "signal": "NEWS"
       }
     ],
     "week": [
       {
-        "headline": "Trump Administration Imposes Military Blockade of Iranian Ports at Strait of Hormuz",
-        "why": "The U.S. implemented a blockade of Iranian ports while seeking international support and pursuing diplomatic negotiations, with significant market reactions and ongoing ceasefire discussions.",
+        "headline": "Trump Administration Implements Blockade of Iranian Strait of Hormuz",
+        "why": "The U.S. military blockade of Iranian ports dominated coverage as Trump announced the action, international allies declined to participate, and markets reacted with volatility while diplomats scrambled for negotiations.",
         "signal": "trending for 7 days"
       },
       {
-        "headline": "Trump's Public Feud with Pope Leo Over Political Statements and Crime Policy",
-        "why": "Trump repeatedly criticized Pope Leo for being weak on crime and interfering in U.S. politics, while the Pope defended his focus on the Gospel during international visits to Algeria and Cameroon.",
-        "signal": "trending for 5 days"
+        "headline": "Trump and Vatican Officials Clash Over Pope Leo's Political Commentary",
+        "why": "Trump and VP Vance repeatedly attacked Pope Leo for speaking on political matters, with the Pope defending his moral authority and Congress members backing Trump's criticism, creating sustained diplomatic controversy.",
+        "signal": "trending for 6 days"
       },
       {
-        "headline": "Democratic Rep. Eric Swalwell Withdraws from California Governor Race Following Assault Allegations",
-        "why": "Swalwell's campaign exit amid assault allegations reshaped the Democratic field and prompted rivals to seek his supporters and donors to redirect contributions.",
+        "headline": "California Democratic Congressman Eric Swalwell Exits Governor's Race Amid Assault Allegations",
+        "why": "Swalwell's sudden withdrawal from the California governor's race after new assault allegations surfaced reshuffled the Democratic primary and forced rivals and Gov. Newsom to respond to the changed landscape.",
         "signal": "trending for 4 days"
       },
       {
-        "headline": "Hungary's Opposition Achieves Landslide Election Victory, Signaling EU Relations Shift",
-        "why": "Prime minister-elect P\u00e9ter Magyar's decisive win promised media reforms and a thaw in Hungary's relationship with the European Union after years of tension.",
+        "headline": "Hungary's Opposition Wins Landslide Election, Signaling EU Relations Thaw",
+        "why": "Hungary's opposition achieved a decisive electoral victory over the ruling government, with the prime minister-elect vowing major reforms and shifts in state media control, reshaping EU dynamics.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Super Typhoon Sinlaku Strikes U.S. Pacific Islands as Strongest Storm on Planet",
-        "why": "An exceptionally powerful typhoon bore down on remote U.S. territories in the Western Pacific, raising concerns about climate patterns and disaster preparedness.",
+        "headline": "Super Typhoon Sinlaku Strikes U.S. Pacific Territory",
+        "why": "The strongest storm on the planet made landfall in the Western Pacific U.S. territories, generating significant meteorological concern and coverage as a sign of climate extremes.",
         "signal": "trending for 3 days"
       }
     ],
     "month": [
       {
-        "headline": "U.S. Military Blockade of Iranian Ports on Strait of Hormuz",
-        "why": "Trump administration's imposed blockade of Iran dominated coverage as international allies refused to participate, talks continued, and market reactions unfolded over multiple days.",
+        "headline": "Trump's Iran Blockade and Failed Diplomatic Negotiations",
+        "why": "Trump administration implemented a military blockade of Iranian ports at the Strait of Hormuz while attempting diplomatic talks, with international allies declining to participate and markets reacting negatively to the escalation.",
         "signal": "trending for 12 days"
       },
       {
-        "headline": "Trump's Public Conflict with Pope Leo",
-        "why": "Trump repeatedly attacked Pope Leo as 'weak' and criticized his involvement in U.S. affairs, with VP Vance joining the criticism, generating sustained media coverage.",
+        "headline": "Trump's Public Feud with Pope Leo",
+        "why": "Trump repeatedly attacked Pope Leo as 'weak' and called for him to stay out of U.S. affairs, with Vice President Vance and Speaker Johnson defending the criticism, creating sustained political and religious controversy.",
         "signal": "trending for 8 days"
       },
       {
         "headline": "Eric Swalwell's Exit from California Governor's Race",
-        "why": "Democratic congressman Swalwell withdrew from the California gubernatorial race following assault allegations, prompting analysis of his political rise and fall.",
+        "why": "Democratic congressman Eric Swalwell withdrew from the California gubernatorial race following assault allegations, forcing rivals to compete for his supporters and reshaping the Democratic primary landscape.",
         "signal": "trending for 7 days"
       },
       {
-        "headline": "Hungary's Opposition Election Victory and EU Relations",
-        "why": "Hungary's opposition won a landslide election with plans to reform state media and improve EU ties after years of conflict with Brussels.",
+        "headline": "Hungarian Opposition's Election Victory and EU Relations",
+        "why": "Hungary's opposition achieved a landslide electoral victory, with the prime minister-elect P\u00e9ter Magyar vowing to pursue those responsible for corruption and suspend state propaganda media, signaling potential reforms and thawed EU relations.",
         "signal": "trending for 6 days"
       },
       {
-        "headline": "Super Typhoon Sinlaku in Western Pacific",
-        "why": "The strongest storm on the planet threatened U.S. territories in the Western Pacific, raising concerns about severe weather patterns and climate implications.",
-        "signal": "trending for 4 days"
+        "headline": "Lynette Hooker's Disappearance in the Bahamas",
+        "why": "An American woman went missing in the Bahamas, with her husband subsequently leaving the country, generating sustained media coverage of the investigation and developments in the case.",
+        "signal": "trending for 5 days"
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-15T16:14:21.050648+00:00"
+  "last_gdelt_attempt": "2026-04-15T19:56:10.954284+00:00"
 }

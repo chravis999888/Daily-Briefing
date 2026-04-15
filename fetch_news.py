@@ -5,6 +5,7 @@ import time
 import requests
 import feedparser
 import anthropic
+import urllib.parse
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from email.utils import parsedate_to_datetime
@@ -370,7 +371,24 @@ Cover what happened, why it matters, and any important background or broader sig
 
 # ── Fetchers ──────────────────────────────────────────────────────────────────
 
-def fetch_gdelt_articles(query, timespan="1h", max_records=25):
+def fetch_gdelt_articles(query, timespan="1h", max_records=25, memory=None):
+    # 2-hour rate-limit gate
+    if memory is not None:
+        last = memory.get("last_gdelt_attempt")
+        if last:
+            try:
+                last_dt = datetime.fromisoformat(last)
+                if last_dt.tzinfo is None:
+                    last_dt = last_dt.replace(tzinfo=timezone.utc)
+                age = (datetime.now(timezone.utc) - last_dt).total_seconds()
+                if age < 2 * 3600:
+                    msg = f"GDELT skipped — rate limit gate (last attempt {int(age/60)}m ago)"
+                    print(msg)
+                    return [], msg, memory
+            except Exception:
+                pass
+        memory["last_gdelt_attempt"] = datetime.now(timezone.utc).isoformat()
+
     DOMAIN_BLACKLIST = ["wikipedia.org", "wikipedia.com", "britannica.com", "fandom.com", "wikimedia.org"]
     base_url = "https://api.gdeltproject.org/api/v2/doc/doc"
     params = {"query": query, "mode": "artlist", "maxrecords": max_records, "timespan": timespan}
@@ -428,16 +446,18 @@ def fetch_gdelt_articles(query, timespan="1h", max_records=25):
         return articles, ""
 
     def _attempt_rss():
-        rss_url = base_url + "?" + "&".join(f"{k}={v}" for k, v in {**params, "format": "rss"}.items())
+        rss_params = {**params, "format": "rss", "query": urllib.parse.quote(query)}
+        rss_url = base_url + "?" + "&".join(f"{k}={v}" for k, v in rss_params.items())
         feed = feedparser.parse(rss_url)
         articles = _parse_rss_articles(feed)
         return articles, "" if articles else "GDELT RSS returned empty"
 
     # First JSON attempt
+    err = "GDELT fetch failed: unknown"
     try:
         articles, err = _attempt_json()
         if articles:
-            return articles, ""
+            return articles, "", memory
         print(f"GDELT JSON attempt 1: {err or 'empty'} — retrying in 5s")
     except Exception as e:
         err = f"GDELT fetch failed: {e}"
@@ -449,7 +469,7 @@ def fetch_gdelt_articles(query, timespan="1h", max_records=25):
     try:
         articles, err = _attempt_json()
         if articles:
-            return articles, ""
+            return articles, "", memory
         print(f"GDELT JSON attempt 2: {err or 'empty'} — falling back to RSS")
     except Exception as e:
         err = f"GDELT fetch failed: {e}"
@@ -460,14 +480,14 @@ def fetch_gdelt_articles(query, timespan="1h", max_records=25):
         articles, rss_err = _attempt_rss()
         if articles:
             print(f"GDELT RSS fallback succeeded: {len(articles)} articles")
-            return articles, ""
+            return articles, "", memory
         final_err = err + "; RSS fallback also empty"
         print(f"GDELT RSS fallback: {rss_err}")
-        return [], final_err
+        return [], final_err, memory
     except Exception as e:
         final_err = err + f"; RSS fallback failed: {e}"
         print(f"GDELT RSS fallback exception: {e}")
-        return [], final_err
+        return [], final_err, memory
 
 def fetch_google_news_rss():
     try:
@@ -1987,18 +2007,22 @@ def main():
     if RUN_MODE == "breaking_only":
         print("Breaking-only run...")
         errors = []
-        gdelt_breaking, gdelt_err = fetch_gdelt_articles("war attack disaster killed", timespan="1h", max_records=25)
+        gdelt_breaking, gdelt_err, memory = fetch_gdelt_articles("war attack disaster killed", timespan="1h", max_records=25, memory=memory)
         if gdelt_err:
             print(f"GDELT: {gdelt_err}")
-            errors.append(gdelt_err)
-        elif not gdelt_breaking:
-            print("GDELT returned nothing — using Guardian only for breaking news")
+            if "skipped" not in gdelt_err:
+                errors.append(gdelt_err)
         guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
+        reuters_rss = fetch_rss("https://feeds.reuters.com/reuters/topNews", "Reuters")
+        ap_rss = fetch_rss("https://rsshub.app/apnews/topics/apf-topnews", "AP News")
+        bbc_rss = fetch_rss("https://feeds.bbci.co.uk/news/rss.xml", "BBC News")
+        aljazeera_rss = fetch_rss("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera")
+        all_breaking = gdelt_breaking + guardian_breaking + reuters_rss + ap_rss + bbc_rss + aljazeera_rss
 
-        new_breaking, memory = process_breaking_news(gdelt_breaking, guardian_breaking, memory)
+        new_breaking, memory = process_breaking_news(gdelt_breaking, all_breaking, memory)
         if new_breaking:
             breaking = new_breaking
-            memory = save_article_hash(memory, "breaking", gdelt_breaking + guardian_breaking)
+            memory = save_article_hash(memory, "breaking", all_breaking)
         else:
             print("Breaking news: no new stories passed the bar, keeping existing")
             breaking = get_cached_category(memory, "breaking")
@@ -2013,7 +2037,7 @@ def main():
         }
         world_topics, memory = process_world_topics(memory)
         yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
-        developing_situations = process_developing_situations(pinned, [], gdelt_breaking + guardian_breaking)
+        developing_situations = process_developing_situations(pinned, [], all_breaking)
 
         save_memory(memory)
         health = log_run(health, "breaking_only", errors)
@@ -2146,14 +2170,18 @@ def main():
     world_topics, memory = process_world_topics(memory)
 
     print("Fetching Breaking News...")
-    gdelt_breaking, gdelt_err = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="1h", max_records=25)
+    gdelt_breaking, gdelt_err, memory = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="1h", max_records=25, memory=memory)
     if gdelt_err:
         print(f"GDELT: {gdelt_err}")
-        errors.append(gdelt_err)
-    elif not gdelt_breaking:
-        print("GDELT returned nothing — using Guardian only for breaking news")
+        if "skipped" not in gdelt_err:
+            errors.append(gdelt_err)
     guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
-    breaking, memory = process_breaking_news(gdelt_breaking, guardian_breaking, memory)
+    reuters_rss = fetch_rss("https://feeds.reuters.com/reuters/topNews", "Reuters")
+    ap_rss = fetch_rss("https://rsshub.app/apnews/topics/apf-topnews", "AP News")
+    bbc_rss = fetch_rss("https://feeds.bbci.co.uk/news/rss.xml", "BBC News")
+    aljazeera_rss = fetch_rss("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera")
+    all_breaking = gdelt_breaking + guardian_breaking + reuters_rss + ap_rss + bbc_rss + aljazeera_rss
+    breaking, memory = process_breaking_news(gdelt_breaking, all_breaking, memory)
 
     time.sleep(60)
     print("Fetching Australia news...")
@@ -2208,7 +2236,7 @@ def main():
     }
 
     print("Processing developing situations...")
-    all_fetched = (gdelt_breaking + guardian_breaking + abc_rss + smh_rss + age_rss +
+    all_fetched = (all_breaking + abc_rss + smh_rss + age_rss +
                    newsdata_aus + nature_rss + newscientist_rss + science_rss + newsdata_arch +
                    physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss +
                    guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +

@@ -17,6 +17,7 @@
 - 429 rate limit crash on tracking suggestions — RateLimitError caught, returns []; sleep(2) added before each call
 - GDELT root cause diagnosis — exact error captured in health.json; gate skips logged as info not error
 - v0.5 Bug fixes pass 1 — GDELT RSS URL fix (urllib.parse.urlencode), star popup cache busting (?t=Date.now + Cache-Control), Previously cards clickable (full story passed to render_story; breaking PREVIOUSLY cards get onclick+cursor:pointer), breaking news persistence in full run (fallback to cache on empty), deploy flag only on content change (all run modes), health dot custom tooltip (CSS hover, fade-in), Fabrizio Romano Telegram scraper removed
+- v0.5 Bug fixes pass 2 — Tracking suggestions merged into Sonnet summary pass (single API call, no separate Haiku), generate_tracking_suggestions() deleted, archaeology seen-URL filter (cross-references all memory URLs before passing to Claude)
 
 ---
 
@@ -30,7 +31,6 @@ Nothing currently in progress.
 
 ### v0.5 — Bug fixes
 - Auto-refresh 404 handling — graceful fallback if page not found on poll
-- Tracking suggestions — move into Sonnet pass instead of separate Haiku calls
 - GDELT failure alert — email or webhook after 3 consecutive failures
 - Archaeology duplicate detection — same story different headline
 - Archaeology recency filter on RSS feeds

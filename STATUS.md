@@ -81,6 +81,19 @@ Nothing currently in progress.
 
 ---
 
+## 🐛 Known Bugs
+
+### Australia category — stale story + only 1 Previously card
+*Observed in production 15 April 2026*
+
+**Bug 1 — Stale top story:** The top Australia card is showing the same Coalition migration policy story that appeared yesterday. Timestamp says "1 hr ago" suggesting the fetcher is genuinely re-fetching it, but it's the same story — dedup is not working for this article. Likely cause: the URL is coming through with slight variations each run (query params, trailing slashes) or a minor headline difference, so the article hash treats it as new each time. The story is also appearing in the Previously section simultaneously, meaning the same story exists in both today's results and yesterday's memory at the same time.
+
+**Bug 2 — Only 1 Previously card:** Australia shows one Previously card while Archaeology and Football show several. Either only one Australia story is being persisted to memory.json per run, or there's a truncation in the `build_html` previously slice specific to Australia. Most likely the same root cause as Bug 1 — a single recurring story keeps winning the dedup check across multiple runs, crowding out genuinely different stories and leaving yesterday's memory with only that one story.
+
+**Root cause hypothesis:** Both bugs are likely the same dedup failure — a single story with a slightly different URL or headline each run is defeating the hash check, appearing as new every time, and polluting both today's feed and yesterday's memory.
+
+---
+
 ## 📁 Key Files
 
 | File | Purpose |

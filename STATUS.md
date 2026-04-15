@@ -13,12 +13,15 @@
 - Cloudflare Pages deployment — wrangler deploy via GitHub Actions, sentinel-file gating, confirmed working end-to-end
 - Rate limit fixes — sleep spacing across all four processors
 - "Previously" cards — yesterday's stories shown below each category
+- Summaries missing from HTML — save_today_stories now persists all fields; url added to all four results dicts
+- 429 rate limit crash on tracking suggestions — RateLimitError caught, returns []; sleep(2) added before each call
+- GDELT root cause diagnosis — exact error captured in health.json; gate skips logged as info not error
 
 ---
 
 ## 🔄 In Progress
 
-Nothing currently in progress. Next full run will repopulate memory.json with fixed story structure (summary + url + image + articles now persisted).
+Nothing currently in progress.
 
 ---
 
@@ -32,7 +35,6 @@ Nothing currently in progress. Next full run will repopulate memory.json with fi
 - GDELT failure alert — email or webhook after 3 consecutive failures
 - Deploy flag — only deploy to Cloudflare when content actually changed
 - Breaking news persistence — don't overwrite with empty on failed runs
-- GDELT root cause diagnosis — exact error now in health.json; gate skips are logged as info not error
 - Archaeology duplicate detection — same story different headline
 - Archaeology recency filter on RSS feeds
 - Fabrizio Romano — confirm working in production
@@ -73,9 +75,7 @@ Nothing currently in progress. Next full run will repopulate memory.json with fi
 
 ## 🐛 Known Issues
 
-- **GDELT consistently failing** — retries + RSS fallback in place; 2h gate prevents hammering; breaking news now has Reuters/AP/BBC/Al Jazeera as backbone regardless of GDELT status; memory corruption guard added (isinstance check + reload from disk if corrupted)
-- **Summaries missing from HTML** — fixed: save_today_stories now persists summary/url/image/articles/tracking_suggestions; all four processors now include url in results dict. Next full run will repopulate cache with correct structure.
-- **429 rate limit on tracking suggestions** — fixed: generate_tracking_suggestions now catches anthropic.RateLimitError and returns [] instead of crashing; explicit time.sleep(2) added before each call in all four processor loops (after existing time.sleep(3)); internal sleep removed from function body
+- **GDELT rate-limited on shared GitHub Actions IPs** — 2h gate + Reuters/AP/BBC/Al Jazeera RSS backbone in place as fallback
 - **Auto-developing situations not triggering** — needs ~1 week of consistent memory history to build up enough signal
 - **529 overloaded errors** — transient Anthropic API issue, retry after 10-15 mins
 

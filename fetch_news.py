@@ -2,6 +2,7 @@ import os
 import re
 import json
 import time
+import hashlib
 import requests
 import feedparser
 import anthropic
@@ -132,9 +133,13 @@ def save_today_stories(memory, category, stories):
     return memory
 
 def get_articles_hash(articles):
-    """Hash the titles of a list of articles to detect changes."""
+    """Hash the titles of a list of articles to detect changes.
+    Uses MD5 for deterministic output across processes and GitHub Actions runners.
+    (Python's built-in hash() is PYTHONHASHSEED-randomized per process.)
+    """
     titles = sorted([a.get("title","") for a in articles])
-    return hash(tuple(titles))
+    combined = "".join(titles)
+    return hashlib.md5(combined.encode()).hexdigest()
 
 def category_has_changed(memory, category, articles):
     """Returns True if articles are different from last run."""
@@ -1323,7 +1328,7 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations, he
             ]) if s.get("has_update") else ""
 
             update_style = "font-size:13px;line-height:1.7;color:#8a8680;" if s.get("has_update") else "font-size:13px;line-height:1.7;color:#8a8680;font-style:italic;"
-            sit_id = f"sit-{hash(s['topic']) & 0xFFFFFF}"
+            sit_id = f"sit-{urllib.parse.quote(s['topic'], safe='')}"
             remove_btn = f'<button onclick="removeSituation(\'{s["topic"].replace(chr(39), chr(92)+chr(39))}\')" title="Stop tracking" style="background:none;border:none;cursor:pointer;color:#333330;font-size:16px;padding:0;line-height:1;transition:color 0.15s;" onmouseover="this.style.color=\'#c0392b\'" onmouseout="this.style.color=\'#333330\'">&#215;</button>'
             items_html += f'''<div id="{sit_id}" style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:16px 18px;margin-bottom:8px;transition:opacity 0.4s;">
   <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
@@ -1649,7 +1654,7 @@ function removeSituation(topic) {{
       var updated = topics.filter(function(t) {{ return t !== topic; }});
       writePinned(token, updated, sha, function(ok) {{
         if (ok) {{
-          var el = document.getElementById("sit-" + btoa(topic).replace(/[^a-zA-Z0-9]/g,"").substring(0,20));
+          var el = document.getElementById("sit-" + encodeURIComponent(topic));
           if (el) el.style.opacity = "0.3";
           setTimeout(function() {{ if(el) el.remove(); }}, 400);
         }}
@@ -2114,7 +2119,7 @@ def main():
             newsdata_aus = fetch_newsdata("australia parliament senate election albanese budget policy", country="au")
             articles = abc_rss + smh_rss + age_rss + newsdata_aus
             if category_has_changed(memory, "australia", articles):
-                result, memory = process_australia(articles, memory)
+                result, memory = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus, memory)
                 memory = save_article_hash(memory, "australia", articles)
                 content_changed = True
             else:

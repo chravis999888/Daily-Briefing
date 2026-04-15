@@ -18,6 +18,7 @@
 - GDELT root cause diagnosis — exact error captured in health.json; gate skips logged as info not error
 - v0.5 Bug fixes pass 1 — GDELT RSS URL fix (urllib.parse.urlencode), star popup cache busting (?t=Date.now + Cache-Control), Previously cards clickable (full story passed to render_story; breaking PREVIOUSLY cards get onclick+cursor:pointer), breaking news persistence in full run (fallback to cache on empty), deploy flag only on content change (all run modes), health dot custom tooltip (CSS hover, fade-in), Fabrizio Romano Telegram scraper removed
 - v0.5 Bug fixes pass 2 — Tracking suggestions merged into Sonnet summary pass (single API call, no separate Haiku), generate_tracking_suggestions() deleted, archaeology seen-URL filter (cross-references all memory URLs before passing to Claude)
+- v0.5 Bug fixes pass 3 — get_articles_hash switched from hash() to hashlib.md5 (fixes PYTHONHASHSEED randomization that was making category_has_changed always return True), process_australia category-mode crash fixed (was passing 2 args to 3-arg function), removeSituation visual removal fixed (Python sit_id now uses urllib.parse.quote, JS uses encodeURIComponent — both produce the same ID)
 
 ---
 
@@ -84,11 +85,9 @@ Nothing currently in progress.
 ### Australia category — stale story + only 1 Previously card
 *Observed in production 15 April 2026*
 
-**Bug 1 — Stale top story:** The top Australia card is showing the same Coalition migration policy story that appeared yesterday. Timestamp says "1 hr ago" suggesting the fetcher is genuinely re-fetching it, but it's the same story — dedup is not working for this article. Likely cause: the URL is coming through with slight variations each run (query params, trailing slashes) or a minor headline difference, so the article hash treats it as new each time. The story is also appearing in the Previously section simultaneously, meaning the same story exists in both today's results and yesterday's memory at the same time.
+**Root cause confirmed and partially fixed (Pass 3):** The `get_articles_hash` function was using Python's built-in `hash()`, which is randomized per-process via PYTHONHASHSEED. This meant `category_has_changed` always returned True (hashes never matched across GitHub Actions runs), so every run re-processed all articles as if they were new — defeating dedup entirely. Fixed in Pass 3 by switching to `hashlib.md5`.
 
-**Bug 2 — Only 1 Previously card:** Australia shows one Previously card while Archaeology and Football show several. Either only one Australia story is being persisted to memory.json per run, or there's a truncation in the `build_html` previously slice specific to Australia. Most likely the same root cause as Bug 1 — a single recurring story keeps winning the dedup check across multiple runs, crowding out genuinely different stories and leaving yesterday's memory with only that one story.
-
-**Root cause hypothesis:** Both bugs are likely the same dedup failure — a single story with a slightly different URL or headline each run is defeating the hash check, appearing as new every time, and polluting both today's feed and yesterday's memory.
+**Remaining risk:** A story with a slightly different URL or headline each run can still defeat story-level dedup (the seen-URL filter added in Pass 2 covers archaeology; Australia and Football do not have the same filter yet). Monitor in production — if the stale story issue persists after the hash fix, the seen-URL filter should be extended to Australia and Football.
 
 ---
 

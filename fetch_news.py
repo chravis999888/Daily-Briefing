@@ -448,8 +448,8 @@ def fetch_gdelt_articles(query, timespan="1h", max_records=25, memory=None):
         return articles, ""
 
     def _attempt_rss():
-        rss_params = {**params, "format": "rss", "query": urllib.parse.quote(query)}
-        rss_url = base_url + "?" + "&".join(f"{k}={v}" for k, v in rss_params.items())
+        rss_params = {**params, "format": "rss"}
+        rss_url = base_url + "?" + urllib.parse.urlencode(rss_params)
         feed = feedparser.parse(rss_url)
         articles = _parse_rss_articles(feed)
         return articles, "" if articles else "GDELT RSS returned empty"
@@ -627,31 +627,6 @@ def fetch_newsdata(query, country=None):
         return articles
     except Exception as e:
         print(f"NewsData fetch error: {e}")
-        return []
-
-def fetch_fabrizio_romano():
-    try:
-        from bs4 import BeautifulSoup
-        r = requests.get("https://t.me/s/FabrizioRomanoTG",
-                        headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
-        soup = BeautifulSoup(r.text, "html.parser")
-        messages = soup.find_all("div", class_="tgme_widget_message_text")
-        articles = []
-        for msg in messages[-20:]:
-            text = msg.get_text(strip=True)
-            if not text or len(text) < 20:
-                continue
-            articles.append({
-                "title": text[:200],
-                "url": "https://t.me/FabrizioRomanoTG",
-                "source": "Fabrizio Romano",
-                "time": "",
-                "content": text[:500],
-                "image": ""
-            })
-        return articles
-    except Exception as e:
-        print(f"Fabrizio Romano fetch error: {e}")
         return []
 
 def generate_tracking_suggestions(headline):
@@ -1215,8 +1190,11 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations, he
     if last_run:
         has_errors = bool(last_run.get("errors"))
         dot_color = "#e67e22" if has_errors else "#2ecc71"
-        status_title = "Some sources failed last run" if has_errors else "All systems operational"
-        health_dot = f'<span title="{status_title}" style="display:inline-block;width:7px;height:7px;border-radius:50%;background:{dot_color};margin-right:6px;vertical-align:middle;"></span>'
+        if last_run.get("errors"):
+            tooltip_text = "Issues: " + "; ".join(last_run["errors"][:3])
+        else:
+            tooltip_text = "All sources OK"
+        health_dot = f'<span class="health-dot-wrap" style="position:relative;display:inline-block;vertical-align:middle;margin-right:6px;"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:{dot_color};cursor:default;"></span><span class="health-tooltip" style="display:none;position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#1c1c1a;border:1px solid rgba(255,255,255,0.1);border-radius:6px;padding:6px 10px;white-space:nowrap;font-size:11px;font-family:Inter,sans-serif;color:#c8c4bc;pointer-events:none;z-index:100;opacity:0;transition:opacity 0.2s;">{tooltip_text}</span></span>'
     else:
         health_dot = ""
 
@@ -1388,7 +1366,10 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations, he
             hl = s["headline"].replace("<","&lt;").replace(">","&gt;")
             ts = s.get("timestamp","")
             headline_esc = s["headline"].replace("'", "\\'").replace('"', '&quot;')
-            prev_cards += f'''<div style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:14px 16px;cursor:default;">
+            summary_esc = s.get("summary","").replace("'", "\\'").replace('"', '&quot;').replace("\n", " ")
+            arts_json = json.dumps(s.get("articles", [])).replace('"', '&quot;')
+            img = s.get("image","")
+            prev_cards += f'''<div onclick="openModal('{headline_esc}','{summary_esc}',{arts_json},'{img}')" style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:14px 16px;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.05)'">
   <div style="font-size:12px;line-height:1.5;color:#c8c4bc;font-weight:400;margin-bottom:6px;">{hl}</div>
   <div style="font-size:11px;color:#444440;">{ts}</div>
 </div>'''
@@ -1431,8 +1412,7 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations, he
         if cat["yesterday"]:
             yest_html = f'<div style="margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.05);"><p style="font-size:11px;color:#333330;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:8px;">Previously</p>'
             for i, s in enumerate(cat["yesterday"]):
-                fake = {"headline": s["headline"], "timestamp": "yesterday", "score": s.get("score",5), "summary": "", "articles": []}
-                yest_html += render_story(fake, i, ac, is_yesterday=True)
+                yest_html += render_story(s, i, ac, is_yesterday=True)
             yest_html += "</div>"
         refresh_btn = f'<button id="refresh-{cat["id"]}" onclick="triggerCategoryRefresh(\'{cat["id"]}\')" title="Refresh {cat["label"]}" style="background:none;border:none;cursor:pointer;padding:4px;color:#2a2a28;font-size:12px;flex-shrink:0;line-height:1;transition:color 0.15s;display:none;" onmouseover="this.style.color=\'#6e6b64\'" onmouseout="this.style.color=\'#2a2a28\'">↻</button>'
         count_badge = f'<span style="font-size:10px;color:#333330;background:rgba(255,255,255,0.05);padding:2px 8px;border-radius:999px;">{len(stories)}</span>'
@@ -1466,6 +1446,7 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations, he
 html,body{{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-size:15px;line-height:1.6;min-height:100vh;}}
 .story-header:hover{{background:rgba(255,255,255,0.02);}}
 .story-header:hover .chev{{color:#6e6b64;}}
+.health-dot-wrap:hover .health-tooltip{{display:block !important;opacity:1 !important;}}
 @media(max-width:768px){{
   .grid-3{{grid-template-columns:1fr!important;}}
 }}
@@ -1541,8 +1522,8 @@ function ensureGhToken(cb) {{
 
 // ── Read pinned.txt from GitHub ──
 function getPinned(token, cb) {{
-  fetch("https://api.github.com/repos/" + GITHUB_REPO + "/contents/" + PINNED_FILE_PATH, {{
-    headers: {{ "Authorization": "Bearer " + token, "Accept": "application/vnd.github+json" }}
+  fetch("https://api.github.com/repos/" + GITHUB_REPO + "/contents/" + PINNED_FILE_PATH + "?t=" + Date.now(), {{
+    headers: {{ "Authorization": "Bearer " + token, "Accept": "application/vnd.github+json", "Cache-Control": "no-cache" }}
   }})
   .then(function(r) {{ return r.json(); }})
   .then(function(data) {{
@@ -2023,6 +2004,7 @@ def main():
     if RUN_MODE == "breaking_only":
         print("Breaking-only run...")
         errors = []
+        content_changed = False
         gdelt_breaking, gdelt_err, memory = fetch_gdelt_articles("war attack disaster killed", timespan="1h", max_records=25, memory=memory)
         if not isinstance(memory, dict):
             print(f"ERROR: memory corrupted after GDELT call (got {type(memory)}), reloading from disk")
@@ -2042,6 +2024,7 @@ def main():
         if new_breaking:
             breaking = new_breaking
             memory = save_article_hash(memory, "breaking", all_breaking)
+            content_changed = True
         else:
             print("Breaking news: no new stories passed the bar, keeping existing")
             breaking = get_cached_category(memory, "breaking")
@@ -2070,13 +2053,17 @@ def main():
                 shutil.copy(src, Path("dist") / fname)
         with open("dist/index.html", "w", encoding="utf-8") as f:
             f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
-        Path("dist/.deploy_needed").touch()
-        print("Done. dist/index.html written.")
+        if content_changed:
+            Path("dist/.deploy_needed").touch()
+            print("Done. dist/index.html written — deploy triggered.")
+        else:
+            print("Done. dist/index.html written — no new content, deploy skipped.")
         return
 
     elif RUN_MODE == "category" and RUN_CATEGORY:
         print(f"Category-only run: {RUN_CATEGORY}...")
         errors = []
+        content_changed = False
 
         if RUN_CATEGORY == "football":
             guardian_football = fetch_guardian("premier league OR la liga OR serie a OR bundesliga OR ligue 1 OR champions league", page_size=15, section="football")
@@ -2091,12 +2078,12 @@ def main():
             bundesliga_rss = fetch_rss("https://www.bundesliga.com/api/rss/news/en", "Bundesliga")
             uefa_rss = fetch_rss("https://www.uefa.com/rss.xml", "UEFA")
             goal_rss = fetch_rss("https://www.goal.com/feeds/en/news", "Goal.com")
-            fabrizio_romano = fetch_fabrizio_romano()
             articles = (guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
-                        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss + fabrizio_romano)[:40]
+                        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)[:40]
             if category_has_changed(memory, "football", articles):
                 result, memory = process_football(articles, memory)
                 memory = save_article_hash(memory, "football", articles)
+                content_changed = True
             else:
                 print("Football: no new articles, skipping")
                 result = get_cached_category(memory, "football")
@@ -2116,6 +2103,7 @@ def main():
             if category_has_changed(memory, "australia", articles):
                 result, memory = process_australia(articles, memory)
                 memory = save_article_hash(memory, "australia", articles)
+                content_changed = True
             else:
                 print("Australia: no new articles, skipping")
                 result = get_cached_category(memory, "australia")
@@ -2140,6 +2128,7 @@ def main():
             if category_has_changed(memory, "archaeology", articles):
                 result, memory = process_archaeology(articles, memory)
                 memory = save_article_hash(memory, "archaeology", articles)
+                content_changed = True
             else:
                 print("Archaeology: no new articles, skipping")
                 result = get_cached_category(memory, "archaeology")
@@ -2152,6 +2141,7 @@ def main():
 
         elif RUN_CATEGORY == "world_topics":
             world_topics, memory = process_world_topics(memory)
+            content_changed = True
             all_data = {
                 "breaking": get_cached_category(memory, "breaking"),
                 "australia": get_cached_category(memory, "australia"),
@@ -2178,12 +2168,16 @@ def main():
                 shutil.copy(src, Path("dist") / fname)
         with open("dist/index.html", "w", encoding="utf-8") as f:
             f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
-        Path("dist/.deploy_needed").touch()
-        print(f"Done. Category-only run for {RUN_CATEGORY} complete.")
+        if content_changed:
+            Path("dist/.deploy_needed").touch()
+            print(f"Done. Category-only run for {RUN_CATEGORY} complete — deploy triggered.")
+        else:
+            print(f"Done. Category-only run for {RUN_CATEGORY} complete — no new content, deploy skipped.")
         return
 
     # Full run continues below...
     errors = []
+    content_changed = False
 
     print("Fetching world topics...")
     world_topics, memory = process_world_topics(memory)
@@ -2203,7 +2197,13 @@ def main():
     bbc_rss = fetch_rss("https://feeds.bbci.co.uk/news/rss.xml", "BBC News")
     aljazeera_rss = fetch_rss("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera")
     all_breaking = gdelt_breaking + guardian_breaking + reuters_rss + ap_rss + bbc_rss + aljazeera_rss
-    breaking, memory = process_breaking_news([], all_breaking, memory)
+    new_breaking, memory = process_breaking_news([], all_breaking, memory)
+    if new_breaking:
+        breaking = new_breaking
+        memory = save_article_hash(memory, "breaking", all_breaking)
+    else:
+        print("Breaking news: no new stories passed the bar, keeping existing")
+        breaking = get_cached_category(memory, "breaking")
 
     time.sleep(60)
     print("Fetching Australia news...")
@@ -2244,10 +2244,9 @@ def main():
     bundesliga_rss = fetch_rss("https://www.bundesliga.com/api/rss/news/en", "Bundesliga")
     uefa_rss = fetch_rss("https://www.uefa.com/rss.xml", "UEFA")
     goal_rss = fetch_rss("https://www.goal.com/feeds/en/news", "Goal.com")
-    fabrizio_romano = fetch_fabrizio_romano()
     football, memory = process_football(
         (guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
-        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss + fabrizio_romano)[:40],
+        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)[:40],
         memory)
 
     all_data = {
@@ -2262,7 +2261,7 @@ def main():
                    newsdata_aus + nature_rss + newscientist_rss + science_rss + newsdata_arch +
                    physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss +
                    guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
-                   espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss + fabrizio_romano)
+                   espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)
     auto_detected = detect_developing_situations(memory, all_data)
     developing_situations = process_developing_situations(pinned, auto_detected, all_fetched)
 
@@ -2275,6 +2274,7 @@ def main():
 
     for cat in ["breaking", "australia", "archaeology", "football"]:
         memory = save_today_stories(memory, cat, all_data[cat])
+    content_changed = any(all_data[cat] for cat in ["breaking", "australia", "archaeology", "football"])
     save_memory(memory)
     health = log_run(health, "full", errors)
     save_health(health)
@@ -2287,8 +2287,11 @@ def main():
             shutil.copy(src, Path("dist") / fname)
     with open("dist/index.html", "w", encoding="utf-8") as f:
         f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
-    Path("dist/.deploy_needed").touch()
-    print("Done. dist/index.html written.")
+    if content_changed:
+        Path("dist/.deploy_needed").touch()
+        print("Done. dist/index.html written — deploy triggered.")
+    else:
+        print("Done. dist/index.html written — no new content, deploy skipped.")
 
 if __name__ == "__main__":
     main()

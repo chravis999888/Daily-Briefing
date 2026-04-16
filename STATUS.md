@@ -19,6 +19,7 @@
 - v0.5 Bug fixes pass 1 — GDELT RSS URL fix (urllib.parse.urlencode), star popup cache busting (?t=Date.now + Cache-Control), Previously cards clickable (full story passed to render_story; breaking PREVIOUSLY cards get onclick+cursor:pointer), breaking news persistence in full run (fallback to cache on empty), deploy flag only on content change (all run modes), health dot custom tooltip (CSS hover, fade-in), Fabrizio Romano Telegram scraper removed
 - v0.5 Bug fixes pass 2 — Tracking suggestions merged into Sonnet summary pass (single API call, no separate Haiku), generate_tracking_suggestions() deleted, archaeology seen-URL filter (cross-references all memory URLs before passing to Claude)
 - v0.5 Bug fixes pass 3 — get_articles_hash switched from hash() to hashlib.md5 (fixes PYTHONHASHSEED randomization that was making category_has_changed always return True), process_australia category-mode crash fixed (was passing 2 args to 3-arg function), removeSituation visual removal fixed (Python sit_id now uses urllib.parse.quote, JS uses encodeURIComponent — both produce the same ID)
+- v0.5 Bug fixes pass 4 — Breaking news modal showing wrong articles fixed: cached_sources was replacing articles_list instead of appending, causing the modal to show unrelated previously-covered stories instead of the actual source article. Now uses articles_list + cached_sources, matching Australia and Football processors.
 
 ---
 

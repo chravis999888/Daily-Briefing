@@ -89,6 +89,8 @@ Nothing currently in progress.
 - **Dead `errors` key in health.json** — the top-level `"errors": []` key is written in the default health dict and never populated by `log_run`. Whatever it was intended for is unimplemented.
 - **Summary cache eviction is insertion-order not LRU** — when the summary cache exceeds 500 entries it deletes the oldest-inserted keys regardless of recent use. Recurring stories lose cached summaries faster than new ones.
 - **`call_sonnet_with_search` silent empty return** — if Sonnet uses web search but the response contains only `tool_use` blocks with no final `text` block, the function returns empty string silently. Callers treat this the same as a legitimate empty result.
+- **Breaking news prompt over-filtering significant stories** *(observed 17 April 2026)* — Trump threatening to leave NATO did not surface; the prompt is rejecting high-profile political statements as "ongoing situation" coverage rather than discrete events. Fix: explicitly allow significant statements and announcements from heads of state as breaking events.
+- **Australia prompt scoped too narrowly** *(observed 17 April 2026)* — Oil refinery fire did not surface; the prompt is limited to parliamentary/legal events only. Fix: expand to include major incidents, disasters, and significant infrastructure events affecting Australians. Both prompts were tightened aggressively during v0.5 to fix quality issues and have overcorrected into false negatives on genuinely important stories.
 
 ---
 

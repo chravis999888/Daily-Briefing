@@ -60,6 +60,40 @@ def log_run(health, run_type, errors):
     health["runs"] = health["runs"][-50:]
     return health
 
+def log_api_call(label: str, model: str, input_tokens: int, output_tokens: int):
+    """Append one API call record to cost_log.json. Keeps last 1000 entries."""
+    HAIKU_IN   = 0.80  / 1_000_000
+    HAIKU_OUT  = 4.00  / 1_000_000
+    SONNET_IN  = 3.00  / 1_000_000
+    SONNET_OUT = 15.00 / 1_000_000
+
+    if "haiku" in model.lower():
+        cost_usd = (input_tokens * HAIKU_IN) + (output_tokens * HAIKU_OUT)
+    else:
+        cost_usd = (input_tokens * SONNET_IN) + (output_tokens * SONNET_OUT)
+
+    record = {
+        "timestamp": datetime.now(AEST).isoformat(),
+        "run_type": RUN_MODE,
+        "label": label,
+        "model": model,
+        "input_tokens": input_tokens,
+        "output_tokens": output_tokens,
+        "cost_usd": round(cost_usd, 6)
+    }
+
+    log_path = Path("cost_log.json")
+    try:
+        existing = json.loads(log_path.read_text()) if log_path.exists() else []
+    except Exception:
+        existing = []
+
+    existing.append(record)
+    if len(existing) > 1000:
+        existing = existing[-1000:]
+
+    log_path.write_text(json.dumps(existing, indent=2))
+
 ACCENTS = {
     "breaking": "#c0392b",
     "australia": "#2e7bbf",
@@ -288,15 +322,16 @@ def relative_time(date_str):
 
 # ── Claude ────────────────────────────────────────────────────────────────────
 
-def call_haiku(prompt, max_tokens=500):
+def call_haiku(prompt, max_tokens=500, label="haiku"):
     msg = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=max_tokens,
         messages=[{"role": "user", "content": prompt}]
     )
+    log_api_call(label, msg.model, msg.usage.input_tokens, msg.usage.output_tokens)
     return msg.content[0].text
 
-def call_sonnet(prompt, max_tokens=1000, retries=3):
+def call_sonnet(prompt, max_tokens=1000, retries=3, label="sonnet"):
     for attempt in range(retries):
         try:
             msg = client.messages.create(
@@ -304,6 +339,7 @@ def call_sonnet(prompt, max_tokens=1000, retries=3):
                 max_tokens=max_tokens,
                 messages=[{"role": "user", "content": prompt}]
             )
+            log_api_call(label, msg.model, msg.usage.input_tokens, msg.usage.output_tokens)
             return msg.content[0].text
         except anthropic.RateLimitError:
             wait = 30 * (attempt + 1)
@@ -313,9 +349,9 @@ def call_sonnet(prompt, max_tokens=1000, retries=3):
             print(f"Sonnet error: {e}")
             break
     print("Falling back to Haiku...")
-    return call_haiku(prompt, max_tokens)
+    return call_haiku(prompt, max_tokens, label="sonnet_haiku_fallback")
 
-def call_sonnet_with_search(prompt, max_tokens=1500, retries=3):
+def call_sonnet_with_search(prompt, max_tokens=1500, retries=3, label="context_search_sonnet"):
     for attempt in range(retries):
         try:
             msg = client.messages.create(
@@ -324,6 +360,7 @@ def call_sonnet_with_search(prompt, max_tokens=1500, retries=3):
                 tools=[{"type": "web_search_20250305", "name": "web_search"}],
                 messages=[{"role": "user", "content": prompt}]
             )
+            log_api_call(label, msg.model, msg.usage.input_tokens, msg.usage.output_tokens)
             for block in msg.content:
                 if block.type == "text":
                     return block.text
@@ -337,7 +374,7 @@ def call_sonnet_with_search(prompt, max_tokens=1500, retries=3):
             break
     return ""
 
-def call_haiku_with_search(prompt, max_tokens=500):
+def call_haiku_with_search(prompt, max_tokens=500, label="context_search"):
     try:
         msg = client.messages.create(
             model="claude-haiku-4-5-20251001",
@@ -345,6 +382,7 @@ def call_haiku_with_search(prompt, max_tokens=500):
             tools=[{"type": "web_search_20250305", "name": "web_search"}],
             messages=[{"role": "user", "content": prompt}]
         )
+        log_api_call(label, msg.model, msg.usage.input_tokens, msg.usage.output_tokens)
         for block in msg.content:
             if block.type == "text":
                 return block.text
@@ -365,7 +403,7 @@ Also suggest 3-4 short trackable topic labels for this story, from specific to b
 Return a JSON object:
 {{"summary": "3-4 sentence explanation...", "tracking_suggestions": ["specific topic", "broader topic", "wider context"]}}
 Raw JSON only, no markdown."""
-    text = call_sonnet(prompt, 400)
+    text = call_sonnet(prompt, 400, label="story_summary")
     try:
         data = json.loads(text.replace("```json","").replace("```","").strip())
         summary = re.sub(r'^#+\s*\w*\s*', '', str(data.get("summary", ""))).strip()
@@ -722,7 +760,7 @@ ONLY include: named conflicts, named people, named events, specific political si
 Return ONLY a JSON array:
 [{{"headline":"...","why":"...","signal":"..."}}]
 Raw JSON only, no markdown."""
-        text = call_haiku(prompt, 800)
+        text = call_haiku(prompt, 800, label="world_topics_today")
         try:
             results["today"] = json.loads(text.replace("```json","").replace("```","").strip())
         except:
@@ -768,7 +806,7 @@ ONLY include: named conflicts, named people, named events, specific political si
 Return ONLY a JSON array:
 [{{"headline":"...","why":"...","signal":"trending for X days"}}]
 Raw JSON only, no markdown."""
-    text = call_haiku(prompt, 800)
+    text = call_haiku(prompt, 800, label=f"world_topics_{period}")
     try:
         return json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -808,7 +846,7 @@ Return ONLY a JSON array:
 [{{"topic":"...","update":"...","has_update":true,"articles":[{{"title":"...","source":"...","url":"..."}}]}}]
 Raw JSON only, no markdown."""
 
-    text = call_haiku(prompt, 1000)
+    text = call_haiku(prompt, 1000, label="developing_situations")
     try:
         updates = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -862,7 +900,7 @@ Return ONLY a JSON array:
 [{{"headline":"...","score":8,"timestamp":"...","deeper_search":false,"so_what":"...","url":"...","source":""}}]
 Raw JSON only, no markdown."""
 
-    text = call_sonnet(prompt, 1200)
+    text = call_sonnet(prompt, 1200, label="breaking_selection")
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -952,7 +990,7 @@ Return ONLY a JSON array:
 [{{"headline":"...","score":7,"timestamp":"...","so_what":"...","url":"...","source":"","deeper_search":false}}]
 Raw JSON only, no markdown."""
 
-    text = call_sonnet(prompt, 1000)
+    text = call_sonnet(prompt, 1000, label="australia_selection")
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -1039,7 +1077,7 @@ Return ONLY a JSON array:
 [{{"headline":"...","score":7,"timestamp":"...","so_what":"...","url":"...","source":""}}]
 Raw JSON only, no markdown."""
 
-    text = call_sonnet(prompt, 800)
+    text = call_sonnet(prompt, 800, label="archaeology_selection")
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:
@@ -1098,7 +1136,7 @@ Return ONLY a JSON array:
 [{{"headline":"...","score":7,"timestamp":"...","so_what":"...","url":"...","source":"","deeper_search":false}}]
 Raw JSON only, no markdown."""
 
-    text = call_sonnet(prompt, 1200)
+    text = call_sonnet(prompt, 1200, label="football_selection")
     try:
         stories = json.loads(text.replace("```json","").replace("```","").strip())
     except:

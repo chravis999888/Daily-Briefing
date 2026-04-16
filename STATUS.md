@@ -21,6 +21,7 @@
 - v0.5 Bug fixes pass 3 — get_articles_hash switched from hash() to hashlib.md5 (fixes PYTHONHASHSEED randomization that was making category_has_changed always return True), process_australia category-mode crash fixed (was passing 2 args to 3-arg function), removeSituation visual removal fixed (Python sit_id now uses urllib.parse.quote, JS uses encodeURIComponent — both produce the same ID)
 - v0.5 Bug fixes pass 4 — Breaking news modal showing wrong articles fixed: cached_sources was replacing articles_list instead of appending, causing the modal to show unrelated previously-covered stories instead of the actual source article. Now uses articles_list + cached_sources, matching Australia and Football processors.
 - Cost audit & optimisation pass 1 — Six changes targeting ~$35/month reduction from observed ~$50/month run rate: (1) world topics removed from breaking_only runs — now reads from cache, saves 3 Haiku calls × 48 runs/day; (2) breaking_only now gates the Sonnet selection call behind category_has_changed, saving ~40/48 Sonnet calls per day when articles unchanged; (3) find_related_cached_stories Haiku call replaced with Python keyword matching (word-overlap heuristic), eliminating ~14 Haiku calls per full run; (4) double context search blocks removed from process_australia and process_football — deeper_search block was identical duplicate of the context block above it; (5) get_ai_summary max_tokens reduced 600→400; (6) developing_situations in breaking_only skipped when no topics are being tracked.
+- API cost instrumentation — log_api_call() helper logs every client.messages.create() call to cost_log.json with timestamp, run_type, label, model, token counts and USD cost. All 11 call sites labelled: breaking_selection, australia_selection, archaeology_selection, football_selection, story_summary, world_topics_today, world_topics_week/month, developing_situations, context_search, context_search_sonnet, sonnet_haiku_fallback. cost_log.json persisted in GitHub Actions alongside memory.json and health.json. Data source for v0.7 cost dashboard.
 
 ---
 
@@ -47,7 +48,7 @@ Nothing currently in progress.
 - Memory/KV migration plan — decide what stays in GitHub vs moves to KV
 
 ### v0.7 — Features
-- Cost/stats dashboard — separate cost_log.json, token accumulator, Chart.js visualisation, AUD conversion at 1.55
+- Cost/stats dashboard — cost_log.json data collection done (✅). Remaining: Chart.js visualisation in HTML, AUD conversion at 1.55, per-label breakdown, rolling 30-day totals
 - Sleep mode — restrict cron to waking hours (user to confirm hours, Brisbane AEST)
 - Instant delete on developing situations — no page reload needed
 - Loading state for category refresh buttons

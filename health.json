@@ -131,6 +131,14 @@
       "run_type": "breaking_only",
       "errors": [],
       "status": "ok"
+    },
+    {
+      "timestamp": "2026-04-16T21:46:26.457404+10:00",
+      "run_type": "full",
+      "errors": [
+        "; RSS fallback also empty"
+      ],
+      "status": "degraded"
     }
   ],
   "errors": []

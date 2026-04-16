@@ -105,6 +105,12 @@
         "GDELT fetch failed: HTTP 429; RSS fallback also empty"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-04-16T16:16:02.182732+10:00",
+      "run_type": "breaking_only",
+      "errors": [],
+      "status": "ok"
     }
   ],
   "errors": []

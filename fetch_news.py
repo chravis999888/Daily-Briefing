@@ -178,45 +178,31 @@ def save_summary(memory, url, summary):
     return memory
 
 def find_related_cached_stories(memory, topic, days=7):
-    """Check memory for stories related to this topic before firing web search."""
+    """Check memory for stories related to this topic using keyword matching.
+    No API call — uses word overlap heuristic instead of Haiku to save cost.
+    """
     cutoff = (datetime.now(AEST) - timedelta(days=days)).strftime("%Y-%m-%d")
-    all_cached = []
+    STOPWORDS = {"that", "this", "with", "from", "have", "been", "will", "they",
+                 "their", "what", "which", "were", "when", "than", "then", "also",
+                 "into", "over", "after", "about", "more", "some", "such", "says"}
+    topic_words = {w.lower().strip(".,;:\"'()") for w in topic.split()
+                   if len(w) > 3 and w.lower() not in STOPWORDS}
+    if not topic_words:
+        return None
+
+    sources = []
     for date, cats in memory.get("stories", {}).items():
         if date < cutoff:
             continue
         for cat, stories in cats.items():
             for s in stories:
-                all_cached.append(s)
-
-    if not all_cached:
-        return None
-
-    formatted = "\n".join([f"- {s.get('headline', '')}" for s in all_cached[:50]])
-    prompt = f"""Topic: "{topic}"
-
-Recent cached headlines:
-{formatted}
-
-Which of these headlines are directly related to the same story or situation as the topic above? Return only the matching headlines as a JSON array of strings. If none match, return [].
-Raw JSON only."""
-
-    text = call_haiku(prompt, 400)
-    try:
-        matches = json.loads(text.replace("```json","").replace("```","").strip())
-        if matches and len(matches) > 0:
-            sources = []
-            for match in matches[:4]:
-                for date, cats in memory.get("stories", {}).items():
-                    for cat, stories in cats.items():
-                        for s in stories:
-                            if s.get("headline","")[:50] == match[:50]:
-                                url = next((a.get("url","") for a in s.get("articles",[]) if a.get("url","")), "")
-                                if url:
-                                    sources.append({"title": match, "source": "Previously covered", "url": url})
-            return sources if sources else None
-    except:
-        return None
-    return None
+                headline = s.get("headline", "")
+                hl_words = {w.lower().strip(".,;:\"'()") for w in headline.split()}
+                if len(topic_words & hl_words) >= 2:
+                    url = next((a.get("url","") for a in s.get("articles",[]) if a.get("url","")), "")
+                    if url:
+                        sources.append({"title": headline, "source": "Previously covered", "url": url})
+    return sources[:4] if sources else None
 
 def save_trend_topics(memory, topics):
     today = datetime.now(AEST).strftime("%Y-%m-%d")
@@ -379,7 +365,7 @@ Also suggest 3-4 short trackable topic labels for this story, from specific to b
 Return a JSON object:
 {{"summary": "3-4 sentence explanation...", "tracking_suggestions": ["specific topic", "broader topic", "wider context"]}}
 Raw JSON only, no markdown."""
-    text = call_sonnet(prompt, 600)
+    text = call_sonnet(prompt, 400)
     try:
         data = json.loads(text.replace("```json","").replace("```","").strip())
         summary = re.sub(r'^#+\s*\w*\s*', '', str(data.get("summary", ""))).strip()
@@ -995,22 +981,6 @@ Raw JSON only."""
                     articles_list = articles_list + extra
                 except:
                     pass
-        if story.get("deeper_search") and context:
-            cached_sources = find_related_cached_stories(memory, context)
-            if cached_sources:
-                print(f"Using cached context (deeper) for: {context}")
-                articles_list = articles_list + cached_sources
-            else:
-                search_prompt = f"""Search for context on: "{context}"
-Return ONLY JSON array of up to 3 articles:
-[{{"title":"...","source":"...","url":"https://..."}}]
-Raw JSON only."""
-                search_text = call_haiku_with_search(search_prompt, 600)
-                try:
-                    extra = json.loads(search_text.replace("```json","").replace("```","").strip())
-                    articles_list = articles_list + extra
-                except:
-                    pass
         ts = relative_time(orig.get("time",""))
         if not ts:
             ts = relative_time(story.get("timestamp",""))
@@ -1157,22 +1127,6 @@ Raw JSON only."""
                     extra = json.loads(search_text.replace("```json","").replace("```","").strip())
                     articles_list = articles_list + extra
                     context = story["so_what"]
-                except:
-                    pass
-        if story.get("deeper_search") and context:
-            cached_sources = find_related_cached_stories(memory, context)
-            if cached_sources:
-                print(f"Using cached context (deeper) for: {context}")
-                articles_list = articles_list + cached_sources
-            else:
-                search_prompt = f"""Search for context on: "{context}"
-Return ONLY JSON array of up to 3 articles:
-[{{"title":"...","source":"...","url":"https://..."}}]
-Raw JSON only."""
-                search_text = call_haiku_with_search(search_prompt, 600)
-                try:
-                    extra = json.loads(search_text.replace("```json","").replace("```","").strip())
-                    articles_list = articles_list + extra
                 except:
                     pass
         ts = relative_time(orig.get("time",""))
@@ -2038,13 +1992,17 @@ def main():
         aljazeera_rss = fetch_rss("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera")
         all_breaking = gdelt_breaking + guardian_breaking + reuters_rss + ap_rss + bbc_rss + aljazeera_rss
 
-        new_breaking, memory = process_breaking_news([], all_breaking, memory)
-        if new_breaking:
-            breaking = new_breaking
+        if category_has_changed(memory, "breaking", all_breaking):
+            new_breaking, memory = process_breaking_news([], all_breaking, memory)
+            if new_breaking:
+                breaking = new_breaking
+                content_changed = True
+            else:
+                print("Breaking news: articles changed but nothing passed the bar, keeping existing")
+                breaking = get_cached_category(memory, "breaking")
             memory = save_article_hash(memory, "breaking", all_breaking)
-            content_changed = True
         else:
-            print("Breaking news: no new stories passed the bar, keeping existing")
+            print("Breaking news: no new articles since last check, skipping Sonnet call")
             breaking = get_cached_category(memory, "breaking")
 
         memory = save_today_stories(memory, "breaking", breaking)
@@ -2055,9 +2013,11 @@ def main():
             "archaeology": get_cached_category(memory, "archaeology"),
             "football": get_cached_category(memory, "football")
         }
-        world_topics, memory = process_world_topics(memory)
+        # World topics: use cached value — only refresh in full runs
+        world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []})
         yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
-        developing_situations = process_developing_situations(pinned, [], all_breaking)
+        # Developing situations: only process if topics are being tracked; skip Haiku call otherwise
+        developing_situations = process_developing_situations(pinned, [], all_breaking) if pinned else []
 
         save_memory(memory)
         health = log_run(health, "breaking_only", errors)

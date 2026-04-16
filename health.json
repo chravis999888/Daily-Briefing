@@ -153,6 +153,14 @@
       "run_type": "breaking_only",
       "errors": [],
       "status": "ok"
+    },
+    {
+      "timestamp": "2026-04-17T03:03:26.093246+10:00",
+      "run_type": "full",
+      "errors": [
+        "; RSS fallback also empty"
+      ],
+      "status": "degraded"
     }
   ],
   "errors": []

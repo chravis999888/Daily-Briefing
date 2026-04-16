@@ -894,7 +894,7 @@ Raw JSON only, no markdown."""
             cached_sources = find_related_cached_stories(memory, search_q)
             if cached_sources:
                 print(f"Using cached context for: {search_q}")
-                articles_list = cached_sources
+                articles_list = articles_list + cached_sources
                 context = story.get("so_what","")
             else:
                 search_prompt = f"""Search for latest news and context about: "{search_q}"

@@ -1,38 +1,5 @@
 {
   "stories": {
-    "2026-04-13": {
-      "breaking": [],
-      "australia": [
-        {
-          "headline": "Coalition backs Labor's crackdown on NDIS providers as Health Minister Mark Butler prepares to unveil savings plan",
-          "timestamp": "10 hrs ago",
-          "score": 7
-        }
-      ],
-      "archaeology": [
-        {
-          "headline": "Reanalysis of genomic bottleneck evidence questions whether Homo sapiens came close to extinction around 900,000 years ago, casting doubt on the severe population crash proposed in a widely cited 2023 study",
-          "timestamp": "4 days ago",
-          "score": 8
-        },
-        {
-          "headline": "Genetic analysis of Neanderthal remains shows population decline predated contact with modern humans, suggesting internal demographic fragility rather than competitive exclusion drove their extinction",
-          "timestamp": "2 weeks ago",
-          "score": 7
-        },
-        {
-          "headline": "Stone tool assemblage shift recorded at African sites dated to approximately 200,000 years ago linked to environmental and social network changes rather than cognitive leaps, according to new behavioural analysis",
-          "timestamp": "4 days ago",
-          "score": 6
-        },
-        {
-          "headline": "Skeletal analysis of Australopithecus specimens indicates the genus experienced obstructed labour analogous to modern humans, pushing the origin of difficult birth further back than 2 million years ago",
-          "timestamp": "4 weeks ago",
-          "score": 6
-        }
-      ],
-      "football": []
-    },
     "2026-04-14": {
       "breaking": [],
       "australia": [
@@ -362,6 +329,147 @@
         }
       ],
       "football": []
+    },
+    "2026-04-17": {
+      "breaking": [
+        {
+          "headline": "Russia launched its deadliest attack on Ukraine this year, killing at least 17 people with drones and missiles striking Kyiv and Odesa",
+          "timestamp": "19 mins ago",
+          "score": 8,
+          "summary": "Russia launched its largest and deadliest attack on Ukraine so far in 2024, firing nearly 700 drones along with dozens of ballistic and cruise missiles at cities including Kyiv and Odesa, killing at least 17 people and injuring over 100. The strikes hit residential areas in the early hours of Thursday morning, killing civilians including a 12-year-old child in Kyiv, with the heaviest death toll of nine people recorded in the southern port city of Odesa. The scale of the attack signals a deliberate escalation in Russia's strategy of targeting Ukrainian civilian infrastructure and population centers. This intensification comes at a moment when global media and political attention is largely focused on the Middle East conflict, raising concerns that Ukraine's war is entering a more dangerous phase with reduced international scrutiny.",
+          "url": "https://www.theguardian.com/world/2026/apr/16/russia-attack-ukraine-drones-missiles-kyiv-odesa-volodymyr-zelenskyy",
+          "image": "https://media.guim.co.uk/94c1f2201dca8ad1a66cd0f84af7f2b7141d8cf1/631_0_3280_2624/500.jpg",
+          "articles": [
+            {
+              "title": "At least 17 people killed in Russia\u2019s deadliest attack on Ukraine this year",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/16/russia-attack-ukraine-drones-missiles-kyiv-odesa-volodymyr-zelenskyy"
+            },
+            {
+              "title": "Russian drone and missile attacks kill 15 people in Ukraine",
+              "source": "Previously covered",
+              "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
+            }
+          ],
+          "tracking_suggestions": [
+            "Russian strikes on Kyiv",
+            "Ukraine civilian casualties",
+            "Russia-Ukraine war escalation",
+            "Global conflict attention deficit"
+          ]
+        }
+      ],
+      "australia": [
+        {
+          "headline": "Prime Minister confirms new federal powers used to secure 100 million litres of additional diesel following Viva Energy refinery fire",
+          "timestamp": "8 hrs ago",
+          "score": 7,
+          "summary": "Following a fire at the Viva Energy refinery, Australian Prime Minister Anthony Albanese confirmed the federal government has used newly established legislative powers to secure an additional 100 million litres of diesel for the domestic market. The government underwrote the delivery of extra fuel cargoes, meaning it guaranteed the purchase to ensure supply reached Australia. This marks a notable shift in federal energy policy, representing one of the first uses of these new intervention powers and signalling a willingness to step directly into fuel markets during supply disruptions. The move has broader implications for energy security strategy and the relationship between the federal government and the fuel industry.",
+          "url": "https://www.abc.net.au/news/2026-04-16/new-powers-used-to-secure-additional-diesel-shipments/106571682",
+          "image": "https://live-production.wcms.abc-cdn.net.au/5917003de2866b5d6989a504b112c016?impolicy=wcms_crop_resize&cropH=3333&cropW=2500&xPos=1250&yPos=0&width=862&height=1149",
+          "articles": [
+            {
+              "title": "100m litres of diesel secured under new powers, PM confirms",
+              "source": "ABC News",
+              "url": "https://www.abc.net.au/news/2026-04-16/new-powers-used-to-secure-additional-diesel-shipments/106571682"
+            },
+            {
+              "title": "Prime Minister confirms new federal powers used to secure 100 million litres of additional diesel following Viva Energy refinery fire",
+              "source": "Previously covered",
+              "url": "https://www.abc.net.au/news/2026-04-16/new-powers-used-to-secure-additional-diesel-shipments/106571682"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Richard Marles confirms US alliance remains central to Australia's defence posture while outlining plan to build a more self-sufficient ADF",
+          "timestamp": "7 hrs ago",
+          "score": 6,
+          "summary": "Australian Defence Minister Richard Marles has announced plans to build a more self-sufficient Australian Defence Force while simultaneously insisting the US alliance remains essential to Australian security. The dual message reflects a deliberate balancing act: reducing practical dependence on American military support without signalling any weakening of the formal alliance relationship. This matters because uncertainty during the Trump era raised serious questions about how reliable US commitments to allies actually are, pushing Australia to hedge its strategic bets. Building greater self-reliance is now a bipartisan priority, but the government is careful not to frame it in ways that could strain relations with Washington.",
+          "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434",
+          "image": "https://live-production.wcms.abc-cdn.net.au/0cb6108ffe7ad7cfc5c2b41ab3b393e4?impolicy=wcms_crop_resize&cropH=1066&cropW=799&xPos=533&yPos=0&width=862&height=1149",
+          "articles": [
+            {
+              "title": "US alliance indispensable as Marles looks to build more self-sufficient ADF",
+              "source": "ABC News",
+              "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434"
+            },
+            {
+              "title": "Defence Minister Richard Marles announces plan to build a more self-sufficient ADF while reaffirming the US alliance as indispensable to Australian security",
+              "source": "Previously covered",
+              "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434"
+            }
+          ],
+          "tracking_suggestions": []
+        }
+      ],
+      "archaeology": [
+        {
+          "headline": "Genomic analysis indicates modern humans interbred with Neanderthals before the population conventionally identified as ancestral Neanderthals existed, suggesting Neanderthals may partly descend from early Homo sapiens rather than the reverse",
+          "timestamp": "5 hrs ago",
+          "score": 9,
+          "summary": "A new genetic analysis reported by New Scientist suggests that Neanderthals descended from early modern humans rather than representing a separate evolutionary branch, which would reverse the established understanding of human evolution. The conventional model has held that Neanderthals and modern humans diverged from a common ancestor and evolved along separate paths, but this research indicates modern humans may have actually come first, with Neanderthals branching off afterward. This matters because it would fundamentally reshape our understanding of how our species developed and interacted with other human lineages over hundreds of thousands of years. The finding challenges decades of anthropological consensus and would require substantial supporting evidence to gain acceptance in the scientific community.",
+          "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Genetic evidence re-examines the bottleneck hypothesis of human near-extinction, with new data suggesting the proposed severe population crash to a few thousand individuals around 900,000 years ago may be a modelling artefact rather than a real demographic event",
+          "timestamp": "6 days ago",
+          "score": 8,
+          "summary": "A 2023 study claimed that human ancestors went through a severe population bottleneck around 900,000 years ago, shrinking to just 1,280 breeding individuals and nearly going extinct. New genomic modeling now challenges this finding, suggesting the bottleneck may not have actually happened\u2014instead, it could be an artifact created by the statistical methods used to analyze the data. The original study had significant implications for how scientists understood human evolution, including the development of our larger brains and how modern humans emerged as a species. This contradiction highlights how genetic analysis can produce dramatically different conclusions depending on methodology, leaving the true demographic history of early human populations still uncertain.",
+          "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Neanderthal neonates had significantly larger body mass than modern human newborns, based on analysis of infant skeletal remains, suggesting divergent life-history strategies between the two species",
+          "timestamp": "2 hrs ago",
+          "score": 7,
+          "summary": "A new skeletal growth analysis has found that Neanderthal newborns were significantly heavier at birth than modern human infants, challenging the long-held assumption that the two species followed roughly similar developmental paths. The findings suggest Neanderthals invested more energy in producing larger offspring at birth, which would have placed a greater physical burden on Neanderthal mothers during pregnancy and nursing. This matters because differences in maternal energy costs and infant dependency periods could have given early modern humans a competitive reproductive advantage, potentially contributing to why Neanderthals went extinct around 40,000 years ago. The research adds to a growing body of evidence that Neanderthals were biologically more distinct from us than previously thought, not just culturally or cognitively.",
+          "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "New analysis of African archaeological sites attributes the abrupt shift in hominin toolkits around 200,000 years ago to environmental and demographic pressures rather than a sudden cognitive leap, based on stratigraphic and lithic data",
+          "timestamp": "6 days ago",
+          "score": 6,
+          "summary": "Researchers studying 200,000-year-old African archaeological sites found that early humans switched their tool-making styles rapidly rather than gradually, driven by environmental stress and climate changes rather than sudden cognitive advances. The shift from the older Acheulean tools to Middle Stone Age toolkits appears to have been a practical response to resource scarcity caused by unstable environmental conditions. This challenges the long-held theory that such toolkit changes reflected major leaps in human intelligence or symbolic thinking. The finding matters because it reframes a pivotal moment in human prehistory as an ecological adaptation problem-solving rather than evidence of a fundamental change in how our ancestors' brains worked.",
+          "url": "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/"
+            }
+          ],
+          "tracking_suggestions": []
+        }
+      ],
+      "football": []
     }
   },
   "developing": {},
@@ -513,6 +621,43 @@
       "leah halton",
       "elise mertens",
       "walt disney world"
+    ],
+    "2026-04-17": [
+      "Virginia Ex-Lt. Gov. Justin Fairfax Kills Wife and Self, Police Say - The New York Times",
+      "Pope criticises 'tyrants' who spend billions on wars, days after Trump spat - BBC",
+      "3 things to know about naval blockades as U.S. begins patrols in the Strait of Hormuz - NPR",
+      "Scoop: Trump discussed \"Jesus\" meme with Bill Pulte before posting it, sources say - Axios",
+      "Iran Update Special Report, April 15, 2026 - Institute for the Study of War",
+      "Live Updates: Diplomatic efforts to end Iran war, reopen Strait of Hormuz intensify on multiple fronts - CBS News",
+      "Johnson tries again on spy powers vote amid GOP rebellion - Politico",
+      "How Eric Swalwell's fall was brought on by a network of women who organized online - NPR",
+      "Rise in Young Men's Religiosity Realigns Gender Gaps - Gallup News",
+      "Live Results: New Jersey special congressional election to replace Mikie Sherrill - PBS",
+      "Russian missiles and drones bombard Ukraine in hourslong attack, killing at least 16 - AP News",
+      "Pakistan Looks to Play Peacemaker Between U.S. and Iran, Again - The New York Times",
+      "Online age checks are coming in Europe - politico.eu",
+      "South African politician Julius Malema sentenced to prison for firing gun - Al Jazeera",
+      "Europe has 'maybe 6 weeks of jet fuel left', energy boss warns - BBC",
+      "Allstar JR - Mob Untied",
+      "Focker-In-Law | Official Trailer",
+      "Jesse Watters Primetime",
+      "YoungBoy Never Broke Again - Bruce Wayne [Official Video]",
+      "GODZILLA MINUS ZERO | First Look Teaser",
+      "New York Mets at Los Angeles Dodgers",
+      "TEDDY AFRO  - \u1300\u121d\u1260\u122d - Jember | Track 18 (Official Lyrics Video)",
+      "SPACEBALLS 2: The New One - Title Announcement Teaser (2027) Amazon MGM",
+      "Oklahoma at Oklahoma State",
+      "BossMan Dlow - Nothin Like Me (Official Music Video)",
+      "earth day",
+      "bryson tiller",
+      "jey uso",
+      "croton dam",
+      "amd stock",
+      "mayank rawat",
+      "jerome powell",
+      "amd stock price",
+      "rklb stock",
+      "street fighter 2026"
     ]
   },
   "summaries": {
@@ -575,93 +720,94 @@
     "https://www.theguardian.com/football/live/2026/apr/14/liverpool-v-paris-saint-germain-champions-league-quarter-final-second-leg-live": "Paris Saint-Germain eliminated Liverpool from the UEFA Champions League with a 2-0 win at Anfield, advancing on aggregate in the quarter-finals. Ousmane Demb\u00e9l\u00e9 scored a late goal to seal the tie, ensuring Liverpool could not mount a comeback after losing the first leg in Paris. Liverpool manager Arne Slot felt his side played well and was frustrated by a penalty that was overturned, but the deficit from the first leg ultimately proved too much to overcome. PSG progress to the semi-finals, while Liverpool's European campaign ends in consecutive quarter-final exits to the same opponent.",
     "https://www.theguardian.com/football/2026/apr/15/declan-rice-sickbed-arteta-sporting-lisbon-arsenal-champions-league": "Arsenal drew 0-0 with Sporting Lisbon in the second leg of their Champions League quarter-final, advancing on the strength of their first-leg win in Portugal. Midfielder Declan Rice played despite being ill, with manager Mikel Arteta describing him as 'shattered' after the match. The result is historically significant as it marks the first time Arsenal have reached back-to-back Champions League semi-finals, only the fourth time overall in the club's history. They will face Atl\u00e9tico Madrid in the semi-finals, a team Arsenal already beat 4-0 earlier this season, though Rice's fitness will be a key concern going forward.",
     "https://www.abc.net.au/news/2026-04-16/new-powers-used-to-secure-additional-diesel-shipments/106571682": "Following a fire at the Viva Energy refinery, Australian Prime Minister Anthony Albanese confirmed the federal government has used newly established legislative powers to secure an additional 100 million litres of diesel for the domestic market. The government underwrote the delivery of extra fuel cargoes, meaning it guaranteed the purchase to ensure supply reached Australia. This marks a notable shift in federal energy policy, representing one of the first uses of these new intervention powers and signalling a willingness to step directly into fuel markets during supply disruptions. The move has broader implications for energy security strategy and the relationship between the federal government and the fuel industry.",
-    "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434": "Australian Defence Minister Richard Marles has announced plans to build a more self-sufficient Australian Defence Force while simultaneously insisting the US alliance remains essential to Australian security. The dual message reflects a deliberate balancing act: reducing practical dependence on American military support without signalling any weakening of the formal alliance relationship. This matters because uncertainty during the Trump era raised serious questions about how reliable US commitments to allies actually are, pushing Australia to hedge its strategic bets. Building greater self-reliance is now a bipartisan priority, but the government is careful not to frame it in ways that could strain relations with Washington."
+    "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434": "Australian Defence Minister Richard Marles has announced plans to build a more self-sufficient Australian Defence Force while simultaneously insisting the US alliance remains essential to Australian security. The dual message reflects a deliberate balancing act: reducing practical dependence on American military support without signalling any weakening of the formal alliance relationship. This matters because uncertainty during the Trump era raised serious questions about how reliable US commitments to allies actually are, pushing Australia to hedge its strategic bets. Building greater self-reliance is now a bipartisan priority, but the government is careful not to frame it in ways that could strain relations with Washington.",
+    "https://www.theguardian.com/world/2026/apr/16/russia-attack-ukraine-drones-missiles-kyiv-odesa-volodymyr-zelenskyy": "Russia launched its largest and deadliest attack on Ukraine so far in 2024, firing nearly 700 drones along with dozens of ballistic and cruise missiles at cities including Kyiv and Odesa, killing at least 17 people and injuring over 100. The strikes hit residential areas in the early hours of Thursday morning, killing civilians including a 12-year-old child in Kyiv, with the heaviest death toll of nine people recorded in the southern port city of Odesa. The scale of the attack signals a deliberate escalation in Russia's strategy of targeting Ukrainian civilian infrastructure and population centers. This intensification comes at a moment when global media and political attention is largely focused on the Middle East conflict, raising concerns that Ukraine's war is entering a more dangerous phase with reduced international scrutiny."
   },
   "article_hashes": {
-    "breaking": "63c3669a3cb7d2ab6bd84f07fdbdc895"
+    "breaking": "dcff2c78359863e97fdd3fffe01f1e60"
   },
   "world_topics_cache": {
     "today": [
       {
-        "headline": "Trump administration launches tariff refund portal and pursues tax policy victories",
-        "why": "The Trump administration is implementing a tariff refund system while planning a Tax Day event in Las Vegas, signaling major fiscal policy shifts that affect consumers and businesses globally.",
-        "signal": "[NEWS] Trump administration set to launch tariff refund portal + Trump wants a Tax Day victory lap in Las Vegas"
+        "headline": "U.S.-Iran tensions escalate with naval blockade in Strait of Hormuz",
+        "why": "Multiple news outlets are covering U.S. military patrols in the Strait of Hormuz amid broader Iran conflict, with diplomatic efforts intensifying across multiple fronts including Pakistan's mediation attempts.",
+        "signal": "[NEWS] NPR, CBS News, NYT, ISW"
       },
       {
-        "headline": "U.S. intensifies naval presence and Iran diplomacy in the Persian Gulf",
-        "why": "The U.S. is simultaneously beginning patrols in the Strait of Hormuz while pursuing direct talks with Iran, indicating a complex dual-track strategy in one of the world's most critical shipping lanes.",
-        "signal": "[NEWS] U.S. begins patrols in the Strait of Hormuz + Push for US-Iran talks gains momentum"
+        "headline": "Justin Fairfax murder-suicide shocks Virginia political establishment",
+        "why": "The death of the former Lieutenant Governor of Virginia and his wife is a major breaking news story dominating mainstream news coverage with significant implications for state politics.",
+        "signal": "[NEWS] New York Times"
       },
       {
-        "headline": "Israel and Lebanon pursue ceasefire as Middle East peace prospects improve",
-        "why": "A significant diplomatic breakthrough is emerging between Israel and Lebanon after prolonged tensions, representing a potential major shift in regional stability.",
-        "signal": "[NEWS] Israel and Lebanon eyeing ceasefire"
+        "headline": "Pope Francis criticizes Trump and global military spending amid geopolitical tensions",
+        "why": "The Vatican's public criticism of world leaders' war spending and recent Trump disputes demonstrates escalating religious institutional commentary on current global conflicts.",
+        "signal": "[NEWS] BBC"
       },
       {
-        "headline": "Eric Swalwell faces sexual assault allegations amid questions about location and finances",
-        "why": "A sitting U.S. congressman is now under scrutiny for both sexual assault allegations and suspicious financial and physical location discrepancies, creating a major political scandal.",
-        "signal": "[NEWS] Questions emerge on Eric Swalwell's physical location, financial activities amid sexual assault allegations"
+        "headline": "Eric Swalwell's political downfall attributed to organized network of women",
+        "why": "NPR investigation reveals how coordinated online organizing by women led to the congressman's fall, highlighting a significant moment in political accountability and gender dynamics.",
+        "signal": "[NEWS] NPR"
       },
       {
-        "headline": "House Republicans clash with Trump administration over Haitian migrant protections",
-        "why": "Congress is defying the Trump administration on immigration policy specifically to shield Haitian migrants, revealing internal Republican divisions on deportation enforcement.",
-        "signal": "[NEWS] House defies Trump on immigration with move to shield Haitians"
+        "headline": "Russia intensifies attacks on Ukraine with sustained missile and drone bombardment",
+        "why": "Ongoing Russian military operations killing at least 16 people represent continued escalation of the Ukraine conflict with daily casualty reports.",
+        "signal": "[NEWS] AP News"
       }
     ],
     "week": [
       {
-        "headline": "U.S. Military Blockade of Iranian Strait of Hormuz",
-        "why": "Trump administration imposed a naval blockade on Iranian ports in the Strait of Hormuz, with contradictory reports on international support and ongoing negotiations for a diplomatic off-ramp.",
+        "headline": "Trump Administration's U.S. Naval Blockade of Iranian Strait of Hormuz",
+        "why": "The blockade dominated coverage as Trump announced military action, other nations declined to participate, and diplomatic negotiations emerged as a potential off-ramp to the conflict.",
+        "signal": "trending for 7 days"
+      },
+      {
+        "headline": "Trump's Escalating Public Feud with Pope Leo",
+        "why": "Trump repeatedly attacked the Pope as 'weak' and inappropriate for commenting on U.S. politics, while the Pope responded by reaffirming his focus on the Gospel rather than politics.",
         "signal": "trending for 6 days"
       },
       {
-        "headline": "Trump's Public Conflict with Pope Leo",
-        "why": "Trump repeatedly attacked Pope Leo for being 'weak on crime' and interfering in U.S. affairs, while Vice President Vance also criticized the Pope's involvement in political matters.",
+        "headline": "Eric Swalwell's Exit from California Governor's Race Over Sexual Assault Allegations",
+        "why": "The Democratic candidate withdrew amid fresh assault allegations, forcing rivals to compete for his supporters and raising questions about his financial activities and location.",
         "signal": "trending for 5 days"
       },
       {
-        "headline": "Eric Swalwell's Exit from California Governor's Race",
-        "why": "Democratic congressman Eric Swalwell withdrew from the California gubernatorial race following sexual assault allegations, prompting questions about his activities and rival campaigns seeking his supporters.",
-        "signal": "trending for 3 days"
+        "headline": "Hungary's Opposition Landslide Election Victory and EU Relations Reset",
+        "why": "Hungary's opposition achieved a major electoral win with P\u00e9ter Magyar pledging reforms and accountability, signaling a potential thaw in tensions with the European Union.",
+        "signal": "trending for 4 days"
       },
       {
-        "headline": "Hungary's Opposition Landslide Election Victory",
-        "why": "Hungary's opposition parties achieved a major electoral win, with leader P\u00e9ter Magyar vowing to pursue those responsible for plundering the country and signaling reforms and a thaw in EU relations.",
-        "signal": "trending for 2 days"
-      },
-      {
-        "headline": "Super Typhoon Sinlaku Strikes Western Pacific U.S. Islands",
-        "why": "The strongest storm on the planet bore down on remote U.S. territories in the Pacific Ocean, causing widespread disruption and raising concerns about climate-related weather patterns.",
-        "signal": "trending for 3 days"
+        "headline": "Pope Leo's Diplomatic Visit to Algeria",
+        "why": "The Pope traveled to Algeria emphasizing his Augustinian roots and pastoral mission to African Catholics, offering counterweight to his simultaneous political disputes in the U.S.",
+        "signal": "trending for 4 days"
       }
     ],
     "month": [
       {
-        "headline": "Trump Administration's Iran Strait of Hormuz Blockade and Negotiations",
-        "why": "The U.S. military blockade of Iranian ports dominated coverage as Trump pursued a naval strategy while simultaneously signaling diplomatic talks, with international allies refusing to join and markets reacting to the economic uncertainty.",
+        "headline": "U.S. Military Blockade of Iranian Strait of Hormuz and Nuclear Negotiations",
+        "why": "Trump administration implemented a blockade of Iranian ports on the Strait of Hormuz while pursuing diplomatic talks, with international partners declining to participate and markets reacting to geopolitical tensions.",
         "signal": "trending for 12 days"
       },
       {
-        "headline": "Trump's Public Conflict with Pope Leo",
-        "why": "Trump repeatedly attacked the Pope as 'weak' and 'terrible,' while Vice President Vance joined the criticism, sparking responses from religious figures and commentators about the appropriateness of the attacks.",
+        "headline": "Trump Administration's Conflict with Pope Leo over Political and Religious Authority",
+        "why": "Vice President Vance and Trump publicly criticized Pope Leo for commenting on U.S. political affairs, escalating into a broader dispute over the Pope's role in American policy discussions.",
         "signal": "trending for 8 days"
       },
       {
-        "headline": "Eric Swalwell's California Governor Campaign Withdrawal",
-        "why": "The congressman exited the Democratic primary race following sexual assault allegations, forcing other candidates to compete for his supporters and raising questions about his conduct and financial activities.",
-        "signal": "trending for 5 days"
+        "headline": "Eric Swalwell's Withdrawal from California Governor Race Due to Sexual Assault Allegations",
+        "why": "The Democratic congressman exited the gubernatorial race following assault allegations, prompting questions about his activities and forcing rivals to compete for his supporters' donations.",
+        "signal": "trending for 6 days"
       },
       {
-        "headline": "Hungary's Opposition Election Victory and EU Relations Shift",
-        "why": "Hungary's opposition achieved a landslide election win, signaling potential reforms and a thaw in previously tense relationships with the European Union.",
-        "signal": "trending for 3 days"
-      },
-      {
-        "headline": "Super Typhoon Sinlaku Strike on U.S. Pacific Islands",
-        "why": "The Western Pacific's strongest storm bore down on and struck remote U.S. territories, prompting warnings about intensifying weather patterns and climate concerns.",
+        "headline": "Hungary's Opposition Election Victory and European Union Relations Reset",
+        "why": "Hungary's opposition achieved a landslide electoral win, signaling potential major democratic reforms and a thaw in tensions with the European Union after years of conflict.",
         "signal": "trending for 4 days"
+      },
+      {
+        "headline": "Super Typhoon Sinlaku Impact on Western Pacific U.S. Territories",
+        "why": "The strongest storm on the planet battered remote U.S. islands in the Pacific Ocean, causing significant damage and prompting emergency response and climate concern discussions.",
+        "signal": "trending for 3 days"
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-16T11:41:30.981882+00:00"
+  "last_gdelt_attempt": "2026-04-16T14:41:42.252271+00:00"
 }

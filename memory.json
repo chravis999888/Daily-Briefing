@@ -211,8 +211,8 @@
     "2026-04-16": {
       "breaking": [
         {
-          "headline": "Russian drone and missile wave kills 15 people in Ukraine",
-          "timestamp": "just now",
+          "headline": "Russian drone and missile attacks kill 15 people in Ukraine",
+          "timestamp": "23 mins ago",
           "score": 7,
           "summary": "Russia launched a large-scale drone and missile attack across Ukraine, killing at least 15 civilians. The strike is part of an ongoing Russian campaign targeting Ukrainian cities and infrastructure, which has continued relentlessly despite international pressure. The attack carries added significance because it comes while Western governments and media are simultaneously managing the crisis involving Iran, potentially diverting diplomatic attention and military aid resources away from Ukraine. This dual-front strain on Western focus raises concerns that Russia may be exploiting the moment of distraction to intensify pressure on Ukraine.",
           "url": "https://www.bbc.com/news/articles/cm29plylqnvo",
@@ -224,61 +224,24 @@
               "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
             },
             {
-              "title": "Israeli triple-tap airstrike kills three paramedics in Lebanon",
+              "title": "Russian drone and missile wave kills 15 people in Ukraine",
               "source": "Previously covered",
               "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
-            }
-          ],
-          "tracking_suggestions": [
-            "Russia Ukraine strikes",
-            "Ukrainian civilian casualties",
-            "Western military aid strain",
-            "simultaneous global conflicts"
-          ]
-        }
-      ],
-      "australia": [
-        {
-          "headline": "Australian government announces $53 billion increase in defence spending over the next decade, citing erosion of international norms, as announced by Deputy PM Richard Marles",
-          "timestamp": "7 hrs ago",
-          "score": 8,
-          "summary": "The Australian government has announced a $53 billion increase in defence spending over the next decade, with Deputy Prime Minister Richard Marles citing intensifying global risks and the erosion of international norms as the driving factors. This represents one of the largest peacetime defence commitments in Australian history and signals a significant shift in how the Albanese government is prioritising national security. The decision reflects growing concern about the deteriorating global security environment, likely referencing tensions in the Indo-Pacific region and broader geopolitical instability. The spending increase is expected to become a major point of debate in upcoming federal budget discussions and the next election campaign.",
-          "url": "https://www.abc.net.au/news/2026-04-15/defence-spend-53b-next-decade-intensifying-risks-richard-marles/106568890",
-          "image": "https://live-production.wcms.abc-cdn.net.au/242902019a7d9656aecaeab63f008666?impolicy=wcms_crop_resize&cropH=3218&cropW=2413&xPos=1653&yPos=0&width=862&height=1149",
-          "articles": [
+            },
             {
-              "title": "Defence spending to climb by $53 billion as 'international norms' erode",
-              "source": "ABC News",
+              "title": "Australian government announces $53 billion increase in defence spending over the next decade, citing erosion of international norms, as announced by Deputy PM Richard Marles",
+              "source": "Previously covered",
               "url": "https://www.abc.net.au/news/2026-04-15/defence-spend-53b-next-decade-intensifying-risks-richard-marles/106568890"
-            },
-            {
-              "title": "Record peacetime spend set for Australia's military",
-              "source": "The Queanbeyan Age",
-              "url": "https://www.queanbeyanage.com.au/story/9224641/record-peacetime-spend-set-for-australias-military/"
-            },
-            {
-              "title": "Albanese Government grows and accelerates Defence spending",
-              "source": "Defence Ministers",
-              "url": "https://www.minister.defence.gov.au/media-releases/2025-03-25/albanese-government-grows-accelerates-defence-spending"
-            },
-            {
-              "title": "A generational investment in Australia's Defence",
-              "source": "Defence Ministers",
-              "url": "https://www.minister.defence.gov.au/media-releases/2024-05-14/generational-investment-australias-defence"
             }
           ],
-          "tracking_suggestions": [
-            "Australia defence budget",
-            "Indo-Pacific security",
-            "Albanese government policy",
-            "global military spending"
-          ]
+          "tracking_suggestions": []
         }
       ],
+      "australia": [],
       "archaeology": [
         {
-          "headline": "New genetic evidence indicates Neanderthals received gene flow from an early modern human population, reversing the assumed one-directional introgression narrative and suggesting Neanderthals may be partly descended from Homo sapiens",
-          "timestamp": "19 hrs ago",
+          "headline": "Genetic analysis suggests Neanderthal populations received gene flow from early modern humans, reversing the conventional unidirectional introgression model",
+          "timestamp": "20 hrs ago",
           "score": 8,
           "summary": "A new genetic analysis reported by New Scientist suggests that Neanderthals descended from early modern humans rather than representing a separate evolutionary branch, which would reverse the established understanding of human evolution. The conventional model has held that Neanderthals and modern humans diverged from a common ancestor and evolved along separate paths, but this research indicates modern humans may have actually come first, with Neanderthals branching off afterward. This matters because it would fundamentally reshape our understanding of how our species developed and interacted with other human lineages over hundreds of thousands of years. The finding challenges decades of anthropological consensus and would require substantial supporting evidence to gain acceptance in the scientific community.",
           "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/",
@@ -293,29 +256,8 @@
           "tracking_suggestions": []
         },
         {
-          "headline": "Ancient DNA from West Eurasian samples spanning thousands of years reveals pervasive directional natural selection acting across multiple genomic loci, reshaping understanding of post-migration adaptation in prehistoric populations",
-          "timestamp": "just now",
-          "score": 7,
-          "summary": "A major study analyzing nearly 16,000 ancient genomes from people who lived across West Eurasia over thousands of years found that natural selection was actively and continuously reshaping human genetics throughout prehistory \u2014 not just occasionally. Hundreds of genetic variants shifted steadily in frequency over time, meaning populations were adapting to their environments long after groups of people migrated into new regions. This challenges a widely held view that most physical and biological changes in prehistoric West Eurasians were mainly explained by one population replacing another, rather than gradual in-place adaptation. The findings suggest evolution was an ongoing, pervasive force in shaping these ancient populations, and that previous models likely underestimated how much natural selection contributed to human biological change after the major prehistoric migrations.",
-          "url": "https://www.nature.com/articles/s41586-026-10358-1",
-          "image": "",
-          "articles": [
-            {
-              "title": "Ancient DNA reveals pervasive directional selection across West Eurasia",
-              "source": "Nature",
-              "url": "https://www.nature.com/articles/s41586-026-10358-1"
-            }
-          ],
-          "tracking_suggestions": [
-            "ancient West Eurasian natural selection",
-            "prehistoric genomic adaptation",
-            "ancient DNA population genetics",
-            "human evolutionary history"
-          ]
-        },
-        {
-          "headline": "Neanderthal neonates had significantly larger body mass at birth than modern human infants, based on new skeletal growth analysis, indicating divergent life history strategies between the two species",
-          "timestamp": "just now",
+          "headline": "Neanderthal neonates had significantly larger body mass than modern human newborns, according to new analysis of infant skeletal remains",
+          "timestamp": "4 hrs ago",
           "score": 7,
           "summary": "A new skeletal growth analysis has found that Neanderthal newborns were significantly heavier at birth than modern human infants, challenging the long-held assumption that the two species followed roughly similar developmental paths. The findings suggest Neanderthals invested more energy in producing larger offspring at birth, which would have placed a greater physical burden on Neanderthal mothers during pregnancy and nursing. This matters because differences in maternal energy costs and infant dependency periods could have given early modern humans a competitive reproductive advantage, potentially contributing to why Neanderthals went extinct around 40,000 years ago. The research adds to a growing body of evidence that Neanderthals were biologically more distinct from us than previously thought, not just culturally or cognitively.",
           "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/",
@@ -327,50 +269,87 @@
               "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/"
             }
           ],
-          "tracking_suggestions": [
-            "Neanderthal birth weight research",
-            "hominin developmental biology",
-            "human-Neanderthal competition",
-            "human evolutionary history"
-          ]
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "New genomic evidence re-examines the bottleneck hypothesis for early Homo sapiens, suggesting previously inferred near-extinction event may be a methodological artefact",
+          "timestamp": "5 days ago",
+          "score": 7,
+          "summary": "A 2023 study claimed that human ancestors went through a severe population bottleneck around 900,000 years ago, shrinking to just 1,280 breeding individuals and nearly going extinct. New genomic modeling now challenges this finding, suggesting the bottleneck may not have actually happened\u2014instead, it could be an artifact created by the statistical methods used to analyze the data. The original study had significant implications for how scientists understood human evolution, including the development of our larger brains and how modern humans emerged as a species. This contradiction highlights how genetic analysis can produce dramatically different conclusions depending on methodology, leaving the true demographic history of early human populations still uncertain.",
+          "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/"
+            }
+          ],
+          "tracking_suggestions": []
         }
       ],
       "football": [
         {
-          "headline": "PSG beat Liverpool 2-0 at Anfield (3-1 agg) as Demb\u00e9l\u00e9 scores twice to eliminate Arne Slot's side from the Champions League quarter-finals",
-          "timestamp": "22 hrs ago",
+          "headline": "Bayern Munich beat Real Madrid 4-3 on the night (6-4 on aggregate) with late goals from D\u00edaz and Olise to reach Champions League semi-finals",
+          "timestamp": "9 hrs ago",
           "score": 9,
-          "summary": "Paris Saint-Germain defeated Liverpool 2-0 at Anfield with goals from Ousmane Demb\u00e9l\u00e9 to advance to the Champions League semi-finals with a 4-1 aggregate victory over the two legs. Despite the final scoreline, Liverpool competed fiercely for much of the match and created chances, but couldn't overcome the deficit from PSG's 3-0 win in Paris the previous week. The loss eliminates Liverpool from European competition and marks another disappointing quarter-final exit for manager Arne Slot's side, who have now struggled against PSG in consecutive seasons.",
-          "url": "https://www.theguardian.com/football/2026/apr/14/liverpool-paris-saint-germain-champions-league-match-report",
-          "image": "https://media.guim.co.uk/4933842aefb2c3f09182e0a7b5567ac3f713454a/425_291_1968_1575/500.jpg",
+          "summary": "Bayern Munich defeated Real Madrid 4-3 in the second leg of their Champions League quarterfinal, winning 6-4 on aggregate to advance to the semi-finals. Bayern were behind three times during the match but secured the win with two late goals: Luis D\u00edaz scored from 20 yards out with the ball deflecting off Milit\u00e3o into the net, and Michael Olise added a clinching goal shortly before full time. The result eliminates Real Madrid, the defending Champions League holders, from this year's competition. Bayern will now face Paris Saint-Germain in the semi-finals.",
+          "url": "https://www.theguardian.com/football/2026/apr/15/bayern-munich-real-madrid-champions-league-quarter-final-second-leg-match-report",
+          "image": "https://media.guim.co.uk/f93b0fdb24f6b9aaa391f97fbc9c205a7ec18870/428_70_3759_3007/500.jpg",
           "articles": [
             {
-              "title": "Demb\u00e9l\u00e9 delivers knockout double as PSG end Liverpool\u2019s European dream",
+              "title": "D\u00edaz and Olise late show sends Bayern into semi-finals after Real Madrid classic",
               "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/14/liverpool-paris-saint-germain-champions-league-match-report"
+              "url": "https://www.theguardian.com/football/2026/apr/15/bayern-munich-real-madrid-champions-league-quarter-final-second-leg-match-report"
             },
             {
-              "title": "Liverpool 0-2 PSG (Apr 14, 2026) Final Score - ESPN",
-              "source": "ESPN",
-              "url": "https://www.espn.com/soccer/match/_/gameId/401862889/paris-saint-germain-liverpool"
-            },
-            {
-              "title": "PSG eye rare Champions League repeat after ousting Liverpool - ESPN",
-              "source": "ESPN",
-              "url": "https://www.espn.com/soccer/story/_/id/48488392/psg-eye-champions-league-repeat-liverpool-win"
-            },
-            {
-              "title": "Liverpool 0-2 PSG Stats (0-4 Agg): Demb\u00e9l\u00e9 Sends Parisians Into UCL Semi-Finals and Renders Reds' Season Trophyless | Opta Analyst",
-              "source": "Opta Analyst",
-              "url": "https://theanalyst.com/articles/liverpool-vs-psg-stats-champions-league-04-2026"
+              "title": "Arsenal host Sporting and Bayern Munich host Real Madrid in Champions League quarter-final second legs currently being played on Wednesday 15 April",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/football/live/2026/apr/15/arsenal-v-sporting-champions-league-quarter-final-second-leg-live"
             }
           ],
-          "tracking_suggestions": []
+          "tracking_suggestions": [
+            "Bayern vs PSG semi-final",
+            "Champions League quarterfinals 2025",
+            "Real Madrid UCL elimination",
+            "UEFA Champions League 2024-25"
+          ]
         },
         {
-          "headline": "Atl\u00e9tico Madrid beat Barcelona 1-2 on the night but advance 3-2 on aggregate to the Champions League semi-finals after Lookman strike and Garc\u00eda red card",
-          "timestamp": "22 hrs ago",
-          "score": 9,
+          "headline": "Arsenal held 0-0 by Sporting Lisbon but advance 1-0 on aggregate to Champions League semi-finals where they will face Atl\u00e9tico Madrid",
+          "timestamp": "9 hrs ago",
+          "score": 8,
+          "summary": "Arsenal drew 0-0 with Sporting Lisbon in the second leg of their Champions League quarter-final, advancing to the semi-finals 1-0 on aggregate thanks to their first-leg victory. The match was a tense, defensive performance from Arsenal, who managed just one shot on target and struggled to create chances, but held firm to secure the result they needed. This is only Arsenal's fourth ever appearance in a Champions League semi-final, a significant milestone for the club. They will now face Atl\u00e9tico Madrid in the last four, while also navigating a difficult run of Premier League form following recent losses to Manchester City, Southampton, and Bournemouth.",
+          "url": "https://www.theguardian.com/football/2026/apr/15/arsenal-sporting-lisbon-champions-league-quarter-final-second-leg-match-report",
+          "image": "https://media.guim.co.uk/273a2f4f4b47631b0a0c48028c00d3606e536c4f/1314_926_2879_2303/500.jpg",
+          "articles": [
+            {
+              "title": " Edgy Arsenal squeeze past Sporting to set up Atl\u00e9tico Madrid semi-final",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/15/arsenal-sporting-lisbon-champions-league-quarter-final-second-leg-match-report"
+            },
+            {
+              "title": "Arsenal host Sporting and Bayern Munich host Real Madrid in Champions League quarter-final second legs currently being played on Wednesday 15 April",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/football/live/2026/apr/15/arsenal-v-sporting-champions-league-quarter-final-second-leg-live"
+            },
+            {
+              "title": "Atl\u00e9tico Madrid beat Barcelona 1-2 on the night but advance 3-2 on aggregate to the Champions League semi-finals after Lookman strike and Garc\u00eda red card",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/football/2026/apr/14/atletico-madrid-barcelona-champions-league-match-report"
+            }
+          ],
+          "tracking_suggestions": [
+            "Arsenal Champions League campaign",
+            "Arsenal vs Atl\u00e9tico Madrid semi-final",
+            "Arsenal 2024-25 season form",
+            "Champions League semi-finals"
+          ]
+        },
+        {
+          "headline": "Atl\u00e9tico Madrid beat Barcelona 3-2 on aggregate to reach Champions League semi-finals after Lookman strike and Garc\u00eda red card",
+          "timestamp": "yesterday",
+          "score": 8,
           "summary": "Atl\u00e9tico Madrid lost 2-1 to Barcelona at home but advanced to the Champions League semi-finals 3-2 on aggregate, with an Ademola Lookman goal and a Barcelona red card for Garc\u00eda proving decisive across the two legs. Despite the home defeat, Atl\u00e9tico celebrated wildly, as reaching the semi-finals ended a ten-year wait dating back to their 2016 appearance. Manager Diego Simeone, in his 14th year at the club, credited the team's resilience and faith for overcoming a Barcelona side featuring young star Lamine Yamal. Atl\u00e9tico have now eliminated Barcelona from the Champions League three times under Simeone, previously doing so in 2014 and 2016 when they went on to reach the final both times.",
           "url": "https://www.theguardian.com/football/2026/apr/14/atletico-madrid-barcelona-champions-league-match-report",
           "image": "https://media.guim.co.uk/daf10e291199e04b1f8ec2774b30b4999dd8836d/1111_491_2162_1730/500.jpg",
@@ -381,180 +360,94 @@
               "url": "https://www.theguardian.com/football/2026/apr/14/atletico-madrid-barcelona-champions-league-match-report"
             },
             {
-              "title": "Atletico Madrid 1-2 Barcelona (agg: 3-2): Diego Simeone's men lose on the night but reach Champions League semi-finals",
-              "source": "Sky Sports",
-              "url": "https://www.skysports.com/football/atletico-madrid-vs-barcelona/report/554944"
+              "title": "Atl\u00e9tico Madrid beat Barcelona 1-2 on the night but advance 3-2 on aggregate to the Champions League semi-finals after Lookman strike and Garc\u00eda red card",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/football/2026/apr/14/atletico-madrid-barcelona-champions-league-match-report"
             },
             {
-              "title": "Atletico edge Barcelona on aggregate to reach Champions League semifinal | Football News | Al Jazeera",
-              "source": "Al Jazeera",
-              "url": "https://www.aljazeera.com/sports/2026/4/14/atletico-edge-barcelona-on-aggregate-to-reach-champions-league-semifinal"
-            },
-            {
-              "title": "Despite Yamal's form, Atleti wash away Bar\u00e7a out of Champions League - ESPN",
-              "source": "ESPN",
-              "url": "https://www.espn.com/soccer/story/_/id/48488181/despite-lamine-yamals-form-atletico-wash-away-barcelona-champions-league"
-            }
-          ],
-          "tracking_suggestions": [
-            "Atl\u00e9tico Madrid Champions League 2025",
-            "Barcelona European exit",
-            "Champions League semi-finals",
-            "Simeone Atl\u00e9tico era"
-          ]
-        },
-        {
-          "headline": "Arsenal host Sporting and Bayern Munich host Real Madrid in Champions League quarter-final second legs currently being played on Wednesday 15 April",
-          "timestamp": "3 mins ago",
-          "score": 8,
-          "summary": "Arsenal and Bayern Munich are hosting the second legs of their Champions League quarter-final ties against Sporting CP and Real Madrid respectively on April 15. Arsenal, holding a lead from the first leg, have been playing nervously and frantically despite being ahead, while Real Madrid have dramatically pulled level with Bayern at 4-4 on aggregate thanks to a Mbappe goal, making that tie very tight. The winners of both matches will advance to the Champions League semi-finals. These are high-stakes knockout games with significant implications for which clubs will compete for the European title this season.",
-          "url": "https://www.theguardian.com/football/live/2026/apr/15/arsenal-v-sporting-champions-league-quarter-final-second-leg-live",
-          "image": "https://media.guim.co.uk/ed8bfb178739d11bb24619ab43e2823e8f6cf0a1/28_0_5356_4287/500.jpg",
-          "articles": [
-            {
-              "title": "Arsenal v Sporting: Champions League quarter-final, second leg \u2013 live",
-              "source": "The Guardian",
+              "title": "Arsenal host Sporting and Bayern Munich host Real Madrid in Champions League quarter-final second legs currently being played on Wednesday 15 April",
+              "source": "Previously covered",
               "url": "https://www.theguardian.com/football/live/2026/apr/15/arsenal-v-sporting-champions-league-quarter-final-second-leg-live"
-            },
-            {
-              "title": "UEFA Champions League Schedule 2025-2026",
-              "source": "Paramount+",
-              "url": "https://www.paramountplus.com/sneak-peak/uefa-champions-league-schedule/"
-            },
-            {
-              "title": "Champions League quarter-finals: Last eight and potential semi-final head-to-head records",
-              "source": "UEFA.com",
-              "url": "https://www.uefa.com/uefachampionsleague/news/02a3-202ba9464c81-03661caeafa1-1000--champions-league-quarter-finals-last-eight-and-potential-s/"
-            },
-            {
-              "title": "Champions League quarter-final ties and dates confirmed",
-              "source": "UEFA.com",
-              "url": "https://www.uefa.com/uefachampionsleague/news/02a3-202d9ac10d17-a37e1f50256a-1000--champions-league-quarter-final-ties-and-dates-confirmed/"
-            },
-            {
-              "title": "Real Madrid 1-2 Arsenal (1-5 agg): Gunners oust holders to advance",
-              "source": "UEFA.com",
-              "url": "https://www.uefa.com/uefachampionsleague/news/0298-1d899aa0cba7-29346cd404a3-1000--real-madrid-1-2-arsenal-1-5-agg-gunners-oust-holders-to-ad/"
-            },
-            {
-              "title": "Real Madrid 1-2 Arsenal (Apr 16, 2025) Final Score",
-              "source": "ESPN",
-              "url": "https://www.espn.com/soccer/match/_/gameId/733612/arsenal-real-madrid"
-            },
-            {
-              "title": "2025/26 Champions League: All the fixtures and results",
-              "source": "UEFA.com",
-              "url": "https://www.uefa.com/uefachampionsleague/news/029c-1e9a2f63fe2d-ebf9ad643892-1000--2025-26-champions-league-all-the-fixtures-and-results/"
-            }
-          ],
-          "tracking_suggestions": [
-            "Champions League Quarter-Finals",
-            "Arsenal vs Sporting CP",
-            "Bayern vs Real Madrid",
-            "UEFA Champions League 2025"
-          ]
-        },
-        {
-          "headline": "Liverpool striker Hugo Ekitike is ruled out for the rest of the season and the 2026 World Cup with France after sustaining a serious injury in the PSG defeat",
-          "timestamp": "38 mins ago",
-          "score": 8,
-          "summary": "Liverpool striker Hugo Ekitike has been ruled out for the rest of the season and the 2026 World Cup after suffering a suspected achilles tendon rupture during Liverpool's Champions League quarter-final defeat to PSG on Tuesday. France head coach Didier Deschamps confirmed the 23-year-old will miss this summer's tournament, where France are set to play in the United States against Senegal, Iraq, and Norway. The injury is a significant blow to Liverpool, as Ekitike is the club's top scorer this season with 17 goals, and his absence comes with six games still to play in their fight to secure Champions League qualification for next season. Scans have been taken and Liverpool are expected to release a full medical update later this week, but an achilles rupture typically requires many months of recovery.",
-          "url": "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france",
-          "image": "https://media.guim.co.uk/3a25ceadcf542b8cedb19986d296ad70fa907974/385_0_4598_3678/500.jpg",
-          "articles": [
-            {
-              "title": "Liverpool\u2019s Hugo Ekitike ruled out for rest of season and World Cup with France ",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france"
-            },
-            {
-              "title": "France's Ekitike to miss World Cup after Liverpool Champions League injury",
-              "source": "Al Jazeera",
-              "url": "https://www.aljazeera.com/sports/2026/4/15/frances-ekitike-to-miss-world-cup-after-liverpool-champions-league-injury"
-            },
-            {
-              "title": "Hugo Ekitike ruptures Achilles, to miss World Cup",
-              "source": "ESPN",
-              "url": "https://www.espn.com/soccer/story/_/id/48492214/hugo-ekitike-ruptures-achilles-miss-world-cup-nine-months-sources"
-            },
-            {
-              "title": "Hugo Ekitike injury: Liverpool striker suffers suspected Achilles injury with fears he could miss at least six months",
-              "source": "Sky Sports",
-              "url": "https://www.skysports.com/football/news/11669/13531985/hugo-ekitike-injury-liverpool-striker-suffers-suspected-achilles-injury-with-fears-he-could-miss-at-least-six-months"
-            }
-          ],
-          "tracking_suggestions": [
-            "Hugo Ekitike injury update",
-            "Liverpool Champions League qualification",
-            "France 2026 World Cup squad",
-            "Premier League top scorer race"
-          ]
-        },
-        {
-          "headline": "Bournemouth head coach Andoni Iraola will leave the club at the end of the 2025-26 season, with Premier League rivals reported to be monitoring his availability",
-          "timestamp": "yesterday",
-          "score": 7,
-          "summary": "Andoni Iraola has announced he will leave Bournemouth when his contract expires at the end of the 2025-26 season, after informing the club's leadership and players of his decision. The 43-year-old Spanish manager has led a successful three-year tenure at Bournemouth, significantly improving the club's Premier League performance, but has decided to pursue other opportunities. Several high-profile candidates are being linked with the vacant position, including Marco Rose from RB Leipzig and Kieran McKenna from Ipswich, while Iraola himself may be of interest to Athletic Bilbao. This development matters because Bournemouth will need to find a replacement capable of maintaining the progress made under Iraola's management.",
-          "url": "https://www.theguardian.com/football/2026/apr/14/andoni-iraola-leave-bournemouth-end-of-season-football",
-          "image": "https://media.guim.co.uk/075e39b308c4376f98ab36039b3caa72a7209e78/767_202_2563_2050/500.jpg",
-          "articles": [
-            {
-              "title": "Iraola to leave Bournemouth at end of season with Premier League rivals on notice",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/14/andoni-iraola-leave-bournemouth-end-of-season-football"
-            },
-            {
-              "title": "Iraola to leave Bournemouth at end of season with Premier League rivals on notice",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/bournemouth"
-            },
-            {
-              "title": "Andoni Iraola: Bournemouth head coach to leave at end of season",
-              "source": "Sky Sports",
-              "url": "https://www.skysports.com/football/news/11743/13531626/andoni-iraola-bournemouth-head-coach-to-leave-at-end-of-season"
-            },
-            {
-              "title": "Bournemouth: Kieran McKenna on shortlist but Marco Rose believed to be frontrunner to replace Andoni Iraola",
-              "source": "Sky Sports",
-              "url": "https://www.skysports.com/football/news/11743/13532012/bournemouth-kieran-mckenna-on-shortlist-but-marco-rose-believed-to-be-frontrunner-to-replace-andoni-iraola"
             }
           ],
           "tracking_suggestions": []
         },
         {
-          "headline": "Valencia have suffered 14 league defeats this season, placing them in La Liga's top-10 worst single-season loss records as relegation pressure intensifies",
-          "timestamp": "6 hrs ago",
-          "score": 6,
-          "summary": "Valencia have lost 14 league matches so far this La Liga season, a total bad enough to place them among the worst single-season loss records in the club's history. With seven games still remaining, that figure is likely to grow, and the all-time worst record of 18 defeats in a single season is now a realistic possibility. The club are under serious relegation pressure, meaning the stakes are not just historical embarrassment but potential demotion from Spain's top flight. For a club of Valencia's stature and history, this represents a significant and alarming low point.",
-          "url": "https://www.marca.com/futbol/valencia/2026/04/15/valencia-suma-14-derrotas-top-10-partidos-perdidos-temporada.html",
-          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/15/17762598477115_150x0.jpg",
+          "headline": "PSG knock Liverpool out of Champions League with 2-0 win at Anfield to advance on aggregate",
+          "timestamp": "yesterday",
+          "score": 8,
+          "summary": "Paris Saint-Germain eliminated Liverpool from the UEFA Champions League with a 2-0 win at Anfield, advancing on aggregate in the quarter-finals. Ousmane Demb\u00e9l\u00e9 scored a late goal to seal the tie, ensuring Liverpool could not mount a comeback after losing the first leg in Paris. Liverpool manager Arne Slot felt his side played well and was frustrated by a penalty that was overturned, but the deficit from the first leg ultimately proved too much to overcome. PSG progress to the semi-finals, while Liverpool's European campaign ends in consecutive quarter-final exits to the same opponent.",
+          "url": "https://www.theguardian.com/football/live/2026/apr/14/liverpool-v-paris-saint-germain-champions-league-quarter-final-second-leg-live",
+          "image": "https://media.guim.co.uk/04a3c109268809983f0594c0d3d157b06e7171fc/1799_262_2396_1917/500.jpg",
           "articles": [
             {
-              "title": "El Valencia suma 14 derrotas y ya est\u00e1 en el Top-10 de partidos perdidos en una temporada",
-              "source": "Marca",
-              "url": "https://www.marca.com/futbol/valencia/2026/04/15/valencia-suma-14-derrotas-top-10-partidos-perdidos-temporada.html"
+              "title": "Liverpool 0-2 PSG: Champions League quarter-final, second leg \u2013 as it happened",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/live/2026/apr/14/liverpool-v-paris-saint-germain-champions-league-quarter-final-second-leg-live"
             },
             {
-              "title": "From 2001 Champions League finalists to La Liga relegation candidates - Reasons behind Valencia's demise",
-              "source": "Transfermarkt",
-              "url": "https://www.transfermarkt.us/from-2001-ucl-finalists-to-laliga-relegation-candidates-reasons-behind-valencias-demise/view/news/450893"
-            },
-            {
-              "title": "The Constant Struggles of Valencia",
-              "source": "Breaking The Lines",
-              "url": "https://breakingthelines.com/investigation-piece/the-constant-struggles-of-valencia/"
-            },
-            {
-              "title": "Valencia dragged into LaLiga's madcap relegation scrap",
-              "source": "OneFootball",
-              "url": "https://onefootball.com/en/news/valencia-dragged-into-laligas-madcap-relegation-scrap-36697308"
+              "title": "PSG beat Liverpool 2-0 at Anfield (3-1 agg) as Demb\u00e9l\u00e9 scores twice to eliminate Arne Slot's side from the Champions League quarter-finals",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/football/2026/apr/14/liverpool-paris-saint-germain-champions-league-match-report"
             }
           ],
           "tracking_suggestions": [
-            "Valencia relegation battle",
-            "La Liga bottom table",
-            "Valencia CF season collapse",
-            "Spanish football crisis clubs"
+            "PSG vs Liverpool UCL 2025",
+            "Champions League Quarter-Finals",
+            "Liverpool European Campaign",
+            "UEFA Champions League 2024-25"
+          ]
+        },
+        {
+          "headline": "Liverpool striker Hugo Ekitik\u00e9 ruled out for the rest of the season and the 2026 World Cup with France after injury",
+          "timestamp": "11 hrs ago",
+          "score": 7,
+          "summary": "Liverpool striker Hugo Ekitike has been ruled out for the rest of the season and the 2026 World Cup after suffering a suspected achilles tendon rupture during Liverpool's Champions League quarter-final defeat to PSG on Tuesday. France head coach Didier Deschamps confirmed the 23-year-old will miss this summer's tournament, where France are set to play in the United States against Senegal, Iraq, and Norway. The injury is a significant blow to Liverpool, as Ekitike is the club's top scorer this season with 17 goals, and his absence comes with six games still to play in their fight to secure Champions League qualification for next season. Scans have been taken and Liverpool are expected to release a full medical update later this week, but an achilles rupture typically requires many months of recovery.",
+          "url": "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france",
+          "image": "https://media.guim.co.uk/3a25ceadcf542b8cedb19986d296ad70fa907974/385_0_4598_3678/500.jpg",
+          "articles": [
+            {
+              "title": "Liverpool\u2019s Hugo Ekitik\u00e9 ruled out for rest of season and World Cup with France ",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france"
+            },
+            {
+              "title": "PSG beat Liverpool 2-0 at Anfield (3-1 agg) as Demb\u00e9l\u00e9 scores twice to eliminate Arne Slot's side from the Champions League quarter-finals",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/football/2026/apr/14/liverpool-paris-saint-germain-champions-league-match-report"
+            },
+            {
+              "title": "Liverpool striker Hugo Ekitike is ruled out for the rest of the season and the 2026 World Cup with France after sustaining a serious injury in the PSG defeat",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Declan Rice played through illness to start Arsenal's 0-0 Champions League draw with Sporting Lisbon, with Arteta describing him as 'shattered'",
+          "timestamp": "7 hrs ago",
+          "score": 6,
+          "summary": "Arsenal drew 0-0 with Sporting Lisbon in the second leg of their Champions League quarter-final, advancing on the strength of their first-leg win in Portugal. Midfielder Declan Rice played despite being ill, with manager Mikel Arteta describing him as 'shattered' after the match. The result is historically significant as it marks the first time Arsenal have reached back-to-back Champions League semi-finals, only the fourth time overall in the club's history. They will face Atl\u00e9tico Madrid in the semi-finals, a team Arsenal already beat 4-0 earlier this season, though Rice's fitness will be a key concern going forward.",
+          "url": "https://www.theguardian.com/football/2026/apr/15/declan-rice-sickbed-arteta-sporting-lisbon-arsenal-champions-league",
+          "image": "https://media.guim.co.uk/d128f8fd3a1f4d53a8aa7be6010857ddba5b2364/500_0_5000_4000/500.jpg",
+          "articles": [
+            {
+              "title": "\u2018Shattered\u2019 Rice wows Arteta by getting off sickbed to keep Sporting at bay",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/15/declan-rice-sickbed-arteta-sporting-lisbon-arsenal-champions-league"
+            },
+            {
+              "title": "Arsenal host Sporting and Bayern Munich host Real Madrid in Champions League quarter-final second legs currently being played on Wednesday 15 April",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/football/live/2026/apr/15/arsenal-v-sporting-champions-league-quarter-final-second-leg-live"
+            }
+          ],
+          "tracking_suggestions": [
+            "Declan Rice fitness",
+            "Arsenal Champions League campaign",
+            "Arsenal vs Atl\u00e9tico Madrid semi-final",
+            "English clubs in Europe"
           ]
         }
       ]
@@ -677,18 +570,18 @@
       "Trump says Israel and Lebanon\u2019s leaders will speak on Thursday - Al Jazeera",
       "Scoop: Trump discussed \"Jesus\" meme with Bill Pulte before posting it, sources say - Axios",
       "Bishops Defend Pope After Criticism From Vance - The New York Times",
-      "Iran War News Live Updates: Blockade \u2018Fully Implemented\u2019 as Mediators Push for U.S.-Iran Ceasefire Extension - WSJ",
-      "Inside the sudden downfall of Eric Swalwell - CNN",
+      "Iran Update Special Report, April 15, 2026 - Institute for the Study of War",
       "Hormuz traffic remains at a trickle as US blockade of Iranian ports appears to hold - The Times of Israel",
+      "Inside the sudden downfall of Eric Swalwell - CNN",
       "Oklahoma principal shot while tackling ex-student armed with handguns - The Guardian",
       "3 Killed in Boat Strike in the Pacific, Pentagon Says - The New York Times",
+      "John Eastman loses his law license in California over 2020 election scheme - Politico",
       "Justice Sotomayor issues rare apology for remarks about conservative colleague - The Washington Post",
-      "Key Trump lawyer who tried to overturn 2020 election permanently disbarred - Democracy Docket",
+      "Russia pummels Ukraine with drone and missile strikes, killing at least 12 - The Guardian",
+      "Iran War News Live Updates: Blockade \u2018Fully Implemented\u2019 as Mediators Push for U.S.-Iran Ceasefire Extension - WSJ",
       "El Salvador publishes law allowing life sentences for minors as young as 12 - Al Jazeera",
       "Nine killed in second Turkish school shooting in two days - BBC",
-      "Sudan Enters Fourth Year of War Amid World\u2019s Most Severe Humanitarian Crisis - The New York Times",
-      "Hungary\u2019s prime minister-elect vows to suspend \u2018propaganda machine\u2019 state media - The Guardian",
-      "Shares in Allbirds surge after maker of wool sneakers announces pivot to AI - The Guardian",
+      "Allbirds shares soar after pivot from shoes to AI - BBC",
       "Allstar JR - Mob Untied",
       "Focker-In-Law | Official Trailer",
       "The Will Cain Show",
@@ -699,16 +592,16 @@
       "Black Cat: The Master Thief| Character Reveal Trailer | Marvel Rivals",
       "The Lead With Jake Tapper",
       "\"PINKY UP\" MV (Choreography Ver.) | KATSEYE",
+      "tsm stock",
       "earthquake now",
       "mel brooks",
       "mlb standings",
-      "wednesday powerball results 2026",
       "gen v",
+      "wednesday powerball results 2026",
       "manny machado",
       "chris paul",
-      "udonis haslem",
-      "skip bayless",
-      "ty lue"
+      "phoenix suns",
+      "udonis haslem"
     ]
   },
   "summaries": {
@@ -765,91 +658,95 @@
     "https://www.theguardian.com/football/2026/apr/15/liverpools-hugo-ekitike-ruled-out-for-rest-of-season-and-world-cup-with-france": "Liverpool striker Hugo Ekitike has been ruled out for the rest of the season and the 2026 World Cup after suffering a suspected achilles tendon rupture during Liverpool's Champions League quarter-final defeat to PSG on Tuesday. France head coach Didier Deschamps confirmed the 23-year-old will miss this summer's tournament, where France are set to play in the United States against Senegal, Iraq, and Norway. The injury is a significant blow to Liverpool, as Ekitike is the club's top scorer this season with 17 goals, and his absence comes with six games still to play in their fight to secure Champions League qualification for next season. Scans have been taken and Liverpool are expected to release a full medical update later this week, but an achilles rupture typically requires many months of recovery.",
     "https://www.marca.com/futbol/valencia/2026/04/15/valencia-suma-14-derrotas-top-10-partidos-perdidos-temporada.html": "Valencia have lost 14 league matches so far this La Liga season, a total bad enough to place them among the worst single-season loss records in the club's history. With seven games still remaining, that figure is likely to grow, and the all-time worst record of 18 defeats in a single season is now a realistic possibility. The club are under serious relegation pressure, meaning the stakes are not just historical embarrassment but potential demotion from Spain's top flight. For a club of Valencia's stature and history, this represents a significant and alarming low point.",
     "https://www.bbc.com/news/articles/cgqkkxd09e2o?at_medium=RSS&at_campaign=rss": "An Israeli airstrike in Lebanon killed three paramedics in what is being described as a 'triple-tap' strike, meaning the location was hit multiple times in succession, a tactic that prevents rescuers from safely responding. One of the paramedics had previously appeared in a BBC report, bringing international attention to the incident. Lebanon's government condemned the killings as a 'flagrant crime,' highlighting ongoing tensions as Israel continues striking Lebanese targets despite international pressure for a ceasefire. The targeting of emergency responders raises serious concerns under international humanitarian law and signals a broadening of the regional conflict.",
-    "https://www.bbc.com/news/articles/cm29plylqnvo": "Russia launched a large-scale drone and missile attack across Ukraine, killing at least 15 civilians. The strike is part of an ongoing Russian campaign targeting Ukrainian cities and infrastructure, which has continued relentlessly despite international pressure. The attack carries added significance because it comes while Western governments and media are simultaneously managing the crisis involving Iran, potentially diverting diplomatic attention and military aid resources away from Ukraine. This dual-front strain on Western focus raises concerns that Russia may be exploiting the moment of distraction to intensify pressure on Ukraine."
+    "https://www.bbc.com/news/articles/cm29plylqnvo": "Russia launched a large-scale drone and missile attack across Ukraine, killing at least 15 civilians. The strike is part of an ongoing Russian campaign targeting Ukrainian cities and infrastructure, which has continued relentlessly despite international pressure. The attack carries added significance because it comes while Western governments and media are simultaneously managing the crisis involving Iran, potentially diverting diplomatic attention and military aid resources away from Ukraine. This dual-front strain on Western focus raises concerns that Russia may be exploiting the moment of distraction to intensify pressure on Ukraine.",
+    "https://www.theguardian.com/football/2026/apr/15/bayern-munich-real-madrid-champions-league-quarter-final-second-leg-match-report": "Bayern Munich defeated Real Madrid 4-3 in the second leg of their Champions League quarterfinal, winning 6-4 on aggregate to advance to the semi-finals. Bayern were behind three times during the match but secured the win with two late goals: Luis D\u00edaz scored from 20 yards out with the ball deflecting off Milit\u00e3o into the net, and Michael Olise added a clinching goal shortly before full time. The result eliminates Real Madrid, the defending Champions League holders, from this year's competition. Bayern will now face Paris Saint-Germain in the semi-finals.",
+    "https://www.theguardian.com/football/2026/apr/15/arsenal-sporting-lisbon-champions-league-quarter-final-second-leg-match-report": "Arsenal drew 0-0 with Sporting Lisbon in the second leg of their Champions League quarter-final, advancing to the semi-finals 1-0 on aggregate thanks to their first-leg victory. The match was a tense, defensive performance from Arsenal, who managed just one shot on target and struggled to create chances, but held firm to secure the result they needed. This is only Arsenal's fourth ever appearance in a Champions League semi-final, a significant milestone for the club. They will now face Atl\u00e9tico Madrid in the last four, while also navigating a difficult run of Premier League form following recent losses to Manchester City, Southampton, and Bournemouth.",
+    "https://www.theguardian.com/football/live/2026/apr/14/liverpool-v-paris-saint-germain-champions-league-quarter-final-second-leg-live": "Paris Saint-Germain eliminated Liverpool from the UEFA Champions League with a 2-0 win at Anfield, advancing on aggregate in the quarter-finals. Ousmane Demb\u00e9l\u00e9 scored a late goal to seal the tie, ensuring Liverpool could not mount a comeback after losing the first leg in Paris. Liverpool manager Arne Slot felt his side played well and was frustrated by a penalty that was overturned, but the deficit from the first leg ultimately proved too much to overcome. PSG progress to the semi-finals, while Liverpool's European campaign ends in consecutive quarter-final exits to the same opponent.",
+    "https://www.theguardian.com/football/2026/apr/15/declan-rice-sickbed-arteta-sporting-lisbon-arsenal-champions-league": "Arsenal drew 0-0 with Sporting Lisbon in the second leg of their Champions League quarter-final, advancing on the strength of their first-leg win in Portugal. Midfielder Declan Rice played despite being ill, with manager Mikel Arteta describing him as 'shattered' after the match. The result is historically significant as it marks the first time Arsenal have reached back-to-back Champions League semi-finals, only the fourth time overall in the club's history. They will face Atl\u00e9tico Madrid in the semi-finals, a team Arsenal already beat 4-0 earlier this season, though Rice's fitness will be a key concern going forward."
   },
   "article_hashes": {
-    "breaking": "933bad3cd7cb00757310018843ea7754"
+    "breaking": "63c3669a3cb7d2ab6bd84f07fdbdc895"
   },
   "world_topics_cache": {
     "today": [
       {
-        "headline": "U.S. Blockade of Iran Escalates as Ceasefire Negotiations Continue",
-        "why": "The U.S. blockade of Iranian ports is fully implemented and holding firm while international mediators push for a ceasefire extension, marking a major escalation in U.S.-Iran tensions.",
-        "signal": "[NEWS] Iran War News Live Updates, [NEWS] Hormuz traffic remains at a trickle"
+        "headline": "US Blockade of Iranian Ports and Ceasefire Negotiations",
+        "why": "A major geopolitical escalation is unfolding as the US maintains a blockade of Iranian ports while international mediators push for a ceasefire extension, representing a critical flashpoint in US-Iran relations.",
+        "signal": "[NEWS] Hormuz traffic remains at a trickle as US blockade of Iranian ports appears to hold - The Times of Israel; [NEWS] Iran War News Live Updates: Blockade 'Fully Implemented' as Mediators Push for U.S.-Iran Ceasefire Extension - WSJ; [NEWS] Iran Update Special Report, April 15, 2026 - Institute for the Study of War"
       },
       {
-        "headline": "Trump Administration Involvement in Middle East Peace Talks Between Israel and Lebanon",
-        "why": "Trump is facilitating direct talks between Israeli and Lebanese leaders on Thursday, signaling a potential diplomatic breakthrough in a major regional conflict.",
-        "signal": "[NEWS] Trump says Israel and Lebanon's leaders will speak on Thursday"
+        "headline": "Turkey School Shootings Crisis",
+        "why": "Nine people were killed in a second mass shooting at a Turkish school in as many days, signaling a severe public safety crisis and sparking urgent questions about gun violence prevention.",
+        "signal": "[NEWS] Nine killed in second Turkish school shooting in two days - BBC"
+      },
+      {
+        "headline": "John Eastman's California Law License Revocation",
+        "why": "The prominent Trump lawyer loses his license over his role in the 2020 election scheme, marking a significant legal consequence for January 6-related activities and continuing accountability efforts.",
+        "signal": "[NEWS] John Eastman loses his law license in California over 2020 election scheme - Politico"
       },
       {
         "headline": "Eric Swalwell's Sudden Political Downfall",
-        "why": "A CNN investigation reveals the rapid collapse of the congressman's political career, attracting significant media attention to an unexpected scandal.",
-        "signal": "[NEWS] Inside the sudden downfall of Eric Swalwell"
+        "why": "A major congressional figure's unexpected departure from politics is generating significant media attention and speculation about the circumstances behind his exit.",
+        "signal": "[NEWS] Inside the sudden downfall of Eric Swalwell - CNN"
       },
       {
-        "headline": "Multiple School Shootings in Turkey Within Two Days",
-        "why": "Nine people were killed in a second Turkish school shooting in consecutive days, highlighting an urgent public safety crisis.",
-        "signal": "[NEWS] Nine killed in second Turkish school shooting in two days"
-      },
-      {
-        "headline": "El Salvador Introduces Life Sentences for Children as Young as 12",
-        "why": "El Salvador's new law allowing life imprisonment for minors has sparked international human rights concerns and global media scrutiny.",
-        "signal": "[NEWS] El Salvador publishes law allowing life sentences for minors as young as 12"
+        "headline": "Russia's Continued Drone and Missile Campaign Against Ukraine",
+        "why": "Russia escalates attacks with sustained drone and missile strikes killing at least 12 people, reflecting the ongoing intensity of the Ukraine-Russia conflict.",
+        "signal": "[NEWS] Russia pummels Ukraine with drone and missile strikes, killing at least 12 - The Guardian"
       }
     ],
     "week": [
       {
-        "headline": "U.S. Military Blockade of Iranian Strait of Hormuz",
-        "why": "Trump administration implemented a blockade of Iranian ports on the Strait of Hormuz, with ongoing diplomatic negotiations to extend ceasefire and international responses from UK and France on whether to support the action.",
-        "signal": "trending for 6 days"
+        "headline": "Trump Administration Imposes Military Blockade of Iranian Ports at Strait of Hormuz",
+        "why": "The U.S. blockade of Iran dominated coverage as Trump announced the action, international allies refused to support it, and negotiations for a ceasefire extension proceeded amid economic concerns.",
+        "signal": "trending for 7 days"
       },
       {
-        "headline": "Trump's Public Feud with Pope Leo",
-        "why": "Trump repeatedly attacked Pope Leo as 'weak' and 'terrible' on social media, while Vice President Vance told the Pope to stay out of U.S. affairs, drawing responses from bishops defending the Pope.",
+        "headline": "Trump Publicly Attacks Pope Leo Over Political Statements",
+        "why": "Trump's repeated criticism of Pope Leo for speaking on political matters, including immigration and social justice, sparked defensive responses from bishops and Vice President Vance.",
         "signal": "trending for 4 days"
       },
       {
-        "headline": "Eric Swalwell's Exit from California Governor's Race",
-        "why": "Congressman Swalwell withdrew from California's gubernatorial race following assault allegations, with Democratic rivals competing for his campaign donations and supporters.",
+        "headline": "California Congressman Eric Swalwell Exits Governor's Race Following Assault Allegations",
+        "why": "Swalwell's sudden withdrawal from the California gubernatorial race due to assault allegations became a major political story affecting the Democratic primary landscape.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Hungary's Opposition Electoral Victory and EU Relations",
-        "why": "Hungary's opposition achieved a landslide election win, with the prime minister-elect vowing to suspend state media 'propaganda machine' and pursue those who 'plundered' Hungary, signaling potential EU thaw.",
+        "headline": "Hungary's Opposition Achieves Landslide Election Victory, Signaling EU Thaw",
+        "why": "Hungary's opposition parties won decisively in elections, promising reforms and improved relations with the European Union after years of tensions.",
         "signal": "trending for 2 days"
       },
       {
-        "headline": "Super Typhoon Sinlaku in Western Pacific",
-        "why": "The strongest storm on the planet impacted U.S. islands in the Western Pacific, with meteorological concern about its significance as a weather pattern indicator.",
+        "headline": "Super Typhoon Sinlaku Strikes Remote U.S. Pacific Islands",
+        "why": "The strongest storm on the planet bore down on U.S. territories in the Western Pacific, raising concerns about climate change and disaster preparedness.",
         "signal": "trending for 2 days"
       }
     ],
     "month": [
       {
         "headline": "U.S. Military Blockade of Iranian Ports at Strait of Hormuz",
-        "why": "Trump administration's dramatic escalation against Iran dominated headlines as the blockade was announced, implemented, and faced international pushback with ongoing diplomatic negotiations.",
+        "why": "Trump administration's announcement and implementation of a blockade on Iran's Strait of Hormuz dominated coverage as the U.S. sought international support, conducted negotiations, and markets reacted to potential energy disruptions.",
         "signal": "trending for 12 days"
       },
       {
-        "headline": "Pope Leo's Conflict with Trump Administration Over Political Involvement",
-        "why": "Trump and VP Vance repeatedly attacked the Pope for criticizing U.S. policy, with the Pope defending his spiritual mission during international visits, creating a sustained clash between religious and political authority.",
-        "signal": "trending for 9 days"
+        "headline": "Trump's Public Criticism of Pope Leo",
+        "why": "Trump's repeated attacks on Pope Leo\u2014calling him 'weak on crime' and telling him to stay out of U.S. affairs\u2014sparked responses from Vice President Vance, Catholic bishops, and the Pope himself, becoming a sustained cultural and political flashpoint.",
+        "signal": "trending for 8 days"
       },
       {
-        "headline": "Eric Swalwell's Exit from California Governor's Race Due to Assault Allegations",
-        "why": "The Democratic congressman's sudden withdrawal from the race and subsequent disposition of campaign donations became a significant story about political accountability and California's leadership succession.",
+        "headline": "Eric Swalwell's Exit from California Governor's Race",
+        "why": "Democratic congressman Swalwell withdrew from the gubernatorial race following assault allegations, forcing his campaign to redirect donations and reshaping the California Democratic primary.",
+        "signal": "trending for 6 days"
+      },
+      {
+        "headline": "Hungary Opposition's Election Victory and EU Relations",
+        "why": "Hungary's opposition achieved a landslide election win with P\u00e9ter Magyar vowing to pursue those responsible for past plunder, signaling potential reforms and a thaw in tense EU relationships.",
         "signal": "trending for 5 days"
       },
       {
-        "headline": "Hungary's Opposition Landslide Election Victory and EU Relations Shift",
-        "why": "P\u00e9ter Magyar's opposition party won decisively, signaling major political realignment and promises of media reforms and improved relations with the European Union after years of tensions.",
+        "headline": "Super Typhoon Sinlaku in Western Pacific",
+        "why": "The strongest storm on the planet threatened U.S. Pacific territories, with forecasters warning it represented a concerning sign of severe weather patterns and potential climate impacts.",
         "signal": "trending for 4 days"
-      },
-      {
-        "headline": "Super Typhoon Sinlaku Impact on U.S. Pacific Territories",
-        "why": "The strongest storm on the planet struck U.S. islands in the Western Pacific, generating urgent coverage about climate concerns and disaster response in remote American territories.",
-        "signal": "trending for 3 days"
       }
     ]
   },

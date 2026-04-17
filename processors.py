@@ -32,6 +32,7 @@ Here are recent articles:
 
 Select ONLY stories that are historic in scale — active major wars significantly escalating with large casualties, world leader deaths, terrorist attacks killing hundreds+, catastrophic natural disasters with mass casualties, nuclear threats. DO NOT include diplomatic talks, peace negotiations, ceasefire discussions, court cases, political scandals, or warnings. If nothing meets this bar return [].
 CRITICAL: Only include stories where the article describes a specific event that occurred in the last 6 hours. Do NOT include background articles, explainers, or ongoing situation coverage where no new event is described today. If the article is about a situation rather than a specific new development, exclude it.
+Significant statements, announcements, or policy positions from heads of state or senior government officials qualify as discrete breaking events if they represent an advancement to an ongoing geopolitical situation.
 
 For each story:
 - Write a specific factual headline with real numbers, names, locations
@@ -109,29 +110,33 @@ def process_australia(rss_articles, newsdata_articles, memory):
         return [], memory
 
     formatted = format_articles_for_prompt(all_articles, 30, titles_only=True)
-    prompt = f"""You are an Australian federal politics editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
+    prompt = f"""You are an Australian news editor. Today is {datetime.now(AEST).strftime('%A %d %B %Y')}.
 
 Here are recent articles:
 {formatted}
 
-Select ONLY stories about Australian FEDERAL parliament: bills passed or defeated in the House or Senate, federal budget decisions, federal elections, federal party leadership changes, High Court rulings on federal matters, major national policy changes announced by federal ministers.
+Apply one test to every story: did a concrete, real-world event actually occur, and does it materially affect Australians?
 
-REJECT everything else — including:
-- State or territory parliament (WA, NSW, Qld, Vic etc.)
-- Economic forecasts, modelling, or reports from consultancies or think tanks (e.g. Deloitte, Grattan Institute)
-- Business news, commodity prices, fuel costs
-- Crime, accidents, weather, sport
-- International news
-- Anything where no actual parliamentary vote, bill, or federal decision has occurred
+PASS examples — include these:
+- Infrastructure incidents (power outages, port closures, transport disruptions)
+- Disasters and emergencies (floods, fires, industrial accidents, supply chain failures)
+- Events with direct downstream consequences for Australians (cost-of-living, fuel, food supply)
+- Policy decisions that have been enacted or formally passed — not proposed
+
+FAIL examples — exclude these:
+- Government discussing or consulting on a policy
+- Economic forecasts, modelling, projections from any source
+- Think tank reports, consultancy findings, or academic studies
+- Anything where no concrete event has yet occurred
 
 If nothing meets this bar return [].
 
 For each story:
-- Write a specific factual headline stating what was decided and by whom
+- Write a specific factual headline naming the event and its consequence
 - Assign importance score 1-10
 - Estimate timestamp
-- Identify a "so_what" broader political context
-- Set "deeper_search": true ONLY if this is a High Court ruling or major constitutional matter
+- Identify a "so_what" broader consequence thread
+- Set "deeper_search": true ONLY if the event has complex downstream consequences worth surfacing
 
 {HEADLINE_RULES}
 

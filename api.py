@@ -180,17 +180,35 @@ Also suggest 3-4 short trackable topic labels for this story, from specific to b
 Return a JSON object:
 {{"summary": "3-4 sentence explanation...", "tracking_suggestions": ["specific topic", "broader topic", "wider context"]}}
 Raw JSON only, no markdown."""
+    _refusal_phrases = ["I can't", "I cannot", "I'm unable", "no credible", "I don't have"]
+
+    def _parse_summary_response(raw):
+        try:
+            data = json.loads(raw.replace("```json", "").replace("```", "").strip())
+            s = re.sub(r'^#+\s*\w*\s*', '', str(data.get("summary", ""))).strip()
+            sg = data.get("tracking_suggestions", [])
+            if not isinstance(sg, list):
+                sg = []
+            return s, sg
+        except Exception:
+            return re.sub(r'^#+\s*\w*\s*', '', raw).strip(), []
+
+    def _is_refusal(s):
+        return any(phrase in s for phrase in _refusal_phrases)
+
     text = call_sonnet(prompt, 400, label="story_summary")
-    try:
-        data = json.loads(text.replace("```json", "").replace("```", "").strip())
-        summary = re.sub(r'^#+\s*\w*\s*', '', str(data.get("summary", ""))).strip()
-        suggestions = data.get("tracking_suggestions", [])
-        if not isinstance(suggestions, list):
-            suggestions = []
-        return summary, suggestions
-    except Exception:
-        summary = re.sub(r'^#+\s*\w*\s*', '', text).strip()
-        return summary, []
+    summary, suggestions = _parse_summary_response(text)
+
+    if _is_refusal(summary):
+        retry_prompt = f"""You are summarising an already-published news article. Report only what the article states.
+{prompt}"""
+        retry_text = call_sonnet(retry_prompt, 400, label="story_summary")
+        retry_summary, retry_suggestions = _parse_summary_response(retry_text)
+        if _is_refusal(retry_summary):
+            return f"{headline}.", []
+        return retry_summary, retry_suggestions
+
+    return summary, suggestions
 
 
 def format_articles_for_prompt(articles, limit=25, titles_only=False):

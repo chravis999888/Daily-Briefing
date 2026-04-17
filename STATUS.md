@@ -2,6 +2,7 @@
 
 ## ✅ Shipped
 
+- **v0.6a — File split + Jinja2 templating** — fetch_news.py (~2200 lines) split into: `memory.py` (all memory/health functions), `api.py` (Claude wrappers, log_api_call, relative_time, format_articles_for_prompt), `fetchers.py` (all RSS/HTTP fetchers + fetch_world_topic_sources), `processors.py` (all category processors + world topics + developing situations, HEADLINE_RULES). HTML extracted into `page/builder.py` + `page/template.html` (Jinja2). Three diverged render_story() variants unified into a single Jinja2 macro with `variant` parameter. **Decisions:** `html/` renamed `page/` — `html/` shadows Python stdlib `html` module which feedparser imports; `log_api_call` placed in `api.py` not `memory.py` — only called from API wrappers; `ACCENTS` in `page/builder.py`, `HEADLINE_RULES` in `processors.py`.
 - UI overhaul — modal system, 3-column layout, breaking news full-width at top
 - Logo and favicon — pulse dot mark, Playfair Display wordmark
 - World trends section — Google News RSS + YouTube + Google Trends RSS + Reddit fallback, Today/Week/Month tabs built from memory
@@ -42,9 +43,9 @@ Nothing currently in progress.
 - Fabrizio Romano — gold standard transfer source, needs a reliable feed. Telegram scraper removed as too fragile. Find a stable solution.
 
 ### v0.6 — Infra Reset
-- Jinja2 templating — extract 1500-line HTML f-string into template.html
+- ~~Jinja2 templating — extract 1500-line HTML f-string into template.html~~ ✅ done in v0.6a
+- ~~render_story() consolidation — one function not three diverged versions~~ ✅ done in v0.6a
 - Cloudflare Workers + KV — replace GitHub API browser hacks for starring/deleting/refreshing
-- render_story() consolidation — one function not three diverged versions
 - Memory/KV migration plan — decide what stays in GitHub vs moves to KV
 
 ### v0.7 — Features
@@ -110,11 +111,17 @@ Nothing currently in progress.
 
 | File | Purpose |
 |------|---------|
-| `fetch_news.py` | Everything — fetchers, processors, HTML builder (~2200 lines) |
+| `fetch_news.py` | Entry point — orchestration and run mode switching only |
+| `memory.py` | All memory/health functions — load, save, cache, hashing |
+| `api.py` | Claude API wrappers, log_api_call, relative_time, format_articles_for_prompt |
+| `fetchers.py` | All data fetching — RSS, GDELT, Guardian, YouTube, Reddit, NewsData |
+| `processors.py` | Category processors, world topics, developing situations, HEADLINE_RULES |
+| `page/builder.py` | build_html() — loads and renders Jinja2 template, ACCENTS |
+| `page/template.html` | Full HTML/CSS/JS page with Jinja2 syntax, unified render_story macro |
 | `.github/workflows/briefing.yml` | Scheduling and deployment |
 | `memory.json` | Story cache, summaries, world trends, article hashes |
 | `health.json` | Run status and errors |
-| `requirements.txt` | anthropic, requests, feedparser, beautifulsoup4 |
+| `requirements.txt` | anthropic, requests, feedparser, beautifulsoup4, jinja2 |
 | `STATUS.md` | This file — update whenever a feature ships |
 
 ---

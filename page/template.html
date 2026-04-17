@@ -1,0 +1,520 @@
+{# ── Unified story card macro — handles column, breaking, and yesterday_breaking variants ── #}
+{% macro render_story(story, i, ac, is_top=False, is_yesterday=False, variant='column') %}
+{% set arts = story.articles if story.articles is defined else [] %}
+{% set score = story.score if story.score is defined else 5 %}
+{% set image = story.image if story.image is defined else '' %}
+{% set headline_js = story.headline|tojson %}
+{% set summary_js = story.summary|default('')|replace('\n', ' ')|tojson %}
+{% set articles_js = arts|tojson %}
+{% set image_js = image|tojson %}
+
+{% if variant == 'column' %}
+{% set num = ('0' ~ (i+1)) if (i+1) < 10 else (i+1)|string %}
+{% set headline_size = '17px' if is_top else '15px' %}
+{% set card_bg = '#1c1c1a' if is_top else '#161614' %}
+{% set card_border = '1px solid rgba(255,255,255,0.09)' if is_top else '1px solid rgba(255,255,255,0.04)' %}
+{% set opacity = '0.55' if is_yesterday else '1' %}
+{# Build meta parts #}
+{% set ns = namespace(meta=[]) %}
+{% if story.timestamp %}{% set ns.meta = ns.meta + ['<span style="color:' ~ ac ~ ';font-weight:500;font-size:11px;">' ~ story.timestamp|e ~ '</span>'] %}{% endif %}
+{% if arts and arts[0].source %}{% set ns.meta = ns.meta + ['<span style="color:#555550;font-size:11px;">' ~ arts[0].source|e ~ '</span>'] %}{% endif %}
+{% if arts|length > 1 %}{% set ns.meta = ns.meta + ['<span style="color:#444440;font-size:11px;">' ~ arts|length ~ ' sources</span>'] %}{% endif %}
+{% set meta_html = ns.meta|join(' <span style="color:#2a2a28;font-size:10px;">·</span> ') %}
+{# Tracking suggestions for star popup #}
+{% set suggested = story.headline[:60].rstrip('.,') %}
+{% set suggestions = story.tracking_suggestions if story.tracking_suggestions else [suggested] %}
+<div class="story" onclick="openModal({{ headline_js }},{{ summary_js }},{{ articles_js }},{{ image_js }})" style="border-radius:10px;background:{{ card_bg }};border:{{ card_border }};margin-bottom:8px;opacity:{{ opacity }};cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor=''">
+  <div style="display:flex;align-items:flex-start;gap:14px;padding:16px 18px;border-radius:10px;">
+    <span style="font-size:11px;color:#2a2a28;min-width:20px;margin-top:3px;flex-shrink:0;">{{ num }}</span>
+    <div style="flex:1;min-width:0;">
+      <div style="font-size:{{ headline_size }};font-weight:400;line-height:1.45;color:#f0ece4;margin-bottom:8px;letter-spacing:-0.01em;display:flex;align-items:flex-start;">{% if score >= 8 %}<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:{{ ac }};margin-right:8px;margin-bottom:1px;vertical-align:middle;flex-shrink:0;"></span>{% endif %}<span>{{ story.headline|e }}</span></div>
+      <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">{{ meta_html|safe }}</div>
+    </div>
+    {% if not is_yesterday %}<button class="star-btn" onclick="showStarPopup({{ headline_js }},{{ suggestions|tojson }});event.stopPropagation();" title="Track this story" style="background:none;border:none;cursor:pointer;padding:4px;color:#333330;font-size:14px;flex-shrink:0;line-height:1;margin-left:4px;transition:color 0.15s;" onmouseover="this.style.color='#c9a96e'" onmouseout="this.style.color='#333330'">&#9734;</button>{% endif %}
+  </div>
+</div>
+
+{% elif variant == 'breaking' %}
+{% set hl_size = '16px' if is_top else '13px' %}
+{% set card_bg = '#1e1816' if is_top else '#1c1c1a' %}
+{% set card_border = 'rgba(192,57,43,0.25)' if is_top else 'rgba(255,255,255,0.07)' %}
+{% set source = arts[0].source|default('') if arts else '' %}
+{% set ns = namespace(parts=[]) %}
+{% if story.timestamp %}{% set ns.parts = ns.parts + [story.timestamp] %}{% endif %}
+{% if source %}{% set ns.parts = ns.parts + [source] %}{% endif %}
+{% set meta = ns.parts|join(' · ') %}
+{% if arts|length > 1 %}{% set meta = meta ~ ' · ' ~ arts|length ~ ' sources' %}{% endif %}
+<div onclick="openModal({{ headline_js }},{{ summary_js }},{{ articles_js }},{{ image_js }})" style="background:{{ card_bg }};border:1px solid {{ card_border }};border-radius:10px;padding:16px 18px;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor='{{ card_border }}'">
+  <div style="font-size:{{ hl_size }};line-height:1.5;color:#f0ece4;font-weight:400;margin-bottom:8px;">{% if is_top %}<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:{{ ac }};margin-right:8px;margin-bottom:1px;vertical-align:middle;"></span>{% endif %}{{ story.headline|e }}</div>
+  <div style="font-size:11px;color:#555550;">{{ meta|e }}</div>
+</div>
+
+{% elif variant == 'yesterday_breaking' %}
+<div onclick="openModal({{ headline_js }},{{ summary_js }},{{ articles_js }},{{ image_js }})" style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:14px 16px;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.05)'">
+  <div style="font-size:12px;line-height:1.5;color:#c8c4bc;font-weight:400;margin-bottom:6px;">{{ story.headline|e }}</div>
+  <div style="font-size:11px;color:#444440;">{{ story.timestamp|default('')|e }}</div>
+</div>
+
+{% endif %}
+{% endmacro %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Daily Briefing</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html,body{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-size:15px;line-height:1.6;min-height:100vh;}
+.story-header:hover{background:rgba(255,255,255,0.02);}
+.story-header:hover .chev{color:#6e6b64;}
+.health-dot-wrap:hover .health-tooltip{display:block !important;opacity:1 !important;}
+@media(max-width:768px){
+  .grid-3{grid-template-columns:1fr!important;}
+}
+</style>
+</head>
+<body>
+<div style="max-width:1600px;margin:0 auto;padding:3rem 3rem 6rem;">
+
+  {# ── Header ── #}
+  <div style="margin-bottom:3rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(255,255,255,0.07);">
+    <div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:#333330;margin-bottom:12px;">{{ date_str }}</div>
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:12px;">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 32" width="160" height="26">
+          <circle cx="14" cy="16" r="12" fill="none" stroke="#c0392b" stroke-width="1" opacity="0.25"/>
+          <circle cx="14" cy="16" r="8" fill="none" stroke="#c0392b" stroke-width="1.2" opacity="0.45"/>
+          <circle cx="14" cy="16" r="4.5" fill="#c0392b"/>
+          <text x="32" y="22" font-family="'Playfair Display',Georgia,serif" font-size="20" font-weight="400" fill="#e8e4dc" letter-spacing="0.02em">Daily Briefing</text>
+        </svg>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;padding-bottom:6px;">
+        <button id="gh-connect-btn" onclick="setupGhToken()" style="background:none;border:1px solid rgba(255,255,255,0.08);border-radius:6px;cursor:pointer;padding:4px 10px;color:#444440;font-size:11px;font-family:Inter,sans-serif;transition:all 0.15s;display:none;" onmouseover="this.style.color='#f0ece4';this.style.borderColor='rgba(255,255,255,0.2)'" onmouseout="this.style.color='#444440';this.style.borderColor='rgba(255,255,255,0.08)'">Connect GitHub</button>
+        <button id="gh-connected-btn" style="background:none;border:1px solid rgba(42,122,110,0.3);border-radius:6px;padding:4px 10px;color:#4aaa99;font-size:11px;font-family:Inter,sans-serif;display:none;">&#10003; GitHub connected</button>
+        <span style="font-size:11px;color:#2a2a28;" id="refresh-status">{{ health_dot }}Refreshes automatically</span>
+      </div>
+    </div>
+  </div>
+
+  {# ── Breaking News ── #}
+  {% set ac_b = accents.breaking %}
+  <div style="margin-bottom:3.5rem;">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div style="width:3px;height:24px;border-radius:2px;background:{{ ac_b }};flex-shrink:0;"></div>
+        <div style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:500;letter-spacing:-0.01em;">Breaking News</div>
+        <button id="refresh-breaking" onclick="triggerCategoryRefresh('breaking')" title="Refresh Breaking News" style="background:none;border:none;cursor:pointer;padding:4px;color:#2a2a28;font-size:13px;flex-shrink:0;line-height:1;transition:color 0.15s;display:none;" onmouseover="this.style.color='#6e6b64'" onmouseout="this.style.color='#2a2a28'">↻</button>
+      </div>
+      <span style="font-size:11px;color:#2a2a28;">Updated {{ updated_str }}</span>
+    </div>
+    {% if not breaking %}
+    <p style="padding:1.5rem 0.5rem;color:#333330;font-size:13px;">Nothing significant right now.</p>
+    {% else %}
+    <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:10px;">
+      {% for story in breaking[:3] %}
+      {{ render_story(story, loop.index0, ac_b, is_top=(loop.index0 == 0), variant='breaking') }}
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if yesterday_breaking %}
+    <div style="margin-top:1.5rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.05);opacity:0.45;">
+      <p style="font-size:11px;color:#555550;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:10px;text-align:center;">Previously</p>
+      <div style="display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:10px;">
+        {% for story in yesterday_breaking[:3] %}
+        {{ render_story(story, loop.index0, ac_b, variant='yesterday_breaking') }}
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+
+  {# ── World Topics + Developing Situations row ── #}
+  <div style="display:grid;grid-template-columns:3fr 2fr;gap:2rem;margin-bottom:3.5rem;">
+
+    {# World topics #}
+    <div>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:3px;height:24px;border-radius:2px;background:{{ accents.world }};flex-shrink:0;"></div>
+          <div style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:500;letter-spacing:-0.01em;">What the world is talking about</div>
+          <button id="refresh-world_topics" onclick="triggerCategoryRefresh('world_topics')" title="Refresh World Topics" style="background:none;border:none;cursor:pointer;padding:4px;color:#2a2a28;font-size:13px;flex-shrink:0;line-height:1;transition:color 0.15s;display:none;" onmouseover="this.style.color='#6e6b64'" onmouseout="this.style.color='#2a2a28'">↻</button>
+        </div>
+        <div style="display:flex;gap:4px;">
+          {% for tab_id, tab_label in [('today', 'Today'), ('week', 'This Week'), ('month', 'This Month')] %}
+          {% set is_first = loop.first %}
+          <button onclick="switchTab('{{ tab_id }}')" id="tab-{{ tab_id }}" style="padding:6px 16px;border-radius:999px;font-size:12px;cursor:pointer;border:none;font-family:Inter,sans-serif;font-weight:{{ '500' if is_first else '400' }};background:{{ 'rgba(123,104,200,0.2)' if is_first else 'transparent' }};color:{{ '#b8b0e8' if is_first else '#555550' }};">{{ tab_label }}</button>
+          {% endfor %}
+        </div>
+      </div>
+      {% for tab_id, tab_label in [('today', 'Today'), ('week', 'This Week'), ('month', 'This Month')] %}
+      {% set tab_stories = world_topics[tab_id] if tab_id in world_topics else [] %}
+      <div id="panel-{{ tab_id }}" style="display:{{ 'block' if loop.first else 'none' }};">
+        {% if not tab_stories %}
+        <p style="color:#333330;font-size:13px;padding:1rem 0;">No data available.</p>
+        {% else %}
+        {% for s in tab_stories[:5] %}
+        {% set num = ('0' ~ loop.index) if loop.index < 10 else loop.index|string %}
+        <div style="display:flex;gap:14px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+          <span style="font-size:11px;color:#2a2a28;min-width:20px;margin-top:2px;flex-shrink:0;">{{ num }}</span>
+          <div style="flex:1;">
+            <div style="font-size:14px;font-weight:400;color:#f0ece4;line-height:1.4;margin-bottom:4px;">{{ s.headline|default('')|e }}</div>
+            <div style="font-size:12px;color:#555550;line-height:1.5;">{{ s.why|default('')|e }}</div>
+            <div style="font-size:11px;color:#333330;margin-top:4px;">{{ s.coverage|default('')|e }}</div>
+          </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+    {# Developing situations #}
+    <div>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <div style="width:3px;height:24px;border-radius:2px;background:{{ accents.developing }};flex-shrink:0;"></div>
+          <div style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:500;letter-spacing:-0.01em;">Developing situations</div>
+        </div>
+      </div>
+      {% if not developing_situations %}
+      <p style="font-size:13px;line-height:1.7;color:#8a8680;font-style:italic;padding:1rem 0;">No situations being tracked. Star a story to start tracking.</p>
+      {% endif %}
+      {% for s in developing_situations %}
+      {% set badge_bg = 'rgba(42,122,110,0.2)' if s.type == 'auto' else 'rgba(123,104,200,0.2)' %}
+      {% set badge_color = '#4aaa99' if s.type == 'auto' else '#b8b0e8' %}
+      {% set badge_text = 'auto' if s.type == 'auto' else 'pinned' %}
+      {% set sit_id = 'sit-' ~ s.topic|urlencode_component %}
+      <div id="{{ sit_id }}" style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:16px 18px;margin-bottom:8px;transition:opacity 0.4s;">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+          <div style="font-size:14px;font-weight:500;color:#f0ece4;">{{ s.topic|e }}<span style="font-size:10px;padding:2px 8px;border-radius:999px;background:{{ badge_bg }};color:{{ badge_color }};margin-left:8px;vertical-align:middle;">{{ badge_text }}</span></div>
+          <button onclick="removeSituation({{ s.topic|tojson }})" title="Stop tracking" style="background:none;border:none;cursor:pointer;color:#333330;font-size:16px;padding:0;line-height:1;transition:color 0.15s;" onmouseover="this.style.color='#c0392b'" onmouseout="this.style.color='#333330'">&#215;</button>
+        </div>
+        <div style="font-size:13px;line-height:1.7;color:#8a8680;{% if not s.has_update %}font-style:italic;{% endif %}">{{ s.update|default('No updates today.')|e }}</div>
+        {% if s.has_update and s.articles %}
+        <div style="margin-top:10px;">
+          {% for a in s.articles %}
+          {% if a.url and a.url.startswith('http') %}
+          <a href="{{ a.url }}" target="_blank" rel="noreferrer noopener" style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 12px;border-radius:8px;background:#0d0d0c;text-decoration:none;margin-bottom:3px;border:1px solid rgba(255,255,255,0.04);">
+            <span style="font-size:13px;color:#c8c4bc;line-height:1.4;flex:1;font-weight:300;">{{ a.title|default('')|e }}</span>
+            <span style="font-size:11px;color:#444440;white-space:nowrap;flex-shrink:0;margin-left:8px;">{{ a.source|default('')|e }}</span>
+          </a>
+          {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+
+  {# ── 3-column grid ── #}
+  <div class="grid-3" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;margin-bottom:3.5rem;">
+    {% for cat in col_categories %}
+    <div style="min-width:0;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
+        <div style="width:3px;height:22px;border-radius:2px;background:{{ cat.ac }};flex-shrink:0;"></div>
+        <div style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:500;letter-spacing:-0.01em;">{{ cat.label }}</div>
+        <span style="font-size:10px;color:#333330;background:rgba(255,255,255,0.05);padding:2px 8px;border-radius:999px;">{{ cat.data|length }}</span>
+        <button id="refresh-{{ cat.id }}" onclick="triggerCategoryRefresh('{{ cat.id }}')" title="Refresh {{ cat.label }}" style="background:none;border:none;cursor:pointer;padding:4px;color:#2a2a28;font-size:12px;flex-shrink:0;line-height:1;transition:color 0.15s;display:none;" onmouseover="this.style.color='#6e6b64'" onmouseout="this.style.color='#2a2a28'">↻</button>
+      </div>
+      {% if not cat.data %}
+      <p style="padding:1rem 0.5rem;color:#333330;font-size:13px;">Nothing significant right now.</p>
+      {% else %}
+      {% for story in cat.data %}
+      {{ render_story(story, loop.index0, cat.ac, is_top=(loop.index0 == 0), variant='column') }}
+      {% endfor %}
+      {% endif %}
+      {% if cat.yesterday %}
+      <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.05);">
+        <p style="font-size:11px;color:#333330;letter-spacing:0.05em;text-transform:uppercase;margin-bottom:8px;">Previously</p>
+        {% for story in cat.yesterday %}
+        {{ render_story(story, loop.index0, cat.ac, is_yesterday=True, variant='column') }}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+</div>
+
+{# ── Story modal ── #}
+<div id="modal-overlay" onclick="closeModal()" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:2000;align-items:center;justify-content:center;padding:2rem;">
+  <div id="modal-box" onclick="event.stopPropagation()" style="background:#1c1c1a;border:1px solid rgba(255,255,255,0.12);border-radius:16px;width:min(780px,90vw);max-height:85vh;overflow-y:auto;transform:translateY(20px);opacity:0;transition:transform 0.25s ease,opacity 0.25s ease;">
+    <div style="padding:2rem 2rem 0;">
+      <div id="modal-image" style="display:none;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:10px;margin-bottom:1.5rem;"><img id="modal-img-el" style="width:100%;height:100%;object-fit:cover;" onerror="document.getElementById('modal-image').style.display='none'"/></div>
+      <div id="modal-headline" style="font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:500;line-height:1.4;color:#f0ece4;margin-bottom:1.25rem;"></div>
+      <div id="modal-summary" style="font-size:14px;line-height:1.8;color:#8a8680;border-left:2px solid #555550;padding:12px 16px;border-radius:0 8px 8px 0;background:#111110;margin-bottom:1.5rem;"></div>
+    </div>
+    <div id="modal-articles" style="padding:0 2rem 2rem;display:flex;flex-direction:column;gap:6px;"></div>
+    <button onclick="closeModal()" style="position:sticky;bottom:0;display:block;width:100%;padding:14px;background:#111110;border:none;border-top:1px solid rgba(255,255,255,0.07);color:#555550;font-size:13px;cursor:pointer;border-radius:0 0 16px 16px;font-family:Inter,sans-serif;transition:color 0.15s;" onmouseover="this.style.color='#f0ece4'" onmouseout="this.style.color='#555550'">Close</button>
+  </div>
+</div>
+
+{# ── Star popup ── #}
+<div id="star-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:1000;align-items:center;justify-content:center;">
+  <div style="background:#1c1c1a;border:1px solid rgba(255,255,255,0.12);border-radius:16px;padding:1.5rem;width:min(440px,90vw);">
+    <div style="font-size:14px;font-weight:500;color:#f0ece4;margin-bottom:6px;">Track this situation</div>
+    <div id="star-headline-preview" style="font-size:12px;color:#555550;margin-bottom:14px;font-style:italic;line-height:1.4;"></div>
+    <div id="star-pills" style="margin-bottom:10px;"></div>
+    <div style="font-size:12px;color:#6e6b64;margin-bottom:6px;">Or type a custom topic:</div>
+    <input id="star-input" type="text" style="width:100%;padding:10px 14px;border-radius:8px;border:1px solid rgba(255,255,255,0.12);background:#111110;color:#f0ece4;font-size:14px;font-family:Inter,sans-serif;outline:none;margin-bottom:10px;" placeholder="e.g. Arsenal title race" onkeydown="if(event.key==='Enter')confirmStar();if(event.key==='Escape')closeStarPopup();"/>
+    <div id="star-status" style="font-size:12px;color:#4aaa99;margin-bottom:12px;min-height:18px;"></div>
+    <div style="display:flex;gap:8px;justify-content:flex-end;">
+      <button onclick="closeStarPopup()" style="padding:7px 16px;border-radius:8px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:#6e6b64;cursor:pointer;font-family:Inter,sans-serif;font-size:13px;">Cancel</button>
+      <button onclick="confirmStar()" style="padding:7px 16px;border-radius:8px;border:none;background:#c9a96e;color:#000;cursor:pointer;font-family:Inter,sans-serif;font-size:13px;font-weight:500;">Track</button>
+    </div>
+  </div>
+</div>
+
+<script>
+var BUILD_TS = {{ build_ts }};
+var GITHUB_REPO = "chravis999888/Daily-Briefing";
+var PINNED_FILE_PATH = "pinned.txt";
+var ghToken = localStorage.getItem("gh_token");
+
+// ── GitHub token setup ──
+function ensureGhToken(cb) {
+  if (ghToken) { cb(ghToken); return; }
+  var tok = prompt("Enter your GitHub Personal Access Token to enable story tracking:\n(One-time setup — stored locally in your browser)");
+  if (!tok) return;
+  ghToken = tok.trim();
+  localStorage.setItem("gh_token", ghToken);
+  cb(ghToken);
+}
+
+// ── Read pinned.txt from GitHub ──
+function getPinned(token, cb) {
+  fetch("https://api.github.com/repos/" + GITHUB_REPO + "/contents/" + PINNED_FILE_PATH + "?t=" + Date.now(), {
+    headers: { "Authorization": "Bearer " + token, "Accept": "application/vnd.github+json", "Cache-Control": "no-cache" }
+  })
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    var content = data.content ? atob(data.content.replace(/\n/g,"")) : "";
+    var sha = data.sha || "";
+    var topics = content.split("\n").map(function(l){return l.trim();}).filter(Boolean);
+    cb(topics, sha, content);
+  })
+  .catch(function() { cb([], "", ""); });
+}
+
+// ── Write pinned.txt to GitHub ──
+function writePinned(token, topics, sha, cb) {
+  var content = btoa(topics.join("\n") + (topics.length ? "\n" : ""));
+  var body = { message: "Update pinned situations", content: content };
+  if (sha) body.sha = sha;
+  fetch("https://api.github.com/repos/" + GITHUB_REPO + "/contents/" + PINNED_FILE_PATH, {
+    method: "PUT",
+    headers: { "Authorization": "Bearer " + token, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+    body: JSON.stringify(body)
+  })
+  .then(function(r) { if (cb) cb(r.ok); })
+  .catch(function() { if (cb) cb(false); });
+}
+
+// ── GitHub token setup ──
+function setupGhToken() {
+  var tok = prompt("Enter your GitHub Personal Access Token:\n(One-time setup — stored locally in your browser)\n\nNeeds 'repo' scope at github.com/settings/tokens");
+  if (!tok) return;
+  ghToken = tok.trim();
+  localStorage.setItem("gh_token", ghToken);
+  updateGhButtons();
+}
+
+function updateGhButtons() {
+  var connectBtn = document.getElementById('gh-connect-btn');
+  var connectedBtn = document.getElementById('gh-connected-btn');
+  if (ghToken) {
+    if (connectBtn) connectBtn.style.display = 'none';
+    if (connectedBtn) connectedBtn.style.display = 'inline-block';
+    document.querySelectorAll('[id^="refresh-"]').forEach(function(btn) { btn.style.display = 'inline-block'; });
+  } else {
+    if (connectBtn) connectBtn.style.display = 'inline-block';
+    if (connectedBtn) connectedBtn.style.display = 'none';
+  }
+}
+// Run on page load
+updateGhButtons();
+
+// ── Star popup ──
+function showStarPopup(headline, suggestions) {
+  var overlay = document.getElementById("star-overlay");
+  var input = document.getElementById("star-input");
+  var status = document.getElementById("star-status");
+  var pillsContainer = document.getElementById("star-pills");
+  overlay.style.display = "flex";
+  input.value = (suggestions && suggestions[0]) ? suggestions[0] : "";
+  status.textContent = "";
+  if (pillsContainer) {
+    pillsContainer.innerHTML = "";
+    (suggestions || []).forEach(function(s) {
+      var pill = document.createElement("button");
+      pill.textContent = s;
+      pill.style.cssText = "padding:5px 12px;border-radius:999px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:#8a8680;cursor:pointer;font-size:12px;font-family:Inter,sans-serif;margin:3px;transition:all 0.15s;";
+      pill.onmouseover = function(){this.style.background='rgba(201,169,110,0.15)';this.style.color='#c9a96e';this.style.borderColor='rgba(201,169,110,0.3)';};
+      pill.onmouseout = function(){this.style.background='transparent';this.style.color='#8a8680';this.style.borderColor='rgba(255,255,255,0.1)';};
+      pill.onclick = function(){input.value=s;};
+      pillsContainer.appendChild(pill);
+    });
+  }
+  document.getElementById("star-headline-preview").textContent = '"' + headline.substring(0,80) + (headline.length>80?"...":'"');
+  input.focus();
+  input.select();
+}
+
+function closeStarPopup() {
+  document.getElementById("star-overlay").style.display = "none";
+}
+
+function confirmStar() {
+  var topic = document.getElementById("star-input").value.trim();
+  if (!topic) return;
+  var status = document.getElementById("star-status");
+  status.textContent = "Saving...";
+  ensureGhToken(function(token) {
+    getPinned(token, function(topics, sha) {
+      if (topics.indexOf(topic) === -1) topics.push(topic);
+      writePinned(token, topics, sha, function(ok) {
+        if (ok) {
+          status.textContent = "✓ Now tracking: " + topic;
+          fetch('https://api.github.com/repos/' + GITHUB_REPO + '/actions/workflows/briefing.yml/dispatches', {
+            method: 'POST',
+            headers: { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+            body: JSON.stringify({ ref: 'main', inputs: { mode: 'deploy_only', category: '' } })
+          }).then(function() {
+            status.textContent = "✓ Tracked — briefing updating...";
+            setTimeout(closeStarPopup, 2000);
+          });
+        } else {
+          status.textContent = "Failed — check your token";
+        }
+      });
+    });
+  });
+}
+
+function removeSituation(topic) {
+  ensureGhToken(function(token) {
+    getPinned(token, function(topics, sha) {
+      var updated = topics.filter(function(t) { return t !== topic; });
+      writePinned(token, updated, sha, function(ok) {
+        if (ok) {
+          var el = document.getElementById("sit-" + encodeURIComponent(topic));
+          if (el) el.style.opacity = "0.3";
+          setTimeout(function() { if(el) el.remove(); }, 400);
+        }
+      });
+    });
+  });
+}
+
+// ── Story modal ──
+function openModal(headline, summary, articles, image) {
+  document.getElementById('modal-headline').textContent = headline;
+  document.getElementById('modal-summary').textContent = summary;
+  var imgWrap = document.getElementById('modal-image');
+  var imgEl = document.getElementById('modal-img-el');
+  if (image && image.startsWith('http')) {
+    imgEl.src = image;
+    imgWrap.style.display = 'block';
+  } else {
+    imgWrap.style.display = 'none';
+  }
+  var artContainer = document.getElementById('modal-articles');
+  artContainer.innerHTML = '';
+  if (articles && articles.length) {
+    articles.forEach(function(a) {
+      if (!a.url || !a.url.startsWith('http')) return;
+      var el = document.createElement('a');
+      el.href = a.url;
+      el.target = '_blank';
+      el.rel = 'noreferrer noopener';
+      el.style.cssText = 'display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;border-radius:8px;background:#111110;text-decoration:none;border:1px solid rgba(255,255,255,0.05);transition:border-color 0.15s;';
+      el.onmouseover = function(){this.style.borderColor='rgba(255,255,255,0.12)';};
+      el.onmouseout = function(){this.style.borderColor='rgba(255,255,255,0.05)';};
+      el.innerHTML = '<span style="font-size:13px;color:#c8c4bc;line-height:1.4;flex:1;font-weight:300;">' + (a.title||'').replace(/</g,'&lt;') + '</span><span style="font-size:11px;color:#444440;white-space:nowrap;flex-shrink:0;margin-left:8px;">' + (a.source||'') + '</span>';
+      artContainer.appendChild(el);
+    });
+  }
+  var overlay = document.getElementById('modal-overlay');
+  var box = document.getElementById('modal-box');
+  overlay.style.display = 'flex';
+  box.scrollTop = 0;
+  setTimeout(function() {
+    box.style.transform = 'translateY(0)';
+    box.style.opacity = '1';
+  }, 10);
+}
+
+function closeModal() {
+  var overlay = document.getElementById('modal-overlay');
+  var box = document.getElementById('modal-box');
+  box.style.transform = 'translateY(20px)';
+  box.style.opacity = '0';
+  setTimeout(function() { overlay.style.display = 'none'; }, 250);
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeModal();
+});
+
+// ── World tabs ──
+function switchTab(label){
+  ['today','week','month'].forEach(function(l){
+    var panel=document.getElementById('panel-'+l);
+    var tab=document.getElementById('tab-'+l);
+    if(panel) panel.style.display = l===label?'block':'none';
+    if(tab){
+      tab.style.background = l===label?'rgba(123,104,200,0.2)':'transparent';
+      tab.style.color = l===label?'#b8b0e8':'#555550';
+      tab.style.fontWeight = l===label?'500':'400';
+    }
+  });
+}
+
+// ── Category refresh ──
+function triggerCategoryRefresh(category) {
+  if (!ghToken) {
+    setupGhToken();
+    if (!ghToken) return;
+  }
+  var btn = document.getElementById("refresh-" + category);
+  if (btn) btn.textContent = "…";
+  fetch("https://api.github.com/repos/" + GITHUB_REPO + "/actions/workflows/briefing.yml/dispatches", {
+    method: "POST",
+    headers: { "Authorization": "Bearer " + ghToken, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+    body: JSON.stringify({ ref: "main", inputs: { mode: "category", category: category } })
+  })
+  .then(function(r) {
+    if (btn) btn.textContent = r.ok ? "✓" : "✗";
+    setTimeout(function() { if (btn) btn.textContent = "↻"; }, 3000);
+  })
+  .catch(function() { if (btn) { btn.textContent = "✗"; setTimeout(function() { btn.textContent = "↻"; }, 3000); } });
+}
+
+// (refresh button visibility handled by updateGhButtons above)
+
+// ── Auto-refresh ──
+setInterval(function(){
+  fetch(window.location.href+'?ts='+Date.now())
+    .then(function(r){return r.text();})
+    .then(function(html){
+      var match = html.match(/var BUILD_TS = (\d+)/);
+      if(match && parseInt(match[1]) > BUILD_TS){
+        document.getElementById('refresh-status').textContent = 'New update — reloading...';
+        setTimeout(function(){ window.location.reload(); }, 2000);
+      }
+    }).catch(function(){});
+}, 5 * 60 * 1000);
+</script>
+</body>
+</html>

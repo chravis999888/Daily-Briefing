@@ -1,113 +1,20 @@
 # Daily Briefing — Project Status
 
-## ✅ Shipped
-
-- **v0.6a — File split + Jinja2 templating** — fetch_news.py (~2200 lines) split into: `memory.py` (all memory/health functions), `api.py` (Claude wrappers, log_api_call, relative_time, format_articles_for_prompt), `fetchers.py` (all RSS/HTTP fetchers + fetch_world_topic_sources), `processors.py` (all category processors + world topics + developing situations, HEADLINE_RULES). HTML extracted into `page/builder.py` + `page/template.html` (Jinja2). Three diverged render_story() variants unified into a single Jinja2 macro with `variant` parameter. **Decisions:** `html/` renamed `page/` — `html/` shadows Python stdlib `html` module which feedparser imports; `log_api_call` placed in `api.py` not `memory.py` — only called from API wrappers; `ACCENTS` in `page/builder.py`, `HEADLINE_RULES` in `processors.py`.
-- UI overhaul — modal system, 3-column layout, breaking news full-width at top
-- Logo and favicon — pulse dot mark, Playfair Display wordmark
-- World trends section — Google News RSS + YouTube + Google Trends RSS + Reddit fallback, Today/Week/Month tabs built from memory
-- Developing situations tracker — star/pin system, auto-detection, remove button
-- Cost optimisations — article hashing, caching, deploy-only mode, per-story sleeps, memory-based summary reuse
-- GDELT hardening — separated JSON/network error handling, 30s timeout, HTTP status logging, one retry + RSS fallback, error bubbled into health.json, 2h rate-limit gate in memory, URL-encoded RSS fallback query
-- Breaking news RSS backbone — Reuters, AP News, BBC News, Al Jazeera added to both breaking_only and full runs alongside Guardian + GDELT
-- Mock mode — hardcoded data for local preview without burning API credits
-- Cloudflare Pages deployment — wrangler deploy via GitHub Actions, sentinel-file gating, confirmed working end-to-end
-- Rate limit fixes — sleep spacing across all four processors
-- "Previously" cards — yesterday's stories shown below each category
-- Summaries missing from HTML — save_today_stories now persists all fields; url added to all four results dicts
-- 429 rate limit crash on tracking suggestions — RateLimitError caught, returns []; sleep(2) added before each call
-- GDELT root cause diagnosis — exact error captured in health.json; gate skips logged as info not error
-- v0.5 Bug fixes pass 1 — GDELT RSS URL fix (urllib.parse.urlencode), star popup cache busting (?t=Date.now + Cache-Control), Previously cards clickable (full story passed to render_story; breaking PREVIOUSLY cards get onclick+cursor:pointer), breaking news persistence in full run (fallback to cache on empty), deploy flag only on content change (all run modes), health dot custom tooltip (CSS hover, fade-in), Fabrizio Romano Telegram scraper removed
-- v0.5 Bug fixes pass 2 — Tracking suggestions merged into Sonnet summary pass (single API call, no separate Haiku), generate_tracking_suggestions() deleted, archaeology seen-URL filter (cross-references all memory URLs before passing to Claude)
-- v0.5 Bug fixes pass 3 — get_articles_hash switched from hash() to hashlib.md5 (fixes PYTHONHASHSEED randomization that was making category_has_changed always return True), process_australia category-mode crash fixed (was passing 2 args to 3-arg function), removeSituation visual removal fixed (Python sit_id now uses urllib.parse.quote, JS uses encodeURIComponent — both produce the same ID)
-- v0.5 Bug fixes pass 4 — Breaking news modal showing wrong articles fixed: cached_sources was replacing articles_list instead of appending, causing the modal to show unrelated previously-covered stories instead of the actual source article. Now uses articles_list + cached_sources, matching Australia and Football processors.
-- Cost audit & optimisation pass 1 — Six changes targeting ~$35/month reduction from observed ~$50/month run rate: (1) world topics removed from breaking_only runs — now reads from cache, saves 3 Haiku calls × 48 runs/day; (2) breaking_only now gates the Sonnet selection call behind category_has_changed, saving ~40/48 Sonnet calls per day when articles unchanged; (3) find_related_cached_stories Haiku call replaced with Python keyword matching (word-overlap heuristic), eliminating ~14 Haiku calls per full run; (4) double context search blocks removed from process_australia and process_football — deeper_search block was identical duplicate of the context block above it; (5) get_ai_summary max_tokens reduced 600→400; (6) developing_situations in breaking_only skipped when no topics are being tracked.
-- API cost instrumentation — log_api_call() helper logs every client.messages.create() call to cost_log.json with timestamp, run_type, label, model, token counts and USD cost. All 11 call sites labelled: breaking_selection, australia_selection, archaeology_selection, football_selection, story_summary, world_topics_today, world_topics_week/month, developing_situations, context_search, context_search_sonnet, sonnet_haiku_fallback. cost_log.json persisted in GitHub Actions alongside memory.json and health.json. Data source for v0.7 cost dashboard.
-- v0.5 Bug fixes pass 5 — Breaking news over-filtering fixed: carve-out added to allow significant statements/announcements from heads of state as discrete breaking events when they advance an ongoing geopolitical situation. Australia prompt rewritten around a single editorial test (did a concrete event occur that materially affects Australians?) — federal-only scope and topic checklist removed, explicit pass/fail examples added. AI refusal fallback added to get_ai_summary(): if returned summary contains a refusal phrase, retries with a framing preamble; if retry also refuses, falls back to a single plain sentence from the headline.
-
----
+## Last Shipped
+v0.5 Bug fixes pass 5 — Breaking news heads-of-state carve-out, Australia prompt philosophy rewrite, AI refusal retry fallback in get_ai_summary()
 
 ## 🔄 In Progress
-
 Nothing currently in progress.
 
----
-
-## 📋 Next Up
-
-### v0.5 — Bug fixes
-- Auto-refresh 404 handling — graceful fallback if page not found on poll
-- GDELT failure alert — email or webhook after 3 consecutive failures
-- Archaeology duplicate detection — same story different headline
-- Archaeology recency filter on RSS feeds
-- Foreign language RSS — drop or replace with English equivalents
-- Fabrizio Romano — gold standard transfer source, needs a reliable feed. Telegram scraper removed as too fragile. Find a stable solution.
-
-### v0.6 — Infra Reset
-- ~~Jinja2 templating — extract 1500-line HTML f-string into template.html~~ ✅ done in v0.6a
-- ~~render_story() consolidation — one function not three diverged versions~~ ✅ done in v0.6a
-- Cloudflare Workers + KV — replace GitHub API browser hacks for starring/deleting/refreshing
-- Memory/KV migration plan — decide what stays in GitHub vs moves to KV
-
-### v0.7 — Features
-- Cost/stats dashboard — cost_log.json data collection done (✅). Remaining: Chart.js visualisation in HTML, AUD conversion at 1.55, per-label breakdown, rolling 30-day totals
-- Dynamic story threading — stories with clear real-world correlations outside their immediate category scope (e.g. refinery fire → fuel crisis → cost of living) should be surfaced in the modal summary. Quality observation logged 17 April 2026, no implementation yet.
-- Sleep mode — restrict cron to waking hours (user to confirm hours, Brisbane AEST)
-- Instant delete on developing situations — no page reload needed
-- Loading state for category refresh buttons
-- Breaking news graceful degradation — handle 1, 2, or 3 stories without breaking grid
-- Settings/stats modal — ⚙ icon in header
-
-### v0.8 — Polish
-- Mobile responsiveness — full pass
-- Typography — tighten type scale, Playfair Display on all headlines
-- Modal improvements — tracking pills, better image handling
-- JS robustness — var globals, error boundaries, safe JSON parsing
-
-### v0.9 — Personalisation
-- Favourite team/league preferences
-- Thumbs up/down feedback loop
-- Per-user prompts
-- Category creation UI
-
-### v1.0 — Product
-- Multi-user — GitHub OAuth, shared processing pipeline
-- Brother's instance
-- Landing page and onboarding flow
-
----
-
-## 🐛 Known Issues
-
-- **GDELT rate-limited on shared GitHub Actions IPs** — 2h gate + Reuters/AP/BBC/Al Jazeera RSS backbone in place as fallback
-- **Auto-developing situations not triggering** — needs ~1 week of consistent memory history to build up enough signal
-- **529 overloaded errors** — transient Anthropic API issue, retry after 10-15 mins
-- **Football sourcing bias** — context articles sometimes skewed by player nationality rather than footballing relevance. Example: Enez Abde/Real Betis story pulled Marca, Mundo Betis and Africa Soccer rather than major European outlets because he is Moroccan. Needs prompt-level fix in context article search.
-- **`call_haiku` has no error handling** — `call_sonnet` has retries, rate limit backoff and a Haiku fallback. `call_haiku` is a bare call with no try/except. A 429 or 529 from Haiku will raise an unhandled exception and crash the entire run.
-- **Sonnet silent Haiku fallback** — any Sonnet error other than `RateLimitError` (network error, 529 overloaded etc.) silently falls back to Haiku with no health log entry written. Summaries and story selection degrade to Haiku quality with no visible signal.
-- **GDELT race condition** — the 2-hour gate relies on `last_gdelt_attempt` in committed `memory.json`. If two runs are dispatched close together (manual dispatch + scheduled cron), both can read the same memory before either commits, both see the gate as inactive and both hit GDELT simultaneously. Likely cause of some of the 429s in health.json.
-- **Escape key doesn't close star popup** — the keydown handler only calls `closeModal()`. If the star popup is open, Escape does nothing. `closeStarPopup()` needs to be added to the handler.
-- **Star popup can't be dismissed by clicking outside** — the story modal closes when clicking the overlay background. The star popup overlay has no `onclick` handler so click-outside-to-dismiss doesn't work.
-- **Haiku used for complex reasoning** — world topics clustering and developing situations processing use Haiku despite having complex REJECT/ONLY instructions. Haiku frequently doesn't follow these reliably, likely why world topics sometimes returns generic categories despite explicit instructions.
-- **Dead `errors` key in health.json** — the top-level `"errors": []` key is written in the default health dict and never populated by `log_run`. Whatever it was intended for is unimplemented.
-- **Summary cache eviction is insertion-order not LRU** — when the summary cache exceeds 500 entries it deletes the oldest-inserted keys regardless of recent use. Recurring stories lose cached summaries faster than new ones.
-- **`call_sonnet_with_search` silent empty return** — if Sonnet uses web search but the response contains only `tool_use` blocks with no final `text` block, the function returns empty string silently. Callers treat this the same as a legitimate empty result.
-
----
-
-## 🐛 Known Bugs
-
-### Australia category — stale story + only 1 Previously card
-*Observed in production 15 April 2026*
-
-**Root cause confirmed and partially fixed (Pass 3):** The `get_articles_hash` function was using Python's built-in `hash()`, which is randomized per-process via PYTHONHASHSEED. This meant `category_has_changed` always returned True (hashes never matched across GitHub Actions runs), so every run re-processed all articles as if they were new — defeating dedup entirely. Fixed in Pass 3 by switching to `hashlib.md5`.
-
-**Remaining risk:** A story with a slightly different URL or headline each run can still defeat story-level dedup (the seen-URL filter added in Pass 2 covers archaeology; Australia and Football do not have the same filter yet). Monitor in production — if the stale story issue persists after the hash fix, the seen-URL filter should be extended to Australia and Football.
-
----
+## 📌 Critical Context
+- Owner is in Brisbane, Australia — all timestamps in AEST (UTC+10)
+- AUD conversion hardcoded at 1.55
+- Claude Code handles all file edits — paste briefs directly into Claude Code chat
+- Editorial philosophy: strict quality bars, factual headlines, no clickbait — see `HEADLINE_RULES` constant in `processors.py`
+- GitHub Issues is the single source of truth for all bugs and features
+- Full bug and feature backlog lives in GitHub Issues — not here
 
 ## 📁 Key Files
-
 | File | Purpose |
 |------|---------|
 | `fetch_news.py` | Entry point — orchestration and run mode switching only |
@@ -120,15 +27,5 @@ Nothing currently in progress.
 | `.github/workflows/briefing.yml` | Scheduling and deployment |
 | `memory.json` | Story cache, summaries, world trends, article hashes |
 | `health.json` | Run status and errors |
+| `cost_log.json` | API call costs — timestamp, model, tokens, USD per call |
 | `requirements.txt` | anthropic, requests, feedparser, beautifulsoup4, jinja2 |
-| `STATUS.md` | This file — update whenever a feature ships |
-
----
-
-## 📌 Context
-
-- Owner is in Brisbane, Australia — all timestamps in AEST (UTC+10)
-- AUD conversion hardcoded at 1.55
-- Claude Code handles all file edits — paste briefs directly into Claude Code chat
-- Editorial philosophy: strict quality bars, factual headlines, no clickbait — see `HEADLINE_RULES` constant in `fetch_news.py`
-- **Always add to Claude Code briefs:** "When done, update STATUS.md — move completed items to ✅ Shipped, update 🔄 In Progress and 🐛 Known Issues accordingly."

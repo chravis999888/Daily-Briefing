@@ -2,6 +2,7 @@
 
 ## ✅ Shipped
 
+- **README.md** — Written with full project description, architecture and setup instructions.
 - **v0.6a — File split + Jinja2 templating** — fetch_news.py (~2200 lines) split into: `memory.py` (all memory/health functions), `api.py` (Claude wrappers, log_api_call, relative_time, format_articles_for_prompt), `fetchers.py` (all RSS/HTTP fetchers + fetch_world_topic_sources), `processors.py` (all category processors + world topics + developing situations, HEADLINE_RULES). HTML extracted into `page/builder.py` + `page/template.html` (Jinja2). Three diverged render_story() variants unified into a single Jinja2 macro with `variant` parameter. **Decisions:** `html/` renamed `page/` — `html/` shadows Python stdlib `html` module which feedparser imports; `log_api_call` placed in `api.py` not `memory.py` — only called from API wrappers; `ACCENTS` in `page/builder.py`, `HEADLINE_RULES` in `processors.py`.
 - UI overhaul — modal system, 3-column layout, breaking news full-width at top
 - Logo and favicon — pulse dot mark, Playfair Display wordmark

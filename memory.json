@@ -1,7 +1,54 @@
 {
   "stories": {
     "2026-04-23": {
-      "breaking": [],
+      "breaking": [
+        {
+          "headline": "Iran seizes two ships in Strait of Hormuz and declares reopening 'impossible' citing ceasefire breaches, as US says Trump is satisfied with blockade",
+          "timestamp": "1 hr ago",
+          "score": 8,
+          "summary": "Iranian forces seized two commercial ships \u2014 the MSC Francesca and the Epaminondas \u2014 in the Strait of Hormuz, escalating a standoff in which both the US and Iran are now running competing blockades of the critical waterway. Iran's lead negotiator declared reopening the strait 'impossible' while accusing the US and Israel of violating a ceasefire through their naval blockade and other actions, effectively stalling peace talks. The Strait of Hormuz is the passage for roughly 20% of the world's oil supply, meaning simultaneous blockades and active ship seizures by two major military powers create serious risk of wider conflict and significant global energy price shocks.",
+          "url": "https://www.theguardian.com/world/2026/apr/22/iranian-forces-ships-seized-strait-of-hormuz-us-peace-talks",
+          "image": "https://media.guim.co.uk/4704403f9136cd917235d847d43e017ca99fc8a3/459_0_4599_3678/500.jpg",
+          "articles": [
+            {
+              "title": "\u2018Impossible\u2019 to reopen strait of Hormuz amid \u2018flagrant\u2019 ceasefire breaches, Iran says",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/22/iranian-forces-ships-seized-strait-of-hormuz-us-peace-talks"
+            },
+            {
+              "title": "Iran says it seized ships in Strait of Hormuz as U.S. blockade continues amid ceasefire",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates"
+            },
+            {
+              "title": "Iran seizes 2 ships in Strait of Hormuz after Trump extends ceasefire",
+              "source": "The Washington Post",
+              "url": "https://www.washingtonpost.com/world/2026/04/22/hormuz-strait-us-iran-talks-war/"
+            },
+            {
+              "title": "Trump doesn't view Iran's seizing of non-US ships as a ceasefire violation, White House says",
+              "source": "CNN",
+              "url": "https://www.cnn.com/2026/04/22/world/live-news/iran-war-us-trump-blockade-ceasefire"
+            },
+            {
+              "title": "Iran calls US ship seizure 'piracy': Is it?",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/22/iran-calls-us-ship-seizure-piracy-is-it"
+            },
+            {
+              "title": "2026 Iran war fuel crisis",
+              "source": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/2026_Iran_war_fuel_crisis"
+            }
+          ],
+          "tracking_suggestions": [
+            "Strait of Hormuz ship seizures",
+            "US-Iran naval standoff",
+            "Middle East ceasefire negotiations",
+            "global energy security"
+          ]
+        }
+      ],
       "australia": [],
       "archaeology": [
         {
@@ -576,10 +623,11 @@
     "https://www.theguardian.com/football/2026/apr/22/marie-louise-eta-union-berlin-interview-bundesliga": "Marie-Louise Eta has become the first woman to manage a men's top-flight football team in Germany after Union Berlin appointed her as head coach following the dismissal of Steffen Baumgart. She was working as the club's under-19 coach when club president Dirk Zingler called her at home and asked her to take charge for the rest of the season. The appointment was not purely symbolic \u2014 Eta had previous experience as an assistant coach with Union Berlin's senior men's team and was chosen on merit as the best available option. The move marks a significant milestone in European football, where women in top managerial roles in men's professional leagues remain extremely rare.",
     "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one": "Leicester City, who famously won the Premier League title in 2016 in one of sport's greatest upsets, have been relegated to League One, England's third tier of football, for the 2026-27 season. The club has suffered a dramatic decade-long decline, dropping from the top flight through the Championship and now into the third division. Owner Aiyawatt Srivaddhanaprabha acknowledged the failure but could not pinpoint a single cause, while supporters and analysts suggest the enormous success of 2016 may itself have planted the seeds of mismanagement and unrealistic expectations that followed. The fall is seen as both a unique cautionary tale and a reflection of wider structural problems in English football.",
     "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-leaves-chelsea-contract-2032": "Chelsea have sacked manager Liam Rosenior after just 106 days in charge, despite him having signed a contract running until 2032. His dismissal was triggered by five consecutive league defeats without a single goal scored \u2014 the worst such run since 1912 \u2014 leaving the club seven points outside Champions League qualification. Rosenior was brought in as recently as January to replace Enzo Maresca, making this Chelsea's second managerial change in the same season. Caretaker Calum McFarlane has stepped in again while the club searches for a permanent appointment, continuing a pattern of costly and destabilising managerial churn at Stamford Bridge.",
-    "https://www.theguardian.com/football/live/2026/apr/22/burnley-v-manchester-city-premier-league-live": "Manchester City hosted Burnley in a Premier League match on 22 April 2026, with City dominating possession at 66% and creating the majority of chances in a tight first half. City took a narrow lead into half-time despite Burnley carving out a couple of clear openings through Flemming. The result matters beyond this fixture because City lead Arsenal in a tight title race, meaning a City win would strengthen their grip on first place. Arsenal are left hoping Burnley can find a way back into the game in the second half."
+    "https://www.theguardian.com/football/live/2026/apr/22/burnley-v-manchester-city-premier-league-live": "Manchester City hosted Burnley in a Premier League match on 22 April 2026, with City dominating possession at 66% and creating the majority of chances in a tight first half. City took a narrow lead into half-time despite Burnley carving out a couple of clear openings through Flemming. The result matters beyond this fixture because City lead Arsenal in a tight title race, meaning a City win would strengthen their grip on first place. Arsenal are left hoping Burnley can find a way back into the game in the second half.",
+    "https://www.theguardian.com/world/2026/apr/22/iranian-forces-ships-seized-strait-of-hormuz-us-peace-talks": "Iranian forces seized two commercial ships \u2014 the MSC Francesca and the Epaminondas \u2014 in the Strait of Hormuz, escalating a standoff in which both the US and Iran are now running competing blockades of the critical waterway. Iran's lead negotiator declared reopening the strait 'impossible' while accusing the US and Israel of violating a ceasefire through their naval blockade and other actions, effectively stalling peace talks. The Strait of Hormuz is the passage for roughly 20% of the world's oil supply, meaning simultaneous blockades and active ship seizures by two major military powers create serious risk of wider conflict and significant global energy price shocks."
   },
   "article_hashes": {
-    "breaking": "1be1a63a7ac37ac7f1e758708fb52cc8"
+    "breaking": "b0afaa7c5f93fbaa08399f6b24c21fa4"
   },
   "world_topics_cache": {
     "today": [
@@ -664,5 +712,5 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-22T19:50:31.001256+00:00"
+  "last_gdelt_attempt": "2026-04-22T22:34:09.242698+00:00"
 }

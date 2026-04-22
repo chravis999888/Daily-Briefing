@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Fixed duplicate stories in Previously section; fixed Australia category non-AU story bleed
+Fixed breaking news article drop bug; cleared stale story cache to eliminate contaminated modal sources
 
 ## 🔄 In Progress
 Nothing currently in progress.

@@ -156,10 +156,11 @@ Raw JSON only, no markdown."""
     stories.sort(key=lambda x: x.get("score", 5), reverse=True)
 
     AU_TERMS = {
-        "australia", "australian", "australians", "abc", "abc news",
+        "australia", "australian", "australians",
         "sydney", "melbourne", "brisbane", "perth", "canberra", "adelaide",
         "hobart", "darwin", "albanese", "dutton", "nsw", "victoria",
-        "queensland", "tasmania", "afl", "nrl", "asic", "rba", "ato"
+        "queensland", "tasmania", "afl", "nrl", "asic", "rba", "ato",
+        "accc", "asx", "abc"
     }
 
     def is_australian_story(headline):

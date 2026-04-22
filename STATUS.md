@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-v0.5 Bug fixes pass 5 — Breaking news heads-of-state carve-out, Australia prompt philosophy rewrite, AI refusal retry fallback in get_ai_summary()
+Fixed modal onclick corruption via data-attrs; fixed developing situations .update() assignment bug
 
 ## 🔄 In Progress
 Nothing currently in progress.

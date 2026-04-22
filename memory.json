@@ -1,5 +1,248 @@
 {
-  "stories": {},
+  "stories": {
+    "2026-04-23": {
+      "breaking": [],
+      "australia": [],
+      "archaeology": [
+        {
+          "headline": "Genomic analysis suggests some Neanderthal populations may have received gene flow from early modern humans rather than Neanderthals being strictly ancestral to themselves, partially reversing the assumed direction of admixture",
+          "timestamp": "6 days ago",
+          "score": 8,
+          "summary": "A new genetic analysis reported by New Scientist suggests that Neanderthals descended from early modern humans rather than representing a separate evolutionary branch, which would reverse the established understanding of human evolution. The conventional model has held that Neanderthals and modern humans diverged from a common ancestor and evolved along separate paths, but this research indicates modern humans may have actually come first, with Neanderthals branching off afterward. This matters because it would fundamentally reshape our understanding of how our species developed and interacted with other human lineages over hundreds of thousands of years. The finding challenges decades of anthropological consensus and would require substantial supporting evidence to gain acceptance in the scientific community.",
+          "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Neanderthal neonates had significantly larger body masses than modern human infants at birth, according to new analysis of fossil skeletal remains",
+          "timestamp": "6 days ago",
+          "score": 7,
+          "summary": "A new skeletal growth analysis has found that Neanderthal newborns were significantly heavier at birth than modern human infants, challenging the long-held assumption that the two species followed roughly similar developmental paths. The findings suggest Neanderthals invested more energy in producing larger offspring at birth, which would have placed a greater physical burden on Neanderthal mothers during pregnancy and nursing. This matters because differences in maternal energy costs and infant dependency periods could have given early modern humans a competitive reproductive advantage, potentially contributing to why Neanderthals went extinct around 40,000 years ago. The research adds to a growing body of evidence that Neanderthals were biologically more distinct from us than previously thought, not just culturally or cognitively.",
+          "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "New genetic evidence re-examines the bottleneck hypothesis of human near-extinction, suggesting population crash estimates based on earlier models may be substantially overstated",
+          "timestamp": "6 days ago",
+          "score": 7,
+          "summary": "A 2023 study claimed that human ancestors went through a severe population bottleneck around 900,000 years ago, shrinking to just 1,280 breeding individuals and nearly going extinct. New genomic modeling now challenges this finding, suggesting the bottleneck may not have actually happened\u2014instead, it could be an artifact created by the statistical methods used to analyze the data. The original study had significant implications for how scientists understood human evolution, including the development of our larger brains and how modern humans emerged as a species. This contradiction highlights how genetic analysis can produce dramatically different conclusions depending on methodology, leaving the true demographic history of early human populations still uncertain.",
+          "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Researchers identify environmental and social pressures that drove early Homo sapiens to abandon established stone tool technologies and adopt new toolkits around 200,000 years ago in Africa",
+          "timestamp": "1 week ago",
+          "score": 6,
+          "summary": "Researchers studying 200,000-year-old African archaeological sites found that early humans switched their tool-making styles rapidly rather than gradually, driven by environmental stress and climate changes rather than sudden cognitive advances. The shift from the older Acheulean tools to Middle Stone Age toolkits appears to have been a practical response to resource scarcity caused by unstable environmental conditions. This challenges the long-held theory that such toolkit changes reflected major leaps in human intelligence or symbolic thinking. The finding matters because it reframes a pivotal moment in human prehistory as an ecological adaptation problem-solving rather than evidence of a fundamental change in how our ancestors' brains worked.",
+          "url": "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/"
+            }
+          ],
+          "tracking_suggestions": []
+        }
+      ],
+      "football": [
+        {
+          "headline": "Leicester City relegated to League One after a 10-year decline from Premier League title winners to third-tier football",
+          "timestamp": "2 hrs ago",
+          "score": 9,
+          "summary": "Leicester City, who famously won the Premier League title in 2016 in one of sport's greatest upsets, have been relegated to League One, England's third tier of football, for the 2026-27 season. The club has suffered a dramatic decade-long decline, dropping from the top flight through the Championship and now into the third division. Owner Aiyawatt Srivaddhanaprabha acknowledged the failure but could not pinpoint a single cause, while supporters and analysts suggest the enormous success of 2016 may itself have planted the seeds of mismanagement and unrealistic expectations that followed. The fall is seen as both a unique cautionary tale and a reflection of wider structural problems in English football.",
+          "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one",
+          "image": "https://media.guim.co.uk/75ab2cae3e2e6096409e63e4a1e44d56c6b195cb/28_0_4560_3648/500.jpg",
+          "articles": [
+            {
+              "title": "Leicester\u2019s decline and fall feels like a cruel parable as League One beckons | Paul MacInnes",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one"
+            },
+            {
+              "title": "Former Premier League champions Leicester relegated to League One",
+              "source": "Vanguard News",
+              "url": "https://www.vanguardngr.com/2026/04/former-premier-league-champions-leicester-relegated-to-league-one/"
+            },
+            {
+              "title": "2026\u201327 Premier League - Wikipedia",
+              "source": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League"
+            },
+            {
+              "title": "2025\u201326 Premier League - Wikipedia",
+              "source": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Premier_League"
+            }
+          ],
+          "tracking_suggestions": [
+            "Leicester City relegation",
+            "Premier League clubs financial decline",
+            "English football third tier",
+            "Football ownership accountability"
+          ]
+        },
+        {
+          "headline": "Liam Rosenior sacked by Chelsea after three and a half months in charge, having signed a contract until 2032",
+          "timestamp": "1 hr ago",
+          "score": 8,
+          "summary": "Chelsea have sacked manager Liam Rosenior after just 106 days in charge, despite him having signed a contract running until 2032. His dismissal was triggered by five consecutive league defeats without a single goal scored \u2014 the worst such run since 1912 \u2014 leaving the club seven points outside Champions League qualification. Rosenior was brought in as recently as January to replace Enzo Maresca, making this Chelsea's second managerial change in the same season. Caretaker Calum McFarlane has stepped in again while the club searches for a permanent appointment, continuing a pattern of costly and destabilising managerial churn at Stamford Bridge.",
+          "url": "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-leaves-chelsea-contract-2032",
+          "image": "https://media.guim.co.uk/ac4bf5c78dde3802160e3998cfb04eba7aebd929/1014_0_4585_3669/500.jpg",
+          "articles": [
+            {
+              "title": "Liam Rosenior leaves Chelsea three and a half months into contract until 2032",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-leaves-chelsea-contract-2032"
+            },
+            {
+              "title": "Liam Rosenior: Chelsea part company with head coach after five straight Premier League defeats without scoring",
+              "source": "Sky Sports",
+              "url": "https://www.skysports.com/football/news/11668/13534423/liam-rosenior-chelsea-part-company-with-head-coach-after-five-straight-premier-league-defeats-without-scoring"
+            },
+            {
+              "title": "Rosenior slams Chelsea after historic fifth straight scoreless defeat",
+              "source": "Prism News",
+              "url": "https://www.prismnews.com/news/rosenior-slams-chelsea-after-historic-fifth-straight"
+            },
+            {
+              "title": "Liam Rosenior Update: Will Chelsea Sack Manager Before Leeds Game?",
+              "source": "Heavy Sports",
+              "url": "https://heavy.com/sports/soccer/premier-league/chelsea-fc/chelsea-liam-rosenior-major-update-leeds/"
+            }
+          ],
+          "tracking_suggestions": [
+            "Liam Rosenior sacking",
+            "Chelsea managerial crisis",
+            "Chelsea 2024-25 season",
+            "Premier League club instability"
+          ]
+        },
+        {
+          "headline": "Brighton beat Chelsea 1-0 to inflict a fifth consecutive Premier League defeat on Rosenior's side, who failed to score in all five losses",
+          "timestamp": "22 hrs ago",
+          "score": 7,
+          "summary": "Brighton defeated Chelsea 3-0 at home, inflicting a fifth consecutive Premier League defeat on Chelsea and extending their run without scoring a single goal across those five matches. Brighton's goals came from Ferdi Kadioglu, Jack Hinshelwood, and a late Danny Welbeck strike, with Chelsea manager Liam Rosenior describing the performance as 'unacceptable in every aspect.' The result puts Rosenior's job under serious threat and highlights a stark contrast between the two clubs: Brighton, under manager Fabian H\u00fcrzeler, are pushing for European qualification again, while Chelsea's expensive and disorganised squad continues to underperform. The defeat underscores broader questions about Chelsea's recruitment strategy and leadership compared to Brighton's well-regarded model of sustainable squad-building.",
+          "url": "https://www.theguardian.com/football/2026/apr/21/brighton-chelsea-premier-league-match-report",
+          "image": "https://media.guim.co.uk/305644bac8c98088e67cddd0dba469cd2796d392/308_0_4510_3608/500.jpg",
+          "articles": [
+            {
+              "title": "Brighton subject Chelsea and Rosenior to fifth league defeat in a row without scoring",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/21/brighton-chelsea-premier-league-match-report"
+            },
+            {
+              "title": "Brighton 3-0 Chelsea: Liam Rosenior oversees worst league run since 1912 as Blues fail to score again",
+              "source": "Sky Sports",
+              "url": "https://www.skysports.com/football/brighton-vs-chelsea/report/531461"
+            },
+            {
+              "title": "Brighton 3-0 Chelsea: Seagulls soar as Blues' historic free fall continues",
+              "source": "NBC Sports",
+              "url": "https://www.nbcsports.com/brighton-vs-chelsea-live-updates-score-highlights-stats-watch"
+            },
+            {
+              "title": "It's been more than 100 years since this last happened to Chelsea FC. Brighton & Hove Albion have intensified the Blues' crisis while edging closer to a spot in the Champions League",
+              "source": "Goal.com Canada",
+              "url": "https://www.goal.com/en-ca/lists/it-s-been-more-than-100-years-since-this-last-happened-to-chelsea-fc-brighton-and-hove-albion-have-deepened-the-blues-crisis-while-edging-closer-to-a-spot-in-the-champions-league/blt0bb432ada10067b8"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Burnley host Manchester City in a Premier League fixture live on 22 April 2026 with City chasing top spot in a tight title race",
+          "timestamp": "6 mins ago",
+          "score": 6,
+          "summary": "Manchester City hosted Burnley in a Premier League match on 22 April 2026, with City dominating possession at 66% and creating the majority of chances in a tight first half. City took a narrow lead into half-time despite Burnley carving out a couple of clear openings through Flemming. The result matters beyond this fixture because City lead Arsenal in a tight title race, meaning a City win would strengthen their grip on first place. Arsenal are left hoping Burnley can find a way back into the game in the second half.",
+          "url": "https://www.theguardian.com/football/live/2026/apr/22/burnley-v-manchester-city-premier-league-live",
+          "image": "https://media.guim.co.uk/5fb868ad2b78fefe5c3d9e51ace9b08472f23f5a/152_0_1833_1466/500.jpg",
+          "articles": [
+            {
+              "title": "Burnley v Manchester City: Premier League \u2013 live",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/live/2026/apr/22/burnley-v-manchester-city-premier-league-live"
+            },
+            {
+              "title": "Man City beat Arsenal 2-1, cut Premier League race to three points",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/sports/2026/4/19/man-city-beat-arsenal-2-1-cut-premier-league-race-to-three-points"
+            },
+            {
+              "title": "Premier League title race tracker as Man City, Arsenal neck-and-neck: Remaining schedules, predicted points",
+              "source": "NBC Sports",
+              "url": "https://www.nbcsports.com/soccer/news/premier-league-title-race-tracker-predictions-remaining-schedules-manchester-city-arsenal"
+            },
+            {
+              "title": "Analysis: Man City and Arsenal are producing a title race for the ages",
+              "source": "Premier League",
+              "url": "https://www.premierleague.com/en/news/4635103/analysis-man-city-and-arsenal-are-producing-a-title-race-for-the-ages"
+            }
+          ],
+          "tracking_suggestions": [
+            "City vs Burnley April 2026",
+            "Premier League title race 2026",
+            "Man City Arsenal title battle",
+            "Premier League 2025-26 season"
+          ]
+        },
+        {
+          "headline": "Valencia demand official explanation after a penalty on Gay\u00e0 goes uncalled, stating it is not the first time they have been wronged by officials",
+          "timestamp": "6 hrs ago",
+          "score": 5,
+          "summary": "Valencia's football director Ron Gourlay has publicly called out Spanish football's refereeing body after a foul on defender Jos\u00e9 Gay\u00e0 was not given as a penalty during a La Liga match. Gourlay stated he is 'very disappointed, very angry' and does not understand the decision, and the club stressed this is not an isolated incident but part of a pattern of disputed calls against them. The club is demanding clarity and a formal explanation from officials. This matters because Valencia are fighting for position in a congested mid-table La Liga standings, where dropped points due to contentious refereeing decisions could have real consequences on their final league placement.",
+          "url": "https://www.marca.com/futbol/valencia/2026/04/22/valencia-eleva-tono-exige-respuestas-penalti-senalado-gaya-primera-vez-pasa.html",
+          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/22/17768642076861_150x0.jpg",
+          "articles": [
+            {
+              "title": "El Valencia eleva el tono y exige \"respuestas\" por el penalti no se\u00f1alado a Gay\u00e0: \u201cNo es la primera vez que pasa\u201d",
+              "source": "Marca",
+              "url": "https://www.marca.com/futbol/valencia/2026/04/22/valencia-eleva-tono-exige-respuestas-penalti-senalado-gaya-primera-vez-pasa.html"
+            },
+            {
+              "title": "3 Controversial Referee Decisions That Nearly Ruined Real Madrid's Start to 2025",
+              "source": "Extra Time Talk",
+              "url": "https://extratimetalk.com/3-referee-decisions-nearly-ruined-real-madrid/"
+            },
+            {
+              "title": "What's behind the refereeing scandal against Real Madrid in Valencia",
+              "source": "Atalayar",
+              "url": "https://www.atalayar.com/en/articulo/sports/whats-behind-the-refereeing-scandal-against-real-madrid-in-valencia/20240304105205197460.html"
+            },
+            {
+              "title": "'Biggest scandal in recent years' - Real Madrid to double down on pressuring referees after Valencia draw",
+              "source": "Football Espa\u00f1a",
+              "url": "https://www.football-espana.net/2024/03/04/biggest-scandal-in-recent-years-real-madrid-to-double-down-on-pressuring-referees-after-valencia-draw"
+            }
+          ],
+          "tracking_suggestions": []
+        }
+      ]
+    }
+  },
   "developing": {},
   "world_trends": {
     "2026-04-13": [
@@ -225,41 +468,41 @@
       "florida wildfire map"
     ],
     "2026-04-23": [
-      "Iran War Live News Updates: Three Ships Attacked in Strait of Hormuz, Escorting Two to Its Coast - WSJ",
-      "Virginia redistricting referendum - CNN",
-      "RFK Jr. goes before the Senate. One lawmaker\u2019s competing loyalties will be on display - AP News",
-      "To Iran, Trump Blinked First by Extending the Cease-Fire - The New York Times",
+      "Iran fires on 2 ships in Strait of Hormuz after Trump extends ceasefire - Fox News",
+      "Trump's redistricting war leaves Republicans worse off - Axios",
+      "Shelter in place ordered in Institute after reported chemical leak; at least 7 transported - WCHS",
+      "Senators grill RFK Jr. on vaccines, drug prices and more at hearing - NPR",
+      "Rep. David Scott, a Georgia Democrat, dies at 80 - NBC News",
       "Druzhba pipeline restarts Russian oil flows to Europe, unblocking E.U. loan for Kyiv - NBC News",
-      "Trump will participate in marathon Bible-reading event with other top Republicans - PBS",
-      "Man charged for previously having gun used to kill 8 children in Louisiana says it was stolen from his truck - CBS News",
-      "Texas Governor Uses Trump-Style Tactics in Fight With Texas Cities Over ICE - The New York Times",
-      "Coalition repairs, red-meat speeches and personnel moves: The White House jumps into midterms mode - Politico",
-      "Two University of South Florida doctoral students are missing, police say - NBC News",
+      "State of Emergency issued in Georgia as wildfire destroys 47 buildings - FOX 5 Atlanta",
+      "Man charged with lying to police about gun used by Louisiana shooter - The Washington Post",
+      "California\u2019s Governor Candidates to Meet in First Major Debate After Swalwell - The New York Times",
+      "Texas Gov. Greg Abbott Uses Trump-Style Tactics in Fight With Cities Over ICE - The New York Times",
       "UK bans a generation of children from smoking: How it works - Al Jazeera",
-      "Russia to stop Kazakh oil flows to German PCK refinery via Druzhba - Reuters",
-      "Exclusive: Ukraine says some Russian missiles fly near Chornobyl, risking major accident - Reuters",
-      "Pope calls for justice and closing income gap in Equatorial Guinea Mass with presidential family - AP News",
-      "Trump administration in advanced talks for Spirit Airlines rescue package, source says - CNBC",
+      "Pope Leo criticises Equatorial Guinea prisons as he winds up Africa tour - BBC",
+      "Palestinian schoolboy among two killed by Israeli settlers, amid spate of attacks on education in the West Bank - CNN",
+      "China hails countries for blocking Taiwan president's flight - DW.com",
+      "Spirit Airlines nears deal with Trump administration for $500 million rescue package - NBC News",
       "mgk - FIX UR FACE (feat. Fred Durst) (Official Music Video)",
-      "Evil Dead Burn | Date Announce Teaser",
+      "Coyote vs. Acme Trailer #1 (2026)",
       "Philadelphia 76ers at Boston Celtics",
       "Daddy Rich",
-      "Blood Hunt | New PvE Mode Trailer | Marvel Rivals",
+      "COYOTE VS. ACME Official Trailer (2026) John Cena",
       "Utah Mammoth at Vegas Golden Knights",
-      "TopOppGen - don't cry (Official Video)",
-      "Silo \u2014 Season 3 Official Teaser | Apple TV",
+      "Tainy, Anuel AA, Ozuna - Adicto (Letra / Lyrics) \ud83c\udfa7\ud83d\udd25",
+      "Evil Dead Burn | Date Announce Teaser",
       "Boston Bruins at Buffalo Sabres",
-      "Raq baby - Homicide (Official Music Video)",
-      "elche c. f. - atl\u00e9tico madrid",
-      "espanyol vs barcelona",
-      "all stars 11 cast",
-      "liam rosenior",
-      "psg vs nantes",
-      "psg - nantes",
-      "clayface",
-      "hubert hurkacz",
-      "sa-w vs indw",
-      "army cft"
+      "TopOppGen - don't cry (Official Video)",
+      "india women vs south africa women",
+      "california",
+      "porto vs sporting",
+      "manchester city standings",
+      "city",
+      "tax refund",
+      "asml",
+      "anton bonke",
+      "angela faith jourdan",
+      "peter lambert"
     ]
   },
   "summaries": {
@@ -345,7 +588,10 @@
     "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-on-brink-of-losing-job-chelsea-review-brighton-defeat": "Chelsea are expected to sack manager Liam Rosenior after five consecutive Premier League defeats in which the team failed to score a single goal. Rosenior was only appointed in January following the dismissal of Enzo Maresca, making this the club's second managerial change of the season. A review is underway at Chelsea's Cobham training ground, with reports indicating Rosenior has lost the support of his players and that a new appointment is imminent. The timing is complicated by an FA Cup semi-final against Leeds on Sunday, leaving Chelsea to decide whether to act immediately or wait.",
     "https://www.theguardian.com/football/2026/apr/22/pellegrino-matarazzo-manchester-city-arsenal-title-race-newcastle-saudi-arabia": "The 2025-26 Premier League title race is heading into its final weeks with Manchester City holding a narrow lead over Arsenal, with the two clubs separated by a small margin of points. Meanwhile, the article's main focus is on American manager Pellegrino Matarazzo, who has made history by becoming the first US-born manager to win a major trophy in one of Europe's top five leagues after guiding Real Sociedad to Copa del Rey glory. Matarazzo, 48, took an unconventional path from New Jersey through Italian heritage, German lower-league playing days, and academy coaching before rising to prominence in the Bundesliga and then Spain. His success is seen as a significant milestone for American soccer, going further than compatriots like Bob Bradley and Jesse Marsch in proving that US coaches can succeed at the highest levels of European football.",
     "https://www.marca.com/futbol/valencia/2026/04/22/valencia-eleva-tono-exige-respuestas-penalti-senalado-gaya-primera-vez-pasa.html": "Valencia's football director Ron Gourlay has publicly called out Spanish football's refereeing body after a foul on defender Jos\u00e9 Gay\u00e0 was not given as a penalty during a La Liga match. Gourlay stated he is 'very disappointed, very angry' and does not understand the decision, and the club stressed this is not an isolated incident but part of a pattern of disputed calls against them. The club is demanding clarity and a formal explanation from officials. This matters because Valencia are fighting for position in a congested mid-table La Liga standings, where dropped points due to contentious refereeing decisions could have real consequences on their final league placement.",
-    "https://www.theguardian.com/football/2026/apr/22/marie-louise-eta-union-berlin-interview-bundesliga": "Marie-Louise Eta has become the first woman to manage a men's top-flight football team in Germany after Union Berlin appointed her as head coach following the dismissal of Steffen Baumgart. She was working as the club's under-19 coach when club president Dirk Zingler called her at home and asked her to take charge for the rest of the season. The appointment was not purely symbolic \u2014 Eta had previous experience as an assistant coach with Union Berlin's senior men's team and was chosen on merit as the best available option. The move marks a significant milestone in European football, where women in top managerial roles in men's professional leagues remain extremely rare."
+    "https://www.theguardian.com/football/2026/apr/22/marie-louise-eta-union-berlin-interview-bundesliga": "Marie-Louise Eta has become the first woman to manage a men's top-flight football team in Germany after Union Berlin appointed her as head coach following the dismissal of Steffen Baumgart. She was working as the club's under-19 coach when club president Dirk Zingler called her at home and asked her to take charge for the rest of the season. The appointment was not purely symbolic \u2014 Eta had previous experience as an assistant coach with Union Berlin's senior men's team and was chosen on merit as the best available option. The move marks a significant milestone in European football, where women in top managerial roles in men's professional leagues remain extremely rare.",
+    "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one": "Leicester City, who famously won the Premier League title in 2016 in one of sport's greatest upsets, have been relegated to League One, England's third tier of football, for the 2026-27 season. The club has suffered a dramatic decade-long decline, dropping from the top flight through the Championship and now into the third division. Owner Aiyawatt Srivaddhanaprabha acknowledged the failure but could not pinpoint a single cause, while supporters and analysts suggest the enormous success of 2016 may itself have planted the seeds of mismanagement and unrealistic expectations that followed. The fall is seen as both a unique cautionary tale and a reflection of wider structural problems in English football.",
+    "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-leaves-chelsea-contract-2032": "Chelsea have sacked manager Liam Rosenior after just 106 days in charge, despite him having signed a contract running until 2032. His dismissal was triggered by five consecutive league defeats without a single goal scored \u2014 the worst such run since 1912 \u2014 leaving the club seven points outside Champions League qualification. Rosenior was brought in as recently as January to replace Enzo Maresca, making this Chelsea's second managerial change in the same season. Caretaker Calum McFarlane has stepped in again while the club searches for a permanent appointment, continuing a pattern of costly and destabilising managerial churn at Stamford Bridge.",
+    "https://www.theguardian.com/football/live/2026/apr/22/burnley-v-manchester-city-premier-league-live": "Manchester City hosted Burnley in a Premier League match on 22 April 2026, with City dominating possession at 66% and creating the majority of chances in a tight first half. City took a narrow lead into half-time despite Burnley carving out a couple of clear openings through Flemming. The result matters beyond this fixture because City lead Arsenal in a tight title race, meaning a City win would strengthen their grip on first place. Arsenal are left hoping Burnley can find a way back into the game in the second half."
   },
   "article_hashes": {
     "breaking": "1be1a63a7ac37ac7f1e758708fb52cc8"
@@ -353,85 +599,85 @@
   "world_topics_cache": {
     "today": [
       {
-        "headline": "Iran-US Military Escalation in Strait of Hormuz",
-        "why": "Three ships were attacked in the Strait of Hormuz with Iran and the Trump administration in a tense standoff over a recently extended cease-fire, marking a critical escalation in Middle East tensions.",
-        "signal": "[NEWS] WSJ, NYT"
+        "headline": "Iran fires on ships in Strait of Hormuz after Trump extends ceasefire",
+        "why": "A major escalation in Middle East tensions as Iran attacks commercial vessels despite Trump administration efforts to maintain a ceasefire, raising concerns about regional stability and global oil markets.",
+        "signal": "[NEWS] Fox News"
       },
       {
-        "headline": "RFK Jr. Senate Confirmation Hearing",
-        "why": "President Trump's nominee for a major cabinet position faces Senate questioning amid reports of lawmakers with competing political loyalties, drawing significant national attention to his confirmation prospects.",
-        "signal": "[NEWS] AP News"
+        "headline": "RFK Jr. Senate confirmation hearing on vaccines, drug prices and health policy",
+        "why": "High-profile congressional testimony for Trump's health nominee is drawing intense scrutiny over controversial positions on vaccines and pharmaceutical pricing, signaling major shifts in U.S. health policy.",
+        "signal": "[NEWS] NPR"
       },
       {
-        "headline": "Ukraine War: Russian Missile Risk Near Chornobyl Nuclear Site",
-        "why": "Ukraine has disclosed that Russian missiles are flying dangerously close to the Chornobyl nuclear facility, raising international alarm about potential catastrophic nuclear incidents.",
-        "signal": "[NEWS] Reuters"
+        "headline": "Druzhba pipeline restarts Russian oil flows to Europe amid Ukraine support negotiations",
+        "why": "The resumption of Russian oil shipments to the EU creates a geopolitical paradox as Europe balances energy needs with support for Ukraine, directly linked to EU loan negotiations for Kyiv.",
+        "signal": "[NEWS] NBC News"
       },
       {
-        "headline": "Druzhba Pipeline Restart and Russian Oil Sanctions Conflict",
-        "why": "Russia's Druzhba pipeline has restarted oil flows to Europe while simultaneously halting Kazakh oil to German refineries, creating a complex geopolitical situation affecting EU energy security and Ukraine aid.",
-        "signal": "[NEWS] NBC News, Reuters"
+        "headline": "Rep. David Scott, Georgia Democrat and House Agriculture Committee chair, dies at 80",
+        "why": "The death of a senior congressional Democrat representing Georgia triggers immediate questions about succession and redistricting in a crucial swing state during election season.",
+        "signal": "[NEWS] NBC News"
       },
       {
-        "headline": "UK Generational Smoking Ban Legislation",
-        "why": "The UK has passed historic legislation banning an entire generation of children from purchasing cigarettes, representing a major public health policy shift gaining global attention.",
+        "headline": "UK bans new generation of children from smoking with age-gating legislation",
+        "why": "Britain implements landmark public health policy preventing anyone born after 2009 from legally purchasing cigarettes, setting a global precedent for tobacco regulation.",
         "signal": "[NEWS] Al Jazeera"
       }
     ],
     "week": [
       {
-        "headline": "Trump Administration's Iran Ceasefire and Strait of Hormuz Naval Operations",
-        "why": "Multiple reports tracked Trump extending a ceasefire with Iran, U.S. naval patrols in the Strait of Hormuz, ship attacks, and ongoing blockade operations as tensions fluctuated throughout the week.",
-        "signal": "trending for 7 days"
-      },
-      {
-        "headline": "RFK Jr. Senate Confirmation Hearing and Trump Cabinet Appointments",
-        "why": "Robert F. Kennedy Jr.'s Senate confirmation hearing dominated coverage as lawmakers questioned his qualifications and competing loyalties while Trump advanced multiple cabinet-level nominees.",
+        "headline": "Trump Administration's Iran Blockade and Ceasefire Extension",
+        "why": "Multiple reports tracked U.S. naval operations in the Strait of Hormuz, Iranian responses, and Trump's decision to extend a ceasefire amid ongoing tensions and ship attacks.",
         "signal": "trending for 5 days"
       },
       {
-        "headline": "Virginia Political Crisis: Justin Fairfax Murder-Suicide and Redistricting Referendum",
-        "why": "Former Lt. Governor Justin Fairfax killed his wife and himself, followed by coverage of a Virginia redistricting referendum that could shift GOP advantage in national House maps.",
+        "headline": "Israel-Lebanon Ceasefire Negotiations",
+        "why": "Reports of growing hopes for Middle East peace with Israel and Lebanon eyeing a ceasefire deal, plus Trump's involvement in calls with Lebanese leadership.",
         "signal": "trending for 4 days"
       },
       {
-        "headline": "Israel-Lebanon Ceasefire Negotiations and Middle East Peace Talks",
-        "why": "Reports of growing hopes for a ceasefire between Israel and Lebanon, with Trump speaking to the Lebanese president, dominated Middle East coverage throughout the week.",
-        "signal": "trending for 5 days"
+        "headline": "RFK Jr. Senate Confirmation Hearings",
+        "why": "Extensive coverage of Senator questioning on vaccines, drug prices, and other policy positions as Trump's nominee faced the hearing process.",
+        "signal": "trending for 3 days"
       },
       {
-        "headline": "Russian Military Campaign Against Ukraine with Drone and Missile Attacks",
-        "why": "Sustained coverage of Russian overnight and daytime bombardments of Ukrainian targets, including near Chornobyl, and pipeline operations reflected ongoing conflict escalation.",
-        "signal": "trending for 6 days"
+        "headline": "Russia's Ongoing Drone and Missile Attacks on Ukraine",
+        "why": "Repeated reports of overnight and daytime Russian attacks killing civilians and prompting discussions of European military support amid the conflict.",
+        "signal": "trending for 4 days"
+      },
+      {
+        "headline": "Trump Administration's Tariff Refund Portal and Economic Policy",
+        "why": "Coverage of the new tariff refund system rollout and broader concerns about Trump's tax policies and their impact on business and consumer spending.",
+        "signal": "trending for 3 days"
       }
     ],
     "month": [
       {
-        "headline": "Trump's Iran Blockade and Ceasefire Negotiations",
-        "why": "The Trump administration's military blockade of Iranian ports in the Strait of Hormuz and subsequent diplomatic negotiations dominated headlines as the U.S. attempted to enforce the blockade while pursuing talks, with mixed international support and fluctuating ceasefire extensions.",
-        "signal": "trending for 12+ days"
+        "headline": "Trump Administration's Iran Blockade and Ceasefire Negotiations",
+        "why": "Trump's announcement of a U.S. military blockade of Iranian ports in the Strait of Hormuz dominated coverage as the administration struggled to secure international support, pursued diplomatic talks, and repeatedly extended ceasefires amid ship attacks and negotiations.",
+        "signal": "trending for 18 days"
       },
       {
-        "headline": "Trump vs. Pope Leo Public Feud",
-        "why": "Vice President Vance and Trump engaged in a sustained public conflict with Pope Leo over his criticism of U.S. foreign policy, with Trump attacking the Pope as 'weak' and Vance demanding he stay out of U.S. affairs, drawing significant media coverage.",
-        "signal": "trending for 8+ days"
+        "headline": "Trump's Feud with Pope Leo Over Political Involvement",
+        "why": "Trump repeatedly attacked Pope Leo for being 'weak on crime' and interfering in U.S. affairs, while Vice President Vance publicly rebuked the Pope, creating sustained diplomatic tension between the White House and Vatican leadership.",
+        "signal": "trending for 12 days"
       },
       {
-        "headline": "Hungary's Opposition Landslide Election Victory",
-        "why": "Hungary's opposition parties achieved a major electoral upset, with reports indicating this could herald democratic reforms and a thaw in the country's previously tense relations with the European Union.",
-        "signal": "trending for 5+ days"
+        "headline": "Eric Swalwell's Exit from California Governor Race Over Sexual Assault Allegations",
+        "why": "Congressman Swalwell withdrew from the California gubernatorial race amid revived sexual assault allegations, with rivals competing for his campaign donations and political supporters during a crowded primary.",
+        "signal": "trending for 8 days"
       },
       {
-        "headline": "Eric Swalwell's Exit from California Governor's Race",
-        "why": "The Democratic congressman withdrew from the 2026 California gubernatorial race following sexual assault allegations from his past, creating a significant shift in the state's political landscape and prompting rivals to court his supporters.",
-        "signal": "trending for 6+ days"
+        "headline": "Super Typhoon Sinlaku Impact on U.S. Pacific Islands and Midwest Storm Damage",
+        "why": "The strongest storm on the planet battered remote U.S. islands in the Western Pacific while severe Midwest flooding trapped drivers and destroyed homes, prompting emergency responses across multiple regions.",
+        "signal": "trending for 7 days"
       },
       {
-        "headline": "Israel-Lebanon Ceasefire and Middle East Peace Negotiations",
-        "why": "Mediation efforts between Israel and Lebanon gained momentum toward a potential ceasefire agreement, with discussions evolving alongside the broader U.S.-Iran diplomatic push and growing optimism for regional de-escalation.",
-        "signal": "trending for 7+ days"
+        "headline": "Hungary's Opposition Landslide Election Victory and EU Relations Reset",
+        "why": "Hungarian opposition parties won a decisive electoral victory that P\u00e9ter Magyar leveraged to vow investigations into those who 'plundered' the country, signaling potential democratic reforms and improved EU relations after years of tensions.",
+        "signal": "trending for 6 days"
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-22T14:53:55.244250+00:00"
+  "last_gdelt_attempt": "2026-04-22T19:50:31.001256+00:00"
 }

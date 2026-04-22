@@ -628,5 +628,149 @@
     "input_tokens": 6273,
     "output_tokens": 36,
     "cost_usd": 0.005162
+  },
+  {
+    "timestamp": "2026-04-23T05:50:21.645374+10:00",
+    "run_type": "full",
+    "label": "world_topics_today",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 891,
+    "output_tokens": 410,
+    "cost_usd": 0.002353
+  },
+  {
+    "timestamp": "2026-04-23T05:50:25.717450+10:00",
+    "run_type": "full",
+    "label": "world_topics_week",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2243,
+    "output_tokens": 374,
+    "cost_usd": 0.00329
+  },
+  {
+    "timestamp": "2026-04-23T05:50:31.000309+10:00",
+    "run_type": "full",
+    "label": "world_topics_month",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3902,
+    "output_tokens": 466,
+    "cost_usd": 0.004986
+  },
+  {
+    "timestamp": "2026-04-23T05:51:22.800381+10:00",
+    "run_type": "full",
+    "label": "breaking_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 2926,
+    "output_tokens": 4,
+    "cost_usd": 0.008838
+  },
+  {
+    "timestamp": "2026-04-23T05:52:44.630891+10:00",
+    "run_type": "full",
+    "label": "australia_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 3339,
+    "output_tokens": 1000,
+    "cost_usd": 0.025017
+  },
+  {
+    "timestamp": "2026-04-23T05:53:58.683966+10:00",
+    "run_type": "full",
+    "label": "archaeology_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 2411,
+    "output_tokens": 581,
+    "cost_usd": 0.015948
+  },
+  {
+    "timestamp": "2026-04-23T05:55:31.189958+10:00",
+    "run_type": "full",
+    "label": "football_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 2874,
+    "output_tokens": 658,
+    "cost_usd": 0.018492
+  },
+  {
+    "timestamp": "2026-04-23T05:55:37.344290+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 13341,
+    "output_tokens": 275,
+    "cost_usd": 0.011773
+  },
+  {
+    "timestamp": "2026-04-23T05:55:42.259421+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 455,
+    "output_tokens": 190,
+    "cost_usd": 0.004215
+  },
+  {
+    "timestamp": "2026-04-23T05:55:49.806139+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 12353,
+    "output_tokens": 337,
+    "cost_usd": 0.01123
+  },
+  {
+    "timestamp": "2026-04-23T05:55:54.190972+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 461,
+    "output_tokens": 195,
+    "cost_usd": 0.004308
+  },
+  {
+    "timestamp": "2026-04-23T05:56:03.332648+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 16774,
+    "output_tokens": 405,
+    "cost_usd": 0.015039
+  },
+  {
+    "timestamp": "2026-04-23T05:56:10.244049+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 16125,
+    "output_tokens": 340,
+    "cost_usd": 0.01426
+  },
+  {
+    "timestamp": "2026-04-23T05:56:14.773810+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 519,
+    "output_tokens": 167,
+    "cost_usd": 0.004062
+  },
+  {
+    "timestamp": "2026-04-23T05:56:22.296526+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 13176,
+    "output_tokens": 343,
+    "cost_usd": 0.011913
+  },
+  {
+    "timestamp": "2026-04-23T05:56:23.041877+10:00",
+    "run_type": "full",
+    "label": "developing_situations",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6284,
+    "output_tokens": 36,
+    "cost_usd": 0.005171
   }
 ]

@@ -443,10 +443,10 @@ def main():
             return
 
         world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []}) if RUN_CATEGORY != "world_topics" else world_topics
-        yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
-        developing_situations = process_developing_situations(pinned, [], [])
         if RUN_CATEGORY in ("breaking", "australia", "archaeology", "football"):
             memory = save_today_stories(memory, RUN_CATEGORY, result)
+        yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
+        developing_situations = process_developing_situations(pinned, [], [])
         save_memory(memory)
         health = log_run(health, f"category:{RUN_CATEGORY}", errors)
         save_health(health)
@@ -551,15 +551,15 @@ def main():
     auto_detected = detect_developing_situations(memory, all_data)
     developing_situations = process_developing_situations(pinned, auto_detected, all_fetched)
 
+    for cat in ["breaking", "australia", "archaeology", "football"]:
+        memory = save_today_stories(memory, cat, all_data[cat])
+
     yesterday_data = {
         "breaking": get_previous_stories(memory, "breaking"),
         "australia": get_previous_stories(memory, "australia"),
         "archaeology": get_previous_stories(memory, "archaeology"),
         "football": get_previous_stories(memory, "football")
     }
-
-    for cat in ["breaking", "australia", "archaeology", "football"]:
-        memory = save_today_stories(memory, cat, all_data[cat])
     content_changed = any(all_data[cat] for cat in ["breaking", "australia", "archaeology", "football"])
     save_memory(memory)
     health = log_run(health, "full", errors)

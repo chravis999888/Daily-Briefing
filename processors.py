@@ -115,6 +115,8 @@ def process_australia(rss_articles, newsdata_articles, memory):
 Here are recent articles:
 {formatted}
 
+CRITICAL FILTER: Only include stories where the primary subject is Australian. A story is Australian if it involves: Australian government, Australian people, events on Australian soil, Australian organisations, or issues directly affecting Australians. Stories about foreign countries, foreign governments, or global events that merely mention Australia in passing do NOT qualify. If in doubt, exclude it.
+
 Apply one test to every story: did a concrete, real-world event actually occur, and does it materially affect Australians?
 
 PASS examples — include these:
@@ -124,6 +126,7 @@ PASS examples — include these:
 - Policy decisions that have been enacted or formally passed — not proposed
 
 FAIL examples — exclude these:
+- Stories primarily about foreign countries, foreign leaders, or international bodies
 - Government discussing or consulting on a policy
 - Economic forecasts, modelling, projections from any source
 - Think tank reports, consultancy findings, or academic studies
@@ -151,6 +154,21 @@ Raw JSON only, no markdown."""
         return [], memory
 
     stories.sort(key=lambda x: x.get("score", 5), reverse=True)
+
+    AU_TERMS = {
+        "australia", "australian", "australians",
+        "sydney", "melbourne", "brisbane", "perth", "canberra", "adelaide",
+        "hobart", "darwin", "albanese", "dutton", "nsw", "victoria",
+        "queensland", "tasmania", "afl", "nrl", "asic", "rba", "ato",
+        "accc", "asx", "abc"
+    }
+
+    def is_australian_story(headline):
+        words = {w.lower().strip(".,;:\"'()") for w in headline.split()}
+        return bool(words & AU_TERMS)
+
+    stories = [s for s in stories if is_australian_story(s.get("headline", ""))]
+
     results = []
     for story in stories:
         time.sleep(3)

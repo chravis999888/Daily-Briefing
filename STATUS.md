@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Fixed data-articles JSON parse error — switched data-attrs to single-quote delimiters
+Fixed duplicate stories in Previously section; fixed Australia category non-AU story bleed
 
 ## 🔄 In Progress
 Nothing currently in progress.

@@ -161,6 +161,14 @@
         "; RSS fallback also empty"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-04-22T22:32:26.420695+10:00",
+      "run_type": "full",
+      "errors": [
+        "; RSS fallback also empty"
+      ],
+      "status": "degraded"
     }
   ],
   "errors": []

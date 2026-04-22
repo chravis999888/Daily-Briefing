@@ -1,288 +1,40 @@
 {
   "stories": {
-    "2026-04-14": {
-      "breaking": [],
-      "australia": [
-        {
-          "headline": "Coalition releases migration policy proposing Australian values test for visa applicants, with Angus Taylor spruiking the plan",
-          "timestamp": "2 hrs ago",
-          "score": 5
-        }
-      ],
-      "archaeology": [
-        {
-          "headline": "New Scientist reports genetic analysis may overturn the hypothesis that early Homo sapiens experienced a near-extinction bottleneck, suggesting population history was more complex than previously modelled",
-          "timestamp": "4 days ago",
-          "score": 7
-        },
-        {
-          "headline": "Genetic study of Neanderthal remains identifies demographic signals of prolonged population decline preceding their disappearance approximately 40,000 years ago, with low diversity consistent with small isolated groups",
-          "timestamp": "3 weeks ago",
-          "score": 7
-        },
-        {
-          "headline": "Australopithecus pelvic morphology analysis indicates birth canal constraints produced difficult parturition comparable to modern humans, pushing the obstetric dilemma back at least 2-3 million years before the genus Homo",
-          "timestamp": "4 weeks ago",
-          "score": 7
-        },
-        {
-          "headline": "Stone tool assemblage shift 200,000 years ago in early Homo sapiens sites attributed to new environmental or social pressures rather than simple cultural drift, according to fresh analysis of African archaeological record",
-          "timestamp": "5 days ago",
-          "score": 6
-        }
-      ],
-      "football": [
-        {
-          "headline": "Ghanaian winger Dominic Frimpong, 20, was killed in an armed attack on his team's bus in Ghana",
-          "timestamp": "21 hrs ago",
-          "score": 9
-        },
-        {
-          "headline": "Leeds United beat Manchester United 2-1 at Old Trafford as Noah Okafor scored twice and Lisandro Mart\u00ednez was sent off for hair-pulling",
-          "timestamp": "12 hrs ago",
-          "score": 8
-        },
-        {
-          "headline": "Barcelona moved to the verge of the La Liga title as Lamine Yamal starred in a winning performance that left them requiring minimal points to clinch the championship",
-          "timestamp": "19 hrs ago",
-          "score": 8
-        },
-        {
-          "headline": "Napoli's Serie A title defence is effectively over as Inter lead the standings and Antonio Conte's side have been unable to keep pace, with Scott McTominay their sole consistent performer",
-          "timestamp": "21 hrs ago",
-          "score": 7
-        },
-        {
-          "headline": "Athletic Club are on course for their most defeats in a single season in their history, surpassing relegated side Elche's loss tally",
-          "timestamp": "5 hrs ago",
-          "score": 7
-        },
-        {
-          "headline": "Bayern Munich are challenging Real Madrid's all-time record points or wins tally in the Bundesliga this season",
-          "timestamp": "5 hrs ago",
-          "score": 6
-        },
-        {
-          "headline": "UEFA sponsorship revenue from club competitions is set to exceed \u20ac1 billion for the first time, driven by the expanded Champions League format",
-          "timestamp": "2 hrs ago",
-          "score": 6
-        }
-      ]
-    },
-    "2026-04-15": {
+    "2026-04-22": {
       "breaking": [
         {
-          "headline": "US Navy torpedo attack strands 200+ Iranian sailors; sailors have now returned home as naval blockade of Iran continues in Strait of Hormuz",
-          "timestamp": "just now",
+          "headline": "Iran seized two ships in the Strait of Hormuz on 22 April 2026 after Trump extended the US-Iran ceasefire",
+          "timestamp": "19 mins ago",
           "score": 8,
-          "summary": "I can't verify this headline as accurate based on current reporting. No credible news sources are reporting a US Navy torpedo attack on Iranian vessels that stranded sailors. Before I explain a story as factual, I'd need confirmation from established news outlets.\n\nIf you're interested in actual US-Iran naval tensions, I'm happy to discuss documented incidents or the real strategic significance of the Strait of Hormuz. Or if you have a different news story you'd like explained, I can help with that instead.",
-          "url": "https://www.bbc.com/news/articles/c9qdd318qd9o",
-          "image": "",
+          "summary": "Iran's Revolutionary Guard Corps seized two commercial ships, the Epaminondas and MSC Francesca, in the Strait of Hormuz on April 22, 2026, while a third vessel, the Euphoria, was left stranded off Iran's coast. This happened on the same day Donald Trump announced he was extending the US-Iran ceasefire at Pakistan's request, suggesting Iran may be using maritime pressure as leverage in ongoing nuclear negotiations. The Strait of Hormuz is one of the world's most critical oil shipping routes, carrying around 20% of global oil supply, so seizing vessels there directly threatens energy markets and global supply chains. The move signals a deliberate Iranian escalation outside the ceasefire framework, raising serious questions about whether diplomacy can hold.",
+          "url": "https://www.theguardian.com/world/live/2026/apr/22/iran-war-live-updates-trump-ceasefire-us-hormuz-blockade-israel-lebanon-middle-east",
+          "image": "https://media.guim.co.uk/25b5ca05513e65da9c0e5f2c7d57e3da496ab35d/0_0_4583_3667/500.jpg",
           "articles": [
             {
-              "title": "Trump vows to sink Iranian ships approaching a U.S. blockade of Strait of Hormuz",
-              "source": "NPR",
-              "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
+              "title": "Middle East crisis live: Iran says it has seized two ships in strait of Hormuz after Trump extends ceasefire ",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/apr/22/iran-war-live-updates-trump-ceasefire-us-hormuz-blockade-israel-lebanon-middle-east"
             },
-            {
-              "title": "'Gate of Tears' at risk: Iran threatens major new global chokepoint if US moves on Hormuz",
-              "source": "Fox News",
-              "url": "https://www.foxnews.com/world/gate-tears-risk-iran-threatens-major-new-global-chokepoint-us-moves-hormuz"
-            },
-            {
-              "title": "US Strikes Destroy Iran's Main Naval Assets",
-              "source": "Naval News",
-              "url": "https://www.navalnews.com/naval-news/2026/03/us-strikes-destroy-irans-main-naval-assets/"
-            },
-            {
-              "title": "Naval Blockade Of Iran Now In Full Effect",
-              "source": "The War Zone",
-              "url": "https://www.twz.com/news-features/naval-blockade-of-iran-now-in-full-effect"
-            },
-            {
-              "title": "U.S. military is poised to blockade Iranian ports, while Tehran threatens ports in the Mideast",
-              "source": "PBS NewsHour",
-              "url": "https://www.pbs.org/newshour/world/u-s-military-is-poised-to-blockade-iranian-ports-while-tehran-threatens-ports-in-the-mideast"
-            }
-          ],
-          "tracking_suggestions": [
-            "Iranian sailors torpedo attack",
-            "US Navy Iran conflict",
-            "Strait of Hormuz blockade",
-            "US-Iran military tensions"
-          ]
-        }
-      ],
-      "australia": [
-        {
-          "headline": "High Court strikes down Victoria's $5,000 cap on political donations, ruling it unconstitutional",
-          "timestamp": "23 mins ago",
-          "score": 8
-        }
-      ],
-      "archaeology": [
-        {
-          "headline": "New Scientist reports genetic analysis suggests Neanderthals may be descendants of early Homo sapiens rather than a separate lineage predating modern humans, reversing the conventional evolutionary sequence",
-          "timestamp": "just now",
-          "score": 8
-        },
-        {
-          "headline": "Genomic evidence reexamines the proposed population bottleneck thought to have nearly driven Homo sapiens to extinction roughly 900,000 years ago, suggesting earlier estimates of the event may be incorrect or overstated",
-          "timestamp": "4 days ago",
-          "score": 7
-        },
-        {
-          "headline": "Analysis of ancient bones documents a coordinated Neanderthal hunt of straight-tusked elephants, providing direct osteological evidence of large-scale cooperative hunting behaviour among Neanderthals",
-          "timestamp": "1 week ago",
-          "score": 7
-        }
-      ],
-      "football": [
-        {
-          "headline": "PSG eliminate Liverpool 2-0 at Anfield (4-1 on aggregate) as Demb\u00e9l\u00e9 scores twice to reach Champions League semi-finals",
-          "timestamp": "6 hrs ago",
-          "score": 9
-        },
-        {
-          "headline": "Barcelona beat Atl\u00e9tico Madrid 2-1 at the Metropolitano (3-2 on aggregate) to reach the Champions League semi-finals",
-          "timestamp": "5 hrs ago",
-          "score": 9
-        },
-        {
-          "headline": "Leeds United beat Manchester United 2-1 at Old Trafford with Noah Okafor scoring twice and Lisandro Mart\u00ednez sent off for hair-pulling",
-          "timestamp": "yesterday",
-          "score": 8
-        },
-        {
-          "headline": "Arne Slot confirms Hugo Ekitik\u00e9 suffered a potentially serious injury during Liverpool's 0-2 defeat to PSG",
-          "timestamp": "4 hrs ago",
-          "score": 7
-        },
-        {
-          "headline": "Andoni Iraola confirms he will leave Bournemouth at the end of the 2025-26 season",
-          "timestamp": "14 hrs ago",
-          "score": 7
-        },
-        {
-          "headline": "Mat\u00edas Almeyda says Sevilla told him the day before his sacking that he would stay until the end of the season",
-          "timestamp": "4 hrs ago",
-          "score": 7
-        },
-        {
-          "headline": "Spain's refereeing committee (CTA) overrules referee Alberola Rojas on the penalty awarded against Mbapp\u00e9 in Real Madrid's recent match, with caveats",
-          "timestamp": "10 hrs ago",
-          "score": 6
-        }
-      ]
-    },
-    "2026-04-16": {
-      "breaking": [
-        {
-          "headline": "Russian drone and missile attacks kill 15 people in Ukraine",
-          "timestamp": "23 mins ago",
-          "score": 7,
-          "summary": "Russia launched a large-scale drone and missile attack across Ukraine, killing at least 15 civilians. The strike is part of an ongoing Russian campaign targeting Ukrainian cities and infrastructure, which has continued relentlessly despite international pressure. The attack carries added significance because it comes while Western governments and media are simultaneously managing the crisis involving Iran, potentially diverting diplomatic attention and military aid resources away from Ukraine. This dual-front strain on Western focus raises concerns that Russia may be exploiting the moment of distraction to intensify pressure on Ukraine.",
-          "url": "https://www.bbc.com/news/articles/cm29plylqnvo",
-          "image": "",
-          "articles": [
             {
               "title": "US Navy torpedo attack strands 200+ Iranian sailors; sailors have now returned home as naval blockade of Iran continues in Strait of Hormuz",
               "source": "Previously covered",
               "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
-            },
-            {
-              "title": "Russian drone and missile wave kills 15 people in Ukraine",
-              "source": "Previously covered",
-              "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
-            },
-            {
-              "title": "Australian government announces $53 billion increase in defence spending over the next decade, citing erosion of international norms, as announced by Deputy PM Richard Marles",
-              "source": "Previously covered",
-              "url": "https://www.abc.net.au/news/2026-04-15/defence-spend-53b-next-decade-intensifying-risks-richard-marles/106568890"
-            }
-          ],
-          "tracking_suggestions": []
-        }
-      ],
-      "australia": [
-        {
-          "headline": "Prime Minister confirms new federal powers used to secure 100 million litres of additional diesel following Viva Energy refinery fire",
-          "timestamp": "5 hrs ago",
-          "score": 8,
-          "summary": "Following a fire at the Viva Energy refinery, Australian Prime Minister Anthony Albanese confirmed the federal government has used newly established legislative powers to secure an additional 100 million litres of diesel for the domestic market. The government underwrote the delivery of extra fuel cargoes, meaning it guaranteed the purchase to ensure supply reached Australia. This marks a notable shift in federal energy policy, representing one of the first uses of these new intervention powers and signalling a willingness to step directly into fuel markets during supply disruptions. The move has broader implications for energy security strategy and the relationship between the federal government and the fuel industry.",
-          "url": "https://www.abc.net.au/news/2026-04-16/new-powers-used-to-secure-additional-diesel-shipments/106571682",
-          "image": "https://live-production.wcms.abc-cdn.net.au/5917003de2866b5d6989a504b112c016?impolicy=wcms_crop_resize&cropH=3333&cropW=2500&xPos=1250&yPos=0&width=862&height=1149",
-          "articles": [
-            {
-              "title": "100m litres of diesel secured under new powers, PM confirms",
-              "source": "ABC News",
-              "url": "https://www.abc.net.au/news/2026-04-16/new-powers-used-to-secure-additional-diesel-shipments/106571682"
-            },
-            {
-              "title": "Albanese has announced new fuel powers. What are they and why do they matter?",
-              "source": "SBS News",
-              "url": "https://www.sbs.com.au/news/article/albanese-has-announced-new-fuel-powers-what-are-they-and-why-do-they-matter/06ws6ogrz"
-            },
-            {
-              "title": "Fuel security powers to support fuel supply",
-              "source": "Prime Minister of Australia",
-              "url": "https://www.pm.gov.au/media/fuel-security-powers-support-fuel-supply"
-            },
-            {
-              "title": "Securing Australia's fuel sovereignty",
-              "source": "Ministers - Department of Climate Change, Energy, Environment and Water",
-              "url": "https://minister.dcceew.gov.au/bowen/media-releases/securing-australias-fuel-sovereignty"
             }
           ],
           "tracking_suggestions": [
-            "Viva Energy refinery fire",
-            "Australia fuel supply intervention",
-            "federal energy security powers",
-            "Australian energy policy"
-          ]
-        },
-        {
-          "headline": "Defence Minister Richard Marles announces plan to build a more self-sufficient ADF while reaffirming the US alliance as indispensable to Australian security",
-          "timestamp": "4 hrs ago",
-          "score": 7,
-          "summary": "Australian Defence Minister Richard Marles has announced plans to build a more self-sufficient Australian Defence Force while simultaneously insisting the US alliance remains essential to Australian security. The dual message reflects a deliberate balancing act: reducing practical dependence on American military support without signalling any weakening of the formal alliance relationship. This matters because uncertainty during the Trump era raised serious questions about how reliable US commitments to allies actually are, pushing Australia to hedge its strategic bets. Building greater self-reliance is now a bipartisan priority, but the government is careful not to frame it in ways that could strain relations with Washington.",
-          "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434",
-          "image": "https://live-production.wcms.abc-cdn.net.au/0cb6108ffe7ad7cfc5c2b41ab3b393e4?impolicy=wcms_crop_resize&cropH=1066&cropW=799&xPos=533&yPos=0&width=862&height=1149",
-          "articles": [
-            {
-              "title": "US alliance indispensable as Marles looks to build more self-sufficient ADF",
-              "source": "ABC News",
-              "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434"
-            },
-            {
-              "title": "'New nuclear arms race': Marles says Australia faces most threatening climate since WWII",
-              "source": "SBS News",
-              "url": "https://www.sbs.com.au/news/article/australias-record-military-spending/4tgojbn5a"
-            },
-            {
-              "title": "NDS 2026 and the Australia-US Alliance: Why the Great-Power Test Still Matters",
-              "source": "El-Balad.com",
-              "url": "https://www.el-balad.com/16914537"
-            },
-            {
-              "title": "The US National Defence Strategy will demand more from Australia",
-              "source": "ASPI Strategist",
-              "url": "https://www.aspistrategist.org.au/the-us-national-defence-strategy-will-demand-more-from-australia/"
-            }
-          ],
-          "tracking_suggestions": [
-            "Australian defence self-reliance",
-            "US-Australia alliance",
-            "Indo-Pacific security strategy",
-            "Trump era alliance uncertainty"
+            "Iran Hormuz ship seizures",
+            "US-Iran ceasefire negotiations",
+            "Middle East maritime security",
+            "global energy supply disruption"
           ]
         }
       ],
+      "australia": [],
       "archaeology": [
         {
-          "headline": "New genetic analysis proposes that some Neanderthal populations may descend partially from early modern humans rather than being purely ancestral to them, complicating the standard branching model of hominin phylogeny",
-          "timestamp": "yesterday",
-          "score": 8,
+          "headline": "New genomic evidence suggests some Neanderthal populations may derive partial ancestry from early dispersals of Homo sapiens out of Africa, reversing the assumed direction of gene flow",
+          "timestamp": "1 week ago",
+          "score": 9,
           "summary": "A new genetic analysis reported by New Scientist suggests that Neanderthals descended from early modern humans rather than representing a separate evolutionary branch, which would reverse the established understanding of human evolution. The conventional model has held that Neanderthals and modern humans diverged from a common ancestor and evolved along separate paths, but this research indicates modern humans may have actually come first, with Neanderthals branching off afterward. This matters because it would fundamentally reshape our understanding of how our species developed and interacted with other human lineages over hundreds of thousands of years. The finding challenges decades of anthropological consensus and would require substantial supporting evidence to gain acceptance in the scientific community.",
           "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/",
           "image": "",
@@ -296,153 +48,24 @@
           "tracking_suggestions": []
         },
         {
-          "headline": "Ancient DNA from West Eurasian populations spanning thousands of years reveals pervasive directional selection acting on multiple genomic loci, reshaping understanding of post-migration adaptation",
-          "timestamp": "11 hrs ago",
-          "score": 7,
-          "summary": "A major study analyzing nearly 16,000 ancient genomes from people who lived across West Eurasia over thousands of years found that natural selection was actively and continuously reshaping human genetics throughout prehistory \u2014 not just occasionally. Hundreds of genetic variants shifted steadily in frequency over time, meaning populations were adapting to their environments long after groups of people migrated into new regions. This challenges a widely held view that most physical and biological changes in prehistoric West Eurasians were mainly explained by one population replacing another, rather than gradual in-place adaptation. The findings suggest evolution was an ongoing, pervasive force in shaping these ancient populations, and that previous models likely underestimated how much natural selection contributed to human biological change after the major prehistoric migrations.",
-          "url": "https://www.nature.com/articles/s41586-026-10358-1",
-          "image": "",
-          "articles": [
-            {
-              "title": "Ancient DNA reveals pervasive directional selection across West Eurasia",
-              "source": "Nature",
-              "url": "https://www.nature.com/articles/s41586-026-10358-1"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Neanderthal neonates were significantly larger at birth than modern human infants, based on new analysis of fossil skeletal remains, indicating distinct developmental trajectories between the two species",
-          "timestamp": "yesterday",
-          "score": 7,
-          "summary": "A new skeletal growth analysis has found that Neanderthal newborns were significantly heavier at birth than modern human infants, challenging the long-held assumption that the two species followed roughly similar developmental paths. The findings suggest Neanderthals invested more energy in producing larger offspring at birth, which would have placed a greater physical burden on Neanderthal mothers during pregnancy and nursing. This matters because differences in maternal energy costs and infant dependency periods could have given early modern humans a competitive reproductive advantage, potentially contributing to why Neanderthals went extinct around 40,000 years ago. The research adds to a growing body of evidence that Neanderthals were biologically more distinct from us than previously thought, not just culturally or cognitively.",
-          "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/",
+          "headline": "Genetic analysis of Neanderthal population structure reveals that declining genetic diversity, not direct competition with modern humans, may have been the primary driver of Neanderthal extinction",
+          "timestamp": "1 week ago",
+          "score": 8,
+          "summary": "A genetic study of Neanderthal DNA reveals that their populations were already small, scattered, and genetically isolated long before Homo sapiens arrived in Europe, indicating the species was already in decline. The low genetic diversity found in Neanderthal remains shows they lived in fragmented groups rather than as one unified population, suggesting they were vulnerable before any competition with modern humans began. This challenges the traditional explanation that Homo sapiens simply outcompeted and displaced a thriving Neanderthal population, instead suggesting Neanderthals faced structural problems\u2014like small group size and isolation\u2014that made them susceptible to extinction regardless of modern human expansion. The findings reshape how scientists understand Neanderthal extinction, pointing to pre-existing demographic weakness rather than rapid human-driven displacement as the primary factor in their disappearance roughly 40,000 years ago.",
+          "url": "https://www.newscientist.com/article/2520319-genetic-clues-tell-the-story-of-neanderthals-decline/",
           "image": "",
           "articles": [
             {
               "title": "",
               "source": "New Scientist",
-              "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/"
-            }
-          ],
-          "tracking_suggestions": []
-        }
-      ],
-      "football": []
-    },
-    "2026-04-17": {
-      "breaking": [
-        {
-          "headline": "Russia launched its deadliest attack on Ukraine this year, killing at least 17 people with drones and missiles striking Kyiv and Odesa",
-          "timestamp": "1 hr ago",
-          "score": 8,
-          "summary": "Russia launched its largest and deadliest attack on Ukraine so far in 2024, firing nearly 700 drones along with dozens of ballistic and cruise missiles at cities including Kyiv and Odesa, killing at least 17 people and injuring over 100. The strikes hit residential areas in the early hours of Thursday morning, killing civilians including a 12-year-old child in Kyiv, with the heaviest death toll of nine people recorded in the southern port city of Odesa. The scale of the attack signals a deliberate escalation in Russia's strategy of targeting Ukrainian civilian infrastructure and population centers. This intensification comes at a moment when global media and political attention is largely focused on the Middle East conflict, raising concerns that Ukraine's war is entering a more dangerous phase with reduced international scrutiny.",
-          "url": "https://www.theguardian.com/world/2026/apr/16/russia-attack-ukraine-drones-missiles-kyiv-odesa-volodymyr-zelenskyy",
-          "image": "https://media.guim.co.uk/94c1f2201dca8ad1a66cd0f84af7f2b7141d8cf1/631_0_3280_2624/500.jpg",
-          "articles": [
-            {
-              "title": "At least 17 people killed in Russia\u2019s deadliest attack on Ukraine this year",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/apr/16/russia-attack-ukraine-drones-missiles-kyiv-odesa-volodymyr-zelenskyy"
-            },
-            {
-              "title": "Russian drone and missile attacks kill 15 people in Ukraine",
-              "source": "Previously covered",
-              "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates"
-            },
-            {
-              "title": "Russia launched its deadliest attack on Ukraine this year, killing at least 17 people with drones and missiles striking Kyiv and Odesa",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/world/2026/apr/16/russia-attack-ukraine-drones-missiles-kyiv-odesa-volodymyr-zelenskyy"
-            }
-          ],
-          "tracking_suggestions": []
-        }
-      ],
-      "australia": [
-        {
-          "headline": "Prime Minister confirms new federal powers have been used to secure 100 million litres of additional diesel following Geelong refinery fire",
-          "timestamp": "10 hrs ago",
-          "score": 7,
-          "summary": "Following a fire at the Viva Energy refinery, Australian Prime Minister Anthony Albanese confirmed the federal government has used newly established legislative powers to secure an additional 100 million litres of diesel for the domestic market. The government underwrote the delivery of extra fuel cargoes, meaning it guaranteed the purchase to ensure supply reached Australia. This marks a notable shift in federal energy policy, representing one of the first uses of these new intervention powers and signalling a willingness to step directly into fuel markets during supply disruptions. The move has broader implications for energy security strategy and the relationship between the federal government and the fuel industry.",
-          "url": "https://www.abc.net.au/news/2026-04-16/new-powers-used-to-secure-additional-diesel-shipments/106571682",
-          "image": "https://live-production.wcms.abc-cdn.net.au/5917003de2866b5d6989a504b112c016?impolicy=wcms_crop_resize&cropH=3333&cropW=2500&xPos=1250&yPos=0&width=862&height=1149",
-          "articles": [
-            {
-              "title": "100m litres of diesel secured under new powers, PM confirms",
-              "source": "ABC News",
-              "url": "https://www.abc.net.au/news/2026-04-16/new-powers-used-to-secure-additional-diesel-shipments/106571682"
-            },
-            {
-              "title": "Prime Minister confirms new federal powers used to secure 100 million litres of additional diesel following Viva Energy refinery fire",
-              "source": "Previously covered",
-              "url": "https://www.abc.net.au/news/2026-04-16/new-powers-used-to-secure-additional-diesel-shipments/106571682"
-            },
-            {
-              "title": "Prime Minister confirms new federal powers used to secure 100 million litres of additional diesel following Viva Energy refinery fire",
-              "source": "Previously covered",
-              "url": "https://www.abc.net.au/news/2026-04-16/new-powers-used-to-secure-additional-diesel-shipments/106571682"
-            },
-            {
-              "title": "Defence Minister Richard Marles announces plan to build a more self-sufficient ADF while reaffirming the US alliance as indispensable to Australian security",
-              "source": "Previously covered",
-              "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434"
-            },
-            {
-              "title": "Richard Marles confirms US alliance remains central to Australia's defence posture while outlining plan to build a more self-sufficient ADF",
-              "source": "Previously covered",
-              "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434"
+              "url": "https://www.newscientist.com/article/2520319-genetic-clues-tell-the-story-of-neanderthals-decline/"
             }
           ],
           "tracking_suggestions": []
         },
         {
-          "headline": "Deputy PM Richard Marles confirms US alliance remains central to ADF strategy while announcing push for greater Australian defence self-sufficiency",
-          "timestamp": "9 hrs ago",
-          "score": 6,
-          "summary": "Australian Defence Minister Richard Marles has announced plans to build a more self-sufficient Australian Defence Force while simultaneously insisting the US alliance remains essential to Australian security. The dual message reflects a deliberate balancing act: reducing practical dependence on American military support without signalling any weakening of the formal alliance relationship. This matters because uncertainty during the Trump era raised serious questions about how reliable US commitments to allies actually are, pushing Australia to hedge its strategic bets. Building greater self-reliance is now a bipartisan priority, but the government is careful not to frame it in ways that could strain relations with Washington.",
-          "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434",
-          "image": "https://live-production.wcms.abc-cdn.net.au/0cb6108ffe7ad7cfc5c2b41ab3b393e4?impolicy=wcms_crop_resize&cropH=1066&cropW=799&xPos=533&yPos=0&width=862&height=1149",
-          "articles": [
-            {
-              "title": "US alliance indispensable as Marles looks to build more self-sufficient ADF",
-              "source": "ABC News",
-              "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434"
-            },
-            {
-              "title": "Defence Minister Richard Marles announces plan to build a more self-sufficient ADF while reaffirming the US alliance as indispensable to Australian security",
-              "source": "Previously covered",
-              "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434"
-            },
-            {
-              "title": "Richard Marles confirms US alliance remains central to Australia's defence posture while outlining plan to build a more self-sufficient ADF",
-              "source": "Previously covered",
-              "url": "https://www.abc.net.au/news/2026-04-16/richard-marles-defence-spending-us-alliance-rules-based-order/106571434"
-            }
-          ],
-          "tracking_suggestions": []
-        }
-      ],
-      "archaeology": [
-        {
-          "headline": "Genetic analysis indicates some Neanderthal populations may carry ancestry derived from early modern humans, reversing the conventional directional gene-flow model",
-          "timestamp": "17 hrs ago",
-          "score": 8,
-          "summary": "A new genetic analysis reported by New Scientist suggests that Neanderthals descended from early modern humans rather than representing a separate evolutionary branch, which would reverse the established understanding of human evolution. The conventional model has held that Neanderthals and modern humans diverged from a common ancestor and evolved along separate paths, but this research indicates modern humans may have actually come first, with Neanderthals branching off afterward. This matters because it would fundamentally reshape our understanding of how our species developed and interacted with other human lineages over hundreds of thousands of years. The finding challenges decades of anthropological consensus and would require substantial supporting evidence to gain acceptance in the scientific community.",
-          "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/",
-          "image": "",
-          "articles": [
-            {
-              "title": "",
-              "source": "New Scientist",
-              "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "New genomic evidence suggests the proposed bottleneck that nearly drove Homo sapiens to extinction around 900,000 years ago may be a methodological artefact rather than a real demographic event",
-          "timestamp": "6 days ago",
+          "headline": "Reanalysis of African archaeological and genetic records indicates the proposed severe bottleneck in early Homo sapiens population circa 900,000 years ago may be an artefact of incomplete sampling rather than a genuine near-extinction event",
+          "timestamp": "1 week ago",
           "score": 8,
           "summary": "A 2023 study claimed that human ancestors went through a severe population bottleneck around 900,000 years ago, shrinking to just 1,280 breeding individuals and nearly going extinct. New genomic modeling now challenges this finding, suggesting the bottleneck may not have actually happened\u2014instead, it could be an artifact created by the statistical methods used to analyze the data. The original study had significant implications for how scientists understood human evolution, including the development of our larger brains and how modern humans emerged as a species. This contradiction highlights how genetic analysis can produce dramatically different conclusions depending on methodology, leaving the true demographic history of early human populations still uncertain.",
           "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/",
@@ -457,8 +80,8 @@
           "tracking_suggestions": []
         },
         {
-          "headline": "Neanderthal neonates had significantly larger body mass than modern human newborns, according to analysis of infant skeletal remains",
-          "timestamp": "17 hrs ago",
+          "headline": "Neanderthal neonates had significantly larger body masses than modern human infants at birth, according to new skeletal analysis suggesting divergent life-history strategies between the two species",
+          "timestamp": "6 days ago",
           "score": 7,
           "summary": "A new skeletal growth analysis has found that Neanderthal newborns were significantly heavier at birth than modern human infants, challenging the long-held assumption that the two species followed roughly similar developmental paths. The findings suggest Neanderthals invested more energy in producing larger offspring at birth, which would have placed a greater physical burden on Neanderthal mothers during pregnancy and nursing. This matters because differences in maternal energy costs and infant dependency periods could have given early modern humans a competitive reproductive advantage, potentially contributing to why Neanderthals went extinct around 40,000 years ago. The research adds to a growing body of evidence that Neanderthals were biologically more distinct from us than previously thought, not just culturally or cognitively.",
           "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/",
@@ -471,296 +94,213 @@
             }
           ],
           "tracking_suggestions": []
-        },
-        {
-          "headline": "Archaeological evidence from African sites dated to around 200,000 years ago shows early Homo sapiens rapidly abandoned established stone tool technologies and adopted new toolkits, with environmental pressure identified as the primary driver",
-          "timestamp": "6 days ago",
-          "score": 6,
-          "summary": "Researchers studying 200,000-year-old African archaeological sites found that early humans switched their tool-making styles rapidly rather than gradually, driven by environmental stress and climate changes rather than sudden cognitive advances. The shift from the older Acheulean tools to Middle Stone Age toolkits appears to have been a practical response to resource scarcity caused by unstable environmental conditions. This challenges the long-held theory that such toolkit changes reflected major leaps in human intelligence or symbolic thinking. The finding matters because it reframes a pivotal moment in human prehistory as an ecological adaptation problem-solving rather than evidence of a fundamental change in how our ancestors' brains worked.",
-          "url": "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/",
-          "image": "",
-          "articles": [
-            {
-              "title": "",
-              "source": "New Scientist",
-              "url": "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/"
-            }
-          ],
-          "tracking_suggestions": []
         }
       ],
       "football": [
         {
-          "headline": "Bayern Munich beat Real Madrid 4-3 (6-4 agg) to reach Champions League semi-finals, with D\u00edaz and Olise scoring late goals",
-          "timestamp": "19 hrs ago",
-          "score": 9,
-          "summary": "Bayern Munich defeated Real Madrid 4-3 in the second leg of their Champions League quarterfinal, winning 6-4 on aggregate to advance to the semi-finals. Bayern were behind three times during the match but secured the win with two late goals: Luis D\u00edaz scored from 20 yards out with the ball deflecting off Milit\u00e3o into the net, and Michael Olise added a clinching goal shortly before full time. The result eliminates Real Madrid, the defending Champions League holders, from this year's competition. Bayern will now face Paris Saint-Germain in the semi-finals.",
-          "url": "https://www.theguardian.com/football/2026/apr/15/bayern-munich-real-madrid-champions-league-quarter-final-second-leg-match-report",
-          "image": "https://media.guim.co.uk/f93b0fdb24f6b9aaa391f97fbc9c205a7ec18870/428_70_3759_3007/500.jpg",
-          "articles": [
-            {
-              "title": "D\u00edaz and Olise late show sends Bayern into semi-finals after Real Madrid classic",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/15/bayern-munich-real-madrid-champions-league-quarter-final-second-leg-match-report"
-            },
-            {
-              "title": "Bayern Munich beat Real Madrid in UEFA Champions League thriller to reach semi-finals | Bundesliga",
-              "source": "Bundesliga",
-              "url": "https://www.bundesliga.com/en/bundesliga/news/bayern-munich-4-3-real-madrid-match-report-champions-league-thriller-36919"
-            },
-            {
-              "title": "Bayern M\u00fcnchen 4-3 Real Madrid (agg: 6-4) highlights: Late goals send Bayern to semi-finals in Champions League classic | UEFA Champions League | UEFA.com",
-              "source": "UEFA.com",
-              "url": "https://www.uefa.com/uefachampionsleague/news/02a4-2065d3ad61f5-d3ad2c2b1ca9-1000--bayern-munchen-4-3-real-madrid-agg-6-4-highlights-late-goals/"
-            },
-            {
-              "title": "PSG to face Bayern Munich in the Champions League semi-finals - Get French Football News",
-              "source": "Get French Football News",
-              "url": "https://www.getfootballnewsfrance.com/2026/psg-to-face-bayern-munich-in-the-champions-league-semi-finals/"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Arsenal drew 0-0 with Sporting Lisbon (1-0 agg) to reach Champions League semi-finals where they will play Atl\u00e9tico Madrid",
-          "timestamp": "20 hrs ago",
-          "score": 9,
-          "summary": "Arsenal drew 0-0 with Sporting Lisbon in the second leg of their Champions League quarter-final, advancing to the semi-finals 1-0 on aggregate thanks to their first-leg victory. The match was a tense, defensive performance from Arsenal, who managed just one shot on target and struggled to create chances, but held firm to secure the result they needed. This is only Arsenal's fourth ever appearance in a Champions League semi-final, a significant milestone for the club. They will now face Atl\u00e9tico Madrid in the last four, while also navigating a difficult run of Premier League form following recent losses to Manchester City, Southampton, and Bournemouth.",
-          "url": "https://www.theguardian.com/football/2026/apr/15/arsenal-sporting-lisbon-champions-league-quarter-final-second-leg-match-report",
-          "image": "https://media.guim.co.uk/273a2f4f4b47631b0a0c48028c00d3606e536c4f/1314_926_2879_2303/500.jpg",
-          "articles": [
-            {
-              "title": " Edgy Arsenal squeeze past Sporting to set up Atl\u00e9tico Madrid semi-final",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/15/arsenal-sporting-lisbon-champions-league-quarter-final-second-leg-match-report"
-            },
-            {
-              "title": "Declan Rice: Arsenal ready for 'ultimate test' at Man City in huge Premier League title race showdown",
-              "source": "Sky Sports",
-              "url": "https://www.skysports.com/football/news/11661/13532447/declan-rice-arsenal-ready-for-ultimate-test-at-man-city-in-huge-premier-league-title-race-showdown"
-            },
-            {
-              "title": "Declan Rice triggers furious backlash after Arsenal battle into Champions League semi-finals",
-              "source": "GB News",
-              "url": "https://www.gbnews.com/sport/football/declan-rice-arsenal-sporting-champions-league"
-            },
-            {
-              "title": "Declan Rice recovers from illness and is part of the Arsenal squad to face Sporting CP tonight",
-              "source": "Yahoo Sports",
-              "url": "https://sports.yahoo.com/articles/declan-rice-recovers-illness-part-122500903.html"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Manchester City captain Bernardo Silva confirmed he will leave the club at the end of the 2025-26 season",
-          "timestamp": "3 hrs ago",
+          "headline": "Leicester relegated to League One after losing to Hull, exactly 10 years after their Premier League title triumph",
+          "timestamp": "15 hrs ago",
           "score": 8,
-          "summary": "Manchester City captain Bernardo Silva has confirmed he will leave the club at the end of the 2025-26 season after nine years at the club. The Portuguese midfielder, 31, joined City from Monaco in 2017 for \u00a343.5m and became one of the most decorated players in the club's history, winning six Premier League titles, the Champions League, and numerous other trophies, accumulating 19 honours in total. His 451 appearances are the most of any player under manager Pep Guardiola, who made him captain this season. The departure is a significant moment for City, who are currently competing with Arsenal in the Premier League title race, as they lose one of their most important and experienced players at the end of the campaign.",
-          "url": "https://www.theguardian.com/football/2026/apr/16/manchester-city-captain-bernardo-silva-confirms-he-will-leave-club-at-end-of-season",
-          "image": "https://media.guim.co.uk/cdd083a8ff343655c929bc9c5c04721904e3bd89/1027_173_3216_2573/500.jpg",
+          "summary": "Leicester City were relegated to League One (England's third tier) after losing to Hull City, completing a second consecutive relegation that drops them from the Premier League to the third division in just two years. The fall is historically striking because exactly 10 years ago Leicester pulled off one of sport's greatest upsets by winning the Premier League as 5000-1 outsiders, and they also won the FA Cup as recently as 2021. A six-point deduction for breaking financial rules compounded their struggles on the pitch, and furious fans directed their anger at the club's board after the final whistle. A goalkeeping error by Asmir Begovic gifted Hull an early advantage, and despite a late penalty comeback, Leicester could not avoid the result they needed to escape.",
+          "url": "https://www.theguardian.com/football/2026/apr/21/leicester-hull-championship-match-report",
+          "image": "https://media.guim.co.uk/3380da9193364646e9f88f88db8fc54bea2cb6d4/997_7_3233_2586/500.jpg",
           "articles": [
             {
-              "title": "Manchester City captain Bernardo Silva confirms he will leave club at end of season",
+              "title": "Leicester relegated to League One, 10 years on from Premier League triumph",
               "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/16/manchester-city-captain-bernardo-silva-confirms-he-will-leave-club-at-end-of-season"
+              "url": "https://www.theguardian.com/football/2026/apr/21/leicester-hull-championship-match-report"
             },
             {
-              "title": "Premier League title race: How it stands and remaining fixtures",
-              "source": "Premier League Official",
-              "url": "https://www.premierleague.com/en/news/4572119/premier-league-title-race-how-it-stands-and-remaining-fixtures"
-            },
-            {
-              "title": "Arsenal and Man City's final Premier League fixtures compared as title race hots up",
-              "source": "ESPN",
-              "url": "https://www.espn.com/soccer/story/_/id/48468717/arsenal-man-city-final-premier-league-fixtures-compared-title-race-hots-up"
-            },
-            {
-              "title": "How Arsenal and Man City's Remaining Premier League Fixtures Compare",
-              "source": "Sports Illustrated",
-              "url": "https://www.si.com/soccer/how-arsenal-man-city-remaining-premier-league-fixtures-compare-4-12-26"
-            }
-          ],
-          "tracking_suggestions": [
-            "Bernardo Silva departure",
-            "Manchester City squad changes",
-            "Pep Guardiola era City",
-            "Premier League title race 2026"
-          ]
-        },
-        {
-          "headline": "Alex Manninger, former Arsenal and Austria goalkeeper, died aged 48 following a road accident",
-          "timestamp": "3 hrs ago",
-          "score": 8,
-          "summary": "Alex Manninger, a former Arsenal and Austria goalkeeper, died at age 48 after his car was struck by a train at a railway crossing in Salzburg, Austria, on Thursday morning. Emergency responders freed him from the vehicle but were unable to revive him. Manninger was a key squad member during Arsenal's 1998 Double-winning season under Ars\u00e8ne Wenger, making 64 appearances for the club after joining for \u00a3500,000 in 1997, and earned 33 international caps for Austria. His former clubs, including Red Bull Salzburg and Arsenal, publicly mourned his passing.",
-          "url": "https://www.theguardian.com/football/2026/apr/16/alex-manninger-former-arsenal-goalkeeper-dies-aged-48-after-road-accident",
-          "image": "https://media.guim.co.uk/a44943a4462d2bd1c8af9fe2e6d3dafe3c1dbcae/137_219_2214_1771/500.jpg",
-          "articles": [
-            {
-              "title": "Alex Manninger, former Arsenal goalkeeper, dies aged 48 after road accident",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/16/alex-manninger-former-arsenal-goalkeeper-dies-aged-48-after-road-accident"
-            },
-            {
-              "title": "Alex Manninger, former Arsenal keeper, dies at 48 - ESPN",
-              "source": "ESPN",
-              "url": "https://www.espn.com/soccer/story/_/id/48502984/alex-manninger-former-arsenal-goalkeeper-dies-48"
-            },
-            {
-              "title": "Former Arsenal goalkeeper Alex Manninger dies aged 48 after traffic accident",
-              "source": "Times and Star",
-              "url": "https://www.timesandstar.co.uk/news/national/uk-today/26027747.former-arsenal-goalkeeper-alex-manninger-dies-aged-48/"
-            },
-            {
-              "title": "Former Arsenal & Juventus Goalkeeper Alex Manninger Has Died Aged Just 48",
-              "source": "Give Me Sport",
-              "url": "https://www.givemesport.com/alex-manninger-dies-car-crash-arsenal-juventus-football-soccer/"
-            }
-          ],
-          "tracking_suggestions": [
-            "Alex Manninger Death",
-            "Arsenal Former Players",
-            "Football Goalkeeper Obituaries",
-            "Road-Rail Accident Austria"
-          ]
-        },
-        {
-          "headline": "Declan Rice played through illness to help Arsenal keep a clean sheet against Sporting Lisbon in the Champions League quarter-final",
-          "timestamp": "18 hrs ago",
-          "score": 7,
-          "summary": "Arsenal drew 0-0 with Sporting Lisbon in the second leg of their Champions League quarter-final, advancing on the strength of their first-leg win in Portugal. Midfielder Declan Rice played despite being ill, with manager Mikel Arteta describing him as 'shattered' after the match. The result is historically significant as it marks the first time Arsenal have reached back-to-back Champions League semi-finals, only the fourth time overall in the club's history. They will face Atl\u00e9tico Madrid in the semi-finals, a team Arsenal already beat 4-0 earlier this season, though Rice's fitness will be a key concern going forward.",
-          "url": "https://www.theguardian.com/football/2026/apr/15/declan-rice-sickbed-arteta-sporting-lisbon-arsenal-champions-league",
-          "image": "https://media.guim.co.uk/d128f8fd3a1f4d53a8aa7be6010857ddba5b2364/500_0_5000_4000/500.jpg",
-          "articles": [
-            {
-              "title": "\u2018Shattered\u2019 Rice wows Arteta by getting off sickbed to keep Sporting at bay",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/15/declan-rice-sickbed-arteta-sporting-lisbon-arsenal-champions-league"
-            },
-            {
-              "title": "Declan Rice: Arsenal ready for 'ultimate test' at Man City in huge Premier League title race showdown",
-              "source": "Sky Sports",
-              "url": "https://www.skysports.com/football/news/11661/13532447/declan-rice-arsenal-ready-for-ultimate-test-at-man-city-in-huge-premier-league-title-race-showdown"
-            },
-            {
-              "title": "Declan Rice demands Arsenal improvement for 'title-defining' Man City clash",
-              "source": "ESPN",
-              "url": "https://www.espn.com/soccer/story/_/id/48503035/declan-rice-demands-arsenal-improvement-title-defining-man-city-clash"
-            },
-            {
-              "title": "'We're ready' - Declan Rice fires warning to Man City ahead of titanic Premier League title clash",
-              "source": "Goal.com",
-              "url": "https://www.goal.com/en-qa/lists/ready-declan-rice-man-city-premier-league-title/blte941b4763baec719"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Declan Rice said Arsenal must improve ahead of their Premier League title showdown at Manchester City",
-          "timestamp": "3 hrs ago",
-          "score": 7,
-          "summary": "Arsenal midfielder Declan Rice has acknowledged that his team must perform better when they face Manchester City in a crucial Premier League title clash on Sunday. Despite Arsenal sitting six points clear at the top of the table, recent form has been inconsistent, with losses in the Carabao Cup final, FA Cup, and Premier League, alongside a laboured but successful Champions League progression past Sporting. Rice was candid about the team's struggles on the ball, admitting improvement is needed, even as he highlighted their defensive solidity. The match against City is a pivotal moment in the title race, as a win could significantly strengthen Arsenal's championship bid while a defeat would allow City to close the gap.",
-          "url": "https://www.theguardian.com/football/2026/apr/16/declan-rice-demands-arsenal-improve-for-title-showdown-at-man-city",
-          "image": "https://media.guim.co.uk/ecfc8b480a27307056488437d3b15e0e2c678ee1/355_213_3190_2552/500.jpg",
-          "articles": [
-            {
-              "title": "Declan Rice demands Arsenal improve for title showdown at Manchester City",
-              "source": "The Guardian",
+              "title": "Declan Rice said Arsenal must improve ahead of their Premier League title showdown at Manchester City",
+              "source": "Previously covered",
               "url": "https://www.theguardian.com/football/2026/apr/16/declan-rice-demands-arsenal-improve-for-title-showdown-at-man-city"
-            },
-            {
-              "title": "Arsenal 0 - 0 Sporting CP - Match Report",
-              "source": "Arsenal.com",
-              "url": "https://www.arsenal.com/fixture/arsenal/2026-Apr-15/arsenal-0-0-sporting-cp-match-report"
-            },
-            {
-              "title": "Arsenal 0-0 Sporting (Apr 15, 2026) Game Analysis",
-              "source": "ESPN",
-              "url": "https://www.espn.com/soccer/report/_/gameId/401862890"
-            },
-            {
-              "title": "Arsenal Player Ratings vs. Sporting CP: Lifeless Gunners Display Enough to Reach Semifinals",
-              "source": "SI.com",
-              "url": "https://www.si.com/soccer/arsenal-player-ratings-vs-sporting-cp-4-15-26"
             }
           ],
           "tracking_suggestions": [
-            "Arsenal vs Man City title race",
-            "Arsenal Premier League form",
-            "English Premier League 2024-25",
-            "Declan Rice Arsenal"
+            "Leicester City relegation",
+            "English Football League One",
+            "Premier League financial rules",
+            "English football club decline"
           ]
         },
         {
-          "headline": "Real Madrid have gone the entire month of April without a single victory following their Champions League exit to Bayern Munich",
-          "timestamp": "3 hrs ago",
-          "score": 7,
-          "summary": "Real Madrid went through the entire month of April 2025 without winning a single match, recording three losses and one draw across four games. Their poor form coincided with their elimination from the Champions League at the hands of Bayern Munich. This winless run is significant because Real Madrid are typically title contenders, and such a collapse in form raises serious questions about squad depth, player fitness, and the team's ability to finish the La Liga season strongly. The slump could have implications for trophy prospects and may prompt scrutiny of manager decisions and transfer plans heading into the summer.",
-          "url": "https://www.marca.com/futbol/real-madrid/2026/04/16/mes-negro-real-madrid-cero-victorias-abril.html",
-          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/16/17763481379516_150x0.jpg",
+          "headline": "Brighton beat Chelsea 1-0 to inflict a fifth consecutive league defeat on Liam Rosenior's side, who have failed to score in that run",
+          "timestamp": "15 hrs ago",
+          "score": 8,
+          "summary": "Brighton defeated Chelsea 3-0 at home, inflicting a fifth consecutive Premier League defeat on Chelsea and extending their run without scoring a single goal across those five matches. Brighton's goals came from Ferdi Kadioglu, Jack Hinshelwood, and a late Danny Welbeck strike, with Chelsea manager Liam Rosenior describing the performance as 'unacceptable in every aspect.' The result puts Rosenior's job under serious threat and highlights a stark contrast between the two clubs: Brighton, under manager Fabian H\u00fcrzeler, are pushing for European qualification again, while Chelsea's expensive and disorganised squad continues to underperform. The defeat underscores broader questions about Chelsea's recruitment strategy and leadership compared to Brighton's well-regarded model of sustainable squad-building.",
+          "url": "https://www.theguardian.com/football/2026/apr/21/brighton-chelsea-premier-league-match-report",
+          "image": "https://media.guim.co.uk/305644bac8c98088e67cddd0dba469cd2796d392/308_0_4510_3608/500.jpg",
           "articles": [
             {
-              "title": "El mes negro del Real Madrid: cero victorias en abril",
-              "source": "Marca",
-              "url": "https://www.marca.com/futbol/real-madrid/2026/04/16/mes-negro-real-madrid-cero-victorias-abril.html"
-            },
-            {
-              "title": "Real Madrid collapse sparks serious concerns about overconfidence within the squad",
-              "source": "Madrid Universal",
-              "url": "https://madriduniversal.com/real-madrid-collapse-sparks-serious-concerns-about-overconfidence-within-the-squad/"
-            },
-            {
-              "title": "End of the Galacticos? Real Madrid 'admit mistakes' over transfer strategy amid another disappointing season",
-              "source": "FOX Sports",
-              "url": "https://www.foxsports.com/articles/soccer/end-of-the-galacticos-real-madrid-admit-mistakes-over-transfer-strategy-amid-another-disappointing-season"
-            },
-            {
-              "title": "Real Madrid Injury Crisis: Every Player Out for Rest of La Liga Season",
-              "source": "Sports Illustrated",
-              "url": "https://www.si.com/soccer/real-madrid-injury-crisis-every-player-out-la-liga-season"
-            }
-          ],
-          "tracking_suggestions": [
-            "Real Madrid April form",
-            "Madrid La Liga collapse",
-            "Champions League Bayern exit",
-            "Real Madrid squad stability"
-          ]
-        },
-        {
-          "headline": "Vincent Kompany said Bayern Munich are ready to beat PSG and reach the Champions League final after eliminating Real Madrid",
-          "timestamp": "36 mins ago",
-          "score": 6,
-          "summary": "Bayern Munich defeated Real Madrid in a thrilling Champions League quarterfinal, sending them through to the semi-finals where they will face PSG. Manager Vincent Kompany, who was appointed after leading Burnley to the Championship title in 2023, played down the magnitude of the achievement by humorously referencing his wins over Blackburn Rovers as equally meaningful moments in his career. His composed reaction after eliminating one of Europe's biggest clubs highlights his growing reputation as a top-level manager despite his relatively young age of 40. The Bayern vs PSG semi-final now sets up one of the most high-profile matchups remaining in this season's Champions League.",
-          "url": "https://www.theguardian.com/football/2026/apr/16/vincent-kompany-bayern-munich-psg-champions-league",
-          "image": "https://media.guim.co.uk/209c9cb8dbb600cca245463c884c78f4298bd2b8/485_0_4635_3708/500.jpg",
-          "articles": [
-            {
-              "title": "From Burnley to Bayern: Kompany trains sights on PSG and European supremacy",
+              "title": "Brighton subject Chelsea and Rosenior to fifth league defeat in a row without scoring",
               "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/16/vincent-kompany-bayern-munich-psg-champions-league"
+              "url": "https://www.theguardian.com/football/2026/apr/21/brighton-chelsea-premier-league-match-report"
             },
             {
-              "title": "Bayern to face PSG in semi-finals",
-              "source": "Yahoo Sports",
-              "url": "https://ca.sports.yahoo.com/news/bayern-face-psg-semi-finals-211900233.html"
+              "title": "Brighton 3-0 Chelsea: Liam Rosenior oversees worst league run since 1912 as Blues fail to score again",
+              "source": "Sky Sports",
+              "url": "https://www.skysports.com/football/brighton-vs-chelsea/report/531461"
             },
             {
-              "title": "Why Vincent Kompany will miss Champions League semi-final against PSG as Bayern Munich coach punished in chaotic Real Madrid clash",
-              "source": "Goal.com US",
-              "url": "https://www.goal.com/en-us/lists/why-vincent-kompany-miss-champions-league-semi-final-psg-bayern-munich-real-madrid/blt195a4980d5ce7da0"
+              "title": "Chelsea: Rosenior 'is getting sacked' as 'emergency meeting called' after 'unacceptable' Brighton loss",
+              "source": "Football365",
+              "url": "https://www.football365.com/news/chelsea-call-emergency-meeting-brighton-loss-rosenior-getting-sacked"
             },
             {
-              "title": "Five Observations from Bayern Munich's 4-3 win against Real Madrid",
-              "source": "Bavarian Football Works",
-              "url": "https://www.bavarianfootballworks.com/champions-league/189900/match-observations-analysis-bayern-munich-win-real-madrid-kane-neuer-musiala-olise-diaz-mbappe-vinicius-guler-trent-champions-league-uefa-ucl"
+              "title": "Rosenior slams Chelsea after historic fifth straight scoreless defeat",
+              "source": "Prism News",
+              "url": "https://www.prismnews.com/news/rosenior-slams-chelsea-after-historic-fifth-straight"
             }
           ],
           "tracking_suggestions": [
-            "Bayern vs PSG semi-final",
-            "Kompany Champions League management",
-            "Champions League 2024-25",
-            "European football"
+            "Liam Rosenior job security",
+            "Chelsea Premier League form",
+            "Brighton European push 2025",
+            "Premier League managerial pressure"
+          ]
+        },
+        {
+          "headline": "Newcastle's PIF owners scheduled a meeting with manager Eddie Howe next week to discuss the club's poor run of form",
+          "timestamp": "21 hrs ago",
+          "score": 7,
+          "summary": "Newcastle United's Saudi Arabian owners, led by PIF chair Yasir al-Rumayyan, are flying to England next week for a board meeting where manager Eddie Howe will be questioned about the team's poor form \u2014 eight defeats in 11 Premier League games, leaving them 14th in the table. Howe is expected to keep his job for the remaining five games of the season, but will face scrutiny over his recruitment and training plans before a full performance review at the end of the campaign. The meeting will also cover longer-term infrastructure decisions including a new training ground and potential stadium development. The outcome matters because it will likely define whether Howe has a future at the club beyond this season, with ownership's confidence in him described as unclear.",
+          "url": "https://www.theguardian.com/football/2026/apr/21/eddie-howe-newcastle-pif-owners-meeting-anthony-gordon",
+          "image": "https://media.guim.co.uk/44a005ccd0b5217b70f98e2a343331577fbbf5d9/556_130_2876_2301/500.jpg",
+          "articles": [
+            {
+              "title": "Newcastle\u2019s PIF owners to question Eddie Howe next week on poor run of form",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/football/2026/apr/21/eddie-howe-newcastle-pif-owners-meeting-anthony-gordon"
+            },
+            {
+              "title": "Newcastle United make Eddie Howe stance clear amid rising uncertainty at St. James' Park",
+              "source": "Caught Offside",
+              "url": "https://www.caughtoffside.com/2026/04/14/newcastle-united-eddie-howe-stance-clear/"
+            },
+            {
+              "title": "Newcastle 'starting to lose patience' with Howe as view from 'inside' St James' Park is revealed",
+              "source": "Football365",
+              "url": "https://www.football365.com/news/newcastle-howe-sack-lose-patience-view-inside-revealed"
+            },
+            {
+              "title": "Newcastle hierarchy united and aligned behind Eddie Howe",
+              "source": "Sportsview",
+              "url": "https://sportsview.co.uk/2026/03/newcastle-hierarchy-united-and-aligned-behind-under-fire-eddie-howe"
+            }
+          ],
+          "tracking_suggestions": [
+            "Eddie Howe Job Security",
+            "Newcastle United Form 2025",
+            "PIF Newcastle Ownership",
+            "Premier League Manager Sackings"
+          ]
+        },
+        {
+          "headline": "Getafe goalkeeper David Soria sets a new La Liga record, details of which are covered by Marca",
+          "timestamp": "8 hrs ago",
+          "score": 6,
+          "summary": "Getafe goalkeeper David Soria is on the verge of setting a new La Liga record for consecutive appearances as a starting goalkeeper. He is set to equal Zubizarreta's record of 184 consecutive starts, and is just nine appearances away from surpassing the all-time record of 192 held by Larra\u00f1aga. This is a significant individual milestone in Spanish football, highlighting Soria's remarkable consistency and durability in goal for Getafe. The achievement carries added weight given Getafe's typical battles for mid-table security in La Liga, where reliable goalkeeping has been central to the club's survival in the top flight.",
+          "url": "https://www.marca.com/futbol/getafe/2026/04/22/david-soria-record.html",
+          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2025/11/23/17639328976732_150x0.jpg",
+          "articles": [
+            {
+              "title": "David Soria est\u00e1 de r\u00e9cord",
+              "source": "Marca",
+              "url": "https://www.marca.com/futbol/getafe/2026/04/22/david-soria-record.html"
+            },
+            {
+              "title": "The Five Best Goalkeepers of LALIGA EA SPORTS 2024/25",
+              "source": "LALIGA",
+              "url": "https://www.laliga.com/en-US/news/the-five-best-goalkeepers-of-laliga-ea-sports-2024-25"
+            },
+            {
+              "title": "Who Will Be LALIGA's Best Goalkeeper This Season?",
+              "source": "LALIGA",
+              "url": "https://www.laliga.com/en-US/news/who-will-be-laligas-best-goalkeeper-this-season"
+            },
+            {
+              "title": "Thibaut Courtois Celebrates Special Milestone During Real Madrid vs Getafe",
+              "source": "Sports Illustrated",
+              "url": "https://www.si.com/onsi/soccer/real-madrid/news/thibaut-courtois-celebrates-special-milestone-during-real-madrid-vs-getafe"
+            }
+          ],
+          "tracking_suggestions": [
+            "David Soria consecutive starts",
+            "La Liga goalkeeping records",
+            "Getafe FC season",
+            "La Liga individual milestones"
+          ]
+        },
+        {
+          "headline": "Girona manager M\u00edchel acknowledges his side did not perform at their best following their latest La Liga result",
+          "timestamp": "13 hrs ago",
+          "score": 5,
+          "summary": "Girona manager M\u00edchel publicly admitted after their latest La Liga match that his team did not perform to the standard expected. The acknowledgment highlights ongoing inconsistency from Girona, who rose to prominence last season with a remarkable Champions League qualification finish but have struggled to maintain that form. M\u00edchel's candid assessment suggests internal awareness of the problem, though whether the team can correct course remains to be seen. For a club still establishing itself among Spain's top flight contenders, sustained inconsistency could have significant implications for their league standing.",
+          "url": "https://www.marca.com/futbol/girona/2026/04/22/michel-sido-nuestro-mejor-dia.html",
+          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/22/17768112334364_150x0.jpg",
+          "articles": [
+            {
+              "title": "M\u00edchel: \"No ha sido nuestro mejor d\u00eda\"",
+              "source": "Marca",
+              "url": "https://www.marca.com/futbol/girona/2026/04/22/michel-sido-nuestro-mejor-dia.html"
+            },
+            {
+              "title": "M\u00edchel calls for control and consistency to secure three key points against Villarreal",
+              "source": "Girona FC Official Website",
+              "url": "https://www.gironafc.cat/en/news/michel-calls-for-control-and-consistency-to-secure-three-key-points-against-villarreal"
+            },
+            {
+              "title": "COLUMN: Why Girona are suddenly in a fight for La Liga survival",
+              "source": "Football Espa\u00f1a",
+              "url": "https://www.football-espana.net/2025/04/22/column-from-champions-league-to-relegation-why-girona-are-suddenly-in-a-fight-for-la-liga-survival"
+            },
+            {
+              "title": "Michel refuses to dismiss Girona's Europe hopes after defeat to Sevilla",
+              "source": "beIN SPORTS",
+              "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/michel-refuses-to-dismiss-gironas-europe-hopes-after-defeat-to-sevilla-2025-01-18"
+            }
+          ],
+          "tracking_suggestions": [
+            "M\u00edchel Girona management",
+            "Girona La Liga form",
+            "La Liga mid-table battle",
+            "Spanish football results"
+          ]
+        },
+        {
+          "headline": "Barcelona host Celta de Vigo in La Liga on Wednesday 22 April in a fixture with title race relevance",
+          "timestamp": "5 hrs ago",
+          "score": 4,
+          "summary": "Barcelona are scheduled to host Celta de Vigo in a La Liga matchday 33 fixture on Wednesday, 22 April. The match carries significance for the Spanish top-flight title race, suggesting Barcelona are in contention for the championship at this stage of the season. No result is available as this appears to be a preview article written ahead of the game. The original article content is in Spanish and offers details on how to follow the match.",
+          "url": "https://www.marca.com/futbol/primera-division/2026/04/20/a-que-hora-juega-el-barcelona-contra-el-celta-de-vigo-horario-y-donde-ver-en-hoy-tv-el-partido-de-laliga-ea-sports.html",
+          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/22/17768134942044_150x0.jpg",
+          "articles": [
+            {
+              "title": "A qu\u00e9 hora juega el Barcelona contra el Celta de Vigo: horario y d\u00f3nde ver en hoy TV el partido de LaLiga EA Sports",
+              "source": "Marca",
+              "url": "https://www.marca.com/futbol/primera-division/2026/04/20/a-que-hora-juega-el-barcelona-contra-el-celta-de-vigo-horario-y-donde-ver-en-hoy-tv-el-partido-de-laliga-ea-sports.html"
+            },
+            {
+              "title": "Preview the results of an eDiscovery search",
+              "source": "Microsoft Learn",
+              "url": "https://learn.microsoft.com/en-us/purview/ediscovery-preview-search-results"
+            },
+            {
+              "title": "Microsoft 365 Content Search - Can't Preview or Download Results",
+              "source": "AC Brown's IT World",
+              "url": "https://acbrownit.com/2019/08/19/microsoft-365-content-search-cant-preview-or-download-results/"
+            },
+            {
+              "title": "Data Preview",
+              "source": "Sight Machine",
+              "url": "https://docs.sightmachine.com/docs/data-preview"
+            }
+          ],
+          "tracking_suggestions": [
+            "Barcelona vs Celta Vigo",
+            "La Liga title race 2025",
+            "La Liga matchday 33",
+            "Spanish football"
           ]
         }
       ]
@@ -952,6 +492,43 @@
       "damon jones",
       "resident alien",
       "russell vought"
+    ],
+    "2026-04-22": [
+      "Live updates: Ships attacked in Strait of Hormuz as Trump extends ceasefire - CNN",
+      "With Virginia vote, Democrats gain edge over Trump's national GOP redistricting push - NPR",
+      "Trump Extends Iran Ceasefire, Blockade as Peace Talks Stumble - Bloomberg.com",
+      "Trump administration sues Southern Poverty Law Center on fraud charges - Al Jazeera",
+      "Man Is Charged With Providing Gun to Louisiana Shooter - The New York Times",
+      "Mexico to beef up security at tourist sites after shooting at pyramids in lead up to World Cup - AP News",
+      "Texas can require public schools to display Ten Commandments in classrooms, court rules - AP News",
+      "Trump taps longtime insider to fix Labor Department headache - Politico",
+      "Trump reads from Bible in Oval Office in taped message for Christian group - The Guardian",
+      "Pentagon details record $1.5 trillion budget request - The Washington Post",
+      "UK bill bans anyone born after 2008 from ever buying tobacco - Al Jazeera",
+      "Priceless 2,500-year-old golden helmet returned to Romania after Dutch museum raid - NPR",
+      "Threat of Evictions Darkens Russia\u2019s Rosy Picture of Occupied Ukraine - The New York Times",
+      "China praises blocking of Taiwan president's Africa trip, Taipei defiant - Reuters",
+      "Five things we learned at Fed nominee Warsh's Senate hearing - Reuters",
+      "mgk - FIX UR FACE (feat. Fred Durst) (Official Music Video)",
+      "Evil Dead Burn | Date Announce Teaser",
+      "Utah Mammoth at Vegas Golden Knights",
+      "TopOppGen - don't cry (Official Video)",
+      "Blood Hunt | New PvE Mode Trailer | Marvel Rivals",
+      "Boston Bruins at Buffalo Sabres",
+      "Daddy Rich",
+      "Silo \u2014 Season 3 Official Teaser | Apple TV",
+      "Jesse Watters Primetime",
+      "Raq baby - Homicide (Official Music Video)",
+      "connections answers",
+      "yom haatzmaut",
+      "hersh goldberg polin",
+      "kehlani",
+      "earth",
+      "alexandra eala",
+      "vivek ramaswamy",
+      "ge vernova stock",
+      "portugal vs",
+      "florida wildfire map"
     ]
   },
   "summaries": {
@@ -1020,93 +597,100 @@
     "https://www.theguardian.com/football/2026/apr/16/alex-manninger-former-arsenal-goalkeeper-dies-aged-48-after-road-accident": "Alex Manninger, a former Arsenal and Austria goalkeeper, died at age 48 after his car was struck by a train at a railway crossing in Salzburg, Austria, on Thursday morning. Emergency responders freed him from the vehicle but were unable to revive him. Manninger was a key squad member during Arsenal's 1998 Double-winning season under Ars\u00e8ne Wenger, making 64 appearances for the club after joining for \u00a3500,000 in 1997, and earned 33 international caps for Austria. His former clubs, including Red Bull Salzburg and Arsenal, publicly mourned his passing.",
     "https://www.theguardian.com/football/2026/apr/16/declan-rice-demands-arsenal-improve-for-title-showdown-at-man-city": "Arsenal midfielder Declan Rice has acknowledged that his team must perform better when they face Manchester City in a crucial Premier League title clash on Sunday. Despite Arsenal sitting six points clear at the top of the table, recent form has been inconsistent, with losses in the Carabao Cup final, FA Cup, and Premier League, alongside a laboured but successful Champions League progression past Sporting. Rice was candid about the team's struggles on the ball, admitting improvement is needed, even as he highlighted their defensive solidity. The match against City is a pivotal moment in the title race, as a win could significantly strengthen Arsenal's championship bid while a defeat would allow City to close the gap.",
     "https://www.marca.com/futbol/real-madrid/2026/04/16/mes-negro-real-madrid-cero-victorias-abril.html": "Real Madrid went through the entire month of April 2025 without winning a single match, recording three losses and one draw across four games. Their poor form coincided with their elimination from the Champions League at the hands of Bayern Munich. This winless run is significant because Real Madrid are typically title contenders, and such a collapse in form raises serious questions about squad depth, player fitness, and the team's ability to finish the La Liga season strongly. The slump could have implications for trophy prospects and may prompt scrutiny of manager decisions and transfer plans heading into the summer.",
-    "https://www.theguardian.com/football/2026/apr/16/vincent-kompany-bayern-munich-psg-champions-league": "Bayern Munich defeated Real Madrid in a thrilling Champions League quarterfinal, sending them through to the semi-finals where they will face PSG. Manager Vincent Kompany, who was appointed after leading Burnley to the Championship title in 2023, played down the magnitude of the achievement by humorously referencing his wins over Blackburn Rovers as equally meaningful moments in his career. His composed reaction after eliminating one of Europe's biggest clubs highlights his growing reputation as a top-level manager despite his relatively young age of 40. The Bayern vs PSG semi-final now sets up one of the most high-profile matchups remaining in this season's Champions League."
+    "https://www.theguardian.com/football/2026/apr/16/vincent-kompany-bayern-munich-psg-champions-league": "Bayern Munich defeated Real Madrid in a thrilling Champions League quarterfinal, sending them through to the semi-finals where they will face PSG. Manager Vincent Kompany, who was appointed after leading Burnley to the Championship title in 2023, played down the magnitude of the achievement by humorously referencing his wins over Blackburn Rovers as equally meaningful moments in his career. His composed reaction after eliminating one of Europe's biggest clubs highlights his growing reputation as a top-level manager despite his relatively young age of 40. The Bayern vs PSG semi-final now sets up one of the most high-profile matchups remaining in this season's Champions League.",
+    "https://www.theguardian.com/world/live/2026/apr/22/iran-war-live-updates-trump-ceasefire-us-hormuz-blockade-israel-lebanon-middle-east": "Iran's Revolutionary Guard Corps seized two commercial ships, the Epaminondas and MSC Francesca, in the Strait of Hormuz on April 22, 2026, while a third vessel, the Euphoria, was left stranded off Iran's coast. This happened on the same day Donald Trump announced he was extending the US-Iran ceasefire at Pakistan's request, suggesting Iran may be using maritime pressure as leverage in ongoing nuclear negotiations. The Strait of Hormuz is one of the world's most critical oil shipping routes, carrying around 20% of global oil supply, so seizing vessels there directly threatens energy markets and global supply chains. The move signals a deliberate Iranian escalation outside the ceasefire framework, raising serious questions about whether diplomacy can hold.",
+    "https://www.theguardian.com/football/2026/apr/21/leicester-hull-championship-match-report": "Leicester City were relegated to League One (England's third tier) after losing to Hull City, completing a second consecutive relegation that drops them from the Premier League to the third division in just two years. The fall is historically striking because exactly 10 years ago Leicester pulled off one of sport's greatest upsets by winning the Premier League as 5000-1 outsiders, and they also won the FA Cup as recently as 2021. A six-point deduction for breaking financial rules compounded their struggles on the pitch, and furious fans directed their anger at the club's board after the final whistle. A goalkeeping error by Asmir Begovic gifted Hull an early advantage, and despite a late penalty comeback, Leicester could not avoid the result they needed to escape.",
+    "https://www.theguardian.com/football/2026/apr/21/brighton-chelsea-premier-league-match-report": "Brighton defeated Chelsea 3-0 at home, inflicting a fifth consecutive Premier League defeat on Chelsea and extending their run without scoring a single goal across those five matches. Brighton's goals came from Ferdi Kadioglu, Jack Hinshelwood, and a late Danny Welbeck strike, with Chelsea manager Liam Rosenior describing the performance as 'unacceptable in every aspect.' The result puts Rosenior's job under serious threat and highlights a stark contrast between the two clubs: Brighton, under manager Fabian H\u00fcrzeler, are pushing for European qualification again, while Chelsea's expensive and disorganised squad continues to underperform. The defeat underscores broader questions about Chelsea's recruitment strategy and leadership compared to Brighton's well-regarded model of sustainable squad-building.",
+    "https://www.theguardian.com/football/2026/apr/21/eddie-howe-newcastle-pif-owners-meeting-anthony-gordon": "Newcastle United's Saudi Arabian owners, led by PIF chair Yasir al-Rumayyan, are flying to England next week for a board meeting where manager Eddie Howe will be questioned about the team's poor form \u2014 eight defeats in 11 Premier League games, leaving them 14th in the table. Howe is expected to keep his job for the remaining five games of the season, but will face scrutiny over his recruitment and training plans before a full performance review at the end of the campaign. The meeting will also cover longer-term infrastructure decisions including a new training ground and potential stadium development. The outcome matters because it will likely define whether Howe has a future at the club beyond this season, with ownership's confidence in him described as unclear.",
+    "https://www.marca.com/futbol/getafe/2026/04/22/david-soria-record.html": "Getafe goalkeeper David Soria is on the verge of setting a new La Liga record for consecutive appearances as a starting goalkeeper. He is set to equal Zubizarreta's record of 184 consecutive starts, and is just nine appearances away from surpassing the all-time record of 192 held by Larra\u00f1aga. This is a significant individual milestone in Spanish football, highlighting Soria's remarkable consistency and durability in goal for Getafe. The achievement carries added weight given Getafe's typical battles for mid-table security in La Liga, where reliable goalkeeping has been central to the club's survival in the top flight.",
+    "https://www.marca.com/futbol/girona/2026/04/22/michel-sido-nuestro-mejor-dia.html": "Girona manager M\u00edchel publicly admitted after their latest La Liga match that his team did not perform to the standard expected. The acknowledgment highlights ongoing inconsistency from Girona, who rose to prominence last season with a remarkable Champions League qualification finish but have struggled to maintain that form. M\u00edchel's candid assessment suggests internal awareness of the problem, though whether the team can correct course remains to be seen. For a club still establishing itself among Spain's top flight contenders, sustained inconsistency could have significant implications for their league standing.",
+    "https://www.marca.com/futbol/primera-division/2026/04/20/a-que-hora-juega-el-barcelona-contra-el-celta-de-vigo-horario-y-donde-ver-en-hoy-tv-el-partido-de-laliga-ea-sports.html": "Barcelona are scheduled to host Celta de Vigo in a La Liga matchday 33 fixture on Wednesday, 22 April. The match carries significance for the Spanish top-flight title race, suggesting Barcelona are in contention for the championship at this stage of the season. No result is available as this appears to be a preview article written ahead of the game. The original article content is in Spanish and offers details on how to follow the match."
   },
   "article_hashes": {
-    "breaking": "793a66e8d8b6f99be808967d2fb7f8dd"
+    "breaking": "d4e3e449d501ff202448966a0e76e48a"
   },
   "world_topics_cache": {
     "today": [
       {
-        "headline": "Trump administration escalates Iran confrontation with military threats and naval blockade",
-        "why": "Multiple coordinated signals show the US is pursuing aggressive posturing against Iran, with the military claiming readiness to strike Iranian infrastructure while the Navy actively blocks Iranian ships, amid simultaneous reports of nuclear negotiations\u2014signaling a high-stakes diplomatic and military standoff.",
-        "signal": "[NEWS] US military: 'locked and loaded' to strike Iran's power plants, energy industry if ordered - Reuters; [NEWS] U.S. Navy stopped 13 ships from passing Iranian port blockade, Pentagon says - CNBC; [NEWS] Iran-US talks turn to interim deal amid rifts over nuclear work, Iranian sources say - Reuters"
+        "headline": "Trump Extends Iran Ceasefire Amid Strait of Hormuz Attacks",
+        "why": "The Trump administration is extending a ceasefire with Iran while ships are being attacked in the Strait of Hormuz and peace talks are stalling, creating major uncertainty about regional stability and U.S. foreign policy direction.",
+        "signal": "[NEWS] CNN, Bloomberg, multiple sources"
       },
       {
-        "headline": "Virginia Ex-Lt. Gov. Justin Fairfax murder-suicide case",
-        "why": "A shocking high-profile crime involving a prominent former state official killing his wife and himself represents a sudden tragic news event that has captured significant public attention.",
-        "signal": "[NEWS] Virginia Ex-Lt. Gov. Justin Fairfax Kills Wife and Self, Police Say - The New York Times"
+        "headline": "Democrats Gain Redistricting Edge Over Trump's GOP",
+        "why": "Virginia's vote gives Democrats a significant advantage in the national redistricting battle against Trump's party, directly affecting the 2026 and 2028 electoral landscape.",
+        "signal": "[NEWS] NPR"
       },
       {
-        "headline": "Pope Francis publicly feuds with Trump White House over global governance",
-        "why": "The Pope's rare direct condemnation of 'tyrants' and explicit conflict with the Trump administration signals deepening ideological tensions between the Vatican and US government at the highest levels.",
-        "signal": "[NEWS] Pope says 'world is being ravaged by a handful of tyrants' amid feud with Trump's White House - The Guardian"
+        "headline": "Trump Administration Sues Southern Poverty Law Center for Fraud",
+        "why": "This major legal action against a prominent civil rights organization signals an escalating confrontation between the Trump administration and established advocacy groups.",
+        "signal": "[NEWS] Al Jazeera"
       },
       {
-        "headline": "RFK Jr. Senate confirmation hearing process begins amid major nominations",
-        "why": "The high-profile hearing 'palooza' for Robert F. Kennedy Jr. is generating significant media coverage as a major Trump administration appointment moves through Senate confirmation.",
-        "signal": "[NEWS] 'He's got a lot of stamina': What to watch as the RFK Jr. hearing palooza kicks off - Politico"
+        "headline": "UK Bans Tobacco Sales for Generation Born After 2008",
+        "why": "Britain has passed landmark legislation creating a permanent generational ban on tobacco, representing one of the world's most aggressive public health policies.",
+        "signal": "[NEWS] Al Jazeera"
       },
       {
-        "headline": "Europe faces critical jet fuel shortage with only six weeks of supply remaining",
-        "why": "A stark warning from European energy officials about an imminent fuel crisis represents a major economic and infrastructure threat that could have cascading continental consequences.",
-        "signal": "[NEWS] Europe has 'maybe six weeks of jet fuel left', energy boss warns - BBC"
+        "headline": "Pentagon Requests Record $1.5 Trillion Defense Budget",
+        "why": "The Department of Defense is seeking its largest budget ever, reflecting major escalations in military spending and geopolitical tensions under the current administration.",
+        "signal": "[NEWS] The Washington Post"
       }
     ],
     "week": [
       {
-        "headline": "U.S. Military Blockade of Iran's Strait of Hormuz",
-        "why": "Trump administration implemented a naval blockade of Iranian ports with contradictory international response, failed diplomatic efforts, and significant market reactions.",
-        "signal": "trending for 7 days"
-      },
-      {
-        "headline": "Trump Administration's Conflict with Pope Leo",
-        "why": "Vice President Vance and Trump engaged in escalating public attacks on the Pope over his comments on U.S. foreign policy and moral leadership, creating ongoing diplomatic tensions.",
+        "headline": "Trump Administration's Iran Ceasefire and Hormuz Blockade Strategy",
+        "why": "Multiple reports tracked the U.S. military blockade of Iran's Hormuz strait, ceasefire extensions, and ongoing diplomatic negotiations between the Trump administration and Iranian officials, signaling a major foreign policy initiative.",
         "signal": "trending for 6 days"
       },
       {
-        "headline": "Eric Swalwell's Exit from California Governor Race",
-        "why": "Democratic congressman withdrew from the governor's race following sexual assault allegations, forcing rivals to compete for his endorsements and campaign resources.",
+        "headline": "Trump's Escalating Feud with Pope Leo",
+        "why": "Trump repeatedly attacked Pope Leo over various issues, with coverage of his 'Jesus' post, accusations of being 'weak on crime,' and the Pope's counterattacks on global tyranny, creating a sustained political-religious controversy.",
+        "signal": "trending for 5 days"
+      },
+      {
+        "headline": "Israel-Lebanon Ceasefire Negotiations",
+        "why": "Reports tracked ongoing ceasefire talks between Israel and Lebanon, with Trump's involvement and conditions tied to Iran's conduct, representing a central Middle East peace effort.",
         "signal": "trending for 4 days"
       },
       {
-        "headline": "Hungary Opposition's Landslide Election Victory",
-        "why": "Opposition parties decisively won Hungarian elections, signaling potential EU reforms and improved relations after years of tensions with Brussels.",
+        "headline": "Ukraine-Russia Military Conflict Escalation",
+        "why": "Coverage of Russian drone and missile attacks on Ukraine killing civilians, alongside reports on threatened evictions in occupied territories, highlighted intensifying warfare.",
         "signal": "trending for 3 days"
       },
       {
-        "headline": "Super Typhoon Sinlaku Impacts Western Pacific U.S. Territories",
-        "why": "The strongest storm on the planet battered remote U.S. islands in the Western Pacific, raising concerns about extreme weather patterns and climate impacts.",
-        "signal": "trending for 3 days"
+        "headline": "Eric Swalwell's Exit from California Governor Race Amid Allegations",
+        "why": "Democratic operative Eric Swalwell withdrew from California's gubernatorial race following emerging questions about sexual assault allegations, his location, and financial activities.",
+        "signal": "trending for 2 days"
       }
     ],
     "month": [
       {
-        "headline": "U.S. Military Blockade of Iranian Strait of Hormuz",
-        "why": "Trump administration's decision to impose a naval blockade on Iran's ports dominated coverage as the U.S. implemented military patrols, faced international resistance from allies like the UK and France, and signaled potential military strikes while simultaneously pursuing diplomatic negotiations.",
-        "signal": "trending for 12 days"
+        "headline": "Trump Administration's Iran Blockade and Ceasefire Negotiations",
+        "why": "The U.S. military blockade of Iranian ports in the Strait of Hormuz dominated coverage as Trump pursued both military pressure and diplomatic talks, with daily updates on ship passages, international responses, and ceasefire extensions.",
+        "signal": "trending for 15+ days"
       },
       {
-        "headline": "Trump Administration's Public Feud with Pope Leo",
-        "why": "Vice President Vance and Trump repeatedly attacked Pope Leo for his criticism of U.S. foreign policy and stance on Iran negotiations, with the Pope defending his role as a moral authority rather than a politician, creating sustained controversy across multiple news cycles.",
-        "signal": "trending for 9 days"
+        "headline": "Trump's Public Feud with Pope Leo",
+        "why": "Trump's repeated attacks on Pope Leo for being 'weak on crime' and Vice President Vance's dismissal of the Pope's involvement in U.S. affairs generated sustained controversy and religious commentary.",
+        "signal": "trending for 10+ days"
       },
       {
-        "headline": "Eric Swalwell's Withdrawal from California Governor's Race",
-        "why": "Democratic congressman Eric Swalwell exited California's gubernatorial race following sexual assault allegations, forcing rivals to court his supporters and triggering questions about his physical location and financial activities.",
-        "signal": "trending for 6 days"
+        "headline": "Eric Swalwell's Exit from California Governor's Race Over Sexual Assault Allegations",
+        "why": "The Democratic congressman's withdrawal from the race amid assault allegations and questions about his finances and location created significant political upheaval in California's gubernatorial contest.",
+        "signal": "trending for 8+ days"
       },
       {
-        "headline": "Hungary's Opposition Landslide Election Victory",
-        "why": "Hungary's opposition achieved a significant electoral win with P\u00e9ter Magyar's party defeating the ruling government, promising reforms and signaling a potential thaw in EU relations after years of tensions.",
-        "signal": "trending for 5 days"
+        "headline": "Israel-Lebanon Ceasefire Negotiations and Regional Stability Talks",
+        "why": "Ongoing diplomatic efforts to establish a ceasefire between Israel and Lebanon amid broader Middle East peace discussions generated frequent updates on negotiation progress and U.S. involvement.",
+        "signal": "trending for 10+ days"
       },
       {
-        "headline": "Pope Leo's Diplomatic Visit to North Africa",
-        "why": "Pope Leo's travels to Algeria and Cameroon featured prominent coverage of his calls for ending corruption and addressing tyranny, positioning the visit as a return to his Augustinian roots while maintaining his public criticism of world leaders.",
-        "signal": "trending for 7 days"
+        "headline": "Super Typhoon Sinlaku Impact on U.S. Pacific Islands",
+        "why": "The strongest storm on the planet bearing down on U.S. territories in the Western Pacific dominated weather and disaster coverage with reports on impacts and climate implications.",
+        "signal": "trending for 5+ days"
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-16T16:57:08.626273+00:00"
+  "last_gdelt_attempt": "2026-04-22T12:25:53.469343+00:00"
 }

@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Fixed modal onclick corruption via data-attrs; fixed developing situations .update() assignment bug
+Fixed data-articles JSON parse error — switched data-attrs to single-quote delimiters
 
 ## 🔄 In Progress
 Nothing currently in progress.

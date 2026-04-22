@@ -23,7 +23,7 @@
 {# Tracking suggestions for star popup #}
 {% set suggested = story.headline[:60].rstrip('.,') %}
 {% set suggestions = story.tracking_suggestions if story.tracking_suggestions else [suggested] %}
-<div class="story" data-headline="{{ story.headline|e }}" data-summary="{{ story.summary|default('')|replace('\n',' ')|e }}" data-articles="{{ arts|tojson|e }}" data-image="{{ image|e }}" style="border-radius:10px;background:{{ card_bg }};border:{{ card_border }};margin-bottom:8px;opacity:{{ opacity }};cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor=''">
+<div class="story" data-headline='{{ story.headline|e }}' data-summary='{{ story.summary|default("")|replace("\n"," ")|e }}' data-articles='{{ arts|tojson }}' data-image='{{ image|e }}' style="border-radius:10px;background:{{ card_bg }};border:{{ card_border }};margin-bottom:8px;opacity:{{ opacity }};cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor=''">
   <div style="display:flex;align-items:flex-start;gap:14px;padding:16px 18px;border-radius:10px;">
     <span style="font-size:11px;color:#2a2a28;min-width:20px;margin-top:3px;flex-shrink:0;">{{ num }}</span>
     <div style="flex:1;min-width:0;">
@@ -44,13 +44,13 @@
 {% if source %}{% set ns.parts = ns.parts + [source] %}{% endif %}
 {% set meta = ns.parts|join(' · ') %}
 {% if arts|length > 1 %}{% set meta = meta ~ ' · ' ~ arts|length ~ ' sources' %}{% endif %}
-<div data-headline="{{ story.headline|e }}" data-summary="{{ story.summary|default('')|replace('\n',' ')|e }}" data-articles="{{ arts|tojson|e }}" data-image="{{ image|e }}" style="background:{{ card_bg }};border:1px solid {{ card_border }};border-radius:10px;padding:16px 18px;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor='{{ card_border }}'">
+<div data-headline='{{ story.headline|e }}' data-summary='{{ story.summary|default("")|replace("\n"," ")|e }}' data-articles='{{ arts|tojson }}' data-image='{{ image|e }}' style="background:{{ card_bg }};border:1px solid {{ card_border }};border-radius:10px;padding:16px 18px;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor='{{ card_border }}'">
   <div style="font-size:{{ hl_size }};line-height:1.5;color:#f0ece4;font-weight:400;margin-bottom:8px;">{% if is_top %}<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:{{ ac }};margin-right:8px;margin-bottom:1px;vertical-align:middle;"></span>{% endif %}{{ story.headline|e }}</div>
   <div style="font-size:11px;color:#555550;">{{ meta|e }}</div>
 </div>
 
 {% elif variant == 'yesterday_breaking' %}
-<div data-headline="{{ story.headline|e }}" data-summary="{{ story.summary|default('')|replace('\n',' ')|e }}" data-articles="{{ arts|tojson|e }}" data-image="{{ image|e }}" style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:14px 16px;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.05)'">
+<div data-headline='{{ story.headline|e }}' data-summary='{{ story.summary|default("")|replace("\n"," ")|e }}' data-articles='{{ arts|tojson }}' data-image='{{ image|e }}' style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:14px 16px;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.15)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.05)'">
   <div style="font-size:12px;line-height:1.5;color:#c8c4bc;font-weight:400;margin-bottom:6px;">{{ story.headline|e }}</div>
   <div style="font-size:11px;color:#444440;">{{ story.timestamp|default('')|e }}</div>
 </div>

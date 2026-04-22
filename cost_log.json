@@ -295,5 +295,230 @@
     "input_tokens": 6199,
     "output_tokens": 36,
     "cost_usd": 0.005103
+  },
+  {
+    "timestamp": "2026-04-23T01:58:18.329277+10:00",
+    "run_type": "full",
+    "label": "world_topics_today",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 889,
+    "output_tokens": 454,
+    "cost_usd": 0.002527
+  },
+  {
+    "timestamp": "2026-04-23T01:58:22.942643+10:00",
+    "run_type": "full",
+    "label": "world_topics_week",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2241,
+    "output_tokens": 404,
+    "cost_usd": 0.003409
+  },
+  {
+    "timestamp": "2026-04-23T01:58:27.399981+10:00",
+    "run_type": "full",
+    "label": "world_topics_month",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3900,
+    "output_tokens": 407,
+    "cost_usd": 0.004748
+  },
+  {
+    "timestamp": "2026-04-23T01:58:33.585494+10:00",
+    "run_type": "full",
+    "label": "breaking_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 2861,
+    "output_tokens": 169,
+    "cost_usd": 0.011118
+  },
+  {
+    "timestamp": "2026-04-23T01:58:48.925361+10:00",
+    "run_type": "full",
+    "label": "context_search_sonnet",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 28336,
+    "output_tokens": 496,
+    "cost_usd": 0.092448
+  },
+  {
+    "timestamp": "2026-04-23T02:00:07.435460+10:00",
+    "run_type": "full",
+    "label": "australia_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 3069,
+    "output_tokens": 870,
+    "cost_usd": 0.022257
+  },
+  {
+    "timestamp": "2026-04-23T02:00:14.773159+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 17814,
+    "output_tokens": 319,
+    "cost_usd": 0.015527
+  },
+  {
+    "timestamp": "2026-04-23T02:00:20.087148+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 229,
+    "output_tokens": 179,
+    "cost_usd": 0.003372
+  },
+  {
+    "timestamp": "2026-04-23T02:00:28.841320+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 40364,
+    "output_tokens": 436,
+    "cost_usd": 0.034035
+  },
+  {
+    "timestamp": "2026-04-23T02:00:33.732454+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 215,
+    "output_tokens": 182,
+    "cost_usd": 0.003375
+  },
+  {
+    "timestamp": "2026-04-23T02:00:40.643530+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 16450,
+    "output_tokens": 303,
+    "cost_usd": 0.014372
+  },
+  {
+    "timestamp": "2026-04-23T02:00:46.018414+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 180,
+    "output_tokens": 178,
+    "cost_usd": 0.00321
+  },
+  {
+    "timestamp": "2026-04-23T02:00:52.681539+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 14103,
+    "output_tokens": 287,
+    "cost_usd": 0.01243
+  },
+  {
+    "timestamp": "2026-04-23T02:00:57.392306+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 201,
+    "output_tokens": 145,
+    "cost_usd": 0.002778
+  },
+  {
+    "timestamp": "2026-04-23T02:01:05.662475+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 41503,
+    "output_tokens": 370,
+    "cost_usd": 0.034682
+  },
+  {
+    "timestamp": "2026-04-23T02:01:10.567006+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 218,
+    "output_tokens": 169,
+    "cost_usd": 0.003189
+  },
+  {
+    "timestamp": "2026-04-23T02:01:54.129922+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 16504,
+    "output_tokens": 311,
+    "cost_usd": 0.014447
+  },
+  {
+    "timestamp": "2026-04-23T02:01:58.539488+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 224,
+    "output_tokens": 168,
+    "cost_usd": 0.003192
+  },
+  {
+    "timestamp": "2026-04-23T02:03:12.508993+10:00",
+    "run_type": "full",
+    "label": "archaeology_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 2410,
+    "output_tokens": 619,
+    "cost_usd": 0.016515
+  },
+  {
+    "timestamp": "2026-04-23T02:04:45.713210+10:00",
+    "run_type": "full",
+    "label": "football_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 2849,
+    "output_tokens": 840,
+    "cost_usd": 0.021147
+  },
+  {
+    "timestamp": "2026-04-23T02:04:59.064798+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 456,
+    "output_tokens": 177,
+    "cost_usd": 0.004023
+  },
+  {
+    "timestamp": "2026-04-23T02:05:07.908057+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 471,
+    "output_tokens": 228,
+    "cost_usd": 0.004833
+  },
+  {
+    "timestamp": "2026-04-23T02:05:18.709309+10:00",
+    "run_type": "full",
+    "label": "context_search",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 15730,
+    "output_tokens": 227,
+    "cost_usd": 0.013492
+  },
+  {
+    "timestamp": "2026-04-23T02:05:23.704811+10:00",
+    "run_type": "full",
+    "label": "story_summary",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 243,
+    "output_tokens": 177,
+    "cost_usd": 0.003384
+  },
+  {
+    "timestamp": "2026-04-23T02:05:24.581874+10:00",
+    "run_type": "full",
+    "label": "developing_situations",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6207,
+    "output_tokens": 36,
+    "cost_usd": 0.00511
   }
 ]

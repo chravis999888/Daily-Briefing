@@ -551,15 +551,15 @@ def main():
     auto_detected = detect_developing_situations(memory, all_data)
     developing_situations = process_developing_situations(pinned, auto_detected, all_fetched)
 
+    for cat in ["breaking", "australia", "archaeology", "football"]:
+        memory = save_today_stories(memory, cat, all_data[cat])
+
     yesterday_data = {
         "breaking": get_previous_stories(memory, "breaking"),
         "australia": get_previous_stories(memory, "australia"),
         "archaeology": get_previous_stories(memory, "archaeology"),
         "football": get_previous_stories(memory, "football")
     }
-
-    for cat in ["breaking", "australia", "archaeology", "football"]:
-        memory = save_today_stories(memory, cat, all_data[cat])
     content_changed = any(all_data[cat] for cat in ["breaking", "australia", "archaeology", "football"])
     save_memory(memory)
     health = log_run(health, "full", errors)

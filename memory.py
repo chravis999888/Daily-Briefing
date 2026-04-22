@@ -69,12 +69,16 @@ def load_pinned():
 
 def get_previous_stories(memory, category, limit=3):
     today = datetime.now(AEST).strftime("%Y-%m-%d")
-    stories_by_date = memory.get("stories", {})
-    for date in sorted(stories_by_date.keys(), reverse=True):
-        if date < today:
-            stories = stories_by_date[date].get(category, [])
-            if stories:
-                return stories[:limit]
+    stories = memory.get("stories", {})
+    today_headlines = {s["headline"][:60].lower()
+                       for s in stories.get(today, {}).get(category, [])}
+    past_dates = sorted([d for d in stories if d < today], reverse=True)
+    for date in past_dates:
+        candidates = stories[date].get(category, [])
+        filtered = [s for s in candidates
+                    if s["headline"][:60].lower() not in today_headlines]
+        if filtered:
+            return filtered[:limit]
     return []
 
 

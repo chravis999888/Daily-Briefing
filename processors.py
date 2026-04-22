@@ -77,7 +77,7 @@ Raw JSON only."""
                 search_text = call_sonnet_with_search(search_prompt, 800)
                 try:
                     extra = json.loads(search_text.replace("```json", "").replace("```", "").strip())
-                    articles_list = extra
+                    articles_list = articles_list + extra
                     context = story.get("so_what", "")
                 except:
                     pass

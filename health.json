@@ -181,6 +181,14 @@
       "run_type": "deploy_only",
       "errors": [],
       "status": "ok"
+    },
+    {
+      "timestamp": "2026-04-23T00:59:10.602379+10:00",
+      "run_type": "full",
+      "errors": [
+        "; RSS fallback also empty"
+      ],
+      "status": "degraded"
     }
   ],
   "errors": []

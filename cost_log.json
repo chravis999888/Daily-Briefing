@@ -196,5 +196,77 @@
     "input_tokens": 169,
     "output_tokens": 36,
     "cost_usd": 0.000279
+  },
+  {
+    "timestamp": "2026-04-23T00:53:44.501936+10:00",
+    "run_type": "full",
+    "label": "world_topics_today",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 878,
+    "output_tokens": 387,
+    "cost_usd": 0.00225
+  },
+  {
+    "timestamp": "2026-04-23T00:53:49.147165+10:00",
+    "run_type": "full",
+    "label": "world_topics_week",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 2229,
+    "output_tokens": 403,
+    "cost_usd": 0.003395
+  },
+  {
+    "timestamp": "2026-04-23T00:53:55.243685+10:00",
+    "run_type": "full",
+    "label": "world_topics_month",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 3888,
+    "output_tokens": 462,
+    "cost_usd": 0.004958
+  },
+  {
+    "timestamp": "2026-04-23T00:54:57.491799+10:00",
+    "run_type": "full",
+    "label": "breaking_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 2847,
+    "output_tokens": 169,
+    "cost_usd": 0.011076
+  },
+  {
+    "timestamp": "2026-04-23T00:56:22.889963+10:00",
+    "run_type": "full",
+    "label": "australia_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 3069,
+    "output_tokens": 1000,
+    "cost_usd": 0.024207
+  },
+  {
+    "timestamp": "2026-04-23T00:57:36.612506+10:00",
+    "run_type": "full",
+    "label": "archaeology_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 2356,
+    "output_tokens": 607,
+    "cost_usd": 0.016173
+  },
+  {
+    "timestamp": "2026-04-23T00:59:00.793461+10:00",
+    "run_type": "full",
+    "label": "football_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 2856,
+    "output_tokens": 407,
+    "cost_usd": 0.014673
+  },
+  {
+    "timestamp": "2026-04-23T00:59:10.600415+10:00",
+    "run_type": "full",
+    "label": "developing_situations",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6204,
+    "output_tokens": 36,
+    "cost_usd": 0.005107
   }
 ]

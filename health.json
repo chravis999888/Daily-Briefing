@@ -169,6 +169,12 @@
         "; RSS fallback also empty"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-04-23T00:43:39.565963+10:00",
+      "run_type": "deploy_only",
+      "errors": [],
+      "status": "ok"
     }
   ],
   "errors": []

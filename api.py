@@ -95,14 +95,24 @@ def relative_time(date_str):
         return ""
 
 
-def call_haiku(prompt, max_tokens=500, label="haiku"):
-    msg = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=max_tokens,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    log_api_call(label, msg.model, msg.usage.input_tokens, msg.usage.output_tokens)
-    return msg.content[0].text
+def call_haiku(prompt, max_tokens=500, label="haiku", retries=3):
+    for attempt in range(retries):
+        try:
+            msg = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=max_tokens,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            log_api_call(label, msg.model, msg.usage.input_tokens, msg.usage.output_tokens)
+            return msg.content[0].text
+        except anthropic.RateLimitError:
+            wait = 20 * (attempt + 1)
+            print(f"Haiku rate limit, waiting {wait}s (attempt {attempt+1}/{retries})...")
+            time.sleep(wait)
+        except Exception as e:
+            print(f"Haiku error: {e}")
+            break
+    return ""
 
 
 def call_sonnet(prompt, max_tokens=1000, retries=3, label="sonnet"):

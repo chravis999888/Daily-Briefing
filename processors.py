@@ -325,7 +325,7 @@ Raw JSON only, no markdown."""
     for story in stories:
         time.sleep(3)
         orig = next((a for a in articles if a["url"] == story.get("url", "")), {})
-        articles_list = [{"title": orig.get("title", ""), "source": story.get("source", "The Guardian"), "url": story.get("url", "")}]
+        articles_list = [{"title": orig.get("title", ""), "source": orig.get("source", story.get("source", "")), "url": story.get("url", "")}]
         context = story.get("so_what", "")
         if context:
             cached_sources = find_related_cached_stories(memory, context)

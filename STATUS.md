@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Autonomous bug hunt: fixed GDELT error prefix, call_haiku crash handling, football source attribution
+Filter Wikipedia and junk domains from web search results in all processors
 
 ## 🔄 In Progress
 Nothing currently in progress.

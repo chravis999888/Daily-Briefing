@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Fixed breaking news article drop bug; cleared stale story cache to eliminate contaminated modal sources
+Filter Wikipedia and junk domains from web search results in all processors
 
 ## 🔄 In Progress
 Nothing currently in progress.

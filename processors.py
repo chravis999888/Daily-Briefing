@@ -7,6 +7,8 @@ from api import (call_sonnet, call_haiku, call_haiku_with_search, call_sonnet_wi
 from memory import (get_cached_summary, save_summary, find_related_cached_stories, save_trend_topics)
 from fetchers import fetch_world_topic_sources
 
+SOURCE_BLACKLIST = ["wikipedia.org", "britannica.com", "fandom.com", "wikimedia.org"]
+
 HEADLINE_RULES = """
 CRITICAL HEADLINE RULES:
 - Write a single sentence stating the actual specific fact. Reader must be fully informed without clicking.
@@ -77,6 +79,7 @@ Raw JSON only."""
                 search_text = call_sonnet_with_search(search_prompt, 800)
                 try:
                     extra = json.loads(search_text.replace("```json", "").replace("```", "").strip())
+                    extra = [a for a in extra if not any(bl in a.get("url", "") for bl in SOURCE_BLACKLIST)]
                     articles_list = articles_list + extra
                     context = story.get("so_what", "")
                 except:
@@ -188,6 +191,7 @@ Raw JSON only."""
                 search_text = call_haiku_with_search(search_prompt, 600)
                 try:
                     extra = json.loads(search_text.replace("```json", "").replace("```", "").strip())
+                    extra = [a for a in extra if not any(bl in a.get("url", "") for bl in SOURCE_BLACKLIST)]
                     articles_list = articles_list + extra
                 except:
                     pass
@@ -337,6 +341,7 @@ Raw JSON only."""
                 search_text = call_haiku_with_search(search_prompt, 600)
                 try:
                     extra = json.loads(search_text.replace("```json", "").replace("```", "").strip())
+                    extra = [a for a in extra if not any(bl in a.get("url", "") for bl in SOURCE_BLACKLIST)]
                     articles_list = articles_list + extra
                     context = story["so_what"]
                 except:

@@ -121,7 +121,8 @@ def fetch_gdelt_articles(query, timespan="1h", max_records=25, memory=None):
         if articles:
             print(f"GDELT RSS fallback succeeded: {len(articles)} articles")
             return articles, "", memory
-        final_err = err + "; RSS fallback also empty"
+        prefix = err if err else "GDELT fetch failed: empty response"
+        final_err = prefix + "; RSS fallback also empty"
         print(f"GDELT RSS fallback: {rss_err}")
         return [], final_err, memory
     except Exception as e:

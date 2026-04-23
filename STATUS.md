@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Fixed breaking news article drop bug; cleared stale story cache to eliminate contaminated modal sources
+Fixed 3 bugs: malformed GDELT error prefix ("; RSS fallback also empty"), call_haiku crash on API failure, football source hardcoded as "The Guardian"
 
 ## 🔄 In Progress
 Nothing currently in progress.

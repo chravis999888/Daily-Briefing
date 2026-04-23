@@ -351,6 +351,56 @@
           ]
         }
       ]
+    },
+    "2026-04-24": {
+      "breaking": [
+        {
+          "headline": "Trump orders US Navy to attack any vessels laying mines in the Strait of Hormuz",
+          "timestamp": "11 mins ago",
+          "score": 9,
+          "summary": "The headline claiming Trump ordered the US Navy to attack vessels laying mines in the Strait of Hormuz does not match the article provided, which instead covers Israeli airstrikes in southern Lebanon during a ceasefire, and statements from Israeli Defense Minister Katz about readiness to strike Iran. The article describes three people killed in Lebanon despite an ongoing truce, and Israel signaling it is waiting for US approval to conduct major strikes against Iran's leadership. The Strait of Hormuz is a critical chokepoint for roughly 20% of global oil supply, so any military action there would have severe economic and geopolitical consequences, but this specific claim is not supported by the article content provided. Readers should be cautious, as the headline and article content are mismatched, which may indicate an error, outdated pairing, or potential misinformation.",
+          "url": "https://www.theguardian.com/world/live/2026/apr/23/middle-east-crisis-live-news-us-iran-ceasefire-strait-of-hormuz-blockade-ships-latest-updates",
+          "image": "https://media.guim.co.uk/b4b94c126cf981996d1c28294be73f3f1240865e/619_0_4800_3840/500.jpg",
+          "articles": [
+            {
+              "title": "Middle East crisis live: Trump orders navy to attack any boats laying mines in strait of Hormuz ",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/apr/23/middle-east-crisis-live-news-us-iran-ceasefire-strait-of-hormuz-blockade-ships-latest-updates"
+            },
+            {
+              "title": "The U.S. seizes another oil tanker as peace talks with Iran remain in limbo",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/23/nx-s1-5796719/iran-middle-east-updates"
+            },
+            {
+              "title": "Live updates: Tehran vows retaliation after US seizes Iran-flagged vessel defying blockade",
+              "source": "CNN",
+              "url": "https://www.cnn.com/2026/04/19/world/live-news/iran-war-us-trump-hormuz"
+            },
+            {
+              "title": "'Resumption of hostilities': Seized ship, vessel attacks push U.S.-Iran ceasefire toward brink",
+              "source": "CNBC",
+              "url": "https://www.cnbc.com/2026/04/20/us-iran-war-middle-east-conflict-peace-deal-strait-hormuz-shipping-ceasefire-tensions.html"
+            },
+            {
+              "title": "Iran's Strait of Hormuz Gambit and the Limits of U.S. Military Power",
+              "source": "CSIS",
+              "url": "https://www.csis.org/analysis/irans-strait-hormuz-gambit-and-limits-us-military-power"
+            },
+            {
+              "title": "Iran attacks ships in Strait of Hormuz as thousands more U.S. forces head for Middle East",
+              "source": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-trump-ceasefire-strait-hormuz-ship-attacked-us-military-buildup/"
+            }
+          ],
+          "tracking_suggestions": [
+            "Strait of Hormuz military tensions",
+            "Israel-Iran conflict escalation",
+            "Middle East ceasefire negotiations",
+            "global oil supply security"
+          ]
+        }
+      ]
     }
   },
   "developing": {},
@@ -713,10 +763,11 @@
     "https://www.theguardian.com/football/2026/apr/22/pep-guardiola-targets-perfect-finish-after-manchester-city-return-to-the-top": "Manchester City beat Burnley 1-0 on Wednesday thanks to an early Erling Haaland goal, moving them to the top of the Premier League for the first time since the opening week of the season. City and Arsenal are now level on 70 points and identical goal difference, with City leading only on goals scored. Manager Pep Guardiola acknowledged the title race is tight, saying City must win all five remaining games to have a realistic chance of being champions. The win also confirmed Burnley's relegation, as they cannot mathematically catch 17th-placed West Ham with only four games left.",
     "https://www.marca.com/futbol/betis/2026/04/23/betis-abre-distancias-suma-adversario-lucha-5-plaza.html": "Real Betis have extended their lead in the race for fifth place in La Liga, a position that currently grants entry into European competition. However, the battle has intensified after Getafe beat Real Sociedad, earning themselves a spot among the contenders chasing that Europa League qualification slot. Fifth place is valuable because it offers clubs outside the traditional top four a route into European football the following season. The fight now involves multiple clubs, making the final stretch of the La Liga season increasingly competitive for those outside the title race.",
     "https://www.marca.com/futbol/betis/2026/04/23/pellegrini-jugar-europa-seis-anos-seguidos-equipos-barcelona-real-madrid-atletico.html": "Real Betis coach Manuel Pellegrini has highlighted that his club qualifying for European competition for six consecutive seasons would be an achievement shared only by Spanish giants Barcelona, Real Madrid, and Atletico Madrid. Pellegrini, known as 'El Ingeniero,' stated that finishing fifth in La Liga this season would represent 'a very good season' for the club. This underscores Betis's remarkable consistency in recent years, punching well above their traditional weight in Spanish football. Sustaining European qualification at that level places Betis in rare company and reflects the club's ambition to establish itself as a permanent fixture among Spain's elite.",
-    "https://www.marca.com/futbol/athletic/2026/04/23/yuri-vuelve-entrenar-crisis-respiratoria-tuvo-osasuna.html": "Athletic Club defender Yuri Berchiche suffered a respiratory crisis during the team's match against Osasuna, raising immediate health concerns. He has since returned to training, suggesting the episode was not long-lasting or severely debilitating. However, the club is also managing a separate fitness issue with another player, Laporte, who is training apart from the main group due to muscular overload. Both situations are being monitored as Athletic Club manages squad fitness ahead of upcoming La Liga fixtures."
+    "https://www.marca.com/futbol/athletic/2026/04/23/yuri-vuelve-entrenar-crisis-respiratoria-tuvo-osasuna.html": "Athletic Club defender Yuri Berchiche suffered a respiratory crisis during the team's match against Osasuna, raising immediate health concerns. He has since returned to training, suggesting the episode was not long-lasting or severely debilitating. However, the club is also managing a separate fitness issue with another player, Laporte, who is training apart from the main group due to muscular overload. Both situations are being monitored as Athletic Club manages squad fitness ahead of upcoming La Liga fixtures.",
+    "https://www.theguardian.com/world/live/2026/apr/23/middle-east-crisis-live-news-us-iran-ceasefire-strait-of-hormuz-blockade-ships-latest-updates": "The headline claiming Trump ordered the US Navy to attack vessels laying mines in the Strait of Hormuz does not match the article provided, which instead covers Israeli airstrikes in southern Lebanon during a ceasefire, and statements from Israeli Defense Minister Katz about readiness to strike Iran. The article describes three people killed in Lebanon despite an ongoing truce, and Israel signaling it is waiting for US approval to conduct major strikes against Iran's leadership. The Strait of Hormuz is a critical chokepoint for roughly 20% of global oil supply, so any military action there would have severe economic and geopolitical consequences, but this specific claim is not supported by the article content provided. Readers should be cautious, as the headline and article content are mismatched, which may indicate an error, outdated pairing, or potential misinformation."
   },
   "article_hashes": {
-    "breaking": "d6e48cf491d573f28a3373eead8b9063"
+    "breaking": "63618a405a6ba3336fec5ff91f68c75b"
   },
   "world_topics_cache": {
     "today": [
@@ -801,5 +852,5 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-23T10:56:50.084056+00:00"
+  "last_gdelt_attempt": "2026-04-23T16:54:25.407362+00:00"
 }

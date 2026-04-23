@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Fixed 3 bugs: malformed GDELT error prefix ("; RSS fallback also empty"), call_haiku crash on API failure, football source hardcoded as "The Guardian"
+Autonomous bug hunt: fixed GDELT error prefix, call_haiku crash handling, football source attribution
 
 ## 🔄 In Progress
 Nothing currently in progress.

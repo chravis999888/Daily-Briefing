@@ -47,7 +47,7 @@
       "australia": [],
       "archaeology": [
         {
-          "headline": "New genomic analysis suggests some Neanderthal populations may be partially descended from early modern humans rather than being a wholly separate ancestral lineage",
+          "headline": "Genomic analysis suggests some Neanderthals may descend from early modern human migrants into Eurasia rather than representing a fully independent lineage, revising the standard split model",
           "timestamp": "1 week ago",
           "score": 8,
           "summary": "A new genetic analysis reported by New Scientist suggests that Neanderthals descended from early modern humans rather than representing a separate evolutionary branch, which would reverse the established understanding of human evolution. The conventional model has held that Neanderthals and modern humans diverged from a common ancestor and evolved along separate paths, but this research indicates modern humans may have actually come first, with Neanderthals branching off afterward. This matters because it would fundamentally reshape our understanding of how our species developed and interacted with other human lineages over hundreds of thousands of years. The finding challenges decades of anthropological consensus and would require substantial supporting evidence to gain acceptance in the scientific community.",
@@ -63,23 +63,7 @@
           "tracking_suggestions": []
         },
         {
-          "headline": "Genetic evidence re-examined in new study argues that the proposed near-extinction bottleneck of Homo sapiens around 900,000 years ago may be an artefact of analytical methods rather than a genuine demographic collapse",
-          "timestamp": "1 week ago",
-          "score": 8,
-          "summary": "A 2023 study claimed that human ancestors went through a severe population bottleneck around 900,000 years ago, shrinking to just 1,280 breeding individuals and nearly going extinct. New genomic modeling now challenges this finding, suggesting the bottleneck may not have actually happened\u2014instead, it could be an artifact created by the statistical methods used to analyze the data. The original study had significant implications for how scientists understood human evolution, including the development of our larger brains and how modern humans emerged as a species. This contradiction highlights how genetic analysis can produce dramatically different conclusions depending on methodology, leaving the true demographic history of early human populations still uncertain.",
-          "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/",
-          "image": "",
-          "articles": [
-            {
-              "title": "",
-              "source": "New Scientist",
-              "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Neanderthal infants had significantly larger body mass than modern human infants at birth, according to new analysis of fossil skeletal remains",
+          "headline": "Neanderthal neonates had significantly larger body mass than modern human infants, according to new analysis of fossil skeletal remains",
           "timestamp": "1 week ago",
           "score": 7,
           "summary": "A new skeletal growth analysis has found that Neanderthal newborns were significantly heavier at birth than modern human infants, challenging the long-held assumption that the two species followed roughly similar developmental paths. The findings suggest Neanderthals invested more energy in producing larger offspring at birth, which would have placed a greater physical burden on Neanderthal mothers during pregnancy and nursing. This matters because differences in maternal energy costs and infant dependency periods could have given early modern humans a competitive reproductive advantage, potentially contributing to why Neanderthals went extinct around 40,000 years ago. The research adds to a growing body of evidence that Neanderthals were biologically more distinct from us than previously thought, not just culturally or cognitively.",
@@ -95,17 +79,33 @@
           "tracking_suggestions": []
         },
         {
-          "headline": "New study identifies environmental and social pressures 200,000 years ago that caused early Homo sapiens in Africa to abruptly abandon established stone tool technologies and adopt novel toolkit strategies",
-          "timestamp": "2 weeks ago",
-          "score": 6,
-          "summary": "Researchers studying 200,000-year-old African archaeological sites found that early humans switched their tool-making styles rapidly rather than gradually, driven by environmental stress and climate changes rather than sudden cognitive advances. The shift from the older Acheulean tools to Middle Stone Age toolkits appears to have been a practical response to resource scarcity caused by unstable environmental conditions. This challenges the long-held theory that such toolkit changes reflected major leaps in human intelligence or symbolic thinking. The finding matters because it reframes a pivotal moment in human prehistory as an ecological adaptation problem-solving rather than evidence of a fundamental change in how our ancestors' brains worked.",
-          "url": "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/",
+          "headline": "New genetic evidence questions the long-held bottleneck hypothesis of humanity's near-extinction, suggesting ancestral population sizes may have been larger than the ~1,000-individual estimate",
+          "timestamp": "1 week ago",
+          "score": 7,
+          "summary": "A 2023 study claimed that human ancestors went through a severe population bottleneck around 900,000 years ago, shrinking to just 1,280 breeding individuals and nearly going extinct. New genomic modeling now challenges this finding, suggesting the bottleneck may not have actually happened\u2014instead, it could be an artifact created by the statistical methods used to analyze the data. The original study had significant implications for how scientists understood human evolution, including the development of our larger brains and how modern humans emerged as a species. This contradiction highlights how genetic analysis can produce dramatically different conclusions depending on methodology, leaving the true demographic history of early human populations still uncertain.",
+          "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/",
           "image": "",
           "articles": [
             {
               "title": "",
               "source": "New Scientist",
-              "url": "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/"
+              "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Detailed taphonomic study of ancient bones documents that Neanderthals at a single site butchered multiple straight-tusked elephants in a coordinated group hunt approximately 125,000 years ago",
+          "timestamp": "4 weeks ago",
+          "score": 7,
+          "summary": "Researchers analyzing butchered bones from straight-tusked elephants found at an archaeological site discovered evidence that Neanderthals hunted these massive animals around 125,000 years ago through coordinated group efforts rather than individual kills or scavenging. The bones show systematic cut marks indicating the animals were deliberately killed and processed by multiple individuals working together, suggesting Neanderthals possessed the social organization and planning abilities needed for large-scale hunts. This finding challenges the long-held assumption that Neanderthals were either scavengers or only hunted in small, uncoordinated groups incapable of complex cooperation. The discovery significantly elevates our understanding of Neanderthal intelligence and social complexity, showing they could accomplish feats comparable to early humans.",
+          "url": "https://www.newscientist.com/article/2520535-ancient-bones-reveal-vivid-details-of-a-neanderthal-elephant-hunt/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/article/2520535-ancient-bones-reveal-vivid-details-of-a-neanderthal-elephant-hunt/"
             }
           ],
           "tracking_suggestions": []
@@ -113,8 +113,8 @@
       ],
       "football": [
         {
-          "headline": "Erling Haaland's goal gives Manchester City a 1-0 win at Burnley, sending City top of the Premier League and condemning Burnley to relegation",
-          "timestamp": "6 hrs ago",
+          "headline": "Erling Haaland scores to give Manchester City a 1-0 win at Burnley, sending City top of the Premier League and condemning Burnley to relegation",
+          "timestamp": "9 hrs ago",
           "score": 9,
           "summary": "Erling Haaland scored in the first half to give Manchester City a 1-0 win at Burnley, moving City to the top of the Premier League for the first time since the opening week of the season. The result ends Arsenal's 200-day run at the top of the table and sets up a tight five-game title race between the two clubs. Burnley's defeat also confirmed their relegation back to the Championship, meaning they go straight back down after returning to the top flight. City still have FA Cup commitments ahead, and with Arsenal facing Newcastle on Saturday, both title contenders have busy schedules in the run-in.",
           "url": "https://www.theguardian.com/football/2026/apr/22/burnley-manchester-city-premier-league-match-report",
@@ -126,31 +126,26 @@
               "url": "https://www.theguardian.com/football/2026/apr/22/burnley-manchester-city-premier-league-match-report"
             },
             {
-              "title": "Brighton beat Chelsea 1-0 to inflict a fifth consecutive Premier League defeat on Rosenior's side, who failed to score in all five losses",
+              "title": "Erling Haaland's goal gives Manchester City a 1-0 win at Burnley, sending City top of the Premier League and condemning Burnley to relegation",
               "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/21/brighton-chelsea-premier-league-match-report"
+              "url": "https://www.theguardian.com/football/2026/apr/22/burnley-manchester-city-premier-league-match-report"
             },
             {
-              "title": "Leicester City relegated to League One after Championship season ends in third-tier drop, completing fall from Premier League title winners in 2016",
+              "title": "Leicester City are relegated to League One, completing a dramatic fall from Premier League winners to third-tier football within a decade",
               "source": "Previously covered",
               "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one"
             },
             {
-              "title": "Burnley host Manchester City in Premier League fixture as City look to maintain title pressure on Arsenal",
+              "title": "Rayan Cherki produces a standout display in Manchester City's 1-0 win over Burnley, emerging as a key creative influence in City's title push",
               "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/live/2026/apr/22/burnley-v-manchester-city-premier-league-live"
+              "url": "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt"
             }
           ],
-          "tracking_suggestions": [
-            "Haaland Premier League Goals",
-            "Man City vs Arsenal Title Race",
-            "Burnley Relegation 2024-25",
-            "Premier League Title Race"
-          ]
+          "tracking_suggestions": []
         },
         {
-          "headline": "Liam Rosenior is sacked as Chelsea manager after just three and a half months in charge following a defeat to Brighton",
-          "timestamp": "8 hrs ago",
+          "headline": "Liam Rosenior is sacked as Chelsea manager just three and a half months into a contract that ran until 2032, following a defeat to Brighton",
+          "timestamp": "12 hrs ago",
           "score": 9,
           "summary": "Chelsea have sacked manager Liam Rosenior after just 106 days in charge, despite him having signed a contract running until 2032. His dismissal was triggered by five consecutive league defeats without a single goal scored \u2014 the worst such run since 1912 \u2014 leaving the club seven points outside Champions League qualification. Rosenior was brought in as recently as January to replace Enzo Maresca, making this Chelsea's second managerial change in the same season. Caretaker Calum McFarlane has stepped in again while the club searches for a permanent appointment, continuing a pattern of costly and destabilising managerial churn at Stamford Bridge.",
           "url": "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-leaves-chelsea-contract-2032",
@@ -162,7 +157,7 @@
               "url": "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-leaves-chelsea-contract-2032"
             },
             {
-              "title": "Liam Rosenior sacked by Chelsea after three and a half months in charge, having signed a contract until 2032",
+              "title": "Liam Rosenior is sacked as Chelsea manager after just three and a half months in charge following a defeat to Brighton",
               "source": "Previously covered",
               "url": "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-leaves-chelsea-contract-2032"
             }
@@ -170,39 +165,39 @@
           "tracking_suggestions": []
         },
         {
-          "headline": "Leicester City are relegated to League One, completing a dramatic fall from Premier League winners to third-tier football within a decade",
-          "timestamp": "10 hrs ago",
+          "headline": "Leicester City are relegated to League One after a dramatic fall from Premier League champions to third-tier football within a decade",
+          "timestamp": "13 hrs ago",
           "score": 8,
           "summary": "Leicester City, who famously won the Premier League title in 2016 in one of sport's greatest upsets, have been relegated to League One, England's third tier of football, for the 2026-27 season. The club has suffered a dramatic decade-long decline, dropping from the top flight through the Championship and now into the third division. Owner Aiyawatt Srivaddhanaprabha acknowledged the failure but could not pinpoint a single cause, while supporters and analysts suggest the enormous success of 2016 may itself have planted the seeds of mismanagement and unrealistic expectations that followed. The fall is seen as both a unique cautionary tale and a reflection of wider structural problems in English football.",
           "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one",
           "image": "https://media.guim.co.uk/75ab2cae3e2e6096409e63e4a1e44d56c6b195cb/28_0_4560_3648/500.jpg",
           "articles": [
             {
-              "title": "Leicester\u2019s decline and fall feels like a cruel parable as League One beckons | Paul MacInnes",
+              "title": "Leicester\u2019s decline and fall feels like a cruel parable as League One beckons",
               "source": "The Guardian",
               "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one"
             },
             {
-              "title": "Brighton beat Chelsea 1-0 to inflict a fifth consecutive Premier League defeat on Rosenior's side, who failed to score in all five losses",
+              "title": "Erling Haaland's goal gives Manchester City a 1-0 win at Burnley, sending City top of the Premier League and condemning Burnley to relegation",
               "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/21/brighton-chelsea-premier-league-match-report"
+              "url": "https://www.theguardian.com/football/2026/apr/22/burnley-manchester-city-premier-league-match-report"
             },
             {
-              "title": "Leicester City relegated to League One after Championship season ends in third-tier drop, completing fall from Premier League title winners in 2016",
+              "title": "Leicester City are relegated to League One, completing a dramatic fall from Premier League winners to third-tier football within a decade",
               "source": "Previously covered",
               "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one"
             },
             {
-              "title": "Burnley host Manchester City in Premier League fixture as City look to maintain title pressure on Arsenal",
+              "title": "Elche striker Affengruber scores in a dramatic result at Estadio Mart\u00ednez Valero, with teammate Sarabia saying his exclusion from the World Cup would be 'one of the greatest injustices in football history'",
               "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/live/2026/apr/22/burnley-v-manchester-city-premier-league-live"
+              "url": "https://www.marca.com/futbol/elche/2026/04/22/sarabia-affengruber-mundial-seria-mayores-injusticias-historia-futbol.html"
             }
           ],
           "tracking_suggestions": []
         },
         {
-          "headline": "Rayan Cherki produces a standout display in Manchester City's 1-0 win over Burnley, emerging as a key creative influence in City's title push",
-          "timestamp": "5 hrs ago",
+          "headline": "Rayan Cherki has emerged as a key creative influence for Manchester City during the 2025-26 Premier League title run-in",
+          "timestamp": "8 hrs ago",
           "score": 7,
           "summary": "Rayan Cherki put in an impressive performance as Manchester City beat Burnley 1-0, cementing his place as a key creative player in Pep Guardiola's preferred starting lineup. The 21-year-old French midfielder, signed from Lyon for \u00a330.5m last summer, has adapted quickly to the Premier League and has displaced Phil Foden as the first-choice number 10. His form is particularly significant because Manchester City are currently Premier League leaders with the title race entering its decisive phase. The article draws a contrast with Florian Wirtz at Liverpool, who cost nearly four times as much but is still finding his feet, highlighting Cherki as strong transfer value.",
           "url": "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt",
@@ -214,68 +209,68 @@
               "url": "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt"
             },
             {
-              "title": "Brighton beat Chelsea 1-0 to inflict a fifth consecutive Premier League defeat on Rosenior's side, who failed to score in all five losses",
+              "title": "Rayan Cherki produces a standout display in Manchester City's 1-0 win over Burnley, emerging as a key creative influence in City's title push",
               "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/21/brighton-chelsea-premier-league-match-report"
-            },
+              "url": "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Mikel Oyarzabal confronted Getafe manager Juan Iglesias in the visiting dressing room after Iglesias publicly accused him of making comments about his wife during Real Sociedad's match at Getafe",
+          "timestamp": "9 hrs ago",
+          "score": 6,
+          "summary": "Real Sociedad captain Mikel Oyarzabal confronted Getafe manager Juan Iglesias in the visiting team's dressing room after Iglesias publicly accused Oyarzabal of making inappropriate comments about his wife during their La Liga match. Oyarzabal reportedly went to address Iglesias directly after learning of the accusations, which he apparently found surprising or untrue. The incident represents a serious breakdown in conduct between a player and an opposing manager, crossing the usual boundaries of post-match disputes. Disciplinary action from La Liga or the Spanish football federation is considered likely given the nature of the confrontation and the public accusations involved.",
+          "url": "https://www.marca.com/futbol/real-sociedad/2026/04/22/oyarzabal-vestuario-getafe-choque-pedir-explicaciones-juan-iglesias-acusaciones.html",
+          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/22/17768935792470_150x0.jpg",
+          "articles": [
             {
-              "title": "Leicester City relegated to League One after Championship season ends in third-tier drop, completing fall from Premier League title winners in 2016",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one"
-            },
-            {
-              "title": "Burnley host Manchester City in Premier League fixture as City look to maintain title pressure on Arsenal",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/live/2026/apr/22/burnley-v-manchester-city-premier-league-live"
+              "title": "Oyarzabal fue al vestuario del Getafe tras el choque a pedir explicaciones a Juan Iglesias por sus acusaciones",
+              "source": "Marca",
+              "url": "https://www.marca.com/futbol/real-sociedad/2026/04/22/oyarzabal-vestuario-getafe-choque-pedir-explicaciones-juan-iglesias-acusaciones.html"
             }
           ],
           "tracking_suggestions": [
-            "Rayan Cherki form",
-            "Manchester City title race",
-            "Premier League 2024-25 season",
-            "Premier League transfer value"
+            "Oyarzabal Iglesias confrontation",
+            "Real Sociedad vs Getafe incident",
+            "La Liga disciplinary action",
+            "Spanish football misconduct"
           ]
         },
         {
-          "headline": "Getafe beat Real Sociedad and manager Juan Iglesias accuses Mikel Oyarzabal of making personal remarks about his wife, with Oyarzabal going to the Getafe dressing room to confront Iglesias after the match",
-          "timestamp": "6 hrs ago",
-          "score": 6,
-          "summary": "Getafe beat Real Sociedad in a La Liga match that sparked serious controversy both on and off the pitch. Getafe manager Juan Iglesias accused Real Sociedad star Mikel Oyarzabal of making personal remarks about his wife during the game, after which Oyarzabal reportedly went to the Getafe dressing room to confront Iglesias directly. A Getafe fullback added fuel to the fire with a quote suggesting Oyarzabal lacked the courage to repeat his remarks openly, while publicly presenting himself as a role model. The incident matters because it reflects the high tensions in La Liga, where Real Sociedad are chasing European qualification and Getafe are fighting to avoid relegation, giving both sides strong emotional stakes in every result.",
-          "url": "https://www.marca.com/futbol/getafe/2026/04/22/iglesias-raja-oyarzabal-pone-mano-boca-meterse-mi-mujer-son-valores-aqui.html",
-          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/22/17768897529451_150x0.png",
+          "headline": "Getafe beat Real Sociedad and manager Jos\u00e9 Bordal\u00e1s expressed anger at what he described as unfair treatment of his club despite the victory",
+          "timestamp": "9 hrs ago",
+          "score": 5,
+          "summary": "Getafe defeated Real Sociedad in a La Liga match, securing three points that effectively confirmed their survival in the top flight with six games still to play. Manager Jos\u00e9 Bordal\u00e1s celebrated the result but used his post-match comments to criticize what he sees as unfair treatment of his club, calling it a 'disgrace' that they had to fight so hard for safety despite the circumstances. His remarks reflect an ongoing friction between Getafe and officiating or league authorities in Spain. The early confirmation of survival is a significant achievement for a club that regularly battles relegation, though Bordal\u00e1s's grievances suggest deeper frustrations beneath the positive result.",
+          "url": "https://www.marca.com/futbol/getafe/2026/04/22/bordalas-tratan-bien-hemos-ganado-contento-poco-indignado.html",
+          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/21/17767707588712_150x0.jpg",
           "articles": [
             {
-              "title": "Iglesias raja contra Oyarzabal: \u201cSe pone la mano en la boca para meterse con mi mujer, son los valores que tienen aqu\u00ed\u201d",
+              "title": "Bordal\u00e1s: \u201cNo nos tratan bien, hemos ganado y estoy contento pero un poco indignado\u201d",
               "source": "Marca",
-              "url": "https://www.marca.com/futbol/getafe/2026/04/22/iglesias-raja-oyarzabal-pone-mano-boca-meterse-mi-mujer-son-valores-aqui.html"
+              "url": "https://www.marca.com/futbol/getafe/2026/04/22/bordalas-tratan-bien-hemos-ganado-contento-poco-indignado.html"
+            },
+            {
+              "title": "Real Madrid defeated by Getafe to fall four points behind Barca in La Liga",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/sports/2026/3/3/real-madrid-defeated-by-getafe-to-fall-four-points-behind-barca-in-la-liga"
+            },
+            {
+              "title": "Alvaro Arbeloa rages at Franco Mastantuono red card in Real Madrid's defeat to Getafe",
+              "source": "Goal.com",
+              "url": "https://www.goal.com/en/lists/alvaro-arbeloa-rages-at-franco-mastantuono-red-card-real-madrid-defeat-getafe/blt4697d16c45ecad7d"
+            },
+            {
+              "title": "Getafe star suggests Antonio Rudiger deserves 10-match ban for trying to smash face",
+              "source": "Goal.com US",
+              "url": "https://www.goal.com/en-us/lists/getafe-star-antonio-rudiger-deserves-10-match-ban-trying-smash-face-real-madrid-defender-brutal-challenge/blt1d8891ce953812c2"
             }
           ],
           "tracking_suggestions": [
-            "Oyarzabal Iglesias dressing room row",
-            "Getafe Real Sociedad controversy",
-            "La Liga off-pitch incidents",
-            "Spanish football disciplinary matters"
-          ]
-        },
-        {
-          "headline": "Elche striker Affengruber scores in a dramatic result at Estadio Mart\u00ednez Valero, with teammate Sarabia saying his exclusion from the World Cup would be 'one of the greatest injustices in football history'",
-          "timestamp": "6 hrs ago",
-          "score": 6,
-          "summary": "Elche striker Affengruber scored in a dramatic win over Atl\u00e9tico de Madrid at the Estadio Mart\u00ednez Valero, a result that lifts Elche out of the relegation zone in the Spanish league. The victory is significant both on the table and in the spotlight it places on Affengruber, whose form has sparked debate about his inclusion in Spain's World Cup squad. Teammate Sarabia added fuel to the conversation by claiming it would be 'one of the greatest injustices in football history' if Affengruber were left out of the tournament. The comments reflect growing pressure on Spain's national team selectors as the World Cup approaches and Affengruber continues to perform at club level.",
-          "url": "https://www.marca.com/futbol/elche/2026/04/22/sarabia-affengruber-mundial-seria-mayores-injusticias-historia-futbol.html",
-          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/22/17768887645667_150x0.jpg",
-          "articles": [
-            {
-              "title": "Sarabia: \u201cSi Affengruber no va al Mundial, ser\u00eda una de las mayores injusticias de la historia del f\u00fatbol\u201d",
-              "source": "Marca",
-              "url": "https://www.marca.com/futbol/elche/2026/04/22/sarabia-affengruber-mundial-seria-mayores-injusticias-historia-futbol.html"
-            }
-          ],
-          "tracking_suggestions": [
-            "Affengruber World Cup case",
-            "Elche relegation battle",
-            "Spain World Cup squad selection",
-            "La Liga survival race"
+            "Bordal\u00e1s officiating complaints",
+            "Getafe La Liga survival",
+            "La Liga manager controversies",
+            "Spanish football governance"
           ]
         }
       ]
@@ -506,41 +501,41 @@
       "florida wildfire map"
     ],
     "2026-04-23": [
-      "Live Updates: Iran attacks ships in Strait of Hormuz as thousands more U.S. forces head for Middle East - CBS News",
-      "Navy Secretary John Phelan Is Leaving the Pentagon and the Trump Administration - The New York Times",
-      "Trump's redistricting war leaves Republicans worse off - Axios",
+      "Iran fires on 2 ships in Strait of Hormuz after Trump extends ceasefire - Fox News",
+      "Pete Hegseth fires U.S. Navy Secretary John Phelan - Axios",
+      "Hakeem Jeffries finally gets a signature win - Politico",
+      "RFK Jr. Says His Department Advises All Children to Get Measles Vaccine - The New York Times",
+      "Israeli strike kills journalist after ongoing attacks blocked rescuers, Lebanon says - The Guardian",
       "Exclusive: US intercepts three Iranian oil tankers in Asian waters, sources say - Reuters",
-      "The tariff refund process has begun for businesses. What about customers? - NPR",
-      "To Iran, Trump Blinked First by Extending the Cease-Fire - The New York Times",
-      "How the Southern Poverty Law Center Drew the Ire of Conservatives - The New York Times",
-      "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
       "Chemical leak at a W.Va. plant kills 2 people, sends 30 more to hospitals, officials say - NPR",
       "Inside the Massachusetts courtroom where former students face a teacher charged with rape - NBC News",
+      "Senate begins \"vote-a-rama\" as GOP moves forward with funding ICE without Democrats - CBS News",
+      "Rep. David Scott, a Georgia Democrat seeking his 13th term in Congress, dies at age 80 - AP News",
       "Hungary drops veto, clearing path for $106 billion EU loan to Ukraine - CBS News",
-      "Israeli strike kills journalist after ongoing attacks blocked rescuers, Lebanon says - The Guardian",
+      "Taiwan minister makes rare visit to South China Sea island for drills - Reuters",
       "Palestinian boy, 14, among two killed in settler attack near West Bank school - The Guardian",
-      "Mexico to beef up security at tourist sites after shooting at pyramids in lead up to World Cup - AP News",
-      "Tesla earnings recap: Company signals 'rebound of demand' and big capex spending increase - Business Insider",
+      "UK passes bill that will eventually ban cigarette purchases - AP News",
+      "Tesla\u2019s revenue rises again as it prepares for more AI and robotics - The Verge",
       " Ozuna ft Dany Ome y Kevincito El 13 - Paciente (Video Oficial)",
       "Clayface | Official Teaser",
+      "The Five",
+      "G Herbo - Win Again (Official Video)",
+      "Clayface Teaser Trailer (2026)",
       "Philadelphia 76ers at Boston Celtics",
       "mgk - FIX UR FACE (feat. Fred Durst) (Official Music Video)",
-      "Clayface Teaser Trailer (2026)",
-      "Utah Mammoth at Vegas Golden Knights",
-      "G Herbo - Win Again (Official Video)",
       "Street Fighter 6 - Ingrid Gameplay Trailer",
-      "Boston Bruins at Buffalo Sabres",
-      "Tainy, Anuel AA, Ozuna - Adicto (Letra / Lyrics) \ud83c\udfa7\ud83d\udd25",
-      "adam levine",
-      "bradley cooper",
-      "ca governor race polls",
-      "futbol mexicano",
-      "san jose earthquakes",
-      "bipartisan hot rotisserie chicken act",
-      "oilers vs ducks",
-      "suns",
-      "spacex launch",
-      "oneil cruz"
+      "Utah Mammoth at Vegas Golden Knights",
+      "Daddy Rich",
+      "drew barrymore",
+      "minnesota",
+      "eriksson ek",
+      "andre iguodala",
+      "winning powerball numbers",
+      "carolina flores gomez",
+      "nhl playoff overtime rules",
+      "jack hughes",
+      "bachelor",
+      "u.s. department of homeland security"
     ]
   },
   "summaries": {
@@ -635,7 +630,9 @@
     "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt": "Rayan Cherki put in an impressive performance as Manchester City beat Burnley 1-0, cementing his place as a key creative player in Pep Guardiola's preferred starting lineup. The 21-year-old French midfielder, signed from Lyon for \u00a330.5m last summer, has adapted quickly to the Premier League and has displaced Phil Foden as the first-choice number 10. His form is particularly significant because Manchester City are currently Premier League leaders with the title race entering its decisive phase. The article draws a contrast with Florian Wirtz at Liverpool, who cost nearly four times as much but is still finding his feet, highlighting Cherki as strong transfer value.",
     "https://www.marca.com/futbol/getafe/2026/04/22/iglesias-raja-oyarzabal-pone-mano-boca-meterse-mi-mujer-son-valores-aqui.html": "Getafe beat Real Sociedad in a La Liga match that sparked serious controversy both on and off the pitch. Getafe manager Juan Iglesias accused Real Sociedad star Mikel Oyarzabal of making personal remarks about his wife during the game, after which Oyarzabal reportedly went to the Getafe dressing room to confront Iglesias directly. A Getafe fullback added fuel to the fire with a quote suggesting Oyarzabal lacked the courage to repeat his remarks openly, while publicly presenting himself as a role model. The incident matters because it reflects the high tensions in La Liga, where Real Sociedad are chasing European qualification and Getafe are fighting to avoid relegation, giving both sides strong emotional stakes in every result.",
     "https://www.marca.com/futbol/elche/2026/04/22/sarabia-affengruber-mundial-seria-mayores-injusticias-historia-futbol.html": "Elche striker Affengruber scored in a dramatic win over Atl\u00e9tico de Madrid at the Estadio Mart\u00ednez Valero, a result that lifts Elche out of the relegation zone in the Spanish league. The victory is significant both on the table and in the spotlight it places on Affengruber, whose form has sparked debate about his inclusion in Spain's World Cup squad. Teammate Sarabia added fuel to the conversation by claiming it would be 'one of the greatest injustices in football history' if Affengruber were left out of the tournament. The comments reflect growing pressure on Spain's national team selectors as the World Cup approaches and Affengruber continues to perform at club level.",
-    "https://www.bbc.com/news/articles/c5yvn036evlo": "Lebanon has accused Israel of deliberately targeting journalist Issam Abdallah, known as Khalil, who was killed in an Israeli air strike. The Lebanese government's accusation implies the strike was intentional rather than incidental, which would constitute a serious violation of international law protecting journalists in conflict zones. This matters because the deliberate killing of press personnel is considered a war crime under the Geneva Conventions, and such allegations could intensify international pressure and legal scrutiny on Israel during its ongoing military campaign in the region. The incident is part of a broader pattern of journalists being killed or injured while covering the conflict, raising significant concerns from press freedom organizations worldwide."
+    "https://www.bbc.com/news/articles/c5yvn036evlo": "Lebanon has accused Israel of deliberately targeting journalist Issam Abdallah, known as Khalil, who was killed in an Israeli air strike. The Lebanese government's accusation implies the strike was intentional rather than incidental, which would constitute a serious violation of international law protecting journalists in conflict zones. This matters because the deliberate killing of press personnel is considered a war crime under the Geneva Conventions, and such allegations could intensify international pressure and legal scrutiny on Israel during its ongoing military campaign in the region. The incident is part of a broader pattern of journalists being killed or injured while covering the conflict, raising significant concerns from press freedom organizations worldwide.",
+    "https://www.marca.com/futbol/real-sociedad/2026/04/22/oyarzabal-vestuario-getafe-choque-pedir-explicaciones-juan-iglesias-acusaciones.html": "Real Sociedad captain Mikel Oyarzabal confronted Getafe manager Juan Iglesias in the visiting team's dressing room after Iglesias publicly accused Oyarzabal of making inappropriate comments about his wife during their La Liga match. Oyarzabal reportedly went to address Iglesias directly after learning of the accusations, which he apparently found surprising or untrue. The incident represents a serious breakdown in conduct between a player and an opposing manager, crossing the usual boundaries of post-match disputes. Disciplinary action from La Liga or the Spanish football federation is considered likely given the nature of the confrontation and the public accusations involved.",
+    "https://www.marca.com/futbol/getafe/2026/04/22/bordalas-tratan-bien-hemos-ganado-contento-poco-indignado.html": "Getafe defeated Real Sociedad in a La Liga match, securing three points that effectively confirmed their survival in the top flight with six games still to play. Manager Jos\u00e9 Bordal\u00e1s celebrated the result but used his post-match comments to criticize what he sees as unfair treatment of his club, calling it a 'disgrace' that they had to fight so hard for safety despite the circumstances. His remarks reflect an ongoing friction between Getafe and officiating or league authorities in Spain. The early confirmation of survival is a significant achievement for a club that regularly battles relegation, though Bordal\u00e1s's grievances suggest deeper frustrations beneath the positive result."
   },
   "article_hashes": {
     "breaking": "2de06207b9ca5f75741758f362f94ec3"
@@ -643,82 +640,82 @@
   "world_topics_cache": {
     "today": [
       {
-        "headline": "Iran's Strait of Hormuz attacks escalate as U.S. deploys additional forces",
-        "why": "Iran is actively attacking ships in one of the world's most critical shipping lanes while thousands more American military personnel are being deployed to the region, marking a dangerous escalation in Middle East tensions.",
-        "signal": "[NEWS] CBS News, Reuters, New York Times"
+        "headline": "Iran fires on ships in Strait of Hormuz as Trump extends ceasefire",
+        "why": "Direct military escalation in one of the world's most critical shipping chokepoints signals potential breakdown of diplomatic efforts and threatens global energy markets.",
+        "signal": "[NEWS] Fox News, Reuters"
       },
       {
-        "headline": "Navy Secretary John Phelan exits Trump administration amid Pentagon tensions",
-        "why": "A major Pentagon leadership departure signals internal conflict within the Trump administration's defense establishment during an escalating Middle East crisis.",
-        "signal": "[NEWS] New York Times"
+        "headline": "US intercepts Iranian oil tankers in Asian waters amid heightened tensions",
+        "why": "Coordinated U.S. military action targeting Iranian assets demonstrates aggressive enforcement of sanctions and escalates the broader geopolitical confrontation.",
+        "signal": "[NEWS] Reuters"
       },
       {
-        "headline": "Hungary removes veto, enabling $106 billion EU aid package for Ukraine",
-        "why": "A major diplomatic breakthrough unblocks critical European Union funding for Ukraine's continued military and economic support after months of Hungarian obstruction.",
+        "headline": "Hungary clears $106 billion EU loan to Ukraine after dropping veto",
+        "why": "Major diplomatic breakthrough removes final obstacle to substantial European financial support for Ukraine's war effort and reconstruction.",
         "signal": "[NEWS] CBS News"
       },
       {
-        "headline": "Escalating Israeli-Palestinian violence claims civilian lives in West Bank and Lebanon",
-        "why": "A journalist killed in an Israeli strike in Lebanon and a 14-year-old Palestinian boy killed by settlers near a West Bank school represent intensifying violence beyond Gaza's borders.",
-        "signal": "[NEWS] The Guardian"
+        "headline": "RFK Jr.'s Department advises all children to get measles vaccine",
+        "why": "Public health agency reverses or confirms vaccine guidance under controversial leadership, drawing attention to vaccine policy debates amid health concerns.",
+        "signal": "[NEWS] New York Times"
       },
       {
-        "headline": "Mexico heightens security at major tourist sites ahead of World Cup following pyramid shooting",
-        "why": "A shooting at the pyramids has forced Mexico to deploy enhanced security measures at tourist destinations weeks before hosting the FIFA World Cup, raising safety concerns.",
+        "headline": "Rep. David Scott, 13-term Georgia Democrat, dies at age 80",
+        "why": "Death of long-serving congressional figure triggers questions about succession and shifts balance in competitive political landscape heading into election cycle.",
         "signal": "[NEWS] AP News"
       }
     ],
     "week": [
       {
-        "headline": "Iran-US Naval Confrontation in Strait of Hormuz",
-        "why": "Escalating military tensions between the U.S. and Iran over shipping lanes, including U.S. Navy blockade operations, Iranian drone/missile attacks on ships, and Trump's ceasefire extension negotiations dominated security coverage.",
-        "signal": "trending for 7 days"
-      },
-      {
-        "headline": "Trump Administration's Tariff Refund Portal and Economic Policy",
-        "why": "The rollout of Trump's tariff refund process, jet fuel cost increases, and broader economic implications of administration trade policies generated sustained business and policy reporting.",
-        "signal": "trending for 5 days"
-      },
-      {
-        "headline": "Israel-Lebanon Ceasefire Negotiations",
-        "why": "Ongoing diplomatic push for Middle East peace between Israel and Lebanon, with Trump engaging Lebanese leadership and regional developments, dominated foreign policy coverage.",
-        "signal": "trending for 5 days"
-      },
-      {
-        "headline": "Trump Administration Personnel and Policy Controversies",
-        "why": "Multiple high-profile staffing changes, firings, and controversies including Navy Secretary John Phelan's departure, RFK Jr. confirmation hearings, and various political feuds kept administration turbulence in headlines.",
+        "headline": "Trump Administration's Iran Blockade and Ceasefire Extension",
+        "why": "Multiple reports tracked U.S. military actions in the Strait of Hormuz, including naval patrols, ship interdictions, and Trump's extension of an Iran ceasefire amid ongoing nuclear negotiations.",
         "signal": "trending for 6 days"
       },
       {
-        "headline": "Virginia Lieutenant Governor Justin Fairfax Murder-Suicide",
-        "why": "The shocking crime involving ex-Lt. Gov. Fairfax killing his wife and himself generated major breaking news coverage across multiple outlets.",
+        "headline": "Israel-Lebanon Ceasefire Negotiations",
+        "why": "Sustained coverage of diplomatic efforts between Israel and Lebanon to establish a ceasefire, with Trump engaging directly with the Lebanese president as talks progressed.",
+        "signal": "trending for 5 days"
+      },
+      {
+        "headline": "Pete Hegseth's Tenure as Defense Secretary and Navy Leadership Changes",
+        "why": "The firing of U.S. Navy Secretary John Phelan by Defense Secretary Pete Hegseth became a focal point for coverage of Trump administration personnel decisions and military leadership.",
+        "signal": "trending for 2 days"
+      },
+      {
+        "headline": "RFK Jr.'s Confirmation Hearing and Public Health Policy Statements",
+        "why": "Robert F. Kennedy Jr.'s Senate confirmation hearing and subsequent statements on vaccine policy generated significant attention across multiple news cycles.",
         "signal": "trending for 3 days"
+      },
+      {
+        "headline": "Trump White House Conflict with Pope Francis Over Religious and Political Authority",
+        "why": "Escalating public feud between Trump's administration and Pope Francis over religious messaging, Bible readings in the Oval Office, and the Pope's criticism of Trump as a 'tyrant' dominated political coverage.",
+        "signal": "trending for 4 days"
       }
     ],
     "month": [
       {
-        "headline": "Trump Administration's Iran Strait of Hormuz Blockade and Ceasefire Negotiations",
-        "why": "The U.S. military blockade of Iranian ports in the Strait of Hormuz and subsequent diplomatic negotiations dominated coverage as Trump sought international support, extended ceasefires, and signaled willingness for talks while military tensions escalated.",
+        "headline": "Trump Administration's Iran Blockade and Ceasefire Negotiations",
+        "why": "Trump's announcement of a naval blockade at the Strait of Hormuz dominated coverage as the U.S. imposed military patrols, international allies declined to participate, and negotiations for an interim deal progressed with multiple ceasefire extensions.",
         "signal": "trending for 18 days"
       },
       {
-        "headline": "Trump's Public Feud with Pope Leo Over Politics and Governance",
-        "why": "Vice President Vance and Trump engaged in repeated public criticism of Pope Leo for speaking on political matters, calling him 'weak' and telling him to stay out of U.S. affairs, creating sustained diplomatic and religious controversy.",
-        "signal": "trending for 12 days"
-      },
-      {
-        "headline": "Eric Swalwell's Withdrawal from California Governor's Race Following Sexual Assault Allegations",
-        "why": "Democratic Congressman Eric Swalwell exited the California gubernatorial race amid renewed focus on past sexual assault allegations and questions about his conduct and financial activities.",
+        "headline": "Trump's Public Feud with Pope Leo",
+        "why": "Trump repeatedly attacked Pope Leo as 'weak' and 'terrible,' criticizing his involvement in political affairs, while Vice President Vance demanded the Pope stay out of U.S. affairs, generating sustained political controversy.",
         "signal": "trending for 8 days"
       },
       {
-        "headline": "Hungary's Opposition Landslide Victory and EU Relations Reset",
-        "why": "Hungary's opposition party achieved a decisive election win, subsequently dropping its veto on EU funding to Ukraine and signaling a major thaw in previously fractious EU relations under Viktor Orb\u00e1n's government.",
+        "headline": "Eric Swalwell's Withdrawal from California Governor's Race",
+        "why": "The Democratic congressman exited the gubernatorial race following sexual assault allegations, with rivals seeking his campaign donations and questions emerging about his financial activities and physical location.",
         "signal": "trending for 6 days"
       },
       {
-        "headline": "Super Typhoon Sinlaku Impact on U.S. Pacific Territories and Midwest Storm Damage",
-        "why": "The strongest storm on the planet bore down on U.S. islands in the Western Pacific while powerful storms caused flooding and damage across the Midwest, dominating weather and disaster coverage.",
+        "headline": "Hungary's Opposition Electoral Victory and EU Relations Thaw",
+        "why": "Hungary's opposition achieved a landslide election win, leading to dropped vetoes on EU funding for Ukraine and signaling potential reforms and improved relationships with the European Union.",
+        "signal": "trending for 5 days"
+      },
+      {
+        "headline": "Pope Leo's North Africa Religious Tour and Advocacy",
+        "why": "Pope Leo traveled to Algeria and Cameroon emphasizing his Gospel mission and anti-corruption message to African Catholics, while asserting that the 'world is being ravaged by tyrants' amid his public clash with Trump.",
         "signal": "trending for 7 days"
       }
     ]

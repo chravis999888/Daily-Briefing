@@ -355,8 +355,8 @@
     "2026-04-24": {
       "breaking": [
         {
-          "headline": "Trump orders US Navy to attack any boats laying mines in the Strait of Hormuz amid ongoing US-Iran war",
-          "timestamp": "4 mins ago",
+          "headline": "Trump orders US Navy to attack any boats laying mines in the Strait of Hormuz as Iran seizes two container ships",
+          "timestamp": "57 mins ago",
           "score": 9,
           "summary": "The headline claiming Trump ordered the US Navy to attack vessels laying mines in the Strait of Hormuz does not match the article provided, which instead covers Israeli airstrikes in southern Lebanon during a ceasefire, and statements from Israeli Defense Minister Katz about readiness to strike Iran. The article describes three people killed in Lebanon despite an ongoing truce, and Israel signaling it is waiting for US approval to conduct major strikes against Iran's leadership. The Strait of Hormuz is a critical chokepoint for roughly 20% of global oil supply, so any military action there would have severe economic and geopolitical consequences, but this specific claim is not supported by the article content provided. Readers should be cautious, as the headline and article content are mismatched, which may indicate an error, outdated pairing, or potential misinformation.",
           "url": "https://www.theguardian.com/world/live/2026/apr/23/middle-east-crisis-live-news-us-iran-ceasefire-strait-of-hormuz-blockade-ships-latest-updates",
@@ -368,32 +368,99 @@
               "url": "https://www.theguardian.com/world/live/2026/apr/23/middle-east-crisis-live-news-us-iran-ceasefire-strait-of-hormuz-blockade-ships-latest-updates"
             },
             {
-              "title": "Trump threatens to shoot boats laying mines as tension escalates in Strait of Hormuz",
+              "title": "Trump orders US Navy to 'shoot and kill' any boats laying mines in Hormuz",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/04/23/diplomacy-stalls-as-iran-fires-on-three-ships-in-the-strait-of-hormuz-and-us-maintains-blo"
+            },
+            {
+              "title": "Live updates: Trump threatens to shoot boats laying mines as tension escalates in Strait of Hormuz",
               "source": "CNN",
               "url": "https://www.cnn.com/2026/04/23/world/live-news/iran-war-trump-blockade-israel-lebanon"
             },
             {
-              "title": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
-              "source": "CNBC",
-              "url": "https://www.cnbc.com/2026/04/19/oil-price-iran-war-strait-hormuz-tanker.html"
+              "title": "Iran Conflict and the Strait of Hormuz: Impacts on Oil, Gas, and Other Commodities",
+              "source": "Congress.gov (Congressional Research Service)",
+              "url": "https://www.congress.gov/crs-product/R45281"
+            },
+            {
+              "title": "Oil prices jump on US plans to blockade Iranian ports in Strait of Hormuz",
+              "source": "CNN Business",
+              "url": "https://www.cnn.com/2026/04/13/business/oil-prices-us-blockade-hormuz-intl"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Iran seizes two container ships in the Strait of Hormuz as Trump claims US has total control of the waterway",
+          "timestamp": "2 hrs ago",
+          "score": 9,
+          "summary": "Iranian commandos seized two container ships in the Strait of Hormuz, even as President Trump claimed the US has total control of the waterway. Both the US and Iran are now effectively running competing naval blockades in the strait, with US forces intercepting ships carrying Iranian oil while Iran seizes commercial vessels. The situation is made worse by sea mines in the strait, which the Pentagon says could take up to six months to clear. This is a serious crisis for global energy markets because the Strait of Hormuz handles about 20% of the world's oil trade, and the standoff has already pushed crude prices to around $100 a barrel.",
+          "url": "https://www.theguardian.com/us-news/2026/apr/23/trump-claims-us-has-total-control-over-strait-of-hormuz-as-iran-seizes-two-container-ships",
+          "image": "https://media.guim.co.uk/0d8279b7d7325118bdcbaf6439dec0b2bb388bd9/500_0_2500_2000/500.jpg",
+          "articles": [
+            {
+              "title": "Trump claims US has total control over strait of Hormuz after Iran seizes two container ships",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/apr/23/trump-claims-us-has-total-control-over-strait-of-hormuz-as-iran-seizes-two-container-ships"
+            },
+            {
+              "title": "Iran says it seized ships in Strait of Hormuz as U.S. blockade continues amid ceasefire",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates"
+            },
+            {
+              "title": "US and Iran continue seizing ships in tense Hormuz standoff",
+              "source": "Euronews",
+              "url": "https://www.euronews.com/2026/04/23/us-and-iran-continue-seizing-ships-in-tense-hormuz-standoff"
+            },
+            {
+              "title": "Iran seizes container ships in Strait of Hormuz after Trump extends ceasefire",
+              "source": "CBC News",
+              "url": "https://www.cbc.ca/news/world/livestory/iran-blockade-us-israel-lebanon-strait-hormuz-9.7172875"
+            },
+            {
+              "title": "Strait of Hormuz standoff continues as Iran intensifies assault on shipping",
+              "source": "The Globe and Mail",
+              "url": "https://www.theglobeandmail.com/world/article-iran-us-war-talks-strait-of-hormuz/"
             },
             {
               "title": "What to know about US-Iran standoff over the Strait of Hormuz",
               "source": "Al Jazeera",
               "url": "https://www.aljazeera.com/news/2026/4/19/what-to-know-about-us-iran-standoff-over-the-strait-of-hormuz"
-            },
-            {
-              "title": "Oil exporters scramble for routes beyond Hormuz \u2014 but there are no easy options",
-              "source": "CNBC",
-              "url": "https://www.cnbc.com/2026/04/23/strait-hormuz-closure-alternative-routes-middle-east-oil-gas-pipelines.html"
-            },
-            {
-              "title": "Iran Conflict and the Strait of Hormuz: Impacts on Oil, Gas, and Other Commodities",
-              "source": "Congressional Research Service / Congress.gov",
-              "url": "https://www.congress.gov/crs-product/R45281"
             }
           ],
-          "tracking_suggestions": []
+          "tracking_suggestions": [
+            "Iran Strait of Hormuz seizures",
+            "US-Iran naval standoff",
+            "Persian Gulf oil supply disruption",
+            "global energy security"
+          ]
+        },
+        {
+          "headline": "UK government confirms RAF Typhoons will be deployed to keep the Strait of Hormuz open following Iran war escalation",
+          "timestamp": "2 hrs ago",
+          "score": 8,
+          "summary": "The UK government has confirmed plans to deploy RAF Typhoon jets, currently stationed in Qatar, to patrol the Strait of Hormuz and help keep the critical shipping lane open following a recent 38-day war involving the US, Israel, and Iran. British military planners presented the proposal at a 30-country meeting held at Northwood headquarters, where options including mine-hunting drones and specialist divers were also discussed to counter Iranian mining of the strait. The Strait of Hormuz is one of the world's most vital chokepoints for global oil and gas shipments, meaning any disruption there has major economic consequences worldwide. This commitment draws Britain into direct involvement in the aftermath of the US-Iran conflict, increasing the risk of British casualties and signaling a broader international coalition forming around post-war stability in the Gulf.",
+          "url": "https://www.theguardian.com/uk-news/2026/apr/23/uk-raf-typhoons-strait-of-hormuz-iran-war",
+          "image": "https://media.guim.co.uk/fcb3a8294ca9463409cdef5f42a243533e36cb20/300_0_3000_2401/500.jpg",
+          "articles": [
+            {
+              "title": "UK prepared to deploy RAF Typhoons to keep strait of Hormuz open after Iran war",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/uk-news/2026/apr/23/uk-raf-typhoons-strait-of-hormuz-iran-war"
+            },
+            {
+              "title": "Trump orders US Navy to attack any boats laying mines in the Strait of Hormuz amid ongoing US-Iran war",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/world/live/2026/apr/23/middle-east-crisis-live-news-us-iran-ceasefire-strait-of-hormuz-blockade-ships-latest-updates"
+            }
+          ],
+          "tracking_suggestions": [
+            "RAF Typhoon Hormuz deployment",
+            "UK-Iran military tensions",
+            "Strait of Hormuz security",
+            "Middle East war escalation"
+          ]
         }
       ],
       "australia": [],
@@ -1112,10 +1179,12 @@
     "https://www.theguardian.com/football/2026/apr/22/charlton-ipswich-championship-match-report": "Ipswich Town came from behind to beat Charlton Athletic 1-0, with Darnell Furlong equalizing after Greg Docherty gave Charlton the lead after just 42 seconds, before Jaden Philogene converted a penalty to secure the win. The result lifts Ipswich back into the top two of the Championship, keeping them on track for automatic promotion to the Premier League. The win is significant because Ipswich have struggled on the road this season and face two more crucial away games in the next five days that could decide their promotion fate. For Charlton, the defeat means they still need at least a point from their final two matches to secure Championship football next season ahead of Oxford United.",
     "https://www.theguardian.com/football/2026/apr/23/real-sociedad-getafe-hangover-from-hell-copa-del-rey-la-liga": "Real Sociedad won the Copa del Rey on Saturday in a dramatic penalty shootout, celebrating well into the early hours before flying home to the Basque Country. The following day, visibly exhausted from the celebrations and travel, they lost to Getafe in La Liga, dropping further down the league table. The back-to-back fixture meant players had little to no recovery time between the cup final and a competitive league match. The result highlights the tension between cup success and league consistency, with Real Sociedad now facing a harder climb in La Liga despite their historic domestic cup triumph.",
     "https://www.marca.com/futbol/getafe/2026/04/23/getafe-permite-sonar-europa.html": "Getafe defeated Real Sociedad in a La Liga match, a result that pushed them into the European qualification places in the Spanish top flight. Having already secured their survival in the division, the club is now targeting a finish as high as possible in the table. A European place would be a significant achievement for Getafe, a club without the financial resources of Spain's traditional giants, as it would bring prestige and additional revenue from continental competition. The result reflects a strong run of form that has transformed their season from a relegation battle into a European push.",
-    "https://www.marca.com/futbol/valencia/2026/04/23/gol-luto-sadiq-rompe-peor-racha-valencia.html": "Nigerian striker Umar Sadiq broke a 65-day goalless run for Valencia, ending the longest scoring drought of his time at the club across his two spells there. The goal provides a rare bright moment for Valencia, who are otherwise going through a difficult and somber period described as mourning. Sadiq's return to form is significant because consistent goalscoring from him is important to Valencia's attacking output. The timing is bittersweet, as the positive individual milestone is overshadowed by broader troubles at the club."
+    "https://www.marca.com/futbol/valencia/2026/04/23/gol-luto-sadiq-rompe-peor-racha-valencia.html": "Nigerian striker Umar Sadiq broke a 65-day goalless run for Valencia, ending the longest scoring drought of his time at the club across his two spells there. The goal provides a rare bright moment for Valencia, who are otherwise going through a difficult and somber period described as mourning. Sadiq's return to form is significant because consistent goalscoring from him is important to Valencia's attacking output. The timing is bittersweet, as the positive individual milestone is overshadowed by broader troubles at the club.",
+    "https://www.theguardian.com/us-news/2026/apr/23/trump-claims-us-has-total-control-over-strait-of-hormuz-as-iran-seizes-two-container-ships": "Iranian commandos seized two container ships in the Strait of Hormuz, even as President Trump claimed the US has total control of the waterway. Both the US and Iran are now effectively running competing naval blockades in the strait, with US forces intercepting ships carrying Iranian oil while Iran seizes commercial vessels. The situation is made worse by sea mines in the strait, which the Pentagon says could take up to six months to clear. This is a serious crisis for global energy markets because the Strait of Hormuz handles about 20% of the world's oil trade, and the standoff has already pushed crude prices to around $100 a barrel.",
+    "https://www.theguardian.com/uk-news/2026/apr/23/uk-raf-typhoons-strait-of-hormuz-iran-war": "The UK government has confirmed plans to deploy RAF Typhoon jets, currently stationed in Qatar, to patrol the Strait of Hormuz and help keep the critical shipping lane open following a recent 38-day war involving the US, Israel, and Iran. British military planners presented the proposal at a 30-country meeting held at Northwood headquarters, where options including mine-hunting drones and specialist divers were also discussed to counter Iranian mining of the strait. The Strait of Hormuz is one of the world's most vital chokepoints for global oil and gas shipments, meaning any disruption there has major economic consequences worldwide. This commitment draws Britain into direct involvement in the aftermath of the US-Iran conflict, increasing the risk of British casualties and signaling a broader international coalition forming around post-war stability in the Gulf."
   },
   "article_hashes": {
-    "breaking": "7385f0a328b024c450d055edca44cc51"
+    "breaking": "0e330f42c095176414de83d73db5370a"
   },
   "world_topics_cache": {
     "today": [
@@ -1200,5 +1269,5 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-23T16:54:25.407362+00:00"
+  "last_gdelt_attempt": "2026-04-23T20:14:20.149830+00:00"
 }

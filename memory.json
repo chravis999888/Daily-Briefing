@@ -682,6 +682,97 @@
           ]
         }
       ]
+    },
+    "2026-04-25": {
+      "breaking": [
+        {
+          "headline": "Iranian blockade of Strait of Hormuz continues, pushing oil to highest level since US-Iran ceasefire began and disrupting Gulf crude production",
+          "timestamp": "11 mins ago",
+          "score": 8,
+          "summary": "The headline describes an Iranian blockade of the Strait of Hormuz driving oil prices higher, but the article content provided does not actually cover this story. Instead, the article reports on the US Justice Department closing a criminal probe into Fed Chair Jerome Powell, a chip stock rally led by Intel surging 27% on strong earnings, and broader gains on Wall Street. Based on the additional context provided, a Hormuz blockade would be highly significant because the strait carries roughly 20% of global oil supply, meaning any sustained closure would drive energy inflation worldwide and threaten broader economic stability. It is important to note that the article text does not match the headline, so any summary of the Hormuz story relies on the headline and context clues rather than confirmed reporting.",
+          "url": "https://www.theguardian.com/business/live/2026/apr/24/stock-market-warning-bank-of-england-deputy-governor-trump-threatens-uk-tariff-business-live",
+          "image": "https://media.guim.co.uk/f768be1b607611171d33b5536209f8f42ccfaf2a/1139_0_4148_3319/500.jpg",
+          "articles": [
+            {
+              "title": "Oil hits highest level since US-Iran ceasefire began, as conflict hurts Gulf crude production \u2013 business live",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/business/live/2026/apr/24/stock-market-warning-bank-of-england-deputy-governor-trump-threatens-uk-tariff-business-live"
+            },
+            {
+              "title": "Short-Term Energy Outlook: Global Liquid Fuels",
+              "source": "U.S. Energy Information Administration (EIA)",
+              "url": "https://www.eia.gov/outlooks/steo/report/global_oil.php"
+            },
+            {
+              "title": "The Chokepoint Economy: What Happens When Everything Breaks at Once",
+              "source": "OilPrice.com",
+              "url": "https://oilprice.com/Energy/Energy-General/The-Chokepoint-Economy-What-Happens-When-Everything-Breaks-at-Once.html"
+            },
+            {
+              "title": "Strait of Hormuz Constraints Keep Oil Prices Elevated",
+              "source": "OilPrice.com",
+              "url": "https://oilprice.com/Energy/Oil-Prices/Strait-of-Hormuz-Constraints-Keep-Oil-Prices-Elevated.html"
+            },
+            {
+              "title": "Ceasefire deadline looms as gas prices, global fuel supply hang in balance",
+              "source": "ClickOnDetroit",
+              "url": "https://www.clickondetroit.com/news/local/2026/04/22/ceasefire-deadline-looms-as-gas-prices-global-fuel-supply-hang-in-balance/"
+            }
+          ],
+          "tracking_suggestions": [
+            "Strait of Hormuz blockade",
+            "Iran-US relations oil supply",
+            "global energy market disruption",
+            "Middle East geopolitical risk"
+          ]
+        },
+        {
+          "headline": "Ukraine and Russia exchange 193 prisoners of war each in latest swap",
+          "timestamp": "46 mins ago",
+          "score": 6,
+          "summary": "Ukraine and Russia each released 193 prisoners of war in a reciprocal exchange, continuing a series of swaps that have taken place throughout the conflict. These exchanges represent one of the few areas of direct coordination between the two sides despite ongoing fighting. The swap matters because it brings hundreds of soldiers back from often brutal captivity, though the war itself shows no signs of resolution. Separately reported accounts of emaciated Ukrainian frontline troops point to serious supply and logistics failures in some units, highlighting the grinding, attritional nature of the conflict now well into its third year.",
+          "url": "https://www.n-tv.de/politik/15-57-Ukraine-und-Russland-tauschen-je-193-Kriegsgefangene-aus-article23143824.html",
+          "image": "",
+          "articles": [
+            {
+              "title": "Ukraine - Krieg im Liveticker : +++ 15 : 57 Ukraine und Russland tauschen je 193 Kriegsgefangene aus +++",
+              "source": "n-tv.de",
+              "url": "https://www.n-tv.de/politik/15-57-Ukraine-und-Russland-tauschen-je-193-Kriegsgefangene-aus-article23143824.html"
+            },
+            {
+              "title": "14th Brigade, 10th Corps commanders dismissed after shocking pictures of emaciated Ukrainian soldiers emerge",
+              "source": "Kyiv Independent",
+              "url": "https://kyivindependent.com/14th-brigade-10th-corps-commanders-dismissed-amid-accusations-of-misreporting-supply-failures-and-ground-losses/"
+            },
+            {
+              "title": "Ukraine Orders Command Shake-Up After Photos Show Starving Troops on Kupyansk Front",
+              "source": "Kyiv Post",
+              "url": "https://www.kyivpost.com/post/74634"
+            },
+            {
+              "title": "Ukrainian soldiers left emaciated on frontline from lack of food and water",
+              "source": "Irish Examiner",
+              "url": "https://www.irishexaminer.com/world/arid-41833286.html"
+            },
+            {
+              "title": "Ukraine and Russia complete prisoner swap of 193 soldiers with U.S., UAE mediation",
+              "source": "Athens Times",
+              "url": "https://athens-times.com/ukraine-and-russia-complete-prisoner-swap-of-193-soldiers-with-u-s-uae-mediation/"
+            },
+            {
+              "title": "Russia and Ukraine Swap Hundreds of Prisoners Ahead of Easter Truce",
+              "source": "The Moscow Times",
+              "url": "https://www.themoscowtimes.com/2026/04/11/russia-and-ukraine-swap-hundreds-of-prisoners-ahead-of-easter-truce-a92476"
+            }
+          ],
+          "tracking_suggestions": [
+            "Ukraine-Russia POW swaps",
+            "frontline troop conditions",
+            "Ukraine war attrition",
+            "Eastern Europe conflict"
+          ]
+        }
+      ]
     }
   },
   "developing": {},
@@ -1094,10 +1185,12 @@
     "https://www.theguardian.com/world/2026/apr/23/lebanon-journalist-amal-khalil-israel-death-threat": "Israeli forces killed Lebanese journalist Amal Khalil, 43, who worked for al-Akhbar newspaper, in a strike in southern Lebanon that colleagues described as a deliberate double-tap attack that also prevented rescuers from reaching her. Her death drew widespread condemnation from Lebanese officials, including President Joseph Aoun and Prime Minister, who called it a war crime, and renewed accusations that Israel systematically targets journalists to suppress coverage of its military operations. Khalil had reportedly received a prior threat from an Israeli phone number warning her to leave southern Lebanon. The killing is especially significant because it occurred during an active ceasefire period between Israel and Lebanon, raising serious questions about the durability of that truce just as Lebanese and Israeli delegations were preparing for talks in Washington to extend it.",
     "https://www.marca.com/futbol/betis/2026/04/23/diego-llorente-antony-novedades-lista-frente-real-madrid.html": "Real Betis manager Manuel Pellegrini has recalled defender Diego Llorente and winger Antony to his squad for their La Liga match against Real Madrid. Llorente returns after recovering from an ankle sprain, while Antony had been suspended following their previous Tuesday fixture. The availability of both players strengthens Betis heading into a high-profile home clash against the league leaders. The result could carry title race implications, as any points dropped by Real Madrid would benefit their championship rivals.",
     "https://www.marca.com/futbol/espanyol/2026/04/24/2026-le-atraganta-espanyol.html": "Espanyol have lost again in 2026, extending a damaging winless run that has left them with just five points in La Liga this calendar year. Only French club Metz, with four points in Ligue 1, has worse numbers among major European clubs in the same period. This persistent poor form places Espanyol in serious danger of relegation from Spain's top flight. The club's inability to pick up wins is compounding their league standing and raising urgent questions about their survival in La Liga.",
-    "https://www.marca.com/futbol/getafe/2026/04/24/bordalas-rey-eficiencia-numeros-han-llevado-getafe-pelear-puestos-europeos.html": "Getafe defeated Real Sociedad 1-0 in a La Liga match, a result that pushed them above the European qualification threshold in the standings. The win is significant because it places Jos\u00e9 Bordal\u00e1s's side in contention for a spot in European competition next season. Getafe have been notably efficient in front of goal, ranking as the second-best team in the league at converting the chances they create. The result represents a meaningful achievement for a club not typically associated with European ambitions."
+    "https://www.marca.com/futbol/getafe/2026/04/24/bordalas-rey-eficiencia-numeros-han-llevado-getafe-pelear-puestos-europeos.html": "Getafe defeated Real Sociedad 1-0 in a La Liga match, a result that pushed them above the European qualification threshold in the standings. The win is significant because it places Jos\u00e9 Bordal\u00e1s's side in contention for a spot in European competition next season. Getafe have been notably efficient in front of goal, ranking as the second-best team in the league at converting the chances they create. The result represents a meaningful achievement for a club not typically associated with European ambitions.",
+    "https://www.theguardian.com/business/live/2026/apr/24/stock-market-warning-bank-of-england-deputy-governor-trump-threatens-uk-tariff-business-live": "The headline describes an Iranian blockade of the Strait of Hormuz driving oil prices higher, but the article content provided does not actually cover this story. Instead, the article reports on the US Justice Department closing a criminal probe into Fed Chair Jerome Powell, a chip stock rally led by Intel surging 27% on strong earnings, and broader gains on Wall Street. Based on the additional context provided, a Hormuz blockade would be highly significant because the strait carries roughly 20% of global oil supply, meaning any sustained closure would drive energy inflation worldwide and threaten broader economic stability. It is important to note that the article text does not match the headline, so any summary of the Hormuz story relies on the headline and context clues rather than confirmed reporting.",
+    "https://www.n-tv.de/politik/15-57-Ukraine-und-Russland-tauschen-je-193-Kriegsgefangene-aus-article23143824.html": "Ukraine and Russia each released 193 prisoners of war in a reciprocal exchange, continuing a series of swaps that have taken place throughout the conflict. These exchanges represent one of the few areas of direct coordination between the two sides despite ongoing fighting. The swap matters because it brings hundreds of soldiers back from often brutal captivity, though the war itself shows no signs of resolution. Separately reported accounts of emaciated Ukrainian frontline troops point to serious supply and logistics failures in some units, highlighting the grinding, attritional nature of the conflict now well into its third year."
   },
   "article_hashes": {
-    "breaking": "3c4e1e18b57ac882d4ec7e5ac18ad502"
+    "breaking": "753e6c0aa3c4054b945bb98a555c97f5"
   },
   "world_topics_cache": {
     "today": [
@@ -1182,5 +1275,5 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-24T09:13:29.734156+00:00"
+  "last_gdelt_attempt": "2026-04-24T14:58:59.044182+00:00"
 }

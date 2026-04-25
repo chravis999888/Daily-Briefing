@@ -2797,5 +2797,32 @@
     "input_tokens": 6182,
     "output_tokens": 36,
     "cost_usd": 0.00509
+  },
+  {
+    "timestamp": "2026-04-26T02:08:45.260728+10:00",
+    "run_type": "breaking_only",
+    "label": "breaking_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 2896,
+    "output_tokens": 449,
+    "cost_usd": 0.015423
+  },
+  {
+    "timestamp": "2026-04-26T02:09:02.028239+10:00",
+    "run_type": "breaking_only",
+    "label": "context_search_sonnet",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 31122,
+    "output_tokens": 526,
+    "cost_usd": 0.101256
+  },
+  {
+    "timestamp": "2026-04-26T02:09:05.770403+10:00",
+    "run_type": "breaking_only",
+    "label": "developing_situations",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6211,
+    "output_tokens": 36,
+    "cost_usd": 0.005113
   }
 ]

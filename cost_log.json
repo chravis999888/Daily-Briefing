@@ -2446,5 +2446,23 @@
     "input_tokens": 6333,
     "output_tokens": 36,
     "cost_usd": 0.00521
+  },
+  {
+    "timestamp": "2026-04-25T18:38:26.384238+10:00",
+    "run_type": "breaking_only",
+    "label": "breaking_selection",
+    "model": "claude-sonnet-4-6",
+    "input_tokens": 3042,
+    "output_tokens": 4,
+    "cost_usd": 0.009186
+  },
+  {
+    "timestamp": "2026-04-25T18:38:27.419890+10:00",
+    "run_type": "breaking_only",
+    "label": "developing_situations",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 6370,
+    "output_tokens": 36,
+    "cost_usd": 0.00524
   }
 ]

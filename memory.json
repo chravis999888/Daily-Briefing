@@ -686,49 +686,75 @@
     "2026-04-25": {
       "breaking": [
         {
-          "headline": "Mali army reports coordinated armed group attacks launched simultaneously across multiple locations in the country",
-          "timestamp": "34 mins ago",
+          "headline": "Armed groups launch coordinated attacks across Mali",
+          "timestamp": "just now",
           "score": 7,
-          "summary": "The Malian army has reported coordinated armed attacks launched simultaneously across multiple locations in the country, with witnesses describing explosions and sustained gunfire near a military base outside the capital, Bamako. The scale and coordination of the assault suggest a significant escalation beyond typical insurgent activity. Mali has been battling jihadist groups linked to al-Qaeda and ISIS for years, a conflict that has already triggered multiple military coups and spread instability across the wider Sahel region. Multi-front simultaneous attacks of this kind are particularly dangerous because they stretch military response capacity and signal that armed groups may be growing bolder and better organized.",
-          "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0f2c/live/60f697b0-1203-11ef-82e8-cd354766a224.png",
+          "summary": "Armed groups launched coordinated attacks across multiple locations in Mali simultaneously, representing a significant escalation in violence in the country. The multi-front nature of the assault suggests organized jihadist or separatist forces are growing bolder, likely exploiting the security vacuum left by the withdrawal of French and other Western forces in recent years. Mali is now partly reliant on Russian Wagner Group-linked mercenaries for security, but instability continues to worsen across the wider Sahel region. This escalation matters beyond Mali's borders because it signals that armed groups are gaining operational capacity in an already fragile region with spillover effects into neighboring countries.",
+          "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo",
+          "image": "",
           "articles": [
             {
-              "title": "Mali army says armed groups launch coordinated attacks across country",
+              "title": "Armed groups launch coordinated attacks across Mali",
               "source": "BBC News",
+              "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo"
+            },
+            {
+              "title": "Mali army reports coordinated armed group attacks launched simultaneously across multiple locations in the country",
+              "source": "Previously covered",
               "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "title": "Jihadi fighters affiliated with al Qaeda close in on Mali's capital, as instability grows across Sahel region",
-              "source": "CNN",
-              "url": "https://www.cnn.com/2025/11/02/africa/mali-security-fuel-shortages-intl"
-            },
-            {
-              "title": "Mali on the Brink of Collapse as Jihadists Threaten to Overrun the Country",
-              "source": "The Soufan Center",
-              "url": "https://thesoufancenter.org/intelbrief-2025-november-4/"
-            },
-            {
-              "title": "Mali army says 80 fighters killed after earlier al-Qaeda linked attacks",
-              "source": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2025/7/1/mali-army-says-80-fighters-killed-after-earlier-al-qaeda-linked-attacks"
-            },
-            {
-              "title": "JNIM Expands Frontlines with a Coordinated Offensive Across Western Mali",
-              "source": "The Soufan Center",
-              "url": "https://thesoufancenter.org/intelbrief-2025-july-15/"
-            },
-            {
-              "title": "Mali is at a turning point that risks a 'disastrous domino effect'",
-              "source": "Atlantic Council",
-              "url": "https://www.atlanticcouncil.org/blogs/menasource/mali-is-at-a-turning-point-that-risks-a-disastrous-domino-effect/"
             }
           ],
           "tracking_suggestions": [
-            "Mali Bamako Attack",
-            "Sahel Jihadist Insurgency",
-            "West Africa Security Crisis",
-            "Global Terrorism Escalation"
+            "Mali armed attacks",
+            "Sahel jihadist insurgency",
+            "Wagner Group Africa",
+            "Sahel regional stability"
+          ]
+        },
+        {
+          "headline": "Russian attack on Ukraine kills seven people",
+          "timestamp": "26 mins ago",
+          "score": 7,
+          "summary": "A Russian attack on Ukraine killed seven people, adding to the mounting civilian death toll from the ongoing conflict. The strike is part of a pattern of large-scale Russian assaults on Ukrainian territory that have continued despite diplomatic efforts to negotiate a ceasefire. This matters because it shows the war remains highly active and lethal even as peace talks proceed, meaning ordinary Ukrainians continue to die while negotiations drag on. The gap between diplomatic activity and battlefield reality underscores how fragile and distant any resolution remains.",
+          "url": "https://www.bbc.com/news/articles/c0rxk4q0pj0o",
+          "image": "",
+          "articles": [
+            {
+              "title": "Russian attack on Ukraine kills seven people",
+              "source": "BBC News",
+              "url": "https://www.bbc.com/news/articles/c0rxk4q0pj0o"
+            },
+            {
+              "title": "Despite Deadly Russian Aerial Attacks in Kyiv, Ukraine, Speakers in Security Council Voice Hope Diplomatic Efforts towards Ceasefire Will Gain Ground",
+              "source": "UN Press",
+              "url": "https://press.un.org/en/2025/sc16094.doc.htm"
+            },
+            {
+              "title": "As Russian Federation Continues Brutal Attacks against Ukraine, Senior Official, Briefing Security Council, Urges Dialogue, Immediate Ceasefire",
+              "source": "UN Press",
+              "url": "https://press.un.org/en/2025/sc16134.doc.htm"
+            },
+            {
+              "title": "UN official decries deadly Ukraine strikes, urges return to diplomacy",
+              "source": "UN News",
+              "url": "https://news.un.org/en/story/2025/08/1165558"
+            },
+            {
+              "title": "Ukraine: Briefing \u2013 Security Council Report (April 2026)",
+              "source": "Security Council Report",
+              "url": "https://www.securitycouncilreport.org/whatsinblue/2026/04/ukraine-briefing-30.php"
+            },
+            {
+              "title": "UN urges halt to attacks on civilians and renewed push for diplomacy in Ukraine",
+              "source": "UN Department of Political and Peacebuilding Affairs",
+              "url": "https://dppa.un.org/en/mtg-sc-10057-ukraine-9-dec-2025"
+            }
+          ],
+          "tracking_suggestions": [
+            "Russia Ukraine strike casualties",
+            "Ukraine ceasefire diplomacy",
+            "Russia Ukraine war 2024",
+            "European security conflict"
           ]
         }
       ],
@@ -1479,10 +1505,12 @@
     "https://www.theguardian.com/football/2026/apr/24/gianluca-prestianni-six-match-ban-homophobic-conduct-towards-vinicius-junior": "Benfica winger Gianluca Prestianni has received a six-match European ban from UEFA after being found guilty of homophobic conduct directed at Real Madrid's Vin\u00edcius J\u00fanior during a Champions League match in Lisbon on February 17. With three matches suspended and one already served, Prestianni may only miss two additional games, though UEFA is seeking to have the ban extended by FIFA to cover international matches, which could cause him to miss Argentina's first two World Cup games. The incident, which caused a 10-minute stoppage after Vin\u00edcius temporarily left the field, was investigated after the Brazilian alleged racial abuse, but UEFA's disciplinary body determined the conduct was homophobic in nature. The case is significant given Vin\u00edcius's long history of being targeted by discriminatory abuse in European football, and the relatively light effective punishment has drawn attention to how UEFA's disciplinary framework handles such offences.",
     "https://www.marca.com/futbol/barcelona/2026/04/25/getafe-vs-barcelona-vida-lamine-yamal.html": "Barcelona will travel to face Getafe on Saturday in La Liga without star winger Lamine Yamal, who is unavailable for the match along with defender Eric Garc\u00eda. The absence of Yamal is significant given his importance to Barcelona's attacking play and the timing late in the season when the La Liga title race is still competitive. Adding to the challenge, Barcelona have not won at Getafe's Coliseum stadium since 2019, making this a tricky away fixture. A dropped points here could have real consequences for Barcelona's title ambitions.",
     "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss": "The Malian army has reported coordinated armed attacks launched simultaneously across multiple locations in the country, with witnesses describing explosions and sustained gunfire near a military base outside the capital, Bamako. The scale and coordination of the assault suggest a significant escalation beyond typical insurgent activity. Mali has been battling jihadist groups linked to al-Qaeda and ISIS for years, a conflict that has already triggered multiple military coups and spread instability across the wider Sahel region. Multi-front simultaneous attacks of this kind are particularly dangerous because they stretch military response capacity and signal that armed groups may be growing bolder and better organized.",
-    "https://www.marca.com/futbol/primera-division/opinion/2026/04/25/madrid-ahogo-orilla.html": "Real Madrid suffered a defeat in a La Liga match, a result that commentators have dramatically described as 'drowning on the shore' \u2014 suggesting a failure that occurred despite being close to safety or success. The loss is a significant setback for Real Madrid's ambitions to win the La Liga title this season. Real Madrid are one of the most decorated clubs in world football and perennial title contenders in Spain, making any league defeat carry heavy weight in the standings. The article content appears to be in Spanish and references 'the other side of the mirror,' suggesting opinion coverage framing the result as a disorienting or self-inflicted collapse."
+    "https://www.marca.com/futbol/primera-division/opinion/2026/04/25/madrid-ahogo-orilla.html": "Real Madrid suffered a defeat in a La Liga match, a result that commentators have dramatically described as 'drowning on the shore' \u2014 suggesting a failure that occurred despite being close to safety or success. The loss is a significant setback for Real Madrid's ambitions to win the La Liga title this season. Real Madrid are one of the most decorated clubs in world football and perennial title contenders in Spain, making any league defeat carry heavy weight in the standings. The article content appears to be in Spanish and references 'the other side of the mirror,' suggesting opinion coverage framing the result as a disorienting or self-inflicted collapse.",
+    "https://www.bbc.com/news/articles/clyx7nnrkqdo": "Armed groups launched coordinated attacks across multiple locations in Mali simultaneously, representing a significant escalation in violence in the country. The multi-front nature of the assault suggests organized jihadist or separatist forces are growing bolder, likely exploiting the security vacuum left by the withdrawal of French and other Western forces in recent years. Mali is now partly reliant on Russian Wagner Group-linked mercenaries for security, but instability continues to worsen across the wider Sahel region. This escalation matters beyond Mali's borders because it signals that armed groups are gaining operational capacity in an already fragile region with spillover effects into neighboring countries.",
+    "https://www.bbc.com/news/articles/c0rxk4q0pj0o": "A Russian attack on Ukraine killed seven people, adding to the mounting civilian death toll from the ongoing conflict. The strike is part of a pattern of large-scale Russian assaults on Ukrainian territory that have continued despite diplomatic efforts to negotiate a ceasefire. This matters because it shows the war remains highly active and lethal even as peace talks proceed, meaning ordinary Ukrainians continue to die while negotiations drag on. The gap between diplomatic activity and battlefield reality underscores how fragile and distant any resolution remains."
   },
   "article_hashes": {
-    "breaking": "719e3cd84566e5356790e156353aef91"
+    "breaking": "008e3b03d90b3f2b2d67eeae27c66f0d"
   },
   "world_topics_cache": {
     "today": [
@@ -1567,5 +1595,5 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-04-25T08:37:55.969603+00:00"
+  "last_gdelt_attempt": "2026-04-25T11:25:42.101688+00:00"
 }

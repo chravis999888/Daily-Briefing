@@ -1,357 +1,5 @@
 {
   "stories": {
-    "2026-04-23": {
-      "breaking": [
-        {
-          "headline": "Lebanon accuses Israel of deliberately targeting journalist Khalil, killed in Israeli air strike",
-          "timestamp": "just now",
-          "score": 7,
-          "summary": "Lebanon has accused Israel of deliberately targeting journalist Issam Abdallah, known as Khalil, who was killed in an Israeli air strike. The Lebanese government's accusation implies the strike was intentional rather than incidental, which would constitute a serious violation of international law protecting journalists in conflict zones. This matters because the deliberate killing of press personnel is considered a war crime under the Geneva Conventions, and such allegations could intensify international pressure and legal scrutiny on Israel during its ongoing military campaign in the region. The incident is part of a broader pattern of journalists being killed or injured while covering the conflict, raising significant concerns from press freedom organizations worldwide.",
-          "url": "https://www.bbc.com/news/articles/c5yvn036evlo",
-          "image": "",
-          "articles": [
-            {
-              "title": "Lebanon accuses Israel of deliberately targeting journalist Khalil, killed in Israeli air strike",
-              "source": "BBC News",
-              "url": "https://www.bbc.com/news/articles/c5yvn036evlo"
-            },
-            {
-              "title": "Record 129 press members killed in 2025; Israel responsible for 2/3 of deaths",
-              "source": "Committee to Protect Journalists (CPJ)",
-              "url": "https://cpj.org/special-reports/record-129-press-members-killed-in-2025-israel-responsible-for-2-of-3-of-deaths/"
-            },
-            {
-              "title": "Israel's killing of six Gaza journalists draws global condemnation",
-              "source": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2025/8/25/global-outrage-following-israeli-attack-that-killed-five-gaza-journalists"
-            },
-            {
-              "title": "Under the radar: Israel steps up censorship and suppression of independent reporting",
-              "source": "Committee to Protect Journalists (CPJ)",
-              "url": "https://cpj.org/2025/12/under-the-radar-israel-steps-up-censorship-and-suppression-of-independent-reporting/"
-            },
-            {
-              "title": "What Could We Be Doing in Gaza? Urgent ideas to defend press freedom in the world's deadliest place for journalists",
-              "source": "Columbia Journalism Review (CJR)",
-              "url": "https://www.cjr.org/feature/urgen-ideas-defending-press-freedom-gaza-palestine-israel-new-approach.php"
-            }
-          ],
-          "tracking_suggestions": [
-            "Journalist Khalil killing",
-            "Press freedom Lebanon-Israel",
-            "Israel airstrike accountability",
-            "War crimes Middle East"
-          ]
-        }
-      ],
-      "australia": [],
-      "archaeology": [
-        {
-          "headline": "New genomic analysis proposes that some Neanderthal populations may derive partial ancestry from early modern humans rather than being purely ancestral to them, partially reversing the conventional lineage direction",
-          "timestamp": "1 week ago",
-          "score": 8,
-          "summary": "A new genetic analysis reported by New Scientist suggests that Neanderthals descended from early modern humans rather than representing a separate evolutionary branch, which would reverse the established understanding of human evolution. The conventional model has held that Neanderthals and modern humans diverged from a common ancestor and evolved along separate paths, but this research indicates modern humans may have actually come first, with Neanderthals branching off afterward. This matters because it would fundamentally reshape our understanding of how our species developed and interacted with other human lineages over hundreds of thousands of years. The finding challenges decades of anthropological consensus and would require substantial supporting evidence to gain acceptance in the scientific community.",
-          "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/",
-          "image": "",
-          "articles": [
-            {
-              "title": "",
-              "source": "New Scientist",
-              "url": "https://www.newscientist.com/article/2522913-are-neanderthals-descendants-of-modern-humans/"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Genetic evidence reexamines the proposed human population bottleneck event, suggesting the near-extinction episode around 900,000 years ago may be an artefact of the analytical methods used rather than a real demographic collapse",
-          "timestamp": "2 weeks ago",
-          "score": 8,
-          "summary": "A 2023 study claimed that human ancestors went through a severe population bottleneck around 900,000 years ago, shrinking to just 1,280 breeding individuals and nearly going extinct. New genomic modeling now challenges this finding, suggesting the bottleneck may not have actually happened\u2014instead, it could be an artifact created by the statistical methods used to analyze the data. The original study had significant implications for how scientists understood human evolution, including the development of our larger brains and how modern humans emerged as a species. This contradiction highlights how genetic analysis can produce dramatically different conclusions depending on methodology, leaving the true demographic history of early human populations still uncertain.",
-          "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/",
-          "image": "",
-          "articles": [
-            {
-              "title": "",
-              "source": "New Scientist",
-              "url": "https://www.newscientist.com/video/2522085-we-might-be-wrong-about-humanitys-near-extinction/"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Neanderthal neonates had significantly larger body masses than modern human infants at birth, according to new analysis of juvenile fossil remains",
-          "timestamp": "1 week ago",
-          "score": 7,
-          "summary": "A new skeletal growth analysis has found that Neanderthal newborns were significantly heavier at birth than modern human infants, challenging the long-held assumption that the two species followed roughly similar developmental paths. The findings suggest Neanderthals invested more energy in producing larger offspring at birth, which would have placed a greater physical burden on Neanderthal mothers during pregnancy and nursing. This matters because differences in maternal energy costs and infant dependency periods could have given early modern humans a competitive reproductive advantage, potentially contributing to why Neanderthals went extinct around 40,000 years ago. The research adds to a growing body of evidence that Neanderthals were biologically more distinct from us than previously thought, not just culturally or cognitively.",
-          "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/",
-          "image": "",
-          "articles": [
-            {
-              "title": "",
-              "source": "New Scientist",
-              "url": "https://www.newscientist.com/article/2523132-neanderthal-infants-were-enormous-compared-with-modern-humans/"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Analysis of African archaeological sites dated to around 200,000 years ago shows early Homo sapiens simultaneously abandoned Acheulean and adopted Middle Stone Age toolkits across multiple regions, linked to environmental and demographic shifts rather than cognitive advance",
-          "timestamp": "2 weeks ago",
-          "score": 7,
-          "summary": "Researchers studying 200,000-year-old African archaeological sites found that early humans switched their tool-making styles rapidly rather than gradually, driven by environmental stress and climate changes rather than sudden cognitive advances. The shift from the older Acheulean tools to Middle Stone Age toolkits appears to have been a practical response to resource scarcity caused by unstable environmental conditions. This challenges the long-held theory that such toolkit changes reflected major leaps in human intelligence or symbolic thinking. The finding matters because it reframes a pivotal moment in human prehistory as an ecological adaptation problem-solving rather than evidence of a fundamental change in how our ancestors' brains worked.",
-          "url": "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/",
-          "image": "",
-          "articles": [
-            {
-              "title": "",
-              "source": "New Scientist",
-              "url": "https://www.newscientist.com/article/2522425-why-early-humans-radically-changed-their-toolkits-200000-years-ago/"
-            }
-          ],
-          "tracking_suggestions": []
-        }
-      ],
-      "football": [
-        {
-          "headline": "Erling Haaland scores to give Manchester City a 1-0 win at Burnley, sending City to the top of the Premier League and condemning Burnley to relegation",
-          "timestamp": "14 hrs ago",
-          "score": 9,
-          "summary": "Erling Haaland scored in the first half to give Manchester City a 1-0 win at Burnley, moving City to the top of the Premier League for the first time since the opening week of the season. The result ends Arsenal's 200-day run at the top of the table and sets up a tight five-game title race between the two clubs. Burnley's defeat also confirmed their relegation back to the Championship, meaning they go straight back down after returning to the top flight. City still have FA Cup commitments ahead, and with Arsenal facing Newcastle on Saturday, both title contenders have busy schedules in the run-in.",
-          "url": "https://www.theguardian.com/football/2026/apr/22/burnley-manchester-city-premier-league-match-report",
-          "image": "https://media.guim.co.uk/60aa56deddefc980d88900bf25a68267403830d5/258_0_2578_2063/500.jpg",
-          "articles": [
-            {
-              "title": "Haaland steers Manchester City to top of table and condemns Burnley to drop",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/22/burnley-manchester-city-premier-league-match-report"
-            },
-            {
-              "title": "Erling Haaland scores to give Manchester City a 1-0 win at Burnley, sending City top of the Premier League and condemning Burnley to relegation",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/burnley-manchester-city-premier-league-match-report"
-            },
-            {
-              "title": "Leicester City are relegated to League One after a dramatic fall from Premier League champions to third-tier football within a decade",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one"
-            },
-            {
-              "title": "Rayan Cherki has emerged as a key creative influence for Manchester City during the 2025-26 Premier League title run-in",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Liam Rosenior leaves Chelsea just three and a half months into a contract that ran until 2032, sacked after Brighton defeat triggered a club review",
-          "timestamp": "17 hrs ago",
-          "score": 8,
-          "summary": "Chelsea have sacked manager Liam Rosenior after just 106 days in charge, despite him having signed a contract running until 2032. His dismissal was triggered by five consecutive league defeats without a single goal scored \u2014 the worst such run since 1912 \u2014 leaving the club seven points outside Champions League qualification. Rosenior was brought in as recently as January to replace Enzo Maresca, making this Chelsea's second managerial change in the same season. Caretaker Calum McFarlane has stepped in again while the club searches for a permanent appointment, continuing a pattern of costly and destabilising managerial churn at Stamford Bridge.",
-          "url": "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-leaves-chelsea-contract-2032",
-          "image": "https://media.guim.co.uk/ac4bf5c78dde3802160e3998cfb04eba7aebd929/1014_0_4585_3669/500.jpg",
-          "articles": [
-            {
-              "title": "Liam Rosenior leaves Chelsea three and a half months into contract until 2032",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-leaves-chelsea-contract-2032"
-            },
-            {
-              "title": "Liam Rosenior is sacked as Chelsea manager just three and a half months into a contract that ran until 2032, following a defeat to Brighton",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/liam-rosenior-leaves-chelsea-contract-2032"
-            },
-            {
-              "title": "Getafe beat Real Sociedad and manager Jos\u00e9 Bordal\u00e1s expressed anger at what he described as unfair treatment of his club despite the victory",
-              "source": "Previously covered",
-              "url": "https://www.marca.com/futbol/getafe/2026/04/22/bordalas-tratan-bien-hemos-ganado-contento-poco-indignado.html"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Leicester City are relegated to League One after a rapid two-season decline from Premier League to third tier",
-          "timestamp": "18 hrs ago",
-          "score": 8,
-          "summary": "Leicester City, who famously won the Premier League title in 2016 in one of sport's greatest upsets, have been relegated to League One, England's third tier of football, for the 2026-27 season. The club has suffered a dramatic decade-long decline, dropping from the top flight through the Championship and now into the third division. Owner Aiyawatt Srivaddhanaprabha acknowledged the failure but could not pinpoint a single cause, while supporters and analysts suggest the enormous success of 2016 may itself have planted the seeds of mismanagement and unrealistic expectations that followed. The fall is seen as both a unique cautionary tale and a reflection of wider structural problems in English football.",
-          "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one",
-          "image": "https://media.guim.co.uk/75ab2cae3e2e6096409e63e4a1e44d56c6b195cb/28_0_4560_3648/500.jpg",
-          "articles": [
-            {
-              "title": "Leicester\u2019s decline and fall feels like a cruel parable as League One beckons",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one"
-            },
-            {
-              "title": "Erling Haaland scores to give Manchester City a 1-0 win at Burnley, sending City top of the Premier League and condemning Burnley to relegation",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/burnley-manchester-city-premier-league-match-report"
-            },
-            {
-              "title": "Leicester City are relegated to League One after a dramatic fall from Premier League champions to third-tier football within a decade",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one"
-            },
-            {
-              "title": "Rayan Cherki has emerged as a key creative influence for Manchester City during the 2025-26 Premier League title run-in",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Rayan Cherki provides a creative point of difference as Manchester City's title charge gathers momentum with five games remaining",
-          "timestamp": "13 hrs ago",
-          "score": 7,
-          "summary": "Rayan Cherki put in an impressive performance as Manchester City beat Burnley 1-0, cementing his place as a key creative player in Pep Guardiola's preferred starting lineup. The 21-year-old French midfielder, signed from Lyon for \u00a330.5m last summer, has adapted quickly to the Premier League and has displaced Phil Foden as the first-choice number 10. His form is particularly significant because Manchester City are currently Premier League leaders with the title race entering its decisive phase. The article draws a contrast with Florian Wirtz at Liverpool, who cost nearly four times as much but is still finding his feet, highlighting Cherki as strong transfer value.",
-          "url": "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt",
-          "image": "https://media.guim.co.uk/2fb44990ce449dcae9c6b8b84cbc74c89168d817/842_176_3366_2695/500.jpg",
-          "articles": [
-            {
-              "title": "Fearless Rayan Cherki offers Manchester City a point of difference in title hunt | Will Unwin",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt"
-            },
-            {
-              "title": "Erling Haaland scores to give Manchester City a 1-0 win at Burnley, sending City top of the Premier League and condemning Burnley to relegation",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/burnley-manchester-city-premier-league-match-report"
-            },
-            {
-              "title": "Leicester City are relegated to League One after a dramatic fall from Premier League champions to third-tier football within a decade",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/leicester-city-relegated-ownership-championship-league-one"
-            },
-            {
-              "title": "Rayan Cherki has emerged as a key creative influence for Manchester City during the 2025-26 Premier League title run-in",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/football/2026/apr/22/fearless-rayan-cherki-offers-manchester-city-a-point-of-difference-in-title-hunt"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Pep Guardiola says Manchester City will aim for a perfect finish to the season after returning to the top of the Premier League following the Burnley win",
-          "timestamp": "13 hrs ago",
-          "score": 6,
-          "summary": "Manchester City beat Burnley 1-0 on Wednesday thanks to an early Erling Haaland goal, moving them to the top of the Premier League for the first time since the opening week of the season. City and Arsenal are now level on 70 points and identical goal difference, with City leading only on goals scored. Manager Pep Guardiola acknowledged the title race is tight, saying City must win all five remaining games to have a realistic chance of being champions. The win also confirmed Burnley's relegation, as they cannot mathematically catch 17th-placed West Ham with only four games left.",
-          "url": "https://www.theguardian.com/football/2026/apr/22/pep-guardiola-targets-perfect-finish-after-manchester-city-return-to-the-top",
-          "image": "https://media.guim.co.uk/71e08b50637519ed09dbdecd65644753d203cd94/436_0_4803_3844/500.jpg",
-          "articles": [
-            {
-              "title": "Pep Guardiola targets perfect finish after Manchester City return to the top",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/football/2026/apr/22/pep-guardiola-targets-perfect-finish-after-manchester-city-return-to-the-top"
-            },
-            {
-              "title": "Not over yet! Pep Guardiola tells Man City they must win EVERY game or Arsenal will be crowned Premier League champions",
-              "source": "Goal.com",
-              "url": "https://www.goal.com/en-us/lists/pep-guardiola-man-city-arsenal-premier-league-title-race-burnley-win/blt72acba9ca96e8cca"
-            },
-            {
-              "title": "Guardiola: 'Important, Not Decisive' After City Edge Arsenal In Title Showdown",
-              "source": "Ghana Sports News",
-              "url": "https://www.ghsportsnews.com/guardiola-important-not-decisive-after-city-edge-arsenal-in-title-showdown/"
-            },
-            {
-              "title": "Advantage City: Why momentum and a game in hand put Guardiola's men in pole position after Etihad triumph",
-              "source": "t2ONLINE",
-              "url": "https://t2online.in/goodlife/sports/advantage-city--why-momentum-and-a-game-in-hand-put-guardiola-s-men-in-pole-position-after-etihad-triumph/2004759"
-            }
-          ],
-          "tracking_suggestions": [
-            "Man City title race",
-            "Premier League 2022-23 season",
-            "Guardiola press conference",
-            "English football top flight"
-          ]
-        },
-        {
-          "headline": "Real Betis open a gap in the race for fifth place in La Liga after their latest result, with a new rival entering the battle for European qualification",
-          "timestamp": "3 hrs ago",
-          "score": 6,
-          "summary": "Real Betis have extended their lead in the race for fifth place in La Liga, a position that currently grants entry into European competition. However, the battle has intensified after Getafe beat Real Sociedad, earning themselves a spot among the contenders chasing that Europa League qualification slot. Fifth place is valuable because it offers clubs outside the traditional top four a route into European football the following season. The fight now involves multiple clubs, making the final stretch of the La Liga season increasingly competitive for those outside the title race.",
-          "url": "https://www.marca.com/futbol/betis/2026/04/23/betis-abre-distancias-suma-adversario-lucha-5-plaza.html",
-          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/23/17769320319178_150x0.jpg",
-          "articles": [
-            {
-              "title": "El Betis abre distancias y suma un adversario a la lucha por la 5\u00aa plaza",
-              "source": "Marca",
-              "url": "https://www.marca.com/futbol/betis/2026/04/23/betis-abre-distancias-suma-adversario-lucha-5-plaza.html"
-            },
-            {
-              "title": "'We want to try for fifth place' - Pellegrino Matarazzo raises expectations after cup win",
-              "source": "Tribuna.com",
-              "url": "https://tribuna.com/en/news/2026-04-21-we-want-to-try-for-fifth-place-pellegrino-matarazzo-raises-expectations-after-cup-win/"
-            },
-            {
-              "title": "Confirmed: La Liga secure fifth Champions League place",
-              "source": "Yahoo Sports",
-              "url": "https://sports.yahoo.com/article/confirmed-la-liga-secure-fifth-221900851.html"
-            }
-          ],
-          "tracking_suggestions": [
-            "La Liga fifth place race",
-            "Europa League qualification Spain",
-            "Real Betis European push",
-            "La Liga mid-table battle"
-          ]
-        },
-        {
-          "headline": "Betis coach Manuel Pellegrini highlights that playing in European competition for six consecutive seasons is an achievement matched only by Barcelona, Real Madrid and Atletico Madrid",
-          "timestamp": "1 hr ago",
-          "score": 5,
-          "summary": "Real Betis coach Manuel Pellegrini has highlighted that his club qualifying for European competition for six consecutive seasons would be an achievement shared only by Spanish giants Barcelona, Real Madrid, and Atletico Madrid. Pellegrini, known as 'El Ingeniero,' stated that finishing fifth in La Liga this season would represent 'a very good season' for the club. This underscores Betis's remarkable consistency in recent years, punching well above their traditional weight in Spanish football. Sustaining European qualification at that level places Betis in rare company and reflects the club's ambition to establish itself as a permanent fixture among Spain's elite.",
-          "url": "https://www.marca.com/futbol/betis/2026/04/23/pellegrini-jugar-europa-seis-anos-seguidos-equipos-barcelona-real-madrid-atletico.html",
-          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/23/17769411336691_150x0.jpg",
-          "articles": [
-            {
-              "title": "Pellegrini: \"Jugar en Europa seis a\u00f1os seguidos s\u00f3lo lo hacen equipos como Barcelona, Real Madrid y Atl\u00e9tico\"",
-              "source": "Marca",
-              "url": "https://www.marca.com/futbol/betis/2026/04/23/pellegrini-jugar-europa-seis-anos-seguidos-equipos-barcelona-real-madrid-atletico.html"
-            },
-            {
-              "title": "Betis Hold Firm in Fifth as Rivals Miss Their Chance in European Race",
-              "source": "SoccerOdd",
-              "url": "https://www.soccerodd.com/news/betis-hold-firm-in-fifth-as-rivals-miss-their-chance-in-european-race"
-            },
-            {
-              "title": "Real Betis look to make more history in their first ever European final",
-              "source": "LALIGA",
-              "url": "https://www.laliga.com/en-US/news/real-betis-look-to-make-more-history-in-their-first-ever-european-final"
-            }
-          ],
-          "tracking_suggestions": [
-            "Betis European qualification",
-            "Pellegrini La Liga ambitions",
-            "Spanish football top five race",
-            "La Liga mid-tier rise"
-          ]
-        },
-        {
-          "headline": "Athletic Club's Yuri Berchiche returns to training after suffering a respiratory crisis during the Osasuna match",
-          "timestamp": "1 hr ago",
-          "score": 5,
-          "summary": "Athletic Club defender Yuri Berchiche suffered a respiratory crisis during the team's match against Osasuna, raising immediate health concerns. He has since returned to training, suggesting the episode was not long-lasting or severely debilitating. However, the club is also managing a separate fitness issue with another player, Laporte, who is training apart from the main group due to muscular overload. Both situations are being monitored as Athletic Club manages squad fitness ahead of upcoming La Liga fixtures.",
-          "url": "https://www.marca.com/futbol/athletic/2026/04/23/yuri-vuelve-entrenar-crisis-respiratoria-tuvo-osasuna.html",
-          "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/23/17769391465778_150x0.jpg",
-          "articles": [
-            {
-              "title": "Yuri vuelve a entrenar tras la crisis respiratoria que tuvo ante Osasuna",
-              "source": "Marca",
-              "url": "https://www.marca.com/futbol/athletic/2026/04/23/yuri-vuelve-entrenar-crisis-respiratoria-tuvo-osasuna.html"
-            }
-          ],
-          "tracking_suggestions": [
-            "Yuri Berchiche respiratory crisis",
-            "Athletic Club injury updates",
-            "Athletic Club La Liga fitness",
-            "La Liga squad management"
-          ]
-        }
-      ]
-    },
     "2026-04-24": {
       "breaking": [
         {
@@ -1133,6 +781,101 @@
       "australia": [],
       "archaeology": [],
       "football": []
+    },
+    "2026-04-27": {
+      "breaking": [
+        {
+          "headline": "Russian airstrikes killed at least seven people across Ukraine including strikes on Dnipro, Odesa, and Kharkiv overnight into 26 April 2026",
+          "timestamp": "2 hrs ago",
+          "score": 7,
+          "summary": "Russian forces launched a large-scale overnight drone and missile attack on multiple Ukrainian cities, killing at least seven people and injuring 34 others. The city of Dnipro suffered the heaviest casualties, with five deaths and widespread fires that damaged apartment blocks, businesses, and private homes; Odesa and Kharkiv were also struck. Ukrainian authorities said they repelled most of a wave of over 600 drones, which ranks among the largest attacks in recent days. The strikes are significant because they target civilian infrastructure and residential areas, demonstrating that Russia is maintaining or escalating its offensive pressure even as diplomatic talks continue in other arenas.",
+          "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv",
+          "image": "https://media.guim.co.uk/021d65215624b395d05b5b50fc47186c44f5ec37/292_0_1723_1379/500.jpg",
+          "articles": [
+            {
+              "title": "Russian airstrikes kill at least seven people in Ukraine overnight",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv"
+            },
+            {
+              "title": "Israel struck Lebanon despite an active ceasefire agreement, as Palestinians voted in their first elections since the outbreak of the Gaza war",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Armed groups launched co-ordinated attacks with explosions and gunfire across multiple locations in Mali within the last hour",
+          "timestamp": "36 mins ago",
+          "score": 7,
+          "summary": "The Malian army has reported coordinated armed attacks launched simultaneously across multiple locations in the country, with witnesses describing explosions and sustained gunfire near a military base outside the capital, Bamako. The scale and coordination of the assault suggest a significant escalation beyond typical insurgent activity. Mali has been battling jihadist groups linked to al-Qaeda and ISIS for years, a conflict that has already triggered multiple military coups and spread instability across the wider Sahel region. Multi-front simultaneous attacks of this kind are particularly dangerous because they stretch military response capacity and signal that armed groups may be growing bolder and better organized.",
+          "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0759/live/64bc1380-40bd-11f1-bd52-e755d604ece4.jpg",
+          "articles": [
+            {
+              "title": "Explosions and gunfire as armed groups launch co-ordinated attacks across Mali",
+              "source": "BBC News",
+              "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "title": "Armed groups, including Jihadists launch widespread attacks on Mali government",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/25/nx-s1-5799439/mali-hit-by-wave-of-coordinated-attacks-from-armed-groups"
+            },
+            {
+              "title": "JNIM Attacks in Western Mali Reshape Sahel Conflict",
+              "source": "Africa Center for Strategic Studies",
+              "url": "https://africacenter.org/spotlight/jnim-attacks-western-mali-sahel/"
+            },
+            {
+              "title": "Mali on the Brink of Collapse as Jihadists Threaten to Overrun the Country",
+              "source": "The Soufan Center",
+              "url": "https://thesoufancenter.org/intelbrief-2025-november-4/"
+            },
+            {
+              "title": "Jihadi fighters affiliated with al Qaeda close in on Mali's capital, as instability grows across Sahel region",
+              "source": "CNN",
+              "url": "https://www.cnn.com/2025/11/02/africa/mali-security-fuel-shortages-intl"
+            },
+            {
+              "title": "Escalating Jihadist Violence and Political Fragmentation in the Sahel",
+              "source": "African Security Analysis",
+              "url": "https://www.africansecurityanalysis.org/updates/escalating-jihadist-violence-and-political-fragmentation-in-the-sahel"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Israel struck Lebanon despite an active ceasefire and claims Hezbollah also launched rockets, per latest Middle East crisis reporting",
+          "timestamp": "2 mins ago",
+          "score": 6,
+          "summary": "Israel and Hezbollah exchanged fire in southern Lebanon despite an active ceasefire agreement, with the IDF reporting two rockets launched from Lebanon and Lebanon's state media reporting multiple Israeli strikes that killed four people in the Nabatieh district. The IDF called the rocket fire 'a blatant violation of the ceasefire,' while the broader pattern of escalation in recent days threatens to collapse the truce that U.S. President Donald Trump extended just days ago. Simultaneously, Palestinians held their first elections since the Gaza war began, marking a rare political moment amid ongoing regional conflict. Together, these developments signal a potentially destabilizing shift in the Middle East, as a fragile ceasefire frays and political processes attempt to move forward under volatile conditions.",
+          "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations",
+          "image": "https://media.guim.co.uk/78223e41bd4b0ed11936171dcc7c2043d359317e/156_0_2450_1960/500.jpg",
+          "articles": [
+            {
+              "title": "Middle East crisis live: Israel strikes Lebanon despite ceasefire, claims Hezbollah also launched rockets",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations"
+            },
+            {
+              "title": "Lebanon accuses Israel of deliberately targeting journalist Khalil, killed in Israeli air strike",
+              "source": "Previously covered",
+              "url": "https://www.bbc.com/news/articles/c5yvn036evlo"
+            },
+            {
+              "title": "Israel struck Lebanon despite an active ceasefire agreement, as Palestinians voted in their first elections since the outbreak of the Gaza war",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations"
+            }
+          ],
+          "tracking_suggestions": []
+        }
+      ],
+      "australia": [],
+      "archaeology": [],
+      "football": []
     }
   },
   "developing": {},
@@ -1506,6 +1249,43 @@
       "long island",
       "london marathon",
       "sapphire princess cruise ship"
+    ],
+    "2026-04-27": [
+      "What we know about the suspect in shooting at White House Correspondents' Dinner - CBS News",
+      "Surviving in a poisoned land: Chernobyl's wildlife is different, but not in the ways you might think - BBC",
+      "Islamabad Reopens After U.S.-Iran Talks Fail to Materialize - The New York Times",
+      "King Charles U.S. visit comes at tense moment in transatlantic relationship - NPR",
+      "Mali\u2019s Defence Minister Sadio Camara killed during coordinated attacks - Al Jazeera",
+      "2 University of South Florida doctoral students were promising young researchers. Now a roommate is charged in their killing - CNN",
+      "1 police officer killed, another wounded, in shooting at Chicago hospital, officials say - ABC7 Los Angeles",
+      "Israel\u2019s President, Putting Off Decision on Pardon for Netanyahu, Will Push for Plea Deal - The New York Times",
+      "Live updates: Iran president calls on US to end blockade - AP News",
+      "Hungary's Viktor Orb\u00e1n steps down from parliament after a landslide defeat, vows to rebuild - NBC News",
+      "Russian forces pound Ukraine's Dnipro, other areas, killing 10 people - Reuters",
+      "'You feel radicalized': A Meta AI exec watched agents beat her top workers. Now she's built a nonprofit to help Gen Z find jobs before they disappear - Fortune",
+      "Apple under Ternus: what comes next for the tech giant\u2019s hardware strategy - TechCrunch",
+      "Trump bought at least $51 million in bonds in March, disclosure shows - Yahoo Finance",
+      "Senate panel schedules vote to advance Warsh as Powell probe dropped - The Washington Post",
+      "Latto, GloRilla - GOMF (Official Music Video)",
+      "\"Spider-Noir\" - Authentic Black & White Trailer | Prime Video",
+      "FOX News Saturday Night With Jimmy Failla",
+      "ARLENE MC X ALOFOKE MUSIC X JEY ONE X LA MAS DOLL - SACA PUNTA",
+      "Star Trek: Strange New Worlds | Season 4 Official Teaser | Paramount+ (CCXP Mexico 2026)",
+      "SportsCenter",
+      "Pittsburgh Penguins at Philadelphia Flyers",
+      "White House Correspondents' Dinner",
+      "1 Day vs 50,000 Day Build Challenge",
+      "Day 3, Rounds 4-7",
+      "elmer m\u00f8ller",
+      "rangers vs motherwell",
+      "arsenal vs lyon",
+      "marta kostyuk",
+      "carson pickett",
+      "jessica pegula",
+      "stuttgart fc",
+      "ipl standings",
+      "kkr vs lsg",
+      "real oviedo vs elche"
     ]
   },
   "summaries": {
@@ -1655,5 +1435,5 @@
     "week": [],
     "month": []
   },
-  "last_gdelt_attempt": "2026-04-26T10:11:03.707814+00:00"
+  "last_gdelt_attempt": "2026-04-26T14:32:22.901510+00:00"
 }

@@ -1,12 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-05-08T16:18:09.908758+10:00",
-      "run_type": "breaking_only",
-      "errors": [],
-      "status": "ok"
-    },
-    {
       "timestamp": "2026-05-08T20:57:46.887747+10:00",
       "run_type": "full",
       "errors": [
@@ -347,6 +341,12 @@
     {
       "timestamp": "2026-05-12T23:02:54.587228+10:00",
       "run_type": "breaking_only",
+      "errors": [],
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-05-13T00:26:25.631755+10:00",
+      "run_type": "full",
       "errors": [],
       "status": "ok"
     }

@@ -1,14 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-08-15T00:09:19.680553+10:00",
-      "run_type": "breaking_only",
-      "errors": [
-        "GDELT fetch failed: HTTP 429; RSS fallback also empty"
-      ],
-      "status": "degraded"
-    },
-    {
       "timestamp": "2026-08-15T00:52:30.866663+10:00",
       "run_type": "full",
       "errors": [],
@@ -320,6 +312,12 @@
     },
     {
       "timestamp": "2026-08-16T00:44:40.999716+10:00",
+      "run_type": "breaking_only",
+      "errors": [],
+      "status": "ok"
+    },
+    {
+      "timestamp": "2026-08-16T01:11:08.436848+10:00",
       "run_type": "breaking_only",
       "errors": [],
       "status": "ok"

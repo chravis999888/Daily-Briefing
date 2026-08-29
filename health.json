@@ -1,14 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-08-26T06:53:55.427568+10:00",
-      "run_type": "breaking_only",
-      "errors": [
-        "GDELT fetch failed: HTTP 429; RSS fallback also empty"
-      ],
-      "status": "degraded"
-    },
-    {
       "timestamp": "2026-08-26T07:17:48.306887+10:00",
       "run_type": "breaking_only",
       "errors": [],
@@ -329,6 +321,12 @@
         "GDELT fetch failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=war+killed+attack+invasion+disaster+explosion+casualties&mode=artlist&maxrecords=25&timespan=1h&format=json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)'))); RSS fallback also empty"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-08-29T14:13:18.360261+10:00",
+      "run_type": "breaking_only",
+      "errors": [],
+      "status": "ok"
     }
   ],
   "errors": []

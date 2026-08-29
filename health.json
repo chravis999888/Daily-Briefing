@@ -1,12 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-08-26T09:17:02.206569+10:00",
-      "run_type": "breaking_only",
-      "errors": [],
-      "status": "ok"
-    },
-    {
       "timestamp": "2026-08-26T09:45:29.399894+10:00",
       "run_type": "breaking_only",
       "errors": [],
@@ -333,6 +327,12 @@
         "GDELT fetch failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=30); RSS fallback also empty"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-08-30T06:29:13.126925+10:00",
+      "run_type": "full",
+      "errors": [],
+      "status": "ok"
     }
   ],
   "errors": []

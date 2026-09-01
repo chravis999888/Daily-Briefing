@@ -1,12 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-08-27T15:49:38.080687+10:00",
-      "run_type": "breaking_only",
-      "errors": [],
-      "status": "ok"
-    },
-    {
       "timestamp": "2026-08-27T17:26:29.834374+10:00",
       "run_type": "full",
       "errors": [],
@@ -355,6 +349,14 @@
       "run_type": "full",
       "errors": [],
       "status": "ok"
+    },
+    {
+      "timestamp": "2026-09-02T09:27:24.464012+10:00",
+      "run_type": "breaking_only",
+      "errors": [
+        "GDELT fetch failed: empty response; RSS fallback also empty"
+      ],
+      "status": "degraded"
     }
   ],
   "errors": []

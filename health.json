@@ -1,12 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-08-30T06:29:13.126925+10:00",
-      "run_type": "full",
-      "errors": [],
-      "status": "ok"
-    },
-    {
       "timestamp": "2026-08-30T07:51:19.159717+10:00",
       "run_type": "breaking_only",
       "errors": [
@@ -353,6 +347,12 @@
         "GDELT fetch failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries exceeded with url: /api/v2/doc/doc?query=war+attack+disaster+killed&mode=artlist&maxrecords=25&timespan=1h&format=json (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.gdeltproject.org', port=443) at 0x7f8b39531f90>, 'Connection to api.gdeltproject.org timed out. (connect timeout=30)')); RSS fallback also empty"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-09-03T18:36:13.405007+10:00",
+      "run_type": "full",
+      "errors": [],
+      "status": "ok"
     }
   ],
   "errors": []

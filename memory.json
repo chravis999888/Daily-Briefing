@@ -1,100 +1,5 @@
 {
   "stories": {
-    "2026-09-23": {
-      "breaking": [
-        {
-          "headline": "Russian airstrikes killed at least seven people across Ukraine including strikes on Dnipro, Odesa, and Kharkiv overnight into 26 April 2026",
-          "timestamp": "2 hrs ago",
-          "score": 7,
-          "summary": "Russian forces launched a large-scale overnight drone and missile attack on multiple Ukrainian cities, killing at least seven people and injuring 34 others. The city of Dnipro suffered the heaviest casualties, with five deaths and widespread fires that damaged apartment blocks, businesses, and private homes; Odesa and Kharkiv were also struck. Ukrainian authorities said they repelled most of a wave of over 600 drones, which ranks among the largest attacks in recent days. The strikes are significant because they target civilian infrastructure and residential areas, demonstrating that Russia is maintaining or escalating its offensive pressure even as diplomatic talks continue in other arenas.",
-          "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv",
-          "image": "https://media.guim.co.uk/021d65215624b395d05b5b50fc47186c44f5ec37/292_0_1723_1379/500.jpg",
-          "articles": [
-            {
-              "title": "Russian airstrikes kill at least seven people in Ukraine overnight",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv"
-            },
-            {
-              "title": "Israel struck Lebanon despite an active ceasefire agreement, as Palestinians voted in their first elections since the outbreak of the Gaza war",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Armed groups launched co-ordinated attacks with explosions and gunfire across multiple locations in Mali within the last hour",
-          "timestamp": "36 mins ago",
-          "score": 7,
-          "summary": "The Malian army has reported coordinated armed attacks launched simultaneously across multiple locations in the country, with witnesses describing explosions and sustained gunfire near a military base outside the capital, Bamako. The scale and coordination of the assault suggest a significant escalation beyond typical insurgent activity. Mali has been battling jihadist groups linked to al-Qaeda and ISIS for years, a conflict that has already triggered multiple military coups and spread instability across the wider Sahel region. Multi-front simultaneous attacks of this kind are particularly dangerous because they stretch military response capacity and signal that armed groups may be growing bolder and better organized.",
-          "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss",
-          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0759/live/64bc1380-40bd-11f1-bd52-e755d604ece4.jpg",
-          "articles": [
-            {
-              "title": "Explosions and gunfire as armed groups launch co-ordinated attacks across Mali",
-              "source": "BBC News",
-              "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "title": "Armed groups, including Jihadists launch widespread attacks on Mali government",
-              "source": "NPR",
-              "url": "https://www.npr.org/2026/04/25/nx-s1-5799439/mali-hit-by-wave-of-coordinated-attacks-from-armed-groups"
-            },
-            {
-              "title": "JNIM Attacks in Western Mali Reshape Sahel Conflict",
-              "source": "Africa Center for Strategic Studies",
-              "url": "https://africacenter.org/spotlight/jnim-attacks-western-mali-sahel/"
-            },
-            {
-              "title": "Mali on the Brink of Collapse as Jihadists Threaten to Overrun the Country",
-              "source": "The Soufan Center",
-              "url": "https://thesoufancenter.org/intelbrief-2025-november-4/"
-            },
-            {
-              "title": "Jihadi fighters affiliated with al Qaeda close in on Mali's capital, as instability grows across Sahel region",
-              "source": "CNN",
-              "url": "https://www.cnn.com/2025/11/02/africa/mali-security-fuel-shortages-intl"
-            },
-            {
-              "title": "Escalating Jihadist Violence and Political Fragmentation in the Sahel",
-              "source": "African Security Analysis",
-              "url": "https://www.africansecurityanalysis.org/updates/escalating-jihadist-violence-and-political-fragmentation-in-the-sahel"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Israel struck Lebanon despite an active ceasefire and claims Hezbollah also launched rockets, per latest Middle East crisis reporting",
-          "timestamp": "2 mins ago",
-          "score": 6,
-          "summary": "Israel and Hezbollah exchanged fire in southern Lebanon despite an active ceasefire agreement, with the IDF reporting two rockets launched from Lebanon and Lebanon's state media reporting multiple Israeli strikes that killed four people in the Nabatieh district. The IDF called the rocket fire 'a blatant violation of the ceasefire,' while the broader pattern of escalation in recent days threatens to collapse the truce that U.S. President Donald Trump extended just days ago. Simultaneously, Palestinians held their first elections since the Gaza war began, marking a rare political moment amid ongoing regional conflict. Together, these developments signal a potentially destabilizing shift in the Middle East, as a fragile ceasefire frays and political processes attempt to move forward under volatile conditions.",
-          "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations",
-          "image": "https://media.guim.co.uk/78223e41bd4b0ed11936171dcc7c2043d359317e/156_0_2450_1960/500.jpg",
-          "articles": [
-            {
-              "title": "Middle East crisis live: Israel strikes Lebanon despite ceasefire, claims Hezbollah also launched rockets",
-              "source": "The Guardian",
-              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations"
-            },
-            {
-              "title": "Lebanon accuses Israel of deliberately targeting journalist Khalil, killed in Israeli air strike",
-              "source": "Previously covered",
-              "url": "https://www.bbc.com/news/articles/c5yvn036evlo"
-            },
-            {
-              "title": "Israel struck Lebanon despite an active ceasefire agreement, as Palestinians voted in their first elections since the outbreak of the Gaza war",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations"
-            }
-          ],
-          "tracking_suggestions": []
-        }
-      ],
-      "australia": [],
-      "archaeology": [],
-      "football": []
-    },
     "2026-09-24": {
       "breaking": [
         {
@@ -379,47 +284,105 @@
       "australia": [],
       "archaeology": [],
       "football": []
+    },
+    "2026-09-27": {
+      "breaking": [
+        {
+          "headline": "Russian airstrikes killed at least seven people across Ukraine including strikes on Dnipro, Odesa, and Kharkiv overnight into 26 April 2026",
+          "timestamp": "2 hrs ago",
+          "score": 7,
+          "summary": "Russian forces launched a large-scale overnight drone and missile attack on multiple Ukrainian cities, killing at least seven people and injuring 34 others. The city of Dnipro suffered the heaviest casualties, with five deaths and widespread fires that damaged apartment blocks, businesses, and private homes; Odesa and Kharkiv were also struck. Ukrainian authorities said they repelled most of a wave of over 600 drones, which ranks among the largest attacks in recent days. The strikes are significant because they target civilian infrastructure and residential areas, demonstrating that Russia is maintaining or escalating its offensive pressure even as diplomatic talks continue in other arenas.",
+          "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv",
+          "image": "https://media.guim.co.uk/021d65215624b395d05b5b50fc47186c44f5ec37/292_0_1723_1379/500.jpg",
+          "articles": [
+            {
+              "title": "Russian airstrikes kill at least seven people in Ukraine overnight",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv"
+            },
+            {
+              "title": "Israel struck Lebanon despite an active ceasefire agreement, as Palestinians voted in their first elections since the outbreak of the Gaza war",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Armed groups launched co-ordinated attacks with explosions and gunfire across multiple locations in Mali within the last hour",
+          "timestamp": "36 mins ago",
+          "score": 7,
+          "summary": "The Malian army has reported coordinated armed attacks launched simultaneously across multiple locations in the country, with witnesses describing explosions and sustained gunfire near a military base outside the capital, Bamako. The scale and coordination of the assault suggest a significant escalation beyond typical insurgent activity. Mali has been battling jihadist groups linked to al-Qaeda and ISIS for years, a conflict that has already triggered multiple military coups and spread instability across the wider Sahel region. Multi-front simultaneous attacks of this kind are particularly dangerous because they stretch military response capacity and signal that armed groups may be growing bolder and better organized.",
+          "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0759/live/64bc1380-40bd-11f1-bd52-e755d604ece4.jpg",
+          "articles": [
+            {
+              "title": "Explosions and gunfire as armed groups launch co-ordinated attacks across Mali",
+              "source": "BBC News",
+              "url": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "title": "Armed groups, including Jihadists launch widespread attacks on Mali government",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/04/25/nx-s1-5799439/mali-hit-by-wave-of-coordinated-attacks-from-armed-groups"
+            },
+            {
+              "title": "JNIM Attacks in Western Mali Reshape Sahel Conflict",
+              "source": "Africa Center for Strategic Studies",
+              "url": "https://africacenter.org/spotlight/jnim-attacks-western-mali-sahel/"
+            },
+            {
+              "title": "Mali on the Brink of Collapse as Jihadists Threaten to Overrun the Country",
+              "source": "The Soufan Center",
+              "url": "https://thesoufancenter.org/intelbrief-2025-november-4/"
+            },
+            {
+              "title": "Jihadi fighters affiliated with al Qaeda close in on Mali's capital, as instability grows across Sahel region",
+              "source": "CNN",
+              "url": "https://www.cnn.com/2025/11/02/africa/mali-security-fuel-shortages-intl"
+            },
+            {
+              "title": "Escalating Jihadist Violence and Political Fragmentation in the Sahel",
+              "source": "African Security Analysis",
+              "url": "https://www.africansecurityanalysis.org/updates/escalating-jihadist-violence-and-political-fragmentation-in-the-sahel"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Israel struck Lebanon despite an active ceasefire and claims Hezbollah also launched rockets, per latest Middle East crisis reporting",
+          "timestamp": "2 mins ago",
+          "score": 6,
+          "summary": "Israel and Hezbollah exchanged fire in southern Lebanon despite an active ceasefire agreement, with the IDF reporting two rockets launched from Lebanon and Lebanon's state media reporting multiple Israeli strikes that killed four people in the Nabatieh district. The IDF called the rocket fire 'a blatant violation of the ceasefire,' while the broader pattern of escalation in recent days threatens to collapse the truce that U.S. President Donald Trump extended just days ago. Simultaneously, Palestinians held their first elections since the Gaza war began, marking a rare political moment amid ongoing regional conflict. Together, these developments signal a potentially destabilizing shift in the Middle East, as a fragile ceasefire frays and political processes attempt to move forward under volatile conditions.",
+          "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations",
+          "image": "https://media.guim.co.uk/78223e41bd4b0ed11936171dcc7c2043d359317e/156_0_2450_1960/500.jpg",
+          "articles": [
+            {
+              "title": "Middle East crisis live: Israel strikes Lebanon despite ceasefire, claims Hezbollah also launched rockets",
+              "source": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations"
+            },
+            {
+              "title": "Lebanon accuses Israel of deliberately targeting journalist Khalil, killed in Israeli air strike",
+              "source": "Previously covered",
+              "url": "https://www.bbc.com/news/articles/c5yvn036evlo"
+            },
+            {
+              "title": "Israel struck Lebanon despite an active ceasefire agreement, as Palestinians voted in their first elections since the outbreak of the Gaza war",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations"
+            }
+          ],
+          "tracking_suggestions": []
+        }
+      ],
+      "australia": [],
+      "archaeology": [],
+      "football": []
     }
   },
   "developing": {},
   "world_trends": {
-    "2026-08-27": [
-      "Nepal flash flood live updates: more than 1,000 people missing after glacial collapse at Tibet border - The Guardian",
-      "News Wrap: States sue USPS, challenging Trump\u2019s order on mail-in voting - PBS",
-      "Iran warns of military ship ban in Hormuz under potential deal with Oman, and other Middle East news - AP News",
-      "Judge Allows Option of Manslaughter Verdict in Lindsay Clancy Case - The New York Times",
-      "Secret Service officials placed on leave in inquiry over \u2018potential misconduct\u2019 - NBC News",
-      "Accused 9/11 plotters to stand trial in 2028 - Axios",
-      "CIA chief used Moscow visit to warn Russia against attacks on NATO allies, helping Iran - Politico",
-      "US judge declines Minnesota\u2019s effort to force Texas to extradite ICE agent - Al Jazeera",
-      "Southern California's scorching heat wave peaks: Here's how hot it will get and when it will end - Los Angeles Times",
-      "\u2018We got attacked\u2019: Canadians unite in fury against Donald Trump\u2019s latest tariff salvo - Financial Times",
-      "Official leading Trump\u2019s Gaza ceasefire effort criticizes Israel for its attacks - AP News",
-      "After six months of Iran war, US goals have shifted. The Strait of Hormuz is now a top concern - AP News",
-      "Qatar PM to visit Tehran to pursue mediation efforts - Reuters",
-      "Exclusive: Swedish EU letter reopens debate over frozen Russian assets - The Kyiv Independent",
-      "Nvidia earnings takeaways: Huang forecasts 70% fiscal 2028 revenue growth, far above estimates - CNBC",
-      "Miley Cyrus & Dolly Parton Perform \u201cWrecking Ball\u201d / \u201cI Will Always Love You\u201d | Full Performance",
-      "Avengers Endgame: Encore | Official Trailer | In Theaters Sep 25",
-      "I Hired My Mom\u2026 (Stanky Shores Ep 12)",
-      "Dolly Parton - I Will Always Love You (Lyrics)",
-      "Escape From Playtime: A Smiling Critters Adventure | Reveal Trailer",
-      "The Life of a DIAMOND in Minecraft!",
-      "vamp city",
-      "AVENGERS ENDGAME ENCORE TRAILER BREAKDOWN: Did Marvel Re-Color Endgame?",
-      "They Made Grain Rot Even Better...",
-      "Jarahn - Lamasaga (Audio) feat. Ragga Siai & Tyron Scott",
-      "married at first sight season 20",
-      "home prices",
-      "tyler perry",
-      "fanduel",
-      "\u897f\u85cf\u6ce5\u77f3\u6d41",
-      "fan duel",
-      "fanduel bonus code",
-      "fool.com",
-      "draftkings fantasy",
-      "draftkings bonus"
-    ],
     "2026-08-28": [
       "\u2018They All Died, and I Lived\u2019: Survivors of Nepal Flood Left in Stunned Disbelief - The New York Times",
       "Trump signs order renaming Lake Ontario as Lake America, escalating Canada feud - The Washington Post",
@@ -1514,6 +1477,43 @@
       "new movies streaming",
       "amanda bynes",
       "breaking bad"
+    ],
+    "2026-09-27": [
+      "Trump rejects Iran's conditional ceasefire proposal, WSJ reports, as Saudi coalition intercepts projectiles - CNBC",
+      "Roads flood in New Jersey, inundate some homes, as major signs of nor\u2019easter take shape - AP News",
+      "Supreme Court blocks Trump-backed Missouri congressional map - NPR",
+      "Trump and Chinese president Xi end summit without major agreement on AI - The Guardian",
+      "The U.S. has more thalidomide survivors than the government admits - NPR",
+      "Huge crowds greet Pope in Paris ahead of open-air Mass - BBC",
+      "Trump cancels nearly $1bn in funding approved by Congress - The Guardian",
+      "A 7-Day Standoff That Said So Much About Trump and the Media - The New York Times",
+      "Hurricane Nolo expected to bring heavy rain as it skirts Hawaii\u2019s Big Island - NBC News",
+      "New report: Utah Valley University tried to warn Charlie Kirk\u2019s staff of risks, but team ignored concerns - The Salt Lake Tribune",
+      "She grew up under Soviet rule. Now EU's top diplomat warns Europe against giving Russia what it wants - Fox News",
+      "Six Dead After Explosion in Athens Tourist District - The New York Times",
+      "Heroine or Public Enemy? The Israeli Blocking Much of Netanyahu\u2019s Agenda. - The New York Times",
+      "Ethiopia fighting: Are Tigray's TPLF forces and the army heading back to war? - BBC",
+      "Rogue OpenAI agents accessed US government websites - Politico",
+      "Taylor Swift - Cleveland! (Official Lyric Video)",
+      "The Rescue | Official Trailer (2027 Movie) - Brandon Sklenar, Josh Lucas, Hassie Harrison",
+      "Playing TAG with my Friends is Always Terrifying",
+      "Kirk Franklin (ft. GloRilla) - This Time | From The Block Performance \ud83c\udf99",
+      "MADDEN - Official Trailer | Prime Video",
+      "\ud83d\udd34LIVE | VALHEIM + HAPPY WHEELS | FRICK A FAN FRIDAY | Fart In A Mixing Bowl | #BUNGULATE",
+      "Remy Ma, Keke Wyatt - Why I Get Married?",
+      "Day Drinker (2027) Official Teaser \u2013 Johnny Depp, Madelyn Cline, and Pen\u00e9lope Cruz",
+      "The Hunt for Minecraft\u2019s Strongest Item",
+      "Tee Grizzley - Robbery 10 [Official Video]",
+      "weather storm",
+      "logro\u00f1o - barcelona",
+      "needoh",
+      "page six",
+      "silver price today",
+      "trump polls",
+      "national pancake day 2026",
+      "seahawks sam darnold",
+      "sophie cunningham",
+      "ole miss vs florida"
     ]
   },
   "summaries": {
@@ -1663,5 +1663,5 @@
     "week": [],
     "month": []
   },
-  "last_gdelt_attempt": "2026-09-26T09:07:25.162122+00:00"
+  "last_gdelt_attempt": "2026-09-26T14:06:36.592824+00:00"
 }

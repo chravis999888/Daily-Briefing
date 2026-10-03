@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Filter Wikipedia and junk domains from web search results in all processors
+Exact per-call cost ledger (#52): single price table in `pricing.py`, every Claude attempt logged via `costs.log_call` (usage, web searches, stop_reason, outcome, errors at $0), daily/MTD rollup in `health.json` + `COST_SUMMARY.md`
 
 ## 🔄 In Progress
 Nothing currently in progress.
@@ -19,7 +19,7 @@ Nothing currently in progress.
 |------|---------|
 | `fetch_news.py` | Entry point — orchestration and run mode switching only |
 | `memory.py` | All memory/health functions — load, save, cache, hashing |
-| `api.py` | Claude API wrappers, log_api_call, relative_time, format_articles_for_prompt |
+| `api.py` | Claude API wrappers (`_attempt`), relative_time, format_articles_for_prompt |
 | `fetchers.py` | All data fetching — RSS, GDELT, Guardian, YouTube, Reddit, NewsData |
 | `processors.py` | Category processors, world topics, developing situations, HEADLINE_RULES |
 | `page/builder.py` | build_html() — loads and renders Jinja2 template, ACCENTS |
@@ -27,5 +27,8 @@ Nothing currently in progress.
 | `.github/workflows/briefing.yml` | Scheduling and deployment |
 | `memory.json` | Story cache, summaries, world trends, article hashes |
 | `health.json` | Run status and errors |
-| `cost_log.json` | API call costs — timestamp, model, tokens, USD per call |
+| `pricing.py` | The only price table (USD/MTok + web search fee), with source URL and date |
+| `costs.py` | Cost ledger: `log_call`, rollups, COST_SUMMARY.md, health key `api_cost_ledger` |
+| `cost_log.json` | Append-only ledger, one row per API attempt (rows without `outcome` are pre-#52 and mispriced) |
+| `tests/test_costs.py` | Cost maths + ledger tests: `python -m unittest tests.test_costs` |
 | `requirements.txt` | anthropic, requests, feedparser, beautifulsoup4, jinja2 |

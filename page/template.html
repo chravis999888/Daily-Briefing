@@ -16,10 +16,9 @@
 {% set opacity = '0.55' if is_yesterday else '1' %}
 {# Build meta parts #}
 {% set ns = namespace(meta=[]) %}
-{% if story.timestamp %}{% set ns.meta = ns.meta + ['<span style="color:' ~ ac ~ ';font-weight:500;font-size:11px;">' ~ story.timestamp|e ~ '</span>'] %}{% endif %}
-{% if arts and arts[0].source %}{% set ns.meta = ns.meta + ['<span style="color:#555550;font-size:11px;">' ~ arts[0].source|e ~ '</span>'] %}{% endif %}
-{% if arts|length > 1 %}{% set ns.meta = ns.meta + ['<span style="color:#444440;font-size:11px;">' ~ arts|length ~ ' sources</span>'] %}{% endif %}
-{% set meta_html = ns.meta|join(' <span style="color:#2a2a28;font-size:10px;">·</span> ') %}
+{% if story.timestamp %}{% set ns.meta = ns.meta + [('color:' ~ ac ~ ';font-weight:500;font-size:11px;', story.timestamp)] %}{% endif %}
+{% if arts and arts[0].source %}{% set ns.meta = ns.meta + [('color:#555550;font-size:11px;', arts[0].source)] %}{% endif %}
+{% if arts|length > 1 %}{% set ns.meta = ns.meta + [('color:#444440;font-size:11px;', arts|length ~ ' sources')] %}{% endif %}
 {# Tracking suggestions for star popup #}
 {% set suggested = story.headline[:60].rstrip('.,') %}
 {% set suggestions = story.tracking_suggestions if story.tracking_suggestions else [suggested] %}
@@ -28,9 +27,9 @@
     <span style="font-size:11px;color:#2a2a28;min-width:20px;margin-top:3px;flex-shrink:0;">{{ num }}</span>
     <div style="flex:1;min-width:0;">
       <div style="font-size:{{ headline_size }};font-weight:400;line-height:1.45;color:#f0ece4;margin-bottom:8px;letter-spacing:-0.01em;display:flex;align-items:flex-start;">{% if score >= 8 %}<span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:{{ ac }};margin-right:8px;margin-bottom:1px;vertical-align:middle;flex-shrink:0;"></span>{% endif %}<span>{{ story.headline|e }}</span></div>
-      <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">{{ meta_html|safe }}</div>
+      <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">{% for meta_style, meta_text in ns.meta %}{% if not loop.first %} <span style="color:#2a2a28;font-size:10px;">·</span> {% endif %}<span style="{{ meta_style }}">{{ meta_text }}</span>{% endfor %}</div>
     </div>
-    {% if not is_yesterday %}<button class="star-btn" onclick="showStarPopup({{ headline_js }},{{ suggestions|tojson }});event.stopPropagation();" title="Track this story" style="background:none;border:none;cursor:pointer;padding:4px;color:#333330;font-size:14px;flex-shrink:0;line-height:1;margin-left:4px;transition:color 0.15s;" onmouseover="this.style.color='#c9a96e'" onmouseout="this.style.color='#333330'">&#9734;</button>{% endif %}
+    {% if not is_yesterday %}<button class="star-btn" onclick='showStarPopup({{ headline_js }},{{ suggestions|tojson }});event.stopPropagation();' title="Track this story" style="background:none;border:none;cursor:pointer;padding:4px;color:#333330;font-size:14px;flex-shrink:0;line-height:1;margin-left:4px;transition:color 0.15s;" onmouseover="this.style.color='#c9a96e'" onmouseout="this.style.color='#333330'">&#9734;</button>{% endif %}
   </div>
 </div>
 
@@ -99,7 +98,7 @@ html,body{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-s
       <div style="display:flex;align-items:center;gap:10px;padding-bottom:6px;">
         <button id="gh-connect-btn" onclick="setupGhToken()" style="background:none;border:1px solid rgba(255,255,255,0.08);border-radius:6px;cursor:pointer;padding:4px 10px;color:#444440;font-size:11px;font-family:Inter,sans-serif;transition:all 0.15s;display:none;" onmouseover="this.style.color='#f0ece4';this.style.borderColor='rgba(255,255,255,0.2)'" onmouseout="this.style.color='#444440';this.style.borderColor='rgba(255,255,255,0.08)'">Connect GitHub</button>
         <button id="gh-connected-btn" style="background:none;border:1px solid rgba(42,122,110,0.3);border-radius:6px;padding:4px 10px;color:#4aaa99;font-size:11px;font-family:Inter,sans-serif;display:none;">&#10003; GitHub connected</button>
-        <span style="font-size:11px;color:#2a2a28;" id="refresh-status">{{ health_dot }}Refreshes automatically</span>
+        <span style="font-size:11px;color:#2a2a28;" id="refresh-status">{% if health_status %}<span class="health-dot-wrap" style="position:relative;display:inline-block;vertical-align:middle;margin-right:6px;"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:{{ health_status.color }};cursor:default;"></span><span class="health-tooltip" style="display:none;position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#1c1c1a;border:1px solid rgba(255,255,255,0.1);border-radius:6px;padding:6px 10px;white-space:nowrap;font-size:11px;font-family:Inter,sans-serif;color:#c8c4bc;pointer-events:none;z-index:100;opacity:0;transition:opacity 0.2s;">{{ health_status.tooltip }}</span></span>{% endif %}Refreshes automatically</span>
       </div>
     </div>
   </div>
@@ -195,13 +194,13 @@ html,body{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-s
       <div id="{{ sit_id }}" style="background:#161614;border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:16px 18px;margin-bottom:8px;transition:opacity 0.4s;">
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
           <div style="font-size:14px;font-weight:500;color:#f0ece4;">{{ s.topic|e }}<span style="font-size:10px;padding:2px 8px;border-radius:999px;background:{{ badge_bg }};color:{{ badge_color }};margin-left:8px;vertical-align:middle;">{{ badge_text }}</span></div>
-          <button onclick="removeSituation({{ s.topic|tojson }})" title="Stop tracking" style="background:none;border:none;cursor:pointer;color:#333330;font-size:16px;padding:0;line-height:1;transition:color 0.15s;" onmouseover="this.style.color='#c0392b'" onmouseout="this.style.color='#333330'">&#215;</button>
+          <button onclick='removeSituation({{ s.topic|tojson }})' title="Stop tracking" style="background:none;border:none;cursor:pointer;color:#333330;font-size:16px;padding:0;line-height:1;transition:color 0.15s;" onmouseover="this.style.color='#c0392b'" onmouseout="this.style.color='#333330'">&#215;</button>
         </div>
         <div style="font-size:13px;line-height:1.7;color:#8a8680;{% if not s.has_update %}font-style:italic;{% endif %}">{{ s['update']|default('No updates today.')|e }}</div>
         {% if s.has_update and s.articles %}
         <div style="margin-top:10px;">
           {% for a in s.articles %}
-          {% if a.url and a.url.startswith('http') %}
+          {% if a.url %}
           <a href="{{ a.url }}" target="_blank" rel="noreferrer noopener" style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 12px;border-radius:8px;background:#0d0d0c;text-decoration:none;margin-bottom:3px;border:1px solid rgba(255,255,255,0.04);">
             <span style="font-size:13px;color:#c8c4bc;line-height:1.4;flex:1;font-weight:300;">{{ a.title|default('')|e }}</span>
             <span style="font-size:11px;color:#444440;white-space:nowrap;flex-shrink:0;margin-left:8px;">{{ a.source|default('')|e }}</span>
@@ -429,12 +428,16 @@ document.addEventListener('click', function(e) {
   openModal(headline, summary, articles, image);
 });
 
+function isHttpUrl(u) {
+  return typeof u === 'string' && /^https?:\/\//i.test(u);
+}
+
 function openModal(headline, summary, articles, image) {
   document.getElementById('modal-headline').textContent = headline;
   document.getElementById('modal-summary').textContent = summary;
   var imgWrap = document.getElementById('modal-image');
   var imgEl = document.getElementById('modal-img-el');
-  if (image && image.startsWith('http')) {
+  if (isHttpUrl(image)) {
     imgEl.src = image;
     imgWrap.style.display = 'block';
   } else {
@@ -444,7 +447,7 @@ function openModal(headline, summary, articles, image) {
   artContainer.innerHTML = '';
   if (articles && articles.length) {
     articles.forEach(function(a) {
-      if (!a.url || !a.url.startsWith('http')) return;
+      if (!isHttpUrl(a.url)) return;
       var el = document.createElement('a');
       el.href = a.url;
       el.target = '_blank';
@@ -452,7 +455,14 @@ function openModal(headline, summary, articles, image) {
       el.style.cssText = 'display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 14px;border-radius:8px;background:#111110;text-decoration:none;border:1px solid rgba(255,255,255,0.05);transition:border-color 0.15s;';
       el.onmouseover = function(){this.style.borderColor='rgba(255,255,255,0.12)';};
       el.onmouseout = function(){this.style.borderColor='rgba(255,255,255,0.05)';};
-      el.innerHTML = '<span style="font-size:13px;color:#c8c4bc;line-height:1.4;flex:1;font-weight:300;">' + (a.title||'').replace(/</g,'&lt;') + '</span><span style="font-size:11px;color:#444440;white-space:nowrap;flex-shrink:0;margin-left:8px;">' + (a.source||'') + '</span>';
+      var titleEl = document.createElement('span');
+      titleEl.style.cssText = 'font-size:13px;color:#c8c4bc;line-height:1.4;flex:1;font-weight:300;';
+      titleEl.textContent = a.title || '';
+      var sourceEl = document.createElement('span');
+      sourceEl.style.cssText = 'font-size:11px;color:#444440;white-space:nowrap;flex-shrink:0;margin-left:8px;';
+      sourceEl.textContent = a.source || '';
+      el.appendChild(titleEl);
+      el.appendChild(sourceEl);
       artContainer.appendChild(el);
     });
   }

@@ -10,6 +10,7 @@ from fetchers import (fetch_gdelt_articles, fetch_guardian, fetch_rss, fetch_new
 from processors import (process_breaking_news, process_australia, process_archaeology,
                         process_football, process_world_topics, process_developing_situations)
 from page.builder import build_html
+from costs import update_cost_outputs
 
 MOCK_MODE = False
 RUN_MODE = os.environ.get("RUN_MODE", "full")
@@ -282,7 +283,7 @@ def main():
         world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []})
         developing_situations = process_developing_situations(pinned, [], [])
         health = log_run(health, "deploy_only", errors)
-        save_health(health)
+        save_health(update_cost_outputs(health))
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
@@ -337,7 +338,7 @@ def main():
 
         save_memory(memory)
         health = log_run(health, "breaking_only", errors)
-        save_health(health)
+        save_health(update_cost_outputs(health))
 
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
@@ -449,7 +450,7 @@ def main():
         developing_situations = process_developing_situations(pinned, [], [])
         save_memory(memory)
         health = log_run(health, f"category:{RUN_CATEGORY}", errors)
-        save_health(health)
+        save_health(update_cost_outputs(health))
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
@@ -563,7 +564,7 @@ def main():
     content_changed = any(all_data[cat] for cat in ["breaking", "australia", "archaeology", "football"])
     save_memory(memory)
     health = log_run(health, "full", errors)
-    save_health(health)
+    save_health(update_cost_outputs(health))
 
     Path("dist").mkdir(exist_ok=True)
     _copy_favicons()

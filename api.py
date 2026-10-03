@@ -7,45 +7,40 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from email.utils import parsedate_to_datetime
 
+from costs import log_call
+
 AEST = timezone(timedelta(hours=10))
 RUN_MODE = os.environ.get("RUN_MODE", "full")
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 client = anthropic.Anthropic(api_key=ANTHROPIC_KEY) if ANTHROPIC_KEY else None
+HAIKU = "claude-haiku-4-5-20251001"
+SONNET = "claude-sonnet-4-6"
+WEB_SEARCH_TOOL = {"type": "web_search_20250305", "name": "web_search"}
 
 
-def log_api_call(label: str, model: str, input_tokens: int, output_tokens: int):
-    """Append one API call record to cost_log.json. Keeps last 1000 entries."""
-    HAIKU_IN   = 0.80  / 1_000_000
-    HAIKU_OUT  = 4.00  / 1_000_000
-    SONNET_IN  = 3.00  / 1_000_000
-    SONNET_OUT = 15.00 / 1_000_000
-
-    if "haiku" in model.lower():
-        cost_usd = (input_tokens * HAIKU_IN) + (output_tokens * HAIKU_OUT)
-    else:
-        cost_usd = (input_tokens * SONNET_IN) + (output_tokens * SONNET_OUT)
-
-    record = {
-        "timestamp": datetime.now(AEST).isoformat(),
-        "run_type": RUN_MODE,
-        "label": label,
-        "model": model,
-        "input_tokens": input_tokens,
-        "output_tokens": output_tokens,
-        "cost_usd": round(cost_usd, 6)
-    }
-
-    log_path = Path("cost_log.json")
+def _attempt(model, max_tokens, prompt, label, extract, tools=None):
+    """One Claude API attempt. Always writes exactly one ledger row (success or error)."""
+    kwargs = {"tools": tools} if tools else {}
     try:
-        existing = json.loads(log_path.read_text()) if log_path.exists() else []
-    except Exception:
-        existing = []
+        msg = client.messages.create(model=model, max_tokens=max_tokens,
+                                     messages=[{"role": "user", "content": prompt}], **kwargs)
+    except Exception as e:
+        log_call(label, model, error=e)
+        raise
+    has_text = any(getattr(b, "type", None) == "text" and (b.text or "").strip() for b in msg.content)
+    log_call(label, model, msg=msg, has_text=has_text)
+    return extract(msg)
 
-    existing.append(record)
-    if len(existing) > 1000:
-        existing = existing[-1000:]
 
-    log_path.write_text(json.dumps(existing, indent=2))
+def _first_content_text(msg):
+    return msg.content[0].text
+
+
+def _first_text_block(msg):
+    for block in msg.content:
+        if block.type == "text":
+            return block.text
+    return ""
 
 
 def relative_time(date_str):
@@ -98,13 +93,7 @@ def relative_time(date_str):
 def call_haiku(prompt, max_tokens=500, label="haiku", retries=3):
     for attempt in range(retries):
         try:
-            msg = client.messages.create(
-                model="claude-haiku-4-5-20251001",
-                max_tokens=max_tokens,
-                messages=[{"role": "user", "content": prompt}]
-            )
-            log_api_call(label, msg.model, msg.usage.input_tokens, msg.usage.output_tokens)
-            return msg.content[0].text
+            return _attempt(HAIKU, max_tokens, prompt, label, _first_content_text)
         except anthropic.RateLimitError:
             wait = 20 * (attempt + 1)
             print(f"Haiku rate limit, waiting {wait}s (attempt {attempt+1}/{retries})...")
@@ -118,13 +107,7 @@ def call_haiku(prompt, max_tokens=500, label="haiku", retries=3):
 def call_sonnet(prompt, max_tokens=1000, retries=3, label="sonnet"):
     for attempt in range(retries):
         try:
-            msg = client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=max_tokens,
-                messages=[{"role": "user", "content": prompt}]
-            )
-            log_api_call(label, msg.model, msg.usage.input_tokens, msg.usage.output_tokens)
-            return msg.content[0].text
+            return _attempt(SONNET, max_tokens, prompt, label, _first_content_text)
         except anthropic.RateLimitError:
             wait = 30 * (attempt + 1)
             print(f"Sonnet rate limit, waiting {wait}s (attempt {attempt+1}/{retries})...")
@@ -133,23 +116,13 @@ def call_sonnet(prompt, max_tokens=1000, retries=3, label="sonnet"):
             print(f"Sonnet error: {e}")
             break
     print("Falling back to Haiku...")
-    return call_haiku(prompt, max_tokens, label="sonnet_haiku_fallback")
+    return call_haiku(prompt, max_tokens, label=f"{label}:haiku_fallback")
 
 
 def call_sonnet_with_search(prompt, max_tokens=1500, retries=3, label="context_search_sonnet"):
     for attempt in range(retries):
         try:
-            msg = client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=max_tokens,
-                tools=[{"type": "web_search_20250305", "name": "web_search"}],
-                messages=[{"role": "user", "content": prompt}]
-            )
-            log_api_call(label, msg.model, msg.usage.input_tokens, msg.usage.output_tokens)
-            for block in msg.content:
-                if block.type == "text":
-                    return block.text
-            return ""
+            return _attempt(SONNET, max_tokens, prompt, label, _first_text_block, tools=[WEB_SEARCH_TOOL])
         except anthropic.RateLimitError:
             wait = 30 * (attempt + 1)
             print(f"Sonnet search rate limit, waiting {wait}s...")
@@ -162,17 +135,7 @@ def call_sonnet_with_search(prompt, max_tokens=1500, retries=3, label="context_s
 
 def call_haiku_with_search(prompt, max_tokens=500, label="context_search"):
     try:
-        msg = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=max_tokens,
-            tools=[{"type": "web_search_20250305", "name": "web_search"}],
-            messages=[{"role": "user", "content": prompt}]
-        )
-        log_api_call(label, msg.model, msg.usage.input_tokens, msg.usage.output_tokens)
-        for block in msg.content:
-            if block.type == "text":
-                return block.text
-        return ""
+        return _attempt(HAIKU, max_tokens, prompt, label, _first_text_block, tools=[WEB_SEARCH_TOOL])
     except Exception as e:
         print(f"Haiku search error: {e}")
         return ""

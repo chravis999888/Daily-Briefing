@@ -76,7 +76,7 @@ Raw JSON only, no markdown."""
 Return ONLY JSON array of up to 5 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-                search_text = call_sonnet_with_search(search_prompt, 800)
+                search_text = call_sonnet_with_search(search_prompt, 800, label="breaking_context_search")
                 try:
                     extra = json.loads(search_text.replace("```json", "").replace("```", "").strip())
                     extra = [a for a in extra if not any(bl in a.get("url", "") for bl in SOURCE_BLACKLIST)]
@@ -188,7 +188,7 @@ Raw JSON only, no markdown."""
 Return ONLY JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-                search_text = call_haiku_with_search(search_prompt, 600)
+                search_text = call_haiku_with_search(search_prompt, 600, label="australia_context_search")
                 try:
                     extra = json.loads(search_text.replace("```json", "").replace("```", "").strip())
                     extra = [a for a in extra if not any(bl in a.get("url", "") for bl in SOURCE_BLACKLIST)]
@@ -338,7 +338,7 @@ Raw JSON only, no markdown."""
 Return ONLY JSON array of up to 3 articles:
 [{{"title":"...","source":"...","url":"https://..."}}]
 Raw JSON only."""
-                search_text = call_haiku_with_search(search_prompt, 600)
+                search_text = call_haiku_with_search(search_prompt, 600, label="football_context_search")
                 try:
                     extra = json.loads(search_text.replace("```json", "").replace("```", "").strip())
                     extra = [a for a in extra if not any(bl in a.get("url", "") for bl in SOURCE_BLACKLIST)]

@@ -1,13 +1,14 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Merged PR #42 to main: security audit fixes (#43–#46, #51) plus the exact per-call cost ledger (#52); first scheduled run on the new code is next
+Recorded the real live site URL in STATUS.md and verified it serves (HTTP 200, page updated 3:49 AM AEST Sun 4 Oct 2026)
 
 ## 🔄 In Progress
 Nothing currently in progress.
 
 ## 📌 Critical Context
 - Owner is in Brisbane, Australia — all timestamps in AEST (UTC+10)
+- Live site: https://daily-briefing-2wm.pages.dev (Cloudflare Pages project daily-briefing; the plain daily-briefing.pages.dev is NOT ours)
 - AUD conversion hardcoded at 1.55
 - Claude Code handles all file edits — paste briefs directly into Claude Code chat
 - Editorial philosophy: strict quality bars, factual headlines, no clickbait — see `HEADLINE_RULES` constant in `processors.py`

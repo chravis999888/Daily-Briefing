@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Filter Wikipedia and junk domains from web search results in all processors
+Security audit: fixed template XSS, http(s)-only URLs, pinned deps and workflow actions, Claude read-deny rules (#43–#46, #51); open findings filed as #47–#50
 
 ## 🔄 In Progress
 Nothing currently in progress.

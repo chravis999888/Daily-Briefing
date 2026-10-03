@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Exact per-call cost ledger (#52): single price table in `pricing.py`, every Claude attempt logged via `costs.log_call` (usage, web searches, stop_reason, outcome, errors at $0), daily/MTD rollup in `health.json` + `COST_SUMMARY.md`
+Merged PR #42 to main: security audit fixes (#43–#46, #51) plus the exact per-call cost ledger (#52); first scheduled run on the new code is next
 
 ## 🔄 In Progress
 Nothing currently in progress.

@@ -1,7 +1,7 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Recorded the real live site URL in STATUS.md and verified it serves (HTTP 200, page updated 3:49 AM AEST Sun 4 Oct 2026)
+Baseline analysis of the legacy cost log (#55): about $5.04 USD recalculated over 22–26 Apr, 57% on search calls (fees not counted), 15/17 Australia selections at the token cap
 
 ## 🔄 In Progress
 Nothing currently in progress.

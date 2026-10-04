@@ -1,12 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-09-30T01:13:46.345966+10:00",
-      "run_type": "breaking_only",
-      "errors": [],
-      "status": "ok"
-    },
-    {
       "timestamp": "2026-09-30T06:05:10.300559+10:00",
       "run_type": "breaking_only",
       "errors": [
@@ -357,209 +351,215 @@
         "GDELT fetch failed: HTTP 429; RSS fallback also empty"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-10-05T07:14:22.770627+10:00",
+      "run_type": "full",
+      "errors": [],
+      "status": "ok"
     }
   ],
   "errors": [],
   "api_cost_ledger": {
-    "as_of": "2026-10-05T06:17:18.708547+10:00",
+    "as_of": "2026-10-05T07:14:22.770639+10:00",
     "aud_rate_display_only": 1.55,
     "legacy_rows_excluded": 314,
     "today": {
       "date": "2026-10-05",
-      "calls": 18,
+      "calls": 30,
       "total_usd": 0.0,
       "total_aud": 0.0,
       "wasted_usd": 0,
       "wasted_aud": 0.0,
       "by_step": {
         "archaeology_selection": {
-          "calls": 1,
+          "calls": 2,
           "usd": 0.0
         },
         "archaeology_selection:haiku_fallback": {
-          "calls": 1,
+          "calls": 2,
           "usd": 0.0
         },
         "australia_selection": {
-          "calls": 1,
+          "calls": 2,
           "usd": 0.0
         },
         "australia_selection:haiku_fallback": {
-          "calls": 1,
+          "calls": 2,
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "breaking_selection:haiku_fallback": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "developing_situations": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "football_selection": {
-          "calls": 1,
+          "calls": 2,
           "usd": 0.0
         },
         "football_selection:haiku_fallback": {
-          "calls": 1,
+          "calls": 2,
           "usd": 0.0
         },
         "world_topics_month": {
-          "calls": 1,
+          "calls": 2,
           "usd": 0.0
         },
         "world_topics_today": {
-          "calls": 1,
+          "calls": 2,
           "usd": 0.0
         },
         "world_topics_week": {
-          "calls": 1,
+          "calls": 2,
           "usd": 0.0
         }
       },
       "by_category": {
         "archaeology": {
-          "calls": 2,
+          "calls": 4,
           "usd": 0.0
         },
         "australia": {
-          "calls": 2,
+          "calls": 4,
           "usd": 0.0
         },
         "breaking": {
-          "calls": 6,
+          "calls": 8,
           "usd": 0.0
         },
         "developing": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "football": {
-          "calls": 2,
+          "calls": 4,
           "usd": 0.0
         },
         "world_topics": {
-          "calls": 3,
+          "calls": 6,
           "usd": 0.0
         }
       },
       "by_model": {
         "claude-haiku-4-5-20251001": {
-          "calls": 12,
+          "calls": 20,
           "usd": 0.0
         },
         "claude-sonnet-4-6": {
-          "calls": 6,
+          "calls": 10,
           "usd": 0.0
         }
       },
       "by_outcome": {
         "error": {
-          "calls": 18,
+          "calls": 30,
           "usd": 0.0
         }
       }
     },
     "month_to_date": {
       "month": "2026-10",
-      "calls": 90,
+      "calls": 102,
       "total_usd": 0.0,
       "total_aud": 0.0,
       "wasted_usd": 0,
       "wasted_aud": 0.0,
       "by_step": {
         "archaeology_selection": {
-          "calls": 6,
+          "calls": 7,
           "usd": 0.0
         },
         "archaeology_selection:haiku_fallback": {
-          "calls": 6,
+          "calls": 7,
           "usd": 0.0
         },
         "australia_selection": {
-          "calls": 6,
+          "calls": 7,
           "usd": 0.0
         },
         "australia_selection:haiku_fallback": {
-          "calls": 6,
+          "calls": 7,
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 12,
+          "calls": 13,
           "usd": 0.0
         },
         "breaking_selection:haiku_fallback": {
-          "calls": 12,
+          "calls": 13,
           "usd": 0.0
         },
         "developing_situations": {
-          "calls": 12,
+          "calls": 13,
           "usd": 0.0
         },
         "football_selection": {
-          "calls": 6,
+          "calls": 7,
           "usd": 0.0
         },
         "football_selection:haiku_fallback": {
-          "calls": 6,
+          "calls": 7,
           "usd": 0.0
         },
         "world_topics_month": {
-          "calls": 6,
+          "calls": 7,
           "usd": 0.0
         },
         "world_topics_today": {
-          "calls": 6,
+          "calls": 7,
           "usd": 0.0
         },
         "world_topics_week": {
-          "calls": 6,
+          "calls": 7,
           "usd": 0.0
         }
       },
       "by_category": {
         "archaeology": {
-          "calls": 12,
+          "calls": 14,
           "usd": 0.0
         },
         "australia": {
-          "calls": 12,
+          "calls": 14,
           "usd": 0.0
         },
         "breaking": {
-          "calls": 24,
+          "calls": 26,
           "usd": 0.0
         },
         "developing": {
-          "calls": 12,
+          "calls": 13,
           "usd": 0.0
         },
         "football": {
-          "calls": 12,
+          "calls": 14,
           "usd": 0.0
         },
         "world_topics": {
-          "calls": 18,
+          "calls": 21,
           "usd": 0.0
         }
       },
       "by_model": {
         "claude-haiku-4-5-20251001": {
-          "calls": 60,
+          "calls": 68,
           "usd": 0.0
         },
         "claude-sonnet-4-6": {
-          "calls": 30,
+          "calls": 34,
           "usd": 0.0
         }
       },
       "by_outcome": {
         "error": {
-          "calls": 90,
+          "calls": 102,
           "usd": 0.0
         }
       }

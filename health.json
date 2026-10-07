@@ -1,14 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-10-02T18:44:25.561143+10:00",
-      "run_type": "breaking_only",
-      "errors": [
-        "GDELT fetch failed: empty response; RSS fallback also empty"
-      ],
-      "status": "degraded"
-    },
-    {
       "timestamp": "2026-10-02T21:58:35.875176+10:00",
       "run_type": "full",
       "errors": [
@@ -361,16 +353,24 @@
         "GDELT fetch failed: empty response; RSS fallback also empty"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-10-08T08:07:54.294273+10:00",
+      "run_type": "breaking_only",
+      "errors": [
+        "GDELT fetch failed: HTTP 429; RSS fallback also empty"
+      ],
+      "status": "degraded"
     }
   ],
   "errors": [],
   "api_cost_ledger": {
-    "as_of": "2026-10-08T05:48:04.691766+10:00",
+    "as_of": "2026-10-08T08:07:54.294288+10:00",
     "aud_rate_display_only": 1.55,
     "legacy_rows_excluded": 314,
     "today": {
       "date": "2026-10-08",
-      "calls": 15,
+      "calls": 18,
       "total_usd": 0.0,
       "total_aud": 0.0,
       "wasted_usd": 0,
@@ -393,15 +393,15 @@
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 2,
+          "calls": 3,
           "usd": 0.0
         },
         "breaking_selection:haiku_fallback": {
-          "calls": 2,
+          "calls": 3,
           "usd": 0.0
         },
         "developing_situations": {
-          "calls": 2,
+          "calls": 3,
           "usd": 0.0
         },
         "football_selection": {
@@ -435,11 +435,11 @@
           "usd": 0.0
         },
         "breaking": {
-          "calls": 4,
+          "calls": 6,
           "usd": 0.0
         },
         "developing": {
-          "calls": 2,
+          "calls": 3,
           "usd": 0.0
         },
         "football": {
@@ -453,24 +453,24 @@
       },
       "by_model": {
         "claude-haiku-4-5-20251001": {
-          "calls": 10,
+          "calls": 12,
           "usd": 0.0
         },
         "claude-sonnet-4-6": {
-          "calls": 5,
+          "calls": 6,
           "usd": 0.0
         }
       },
       "by_outcome": {
         "error": {
-          "calls": 15,
+          "calls": 18,
           "usd": 0.0
         }
       }
     },
     "month_to_date": {
       "month": "2026-10",
-      "calls": 258,
+      "calls": 261,
       "total_usd": 0.0,
       "total_aud": 0.0,
       "wasted_usd": 0,
@@ -493,15 +493,15 @@
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 35,
+          "calls": 36,
           "usd": 0.0
         },
         "breaking_selection:haiku_fallback": {
-          "calls": 35,
+          "calls": 36,
           "usd": 0.0
         },
         "developing_situations": {
-          "calls": 35,
+          "calls": 36,
           "usd": 0.0
         },
         "football_selection": {
@@ -535,11 +535,11 @@
           "usd": 0.0
         },
         "breaking": {
-          "calls": 70,
+          "calls": 72,
           "usd": 0.0
         },
         "developing": {
-          "calls": 35,
+          "calls": 36,
           "usd": 0.0
         },
         "football": {
@@ -553,17 +553,17 @@
       },
       "by_model": {
         "claude-haiku-4-5-20251001": {
-          "calls": 172,
+          "calls": 174,
           "usd": 0.0
         },
         "claude-sonnet-4-6": {
-          "calls": 86,
+          "calls": 87,
           "usd": 0.0
         }
       },
       "by_outcome": {
         "error": {
-          "calls": 258,
+          "calls": 261,
           "usd": 0.0
         }
       }

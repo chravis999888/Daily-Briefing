@@ -1,12 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-10-04T00:04:09.866723+10:00",
-      "run_type": "breaking_only",
-      "errors": [],
-      "status": "ok"
-    },
-    {
       "timestamp": "2026-10-04T03:49:53.122950+10:00",
       "run_type": "full",
       "errors": [
@@ -359,209 +353,217 @@
         "GDELT fetch failed: HTTP 429; RSS fallback also empty"
       ],
       "status": "degraded"
+    },
+    {
+      "timestamp": "2026-10-09T22:39:56.757693+10:00",
+      "run_type": "full",
+      "errors": [
+        "GDELT fetch failed: HTTP 429; RSS fallback also empty"
+      ],
+      "status": "degraded"
     }
   ],
   "errors": [],
   "api_cost_ledger": {
-    "as_of": "2026-10-09T18:11:04.430928+10:00",
+    "as_of": "2026-10-09T22:39:56.757709+10:00",
     "aud_rate_display_only": 1.55,
     "legacy_rows_excluded": 314,
     "today": {
       "date": "2026-10-09",
-      "calls": 48,
+      "calls": 60,
       "total_usd": 0.0,
       "total_aud": 0.0,
       "wasted_usd": 0,
       "wasted_aud": 0.0,
       "by_step": {
         "archaeology_selection": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "archaeology_selection:haiku_fallback": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "australia_selection": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "australia_selection:haiku_fallback": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 7,
+          "calls": 8,
           "usd": 0.0
         },
         "breaking_selection:haiku_fallback": {
-          "calls": 7,
+          "calls": 8,
           "usd": 0.0
         },
         "developing_situations": {
-          "calls": 7,
+          "calls": 8,
           "usd": 0.0
         },
         "football_selection": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "football_selection:haiku_fallback": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "world_topics_month": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "world_topics_today": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "world_topics_week": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         }
       },
       "by_category": {
         "archaeology": {
-          "calls": 6,
+          "calls": 8,
           "usd": 0.0
         },
         "australia": {
-          "calls": 6,
+          "calls": 8,
           "usd": 0.0
         },
         "breaking": {
-          "calls": 14,
+          "calls": 16,
           "usd": 0.0
         },
         "developing": {
-          "calls": 7,
+          "calls": 8,
           "usd": 0.0
         },
         "football": {
-          "calls": 6,
+          "calls": 8,
           "usd": 0.0
         },
         "world_topics": {
-          "calls": 9,
+          "calls": 12,
           "usd": 0.0
         }
       },
       "by_model": {
         "claude-haiku-4-5-20251001": {
-          "calls": 32,
+          "calls": 40,
           "usd": 0.0
         },
         "claude-sonnet-4-6": {
-          "calls": 16,
+          "calls": 20,
           "usd": 0.0
         }
       },
       "by_outcome": {
         "error": {
-          "calls": 48,
+          "calls": 60,
           "usd": 0.0
         }
       }
     },
     "month_to_date": {
       "month": "2026-10",
-      "calls": 339,
+      "calls": 351,
       "total_usd": 0.0,
       "total_aud": 0.0,
       "wasted_usd": 0,
       "wasted_aud": 0.0,
       "by_step": {
         "archaeology_selection": {
-          "calls": 22,
+          "calls": 23,
           "usd": 0.0
         },
         "archaeology_selection:haiku_fallback": {
-          "calls": 22,
+          "calls": 23,
           "usd": 0.0
         },
         "australia_selection": {
-          "calls": 22,
+          "calls": 23,
           "usd": 0.0
         },
         "australia_selection:haiku_fallback": {
-          "calls": 22,
+          "calls": 23,
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 47,
+          "calls": 48,
           "usd": 0.0
         },
         "breaking_selection:haiku_fallback": {
-          "calls": 47,
+          "calls": 48,
           "usd": 0.0
         },
         "developing_situations": {
-          "calls": 47,
+          "calls": 48,
           "usd": 0.0
         },
         "football_selection": {
-          "calls": 22,
+          "calls": 23,
           "usd": 0.0
         },
         "football_selection:haiku_fallback": {
-          "calls": 22,
+          "calls": 23,
           "usd": 0.0
         },
         "world_topics_month": {
-          "calls": 22,
+          "calls": 23,
           "usd": 0.0
         },
         "world_topics_today": {
-          "calls": 22,
+          "calls": 23,
           "usd": 0.0
         },
         "world_topics_week": {
-          "calls": 22,
+          "calls": 23,
           "usd": 0.0
         }
       },
       "by_category": {
         "archaeology": {
-          "calls": 44,
+          "calls": 46,
           "usd": 0.0
         },
         "australia": {
-          "calls": 44,
+          "calls": 46,
           "usd": 0.0
         },
         "breaking": {
-          "calls": 94,
+          "calls": 96,
           "usd": 0.0
         },
         "developing": {
-          "calls": 47,
+          "calls": 48,
           "usd": 0.0
         },
         "football": {
-          "calls": 44,
+          "calls": 46,
           "usd": 0.0
         },
         "world_topics": {
-          "calls": 66,
+          "calls": 69,
           "usd": 0.0
         }
       },
       "by_model": {
         "claude-haiku-4-5-20251001": {
-          "calls": 226,
+          "calls": 234,
           "usd": 0.0
         },
         "claude-sonnet-4-6": {
-          "calls": 113,
+          "calls": 117,
           "usd": 0.0
         }
       },
       "by_outcome": {
         "error": {
-          "calls": 339,
+          "calls": 351,
           "usd": 0.0
         }
       }

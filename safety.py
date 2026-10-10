@@ -1,6 +1,26 @@
 """Run-health rules: what counts as good data, stale-ness, and when to alert. Pure functions, no I/O."""
+from datetime import datetime, timezone, timedelta
+
+AEST = timezone(timedelta(hours=10))
+STALE_AFTER_HOURS = 8   # single source of truth: page shows a stale warning past this age
 CATEGORIES = ["breaking", "australia", "archaeology", "football"]
 DATA_RUN_TYPES_NO_FETCH = ("deploy_only",)
+
+
+def parse_ts(value):
+    try:
+        dt = datetime.fromisoformat(value)
+    except (TypeError, ValueError):
+        return None
+    return dt if dt.tzinfo else dt.replace(tzinfo=AEST)
+
+
+def is_stale(last_update, now=None, hours=STALE_AFTER_HOURS):
+    """True if last_update is missing, unparseable, or older than `hours`."""
+    dt = parse_ts(last_update)
+    if dt is None:
+        return True
+    return ((now or datetime.now(AEST)) - dt) > timedelta(hours=hours)
 
 
 def claude_stats(rows):

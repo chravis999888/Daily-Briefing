@@ -3,6 +3,8 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
+from safety import STALE_AFTER_HOURS, is_stale, parse_ts
+
 AEST = timezone(timedelta(hours=10))
 
 ACCENTS = {
@@ -44,9 +46,27 @@ def _clean_stories(stories):
     return cleaned
 
 
-def build_html(all_data, yesterday_data, developing_situations, health=None):
-    date_str = datetime.now(AEST).strftime("%A %d %B %Y").upper()
-    updated_str = datetime.now(AEST).strftime("%I:%M %p AEST").lstrip("0")
+def freshness(health, now):
+    """(updated_str, stale_warning) from health['last_successful_data_update'] - never the build time."""
+    last = (health or {}).get("last_successful_data_update")
+    dt = parse_ts(last)
+    if dt is None:
+        return "unknown", "Data freshness unknown: no successful data update has been recorded."
+    dt = dt.astimezone(AEST)
+    text = dt.strftime("%I:%M %p AEST").lstrip("0")
+    if dt.date() != now.date():
+        text += dt.strftime(", %d %b")
+    if not is_stale(last, now):
+        return text, ""
+    hours = int((now - dt).total_seconds() // 3600)
+    return text, (f"Stale data: the last successful update was {hours} hours ago ({text}). "
+                  f"Updates are failing, so the stories below may be out of date (warning after {STALE_AFTER_HOURS}h).")
+
+
+def build_html(all_data, yesterday_data, developing_situations, health=None, now=None):
+    now = now or datetime.now(AEST)
+    date_str = now.strftime("%A %d %B %Y").upper()
+    updated_str, stale_warning = freshness(health, now)
     build_ts = int(datetime.now(timezone.utc).timestamp())
 
     last_run = health["runs"][-1] if health and health.get("runs") else None
@@ -89,6 +109,7 @@ def build_html(all_data, yesterday_data, developing_situations, health=None):
     return template.render(
         date_str=date_str,
         updated_str=updated_str,
+        stale_warning=stale_warning,
         build_ts=build_ts,
         health_status=health_status,
         breaking=_clean_stories(all_data.get("breaking", [])),

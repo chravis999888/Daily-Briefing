@@ -103,6 +103,10 @@ html,body{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-s
     </div>
   </div>
 
+  {% if stale_warning %}
+  <div role="alert" id="stale-warning" style="margin-bottom:2rem;padding:12px 16px;border-radius:8px;background:rgba(230,126,34,0.12);border:1px solid rgba(230,126,34,0.45);color:#f0b27a;font-size:13px;line-height:1.5;">&#9888; {{ stale_warning }}</div>
+  {% endif %}
+
   {# ── Breaking News ── #}
   {% set ac_b = accents.breaking %}
   <div style="margin-bottom:3.5rem;">

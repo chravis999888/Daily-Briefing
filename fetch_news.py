@@ -1,5 +1,6 @@
 import copy
 import os
+from datetime import datetime
 import shutil
 import time
 from pathlib import Path
@@ -9,7 +10,7 @@ from memory import (load_memory, save_memory, load_pinned, load_health, save_hea
                     save_article_hash, category_has_changed, detect_developing_situations,
                     restore_category)
 import fetchers
-from safety import evaluate_run, failed_categories, CATEGORIES
+from safety import evaluate_run, failed_categories, is_stale, CATEGORIES, AEST
 from fetchers import (fetch_gdelt_articles, fetch_guardian, fetch_rss, fetch_newsdata)
 from processors import (process_breaking_news, process_australia, process_archaeology,
                         process_football, process_developing_situations)
@@ -68,6 +69,11 @@ def _finalize(run_type, health, memory, original, all_data, errors, ledger_start
     health = log_run(health, run_type, errors, verdict)
     save_health(update_cost_outputs(health))
     return memory, all_data, yesterday_data, health, verdict
+
+
+def _banner_deploy(verdict, health):
+    """A not-good run still deploys once the page is stale, so the stale warning reaches the live site."""
+    return (not verdict["good"]) and is_stale(health.get("last_successful_data_update"))
 
 
 def mock_data():
@@ -298,7 +304,8 @@ def main():
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, developing_situations))
+            f.write(build_html(all_data, yesterday_data, developing_situations,
+                               health={"last_successful_data_update": datetime.now(AEST).isoformat()}))
         Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written.")
         return
@@ -380,7 +387,7 @@ def main():
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
             f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
-        if content_changed:
+        if content_changed or _banner_deploy(verdict, health):
             Path("dist/.deploy_needed").touch()
             print("Done. dist/index.html written — deploy triggered.")
         else:
@@ -480,7 +487,7 @@ def main():
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
             f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
-        if content_changed:
+        if content_changed or _banner_deploy(verdict, health):
             Path("dist/.deploy_needed").touch()
             print(f"Done. Category-only run for {RUN_CATEGORY} complete — deploy triggered.")
         else:
@@ -588,7 +595,7 @@ def main():
     _copy_favicons()
     with open("dist/index.html", "w", encoding="utf-8") as f:
         f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
-    if content_changed:
+    if content_changed or _banner_deploy(verdict, health):
         Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written — deploy triggered.")
     else:

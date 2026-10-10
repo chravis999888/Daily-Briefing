@@ -38,6 +38,7 @@ def log_run(health, run_type, errors, verdict=None, now=None):
         verdict = {"good": True, "advance": False, "outcome": "degraded" if errors else "ok", "reasons": [],
                    "claude_calls": 0, "claude_calls_errored": 0, "claude_last_error": None}
     if verdict["advance"]:
+        health["last_successful_data_update"] = iso   # only ever set by a GOOD data run
         health["consecutive_failures"] = 0
     elif verdict["outcome"] == "failed":
         health["consecutive_failures"] = health.get("consecutive_failures", 0) + 1

@@ -51,8 +51,8 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           # Mode comes from the schedule string: the full cron ('0 */2 * * *') => full,
           # any other cron => breaking_only. Manual dispatch uses the 'mode' input
-          # (default 'full'), exactly as before. KEEP IN SYNC with the cron lines above.
-          RUN_MODE: ${{ github.event.inputs.mode || (github.event.schedule == '0 */2 * * *' && 'full' || 'breaking_only') }}
+          # (a blank or missing mode means 'full'), exactly as before. KEEP IN SYNC with the cron lines above.
+          RUN_MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '0 */2 * * *' && 'full' || 'breaking_only') || github.event.inputs.mode || 'full' }}
           RUN_CATEGORY: ${{ github.event.inputs.category || '' }}
         run: python fetch_news.py
 

@@ -92,5 +92,42 @@ class B_EmptySummaries(unittest.TestCase):
             self.assertEqual(read_json(d, "health.json")["runs"][-1]["outcome"], "failed")
 
 
+class D_HealthDot(unittest.TestCase):
+    def _dot(self, run, now=None):
+        from page.builder import build_html
+        health = {"runs": [run], "last_successful_data_update": hrs(1)}
+        html = build_html({}, {}, [], health=health)
+        colour = re.search(r"border-radius:50%;background:(#\w+)", html).group(1)
+        tip = re.search(r'class="health-tooltip"[^>]*>([^<]*)<', html).group(1)
+        return colour, tip, html
+
+    def test_failed_run_is_red_and_says_how_many_calls_failed(self):
+        colour, tip, _ = self._dot({"run_type": "full", "outcome": "failed", "claude_calls": 8,
+                                    "claude_calls_errored": 8, "errors": [], "reasons": ["all 8 Claude calls failed"]})
+        self.assertEqual(colour, "#e74c3c")
+        self.assertIn("failed", tip); self.assertIn("8 of 8 Claude calls failed", tip)
+
+    def test_degraded_is_orange(self):
+        colour, tip, _ = self._dot({"run_type": "full", "outcome": "degraded", "claude_calls": 12,
+                                    "claude_calls_errored": 2, "errors": []})
+        self.assertEqual(colour, "#e67e22")
+        self.assertIn("degraded", tip); self.assertIn("2 of 12 Claude calls failed", tip)
+
+    def test_ok_is_green(self):
+        colour, tip, _ = self._dot({"run_type": "full", "outcome": "ok", "claude_calls": 12, "claude_calls_errored": 0, "errors": []})
+        self.assertEqual(colour, "#2ecc71"); self.assertIn("ok", tip)
+
+    def test_legacy_run_without_outcome_still_renders(self):
+        self.assertEqual(self._dot({"run_type": "full", "status": "ok", "errors": []})[0], "#2ecc71")
+        self.assertEqual(self._dot({"run_type": "full", "errors": ["GDELT fetch failed"]})[0], "#e67e22")
+
+    def test_tooltip_is_escaped(self):
+        evil = "<script>alert(1)</script>"
+        _, tip, html = self._dot({"run_type": "full", "outcome": "failed", "claude_calls": 1, "claude_calls_errored": 1,
+                                  "errors": [evil], "reasons": [evil]})
+        self.assertNotIn(evil, html)
+        self.assertIn("&lt;script&gt;", tip)
+
+
 if __name__ == "__main__":
     unittest.main()

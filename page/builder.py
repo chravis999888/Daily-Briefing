@@ -46,6 +46,25 @@ def _clean_stories(stories):
     return cleaned
 
 
+def health_dot(run):
+    """Dot colour and tooltip from the last run's outcome: failed red, degraded orange, ok green.
+    Runs written before outcome existed fall back to the old rule (source errors => orange)."""
+    if not run:
+        return None
+    outcome = run.get("outcome")
+    errors = run.get("errors") or []
+    colour = {"failed": "#e74c3c", "degraded": "#e67e22", "ok": "#2ecc71"}.get(outcome)         or ("#e67e22" if errors else "#2ecc71")
+    if not outcome:
+        return {"color": colour, "tooltip": ("Issues: " + "; ".join(errors[:3])) if errors else "All sources OK"}
+    parts = [f"Last run ({run.get('run_type', '?')}): {outcome}"]
+    if run.get("claude_calls"):
+        parts.append(f"{run.get('claude_calls_errored', 0)} of {run['claude_calls']} Claude calls failed")
+    parts += [str(r)[:160] for r in (run.get("reasons") or [])[:2]]
+    if errors:
+        parts.append("Sources: " + "; ".join(str(e)[:120] for e in errors[:3]))
+    return {"color": colour, "tooltip": ". ".join(parts)}
+
+
 def freshness(health, now):
     """(updated_str, stale_warning) from health['last_successful_data_update'] - never the build time."""
     last = (health or {}).get("last_successful_data_update")
@@ -69,14 +88,7 @@ def build_html(all_data, yesterday_data, developing_situations, health=None, now
     updated_str, stale_warning = freshness(health, now)
     build_ts = int(datetime.now(timezone.utc).timestamp())
 
-    last_run = health["runs"][-1] if health and health.get("runs") else None
-    if last_run:
-        health_status = {
-            "color": "#e67e22" if last_run.get("errors") else "#2ecc71",
-            "tooltip": ("Issues: " + "; ".join(last_run["errors"][:3])) if last_run.get("errors") else "All sources OK",
-        }
-    else:
-        health_status = None
+    health_status = health_dot(health["runs"][-1] if health and health.get("runs") else None)
 
     col_categories = [
         {

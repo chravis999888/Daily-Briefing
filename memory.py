@@ -27,9 +27,10 @@ def save_health(health):
         print(f"Health save error: {e}")
 
 
-def log_run(health, run_type, errors, verdict=None, now=None):
-    """Record one run in health.json: outcome (ok / degraded / failed), Claude failure counts and
-    consecutive_failures. `errors` keeps the legacy per-run list (GDELT problems) that drives the
+def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), now=None):
+    """Record one run in health.json (the single status file): per-run outcome (ok / degraded / failed)
+    and Claude failure counts; per-source last success / last error (`sources`); top-level `errors`
+    (last 50 problems); consecutive_failures; last_successful_run. `errors` keeps the legacy per-run list (GDELT problems) that drives the
     page's health dot."""
     now = now or datetime.now(AEST)
     iso = now.isoformat()
@@ -37,6 +38,31 @@ def log_run(health, run_type, errors, verdict=None, now=None):
     if verdict is None:
         verdict = {"good": True, "advance": False, "outcome": "degraded" if errors else "ok", "reasons": [],
                    "claude_calls": 0, "claude_calls_errored": 0, "claude_last_error": None}
+    sources = health.setdefault("sources", {})
+    new_errors = []
+    for name, ok, msg in source_events:
+        src = sources.setdefault(name, {"last_success": None, "last_error": None})
+        if ok:
+            src["last_success"] = iso
+        else:
+            src["last_error"] = {"time": iso, "message": msg}
+            new_errors.append({"timestamp": iso, "run_type": run_type, "source": name, "message": msg})
+    if rows:
+        claude = sources.setdefault("claude", {"last_success": None, "last_error": None})
+        if any(r.get("outcome") == "ok" for r in rows):
+            claude["last_success"] = iso
+        if verdict["claude_calls_errored"]:
+            claude["last_error"] = {"time": iso, "message": verdict["claude_last_error"]}
+            new_errors.append({"timestamp": iso, "run_type": run_type, "source": "claude",
+                               "message": f"{verdict['claude_calls_errored']}/{verdict['claude_calls']} calls failed: "
+                                          f"{verdict['claude_last_error']}"})
+    for reason in verdict["reasons"]:
+        new_errors.append({"timestamp": iso, "run_type": run_type, "source": "run", "message": reason})
+    health["errors"] = (health.get("errors") or []) + new_errors
+    health["errors"] = health["errors"][-50:]
+    if verdict["outcome"] != "failed":
+        health["last_successful_run"] = iso
+
     if verdict["advance"]:
         health["last_successful_data_update"] = iso   # only ever set by a GOOD data run
         health["consecutive_failures"] = 0

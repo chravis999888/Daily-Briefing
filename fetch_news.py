@@ -66,7 +66,7 @@ def _finalize(run_type, health, memory, original, all_data, errors, ledger_start
         memory = original
         all_data = {cat: get_cached_category(original, cat) for cat in CATEGORIES}
     yesterday_data = {cat: get_previous_stories(memory, cat) for cat in CATEGORIES}
-    health = log_run(health, run_type, errors, verdict)
+    health = log_run(health, run_type, errors, verdict, list(fetchers.SOURCE_EVENTS), rows)
     save_health(update_cost_outputs(health))
     return memory, all_data, yesterday_data, health, verdict
 

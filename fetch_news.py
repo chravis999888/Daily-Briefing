@@ -1,16 +1,23 @@
+import copy
 import os
+from datetime import datetime
 import shutil
+import sys
 import time
 from pathlib import Path
 
 from memory import (load_memory, save_memory, load_pinned, load_health, save_health, log_run,
                     get_cached_category, get_previous_stories, save_today_stories,
-                    save_article_hash, category_has_changed, detect_developing_situations)
+                    save_article_hash, category_has_changed, detect_developing_situations,
+                    restore_category)
+import fetchers
+from safety import (evaluate_run, failed_categories, attempted_categories, empty_summary_categories,
+                    CATEGORIES, AEST)
 from fetchers import (fetch_gdelt_articles, fetch_guardian, fetch_rss, fetch_newsdata)
 from processors import (process_breaking_news, process_australia, process_archaeology,
-                        process_football, process_world_topics, process_developing_situations)
+                        process_football, process_developing_situations)
 from page.builder import build_html
-from costs import update_cost_outputs
+from costs import update_cost_outputs, load_rows
 
 MOCK_MODE = False
 RUN_MODE = os.environ.get("RUN_MODE", "full")
@@ -36,6 +43,49 @@ def _copy_favicons():
         src = Path(fname)
         if src.exists():
             shutil.copy(src, Path("dist") / fname)
+
+
+def _finalize(run_type, health, memory, original, all_data, errors, ledger_start, check_picks=False):
+    """Apply the data-safety rule (see safety.evaluate_run) and write health.json.
+
+    Good run: save memory.json; any category whose Claude selection failed keeps its previous stories.
+    Not-good run: memory.json and the stories are left untouched (the page is rebuilt from `original`).
+    health.json and the cost ledger are written either way.
+    """
+    rows = load_rows()[ledger_start:]
+    fetched_any = any(ok for _, ok, _ in fetchers.SOURCE_EVENTS)
+    # A category falls back to its previous stories if its selection failed or any story has no summary.
+    failed_cats = failed_categories(rows) | empty_summary_categories(all_data, attempted_categories(rows))
+    fresh = {c: v for c, v in all_data.items() if c not in failed_cats} if check_picks else None
+    verdict = evaluate_run(run_type, memory, rows, fetched_any, fresh=fresh, fallback_cats=failed_cats)
+    if verdict["good"]:
+        for cat in sorted(failed_cats):
+            print(f"{cat}: selection or summary failed — keeping previous stories")
+            memory = restore_category(memory, original, cat)
+            all_data[cat] = get_cached_category(original, cat)
+        save_memory(memory)
+    else:
+        print(f"RUN NOT GOOD: {'; '.join(verdict['reasons'])} — keeping previous stories and memory.json untouched")
+        memory = original
+        all_data = {cat: get_cached_category(original, cat) for cat in CATEGORIES}
+    yesterday_data = {cat: get_previous_stories(memory, cat) for cat in CATEGORIES}
+    health = log_run(health, run_type, errors, verdict, list(fetchers.SOURCE_EVENTS), rows)
+    save_health(update_cost_outputs(health))
+    return memory, all_data, yesterday_data, health, verdict
+
+
+def _exit_code(health):
+    """1 only when log_run decided this run should alert (see safety.decide_alert), else 0."""
+    if health["runs"][-1].get("alerted"):
+        print("ALERT: failing this workflow run on purpose so GitHub sends a failure notification.")
+        return 1
+    return 0
+
+
+def _banner_deploy(verdict, health):
+    """Deploy a not-good run once, when the page first goes stale, so the warning reaches the live
+    site. log_run decides (health['stale_deployed'] flag, reset by a good run)."""
+    return bool(health["runs"][-1].get("banner_deploy"))
 
 
 def mock_data():
@@ -262,32 +312,36 @@ def mock_data():
 def main():
     if MOCK_MODE:
         print("MOCK_MODE enabled — skipping all API calls.")
-        all_data, yesterday_data, world_topics, developing_situations = mock_data()
+        all_data, yesterday_data, _unused_world_topics, developing_situations = mock_data()
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+            f.write(build_html(all_data, yesterday_data, developing_situations,
+                               health={"last_successful_data_update": datetime.now(AEST).isoformat()}))
         Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written.")
         return
 
     memory = load_memory()
+    original = copy.deepcopy(memory)
     pinned = load_pinned()
     health = load_health()
+    ledger_start = len(load_rows())
+    fetchers.SOURCE_EVENTS.clear()
 
     if RUN_MODE == "deploy_only":
         print("Deploy-only run — rebuilding HTML from cache, zero API calls.")
         errors = []
         all_data = {cat: get_cached_category(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
         yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
-        world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []})
         developing_situations = process_developing_situations(pinned, [], [])
-        health = log_run(health, "deploy_only", errors)
+        verdict = evaluate_run("deploy_only", memory, [], True)
+        health = log_run(health, "deploy_only", errors, verdict)
         save_health(update_cost_outputs(health))
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
+            f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
         Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written from cache.")
         return
@@ -304,6 +358,9 @@ def main():
             print(f"GDELT: {gdelt_err}")
             if "skipped" not in gdelt_err:
                 errors.append(gdelt_err)
+                fetchers.record_source("GDELT", False, gdelt_err)
+        else:
+            fetchers.record_source("GDELT", bool(gdelt_breaking), "" if gdelt_breaking else "0 articles returned")
         guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
         reuters_rss = fetch_rss("https://feeds.reuters.com/reuters/topNews", "Reuters")
         ap_rss = fetch_rss("https://rsshub.app/apnews/topics/apf-topnews", "AP News")
@@ -332,24 +389,22 @@ def main():
             "archaeology": get_cached_category(memory, "archaeology"),
             "football": get_cached_category(memory, "football")
         }
-        world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []})
-        yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
         developing_situations = process_developing_situations(pinned, [], all_breaking) if pinned else []
 
-        save_memory(memory)
-        health = log_run(health, "breaking_only", errors)
-        save_health(update_cost_outputs(health))
+        memory, all_data, yesterday_data, health, verdict = _finalize(
+            "breaking_only", health, memory, original, all_data, errors, ledger_start)
+        content_changed = content_changed and verdict["good"]
 
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
-        if content_changed:
+            f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
+        if content_changed or _banner_deploy(verdict, health):
             Path("dist/.deploy_needed").touch()
             print("Done. dist/index.html written — deploy triggered.")
         else:
             print("Done. dist/index.html written — no new content, deploy skipped.")
-        return
+        return _exit_code(health)
 
     elif RUN_MODE == "category" and RUN_CATEGORY:
         print(f"Category-only run: {RUN_CATEGORY}...")
@@ -430,44 +485,30 @@ def main():
                 "football": get_cached_category(memory, "football")
             }
 
-        elif RUN_CATEGORY == "world_topics":
-            world_topics, memory = process_world_topics(memory)
-            content_changed = True
-            all_data = {
-                "breaking": get_cached_category(memory, "breaking"),
-                "australia": get_cached_category(memory, "australia"),
-                "archaeology": get_cached_category(memory, "archaeology"),
-                "football": get_cached_category(memory, "football")
-            }
         else:
             print(f"Unknown category: {RUN_CATEGORY}, aborting.")
             return
 
-        world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []}) if RUN_CATEGORY != "world_topics" else world_topics
         if RUN_CATEGORY in ("breaking", "australia", "archaeology", "football"):
             memory = save_today_stories(memory, RUN_CATEGORY, result)
-        yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
         developing_situations = process_developing_situations(pinned, [], [])
-        save_memory(memory)
-        health = log_run(health, f"category:{RUN_CATEGORY}", errors)
-        save_health(update_cost_outputs(health))
+        memory, all_data, yesterday_data, health, verdict = _finalize(
+            f"category:{RUN_CATEGORY}", health, memory, original, all_data, errors, ledger_start)
+        content_changed = content_changed and verdict["good"]
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
-        if content_changed:
+            f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
+        if content_changed or _banner_deploy(verdict, health):
             Path("dist/.deploy_needed").touch()
             print(f"Done. Category-only run for {RUN_CATEGORY} complete — deploy triggered.")
         else:
             print(f"Done. Category-only run for {RUN_CATEGORY} complete — no new content, deploy skipped.")
-        return
+        return _exit_code(health)
 
     # Full run
     errors = []
     content_changed = False
-
-    print("Fetching world topics...")
-    world_topics, memory = process_world_topics(memory)
 
     print("Fetching Breaking News...")
     gdelt_breaking, gdelt_err, memory = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="1h", max_records=25, memory=memory)
@@ -478,6 +519,9 @@ def main():
         print(f"GDELT: {gdelt_err}")
         if "skipped" not in gdelt_err:
             errors.append(gdelt_err)
+            fetchers.record_source("GDELT", False, gdelt_err)
+    else:
+        fetchers.record_source("GDELT", bool(gdelt_breaking), "" if gdelt_breaking else "0 articles returned")
     guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
     reuters_rss = fetch_rss("https://feeds.reuters.com/reuters/topNews", "Reuters")
     ap_rss = fetch_rss("https://rsshub.app/apnews/topics/apf-topnews", "AP News")
@@ -555,27 +599,21 @@ def main():
     for cat in ["breaking", "australia", "archaeology", "football"]:
         memory = save_today_stories(memory, cat, all_data[cat])
 
-    yesterday_data = {
-        "breaking": get_previous_stories(memory, "breaking"),
-        "australia": get_previous_stories(memory, "australia"),
-        "archaeology": get_previous_stories(memory, "archaeology"),
-        "football": get_previous_stories(memory, "football")
-    }
-    content_changed = any(all_data[cat] for cat in ["breaking", "australia", "archaeology", "football"])
-    save_memory(memory)
-    health = log_run(health, "full", errors)
-    save_health(update_cost_outputs(health))
+    memory, all_data, yesterday_data, health, verdict = _finalize(
+        "full", health, memory, original, all_data, errors, ledger_start, check_picks=True)
+    content_changed = verdict["good"] and any(all_data[cat] for cat in CATEGORIES)
 
     Path("dist").mkdir(exist_ok=True)
     _copy_favicons()
     with open("dist/index.html", "w", encoding="utf-8") as f:
-        f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
-    if content_changed:
+        f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
+    if content_changed or _banner_deploy(verdict, health):
         Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written — deploy triggered.")
     else:
         print("Done. dist/index.html written — no new content, deploy skipped.")
+    return _exit_code(health)
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)

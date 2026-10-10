@@ -98,10 +98,14 @@ html,body{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-s
       <div style="display:flex;align-items:center;gap:10px;padding-bottom:6px;">
         <button id="gh-connect-btn" onclick="setupGhToken()" style="background:none;border:1px solid rgba(255,255,255,0.08);border-radius:6px;cursor:pointer;padding:4px 10px;color:#444440;font-size:11px;font-family:Inter,sans-serif;transition:all 0.15s;display:none;" onmouseover="this.style.color='#f0ece4';this.style.borderColor='rgba(255,255,255,0.2)'" onmouseout="this.style.color='#444440';this.style.borderColor='rgba(255,255,255,0.08)'">Connect GitHub</button>
         <button id="gh-connected-btn" style="background:none;border:1px solid rgba(42,122,110,0.3);border-radius:6px;padding:4px 10px;color:#4aaa99;font-size:11px;font-family:Inter,sans-serif;display:none;">&#10003; GitHub connected</button>
-        <span style="font-size:11px;color:#2a2a28;" id="refresh-status">{% if health_status %}<span class="health-dot-wrap" style="position:relative;display:inline-block;vertical-align:middle;margin-right:6px;"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:{{ health_status.color }};cursor:default;"></span><span class="health-tooltip" style="display:none;position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#1c1c1a;border:1px solid rgba(255,255,255,0.1);border-radius:6px;padding:6px 10px;white-space:nowrap;font-size:11px;font-family:Inter,sans-serif;color:#c8c4bc;pointer-events:none;z-index:100;opacity:0;transition:opacity 0.2s;">{{ health_status.tooltip }}</span></span>{% endif %}Refreshes automatically</span>
+        <span style="font-size:11px;color:#2a2a28;" id="refresh-status">{% if health_status %}<span class="health-dot-wrap" style="position:relative;display:inline-block;vertical-align:middle;margin-right:6px;"><span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:{{ health_status.color }};cursor:default;"></span><span class="health-tooltip" style="display:none;position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#1c1c1a;border:1px solid rgba(255,255,255,0.1);border-radius:6px;padding:6px 10px;white-space:normal;width:280px;text-align:left;line-height:1.4;font-size:11px;font-family:Inter,sans-serif;color:#c8c4bc;pointer-events:none;z-index:100;opacity:0;transition:opacity 0.2s;">{{ health_status.tooltip }}</span></span>{% endif %}Page built {{ built_str }}</span>
       </div>
     </div>
   </div>
+
+  {% if stale_warning %}
+  <div role="alert" id="stale-warning" style="margin-bottom:2rem;padding:12px 16px;border-radius:8px;background:rgba(230,126,34,0.12);border:1px solid rgba(230,126,34,0.45);color:#f0b27a;font-size:13px;line-height:1.5;">&#9888; {{ stale_warning }}</div>
+  {% endif %}
 
   {# ── Breaking News ── #}
   {% set ac_b = accents.breaking %}
@@ -135,45 +139,8 @@ html,body{background:#111110;color:#f0ece4;font-family:'Inter',sans-serif;font-s
     {% endif %}
   </div>
 
-  {# ── World Topics + Developing Situations row ── #}
-  <div style="display:grid;grid-template-columns:3fr 2fr;gap:2rem;margin-bottom:3.5rem;">
-
-    {# World topics #}
-    <div>
-      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.07);">
-        <div style="display:flex;align-items:center;gap:10px;">
-          <div style="width:3px;height:24px;border-radius:2px;background:{{ accents.world }};flex-shrink:0;"></div>
-          <div style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:500;letter-spacing:-0.01em;">What the world is talking about</div>
-          <button id="refresh-world_topics" onclick="triggerCategoryRefresh('world_topics')" title="Refresh World Topics" style="background:none;border:none;cursor:pointer;padding:4px;color:#2a2a28;font-size:13px;flex-shrink:0;line-height:1;transition:color 0.15s;display:none;" onmouseover="this.style.color='#6e6b64'" onmouseout="this.style.color='#2a2a28'">↻</button>
-        </div>
-        <div style="display:flex;gap:4px;">
-          {% for tab_id, tab_label in [('today', 'Today'), ('week', 'This Week'), ('month', 'This Month')] %}
-          {% set is_first = loop.first %}
-          <button onclick="switchTab('{{ tab_id }}')" id="tab-{{ tab_id }}" style="padding:6px 16px;border-radius:999px;font-size:12px;cursor:pointer;border:none;font-family:Inter,sans-serif;font-weight:{{ '500' if is_first else '400' }};background:{{ 'rgba(123,104,200,0.2)' if is_first else 'transparent' }};color:{{ '#b8b0e8' if is_first else '#555550' }};">{{ tab_label }}</button>
-          {% endfor %}
-        </div>
-      </div>
-      {% for tab_id, tab_label in [('today', 'Today'), ('week', 'This Week'), ('month', 'This Month')] %}
-      {% set tab_stories = world_topics[tab_id] if tab_id in world_topics else [] %}
-      <div id="panel-{{ tab_id }}" style="display:{{ 'block' if loop.first else 'none' }};">
-        {% if not tab_stories %}
-        <p style="color:#333330;font-size:13px;padding:1rem 0;">No data available.</p>
-        {% else %}
-        {% for s in tab_stories[:5] %}
-        {% set num = ('0' ~ loop.index) if loop.index < 10 else loop.index|string %}
-        <div style="display:flex;gap:14px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.05);">
-          <span style="font-size:11px;color:#2a2a28;min-width:20px;margin-top:2px;flex-shrink:0;">{{ num }}</span>
-          <div style="flex:1;">
-            <div style="font-size:14px;font-weight:400;color:#f0ece4;line-height:1.4;margin-bottom:4px;">{{ s.headline|default('')|e }}</div>
-            <div style="font-size:12px;color:#555550;line-height:1.5;">{{ s.why|default('')|e }}</div>
-            <div style="font-size:11px;color:#333330;margin-top:4px;">{{ s.coverage|default('')|e }}</div>
-          </div>
-        </div>
-        {% endfor %}
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
+  {# ── Developing Situations (trending panel switched off, #57) ── #}
+  <div style="margin-bottom:3.5rem;">
 
     {# Developing situations #}
     <div>

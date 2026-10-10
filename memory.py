@@ -3,6 +3,8 @@ import hashlib
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+from safety import decide_alert, is_stale
+
 AEST = timezone(timedelta(hours=10))
 MEMORY_FILE = "memory.json"
 PINNED_FILE = "pinned.txt"
@@ -27,16 +29,90 @@ def save_health(health):
         print(f"Health save error: {e}")
 
 
-def log_run(health, run_type, errors):
-    now = datetime.now(AEST).isoformat()
+def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), now=None):
+    """Record one run in health.json (the single status file): per-run outcome (ok / degraded / failed)
+    and Claude failure counts; per-source last success / last error (`sources`); top-level `errors`
+    (last 50 problems); consecutive_failures; last_successful_run. `errors` keeps the legacy per-run list (GDELT problems) that drives the
+    page's health dot."""
+    now = now or datetime.now(AEST)
+    iso = now.isoformat()
+    health.setdefault("runs", [])
+    if verdict is None:
+        verdict = {"good": True, "advance": False, "outcome": "degraded" if errors else "ok", "reasons": [],
+                   "claude_calls": 0, "claude_calls_errored": 0, "claude_last_error": None}
+    sources = health.setdefault("sources", {})
+    new_errors = []
+    for name, ok, msg in source_events:
+        src = sources.setdefault(name, {"last_success": None, "last_error": None})
+        if ok:
+            src["last_success"] = iso
+        else:
+            src["last_error"] = {"time": iso, "message": msg}
+            new_errors.append({"timestamp": iso, "run_type": run_type, "source": name, "message": msg})
+    if rows:
+        claude = sources.setdefault("claude", {"last_success": None, "last_error": None})
+        if any(r.get("outcome") == "ok" for r in rows):
+            claude["last_success"] = iso
+        if verdict["claude_calls_errored"]:
+            claude["last_error"] = {"time": iso, "message": verdict["claude_last_error"]}
+            new_errors.append({"timestamp": iso, "run_type": run_type, "source": "claude",
+                               "message": f"{verdict['claude_calls_errored']}/{verdict['claude_calls']} calls failed: "
+                                          f"{verdict['claude_last_error']}"})
+    for reason in verdict["reasons"]:
+        new_errors.append({"timestamp": iso, "run_type": run_type, "source": "run", "message": reason})
+    health["errors"] = (health.get("errors") or []) + new_errors
+    health["errors"] = health["errors"][-50:]
+    if verdict["outcome"] != "failed":
+        health["last_successful_run"] = iso
+
+    if verdict["advance"]:
+        health["last_successful_data_update"] = iso   # only ever set by a GOOD data run
+        health["consecutive_failures"] = 0
+        health["stale_alerted"] = False
+        health["stale_deployed"] = False
+    elif verdict["outcome"] == "failed":
+        health["consecutive_failures"] = health.get("consecutive_failures", 0) + 1
+    health.setdefault("consecutive_failures", 0)
+    alert, mark_stale = decide_alert(health, verdict["outcome"], health["consecutive_failures"], now)
+    if mark_stale:
+        health["stale_alerted"] = True
+    # Deploy the stale banner once per outage: first not-good run past the threshold only.
+    banner_deploy = (not verdict["good"]) and is_stale(health.get("last_successful_data_update"), now)         and not health.get("stale_deployed")
+    if banner_deploy:
+        health["stale_deployed"] = True
     health["runs"].append({
-        "timestamp": now,
+        "timestamp": iso,
         "run_type": run_type,
+        "outcome": verdict["outcome"],
+        "data_good": verdict["good"],
+        "claude_calls": verdict["claude_calls"],
+        "claude_calls_errored": verdict["claude_calls_errored"],
+        "reasons": verdict["reasons"],
         "errors": errors,
-        "status": "degraded" if errors else "ok"
+        "banner_deploy": banner_deploy,
+        "alerted": alert,   # True => the workflow run is failed on purpose (GitHub emails the owner)
     })
     health["runs"] = health["runs"][-50:]
     return health
+
+
+def restore_category(memory, original, category):
+    """Undo this run's change to one category (its Claude call failed): put back the stories
+    stored for today and the article hash as they were, so the next run retries."""
+    today = datetime.now(AEST).strftime("%Y-%m-%d")
+    old_today = original.get("stories", {}).get(today, {})
+    day = memory.setdefault("stories", {}).setdefault(today, {})
+    if category in old_today:
+        day[category] = old_today[category]
+    else:
+        day.pop(category, None)
+    old_hash = original.get("article_hashes", {}).get(category)
+    hashes = memory.setdefault("article_hashes", {})
+    if old_hash is None:
+        hashes.pop(category, None)
+    else:
+        hashes[category] = old_hash
+    return memory
 
 
 def load_memory():

@@ -3,7 +3,7 @@ import hashlib
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-from safety import decide_alert
+from safety import decide_alert, is_stale
 
 AEST = timezone(timedelta(hours=10))
 MEMORY_FILE = "memory.json"
@@ -69,12 +69,17 @@ def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), n
         health["last_successful_data_update"] = iso   # only ever set by a GOOD data run
         health["consecutive_failures"] = 0
         health["stale_alerted"] = False
+        health["stale_deployed"] = False
     elif verdict["outcome"] == "failed":
         health["consecutive_failures"] = health.get("consecutive_failures", 0) + 1
     health.setdefault("consecutive_failures", 0)
     alert, mark_stale = decide_alert(health, verdict["outcome"], health["consecutive_failures"], now)
     if mark_stale:
         health["stale_alerted"] = True
+    # Deploy the stale banner once per outage: first not-good run past the threshold only.
+    banner_deploy = (not verdict["good"]) and is_stale(health.get("last_successful_data_update"), now)         and not health.get("stale_deployed")
+    if banner_deploy:
+        health["stale_deployed"] = True
     health["runs"].append({
         "timestamp": iso,
         "run_type": run_type,
@@ -84,6 +89,7 @@ def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), n
         "claude_calls_errored": verdict["claude_calls_errored"],
         "reasons": verdict["reasons"],
         "errors": errors,
+        "banner_deploy": banner_deploy,
         "alerted": alert,   # True => the workflow run is failed on purpose (GitHub emails the owner)
     })
     health["runs"] = health["runs"][-50:]

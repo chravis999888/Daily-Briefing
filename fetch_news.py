@@ -11,7 +11,7 @@ from memory import (load_memory, save_memory, load_pinned, load_health, save_hea
                     save_article_hash, category_has_changed, detect_developing_situations,
                     restore_category)
 import fetchers
-from safety import evaluate_run, failed_categories, is_stale, CATEGORIES, AEST
+from safety import evaluate_run, failed_categories, CATEGORIES, AEST
 from fetchers import (fetch_gdelt_articles, fetch_guardian, fetch_rss, fetch_newsdata)
 from processors import (process_breaking_news, process_australia, process_archaeology,
                         process_football, process_developing_situations)
@@ -81,8 +81,9 @@ def _exit_code(health):
 
 
 def _banner_deploy(verdict, health):
-    """A not-good run still deploys once the page is stale, so the stale warning reaches the live site."""
-    return (not verdict["good"]) and is_stale(health.get("last_successful_data_update"))
+    """Deploy a not-good run once, when the page first goes stale, so the warning reaches the live
+    site. log_run decides (health['stale_deployed'] flag, reset by a good run)."""
+    return bool(health["runs"][-1].get("banner_deploy"))
 
 
 def mock_data():

@@ -129,5 +129,27 @@ class D_HealthDot(unittest.TestCase):
         self.assertIn("&lt;script&gt;", tip)
 
 
+class E_BuildTimeNotFreshness(unittest.TestCase):
+    NOW = datetime(2026, 10, 11, 12, 0, tzinfo=AEST)
+
+    def _html(self, health):
+        from page.builder import build_html
+        return build_html({}, {}, [], health=health, now=self.NOW)
+
+    def test_header_date_is_the_data_date_not_the_build_date(self):
+        html = self._html({"last_successful_data_update": (self.NOW - timedelta(days=2)).isoformat()})
+        self.assertIn("FRIDAY 09 OCTOBER 2026", html)
+        self.assertNotIn("SUNDAY 11 OCTOBER 2026", html)
+
+    def test_unknown_data_date_is_labelled_page_built(self):
+        html = self._html({})
+        self.assertIn("PAGE BUILT SUNDAY 11 OCTOBER 2026", html)
+
+    def test_build_time_is_labelled_as_such(self):
+        html = self._html({"last_successful_data_update": self.NOW.isoformat()})
+        self.assertIn("Page built 12:00 PM AEST", html)
+        self.assertNotIn("Refreshes automatically", html)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -84,7 +84,11 @@ def freshness(health, now):
 
 def build_html(all_data, yesterday_data, developing_situations, health=None, now=None):
     now = now or datetime.now(AEST)
-    date_str = now.strftime("%A %d %B %Y").upper()
+    data_dt = parse_ts((health or {}).get("last_successful_data_update"))
+    # header date = the date of the data; if unknown, say plainly that it is only the build date
+    date_str = (data_dt.astimezone(AEST).strftime("%A %d %B %Y").upper() if data_dt
+                else "PAGE BUILT " + now.strftime("%A %d %B %Y").upper())
+    built_str = now.strftime("%I:%M %p AEST").lstrip("0")
     updated_str, stale_warning = freshness(health, now)
     build_ts = int(datetime.now(timezone.utc).timestamp())
 
@@ -120,6 +124,7 @@ def build_html(all_data, yesterday_data, developing_situations, health=None, now
     template = env.get_template("template.html")
     return template.render(
         date_str=date_str,
+        built_str=built_str,
         updated_str=updated_str,
         stale_warning=stale_warning,
         build_ts=build_ts,

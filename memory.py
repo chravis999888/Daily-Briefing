@@ -27,16 +27,52 @@ def save_health(health):
         print(f"Health save error: {e}")
 
 
-def log_run(health, run_type, errors):
-    now = datetime.now(AEST).isoformat()
+def log_run(health, run_type, errors, verdict=None, now=None):
+    """Record one run in health.json: outcome (ok / degraded / failed), Claude failure counts and
+    consecutive_failures. `errors` keeps the legacy per-run list (GDELT problems) that drives the
+    page's health dot."""
+    now = now or datetime.now(AEST)
+    iso = now.isoformat()
+    health.setdefault("runs", [])
+    if verdict is None:
+        verdict = {"good": True, "advance": False, "outcome": "degraded" if errors else "ok", "reasons": [],
+                   "claude_calls": 0, "claude_calls_errored": 0, "claude_last_error": None}
+    if verdict["advance"]:
+        health["consecutive_failures"] = 0
+    elif verdict["outcome"] == "failed":
+        health["consecutive_failures"] = health.get("consecutive_failures", 0) + 1
+    health.setdefault("consecutive_failures", 0)
     health["runs"].append({
-        "timestamp": now,
+        "timestamp": iso,
         "run_type": run_type,
+        "outcome": verdict["outcome"],
+        "data_good": verdict["good"],
+        "claude_calls": verdict["claude_calls"],
+        "claude_calls_errored": verdict["claude_calls_errored"],
+        "reasons": verdict["reasons"],
         "errors": errors,
-        "status": "degraded" if errors else "ok"
     })
     health["runs"] = health["runs"][-50:]
     return health
+
+
+def restore_category(memory, original, category):
+    """Undo this run's change to one category (its Claude call failed): put back the stories
+    stored for today and the article hash as they were, so the next run retries."""
+    today = datetime.now(AEST).strftime("%Y-%m-%d")
+    old_today = original.get("stories", {}).get(today, {})
+    day = memory.setdefault("stories", {}).setdefault(today, {})
+    if category in old_today:
+        day[category] = old_today[category]
+    else:
+        day.pop(category, None)
+    old_hash = original.get("article_hashes", {}).get(category)
+    hashes = memory.setdefault("article_hashes", {})
+    if old_hash is None:
+        hashes.pop(category, None)
+    else:
+        hashes[category] = old_hash
+    return memory
 
 
 def load_memory():

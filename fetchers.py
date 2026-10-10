@@ -10,6 +10,13 @@ from email.utils import parsedate_to_datetime
 NEWSDATA_KEY = os.environ.get("NEWSDATA_API_KEY", "")
 GUARDIAN_KEY = os.environ.get("GUARDIAN_API_KEY", "")
 
+# One (name, ok, message) event per fetch this run; fetch_news reads and clears it.
+SOURCE_EVENTS = []
+
+
+def record_source(name, ok, message=""):
+    SOURCE_EVENTS.append((name, bool(ok), message))
+
 
 def fetch_gdelt_articles(query, timespan="1h", max_records=25, memory=None):
     # 2-hour rate-limit gate
@@ -217,9 +224,11 @@ def fetch_guardian(query, page_size=15, section=None):
                 "content": body[:2000],
                 "image": fields.get("thumbnail", "")
             })
+        record_source("Guardian", articles, "" if articles else "0 articles returned")
         return articles
     except Exception as e:
         print(f"Guardian fetch error: {e}")
+        record_source("Guardian", False, f"{type(e).__name__}: {e}"[:300])
         return []
 
 
@@ -240,9 +249,11 @@ def fetch_rss(url, source_name):
                 "content": re.sub(r'<[^>]+>', '', summary)[:1000],
                 "image": image
             })
+        record_source(source_name, articles, "" if articles else "0 articles returned")
         return articles
     except Exception as e:
         print(f"RSS fetch error {url}: {e}")
+        record_source(source_name, False, f"{type(e).__name__}: {e}"[:300])
         return []
 
 
@@ -256,6 +267,7 @@ def fetch_newsdata(query, country=None):
         data = r.json()
         results = data.get("results", [])
         if not isinstance(results, list):
+            record_source("NewsData", False, "unexpected response (no results list)")
             return []
         articles = []
         for a in results:
@@ -270,9 +282,11 @@ def fetch_newsdata(query, country=None):
                 "content": content[:2000],
                 "image": a.get("image_url", "")
             })
+        record_source("NewsData", articles, "" if articles else "0 articles returned")
         return articles
     except Exception as e:
         print(f"NewsData fetch error: {e}")
+        record_source("NewsData", False, f"{type(e).__name__}: {e}"[:300])
         return []
 
 

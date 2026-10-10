@@ -1,10 +1,10 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Baseline analysis of the legacy cost log (#55): about $5.04 USD recalculated over 22–26 Apr, 57% on search calls (fees not counted), 15/17 Australia selections at the token cap
+Step 1 foundations (#57–#61, #16): trending tab off, one workflow run at a time, bad runs can no longer overwrite good stories, truthful last-updated + 8h stale warning, health.json as the single status file, and a one-shot failure alert via the Actions run (PR open for review, not yet merged)
 
 ## 🔄 In Progress
-Nothing currently in progress.
+Nothing in progress — PR `step1-foundations` awaiting owner review/merge.
 
 ## 📌 Critical Context
 - Owner is in Brisbane, Australia — all timestamps in AEST (UTC+10)
@@ -27,9 +27,11 @@ Nothing currently in progress.
 | `page/template.html` | Full HTML/CSS/JS page with Jinja2 syntax, unified render_story macro |
 | `.github/workflows/briefing.yml` | Scheduling and deployment |
 | `memory.json` | Story cache, summaries, world trends, article hashes |
-| `health.json` | Run status and errors |
+| `health.json` | Single status file: runs, per-source status, errors, last_successful_data_update, consecutive_failures, api_cost_ledger |
 | `pricing.py` | The only price table (USD/MTok + web search fee), with source URL and date |
 | `costs.py` | Cost ledger: `log_call`, rollups, COST_SUMMARY.md, health key `api_cost_ledger` |
 | `cost_log.json` | Append-only ledger, one row per API attempt (rows without `outcome` are pre-#52 and mispriced) |
 | `tests/test_costs.py` | Cost maths + ledger tests: `python -m unittest tests.test_costs` |
+| `safety.py` | Good-data rule (`evaluate_run`), `STALE_AFTER_HOURS = 8`, alert rule (`decide_alert`) |
+| `tests/harness.py` | Offline dry-run harness (fake Claude + fetchers); tests: `python -m unittest discover -s tests -t .` |
 | `requirements.txt` | anthropic, requests, feedparser, beautifulsoup4, jinja2 |

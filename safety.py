@@ -41,13 +41,23 @@ def failed_categories(rows):
     return result
 
 
+def attempted_categories(rows):
+    """Categories whose selection call ran this run."""
+    return {c for c in CATEGORIES if any(str(r.get("label", "")).startswith(f"{c}_selection") for r in rows)}
+
+
+def empty_summary_categories(data, attempted):
+    """Attempted categories where any story has no summary (a summary call failed): not publishable."""
+    return {c for c in attempted if any(not str(s.get("summary") or "").strip() for s in data.get(c) or [])}
+
+
 def valid_stories(stories):
     return (isinstance(stories, list)
             and all(isinstance(s, dict) and isinstance(s.get("headline"), str) and s["headline"].strip()
                     for s in stories))
 
 
-def evaluate_run(run_type, memory, rows, fetched_any, fresh=None):
+def evaluate_run(run_type, memory, rows, fetched_any, fresh=None, fallback_cats=()):
     """Decide whether this run's data is GOOD.
 
     fresh: newly produced {category: [stories]} for a full run (checked for >=1 pick);
@@ -57,7 +67,9 @@ def evaluate_run(run_type, memory, rows, fetched_any, fresh=None):
       2. not every Claude call failed (a run with no calls passes)
       3. full run: at least one category produced >=1 story
       4. produced stories are well-formed (non-empty headline) and memory['stories'] is a dict
-    Outcome: failed = not good; degraded = good but a Claude call failed; ok otherwise.
+      5. not every category that was refreshed fell back to its previous stories
+    fallback_cats: categories keeping previous stories (selection failed, or a story had no summary).
+    Outcome: failed = not good; degraded = good but a Claude call failed or a category fell back; ok otherwise.
     """
     stats = claude_stats(rows)
     reasons = []
@@ -65,6 +77,11 @@ def evaluate_run(run_type, memory, rows, fetched_any, fresh=None):
         reasons.append("no source returned any articles")
     if stats["calls"] and stats["failed"] == stats["calls"]:
         reasons.append(f"all {stats['calls']} Claude calls failed ({stats['last_error']})")
+    fallback = set(fallback_cats)
+    attempted = attempted_categories(rows)
+    if attempted and attempted <= fallback:
+        reasons.append("every refreshed category fell back to its previous stories ("
+                       + ", ".join(sorted(attempted)) + ")")
     if fresh is not None:
         if not any(fresh.get(c) for c in CATEGORIES):
             reasons.append("full run produced no stories in any category")
@@ -73,7 +90,7 @@ def evaluate_run(run_type, memory, rows, fetched_any, fresh=None):
     if not isinstance(memory, dict) or not isinstance(memory.get("stories", {}), dict):
         reasons.append("memory data is corrupted")
     good = not reasons
-    outcome = "failed" if not good else ("degraded" if stats["failed"] else "ok")
+    outcome = "failed" if not good else ("degraded" if (stats["failed"] or fallback) else "ok")
     return {"good": good, "outcome": outcome, "reasons": reasons,
             "advance": good and run_type not in DATA_RUN_TYPES_NO_FETCH,
             "claude_calls": stats["calls"], "claude_calls_errored": stats["failed"],

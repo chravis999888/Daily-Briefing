@@ -43,7 +43,9 @@ class FakeClient:
             text = json.dumps({"summary": "A factual summary of the story.", "tracking_suggestions": []})
         elif "editor" in prompt and "Return ONLY a JSON array" in prompt and "tracking these ongoing" not in prompt:
             url = (re.search(r"URL: (\S+)", prompt) or [None, "https://example.com/x"])[1]
-            text = json.dumps([{"headline": "Australia dry-run story: 12 killed in test event", "score": 8,
+            cat = next((c for k, c in (("world news", "breaking"), ("Australian", "australia"),
+                                       ("science", "archaeology"), ("football", "football")) if k in prompt), "x")
+            text = json.dumps([{"headline": f"Australia dry-run story ({cat}): 12 killed in test event", "score": 8,
                                 "timestamp": "1 hr ago", "so_what": "", "url": url, "source": "Test",
                                 "deeper_search": False}])
         else:

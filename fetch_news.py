@@ -11,7 +11,8 @@ from memory import (load_memory, save_memory, load_pinned, load_health, save_hea
                     save_article_hash, category_has_changed, detect_developing_situations,
                     restore_category)
 import fetchers
-from safety import evaluate_run, failed_categories, CATEGORIES, AEST
+from safety import (evaluate_run, failed_categories, attempted_categories, empty_summary_categories,
+                    CATEGORIES, AEST)
 from fetchers import (fetch_gdelt_articles, fetch_guardian, fetch_rss, fetch_newsdata)
 from processors import (process_breaking_news, process_australia, process_archaeology,
                         process_football, process_developing_situations)
@@ -53,12 +54,13 @@ def _finalize(run_type, health, memory, original, all_data, errors, ledger_start
     """
     rows = load_rows()[ledger_start:]
     fetched_any = any(ok for _, ok, _ in fetchers.SOURCE_EVENTS)
-    failed_cats = failed_categories(rows)
+    # A category falls back to its previous stories if its selection failed or any story has no summary.
+    failed_cats = failed_categories(rows) | empty_summary_categories(all_data, attempted_categories(rows))
     fresh = {c: v for c, v in all_data.items() if c not in failed_cats} if check_picks else None
-    verdict = evaluate_run(run_type, memory, rows, fetched_any, fresh=fresh)
+    verdict = evaluate_run(run_type, memory, rows, fetched_any, fresh=fresh, fallback_cats=failed_cats)
     if verdict["good"]:
         for cat in sorted(failed_cats):
-            print(f"{cat}: Claude selection failed — keeping previous stories")
+            print(f"{cat}: selection or summary failed — keeping previous stories")
             memory = restore_category(memory, original, cat)
             all_data[cat] = get_cached_category(original, cat)
         save_memory(memory)

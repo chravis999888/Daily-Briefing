@@ -91,7 +91,8 @@ Raw JSON only."""
         summary = get_cached_summary(memory, url)
         if not summary:
             summary, suggestions = get_ai_summary(story["headline"], orig.get("content", ""), context)
-            memory = save_summary(memory, url, summary)
+            if summary and summary.strip():   # never cache an empty summary (failed call)
+                memory = save_summary(memory, url, summary)
         else:
             suggestions = []
         results.append({
@@ -202,7 +203,8 @@ Raw JSON only."""
         summary = get_cached_summary(memory, url)
         if not summary:
             summary, suggestions = get_ai_summary(story["headline"], orig.get("content", ""), context)
-            memory = save_summary(memory, url, summary)
+            if summary and summary.strip():   # never cache an empty summary (failed call)
+                memory = save_summary(memory, url, summary)
         else:
             suggestions = []
         results.append({
@@ -274,7 +276,8 @@ Raw JSON only, no markdown."""
         summary = get_cached_summary(memory, url)
         if not summary:
             summary, suggestions = get_ai_summary(story["headline"], orig.get("content", ""), context)
-            memory = save_summary(memory, url, summary)
+            if summary and summary.strip():   # never cache an empty summary (failed call)
+                memory = save_summary(memory, url, summary)
         else:
             suggestions = []
         results.append({
@@ -353,7 +356,8 @@ Raw JSON only."""
         summary = get_cached_summary(memory, url)
         if not summary:
             summary, suggestions = get_ai_summary(story["headline"], orig.get("content", ""), context)
-            memory = save_summary(memory, url, summary)
+            if summary and summary.strip():   # never cache an empty summary (failed call)
+                memory = save_summary(memory, url, summary)
         else:
             suggestions = []
         results.append({

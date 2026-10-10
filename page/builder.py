@@ -44,7 +44,7 @@ def _clean_stories(stories):
     return cleaned
 
 
-def build_html(all_data, yesterday_data, world_topics, developing_situations, health=None):
+def build_html(all_data, yesterday_data, developing_situations, health=None):
     date_str = datetime.now(AEST).strftime("%A %d %B %Y").upper()
     updated_str = datetime.now(AEST).strftime("%I:%M %p AEST").lstrip("0")
     build_ts = int(datetime.now(timezone.utc).timestamp())
@@ -94,7 +94,6 @@ def build_html(all_data, yesterday_data, world_topics, developing_situations, he
         breaking=_clean_stories(all_data.get("breaking", [])),
         yesterday_breaking=_clean_stories(yesterday_data.get("breaking", [])),
         col_categories=col_categories,
-        world_topics=world_topics,
         developing_situations=_clean_stories(developing_situations),
         accents=ACCENTS,
     )

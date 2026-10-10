@@ -8,7 +8,7 @@ from memory import (load_memory, save_memory, load_pinned, load_health, save_hea
                     save_article_hash, category_has_changed, detect_developing_situations)
 from fetchers import (fetch_gdelt_articles, fetch_guardian, fetch_rss, fetch_newsdata)
 from processors import (process_breaking_news, process_australia, process_archaeology,
-                        process_football, process_world_topics, process_developing_situations)
+                        process_football, process_developing_situations)
 from page.builder import build_html
 from costs import update_cost_outputs
 
@@ -262,11 +262,11 @@ def mock_data():
 def main():
     if MOCK_MODE:
         print("MOCK_MODE enabled — skipping all API calls.")
-        all_data, yesterday_data, world_topics, developing_situations = mock_data()
+        all_data, yesterday_data, _unused_world_topics, developing_situations = mock_data()
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations))
+            f.write(build_html(all_data, yesterday_data, developing_situations))
         Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written.")
         return
@@ -280,14 +280,13 @@ def main():
         errors = []
         all_data = {cat: get_cached_category(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
         yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
-        world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []})
         developing_situations = process_developing_situations(pinned, [], [])
         health = log_run(health, "deploy_only", errors)
         save_health(update_cost_outputs(health))
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
+            f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
         Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written from cache.")
         return
@@ -332,7 +331,6 @@ def main():
             "archaeology": get_cached_category(memory, "archaeology"),
             "football": get_cached_category(memory, "football")
         }
-        world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []})
         yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
         developing_situations = process_developing_situations(pinned, [], all_breaking) if pinned else []
 
@@ -343,7 +341,7 @@ def main():
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
+            f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
         if content_changed:
             Path("dist/.deploy_needed").touch()
             print("Done. dist/index.html written — deploy triggered.")
@@ -430,20 +428,10 @@ def main():
                 "football": get_cached_category(memory, "football")
             }
 
-        elif RUN_CATEGORY == "world_topics":
-            world_topics, memory = process_world_topics(memory)
-            content_changed = True
-            all_data = {
-                "breaking": get_cached_category(memory, "breaking"),
-                "australia": get_cached_category(memory, "australia"),
-                "archaeology": get_cached_category(memory, "archaeology"),
-                "football": get_cached_category(memory, "football")
-            }
         else:
             print(f"Unknown category: {RUN_CATEGORY}, aborting.")
             return
 
-        world_topics = memory.get("world_topics_cache", {"today": [], "week": [], "month": []}) if RUN_CATEGORY != "world_topics" else world_topics
         if RUN_CATEGORY in ("breaking", "australia", "archaeology", "football"):
             memory = save_today_stories(memory, RUN_CATEGORY, result)
         yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
@@ -454,7 +442,7 @@ def main():
         Path("dist").mkdir(exist_ok=True)
         _copy_favicons()
         with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
+            f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
         if content_changed:
             Path("dist/.deploy_needed").touch()
             print(f"Done. Category-only run for {RUN_CATEGORY} complete — deploy triggered.")
@@ -465,9 +453,6 @@ def main():
     # Full run
     errors = []
     content_changed = False
-
-    print("Fetching world topics...")
-    world_topics, memory = process_world_topics(memory)
 
     print("Fetching Breaking News...")
     gdelt_breaking, gdelt_err, memory = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="1h", max_records=25, memory=memory)
@@ -569,7 +554,7 @@ def main():
     Path("dist").mkdir(exist_ok=True)
     _copy_favicons()
     with open("dist/index.html", "w", encoding="utf-8") as f:
-        f.write(build_html(all_data, yesterday_data, world_topics, developing_situations, health=health))
+        f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
     if content_changed:
         Path("dist/.deploy_needed").touch()
         print("Done. dist/index.html written — deploy triggered.")

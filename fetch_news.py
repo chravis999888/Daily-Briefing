@@ -2,6 +2,7 @@ import copy
 import os
 from datetime import datetime
 import shutil
+import sys
 import time
 from pathlib import Path
 
@@ -69,6 +70,14 @@ def _finalize(run_type, health, memory, original, all_data, errors, ledger_start
     health = log_run(health, run_type, errors, verdict, list(fetchers.SOURCE_EVENTS), rows)
     save_health(update_cost_outputs(health))
     return memory, all_data, yesterday_data, health, verdict
+
+
+def _exit_code(health):
+    """1 only when log_run decided this run should alert (see safety.decide_alert), else 0."""
+    if health["runs"][-1].get("alerted"):
+        print("ALERT: failing this workflow run on purpose so GitHub sends a failure notification.")
+        return 1
+    return 0
 
 
 def _banner_deploy(verdict, health):
@@ -392,7 +401,7 @@ def main():
             print("Done. dist/index.html written — deploy triggered.")
         else:
             print("Done. dist/index.html written — no new content, deploy skipped.")
-        return
+        return _exit_code(health)
 
     elif RUN_MODE == "category" and RUN_CATEGORY:
         print(f"Category-only run: {RUN_CATEGORY}...")
@@ -492,7 +501,7 @@ def main():
             print(f"Done. Category-only run for {RUN_CATEGORY} complete — deploy triggered.")
         else:
             print(f"Done. Category-only run for {RUN_CATEGORY} complete — no new content, deploy skipped.")
-        return
+        return _exit_code(health)
 
     # Full run
     errors = []
@@ -600,7 +609,8 @@ def main():
         print("Done. dist/index.html written — deploy triggered.")
     else:
         print("Done. dist/index.html written — no new content, deploy skipped.")
+    return _exit_code(health)
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)

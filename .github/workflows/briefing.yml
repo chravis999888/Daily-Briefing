@@ -40,6 +40,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run news fetch script
+        id: run
+        # Exit 1 means "alert" (see safety.decide_alert). Let the commit-back and deploy steps
+        # run first, then the last step fails the job so GitHub sends its failure notification.
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
@@ -69,3 +73,9 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Fail the run if the briefing run alerted
+        if: steps.run.outcome == 'failure'
+        run: |
+          echo "::error::Briefing run failed (data not good, or first stale crossing). See health.json."
+          exit 1

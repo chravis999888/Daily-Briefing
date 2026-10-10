@@ -78,3 +78,15 @@ def evaluate_run(run_type, memory, rows, fetched_any, fresh=None):
             "advance": good and run_type not in DATA_RUN_TYPES_NO_FETCH,
             "claude_calls": stats["calls"], "claude_calls_errored": stats["failed"],
             "claude_last_error": stats["last_error"]}
+
+
+def decide_alert(health, outcome, consecutive_failures, now=None):
+    """Fail the workflow ONLY for a failed run, and only (a) on the first failure of a streak, or
+    (b) once, when the data first passes the stale threshold. Silent otherwise until a good run.
+    Returns (alert, mark_stale_alerted)."""
+    if outcome != "failed":
+        return False, False
+    stale = is_stale(health.get("last_successful_data_update"), now)
+    first = consecutive_failures == 1
+    stale_new = stale and not health.get("stale_alerted")
+    return (first or stale_new), (stale and (first or stale_new))

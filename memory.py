@@ -3,6 +3,8 @@ import hashlib
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+from safety import decide_alert
+
 AEST = timezone(timedelta(hours=10))
 MEMORY_FILE = "memory.json"
 PINNED_FILE = "pinned.txt"
@@ -66,9 +68,13 @@ def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), n
     if verdict["advance"]:
         health["last_successful_data_update"] = iso   # only ever set by a GOOD data run
         health["consecutive_failures"] = 0
+        health["stale_alerted"] = False
     elif verdict["outcome"] == "failed":
         health["consecutive_failures"] = health.get("consecutive_failures", 0) + 1
     health.setdefault("consecutive_failures", 0)
+    alert, mark_stale = decide_alert(health, verdict["outcome"], health["consecutive_failures"], now)
+    if mark_stale:
+        health["stale_alerted"] = True
     health["runs"].append({
         "timestamp": iso,
         "run_type": run_type,
@@ -78,6 +84,7 @@ def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), n
         "claude_calls_errored": verdict["claude_calls_errored"],
         "reasons": verdict["reasons"],
         "errors": errors,
+        "alerted": alert,   # True => the workflow run is failed on purpose (GitHub emails the owner)
     })
     health["runs"] = health["runs"][-50:]
     return health

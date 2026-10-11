@@ -16,8 +16,7 @@ def seeded_memory():
     story = lambda h: {"headline": h, "timestamp": "1 day ago", "score": 7, "summary": "old", "url": "https://example.com/old",
                        "image": "", "articles": [], "tracking_suggestions": []}
     return {"stories": {y: {"breaking": [story("OLD breaking headline")], "australia": [story("OLD Australia headline")],
-                            "archaeology": [story("OLD archaeology headline")], "football": [story("OLD football headline")]}},
-            "article_hashes": {"australia": "oldhash"}}
+                            "archaeology": [story("OLD archaeology headline")], "football": [story("OLD football headline")]}}}
 
 
 class Rule(unittest.TestCase):
@@ -101,7 +100,9 @@ class Pipeline(unittest.TestCase):
             self.assertNotIn("australia", stories)       # nothing new stored: page falls back to the old stories
             self.assertIn("dry-run story", stories["football"][0]["headline"])                # others refreshed
             self.assertIn("OLD Australia headline", html)
-            self.assertEqual(read_json(d, "memory.json")["article_hashes"].get("australia"), "oldhash")  # retry next time
+            store = read_json(d, "memory.json")["article_store"]                  # retry next time: australia's articles
+            self.assertFalse([r for r in store.values() if r["category"] == "australia"])   # are NOT marked seen
+            self.assertTrue([r for r in store.values() if r["category"] == "football"])
             h = read_json(d, "health.json")
             self.assertEqual(h["runs"][-1]["outcome"], "degraded")
             self.assertEqual(h["consecutive_failures"], 0)

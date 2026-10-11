@@ -7,7 +7,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from email.utils import parsedate_to_datetime
 
-from costs import log_call
+from costs import log_call, log_skipped
 
 AEST = timezone(timedelta(hours=10))
 RUN_MODE = os.environ.get("RUN_MODE", "full")
@@ -16,6 +16,20 @@ client = anthropic.Anthropic(api_key=ANTHROPIC_KEY) if ANTHROPIC_KEY else None
 HAIKU = "claude-haiku-4-5-20251001"
 SONNET = "claude-sonnet-4-6"
 WEB_SEARCH_TOOL = {"type": "web_search_20250305", "name": "web_search"}
+
+
+def claude_enabled():
+    """CLAUDE_ENABLED env switch, read at call time. Default on; 0 / false / off / no turns every call off."""
+    return os.environ.get("CLAUDE_ENABLED", "1").strip().lower() not in ("0", "false", "off", "no")
+
+
+def _skip(label, model):
+    """Safety net behind the pipeline's own gating: with Claude off, log the call that would have fired and
+    tell the caller not to make it."""
+    if claude_enabled():
+        return False
+    log_skipped(label, model=model)
+    return True
 
 
 def _attempt(model, max_tokens, prompt, label, extract, tools=None):
@@ -91,6 +105,8 @@ def relative_time(date_str):
 
 
 def call_haiku(prompt, max_tokens=500, label="haiku", retries=3):
+    if _skip(label, HAIKU):
+        return ""
     for attempt in range(retries):
         try:
             return _attempt(HAIKU, max_tokens, prompt, label, _first_content_text)
@@ -105,6 +121,8 @@ def call_haiku(prompt, max_tokens=500, label="haiku", retries=3):
 
 
 def call_sonnet(prompt, max_tokens=1000, retries=3, label="sonnet"):
+    if _skip(label, SONNET):
+        return ""
     for attempt in range(retries):
         try:
             return _attempt(SONNET, max_tokens, prompt, label, _first_content_text)
@@ -120,6 +138,8 @@ def call_sonnet(prompt, max_tokens=1000, retries=3, label="sonnet"):
 
 
 def call_sonnet_with_search(prompt, max_tokens=1500, retries=3, label="context_search_sonnet"):
+    if _skip(label, SONNET):
+        return ""
     for attempt in range(retries):
         try:
             return _attempt(SONNET, max_tokens, prompt, label, _first_text_block, tools=[WEB_SEARCH_TOOL])
@@ -134,6 +154,8 @@ def call_sonnet_with_search(prompt, max_tokens=1500, retries=3, label="context_s
 
 
 def call_haiku_with_search(prompt, max_tokens=500, label="context_search"):
+    if _skip(label, HAIKU):
+        return ""
     try:
         return _attempt(HAIKU, max_tokens, prompt, label, _first_text_block, tools=[WEB_SEARCH_TOOL])
     except Exception as e:

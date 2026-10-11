@@ -8,16 +8,17 @@ from pathlib import Path
 
 from memory import (load_memory, save_memory, load_pinned, load_health, save_health, log_run,
                     get_cached_category, get_previous_stories, save_today_stories,
-                    save_article_hash, category_has_changed, detect_developing_situations,
-                    restore_category)
+                    detect_developing_situations, restore_category)
 import fetchers
+from articles import classify_articles, prune_store, STORE_KEY
+from api import claude_enabled
 from safety import (evaluate_run, failed_categories, attempted_categories, empty_summary_categories,
                     CATEGORIES, AEST)
 from fetchers import (fetch_gdelt_articles, fetch_guardian, fetch_rss, fetch_newsdata)
 from processors import (process_breaking_news, process_australia, process_archaeology,
                         process_football, process_developing_situations)
 from page.builder import build_html
-from costs import update_cost_outputs, load_rows
+from costs import update_cost_outputs, load_rows, log_skipped
 
 MOCK_MODE = False
 RUN_MODE = os.environ.get("RUN_MODE", "full")
@@ -45,7 +46,7 @@ def _copy_favicons():
             shutil.copy(src, Path("dist") / fname)
 
 
-def _finalize(run_type, health, memory, original, all_data, errors, ledger_start, check_picks=False):
+def _finalize(run_type, health, memory, original, all_data, errors, ledger_start, check_picks=False, categories=None):
     """Apply the data-safety rule (see safety.evaluate_run) and write health.json.
 
     Good run: save memory.json; any category whose Claude selection failed keeps its previous stories.
@@ -53,7 +54,7 @@ def _finalize(run_type, health, memory, original, all_data, errors, ledger_start
     health.json and the cost ledger are written either way.
     """
     rows = load_rows()[ledger_start:]
-    fetched_any = any(ok for _, ok, _ in fetchers.SOURCE_EVENTS)
+    fetched_any = any(e[1] for e in fetchers.SOURCE_EVENTS)
     # A category falls back to its previous stories if its selection failed or any story has no summary.
     failed_cats = failed_categories(rows) | empty_summary_categories(all_data, attempted_categories(rows))
     fresh = {c: v for c, v in all_data.items() if c not in failed_cats} if check_picks else None
@@ -69,7 +70,7 @@ def _finalize(run_type, health, memory, original, all_data, errors, ledger_start
         memory = original
         all_data = {cat: get_cached_category(original, cat) for cat in CATEGORIES}
     yesterday_data = {cat: get_previous_stories(memory, cat) for cat in CATEGORIES}
-    health = log_run(health, run_type, errors, verdict, list(fetchers.SOURCE_EVENTS), rows)
+    health = log_run(health, run_type, errors, verdict, list(fetchers.SOURCE_EVENTS), rows, categories=categories)
     save_health(update_cost_outputs(health))
     return memory, all_data, yesterday_data, health, verdict
 
@@ -86,6 +87,69 @@ def _banner_deploy(verdict, health):
     """Deploy a not-good run once, when the page first goes stale, so the warning reaches the live
     site. log_run decides (health['stale_deployed'] flag, reset by a good run)."""
     return bool(health["runs"][-1].get("banner_deploy"))
+
+
+def _gate(memory, cat, candidates, stats):
+    """The new-IDs gate. Classify `candidates` against the article store and return True only if this
+    category has new articles AND Claude is enabled, i.e. its Claude steps should run. A category with nothing
+    new keeps its current stories. With CLAUDE_ENABLED off, the selection call that would have fired is logged
+    as 'skipped'. The candidate list itself is never changed."""
+    info = classify_articles(memory, cat, candidates)
+    stats[cat] = info
+    mix = ", ".join(f"{k} {v}" for k, v in info["new_by_source"].items()) or "-"
+    print(f"{cat}: {info['fetched']} fetched, {info['new']} new, {info['duplicates']} duplicates dropped (new by outlet: {mix})")
+    if not info["has_new"]:
+        print(f"{cat}: no new articles — skipping its Claude steps, keeping current stories")
+        return False
+    if not claude_enabled():
+        log_skipped(f"{cat}_selection", cat, min(len(candidates), 30))
+        info["claude_off"] = True
+        print(f"{cat}: CLAUDE_ENABLED is off — {info['new']} new articles stored, Claude steps skipped")
+        return False
+    return True
+
+
+def _idle_situations(pinned):
+    """Developing situations with no Claude call: every pinned topic, 'no updates' (what the Haiku call
+    returns anyway when it is given no articles)."""
+    return [{"topic": t, "type": "pinned", "update": "No significant updates today.", "has_update": False,
+             "articles": []} for t in pinned]
+
+
+def _write_page(all_data, yesterday_data, developing_situations, health, deploy):
+    Path("dist").mkdir(exist_ok=True)
+    _copy_favicons()
+    with open("dist/index.html", "w", encoding="utf-8") as f:
+        f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
+    if deploy:
+        Path("dist/.deploy_needed").touch()
+
+
+def _quiet_stop(run_type, health, memory, original, errors, ledger_start, stats, pinned):
+    """Nothing to process this run (no category has new articles, or Claude is off). If the sources really
+    responded this is a HEALTHY run (outcome ok, reason no_new / claude_off): no Claude, no page rebuild, no
+    deploy, memory.json rewritten only if the article store changed, health.json updated. Returns the exit
+    code, or None if the run is not healthy (no source returned anything) and must go the failure route."""
+    rows = load_rows()[ledger_start:]
+    fetched_any = any(e[1] for e in fetchers.SOURCE_EVENTS)
+    reason = "claude_off" if any(s.get("claude_off") for s in stats.values()) else "no_new"
+    verdict = evaluate_run(run_type, memory, rows, fetched_any, quiet=reason)
+    if not verdict["good"]:
+        return None
+    banner_live = bool(health.get("stale_deployed"))
+    if memory.get(STORE_KEY) != original.get(STORE_KEY):
+        memory.pop("article_hashes", None)   # retired by the article store
+        save_memory(memory)
+    health = log_run(health, run_type, errors, verdict, list(fetchers.SOURCE_EVENTS), rows, categories=stats)
+    save_health(update_cost_outputs(health))
+    print(f"Quiet run ({reason}): sources healthy, nothing to process — no page rebuild, no deploy.")
+    if banner_live and not health.get("stale_deployed"):
+        # A stale banner is live on the site and this healthy full check clears it: rebuild + deploy once.
+        all_data = {cat: get_cached_category(memory, cat) for cat in CATEGORIES}
+        yesterday_data = {cat: get_previous_stories(memory, cat) for cat in CATEGORIES}
+        _write_page(all_data, yesterday_data, _idle_situations(pinned), health, deploy=True)
+        print("A stale banner was live; page rebuilt and deploy triggered to clear it.")
+    return _exit_code(health)
 
 
 def mock_data():
@@ -323,26 +387,24 @@ def main():
         return
 
     memory = load_memory()
+    prune_store(memory)
     original = copy.deepcopy(memory)
     pinned = load_pinned()
     health = load_health()
     ledger_start = len(load_rows())
     fetchers.SOURCE_EVENTS.clear()
+    stats = {}   # per-category new-article stats for this run (goes to health.json)
 
     if RUN_MODE == "deploy_only":
         print("Deploy-only run — rebuilding HTML from cache, zero API calls.")
         errors = []
-        all_data = {cat: get_cached_category(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
-        yesterday_data = {cat: get_previous_stories(memory, cat) for cat in ["breaking", "australia", "archaeology", "football"]}
-        developing_situations = process_developing_situations(pinned, [], [])
+        all_data = {cat: get_cached_category(memory, cat) for cat in CATEGORIES}
+        yesterday_data = {cat: get_previous_stories(memory, cat) for cat in CATEGORIES}
+        developing_situations = _idle_situations(pinned)
         verdict = evaluate_run("deploy_only", memory, [], True)
         health = log_run(health, "deploy_only", errors, verdict)
         save_health(update_cost_outputs(health))
-        Path("dist").mkdir(exist_ok=True)
-        _copy_favicons()
-        with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
-        Path("dist/.deploy_needed").touch()
+        _write_page(all_data, yesterday_data, developing_situations, health, deploy=True)
         print("Done. dist/index.html written from cache.")
         return
 
@@ -354,13 +416,11 @@ def main():
         if not isinstance(memory, dict):
             print(f"ERROR: memory corrupted after GDELT call (got {type(memory)}), reloading from disk")
             memory = load_memory()
+            prune_store(memory)
         if gdelt_err:
             print(f"GDELT: {gdelt_err}")
             if "skipped" not in gdelt_err:
                 errors.append(gdelt_err)
-                fetchers.record_source("GDELT", False, gdelt_err)
-        else:
-            fetchers.record_source("GDELT", bool(gdelt_breaking), "" if gdelt_breaking else "0 articles returned")
         guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
         reuters_rss = fetch_rss("https://feeds.reuters.com/reuters/topNews", "Reuters")
         ap_rss = fetch_rss("https://rsshub.app/apnews/topics/apf-topnews", "AP News")
@@ -368,7 +428,8 @@ def main():
         aljazeera_rss = fetch_rss("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera")
         all_breaking = gdelt_breaking + guardian_breaking + reuters_rss + ap_rss + bbc_rss + aljazeera_rss
 
-        if category_has_changed(memory, "breaking", all_breaking):
+        processed = _gate(memory, "breaking", all_breaking, stats)
+        if processed:
             new_breaking, memory = process_breaking_news([], all_breaking, memory)
             if new_breaking:
                 breaking = new_breaking
@@ -376,10 +437,11 @@ def main():
             else:
                 print("Breaking news: articles changed but nothing passed the bar, keeping existing")
                 breaking = get_cached_category(memory, "breaking")
-            memory = save_article_hash(memory, "breaking", all_breaking)
         else:
-            print("Breaking news: no new articles since last check, skipping Sonnet call")
             breaking = get_cached_category(memory, "breaking")
+            code = _quiet_stop("breaking_only", health, memory, original, errors, ledger_start, stats, pinned)
+            if code is not None:
+                return code
 
         memory = save_today_stories(memory, "breaking", breaking)
 
@@ -389,18 +451,18 @@ def main():
             "archaeology": get_cached_category(memory, "archaeology"),
             "football": get_cached_category(memory, "football")
         }
-        developing_situations = process_developing_situations(pinned, [], all_breaking) if pinned else []
+        if processed:
+            developing_situations = process_developing_situations(pinned, [], all_breaking) if pinned else []
+        else:
+            developing_situations = _idle_situations(pinned)
 
         memory, all_data, yesterday_data, health, verdict = _finalize(
-            "breaking_only", health, memory, original, all_data, errors, ledger_start)
+            "breaking_only", health, memory, original, all_data, errors, ledger_start, categories=stats)
         content_changed = content_changed and verdict["good"]
 
-        Path("dist").mkdir(exist_ok=True)
-        _copy_favicons()
-        with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
-        if content_changed or _banner_deploy(verdict, health):
-            Path("dist/.deploy_needed").touch()
+        deploy = content_changed or _banner_deploy(verdict, health)
+        _write_page(all_data, yesterday_data, developing_situations, health, deploy=deploy)
+        if deploy:
             print("Done. dist/index.html written — deploy triggered.")
         else:
             print("Done. dist/index.html written — no new content, deploy skipped.")
@@ -410,6 +472,7 @@ def main():
         print(f"Category-only run: {RUN_CATEGORY}...")
         errors = []
         content_changed = False
+        processed = False
 
         if RUN_CATEGORY == "football":
             guardian_football = fetch_guardian("premier league OR la liga OR serie a OR bundesliga OR ligue 1 OR champions league", page_size=15, section="football")
@@ -426,12 +489,11 @@ def main():
             goal_rss = fetch_rss("https://www.goal.com/feeds/en/news", "Goal.com")
             articles = (guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
                         espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)[:40]
-            if category_has_changed(memory, "football", articles):
+            processed = _gate(memory, "football", articles, stats)
+            if processed:
                 result, memory = process_football(articles, memory)
-                memory = save_article_hash(memory, "football", articles)
                 content_changed = True
             else:
-                print("Football: no new articles, skipping")
                 result = get_cached_category(memory, "football")
             all_data = {
                 "breaking": get_cached_category(memory, "breaking"),
@@ -446,12 +508,11 @@ def main():
             age_rss = fetch_rss("https://www.theage.com.au/rss/feed.xml", "The Age")
             newsdata_aus = fetch_newsdata("australia parliament senate election albanese budget policy", country="au")
             articles = abc_rss + smh_rss + age_rss + newsdata_aus
-            if category_has_changed(memory, "australia", articles):
+            processed = _gate(memory, "australia", articles, stats)
+            if processed:
                 result, memory = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus, memory)
-                memory = save_article_hash(memory, "australia", articles)
                 content_changed = True
             else:
-                print("Australia: no new articles, skipping")
                 result = get_cached_category(memory, "australia")
             all_data = {
                 "breaking": get_cached_category(memory, "breaking"),
@@ -471,12 +532,11 @@ def main():
             conversation_rss = fetch_rss("https://theconversation.com/us/science/rss", "The Conversation")
             articles = (nature_rss + newscientist_rss + science_rss + newsdata_arch +
                         physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss)
-            if category_has_changed(memory, "archaeology", articles):
+            processed = _gate(memory, "archaeology", articles, stats)
+            if processed:
                 result, memory = process_archaeology(articles, memory)
-                memory = save_article_hash(memory, "archaeology", articles)
                 content_changed = True
             else:
-                print("Archaeology: no new articles, skipping")
                 result = get_cached_category(memory, "archaeology")
             all_data = {
                 "breaking": get_cached_category(memory, "breaking"),
@@ -489,18 +549,20 @@ def main():
             print(f"Unknown category: {RUN_CATEGORY}, aborting.")
             return
 
-        if RUN_CATEGORY in ("breaking", "australia", "archaeology", "football"):
+        if not processed:
+            code = _quiet_stop(f"category:{RUN_CATEGORY}", health, memory, original, errors, ledger_start, stats, pinned)
+            if code is not None:
+                return code
+
+        if RUN_CATEGORY in CATEGORIES:
             memory = save_today_stories(memory, RUN_CATEGORY, result)
-        developing_situations = process_developing_situations(pinned, [], [])
+        developing_situations = _idle_situations(pinned)
         memory, all_data, yesterday_data, health, verdict = _finalize(
-            f"category:{RUN_CATEGORY}", health, memory, original, all_data, errors, ledger_start)
+            f"category:{RUN_CATEGORY}", health, memory, original, all_data, errors, ledger_start, categories=stats)
         content_changed = content_changed and verdict["good"]
-        Path("dist").mkdir(exist_ok=True)
-        _copy_favicons()
-        with open("dist/index.html", "w", encoding="utf-8") as f:
-            f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
-        if content_changed or _banner_deploy(verdict, health):
-            Path("dist/.deploy_needed").touch()
+        deploy = content_changed or _banner_deploy(verdict, health)
+        _write_page(all_data, yesterday_data, developing_situations, health, deploy=deploy)
+        if deploy:
             print(f"Done. Category-only run for {RUN_CATEGORY} complete — deploy triggered.")
         else:
             print(f"Done. Category-only run for {RUN_CATEGORY} complete — no new content, deploy skipped.")
@@ -509,42 +571,50 @@ def main():
     # Full run
     errors = []
     content_changed = False
+    processed = False   # True once any category's Claude steps ran
 
     print("Fetching Breaking News...")
     gdelt_breaking, gdelt_err, memory = fetch_gdelt_articles("war killed attack invasion disaster explosion casualties", timespan="1h", max_records=25, memory=memory)
     if not isinstance(memory, dict):
         print(f"ERROR: memory corrupted after GDELT call (got {type(memory)}), reloading from disk")
         memory = load_memory()
+        prune_store(memory)
     if gdelt_err:
         print(f"GDELT: {gdelt_err}")
         if "skipped" not in gdelt_err:
             errors.append(gdelt_err)
-            fetchers.record_source("GDELT", False, gdelt_err)
-    else:
-        fetchers.record_source("GDELT", bool(gdelt_breaking), "" if gdelt_breaking else "0 articles returned")
     guardian_breaking = fetch_guardian("world war attack disaster crisis killed invasion", page_size=15)
     reuters_rss = fetch_rss("https://feeds.reuters.com/reuters/topNews", "Reuters")
     ap_rss = fetch_rss("https://rsshub.app/apnews/topics/apf-topnews", "AP News")
     bbc_rss = fetch_rss("https://feeds.bbci.co.uk/news/rss.xml", "BBC News")
     aljazeera_rss = fetch_rss("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera")
     all_breaking = gdelt_breaking + guardian_breaking + reuters_rss + ap_rss + bbc_rss + aljazeera_rss
-    new_breaking, memory = process_breaking_news([], all_breaking, memory)
-    if new_breaking:
-        breaking = new_breaking
-        memory = save_article_hash(memory, "breaking", all_breaking)
+    if _gate(memory, "breaking", all_breaking, stats):
+        processed = True
+        new_breaking, memory = process_breaking_news([], all_breaking, memory)
+        if new_breaking:
+            breaking = new_breaking
+        else:
+            print("Breaking news: no new stories passed the bar, keeping existing")
+            breaking = get_cached_category(memory, "breaking")
     else:
-        print("Breaking news: no new stories passed the bar, keeping existing")
         breaking = get_cached_category(memory, "breaking")
 
-    time.sleep(60)
+    if processed:
+        time.sleep(60)   # rate-limit spacing, only between categories that used Claude
     print("Fetching Australia news...")
     abc_rss = fetch_rss("https://www.abc.net.au/news/feed/51120/rss.xml", "ABC News")
     smh_rss = fetch_rss("https://www.smh.com.au/rss/feed.xml", "SMH")
     age_rss = fetch_rss("https://www.theage.com.au/rss/feed.xml", "The Age")
     newsdata_aus = fetch_newsdata("australia parliament senate election albanese budget policy", country="au")
-    australia, memory = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus, memory)
+    if _gate(memory, "australia", abc_rss + smh_rss + age_rss + newsdata_aus, stats):
+        processed = True
+        australia, memory = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus, memory)
+    else:
+        australia = get_cached_category(memory, "australia")
 
-    time.sleep(60)
+    if processed:
+        time.sleep(60)
     print("Fetching Archaeology news...")
     nature_rss = fetch_rss("https://www.nature.com/nature.rss", "Nature")
     newscientist_rss = fetch_rss("https://www.newscientist.com/subject/humans/feed/", "New Scientist")
@@ -554,11 +624,16 @@ def main():
     eurekalert_rss = fetch_rss("https://www.eurekalert.org/rss/all.xml", "EurekAlert")
     sciencedaily_rss = fetch_rss("https://www.sciencedaily.com/rss/fossils_ruins/human_evolution.xml", "ScienceDaily")
     conversation_rss = fetch_rss("https://theconversation.com/us/science/rss", "The Conversation")
-    archaeology, memory = process_archaeology(
-        nature_rss + newscientist_rss + science_rss + newsdata_arch +
-        physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss, memory)
+    archaeology_articles = (nature_rss + newscientist_rss + science_rss + newsdata_arch +
+                            physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss)
+    if _gate(memory, "archaeology", archaeology_articles, stats):
+        processed = True
+        archaeology, memory = process_archaeology(archaeology_articles, memory)
+    else:
+        archaeology = get_cached_category(memory, "archaeology")
 
-    time.sleep(60)
+    if processed:
+        time.sleep(60)
     print("Fetching Football news...")
     guardian_football = fetch_guardian(
         "premier league OR la liga OR serie a OR bundesliga OR ligue 1 OR champions league",
@@ -575,10 +650,18 @@ def main():
     bundesliga_rss = fetch_rss("https://www.bundesliga.com/api/rss/news/en", "Bundesliga")
     uefa_rss = fetch_rss("https://www.uefa.com/rss.xml", "UEFA")
     goal_rss = fetch_rss("https://www.goal.com/feeds/en/news", "Goal.com")
-    football, memory = process_football(
-        (guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
-        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)[:40],
-        memory)
+    football_articles = (guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
+                         espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)[:40]
+    if _gate(memory, "football", football_articles, stats):
+        processed = True
+        football, memory = process_football(football_articles, memory)
+    else:
+        football = get_cached_category(memory, "football")
+
+    if not processed:
+        code = _quiet_stop("full", health, memory, original, errors, ledger_start, stats, pinned)
+        if code is not None:
+            return code
 
     all_data = {
         "breaking": breaking,
@@ -587,28 +670,28 @@ def main():
         "football": football
     }
 
-    print("Processing developing situations...")
-    all_fetched = (all_breaking + abc_rss + smh_rss + age_rss +
-                   newsdata_aus + nature_rss + newscientist_rss + science_rss + newsdata_arch +
-                   physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss +
-                   guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
-                   espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)
-    auto_detected = detect_developing_situations(memory, all_data)
-    developing_situations = process_developing_situations(pinned, auto_detected, all_fetched)
+    if processed:
+        print("Processing developing situations...")
+        all_fetched = (all_breaking + abc_rss + smh_rss + age_rss +
+                       newsdata_aus + nature_rss + newscientist_rss + science_rss + newsdata_arch +
+                       physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss +
+                       guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
+                       espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)
+        auto_detected = detect_developing_situations(memory, all_data)
+        developing_situations = process_developing_situations(pinned, auto_detected, all_fetched)
+    else:
+        developing_situations = _idle_situations(pinned)
 
-    for cat in ["breaking", "australia", "archaeology", "football"]:
+    for cat in CATEGORIES:
         memory = save_today_stories(memory, cat, all_data[cat])
 
     memory, all_data, yesterday_data, health, verdict = _finalize(
-        "full", health, memory, original, all_data, errors, ledger_start, check_picks=True)
+        "full", health, memory, original, all_data, errors, ledger_start, check_picks=True, categories=stats)
     content_changed = verdict["good"] and any(all_data[cat] for cat in CATEGORIES)
 
-    Path("dist").mkdir(exist_ok=True)
-    _copy_favicons()
-    with open("dist/index.html", "w", encoding="utf-8") as f:
-        f.write(build_html(all_data, yesterday_data, developing_situations, health=health))
-    if content_changed or _banner_deploy(verdict, health):
-        Path("dist/.deploy_needed").touch()
+    deploy = content_changed or _banner_deploy(verdict, health)
+    _write_page(all_data, yesterday_data, developing_situations, health, deploy=deploy)
+    if deploy:
         print("Done. dist/index.html written — deploy triggered.")
     else:
         print("Done. dist/index.html written — no new content, deploy skipped.")

@@ -224,15 +224,17 @@ def process_archaeology(articles, memory):
     if not articles:
         return [], memory
 
-    # Filter out URLs already seen in memory to prevent old stories resurfacing
-    seen_urls = set()
+    # Only articles the article store has not seen before (flagged is_new by classify_articles in fetch_news).
+    # Articles in an already-published story are still excluded, so old stories cannot resurface when the
+    # store is empty or has pruned them.
+    published_urls = set()
     for date, cats in memory.get("stories", {}).items():
         for cat, stories in cats.items():
             for s in stories:
-                seen_urls.add(s.get("url", ""))
+                published_urls.add(s.get("url", ""))
                 for a in s.get("articles", []):
-                    seen_urls.add(a.get("url", ""))
-    articles = [a for a in articles if a.get("url", "") not in seen_urls]
+                    published_urls.add(a.get("url", ""))
+    articles = [a for a in articles if a.get("is_new", True) and a.get("url", "") not in published_urls]
     if not articles:
         return [], memory
 

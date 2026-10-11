@@ -3,7 +3,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
-from safety import STALE_AFTER_HOURS, is_stale, parse_ts
+from safety import STALE_AFTER_HOURS, is_stale, parse_ts, last_good_check
 
 AEST = timezone(timedelta(hours=10))
 
@@ -75,7 +75,8 @@ def freshness(health, now):
     text = dt.strftime("%I:%M %p AEST").lstrip("0")
     if dt.date() != now.date():
         text += dt.strftime(", %d %b")
-    if not is_stale(last, now):
+    # Stale = no healthy run lately. A full all-quiet check (nothing new) counts, so a quiet night is not stale.
+    if not is_stale(last_good_check(health), now):
         return text, ""
     hours = int((now - dt).total_seconds() // 3600)
     return text, (f"Stale data: the last successful update was {hours} hours ago ({text}). "

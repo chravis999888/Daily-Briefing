@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-11T21:29:48.313875+00:00",
+  "last_gdelt_attempt": "2026-10-11T23:52:30.553786+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -4735,6 +4735,62 @@
       "title": "CCTV shows moment of deadly Houthi strike on Riyadh airport",
       "published": "2026-10-11T22:24:07+00:00",
       "first_seen": "2026-10-12T09:01:05.301652+10:00",
+      "category": "breaking"
+    },
+    "6081aaa03639e675": {
+      "source": "Al Jazeera",
+      "title": "Footage shows moment Russian strike hits Ukrainian grocery store",
+      "published": "2026-10-11T22:49:23+00:00",
+      "first_seen": "2026-10-12T09:52:50.174515+10:00",
+      "category": "breaking"
+    },
+    "c7852622e62f36f9": {
+      "source": "BBC News",
+      "title": "Could you spot cancer symptoms in children?",
+      "published": "2026-10-11T23:03:45+00:00",
+      "first_seen": "2026-10-12T09:52:50.174515+10:00",
+      "category": "breaking"
+    },
+    "c3d26683b4c718a0": {
+      "source": "BBC News",
+      "title": "Sacha Baron Cohen to star in Quentin Tarantino's West End play",
+      "published": "2026-10-11T23:03:55+00:00",
+      "first_seen": "2026-10-12T09:52:50.174515+10:00",
+      "category": "breaking"
+    },
+    "f2dd1820d7a7f622": {
+      "source": "BBC News",
+      "title": "Iran war threatens Healey's Budget plans, think tank warns",
+      "published": "2026-10-11T23:04:07+00:00",
+      "first_seen": "2026-10-12T09:52:50.174515+10:00",
+      "category": "breaking"
+    },
+    "62d26b448adb5f8d": {
+      "source": "BBC News",
+      "title": "AI is less regulated than milk, says Microsoft president",
+      "published": "2026-10-11T23:07:35+00:00",
+      "first_seen": "2026-10-12T09:52:50.174515+10:00",
+      "category": "breaking"
+    },
+    "993fb6316fc1b3cb": {
+      "source": "BBC News",
+      "title": "American ranchers wrestle with soaring costs - and their loyalty to Trump",
+      "published": "2026-10-11T23:13:51+00:00",
+      "first_seen": "2026-10-12T09:52:50.174515+10:00",
+      "category": "breaking"
+    },
+    "1a3fba5b970a07c3": {
+      "source": "Al Jazeera",
+      "title": "US Homeland Security secretary sees no \u2018risk\u2019 from livestreamed execution",
+      "published": "2026-10-11T23:17:05+00:00",
+      "first_seen": "2026-10-12T09:52:50.174515+10:00",
+      "category": "breaking"
+    },
+    "419ff6015426cd4c": {
+      "source": "Al Jazeera",
+      "title": "Pakistani national killed in second Houthi strike on Riyadh airport",
+      "published": "2026-10-11T23:20:46+00:00",
+      "first_seen": "2026-10-12T09:52:50.174515+10:00",
       "category": "breaking"
     }
   }

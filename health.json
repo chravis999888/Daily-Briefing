@@ -1,12 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-10-05T10:29:21.139034+10:00",
-      "run_type": "full",
-      "errors": [],
-      "status": "ok"
-    },
-    {
       "timestamp": "2026-10-05T12:11:12.254822+10:00",
       "run_type": "breaking_only",
       "errors": [
@@ -373,6 +367,18 @@
       "errors": [],
       "banner_deploy": false,
       "alerted": false
+    },
+    {
+      "timestamp": "2026-10-11T11:25:49.076446+10:00",
+      "run_type": "breaking_only",
+      "outcome": "ok",
+      "data_good": true,
+      "claude_calls": 3,
+      "claude_calls_errored": 0,
+      "reasons": [],
+      "errors": [],
+      "banner_deploy": false,
+      "alerted": false
     }
   ],
   "errors": [
@@ -483,17 +489,35 @@
       "run_type": "breaking_only",
       "source": "AP News",
       "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-10-11T11:25:49.076446+10:00",
+      "run_type": "breaking_only",
+      "source": "Guardian",
+      "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-10-11T11:25:49.076446+10:00",
+      "run_type": "breaking_only",
+      "source": "Reuters",
+      "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-10-11T11:25:49.076446+10:00",
+      "run_type": "breaking_only",
+      "source": "AP News",
+      "message": "0 articles returned"
     }
   ],
   "api_cost_ledger": {
-    "as_of": "2026-10-11T11:07:36.780627+10:00",
+    "as_of": "2026-10-11T11:25:49.076474+10:00",
     "aud_rate_display_only": 1.55,
     "legacy_rows_excluded": 314,
     "today": {
       "date": "2026-10-11",
-      "calls": 77,
-      "total_usd": 1.090605,
-      "total_aud": 1.690438,
+      "calls": 80,
+      "total_usd": 1.111357,
+      "total_aud": 1.722603,
       "wasted_usd": 0.129582,
       "wasted_aud": 0.200852,
       "by_step": {
@@ -518,16 +542,16 @@
           "usd": 0.468587
         },
         "breaking_selection": {
-          "calls": 7,
-          "usd": 0.074442
+          "calls": 8,
+          "usd": 0.086082
         },
         "breaking_selection:haiku_fallback": {
           "calls": 2,
           "usd": 0.0
         },
         "developing_situations": {
-          "calls": 7,
-          "usd": 0.024134
+          "calls": 8,
+          "usd": 0.028992
         },
         "football_context_search": {
           "calls": 8,
@@ -542,8 +566,8 @@
           "usd": 0.0
         },
         "story_summary": {
-          "calls": 22,
-          "usd": 0.075879
+          "calls": 23,
+          "usd": 0.080133
         },
         "world_topics_month": {
           "calls": 3,
@@ -568,20 +592,20 @@
           "usd": 0.074406
         },
         "breaking": {
-          "calls": 16,
-          "usd": 0.543029
+          "calls": 17,
+          "usd": 0.554669
         },
         "developing": {
-          "calls": 7,
-          "usd": 0.024134
+          "calls": 8,
+          "usd": 0.028992
         },
         "football": {
           "calls": 13,
           "usd": 0.266833
         },
         "summary": {
-          "calls": 22,
-          "usd": 0.075879
+          "calls": 23,
+          "usd": 0.080133
         },
         "world_topics": {
           "calls": 9,
@@ -590,12 +614,12 @@
       },
       "by_model": {
         "claude-haiku-4-5-20251001": {
-          "calls": 29,
-          "usd": 0.267022
+          "calls": 30,
+          "usd": 0.27188
         },
         "claude-sonnet-4-6": {
-          "calls": 48,
-          "usd": 0.823583
+          "calls": 50,
+          "usd": 0.839477
         }
       },
       "by_outcome": {
@@ -604,8 +628,8 @@
           "usd": 0.0
         },
         "ok": {
-          "calls": 57,
-          "usd": 0.961023
+          "calls": 60,
+          "usd": 0.981775
         },
         "truncated": {
           "calls": 5,
@@ -615,9 +639,9 @@
     },
     "month_to_date": {
       "month": "2026-10",
-      "calls": 491,
-      "total_usd": 1.090605,
-      "total_aud": 1.690438,
+      "calls": 494,
+      "total_usd": 1.111357,
+      "total_aud": 1.722603,
       "wasted_usd": 0.129582,
       "wasted_aud": 0.200852,
       "by_step": {
@@ -642,16 +666,16 @@
           "usd": 0.468587
         },
         "breaking_selection": {
-          "calls": 64,
-          "usd": 0.074442
+          "calls": 65,
+          "usd": 0.086082
         },
         "breaking_selection:haiku_fallback": {
           "calls": 59,
           "usd": 0.0
         },
         "developing_situations": {
-          "calls": 64,
-          "usd": 0.024134
+          "calls": 65,
+          "usd": 0.028992
         },
         "football_context_search": {
           "calls": 8,
@@ -666,8 +690,8 @@
           "usd": 0.0
         },
         "story_summary": {
-          "calls": 22,
-          "usd": 0.075879
+          "calls": 23,
+          "usd": 0.080133
         },
         "world_topics_month": {
           "calls": 30,
@@ -692,20 +716,20 @@
           "usd": 0.074406
         },
         "breaking": {
-          "calls": 130,
-          "usd": 0.543029
+          "calls": 131,
+          "usd": 0.554669
         },
         "developing": {
-          "calls": 64,
-          "usd": 0.024134
+          "calls": 65,
+          "usd": 0.028992
         },
         "football": {
           "calls": 67,
           "usd": 0.266833
         },
         "summary": {
-          "calls": 22,
-          "usd": 0.075879
+          "calls": 23,
+          "usd": 0.080133
         },
         "world_topics": {
           "calls": 90,
@@ -714,12 +738,12 @@
       },
       "by_model": {
         "claude-haiku-4-5-20251001": {
-          "calls": 305,
-          "usd": 0.267022
+          "calls": 306,
+          "usd": 0.27188
         },
         "claude-sonnet-4-6": {
-          "calls": 186,
-          "usd": 0.823583
+          "calls": 188,
+          "usd": 0.839477
         }
       },
       "by_outcome": {
@@ -728,8 +752,8 @@
           "usd": 0.0
         },
         "ok": {
-          "calls": 57,
-          "usd": 0.961023
+          "calls": 60,
+          "usd": 0.981775
         },
         "truncated": {
           "calls": 5,
@@ -749,30 +773,30 @@
     "Guardian": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-11T11:07:36.780602+10:00",
+        "time": "2026-10-11T11:25:49.076446+10:00",
         "message": "0 articles returned"
       }
     },
     "Reuters": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-11T11:07:36.780602+10:00",
+        "time": "2026-10-11T11:25:49.076446+10:00",
         "message": "0 articles returned"
       }
     },
     "AP News": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-11T11:07:36.780602+10:00",
+        "time": "2026-10-11T11:25:49.076446+10:00",
         "message": "0 articles returned"
       }
     },
     "BBC News": {
-      "last_success": "2026-10-11T11:07:36.780602+10:00",
+      "last_success": "2026-10-11T11:25:49.076446+10:00",
       "last_error": null
     },
     "Al Jazeera": {
-      "last_success": "2026-10-11T11:07:36.780602+10:00",
+      "last_success": "2026-10-11T11:25:49.076446+10:00",
       "last_error": null
     },
     "ABC News": {
@@ -888,15 +912,15 @@
       }
     },
     "claude": {
-      "last_success": "2026-10-11T11:07:36.780602+10:00",
+      "last_success": "2026-10-11T11:25:49.076446+10:00",
       "last_error": {
         "time": "2026-10-11T10:46:31.919721+10:00",
         "message": "truncated"
       }
     }
   },
-  "last_successful_run": "2026-10-11T11:07:36.780602+10:00",
-  "last_successful_data_update": "2026-10-11T11:07:36.780602+10:00",
+  "last_successful_run": "2026-10-11T11:25:49.076446+10:00",
+  "last_successful_data_update": "2026-10-11T11:25:49.076446+10:00",
   "consecutive_failures": 0,
   "stale_alerted": false,
   "stale_deployed": false

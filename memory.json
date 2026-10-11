@@ -288,99 +288,78 @@
     "2026-10-11": {
       "breaking": [
         {
-          "headline": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people, including three children",
-          "timestamp": "just now",
-          "score": 8,
-          "summary": "Russian forces launched a glide bomb attack on Zaporizhzhia, a major Ukrainian city, killing at least 15 people including three children. Glide bombs are Soviet-era aerial bombs fitted with guidance and glide kits, allowing Russian aircraft to release them from a distance and avoid Ukrainian air defenses, making them difficult to intercept. The strike on a civilian population center represents a significant single-incident casualty event and fits a broader pattern of Russia targeting Ukrainian cities despite international diplomatic pressure to end the war. Zaporizhzhia has been repeatedly struck throughout the conflict, partly due to its proximity to the front line and its strategic significance as home to Europe's largest nuclear power plant.",
-          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o",
-          "image": "",
+          "headline": "Houthi missile or drone attack on Riyadh airport kills 12 people, marking third strike on Saudi capital this week amid Iran war",
+          "timestamp": "20 mins ago",
+          "score": 9,
+          "summary": "An attack on King Khalid International Airport in Riyadh, Saudi Arabia has left several people injured, with the US embassy confirming it is aware of the incident. The attack follows a claim by Yemen's Houthi movement just days earlier that they had struck the same airport. This is significant because targeting a major international airport in a Gulf capital represents a serious escalation in regional security, demonstrating that Houthi forces or affiliated groups have the capability and intent to strike deep into Saudi territory. The Houthis, who control much of northern Yemen, have a long history of launching drone and missile attacks against Saudi infrastructure as part of the ongoing Yemen conflict.",
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c68/live/40a0f7d0-c507-11f1-a64c-550be9e3c66b.jpg",
           "articles": [
+            {
+              "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "title": "Attack on Saudi airport leaves at least 12 dead, 309 wounded",
+              "source": "CNN",
+              "url": "https://www.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl"
+            },
+            {
+              "title": "Attack on Riyadh airport kills 12, injures over 300, Saudi Arabia says",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured"
+            },
+            {
+              "title": "Riyadh airport hit by missile, many wounded as Trump weighs strikes on Houthis",
+              "source": "Ynet News",
+              "url": "https://www.ynetnews.com/article/skj2by00ome"
+            },
+            {
+              "title": "Live Updates: Trump says he is considering whether U.S. should join fight against Houthis after Saudi airport strike",
+              "source": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-elections-saudi-arabia-yemen-houthis/"
+            },
+            {
+              "title": "Houthi Strikes on Riyadh Airport Killed Three Saudis as War Escalates",
+              "source": "U.S. News & World Report (Reuters)",
+              "url": "https://www.usnews.com/news/world/articles/2026-10-09/houthi-strikes-on-riyadh-airport-killed-three-saudis-as-war-escalates"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people including three children",
+          "timestamp": "3 hrs ago",
+          "score": 8,
+          "summary": "A Russian glide bomb attack on the Ukrainian city of Zaporizhzhia killed at least 15 people, including three children, in a strike on a civilian area. Ukrainian President Volodymyr Zelensky condemned the attack, sarcastically framing it as Russia's response to a recent US-Russia diesel trade deal, suggesting the timing was politically significant. Glide bombs have become a favored Russian weapon because they can be released from aircraft well outside Ukrainian air defense range, making them difficult to intercept. The attack underscores that Russia continues to target civilian population centers at scale even as diplomatic talks around the war are ongoing, with no sign of reduced offensive pressure.",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48af/live/273d05e0-c4a3-11f1-bc2e-018d645d8d21.jpg",
+          "articles": [
+            {
+              "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people including three children",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "title": "Russian airstrikes killed at least seven people across Ukraine including strikes on Dnipro, Odesa, and Kharkiv overnight into 26 April 2026",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv"
+            },
+            {
+              "title": "Russian airstrikes killed at least seven people across Ukraine including strikes on Dnipro, Odesa, and Kharkiv overnight into 26 April 2026",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv"
+            },
+            {
+              "title": "Russian airstrikes killed at least seven people across Ukraine including strikes on Dnipro, Odesa, and Kharkiv overnight into 26 April 2026",
+              "source": "Previously covered",
+              "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv"
+            },
             {
               "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people, including three children",
-              "source": "BBC News",
+              "source": "Previously covered",
               "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o"
-            },
-            {
-              "title": "Russian airstrikes killed at least seven people across Ukraine including strikes on Dnipro, Odesa, and Kharkiv overnight into 26 April 2026",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv"
-            },
-            {
-              "title": "Russian airstrikes killed at least seven people across Ukraine including strikes on Dnipro, Odesa, and Kharkiv overnight into 26 April 2026",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv"
-            },
-            {
-              "title": "Russian airstrikes killed at least seven people across Ukraine including strikes on Dnipro, Odesa, and Kharkiv overnight into 26 April 2026",
-              "source": "Previously covered",
-              "url": "https://www.theguardian.com/world/2026/apr/25/russian-airstrikes-ukraine-dnipro-odesa-kharkiv"
-            },
-            {
-              "title": "Chimpanzee and gorilla brains maintain white matter volume with age while human brains lose significant white matter, revealing a derived human pattern of age-related brain tissue loss absent in our closest living relatives",
-              "source": "Previously covered",
-              "url": "https://www.nature.com/articles/d41586-026-03158-0"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Attack on Riyadh airport injures several in third such strike this week, with damage visible inside terminal",
-          "timestamp": "just now",
-          "score": 7,
-          "summary": "An attack on Riyadh's main international airport resulted in multiple injuries, marking a significant security incident in the Saudi capital. While full details on the method and perpetrators are still emerging, Yemen's Houthi movement has previously launched drone and missile strikes against Saudi infrastructure, making them a primary suspect. The incident matters because Riyadh's airport is a major hub for regional and international aviation, and successful strikes on it signal a potential escalation in the ongoing Yemen conflict and Gulf regional security tensions. Saudi Arabia and a Saudi-led coalition have been at war with the Houthis since 2015, and attacks on civilian infrastructure represent a persistent and growing threat to Gulf stability.",
-          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no",
-          "image": "",
-          "articles": [
-            {
-              "title": "Attack on Riyadh airport injures several in third such strike this week, with damage visible inside terminal",
-              "source": "BBC News",
-              "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no"
-            },
-            {
-              "title": "Several people injured in attack on Riyadh airport in the Saudi capital",
-              "source": "Previously covered",
-              "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Trump calls for Ukraine to replace Zelensky after Zelensky publicly condemns a diesel deal, saying a new president is needed to end the war",
-          "timestamp": "just now",
-          "score": 7,
-          "summary": "President Trump publicly stated that Ukraine needs new leadership after President Zelensky criticized a proposed diesel deal, effectively calling for the removal of a democratically elected wartime ally. Zelensky condemned the deal terms as unacceptable to Ukraine's sovereignty or security interests, triggering Trump's unusually direct attack on a sitting allied leader. This is a significant diplomatic rupture because the US has been Ukraine's most critical military and financial backer since Russia's 2022 invasion, and undermining Zelensky publicly could weaken Ukraine's negotiating position and fracture Western unity. The episode signals a potential major shift in US foreign policy toward pressuring Ukraine itself, rather than Russia, to make concessions to end the war.",
-          "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo",
-          "image": "",
-          "articles": [
-            {
-              "title": "Trump calls for Ukraine to replace Zelensky after Zelensky publicly condemns a diesel deal, saying a new president is needed to end the war",
-              "source": "BBC News",
-              "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo"
-            },
-            {
-              "title": "Trump demands Ukraine get a new president, lashes out at Zelensky",
-              "source": "Yahoo News",
-              "url": "https://www.yahoo.com/news/politics/articles/trump-demands-ukraine-president-lashes-180336522.html"
-            },
-            {
-              "title": "Trump calls for Ukraine to replace Zelensky after Putin diesel deal",
-              "source": "Axios",
-              "url": "https://www.axios.com/2026/10/10/trump-ukraine-zelensky-replace-putin-diesel"
-            },
-            {
-              "title": "Trump Demands Ukraine Replace Zelenskiy After White House Deal Lifts Diesel Sanctions From Russia",
-              "source": "Newscord",
-              "url": "https://newscord.org/article/trump-demands-ukraine-replace-zelenskiy-after-white-house-deal-lifts-diesel-sanc--Story_20261010_TrumpdemandsUkraineg90119601"
-            },
-            {
-              "title": "Ukraine Needs a New President, Says Trump; Kyiv Defends Zelensky's Leadership",
-              "source": "Archynewsy",
-              "url": "https://www.archynewsy.com/ukraine-needs-a-new-president-says-trump-kyiv-defends-zelenskys-leadership/"
-            },
-            {
-              "title": "Trump calls for Ukraine to replace Zelensky as president",
-              "source": "The News International",
-              "url": "https://www.thenews.com.pk/latest/1419434-trump-calls-for-ukraine-to-replace-zelensky-as-president"
             }
           ],
           "tracking_suggestions": []
@@ -389,9 +368,9 @@
       "australia": [],
       "archaeology": [
         {
-          "headline": "Denisovan stone tools recovered from a cave in China provide the first direct archaeological evidence of the material culture and behavioural practices of Denisovans beyond the Siberian Denisova Cave",
-          "timestamp": "3 weeks ago",
-          "score": 9,
+          "headline": "Denisovan stone tools recovered from a cave in China provide the first direct material-culture evidence of how Denisovans lived outside the Tibetan Plateau Denisova Cave context",
+          "timestamp": "4 weeks ago",
+          "score": 8,
           "summary": "Researchers have recovered stone tools from a cave in China that can be directly attributed to Denisovans, an ancient human relative known almost entirely from DNA and a handful of fossil fragments. This marks the first time scientists have been able to link actual artifacts to Denisovan behavior, revealing how they made and used technology in East Asia. Previously, understanding of Denisovans was largely limited to genetic data extracted from fossils found mainly in Siberia's Denisova Cave, leaving their daily lives and cultural practices almost entirely unknown. The discovery significantly expands the known geographic and cultural footprint of Denisovans and opens a new avenue for studying them through physical evidence rather than genetics alone.",
           "url": "https://www.newscientist.com/article/2588304-denisovan-tools-from-cave-in-china-shows-how-mysterious-humans-lived/",
           "image": "",
@@ -405,24 +384,8 @@
           "tracking_suggestions": []
         },
         {
-          "headline": "Molecular clock revisions push the last common ancestor of humans and chimpanzees further back in time than previously estimated, requiring reinterpretation of the hominin fossil record's earliest members",
-          "timestamp": "3 weeks ago",
-          "score": 8,
-          "summary": "New recalibrations of the molecular clock \u2014 a method that estimates when species diverged based on DNA mutation rates \u2014 suggest that humans and chimpanzees split from a common ancestor earlier than the widely accepted estimate of 6 to 7 million years ago. This challenges the established timeline of human evolution and forces scientists to reconsider the status of key fossil candidates like Sahelanthropus tchadensis and Orrorin tugenensis, which were previously thought to be among the earliest members of the human lineage after the split. If the divergence happened earlier, these fossils might actually fall after the split point, meaning they could be early hominins, early chimp ancestors, or something else entirely \u2014 fundamentally changing how we reconstruct our evolutionary tree. The finding highlights ongoing uncertainty in paleoanthropology, where molecular dating and the fossil record frequently conflict, and underscores how sensitive our understanding of human origins is to the calibration methods scientists use.",
-          "url": "https://www.newscientist.com/article/2588568-why-our-common-ancestor-with-chimpanzees-keeps-getting-further-away/",
-          "image": "",
-          "articles": [
-            {
-              "title": "",
-              "source": "New Scientist",
-              "url": "https://www.newscientist.com/article/2588568-why-our-common-ancestor-with-chimpanzees-keeps-getting-further-away/"
-            }
-          ],
-          "tracking_suggestions": []
-        },
-        {
-          "headline": "Neanderthals across Europe used wood as a primary material alongside stone tools, with new analysis of preserved wooden artefacts indicating woodworking was widespread and systematic rather than opportunistic",
-          "timestamp": "2 days ago",
+          "headline": "Neanderthals in Europe routinely made and used wooden tools alongside stone tools, according to new analysis suggesting wood technology was as central to their toolkit as lithics",
+          "timestamp": "3 days ago",
           "score": 7,
           "summary": "A new analysis of Neanderthal archaeological sites across Europe indicates that wooden tools and structures were just as common and important to their material culture as the stone tools that have traditionally defined our understanding of them. Because wood rarely survives thousands of years in the archaeological record, researchers have long underestimated how much Neanderthals relied on it, leading to a skewed picture of their technological capabilities. This finding challenges the long-held view that Neanderthals were technologically limited compared to early modern humans, suggesting instead that their toolkit was broader and more sophisticated than the fossil record alone implies. The research has significant implications for how we assess Neanderthal cognition, planning ability, and cultural complexity.",
           "url": "https://www.newscientist.com/article/2592417-neanderthal-europe-was-as-much-a-wooden-age-as-a-stone-age/",
@@ -432,6 +395,43 @@
               "title": "",
               "source": "New Scientist",
               "url": "https://www.newscientist.com/article/2592417-neanderthal-europe-was-as-much-a-wooden-age-as-a-stone-age/"
+            }
+          ],
+          "tracking_suggestions": []
+        },
+        {
+          "headline": "Genetic study of Polynesian populations published in Science identifies nested founder effects linking French Polynesia, Rapa Nui and Hawaii, constraining models of Pacific settlement sequence and population size",
+          "timestamp": "yesterday",
+          "score": 7,
+          "summary": "A genetic study published in Science analyzed DNA from Polynesian populations across French Polynesia, Rapa Nui (Easter Island), and Hawaii, identifying a pattern of nested founder effects \u2014 meaning each successive population carries the genetic signature of a bottleneck inherited from the previous one. This finding supports a sequential, stepwise model of Pacific colonization rather than a broad-front model where multiple island groups were settled simultaneously from a common source. The bottleneck signatures also allow researchers to place quantitative limits on how many people founded each new settlement and the likely direction of travel, giving historians and anthropologists hard genetic data to test against archaeological and linguistic evidence. This matters because the question of how and in what order humans spread across the vast Pacific has been debated for decades, and these findings provide some of the clearest population-genetic constraints on that sequence to date.",
+          "url": "https://www.science.org/doi/abs/10.1126/science.aec7662?af=R",
+          "image": "",
+          "articles": [
+            {
+              "title": "Message in a bottleneck: Nested founder effects from French Polynesia to Rapa Nui and Hawai\u02bbi",
+              "source": "Science",
+              "url": "https://www.science.org/doi/abs/10.1126/science.aec7662?af=R"
+            }
+          ],
+          "tracking_suggestions": [
+            "Polynesian genetic founder effects",
+            "Pacific colonization sequence models",
+            "ancient human migration genomics",
+            "population bottleneck research"
+          ]
+        },
+        {
+          "headline": "New analysis pushes back the estimated divergence date between the human and chimpanzee lineages further than previous molecular and fossil estimates, widening the gap between genetic and palaeontological calibration points",
+          "timestamp": "4 weeks ago",
+          "score": 7,
+          "summary": "New recalibrations of the molecular clock \u2014 a method that estimates when species diverged based on DNA mutation rates \u2014 suggest that humans and chimpanzees split from a common ancestor earlier than the widely accepted estimate of 6 to 7 million years ago. This challenges the established timeline of human evolution and forces scientists to reconsider the status of key fossil candidates like Sahelanthropus tchadensis and Orrorin tugenensis, which were previously thought to be among the earliest members of the human lineage after the split. If the divergence happened earlier, these fossils might actually fall after the split point, meaning they could be early hominins, early chimp ancestors, or something else entirely \u2014 fundamentally changing how we reconstruct our evolutionary tree. The finding highlights ongoing uncertainty in paleoanthropology, where molecular dating and the fossil record frequently conflict, and underscores how sensitive our understanding of human origins is to the calibration methods scientists use.",
+          "url": "https://www.newscientist.com/article/2588568-why-our-common-ancestor-with-chimpanzees-keeps-getting-further-away/",
+          "image": "",
+          "articles": [
+            {
+              "title": "",
+              "source": "New Scientist",
+              "url": "https://www.newscientist.com/article/2588568-why-our-common-ancestor-with-chimpanzees-keeps-getting-further-away/"
             }
           ],
           "tracking_suggestions": []
@@ -2006,10 +2006,11 @@
     "https://www.marca.com/futbol/getafe/2026/10/10/angel-torres-avala-laliga-admita-fichaje-carvajal-pendientes-dani-diga.html": "Getafe president Angel Torres has expressed support for LaLiga registering veteran Spanish right-back Dani Carvajal, indicating the club's interest in signing him. Torres clarified that the move is contingent on Carvajal's own decision about his next career step. Carvajal, a long-serving Real Madrid stalwart, has been a free agent since his contract with the club expired, making him an attractive option for any Spanish side. A move to Getafe would be a notable story given Carvajal's decorated history at the top of European football.",
     "https://www.kicker.de/ist-der-knoten-geplatzt-diomande-trifft-trocken-zur-real-fuehrung-1260004/video#omrss": "Real Madrid took the lead against Villarreal in a LaLiga match when Yan Diomande scored after receiving a through ball from Fede Valverde. The Ivorian midfielder found himself unmarked and finished cleanly to put his side ahead. The result carries significance beyond the single match, as Real Madrid's performance directly impacts the LaLiga title race standings. Diomande's goal highlights his growing role in Madrid's squad during a critical period of the season.",
     "https://www.kicker.de/paris-sg-man-elfmeter-in-der-93-minute-1260012/video#omrss": "Paris Saint-Germain defeated Le Mans 3-1 in Ligue 1, with Georgian winger Khvicha Kvaratskhelia and Maghnes Akliouche both getting on the scoresheet, and PSG adding a third goal from the penalty spot in stoppage time. The win keeps PSG firmly in control of the Ligue 1 title race as they continue to assert domestic dominance. The result is notable as it further demonstrates that PSG are adapting well to life without Kylian Mbappe, who departed for Real Madrid, with Kvaratskhelia emerging as the team's standout attacking threat since his January 2025 signing from Napoli.",
-    "https://www.kicker.de/drei-tore-in-der-nachspielzeit-unfassbares-spektakel-in-nuernberg-1259009/artikel#omrss": "In a dramatic Bundesliga 2 match between 1. FC N\u00fcrnberg and VfL Wolfsburg, three goals were scored in stoppage time to produce a stunning 4-4 draw. Both teams appeared to have the match won at different points before the frantic late action overturned the result multiple times. The draw is significant given the match was described as a top-of-the-table clash, meaning points dropped or gained have direct implications for promotion and relegation. This kind of result can prove pivotal at the end of a season where margins between promotion, playoff spots, and relegation are often razor-thin."
+    "https://www.kicker.de/drei-tore-in-der-nachspielzeit-unfassbares-spektakel-in-nuernberg-1259009/artikel#omrss": "In a dramatic Bundesliga 2 match between 1. FC N\u00fcrnberg and VfL Wolfsburg, three goals were scored in stoppage time to produce a stunning 4-4 draw. Both teams appeared to have the match won at different points before the frantic late action overturned the result multiple times. The draw is significant given the match was described as a top-of-the-table clash, meaning points dropped or gained have direct implications for promotion and relegation. This kind of result can prove pivotal at the end of a season where margins between promotion, playoff spots, and relegation are often razor-thin.",
+    "https://www.science.org/doi/abs/10.1126/science.aec7662?af=R": "A genetic study published in Science analyzed DNA from Polynesian populations across French Polynesia, Rapa Nui (Easter Island), and Hawaii, identifying a pattern of nested founder effects \u2014 meaning each successive population carries the genetic signature of a bottleneck inherited from the previous one. This finding supports a sequential, stepwise model of Pacific colonization rather than a broad-front model where multiple island groups were settled simultaneously from a common source. The bottleneck signatures also allow researchers to place quantitative limits on how many people founded each new settlement and the likely direction of travel, giving historians and anthropologists hard genetic data to test against archaeological and linguistic evidence. This matters because the question of how and in what order humans spread across the vast Pacific has been debated for decades, and these findings provide some of the clearest population-genetic constraints on that sequence to date."
   },
   "article_hashes": {
-    "breaking": "538785071d2660c48cc4babc7c03def0"
+    "breaking": "e9d18c68d47009da10bebf490ae0fe66"
   },
   "world_topics_cache": {
     "today": [
@@ -2094,5 +2095,5 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-10T19:56:54.992845+00:00"
+  "last_gdelt_attempt": "2026-10-11T00:40:30.459779+00:00"
 }

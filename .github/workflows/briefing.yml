@@ -61,6 +61,15 @@ jobs:
           # Zero-spend switch. Manual dispatch: the claude_enabled input. Scheduled runs: set the repo variable
           # CLAUDE_ENABLED to false (Settings > Variables) to turn Claude off for every scheduled run.
           CLAUDE_ENABLED: ${{ github.event.inputs.claude_enabled || vars.CLAUDE_ENABLED || 'true' }}
+          # Per-category switches (repo variables; Claude is on for a category unless its variable is false).
+          # The global CLAUDE_ENABLED above still overrides all of them. CLAUDE_TRACKED = developing situations.
+          CLAUDE_BREAKING: ${{ vars.CLAUDE_BREAKING || 'true' }}
+          CLAUDE_AUSTRALIA: ${{ vars.CLAUDE_AUSTRALIA || 'true' }}
+          CLAUDE_ARCHAEOLOGY: ${{ vars.CLAUDE_ARCHAEOLOGY || 'true' }}
+          CLAUDE_FOOTBALL: ${{ vars.CLAUDE_FOOTBALL || 'true' }}
+          CLAUDE_TRACKED: ${{ vars.CLAUDE_TRACKED || 'true' }}
+          # Hard monthly spend cap in AUD (blocks all but Breaking at 100%, everything at 120%).
+          MONTHLY_CAP_AUD: ${{ vars.MONTHLY_CAP_AUD || '15' }}
         run: python fetch_news.py
 
       - name: Commit memory file

@@ -1,13 +1,14 @@
 # Daily Briefing — Project Status
 
 ## Last Shipped
-Step 2 free fetch (PR open for review, not merged): permanent article IDs, article store + new-IDs gate replacing the title-hash gate, quiet runs are healthy and stop with no Claude/rebuild/deploy, near-duplicate titles, per-source/per-category logging, GDELT one-try hardening, CLAUDE_ENABLED zero-spend switch (#71–#77)
+Monthly spend cap in code (A$15 default, 80%/100% alerts, Breaking-only at cap, hard stop at 120%), per-category Claude switches, cap state in COST_SUMMARY.md, SHA + cap % footer stamp (PR open for review, not merged; #80-#83)
 
 ## 🔄 In Progress
 Nothing in progress. Open follow-ups: #68 (crash handling), #70 (PR #62 review leftovers), #78 (GDELT rate-limit investigation, parked).
 
 ## 📌 Critical Context
-- PR #62 (Step 1 foundations) was reviewed and **merged to main on 11 Oct 2026** (AEST); Step 2 is on branch `step2-free-fetch`
+- Steps 1 and 2 (PR #62, PR #79) are merged to main
+- Spend controls (repo variables): `MONTHLY_CAP_AUD` (default 15), `CLAUDE_ENABLED`, `CLAUDE_BREAKING/AUSTRALIA/ARCHAEOLOGY/FOOTBALL/TRACKED` (on unless `false`). Global off beats category flags
 - Owner is in Brisbane, Australia — all timestamps in AEST (UTC+10)
 - Live site: https://daily-briefing-2wm.pages.dev (Cloudflare Pages project daily-briefing; the plain daily-briefing.pages.dev is NOT ours)
 - AUD conversion hardcoded at 1.55
@@ -22,7 +23,7 @@ Nothing in progress. Open follow-ups: #68 (crash handling), #70 (PR #62 review l
 | `fetch_news.py` | Entry point — orchestration and run mode switching only |
 | `memory.py` | All memory/health functions — load, save, cache, `log_run` |
 | `articles.py` | Article IDs (sha256 of canonical URL), `article_store` in memory.json (7-day prune), new-vs-seen split, near-duplicate titles (`DUPLICATE_THRESHOLD`) |
-| `api.py` | Claude API wrappers (`_attempt`), relative_time, format_articles_for_prompt |
+| `api.py` | Claude API wrappers (`_attempt`), the one gate in front of every call (`claude_blocked`: global switch, category switch, spend cap), relative_time, format_articles_for_prompt |
 | `fetchers.py` | All data fetching — RSS, GDELT, Guardian, YouTube, Reddit, NewsData; `timed_fetch` is the shared routine (10s timeout, ids, per-source timing) |
 | `processors.py` | Category processors, world topics, developing situations, HEADLINE_RULES |
 | `page/builder.py` | build_html() — loads and renders Jinja2 template, ACCENTS |
@@ -31,7 +32,7 @@ Nothing in progress. Open follow-ups: #68 (crash handling), #70 (PR #62 review l
 | `memory.json` | Story cache, summaries, world trends, `article_store` (id -> source/title/published/first_seen/category) |
 | `health.json` | Single status file: runs, per-source status, errors, last_successful_data_update, last_successful_check (healthy all-quiet full run), consecutive_failures, per-source `last_run`, per-run per-category new-article stats, api_cost_ledger |
 | `pricing.py` | The only price table (USD/MTok + web search fee), with source URL and date |
-| `costs.py` | Cost ledger: `log_call`, rollups, COST_SUMMARY.md, health key `api_cost_ledger` |
+| `costs.py` | Cost ledger: `log_call`, `log_skipped(reason)`, rollups, COST_SUMMARY.md, month-to-date + `cap_state`, cap alerts, health key `api_cost_ledger` |
 | `cost_log.json` | Append-only ledger, one row per API attempt (plus `skipped` rows when `CLAUDE_ENABLED` is off) (rows without `outcome` are pre-#52 and mispriced) |
 | `tests/test_costs.py` | Cost maths + ledger tests: `python -m unittest tests.test_costs` |
 | `safety.py` | Good-data rule (`evaluate_run`), `STALE_AFTER_HOURS = 8`, alert rule (`decide_alert`) |

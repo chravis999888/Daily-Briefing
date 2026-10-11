@@ -288,24 +288,75 @@
     "2026-10-11": {
       "breaking": [
         {
-          "headline": "US military bombed a cargo vessel in the Gulf of Oman that was attempting to breach the US naval blockade of Iran",
-          "timestamp": "just now",
-          "score": 8,
-          "summary": "The US military struck a cargo vessel in the Gulf of Oman after it allegedly attempted to break through a US naval blockade of Iran. The blockade appears to be part of a broader US pressure campaign against Iran, likely aimed at restricting the flow of goods, weapons, or oil in and out of the country. This marks a significant escalation, as directly attacking a cargo ship is a dramatic military action with potential implications for international shipping, maritime law, and regional stability. The incident could heighten tensions with Iran and any nations whose goods or ships were aboard the targeted vessel.",
-          "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman",
+          "headline": "US military bombs cargo vessel in Gulf of Oman intercepted while attempting to breach US naval blockade of Iran",
+          "timestamp": "1 hr ago",
+          "score": 9,
+          "summary": "A US fighter jet bombed a commercial cargo ship in the Gulf of Oman after the vessel attempted to breach a US naval blockade of Iran, according to US Central Command. The strike signals a significant escalation in the US-Iran conflict, moving beyond airstrikes or proxy engagements to active military interdiction of civilian shipping in one of the world's most critical energy corridors, through which a large share of global oil and gas flows. A naval blockade of Iran is itself a major wartime measure, and attacking vessels that challenge it raises serious risks of broader conflict, potential retaliation against US ships or regional infrastructure, and disruption to global energy markets. This development marks one of the most direct and consequential US military actions against Iran in the current conflict.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/us-bombs-cargo-vessel-in-gulf-of-oman-trying-to-run-iran-blockade?traffic_source=rss",
           "image": "",
           "articles": [
             {
-              "title": "US military bombed a cargo vessel in the Gulf of Oman that was attempting to breach the US naval blockade of Iran",
+              "title": "US bombs cargo vessel in Gulf of Oman \u2018trying to run Iran blockade\u2019",
               "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/us-bombs-cargo-vessel-in-gulf-of-oman-trying-to-run-iran-blockade?traffic_source=rss"
+            },
+            {
+              "title": "US military bombed a cargo vessel in the Gulf of Oman that was attempting to breach the US naval blockade of Iran",
+              "source": "Previously covered",
               "url": "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman"
             }
           ],
           "tracking_suggestions": [
-            "Gulf of Oman vessel strike",
+            "Gulf of Oman ship strike",
             "US naval blockade Iran",
-            "US-Iran military escalation",
-            "Middle East maritime security"
+            "US-Iran war escalation",
+            "global shipping security"
+          ]
+        },
+        {
+          "headline": "Pakistan federal government imposes emergency rule in Khyber Pakhtunkhwa province, currently governed by Imran Khan's PTI party",
+          "timestamp": "37 mins ago",
+          "score": 8,
+          "summary": "Pakistan's federal government has declared emergency rule in Khyber Pakhtunkhwa (KP), a northwestern province currently controlled by Imran Khan's opposition party PTI, citing the provincial government's alleged failure to cooperate in counterterrorism efforts. The move, approved by the federal cabinet, strips the elected PTI provincial government of its authority and places the province under direct federal control. This is highly significant because KP borders Afghanistan and has long been a hotspot for militant activity, but the timing and target \u2014 an opposition-governed province \u2014 raises serious concerns about political motivations. Imposing emergency rule on a legitimately elected opposition government represents one of the most severe constitutional confrontations in Pakistan's recent history, further destabilizing a country already dealing with economic crisis, military-political tensions, and Imran Khan's ongoing imprisonment.",
+          "url": "https://www.aljazeera.com/news/2026/10/11/pakistan-imposes-emergency-rule-in-khyber-pakhtunkhwa?traffic_source=rss",
+          "image": "",
+          "articles": [
+            {
+              "title": "Pakistan imposes emergency rule in \u200bprovince governed by Imran Khan\u2019s party",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/11/pakistan-imposes-emergency-rule-in-khyber-pakhtunkhwa?traffic_source=rss"
+            },
+            {
+              "title": "Pakistan president imposes emergency in opposition-ruled Khyber Pakhtunkhwa province",
+              "source": "Arab News Pakistan",
+              "url": "https://www.arabnews.pk/pakistan/pakistan-president-imposes-emergency-in-opposition-ruled-khyber-pakhtunkhwa-province-3003824"
+            },
+            {
+              "title": "Pakistan imposes emergency rule in northern province after protests: presidency",
+              "source": "Arab News",
+              "url": "https://www.arabnews.com/world/pakistan-imposes-emergency-rule-in-northern-province-after-protests-presidency-3005739"
+            },
+            {
+              "title": "Emergency looms over KP as Centre-PTI rift widens",
+              "source": "Dawn",
+              "url": "https://www.dawn.com/news/2036270/emergency-looms-over-kp-as-centre-pti-rift-widens"
+            },
+            {
+              "title": "KP faces Emergency, Governor's Rule at the Same Time amid Political, Security Crisis",
+              "source": "Daily Pakistan",
+              "url": "https://en.dailypakistan.com.pk/11-Oct-2026/kp-faces-emergency-governors-rule-at-the-same-time-amid-political-security-crisis"
+            },
+            {
+              "title": "Pakistan government weighs emergency rule in KP amid widening rift with PTI",
+              "source": "TBS News",
+              "url": "https://www.tbsnews.net/worldbiz/asia/pakistan-government-weighs-emergency-rule-kp-amid-widening-rift-pti-1568951"
+            }
+          ],
+          "tracking_suggestions": [
+            "KP emergency rule",
+            "Pakistan PTI crackdown",
+            "Pakistan political crisis",
+            "nuclear state instability"
           ]
         }
       ],
@@ -1951,10 +2002,12 @@
     "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis": "Houthi forces from Yemen launched a missile or drone strike on King Khalid International Airport in Riyadh, Saudi Arabia, killing 12 people and injuring more than 300 in what is the first confirmed mass-casualty Houthi attack on the Saudi capital's main civilian airport. The strike represents a significant escalation in the ongoing conflict between the Houthis and Saudi Arabia, which is backed by the United States, and signals the Iran-aligned group's growing reach and willingness to target major civilian infrastructure far from the front lines. The attack is part of a broader pattern of Houthi aggression linked to the wider regional tensions involving Iran, with the US now reportedly weighing direct military action against the Houthis in response. The targeting of a busy international airport raises serious concerns about civilian aviation safety and could trigger a major military response from Saudi Arabia and potentially the United States.",
     "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport": "Houthi forces from Yemen fired a missile that struck King Khalid International Airport in Riyadh, Saudi Arabia, killing multiple people in a significant escalation of the ongoing Yemen conflict. The attack directly targeted a major civilian hub in the capital of a key US ally, raising the stakes considerably beyond previous Houthi strikes on Saudi infrastructure. President Trump is reportedly weighing direct US military involvement in Saudi retaliatory strikes, which would mark a substantial expansion of American engagement in the Arabian Peninsula. The attack has drawn widespread international condemnation and could pull the United States into a more active combat role in a conflict that has already caused one of the world's worst humanitarian crises.",
     "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us": "Hurricane Isaias made landfall in Florida, killing four people and knocking out power for approximately 650,000 residents, causing significant infrastructure damage across the state. The storm is part of what has been described as an increasingly active and destructive 2026 Atlantic hurricane season, raising concerns about the frequency and intensity of major storms hitting the US coastline. This level of power outage and storm impact strains emergency response systems, utility infrastructure, and local economies, particularly when storms cluster within a single season. The event highlights ongoing concerns about hurricane preparedness and the resilience of aging power grids in vulnerable coastal states.",
-    "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman": "The US military struck a cargo vessel in the Gulf of Oman after it allegedly attempted to break through a US naval blockade of Iran. The blockade appears to be part of a broader US pressure campaign against Iran, likely aimed at restricting the flow of goods, weapons, or oil in and out of the country. This marks a significant escalation, as directly attacking a cargo ship is a dramatic military action with potential implications for international shipping, maritime law, and regional stability. The incident could heighten tensions with Iran and any nations whose goods or ships were aboard the targeted vessel."
+    "https://www.aljazeera.com/news/2026/10/11/us-forces-disable-ship-attempting-to-run-iran-blockade-in-gulf-of-oman": "The US military struck a cargo vessel in the Gulf of Oman after it allegedly attempted to break through a US naval blockade of Iran. The blockade appears to be part of a broader US pressure campaign against Iran, likely aimed at restricting the flow of goods, weapons, or oil in and out of the country. This marks a significant escalation, as directly attacking a cargo ship is a dramatic military action with potential implications for international shipping, maritime law, and regional stability. The incident could heighten tensions with Iran and any nations whose goods or ships were aboard the targeted vessel.",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/11/us-bombs-cargo-vessel-in-gulf-of-oman-trying-to-run-iran-blockade?traffic_source=rss": "A US fighter jet bombed a commercial cargo ship in the Gulf of Oman after the vessel attempted to breach a US naval blockade of Iran, according to US Central Command. The strike signals a significant escalation in the US-Iran conflict, moving beyond airstrikes or proxy engagements to active military interdiction of civilian shipping in one of the world's most critical energy corridors, through which a large share of global oil and gas flows. A naval blockade of Iran is itself a major wartime measure, and attacking vessels that challenge it raises serious risks of broader conflict, potential retaliation against US ships or regional infrastructure, and disruption to global energy markets. This development marks one of the most direct and consequential US military actions against Iran in the current conflict.",
+    "https://www.aljazeera.com/news/2026/10/11/pakistan-imposes-emergency-rule-in-khyber-pakhtunkhwa?traffic_source=rss": "Pakistan's federal government has declared emergency rule in Khyber Pakhtunkhwa (KP), a northwestern province currently controlled by Imran Khan's opposition party PTI, citing the provincial government's alleged failure to cooperate in counterterrorism efforts. The move, approved by the federal cabinet, strips the elected PTI provincial government of its authority and places the province under direct federal control. This is highly significant because KP borders Afghanistan and has long been a hotspot for militant activity, but the timing and target \u2014 an opposition-governed province \u2014 raises serious concerns about political motivations. Imposing emergency rule on a legitimately elected opposition government represents one of the most severe constitutional confrontations in Pakistan's recent history, further destabilizing a country already dealing with economic crisis, military-political tensions, and Imran Khan's ongoing imprisonment."
   },
   "article_hashes": {
-    "breaking": "2c59eff206a32f56395514f6adc78558"
+    "breaking": "7c6e5d41b072e5bb2c83a6563da12517"
   },
   "world_topics_cache": {
     "today": [

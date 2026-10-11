@@ -1,3 +1,4 @@
+import os
 import urllib.parse
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -59,6 +60,8 @@ def health_dot(run):
     parts = [f"Last run ({run.get('run_type', '?')}): {outcome}"]
     if run.get("claude_calls"):
         parts.append(f"{run.get('claude_calls_errored', 0)} of {run['claude_calls']} Claude calls failed")
+    if run.get("reason") == "cap":
+        parts.append("Monthly spend cap reached: Claude calls skipped, stories kept")
     parts += [str(r)[:160] for r in (run.get("reasons") or [])[:2]]
     if errors:
         parts.append("Sources: " + "; ".join(str(e)[:120] for e in errors[:3]))
@@ -81,6 +84,17 @@ def freshness(health, now):
     hours = int((now - dt).total_seconds() // 3600)
     return text, (f"Stale data: the last successful update was {hours} hours ago ({text}). "
                   f"Updates are failing, so the stories below may be out of date (warning after {STALE_AFTER_HOURS}h).")
+
+
+def footer_stamp(health, sha=None):
+    """Quiet footer text: short deploy commit SHA and month-to-date spend as a percent of the cap (no dollars).
+    Either part is left out if unknown."""
+    sha = (os.environ.get("GITHUB_SHA", "") if sha is None else sha)[:7]
+    spent, cap = (health or {}).get("month_to_date_aud"), (health or {}).get("monthly_cap_aud")
+    parts = [sha] if sha else []
+    if isinstance(spent, (int, float)) and isinstance(cap, (int, float)) and cap > 0:
+        parts.append(f"{round(100 * spent / cap)}% of cap")
+    return " · ".join(parts)
 
 
 def build_html(all_data, yesterday_data, developing_situations, health=None, now=None):
@@ -126,6 +140,7 @@ def build_html(all_data, yesterday_data, developing_situations, health=None, now
     return template.render(
         date_str=date_str,
         built_str=built_str,
+        footer_stamp=footer_stamp(health),
         updated_str=updated_str,
         stale_warning=stale_warning,
         build_ts=build_ts,

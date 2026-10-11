@@ -35,6 +35,11 @@ def last_good_check(health):
     return max(times).isoformat() if times else None
 
 
+def capped_run(rows):
+    """True if any call this run was blocked by the monthly spend cap."""
+    return any(r.get("outcome") == "skipped" and r.get("reason") == "cap" for r in rows)
+
+
 def claude_stats(rows):
     """rows: cost-ledger rows for THIS run. A call is failed if its outcome is not 'ok'."""
     rows = real_calls(rows)
@@ -88,9 +93,11 @@ def evaluate_run(run_type, memory, rows, fetched_any, fresh=None, fallback_cats=
            applies, so a quiet run is only healthy if sources really returned articles. A healthy quiet run is
            outcome "ok" but never `advance`s last_successful_data_update (nothing was updated); a full-coverage
            one (`checked_all`) records last_successful_check instead.
-    Outcome: failed = not good; degraded = good but a Claude call failed or a category fell back; ok otherwise.
+    Outcome: failed = not good; degraded = good but a Claude call failed, a category fell back, or the
+    monthly spend cap blocked calls; ok otherwise.
     """
     stats = claude_stats(rows)
+    capped = capped_run(rows)
     reasons = []
     if run_type not in DATA_RUN_TYPES_NO_FETCH and not fetched_any:
         reasons.append("no source returned any articles")
@@ -98,21 +105,23 @@ def evaluate_run(run_type, memory, rows, fetched_any, fresh=None, fallback_cats=
         reasons.append(f"all {stats['calls']} Claude calls failed ({stats['last_error']})")
     fallback = set(fallback_cats)
     attempted = attempted_categories(rows)
-    if attempted and attempted <= fallback:
+    if attempted and attempted <= fallback and not capped:   # cap hit mid-run: degraded, not failed
         reasons.append("every refreshed category fell back to its previous stories ("
                        + ", ".join(sorted(attempted)) + ")")
     if fresh is not None:
-        if not any(fresh.get(c) for c in CATEGORIES):
+        if not any(fresh.get(c) for c in CATEGORIES) and not capped:
             reasons.append("full run produced no stories in any category")
         if not all(valid_stories(fresh.get(c, [])) for c in CATEGORIES):
             reasons.append("produced stories failed validation (missing headline)")
     if not isinstance(memory, dict) or not isinstance(memory.get("stories", {}), dict):
         reasons.append("memory data is corrupted")
     good = not reasons
-    outcome = "failed" if not good else ("degraded" if (stats["failed"] or fallback) else "ok")
-    return {"good": good, "outcome": outcome, "reasons": reasons, "reason": quiet if good else None,
+    # A capped run is degraded (stories kept, calls skipped on purpose), never failed.
+    outcome = "failed" if not good else ("degraded" if (stats["failed"] or fallback or capped) else "ok")
+    return {"good": good, "outcome": outcome, "reasons": reasons, "reason": (quiet or ("cap" if capped else None)) if good else None,
             "advance": good and not quiet and run_type not in DATA_RUN_TYPES_NO_FETCH,
-            "checked_all": bool(good and quiet and run_type == "full"),
+            "checked_all": bool(good and quiet and run_type == "full" and not capped),
+            "capped": capped,
             "claude_calls": stats["calls"], "claude_calls_errored": stats["failed"],
             "claude_last_error": stats["last_error"]}
 

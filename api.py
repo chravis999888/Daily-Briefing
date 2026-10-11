@@ -7,7 +7,8 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from email.utils import parsedate_to_datetime
 
-from costs import log_call, log_skipped
+import contextlib
+from costs import log_call, log_skipped, infer_category, cap_blocks
 
 AEST = timezone(timedelta(hours=10))
 RUN_MODE = os.environ.get("RUN_MODE", "full")
@@ -18,17 +19,53 @@ SONNET = "claude-sonnet-4-6"
 WEB_SEARCH_TOOL = {"type": "web_search_20250305", "name": "web_search"}
 
 
+_OFF = ("0", "false", "off", "no")
+# Per-category switches: each is on unless set to false/0/off/no. "developing" = tracked stories.
+CATEGORY_FLAGS = {"breaking": "CLAUDE_BREAKING", "australia": "CLAUDE_AUSTRALIA", "archaeology": "CLAUDE_ARCHAEOLOGY",
+                  "football": "CLAUDE_FOOTBALL", "developing": "CLAUDE_TRACKED"}
+_scope = {"category": None}
+
+
 def claude_enabled():
     """CLAUDE_ENABLED env switch, read at call time. Default on; 0 / false / off / no turns every call off."""
-    return os.environ.get("CLAUDE_ENABLED", "1").strip().lower() not in ("0", "false", "off", "no")
+    return os.environ.get("CLAUDE_ENABLED", "1").strip().lower() not in _OFF
+
+
+def category_enabled(category):
+    return os.environ.get(CATEGORY_FLAGS.get(category, ""), "1").strip().lower() not in _OFF
+
+
+def claude_blocked(category):
+    """Why a Claude call in `category` must not be made, or None. Order: global switch (beats everything),
+    the category's own switch (can only turn things off), then the monthly spend cap."""
+    if not claude_enabled():
+        return "claude_disabled"
+    if not category_enabled(category):
+        return "category_off"
+    if cap_blocks(category):
+        return "cap"
+    return None
+
+
+@contextlib.contextmanager
+def category_scope(category):
+    """Calls made inside belong to `category` (summaries and searches carry generic labels), so the
+    per-category switches and the cap treat them like the category's selection call."""
+    previous, _scope["category"] = _scope["category"], category
+    try:
+        yield
+    finally:
+        _scope["category"] = previous
 
 
 def _skip(label, model):
-    """Safety net behind the pipeline's own gating: with Claude off, log the call that would have fired and
-    tell the caller not to make it."""
-    if claude_enabled():
+    """Gate in front of every Claude call. If blocked, log the call that would have fired as 'skipped'
+    (with the reason) and tell the caller not to make it."""
+    category = _scope["category"] or infer_category(label)
+    reason = claude_blocked(category)
+    if reason is None:
         return False
-    log_skipped(label, model=model)
+    log_skipped(label, category=category, model=model, reason=reason)
     return True
 
 

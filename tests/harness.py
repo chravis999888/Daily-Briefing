@@ -70,7 +70,7 @@ def _fake_articles(name, sources, salt):
 
 
 def run_pipeline(workdir, run_mode="full", claude="ok", category="", seed=None, sources="ok", fail_when=None,
-                 salt=None, claude_enabled=None, gdelt_error=None, stale_names=(), stale_salt=None):
+                 salt=None, claude_enabled=None, gdelt_error=None, stale_names=(), stale_salt=None, env=None):
     """Run fetch_news.main() inside workdir. Returns (stdout, exit_code).
     claude: 'ok' | 'error' (every call raises the real credit error). sources: 'ok' | 'down'.
     seed: optional {filename: json-able} written before the run.
@@ -79,6 +79,7 @@ def run_pipeline(workdir, run_mode="full", claude="ok", category="", seed=None, 
     claude_enabled: None leaves CLAUDE_ENABLED alone; '0' / '1' sets it for the run.
     stale_names/stale_salt: feeds with these names keep returning the articles of `stale_salt` (so their
           category has nothing new while others do).
+    env: extra environment variables for the run (e.g. {'CLAUDE_AUSTRALIA': 'false'}).
     gdelt_error: if set, the fake GDELT fails with this message (the other sources stay up)."""
     salt = salt if salt is not None else next(_RUNS)
     salt_for = lambda name: stale_salt if name in stale_names else salt
@@ -101,7 +102,7 @@ def run_pipeline(workdir, run_mode="full", claude="ok", category="", seed=None, 
         mock.patch.object(fetch_news, "RUN_MODE", run_mode),
         mock.patch.object(fetch_news, "RUN_CATEGORY", category),
         mock.patch("time.sleep", lambda *_: None),
-        mock.patch.dict(os.environ, {} if claude_enabled is None else {"CLAUDE_ENABLED": claude_enabled}),
+        mock.patch.dict(os.environ, {**({} if claude_enabled is None else {"CLAUDE_ENABLED": claude_enabled}), **(env or {})}),
         mock.patch.object(fetch_news, "fetch_gdelt_articles", gdelt),
         mock.patch.object(fetch_news, "fetch_guardian", lambda q, page_size=15, section=None: _fake_articles("Guardian", sources, salt_for("Guardian"))),
         mock.patch.object(fetch_news, "fetch_rss", lambda url, name: _fake_articles(name, sources, salt_for(name))),

@@ -10,8 +10,8 @@ from memory import (load_memory, save_memory, load_pinned, load_health, save_hea
                     get_cached_category, get_previous_stories, save_today_stories,
                     detect_developing_situations, restore_category)
 import fetchers
-from articles import classify_articles, prune_store, STORE_KEY
-from api import claude_enabled
+from articles import classify_articles, prune_store, restore_store_category, STORE_KEY
+from api import claude_blocked, category_scope
 from safety import (evaluate_run, failed_categories, attempted_categories, empty_summary_categories,
                     CATEGORIES, AEST)
 from fetchers import (fetch_gdelt_articles, fetch_guardian, fetch_rss, fetch_newsdata)
@@ -89,11 +89,13 @@ def _banner_deploy(verdict, health):
     return bool(health["runs"][-1].get("banner_deploy"))
 
 
-def _gate(memory, cat, candidates, stats):
+def _gate(memory, cat, candidates, stats, original):
     """The new-IDs gate. Classify `candidates` against the article store and return True only if this
-    category has new articles AND Claude is enabled, i.e. its Claude steps should run. A category with nothing
-    new keeps its current stories. With CLAUDE_ENABLED off, the selection call that would have fired is logged
-    as 'skipped'. The candidate list itself is never changed."""
+    category has new articles AND Claude may be called for it, i.e. its Claude steps should run. A category
+    with nothing new keeps its current stories. If a Claude call is blocked (global switch, the category's
+    switch, or the spend cap), the selection call that would have fired is logged as 'skipped' with the reason
+    and the stories stay. For category_off and cap the new articles are NOT marked seen, so switching the
+    category back on (or a new month) processes them normally. The candidate list is never changed."""
     info = classify_articles(memory, cat, candidates)
     stats[cat] = info
     mix = ", ".join(f"{k} {v}" for k, v in info["new_by_source"].items()) or "-"
@@ -101,12 +103,28 @@ def _gate(memory, cat, candidates, stats):
     if not info["has_new"]:
         print(f"{cat}: no new articles — skipping its Claude steps, keeping current stories")
         return False
-    if not claude_enabled():
-        log_skipped(f"{cat}_selection", cat, min(len(candidates), 30))
-        info["claude_off"] = True
-        print(f"{cat}: CLAUDE_ENABLED is off — {info['new']} new articles stored, Claude steps skipped")
+    reason = claude_blocked(cat)
+    if reason:
+        log_skipped(f"{cat}_selection", cat, min(len(candidates), 30), reason=reason)
+        info["blocked"] = reason
+        if reason == "claude_disabled":
+            info["claude_off"] = True
+        else:
+            restore_store_category(memory, original, cat)
+        print(f"{cat}: Claude blocked ({reason}) — {info['new']} new articles, Claude steps skipped, stories kept")
         return False
     return True
+
+
+def _developing(pinned, auto_detected, articles):
+    """Developing / tracked-story Claude call, behind CLAUDE_TRACKED, the global switch and the cap."""
+    reason = claude_blocked("developing")
+    if reason:
+        log_skipped("developing_situations", "developing", len(articles), reason=reason)
+        print(f"Developing situations: Claude blocked ({reason}) — not updated")
+        return _idle_situations(pinned)
+    with category_scope("developing"):
+        return process_developing_situations(pinned, auto_detected, articles)
 
 
 def _idle_situations(pinned):
@@ -127,12 +145,14 @@ def _write_page(all_data, yesterday_data, developing_situations, health, deploy)
 
 def _quiet_stop(run_type, health, memory, original, errors, ledger_start, stats, pinned):
     """Nothing to process this run (no category has new articles, or Claude is off). If the sources really
-    responded this is a HEALTHY run (outcome ok, reason no_new / claude_off): no Claude, no page rebuild, no
+    responded this is a HEALTHY run (outcome ok, reason no_new / claude_off / category_off; degraded if the spend cap blocked calls): no Claude, no page rebuild, no
     deploy, memory.json rewritten only if the article store changed, health.json updated. Returns the exit
     code, or None if the run is not healthy (no source returned anything) and must go the failure route."""
     rows = load_rows()[ledger_start:]
     fetched_any = any(e[1] for e in fetchers.SOURCE_EVENTS)
-    reason = "claude_off" if any(s.get("claude_off") for s in stats.values()) else "no_new"
+    blocked = {s.get("blocked") for s in stats.values()}
+    reason = next((r for blk, r in (("cap", "cap"), ("claude_disabled", "claude_off"), ("category_off", "category_off"))
+                   if blk in blocked), "no_new")
     verdict = evaluate_run(run_type, memory, rows, fetched_any, quiet=reason)
     if not verdict["good"]:
         return None
@@ -428,9 +448,10 @@ def main():
         aljazeera_rss = fetch_rss("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera")
         all_breaking = gdelt_breaking + guardian_breaking + reuters_rss + ap_rss + bbc_rss + aljazeera_rss
 
-        processed = _gate(memory, "breaking", all_breaking, stats)
+        processed = _gate(memory, "breaking", all_breaking, stats, original)
         if processed:
-            new_breaking, memory = process_breaking_news([], all_breaking, memory)
+            with category_scope("breaking"):
+                new_breaking, memory = process_breaking_news([], all_breaking, memory)
             if new_breaking:
                 breaking = new_breaking
                 content_changed = True
@@ -452,7 +473,7 @@ def main():
             "football": get_cached_category(memory, "football")
         }
         if processed:
-            developing_situations = process_developing_situations(pinned, [], all_breaking) if pinned else []
+            developing_situations = _developing(pinned, [], all_breaking) if pinned else []
         else:
             developing_situations = _idle_situations(pinned)
 
@@ -489,9 +510,10 @@ def main():
             goal_rss = fetch_rss("https://www.goal.com/feeds/en/news", "Goal.com")
             articles = (guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
                         espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)[:40]
-            processed = _gate(memory, "football", articles, stats)
+            processed = _gate(memory, "football", articles, stats, original)
             if processed:
-                result, memory = process_football(articles, memory)
+                with category_scope("football"):
+                    result, memory = process_football(articles, memory)
                 content_changed = True
             else:
                 result = get_cached_category(memory, "football")
@@ -508,9 +530,10 @@ def main():
             age_rss = fetch_rss("https://www.theage.com.au/rss/feed.xml", "The Age")
             newsdata_aus = fetch_newsdata("australia parliament senate election albanese budget policy", country="au")
             articles = abc_rss + smh_rss + age_rss + newsdata_aus
-            processed = _gate(memory, "australia", articles, stats)
+            processed = _gate(memory, "australia", articles, stats, original)
             if processed:
-                result, memory = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus, memory)
+                with category_scope("australia"):
+                    result, memory = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus, memory)
                 content_changed = True
             else:
                 result = get_cached_category(memory, "australia")
@@ -532,9 +555,10 @@ def main():
             conversation_rss = fetch_rss("https://theconversation.com/us/science/rss", "The Conversation")
             articles = (nature_rss + newscientist_rss + science_rss + newsdata_arch +
                         physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss)
-            processed = _gate(memory, "archaeology", articles, stats)
+            processed = _gate(memory, "archaeology", articles, stats, original)
             if processed:
-                result, memory = process_archaeology(articles, memory)
+                with category_scope("archaeology"):
+                    result, memory = process_archaeology(articles, memory)
                 content_changed = True
             else:
                 result = get_cached_category(memory, "archaeology")
@@ -589,9 +613,10 @@ def main():
     bbc_rss = fetch_rss("https://feeds.bbci.co.uk/news/rss.xml", "BBC News")
     aljazeera_rss = fetch_rss("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera")
     all_breaking = gdelt_breaking + guardian_breaking + reuters_rss + ap_rss + bbc_rss + aljazeera_rss
-    if _gate(memory, "breaking", all_breaking, stats):
+    if _gate(memory, "breaking", all_breaking, stats, original):
         processed = True
-        new_breaking, memory = process_breaking_news([], all_breaking, memory)
+        with category_scope("breaking"):
+            new_breaking, memory = process_breaking_news([], all_breaking, memory)
         if new_breaking:
             breaking = new_breaking
         else:
@@ -607,9 +632,10 @@ def main():
     smh_rss = fetch_rss("https://www.smh.com.au/rss/feed.xml", "SMH")
     age_rss = fetch_rss("https://www.theage.com.au/rss/feed.xml", "The Age")
     newsdata_aus = fetch_newsdata("australia parliament senate election albanese budget policy", country="au")
-    if _gate(memory, "australia", abc_rss + smh_rss + age_rss + newsdata_aus, stats):
+    if _gate(memory, "australia", abc_rss + smh_rss + age_rss + newsdata_aus, stats, original):
         processed = True
-        australia, memory = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus, memory)
+        with category_scope("australia"):
+            australia, memory = process_australia(abc_rss + smh_rss + age_rss, newsdata_aus, memory)
     else:
         australia = get_cached_category(memory, "australia")
 
@@ -626,9 +652,10 @@ def main():
     conversation_rss = fetch_rss("https://theconversation.com/us/science/rss", "The Conversation")
     archaeology_articles = (nature_rss + newscientist_rss + science_rss + newsdata_arch +
                             physorg_rss + eurekalert_rss + sciencedaily_rss + conversation_rss)
-    if _gate(memory, "archaeology", archaeology_articles, stats):
+    if _gate(memory, "archaeology", archaeology_articles, stats, original):
         processed = True
-        archaeology, memory = process_archaeology(archaeology_articles, memory)
+        with category_scope("archaeology"):
+            archaeology, memory = process_archaeology(archaeology_articles, memory)
     else:
         archaeology = get_cached_category(memory, "archaeology")
 
@@ -652,9 +679,10 @@ def main():
     goal_rss = fetch_rss("https://www.goal.com/feeds/en/news", "Goal.com")
     football_articles = (guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
                          espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)[:40]
-    if _gate(memory, "football", football_articles, stats):
+    if _gate(memory, "football", football_articles, stats, original):
         processed = True
-        football, memory = process_football(football_articles, memory)
+        with category_scope("football"):
+            football, memory = process_football(football_articles, memory)
     else:
         football = get_cached_category(memory, "football")
 
@@ -678,7 +706,7 @@ def main():
                        guardian_football + marca_rss + kicker_rss + lequipe_rss + gazzetta_rss + sky_rss +
                        espn_rss + bbc_football_rss + football_italia_rss + bundesliga_rss + uefa_rss + goal_rss)
         auto_detected = detect_developing_situations(memory, all_data)
-        developing_situations = process_developing_situations(pinned, auto_detected, all_fetched)
+        developing_situations = _developing(pinned, auto_detected, all_fetched)
     else:
         developing_situations = _idle_situations(pinned)
 

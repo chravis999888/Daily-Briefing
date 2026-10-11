@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-11T19:16:35.344186+00:00",
+  "last_gdelt_attempt": "2026-10-11T21:29:48.313875+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -3994,6 +3994,727 @@
       "published": "2026-10-11T20:21:13+00:00",
       "first_seen": "2026-10-12T06:28:30.773873+10:00",
       "category": "breaking"
+    },
+    "a3e38a67a5c78ffc": {
+      "source": "BBC News",
+      "title": "Man City's statement win has feeling of irrelevance with season in limbo",
+      "published": "2026-10-11T20:02:27+00:00",
+      "first_seen": "2026-10-12T07:30:12.540952+10:00",
+      "category": "breaking"
+    },
+    "b061dee00e3faf55": {
+      "source": "Al Jazeera",
+      "title": "Syrian families demand release of detainees held by Israel",
+      "published": "2026-10-11T20:24:19+00:00",
+      "first_seen": "2026-10-12T07:30:12.540952+10:00",
+      "category": "breaking"
+    },
+    "3840838c9f12d392": {
+      "source": "Al Jazeera",
+      "title": "Zelenskyy welcomes US-announced energy ceasefire",
+      "published": "2026-10-11T20:28:46+00:00",
+      "first_seen": "2026-10-12T07:30:12.540952+10:00",
+      "category": "breaking"
+    },
+    "e25673f1606a16d4": {
+      "source": "Al Jazeera",
+      "title": "How Man City beat Liverpool after guilty verdict",
+      "published": "2026-10-11T20:41:09+00:00",
+      "first_seen": "2026-10-12T07:30:12.540952+10:00",
+      "category": "breaking"
+    },
+    "9244029c3d8cd691": {
+      "source": "Al Jazeera",
+      "title": "Deadly air strike kills dozens at Sudan gold mine near Egypt border",
+      "published": "2026-10-11T20:44:17+00:00",
+      "first_seen": "2026-10-12T07:30:12.540952+10:00",
+      "category": "breaking"
+    },
+    "cebac0f442218416": {
+      "source": "Al Jazeera",
+      "title": "Two killed near Israeli-occupied area in south Lebanon",
+      "published": "2026-10-11T20:46:45+00:00",
+      "first_seen": "2026-10-12T07:30:12.540952+10:00",
+      "category": "breaking"
+    },
+    "34f3e25ccc6c71da": {
+      "source": "Al Jazeera",
+      "title": "UK Greens leader seeks rule change after party declares Zionism is racism",
+      "published": "2026-10-11T20:57:48+00:00",
+      "first_seen": "2026-10-12T07:30:12.540952+10:00",
+      "category": "breaking"
+    },
+    "f407cc5156f4a0d0": {
+      "source": "BBC News",
+      "title": "Reform would suspend asylum system for parliamentary term if in government",
+      "published": "2026-10-11T21:18:15+00:00",
+      "first_seen": "2026-10-12T07:30:12.540952+10:00",
+      "category": "breaking"
+    },
+    "9cefbe28920d52de": {
+      "source": "SMH",
+      "title": "The Ritual: Showpo CEO Jane Lu details her daily routine",
+      "published": "2026-10-11T18:19:28+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "909f3dff16a7311b": {
+      "source": "The Age",
+      "title": "The Ritual: Showpo CEO Jane Lu details her daily routine",
+      "published": "2026-10-11T18:19:28+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "9cefbe28920d52de"
+    },
+    "941f8b9861de3fdc": {
+      "source": "SMH",
+      "title": "ASX eyes gains after Wall Street rises; Oil market in focus",
+      "published": "2026-10-11T18:24:05+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "d801df3cf3edc93f": {
+      "source": "The Age",
+      "title": "ASX eyes gains after Wall Street rises; Oil market in focus",
+      "published": "2026-10-11T18:24:05+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "941f8b9861de3fdc"
+    },
+    "d568545cddbd710f": {
+      "source": "SMH",
+      "title": "Profits prompt Wilson\u2019s departure from VRC as he downplays talk of board rift",
+      "published": "2026-10-11T18:30:00+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "009c6ef2da8a1119": {
+      "source": "The Age",
+      "title": "Profits prompt Wilson\u2019s departure from VRC as he downplays talk of board rift",
+      "published": "2026-10-11T18:30:00+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "d568545cddbd710f"
+    },
+    "4af3a139c6b3fed5": {
+      "source": "ABC News",
+      "title": "Greens push for right to sue big tech as Labor axes ministerial powers",
+      "published": "2026-10-11T18:36:53+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "8235670a81cd6b82": {
+      "source": "ABC News",
+      "title": "Quick hits: Smith snatches record with miracle grabs and Marnus fumes",
+      "published": "2026-10-11T18:47:33+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "f3b081af22e6c553": {
+      "source": "ABC News",
+      "title": "Residents tell of near misses and injuries on a notorious Tasmanian road",
+      "published": "2026-10-11T18:54:53+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "b9045ea5ca53a715": {
+      "source": "SMH",
+      "title": "My suburb was sold to me as a bush paradise. Too bad about the heavy construction vehicles",
+      "published": "2026-10-11T19:00:00+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "1d50ef547fe45253": {
+      "source": "SMH",
+      "title": "Brisbane school stalls iPad program as cloud hangs over classroom tech",
+      "published": "2026-10-11T19:00:00+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "fafb247ca7da0b7d": {
+      "source": "The Age",
+      "title": "My suburb was sold to me as a bush paradise. Too bad about the heavy construction vehicles",
+      "published": "2026-10-11T19:00:00+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "b9045ea5ca53a715"
+    },
+    "308d93bcd1ac9b3b": {
+      "source": "The Age",
+      "title": "Brisbane school stalls iPad program as cloud hangs over classroom tech",
+      "published": "2026-10-11T19:00:00+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "1d50ef547fe45253"
+    },
+    "cce106202fecbfa4": {
+      "source": "ABC News",
+      "title": "SA might miss its renewables target, but does it matter?",
+      "published": "2026-10-11T19:28:22+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "7172ad4f2bf4c460": {
+      "source": "ABC News",
+      "title": "Insurer underpaid hundreds of NSW accident victims in 'mind-blowing' error",
+      "published": "2026-10-11T19:31:39+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "382c2c7b148a36b1": {
+      "source": "SMH",
+      "title": "Pope Leo to undergo lung surgery",
+      "published": "2026-10-11T19:34:21+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "801e53a637917c5e": {
+      "source": "The Age",
+      "title": "Pope Leo to undergo lung surgery",
+      "published": "2026-10-11T19:34:21+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "382c2c7b148a36b1"
+    },
+    "cdc92ee2901e02f1": {
+      "source": "SMH",
+      "title": "Two Sydney teenagers charged over \u2018horrendous\u2019 fatal stabbing",
+      "published": "2026-10-11T19:34:48+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "ce1047596a730156": {
+      "source": "The Age",
+      "title": "Two Sydney teenagers charged over \u2018horrendous\u2019 fatal stabbing",
+      "published": "2026-10-11T19:34:48+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "cdc92ee2901e02f1"
+    },
+    "4fa03bc20f0b3f23": {
+      "source": "ABC News",
+      "title": "Teenager charged over alleged Melbourne CBD hit-and-run",
+      "published": "2026-10-11T19:37:07+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "e07699b93229c984": {
+      "source": "ABC News",
+      "title": "This building will cost more than $1 billion. What do we know about it?",
+      "published": "2026-10-11T19:38:56+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "64ed2dd1c4b72302": {
+      "source": "SMH",
+      "title": "Scorching heat for Sydney triggers total fire ban",
+      "published": "2026-10-11T19:43:37+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "41fcbf02933b2f29": {
+      "source": "The Age",
+      "title": "Scorching heat for Sydney triggers total fire ban",
+      "published": "2026-10-11T19:43:37+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "64ed2dd1c4b72302"
+    },
+    "a5e2979b2c001a8b": {
+      "source": "SMH",
+      "title": "\u2018Knocked me over\u2019: Safety fears at Melbourne marathon as teen charged with hitting woman",
+      "published": "2026-10-11T19:48:05+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "f3383d51114fe9f5": {
+      "source": "The Age",
+      "title": "\u2018Knocked me over\u2019: Safety fears at Melbourne marathon as teen charged with hitting woman",
+      "published": "2026-10-11T19:48:05+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "a5e2979b2c001a8b"
+    },
+    "0b82119bb4d52e5c": {
+      "source": "SMH",
+      "title": "Ukrainian president vows to keep hitting oil targets",
+      "published": "2026-10-11T19:48:40+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "daaa0307fd5160e8": {
+      "source": "The Age",
+      "title": "Ukrainian president vows to keep hitting oil targets",
+      "published": "2026-10-11T19:48:40+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "0b82119bb4d52e5c"
+    },
+    "4b72356661b1603d": {
+      "source": "ABC News",
+      "title": "Teenagers who disengage with manosphere still fed misogynistic content",
+      "published": "2026-10-11T19:48:53+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "8d86f322a366e02b": {
+      "source": "SMH",
+      "title": "Death toll rises from Saudi airport attack",
+      "published": "2026-10-11T19:49:08+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "6d5a539864ebdb36": {
+      "source": "The Age",
+      "title": "Death toll rises from Saudi airport attack",
+      "published": "2026-10-11T19:49:08+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "8d86f322a366e02b"
+    },
+    "b0c930db7ce5034f": {
+      "source": "ABC News",
+      "title": "Piastri suffers tyre puncture, Verstappen roars to Singapore F1 win",
+      "published": "2026-10-11T19:50:21+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "1c87cbc4b1f9ca60": {
+      "source": "SMH",
+      "title": "Verstappen comes out on top in Singapore",
+      "published": "2026-10-11T19:58:52+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "2522a9211834da4f": {
+      "source": "The Age",
+      "title": "Verstappen comes out on top in Singapore",
+      "published": "2026-10-11T19:58:52+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "1c87cbc4b1f9ca60"
+    },
+    "285caac5716109e5": {
+      "source": "ABC News",
+      "title": "Live:  ASX set to rise after strong sessions on Wall Street and Europe",
+      "published": "2026-10-11T19:59:13+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "82fa0743c9946ec4": {
+      "source": "ABC News",
+      "title": "Warm spring conditions could give way to thunderstorms and hail in SEQ",
+      "published": "2026-10-11T20:00:31+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "952e338561c89542": {
+      "source": "SMH",
+      "title": "Australia news LIVE: Greens to push for changes as Digital Duty of Care to be introduced to parliament this week; Frydenberg hints at political comeback, says Liberals \u2018need to do better\u2019",
+      "published": "2026-10-11T20:17:46+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "791cb6abf3d8368c": {
+      "source": "The Age",
+      "title": "Australia news LIVE: Greens to push for changes as Digital Duty of Care to be introduced to parliament this week; Frydenberg hints at political comeback, says Liberals \u2018need to do better\u2019",
+      "published": "2026-10-11T20:17:46+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "952e338561c89542"
+    },
+    "ed93bf441994d59b": {
+      "source": "ABC News",
+      "title": "Live: Ryan prepared to fight as Frydenberg hints at comeback",
+      "published": "2026-10-11T20:18:28+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "c42512d64e998992": {
+      "source": "ABC News",
+      "title": "Key moments that won Bathurst for DJR and left another team in tears",
+      "published": "2026-10-11T20:21:13+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "4d03766a3cd92a5b": {
+      "source": "SMH",
+      "title": "Powderfinger reveal dates for national comeback tour",
+      "published": "2026-10-11T20:28:17+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "312f6d606ea5fc43": {
+      "source": "The Age",
+      "title": "Powderfinger reveal dates for national comeback tour",
+      "published": "2026-10-11T20:28:17+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "4d03766a3cd92a5b"
+    },
+    "59e5b2fbb11417b0": {
+      "source": "ABC News",
+      "title": "Ongoing Birdsville Track closure hits outback businesses",
+      "published": "2026-10-11T20:32:43+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "fd9c0cf53975f443": {
+      "source": "ABC News",
+      "title": "Mildura and South Australia connected by bus service after six-year hiatus",
+      "published": "2026-10-11T20:42:18+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "c773f0c4917680c5": {
+      "source": "ABC News",
+      "title": "Time the enemy for Aussies in first Test after Smith's day in Durban",
+      "published": "2026-10-11T20:49:35+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "98e5e0e3e7094d72": {
+      "source": "ABC News",
+      "title": "YiSSA closes as short-stay residents prepare to be bussed to Batchelor",
+      "published": "2026-10-11T20:50:31+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "f8d295937430f328": {
+      "source": "SMH",
+      "title": "Good Food\u2019s 100 Essential Victorian Restaurants",
+      "published": "2026-10-11T21:05:00+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "e656fc8802040973": {
+      "source": "The Age",
+      "title": "Good Food\u2019s 100 Essential Victorian Restaurants",
+      "published": "2026-10-11T21:05:00+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "f8d295937430f328"
+    },
+    "bd451c9fc372893a": {
+      "source": "SMH",
+      "title": "Smith's freakish display in Durban",
+      "published": "2026-10-11T21:08:10+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "82e48be9762cd88c": {
+      "source": "The Age",
+      "title": "Smith's freakish display in Durban",
+      "published": "2026-10-11T21:08:10+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "bd451c9fc372893a"
+    },
+    "ec9f2b8b9ccaff5c": {
+      "source": "SMH",
+      "title": "Teens charged with murder after Western Sydney stabbing death",
+      "published": "2026-10-11T21:09:10+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "b348377c0c0f82ff": {
+      "source": "The Age",
+      "title": "Teens charged with murder after Western Sydney stabbing death",
+      "published": "2026-10-11T21:09:10+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "ec9f2b8b9ccaff5c"
+    },
+    "81ff0313cc42a9d8": {
+      "source": "SMH",
+      "title": "Teenager charged after pedestrian hit by car on Melbourne street",
+      "published": "2026-10-11T21:09:19+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "9fe8f53b8bee106b": {
+      "source": "The Age",
+      "title": "Teenager charged after pedestrian hit by car on Melbourne street",
+      "published": "2026-10-11T21:09:19+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "81ff0313cc42a9d8"
+    },
+    "b892f8c5bbc5fa9e": {
+      "source": "ABC News",
+      "title": "Three young Australians to perform with Sydney Symphony Orchestra",
+      "published": "2026-10-11T21:10:00+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "7b3b11d30ea61eb3": {
+      "source": "SMH",
+      "title": "McKinsey strips Australian partner of leadership role after \u2018glass ceiling\u2019 comments",
+      "published": "2026-10-11T21:17:47+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "ae4b6f48a4bf15ae": {
+      "source": "The Age",
+      "title": "McKinsey strips Australian partner of leadership role after \u2018glass ceiling\u2019 comments",
+      "published": "2026-10-11T21:17:47+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "7b3b11d30ea61eb3"
+    },
+    "2798a6f788bc8103": {
+      "source": "ABC News",
+      "title": "Man killed in car crash in Victoria's Mallee region",
+      "published": "2026-10-11T21:18:06+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "f0f4ccccf534ca6e": {
+      "source": "ABC News",
+      "title": "Netanyahu demands probe into soldiers' involvement in Gaza documentary",
+      "published": "2026-10-11T21:22:08+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "610c1edc3b0f2492": {
+      "source": "SMH",
+      "title": "Smith and Cummins put Australia in box seat",
+      "published": "2026-10-11T21:27:13+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia"
+    },
+    "130d666d05ad70e2": {
+      "source": "The Age",
+      "title": "Smith and Cummins put Australia in box seat",
+      "published": "2026-10-11T21:27:13+00:00",
+      "first_seen": "2026-10-12T07:30:13.112482+10:00",
+      "category": "australia",
+      "duplicate_of": "610c1edc3b0f2492"
+    },
+    "8fb4c40da6cb02c3": {
+      "source": "Marca",
+      "title": "El Depor llevaba ocho meses sin perder a domicilio",
+      "published": "2026-10-11T16:32:42+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "db1d01e33ac73c60": {
+      "source": "Marca",
+      "title": "El d\u00eda despu\u00e9s de la suspensi\u00f3n del Rayo - Athletic",
+      "published": "2026-10-11T16:40:52+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "e0d2582aefa66405": {
+      "source": "Marca",
+      "title": "Mariano de Paco: \"Con el sabotaje no vamos a llegar a ning\u00fan sitio\"",
+      "published": "2026-10-11T17:02:54+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "10d1a4ffd6258308": {
+      "source": "Marca",
+      "title": "Zakharyan marc\u00f3 en Liga 20 meses despu\u00e9s",
+      "published": "2026-10-11T17:12:17+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "41182ee0759991d1": {
+      "source": "Marca",
+      "title": "Antonio Hidalgo: \u201cEste equipo tiene alma y eso me hace feliz\u201d",
+      "published": "2026-10-11T17:16:15+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "ac57be79c02838b1": {
+      "source": "Marca",
+      "title": "Beitia puede tener una lesi\u00f3n importante",
+      "published": "2026-10-11T17:17:38+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "4b945b80eabbcdf9": {
+      "source": "Marca",
+      "title": "Matarazzo: \"Sin hacer nuestro mejor partido fuimos 3-0 y ganamos, un paso adelante\"",
+      "published": "2026-10-11T17:45:04+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "57e3224843af8d3e": {
+      "source": "Marca",
+      "title": "El Prat ser\u00e1 rival del Athletic en Copa y se jugar\u00e1 en L'Hospitalet",
+      "published": "2026-10-11T18:40:03+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "1bd366cc39be5a74": {
+      "source": "Kicker",
+      "title": "W\u00f6rles Auftrag vor den Wochen der Wahrheit",
+      "published": "2026-10-11T18:40:05+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "1738e5f4b577fd11": {
+      "source": "Marca",
+      "title": "Isco: \"Hoy en d\u00eda, en cinco minutos de desconcentraci\u00f3n te hacen dos goles\"",
+      "published": "2026-10-11T18:45:48+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "c21853fd8cee3160": {
+      "source": "Kicker",
+      "title": "K\u00f6ln muss l\u00e4nger auf Skhiri verzichten",
+      "published": "2026-10-11T18:49:12+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "d454d8dacbdd4b22": {
+      "source": "Kicker",
+      "title": "El Mala \u00fcber Befreiungsschlag und was ihm am Gladbacher Jubel missfallen hat",
+      "published": "2026-10-11T18:53:25+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "f93add20014f3f69": {
+      "source": "Kicker",
+      "title": "Warum der ManCity-Fanblock voller Bananen war",
+      "published": "2026-10-11T18:59:11+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "83ebacc9358b8681": {
+      "source": "Kicker",
+      "title": "Santander - Valencia: Tor zum 0:1 durch Dani Raba in der 2. Minute",
+      "published": "2026-10-11T19:05:49+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "458fdfb7813eba67": {
+      "source": "Marca",
+      "title": "Pellegrini: \"Tras un par\u00f3n de tres semanas era important\u00edsimo volver con una victoria\"",
+      "published": "2026-10-11T19:08:47+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "6f08aac04d4e3d51": {
+      "source": "Kicker",
+      "title": "Cagliari - Juventus: Tor zum 1:0 durch Maldini in der 20. Minute",
+      "published": "2026-10-11T19:12:08+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "f45cc8b2d38e5cad": {
+      "source": "Kicker",
+      "title": "L\u00f6st nun Amoako die HSV-Probleme?",
+      "published": "2026-10-11T19:15:50+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "54743bc421fe46c1": {
+      "source": "Kicker",
+      "title": "B\u00f6ller und Raketen im Rheinderby: \"Es ist nicht v\u00f6llig aus dem Ruder gelaufen\"",
+      "published": "2026-10-11T19:20:19+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "55f4799563dedf5d": {
+      "source": "Kicker",
+      "title": "Santander - Valencia: Tor zum 1:1 durch Zabiri in der 32. Minute",
+      "published": "2026-10-11T19:35:57+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "70d50b0bdf20c3d8": {
+      "source": "Kicker",
+      "title": "Dresdens Baustellen: Wenn eine neue Nummer 1 allein nicht reicht",
+      "published": "2026-10-11T19:47:53+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "b3ad7168815f9852": {
+      "source": "Kicker",
+      "title": "Trotz zweier F\u00fchrungen: D\u00fcsseldorf verpasst Heimsieg gegen Verl",
+      "published": "2026-10-11T19:53:01+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "45c646e78805c4b1": {
+      "source": "Marca",
+      "title": "Ramis: \"Entiendo que en el campo tengas la duda, pero el VAR ha visto la imagen y es clar\u00edsima, es roja\"",
+      "published": "2026-10-11T19:53:45+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "18ce579233c49088": {
+      "source": "Kicker",
+      "title": "Troyes - Marseille: Tor zum 0:1 durch Harit in der 50. Minute",
+      "published": "2026-10-11T19:54:52+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "507e69d30b3430ca": {
+      "source": "Marca",
+      "title": "Raba resucita de la mano de Aguirre tras m\u00e1s de un a\u00f1o 'olvidado'",
+      "published": "2026-10-11T20:05:17+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "17c41384ffadaff2": {
+      "source": "Kicker",
+      "title": "\"Als w\u00e4re eine Meisterschaft unter Dach und Fach\": Freiburg in Feierstimmung",
+      "published": "2026-10-11T20:05:25+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "3345802965b68b09": {
+      "source": "Kicker",
+      "title": "RB-Quintett auf dem Deb\u00fctantenball: Die kicker-Elf des 5. Spieltags",
+      "published": "2026-10-11T20:13:27+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "ad0c4f847ccabf68": {
+      "source": "Kicker",
+      "title": "RAC - VAL: Tor in der 47. Minute",
+      "published": "2026-10-11T20:13:48+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "c3c9edb973b17c02": {
+      "source": "Kicker",
+      "title": "Muslic gibt Fehler zu: \"Niederlage geht auf meine Kappe\"",
+      "published": "2026-10-11T20:24:32+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "dc25dcaa0802cb22": {
+      "source": "Kicker",
+      "title": "Santander - Valencia: Tor zum 2:2 durch Otorbi in der 65. Minute",
+      "published": "2026-10-11T20:29:38+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "72da6e4878c03cc3": {
+      "source": "Kicker",
+      "title": "Cagliari - Juventus: Tor zum 1:1 durch Kolo Muani in der 81. Minute",
+      "published": "2026-10-11T20:29:57+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "0285b850b192bedc": {
+      "source": "Kicker",
+      "title": "Troyes - Marseille: Tor zum 0:2 durch Abdelli in der 90.+8 Minute",
+      "published": "2026-10-11T20:42:57+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football"
+    },
+    "9a5f4eded0748e52": {
+      "source": "Kicker",
+      "title": "Troyes - Marseille: Tor zum 0:2 durch Abdelli in der 90.+8 Minute",
+      "published": "2026-10-11T20:43:26+00:00",
+      "first_seen": "2026-10-12T07:30:20.233387+10:00",
+      "category": "football",
+      "duplicate_of": "0285b850b192bedc"
     }
   }
 }

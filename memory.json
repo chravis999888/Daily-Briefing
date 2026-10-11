@@ -288,39 +288,75 @@
     "2026-10-11": {
       "breaking": [
         {
-          "headline": "Houthi missile or drone attack on King Khalid International Airport in Riyadh kills 12 and injures more than 300",
-          "timestamp": "just now",
+          "headline": "Houthi missile attack on Riyadh's main international airport kills multiple people, prompting global condemnation and Trump weighing US military involvement in Saudi strikes",
+          "timestamp": "1 hr ago",
           "score": 9,
-          "summary": "Houthi forces from Yemen launched a missile or drone strike on King Khalid International Airport in Riyadh, Saudi Arabia, killing 12 people and injuring more than 300 in what is the first confirmed mass-casualty Houthi attack on the Saudi capital's main civilian airport. The strike represents a significant escalation in the ongoing conflict between the Houthis and Saudi Arabia, which is backed by the United States, and signals the Iran-aligned group's growing reach and willingness to target major civilian infrastructure far from the front lines. The attack is part of a broader pattern of Houthi aggression linked to the wider regional tensions involving Iran, with the US now reportedly weighing direct military action against the Houthis in response. The targeting of a busy international airport raises serious concerns about civilian aviation safety and could trigger a major military response from Saudi Arabia and potentially the United States.",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis",
+          "summary": "Houthi forces from Yemen fired a missile that struck King Khalid International Airport in Riyadh, Saudi Arabia, killing multiple people in a significant escalation of the ongoing Yemen conflict. The attack directly targeted a major civilian hub in the capital of a key US ally, raising the stakes considerably beyond previous Houthi strikes on Saudi infrastructure. President Trump is reportedly weighing direct US military involvement in Saudi retaliatory strikes, which would mark a substantial expansion of American engagement in the Arabian Peninsula. The attack has drawn widespread international condemnation and could pull the United States into a more active combat role in a conflict that has already caused one of the world's worst humanitarian crises.",
+          "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport",
           "image": "",
           "articles": [
             {
-              "title": "Houthi missile or drone attack on King Khalid International Airport in Riyadh kills 12 and injures more than 300",
+              "title": "Houthi missile attack on Riyadh's main international airport kills multiple people, prompting global condemnation and Trump weighing US military involvement in Saudi strikes",
               "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+            },
+            {
+              "title": "Houthi missile or drone attack on King Khalid International Airport in Riyadh kills 12 and injures more than 300",
+              "source": "Previously covered",
               "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis"
-            },
-            {
-              "title": "Houthi drone or missile attack kills 12 at airport in Riyadh, Saudi Arabia, in strike linked to Iran war",
-              "source": "Previously covered",
-              "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "title": "Iran war live blog: US weighing joining fight against Houthis after 12 killed in Riyadh airport attack",
-              "source": "Previously covered",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss"
-            },
-            {
-              "title": "Denisovan stone tools recovered from a cave in China provide the first direct material-culture evidence of how Denisovans lived outside the Tibetan Plateau Denisova Cave context",
-              "source": "Previously covered",
-              "url": "https://www.newscientist.com/article/2588304-denisovan-tools-from-cave-in-china-shows-how-mysterious-humans-lived/"
             }
           ],
           "tracking_suggestions": [
             "Houthi Riyadh Airport Strike",
             "Yemen-Saudi Arabia Conflict",
-            "US Houthi Military Response",
-            "Iran Regional Proxy War"
+            "US Military Middle East Involvement",
+            "Arabian Peninsula Security"
+          ]
+        },
+        {
+          "headline": "Hurricane Isaias kills four people and leaves 650,000 without power in Florida after making landfall in the US",
+          "timestamp": "30 mins ago",
+          "score": 6,
+          "summary": "Hurricane Isaias made landfall in Florida, killing four people and knocking out power for approximately 650,000 residents, causing significant infrastructure damage across the state. The storm is part of what has been described as an increasingly active and destructive 2026 Atlantic hurricane season, raising concerns about the frequency and intensity of major storms hitting the US coastline. This level of power outage and storm impact strains emergency response systems, utility infrastructure, and local economies, particularly when storms cluster within a single season. The event highlights ongoing concerns about hurricane preparedness and the resilience of aging power grids in vulnerable coastal states.",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us",
+          "image": "",
+          "articles": [
+            {
+              "title": "Hurricane Isaias kills four people and leaves 650,000 without power in Florida after making landfall in the US",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us"
+            },
+            {
+              "title": "Hurricane Isaias makes landfall on the Florida Panhandle",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/10/09/nx-s1-5996396/hurricane-isaias-updates"
+            },
+            {
+              "title": "Hurricane Isaias Hits Florida Panhandle as Nearly 900,000 Lose Power",
+              "source": "Eastern Herald",
+              "url": "https://easternherald.com/2026/10/10/hurricane-isaias-florida-panhandle-power-outages/"
+            },
+            {
+              "title": "Hurricane Isaias brings flooding, damage and widespread power outages to Florida Panhandle",
+              "source": "MySuncoast (WWSB)",
+              "url": "https://www.mysuncoast.com/2026/10/10/hurricane-isaias-brings-flooding-damage-widespread-power-outages-florida-panhandle/"
+            },
+            {
+              "title": "'Help is on the way': Hundreds of thousands in Florida Panhandle without power after Hurricane Isaias",
+              "source": "News4Jax",
+              "url": "https://www.news4jax.com/weather/2026/10/10/desantis-gives-update-after-isaias-slams-the-florida-panhandle-leaving-many-without-power/"
+            },
+            {
+              "title": "At least 4 dead as weakened Isaias brings threat of floods across the Southeast",
+              "source": "CBS News",
+              "url": "https://www.cbsnews.com/live-updates/isaias-southeastern-u-s-gulf-coast/"
+            }
+          ],
+          "tracking_suggestions": [
+            "Hurricane Isaias Florida",
+            "2026 Atlantic hurricane season",
+            "Florida storm infrastructure damage",
+            "US extreme weather impacts"
           ]
         }
       ],
@@ -1968,10 +2004,12 @@
     "https://www.kicker.de/drei-tore-in-der-nachspielzeit-unfassbares-spektakel-in-nuernberg-1259009/artikel#omrss": "In a dramatic Bundesliga 2 match between 1. FC N\u00fcrnberg and VfL Wolfsburg, three goals were scored in stoppage time to produce a stunning 4-4 draw. Both teams appeared to have the match won at different points before the frantic late action overturned the result multiple times. The draw is significant given the match was described as a top-of-the-table clash, meaning points dropped or gained have direct implications for promotion and relegation. This kind of result can prove pivotal at the end of a season where margins between promotion, playoff spots, and relegation are often razor-thin.",
     "https://www.science.org/doi/abs/10.1126/science.aec7662?af=R": "A genetic study published in Science analyzed DNA from Polynesian populations across French Polynesia, Rapa Nui (Easter Island), and Hawaii, identifying a pattern of nested founder effects \u2014 meaning each successive population carries the genetic signature of a bottleneck inherited from the previous one. This finding supports a sequential, stepwise model of Pacific colonization rather than a broad-front model where multiple island groups were settled simultaneously from a common source. The bottleneck signatures also allow researchers to place quantitative limits on how many people founded each new settlement and the likely direction of travel, giving historians and anthropologists hard genetic data to test against archaeological and linguistic evidence. This matters because the question of how and in what order humans spread across the vast Pacific has been debated for decades, and these findings provide some of the clearest population-genetic constraints on that sequence to date.",
     "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis?traffic_source=rss": "A Houthi strike on Riyadh's airport killed 12 people, escalating an already active conflict involving the US, Iran, and the Yemen-based Houthi militia. In response, Washington is now debating whether to directly join the fight against the Houthis and potentially resume strikes on Iran itself. The Houthis, backed by Iran, have been launching repeated attacks on regional targets, and US intervention would mark a major expansion of the broader Iran conflict. Such a move carries serious risks of triggering wider regional escalation with unpredictable consequences across the Middle East.",
-    "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis": "Houthi forces from Yemen launched a missile or drone strike on King Khalid International Airport in Riyadh, Saudi Arabia, killing 12 people and injuring more than 300 in what is the first confirmed mass-casualty Houthi attack on the Saudi capital's main civilian airport. The strike represents a significant escalation in the ongoing conflict between the Houthis and Saudi Arabia, which is backed by the United States, and signals the Iran-aligned group's growing reach and willingness to target major civilian infrastructure far from the front lines. The attack is part of a broader pattern of Houthi aggression linked to the wider regional tensions involving Iran, with the US now reportedly weighing direct military action against the Houthis in response. The targeting of a busy international airport raises serious concerns about civilian aviation safety and could trigger a major military response from Saudi Arabia and potentially the United States."
+    "https://www.aljazeera.com/news/liveblog/2026/10/11/iran-war-live-12-killed-in-riyadh-us-weighs-joining-fight-against-houthis": "Houthi forces from Yemen launched a missile or drone strike on King Khalid International Airport in Riyadh, Saudi Arabia, killing 12 people and injuring more than 300 in what is the first confirmed mass-casualty Houthi attack on the Saudi capital's main civilian airport. The strike represents a significant escalation in the ongoing conflict between the Houthis and Saudi Arabia, which is backed by the United States, and signals the Iran-aligned group's growing reach and willingness to target major civilian infrastructure far from the front lines. The attack is part of a broader pattern of Houthi aggression linked to the wider regional tensions involving Iran, with the US now reportedly weighing direct military action against the Houthis in response. The targeting of a busy international airport raises serious concerns about civilian aviation safety and could trigger a major military response from Saudi Arabia and potentially the United States.",
+    "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport": "Houthi forces from Yemen fired a missile that struck King Khalid International Airport in Riyadh, Saudi Arabia, killing multiple people in a significant escalation of the ongoing Yemen conflict. The attack directly targeted a major civilian hub in the capital of a key US ally, raising the stakes considerably beyond previous Houthi strikes on Saudi infrastructure. President Trump is reportedly weighing direct US military involvement in Saudi retaliatory strikes, which would mark a substantial expansion of American engagement in the Arabian Peninsula. The attack has drawn widespread international condemnation and could pull the United States into a more active combat role in a conflict that has already caused one of the world's worst humanitarian crises.",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us": "Hurricane Isaias made landfall in Florida, killing four people and knocking out power for approximately 650,000 residents, causing significant infrastructure damage across the state. The storm is part of what has been described as an increasingly active and destructive 2026 Atlantic hurricane season, raising concerns about the frequency and intensity of major storms hitting the US coastline. This level of power outage and storm impact strains emergency response systems, utility infrastructure, and local economies, particularly when storms cluster within a single season. The event highlights ongoing concerns about hurricane preparedness and the resilience of aging power grids in vulnerable coastal states."
   },
   "article_hashes": {
-    "breaking": "374d6ed768ea2ce206099845bd13df80"
+    "breaking": "527053e84f702dc2593be7f492476af1"
   },
   "world_topics_cache": {
     "today": [
@@ -2056,5 +2094,5 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-11T00:40:30.459779+00:00"
+  "last_gdelt_attempt": "2026-10-11T07:29:42.209613+00:00"
 }

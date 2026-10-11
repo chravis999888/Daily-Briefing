@@ -1,14 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-10-05T12:11:12.254822+10:00",
-      "run_type": "breaking_only",
-      "errors": [
-        "GDELT fetch failed: HTTP 429; RSS fallback also empty"
-      ],
-      "status": "degraded"
-    },
-    {
       "timestamp": "2026-10-05T18:25:46.117420+10:00",
       "run_type": "full",
       "errors": [
@@ -379,6 +371,20 @@
       "errors": [],
       "banner_deploy": false,
       "alerted": false
+    },
+    {
+      "timestamp": "2026-10-11T17:31:01.394777+10:00",
+      "run_type": "breaking_only",
+      "outcome": "ok",
+      "data_good": true,
+      "claude_calls": 5,
+      "claude_calls_errored": 0,
+      "reasons": [],
+      "errors": [
+        "GDELT fetch failed: empty response; RSS fallback also empty"
+      ],
+      "banner_deploy": false,
+      "alerted": false
     }
   ],
   "errors": [
@@ -507,17 +513,41 @@
       "run_type": "breaking_only",
       "source": "AP News",
       "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-10-11T17:31:01.394777+10:00",
+      "run_type": "breaking_only",
+      "source": "GDELT",
+      "message": "GDELT fetch failed: empty response; RSS fallback also empty"
+    },
+    {
+      "timestamp": "2026-10-11T17:31:01.394777+10:00",
+      "run_type": "breaking_only",
+      "source": "Guardian",
+      "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-10-11T17:31:01.394777+10:00",
+      "run_type": "breaking_only",
+      "source": "Reuters",
+      "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-10-11T17:31:01.394777+10:00",
+      "run_type": "breaking_only",
+      "source": "AP News",
+      "message": "0 articles returned"
     }
   ],
   "api_cost_ledger": {
-    "as_of": "2026-10-11T11:25:49.076474+10:00",
+    "as_of": "2026-10-11T17:31:01.394801+10:00",
     "aud_rate_display_only": 1.55,
     "legacy_rows_excluded": 314,
     "today": {
       "date": "2026-10-11",
-      "calls": 80,
-      "total_usd": 1.111357,
-      "total_aud": 1.722603,
+      "calls": 85,
+      "total_usd": 1.279397,
+      "total_aud": 1.983065,
       "wasted_usd": 0.129582,
       "wasted_aud": 0.200852,
       "by_step": {
@@ -538,20 +568,20 @@
           "usd": 0.0
         },
         "breaking_context_search": {
-          "calls": 7,
-          "usd": 0.468587
+          "calls": 8,
+          "usd": 0.611681
         },
         "breaking_selection": {
-          "calls": 8,
-          "usd": 0.086082
+          "calls": 9,
+          "usd": 0.099594
         },
         "breaking_selection:haiku_fallback": {
           "calls": 2,
           "usd": 0.0
         },
         "developing_situations": {
-          "calls": 8,
-          "usd": 0.028992
+          "calls": 9,
+          "usd": 0.033898
         },
         "football_context_search": {
           "calls": 8,
@@ -566,8 +596,8 @@
           "usd": 0.0
         },
         "story_summary": {
-          "calls": 23,
-          "usd": 0.080133
+          "calls": 25,
+          "usd": 0.086661
         },
         "world_topics_month": {
           "calls": 3,
@@ -592,20 +622,20 @@
           "usd": 0.074406
         },
         "breaking": {
-          "calls": 17,
-          "usd": 0.554669
+          "calls": 19,
+          "usd": 0.711275
         },
         "developing": {
-          "calls": 8,
-          "usd": 0.028992
+          "calls": 9,
+          "usd": 0.033898
         },
         "football": {
           "calls": 13,
           "usd": 0.266833
         },
         "summary": {
-          "calls": 23,
-          "usd": 0.080133
+          "calls": 25,
+          "usd": 0.086661
         },
         "world_topics": {
           "calls": 9,
@@ -614,12 +644,12 @@
       },
       "by_model": {
         "claude-haiku-4-5-20251001": {
-          "calls": 30,
-          "usd": 0.27188
+          "calls": 31,
+          "usd": 0.276786
         },
         "claude-sonnet-4-6": {
-          "calls": 50,
-          "usd": 0.839477
+          "calls": 54,
+          "usd": 1.002611
         }
       },
       "by_outcome": {
@@ -628,8 +658,8 @@
           "usd": 0.0
         },
         "ok": {
-          "calls": 60,
-          "usd": 0.981775
+          "calls": 65,
+          "usd": 1.149815
         },
         "truncated": {
           "calls": 5,
@@ -639,9 +669,9 @@
     },
     "month_to_date": {
       "month": "2026-10",
-      "calls": 494,
-      "total_usd": 1.111357,
-      "total_aud": 1.722603,
+      "calls": 499,
+      "total_usd": 1.279397,
+      "total_aud": 1.983065,
       "wasted_usd": 0.129582,
       "wasted_aud": 0.200852,
       "by_step": {
@@ -662,20 +692,20 @@
           "usd": 0.0
         },
         "breaking_context_search": {
-          "calls": 7,
-          "usd": 0.468587
+          "calls": 8,
+          "usd": 0.611681
         },
         "breaking_selection": {
-          "calls": 65,
-          "usd": 0.086082
+          "calls": 66,
+          "usd": 0.099594
         },
         "breaking_selection:haiku_fallback": {
           "calls": 59,
           "usd": 0.0
         },
         "developing_situations": {
-          "calls": 65,
-          "usd": 0.028992
+          "calls": 66,
+          "usd": 0.033898
         },
         "football_context_search": {
           "calls": 8,
@@ -690,8 +720,8 @@
           "usd": 0.0
         },
         "story_summary": {
-          "calls": 23,
-          "usd": 0.080133
+          "calls": 25,
+          "usd": 0.086661
         },
         "world_topics_month": {
           "calls": 30,
@@ -716,20 +746,20 @@
           "usd": 0.074406
         },
         "breaking": {
-          "calls": 131,
-          "usd": 0.554669
+          "calls": 133,
+          "usd": 0.711275
         },
         "developing": {
-          "calls": 65,
-          "usd": 0.028992
+          "calls": 66,
+          "usd": 0.033898
         },
         "football": {
           "calls": 67,
           "usd": 0.266833
         },
         "summary": {
-          "calls": 23,
-          "usd": 0.080133
+          "calls": 25,
+          "usd": 0.086661
         },
         "world_topics": {
           "calls": 90,
@@ -738,12 +768,12 @@
       },
       "by_model": {
         "claude-haiku-4-5-20251001": {
-          "calls": 306,
-          "usd": 0.27188
+          "calls": 307,
+          "usd": 0.276786
         },
         "claude-sonnet-4-6": {
-          "calls": 188,
-          "usd": 0.839477
+          "calls": 192,
+          "usd": 1.002611
         }
       },
       "by_outcome": {
@@ -752,8 +782,8 @@
           "usd": 0.0
         },
         "ok": {
-          "calls": 60,
-          "usd": 0.981775
+          "calls": 65,
+          "usd": 1.149815
         },
         "truncated": {
           "calls": 5,
@@ -766,37 +796,37 @@
     "GDELT": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-11T10:46:31.919721+10:00",
-        "message": "GDELT fetch failed: HTTP 429; RSS fallback also empty"
+        "time": "2026-10-11T17:31:01.394777+10:00",
+        "message": "GDELT fetch failed: empty response; RSS fallback also empty"
       }
     },
     "Guardian": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-11T11:25:49.076446+10:00",
+        "time": "2026-10-11T17:31:01.394777+10:00",
         "message": "0 articles returned"
       }
     },
     "Reuters": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-11T11:25:49.076446+10:00",
+        "time": "2026-10-11T17:31:01.394777+10:00",
         "message": "0 articles returned"
       }
     },
     "AP News": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-11T11:25:49.076446+10:00",
+        "time": "2026-10-11T17:31:01.394777+10:00",
         "message": "0 articles returned"
       }
     },
     "BBC News": {
-      "last_success": "2026-10-11T11:25:49.076446+10:00",
+      "last_success": "2026-10-11T17:31:01.394777+10:00",
       "last_error": null
     },
     "Al Jazeera": {
-      "last_success": "2026-10-11T11:25:49.076446+10:00",
+      "last_success": "2026-10-11T17:31:01.394777+10:00",
       "last_error": null
     },
     "ABC News": {
@@ -912,15 +942,15 @@
       }
     },
     "claude": {
-      "last_success": "2026-10-11T11:25:49.076446+10:00",
+      "last_success": "2026-10-11T17:31:01.394777+10:00",
       "last_error": {
         "time": "2026-10-11T10:46:31.919721+10:00",
         "message": "truncated"
       }
     }
   },
-  "last_successful_run": "2026-10-11T11:25:49.076446+10:00",
-  "last_successful_data_update": "2026-10-11T11:25:49.076446+10:00",
+  "last_successful_run": "2026-10-11T17:31:01.394777+10:00",
+  "last_successful_data_update": "2026-10-11T17:31:01.394777+10:00",
   "consecutive_failures": 0,
   "stale_alerted": false,
   "stale_deployed": false

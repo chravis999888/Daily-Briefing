@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-11T14:17:58.332630+00:00",
+  "last_gdelt_attempt": "2026-10-11T16:23:33.147587+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -3812,6 +3812,27 @@
       "published": "2026-10-11T16:04:10+00:00",
       "first_seen": "2026-10-12T02:08:55.766765+10:00",
       "category": "football"
+    },
+    "4284aa94b06a5e36": {
+      "source": "BBC News",
+      "title": "BBC News app",
+      "published": "2025-04-30T14:04:28+00:00",
+      "first_seen": "2026-10-12T02:23:59.557585+10:00",
+      "category": "breaking"
+    },
+    "3c0ea60687839425": {
+      "source": "BBC News",
+      "title": "Does Zack Polanski Face A Leadership Crisis?",
+      "published": "2026-10-03T00:00:00+00:00",
+      "first_seen": "2026-10-12T02:23:59.557585+10:00",
+      "category": "breaking"
+    },
+    "3ce36bb4b6ab9298": {
+      "source": "BBC News",
+      "title": "Verstappen dominates for first Singapore Grand Prix win",
+      "published": "2026-10-11T14:46:06+00:00",
+      "first_seen": "2026-10-12T02:23:59.557585+10:00",
+      "category": "breaking"
     }
   }
 }

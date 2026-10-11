@@ -2,11 +2,13 @@
 No network, no API key, no spend. Used by the pipeline tests."""
 import contextlib
 import io
+import itertools
 import json
 import os
 import re
 import sys
 import tempfile
+from datetime import datetime, timezone
 from pathlib import Path
 from types import SimpleNamespace as NS
 from unittest import mock
@@ -55,19 +57,31 @@ class FakeClient:
         return NS(model=model, content=[NS(type="text", text=text)], usage=usage, stop_reason="end_turn")
 
 
-def _fake_articles(name, sources):
+_RUNS = itertools.count(1)
+
+
+def _fake_articles(name, sources, salt):
     if sources == "down":
-        fetchers.record_source(name, False, "ConnectionError: dry-run network down")
+        fetchers.record_source(name, False, "ConnectionError: dry-run network down", 0, 0.0)
         return []
-    fetchers.record_source(name, True)
-    return [{"title": f"Australia {name} headline", "url": f"https://example.com/{name}", "source": "Test",
-             "time": "", "content": "body", "image": ""}]
+    fetchers.record_source(name, True, "", 1, 0.01)
+    return [{"title": f"Australia {name} headline r{salt}", "url": f"https://example.com/{name}/{salt}", "source": name,
+             "time": "", "published": datetime.now(timezone.utc).isoformat(), "content": "body", "image": ""}]
 
 
-def run_pipeline(workdir, run_mode="full", claude="ok", category="", seed=None, sources="ok", fail_when=None):
+def run_pipeline(workdir, run_mode="full", claude="ok", category="", seed=None, sources="ok", fail_when=None,
+                 salt=None, claude_enabled=None, gdelt_error=None, stale_names=(), stale_salt=None):
     """Run fetch_news.main() inside workdir. Returns (stdout, exit_code).
     claude: 'ok' | 'error' (every call raises the real credit error). sources: 'ok' | 'down'.
-    seed: optional {filename: json-able} written before the run."""
+    seed: optional {filename: json-able} written before the run.
+    salt: the fake feeds return articles unique to this salt; by default every run gets brand-new articles
+          (so every category has something new). Pass the same salt twice to get a quiet run.
+    claude_enabled: None leaves CLAUDE_ENABLED alone; '0' / '1' sets it for the run.
+    stale_names/stale_salt: feeds with these names keep returning the articles of `stale_salt` (so their
+          category has nothing new while others do).
+    gdelt_error: if set, the fake GDELT fails with this message (the other sources stay up)."""
+    salt = salt if salt is not None else next(_RUNS)
+    salt_for = lambda name: stale_salt if name in stale_names else salt
     old = Path.cwd()
     os.chdir(workdir)
     for name, content in (seed or {}).items():
@@ -76,7 +90,10 @@ def run_pipeline(workdir, run_mode="full", claude="ok", category="", seed=None, 
     rc = 0
 
     def gdelt(q, timespan="1h", max_records=25, memory=None):
-        arts = _fake_articles("gdelt", sources)
+        if gdelt_error:
+            fetchers.record_source("GDELT", False, gdelt_error, 0, 0.5)
+            return [], gdelt_error, memory
+        arts = _fake_articles("gdelt", sources, salt_for("gdelt"))
         return arts, ("" if arts else "GDELT fetch failed: dry-run down"), memory
 
     patches = [
@@ -84,10 +101,11 @@ def run_pipeline(workdir, run_mode="full", claude="ok", category="", seed=None, 
         mock.patch.object(fetch_news, "RUN_MODE", run_mode),
         mock.patch.object(fetch_news, "RUN_CATEGORY", category),
         mock.patch("time.sleep", lambda *_: None),
+        mock.patch.dict(os.environ, {} if claude_enabled is None else {"CLAUDE_ENABLED": claude_enabled}),
         mock.patch.object(fetch_news, "fetch_gdelt_articles", gdelt),
-        mock.patch.object(fetch_news, "fetch_guardian", lambda q, page_size=15, section=None: _fake_articles("Guardian", sources)),
-        mock.patch.object(fetch_news, "fetch_rss", lambda url, name: _fake_articles(name, sources)),
-        mock.patch.object(fetch_news, "fetch_newsdata", lambda q, country=None: _fake_articles("NewsData", sources)),
+        mock.patch.object(fetch_news, "fetch_guardian", lambda q, page_size=15, section=None: _fake_articles("Guardian", sources, salt_for("Guardian"))),
+        mock.patch.object(fetch_news, "fetch_rss", lambda url, name: _fake_articles(name, sources, salt_for(name))),
+        mock.patch.object(fetch_news, "fetch_newsdata", lambda q, country=None: _fake_articles("NewsData", sources, salt_for("NewsData"))),
     ]
     try:
         with contextlib.ExitStack() as stack:

@@ -1,9 +1,9 @@
 import json
-import hashlib
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-from safety import decide_alert, is_stale
+from safety import decide_alert, is_stale, last_good_check, real_calls
+from articles import restore_store_category
 
 AEST = timezone(timedelta(hours=10))
 MEMORY_FILE = "memory.json"
@@ -29,11 +29,13 @@ def save_health(health):
         print(f"Health save error: {e}")
 
 
-def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), now=None):
+def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), now=None, categories=None):
     """Record one run in health.json (the single status file): per-run outcome (ok / degraded / failed)
     and Claude failure counts; per-source last success / last error (`sources`); top-level `errors`
     (last 50 problems); consecutive_failures; last_successful_run. `errors` keeps the legacy per-run list (GDELT problems) that drives the
-    page's health dot."""
+    page's health dot.
+    Per source `last_run` = {time, ok, count, seconds, error} summed over that source's fetches this run.
+    `categories` = per-category {fetched, new, duplicates, has_new, new_by_source} for this run."""
     now = now or datetime.now(AEST)
     iso = now.isoformat()
     health.setdefault("runs", [])
@@ -42,13 +44,23 @@ def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), n
                    "claude_calls": 0, "claude_calls_errored": 0, "claude_last_error": None}
     sources = health.setdefault("sources", {})
     new_errors = []
-    for name, ok, msg in source_events:
+    this_run = {}
+    for name, ok, msg, *extra in source_events:
+        count, seconds = (extra + [None, None])[:2]
         src = sources.setdefault(name, {"last_success": None, "last_error": None})
+        run = this_run.setdefault(name, {"time": iso, "ok": False, "count": 0, "seconds": 0.0, "error": ""})
+        run["count"] += count or 0
+        run["seconds"] = round(run["seconds"] + (seconds or 0.0), 2)
         if ok:
             src["last_success"] = iso
+            run["ok"] = True
         else:
             src["last_error"] = {"time": iso, "message": msg}
+            run["error"] = msg
             new_errors.append({"timestamp": iso, "run_type": run_type, "source": name, "message": msg})
+    for name, run in this_run.items():
+        sources[name]["last_run"] = run
+    rows = real_calls(rows)   # 'skipped' rows (CLAUDE_ENABLED off) are not calls
     if rows:
         claude = sources.setdefault("claude", {"last_success": None, "last_error": None})
         if any(r.get("outcome") == "ok" for r in rows):
@@ -65,8 +77,13 @@ def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), n
     if verdict["outcome"] != "failed":
         health["last_successful_run"] = iso
 
-    if verdict["advance"]:
-        health["last_successful_data_update"] = iso   # only ever set by a GOOD data run
+    if verdict.get("checked_all"):
+        # A full run that checked every category, found sources healthy and nothing new (or Claude off):
+        # healthy, but no data was updated, so last_successful_data_update stays put.
+        health["last_successful_check"] = iso
+    if verdict["advance"] or verdict.get("checked_all"):
+        if verdict["advance"]:
+            health["last_successful_data_update"] = iso   # only ever set by a GOOD data run
         health["consecutive_failures"] = 0
         health["stale_alerted"] = False
         health["stale_deployed"] = False
@@ -77,7 +94,8 @@ def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), n
     if mark_stale:
         health["stale_alerted"] = True
     # Deploy the stale banner once per outage: first not-good run past the threshold only.
-    banner_deploy = (not verdict["good"]) and is_stale(health.get("last_successful_data_update"), now)         and not health.get("stale_deployed")
+    banner_deploy = ((not verdict["good"]) and is_stale(last_good_check(health), now)
+                     and not health.get("stale_deployed"))
     if banner_deploy:
         health["stale_deployed"] = True
     health["runs"].append({
@@ -88,6 +106,8 @@ def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), n
         "claude_calls": verdict["claude_calls"],
         "claude_calls_errored": verdict["claude_calls_errored"],
         "reasons": verdict["reasons"],
+        "reason": verdict.get("reason"),   # e.g. "no_new" for a healthy quiet run
+        "categories": categories or {},
         "errors": errors,
         "banner_deploy": banner_deploy,
         "alerted": alert,   # True => the workflow run is failed on purpose (GitHub emails the owner)
@@ -98,7 +118,7 @@ def log_run(health, run_type, errors, verdict=None, source_events=(), rows=(), n
 
 def restore_category(memory, original, category):
     """Undo this run's change to one category (its Claude call failed): put back the stories
-    stored for today and the article hash as they were, so the next run retries."""
+    stored for today and its article-store entries as they were, so the next run retries."""
     today = datetime.now(AEST).strftime("%Y-%m-%d")
     old_today = original.get("stories", {}).get(today, {})
     day = memory.setdefault("stories", {}).setdefault(today, {})
@@ -106,13 +126,7 @@ def restore_category(memory, original, category):
         day[category] = old_today[category]
     else:
         day.pop(category, None)
-    old_hash = original.get("article_hashes", {}).get(category)
-    hashes = memory.setdefault("article_hashes", {})
-    if old_hash is None:
-        hashes.pop(category, None)
-    else:
-        hashes[category] = old_hash
-    return memory
+    return restore_store_category(memory, original, category)
 
 
 def load_memory():
@@ -172,31 +186,6 @@ def save_today_stories(memory, category, stories):
     ]
     cutoff = (datetime.now(AEST) - timedelta(days=3)).strftime("%Y-%m-%d")
     memory["stories"] = {k: v for k, v in memory["stories"].items() if k >= cutoff}
-    return memory
-
-
-def get_articles_hash(articles):
-    """Hash the titles of a list of articles to detect changes.
-    Uses MD5 for deterministic output across processes and GitHub Actions runners.
-    (Python's built-in hash() is PYTHONHASHSEED-randomized per process.)
-    """
-    titles = sorted([a.get("title", "") for a in articles])
-    combined = "".join(titles)
-    return hashlib.md5(combined.encode()).hexdigest()
-
-
-def category_has_changed(memory, category, articles):
-    """Returns True if articles are different from last run."""
-    current_hash = get_articles_hash(articles)
-    last_hash = memory.get("article_hashes", {}).get(category)
-    return current_hash != last_hash
-
-
-def save_article_hash(memory, category, articles):
-    """Save current article hash to memory."""
-    if "article_hashes" not in memory:
-        memory["article_hashes"] = {}
-    memory["article_hashes"][category] = get_articles_hash(articles)
     return memory
 
 

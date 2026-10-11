@@ -16,6 +16,10 @@ on:
         description: 'Category to refresh (australia, archaeology, football)'
         required: false
         default: ''
+      claude_enabled:
+        description: 'Make Claude calls? Set to false to fetch/store/dedupe/log with zero spend (calls are logged as skipped)'
+        required: false
+        default: 'true'
 
 # One run at a time. Later triggers queue (never cancel a running full build).
 concurrency:
@@ -54,6 +58,9 @@ jobs:
           # (a blank or missing mode means 'full'), exactly as before. KEEP IN SYNC with the cron lines above.
           RUN_MODE: ${{ github.event_name == 'schedule' && (github.event.schedule == '0 */2 * * *' && 'full' || 'breaking_only') || github.event.inputs.mode || 'full' }}
           RUN_CATEGORY: ${{ github.event.inputs.category || '' }}
+          # Zero-spend switch. Manual dispatch: the claude_enabled input. Scheduled runs: set the repo variable
+          # CLAUDE_ENABLED to false (Settings > Variables) to turn Claude off for every scheduled run.
+          CLAUDE_ENABLED: ${{ github.event.inputs.claude_enabled || vars.CLAUDE_ENABLED || 'true' }}
         run: python fetch_news.py
 
       - name: Commit memory file

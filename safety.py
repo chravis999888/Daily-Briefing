@@ -23,8 +23,21 @@ def is_stale(last_update, now=None, hours=STALE_AFTER_HOURS):
     return ((now or datetime.now(AEST)) - dt) > timedelta(hours=hours)
 
 
+def real_calls(rows):
+    """Ledger rows that are actual API attempts (a 'skipped' row is a call that CLAUDE_ENABLED=off prevented)."""
+    return [r for r in rows if r.get("outcome") != "skipped"]
+
+
+def last_good_check(health):
+    """The newer of the last data update and the last full all-quiet check (both are healthy runs)."""
+    times = [parse_ts(health.get(k)) for k in ("last_successful_data_update", "last_successful_check")]
+    times = [t for t in times if t]
+    return max(times).isoformat() if times else None
+
+
 def claude_stats(rows):
     """rows: cost-ledger rows for THIS run. A call is failed if its outcome is not 'ok'."""
+    rows = real_calls(rows)
     failed = [r for r in rows if r.get("outcome") != "ok"]
     return {"calls": len(rows), "failed": len(failed),
             "errored": sum(1 for r in rows if r.get("outcome") == "error"),
@@ -34,6 +47,7 @@ def claude_stats(rows):
 def failed_categories(rows):
     """Categories whose selection call(s) ran this run but none succeeded (incl. Haiku fallback)."""
     result = set()
+    rows = real_calls(rows)
     for cat in CATEGORIES:
         sel = [r for r in rows if str(r.get("label", "")).startswith(f"{cat}_selection")]
         if sel and not any(r.get("outcome") == "ok" for r in sel):
@@ -43,6 +57,7 @@ def failed_categories(rows):
 
 def attempted_categories(rows):
     """Categories whose selection call ran this run."""
+    rows = real_calls(rows)
     return {c for c in CATEGORIES if any(str(r.get("label", "")).startswith(f"{c}_selection") for r in rows)}
 
 
@@ -57,7 +72,7 @@ def valid_stories(stories):
                     for s in stories))
 
 
-def evaluate_run(run_type, memory, rows, fetched_any, fresh=None, fallback_cats=()):
+def evaluate_run(run_type, memory, rows, fetched_any, fresh=None, fallback_cats=(), quiet=None):
     """Decide whether this run's data is GOOD.
 
     fresh: newly produced {category: [stories]} for a full run (checked for >=1 pick);
@@ -69,6 +84,10 @@ def evaluate_run(run_type, memory, rows, fetched_any, fresh=None, fallback_cats=
       4. produced stories are well-formed (non-empty headline) and memory['stories'] is a dict
       5. not every category that was refreshed fell back to its previous stories
     fallback_cats: categories keeping previous stories (selection failed, or a story had no summary).
+    quiet: None, or the reason ("no_new", "claude_off") for a run that produced no new data on purpose. Rule 1 still
+           applies, so a quiet run is only healthy if sources really returned articles. A healthy quiet run is
+           outcome "ok" but never `advance`s last_successful_data_update (nothing was updated); a full-coverage
+           one (`checked_all`) records last_successful_check instead.
     Outcome: failed = not good; degraded = good but a Claude call failed or a category fell back; ok otherwise.
     """
     stats = claude_stats(rows)
@@ -91,8 +110,9 @@ def evaluate_run(run_type, memory, rows, fetched_any, fresh=None, fallback_cats=
         reasons.append("memory data is corrupted")
     good = not reasons
     outcome = "failed" if not good else ("degraded" if (stats["failed"] or fallback) else "ok")
-    return {"good": good, "outcome": outcome, "reasons": reasons,
-            "advance": good and run_type not in DATA_RUN_TYPES_NO_FETCH,
+    return {"good": good, "outcome": outcome, "reasons": reasons, "reason": quiet if good else None,
+            "advance": good and not quiet and run_type not in DATA_RUN_TYPES_NO_FETCH,
+            "checked_all": bool(good and quiet and run_type == "full"),
             "claude_calls": stats["calls"], "claude_calls_errored": stats["failed"],
             "claude_last_error": stats["last_error"]}
 
@@ -103,7 +123,7 @@ def decide_alert(health, outcome, consecutive_failures, now=None):
     Returns (alert, mark_stale_alerted)."""
     if outcome != "failed":
         return False, False
-    stale = is_stale(health.get("last_successful_data_update"), now)
+    stale = is_stale(last_good_check(health), now)
     first = consecutive_failures == 1
     stale_new = stale and not health.get("stale_alerted")
     return (first or stale_new), (stale and (first or stale_new))

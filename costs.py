@@ -88,6 +88,24 @@ def log_call(label, model, msg=None, error=None, category=None, has_text=None):
     return record
 
 
+def log_skipped(label, category=None, candidates=None, model=None):
+    """Ledger row for a Claude call that WOULD have fired but CLAUDE_ENABLED is off. Zero cost, no tokens."""
+    record = {
+        "timestamp": datetime.now(AEST).isoformat(),
+        "run_id": RUN_ID,
+        "run_type": RUN_MODE,
+        "label": label,
+        "category": category or infer_category(label),
+        "model": model or "none",
+        "candidates": candidates,
+        "input_tokens": 0, "output_tokens": 0, "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0, "web_search_requests": 0,
+        "stop_reason": None, "outcome": "skipped", "error": None, "cost_usd": 0.0,
+    }
+    _append(record)
+    return record
+
+
 def _bucket(rows, key):
     out = {}
     for r in rows:
@@ -97,11 +115,14 @@ def _bucket(rows, key):
     return {k: {"calls": v["calls"], "usd": round(v["usd"], 6)} for k, v in sorted(out.items())}
 
 
-def _summarise(rows):
+def _summarise(all_rows):
+    skipped = [r for r in all_rows if r.get("outcome") == "skipped"]
+    rows = [r for r in all_rows if r.get("outcome") != "skipped"]   # skipped rows are not calls
     total = sum(r["cost_usd"] for r in rows)
     wasted = sum(r["cost_usd"] for r in rows if r["outcome"] in WASTED_OUTCOMES)
     return {
         "calls": len(rows),
+        "calls_skipped": len(skipped), "skipped_by_step": _bucket(skipped, "label"),
         "total_usd": round(total, 6), "total_aud": round(total * USD_TO_AUD, 6),
         "wasted_usd": round(wasted, 6), "wasted_aud": round(wasted * USD_TO_AUD, 6),
         "by_step": _bucket(rows, "label"), "by_category": _bucket(rows, "category"),
@@ -142,6 +163,8 @@ def write_summary_md(rollup, ledger):
         "",
         f"- **Today ({t['date']}):** ${t['total_usd']:.4f} USD (A${t['total_aud']:.4f}) over {t['calls']} calls",
         f"- **Month to date ({m['month']}):** ${m['total_usd']:.4f} USD (A${m['total_aud']:.4f}) over {m['calls']} calls",
+        f"- **Calls skipped (CLAUDE_ENABLED off) today:** {t['calls_skipped']}"
+        f" (month to date: {m['calls_skipped']})",
         f"- **Wasted spend (truncated/empty) today:** ${t['wasted_usd']:.4f} USD (A${t['wasted_aud']:.4f})",
         f"- **Wasted spend month to date:** ${m['wasted_usd']:.4f} USD (A${m['wasted_aud']:.4f})",
         "",
@@ -149,9 +172,9 @@ def write_summary_md(rollup, ledger):
         "| Time | Step | Model | Cost (USD) | Outcome |",
         "|---|---|---|---|---|",
     ]
-    for r in reversed(ledger[-10:]):
+    for r in reversed([r for r in ledger if r["outcome"] != "skipped"][-10:]):
         lines.append(f"| {r['timestamp'][:19]} | {r['label']} | {r['model']} | ${r['cost_usd']:.6f} | {r['outcome']} |")
-    if not ledger:
+    if not [r for r in ledger if r["outcome"] != "skipped"]:
         lines.append("| — | no calls logged yet | | | |")
     SUMMARY_FILE.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

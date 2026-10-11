@@ -7,15 +7,48 @@ import feedparser
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 
+from articles import finalize_articles, parse_published
+
 NEWSDATA_KEY = os.environ.get("NEWSDATA_API_KEY", "")
 GUARDIAN_KEY = os.environ.get("GUARDIAN_API_KEY", "")
 
-# One (name, ok, message) event per fetch this run; fetch_news reads and clears it.
+FETCH_TIMEOUT = 10   # seconds, every outbound news fetch
+
+# One (name, ok, message, count, seconds) event per fetch this run; fetch_news reads and clears it.
 SOURCE_EVENTS = []
 
 
-def record_source(name, ok, message=""):
-    SOURCE_EVENTS.append((name, bool(ok), message))
+def record_source(name, ok, message="", count=None, seconds=None):
+    SOURCE_EVENTS.append((name, bool(ok), message, count, seconds))
+
+
+class FetchError(Exception):
+    """A fetch problem with a ready-made message (logged as is, without the exception class name)."""
+
+
+def timed_fetch(name, fn):
+    """The one shared fetch routine: run fn() -> list of articles, time it, give every article its id and
+    published time, and record success/count/seconds (or the error text). Never raises: a failing source
+    returns [] so it cannot break the run."""
+    start = time.monotonic()
+    try:
+        articles = finalize_articles(fn())
+    except Exception as e:
+        msg = str(e) if isinstance(e, FetchError) else f"{type(e).__name__}: {e}"
+        print(f"{name} fetch error: {msg}")
+        record_source(name, False, msg[:300], 0, round(time.monotonic() - start, 2))
+        return []
+    record_source(name, bool(articles), "" if articles else "0 articles returned", len(articles),
+                  round(time.monotonic() - start, 2))
+    return articles
+
+
+def _get_feed(url):
+    """Fetch a feed with a hard timeout (feedparser alone has none) and parse it."""
+    r = requests.get(url, timeout=FETCH_TIMEOUT, headers={"User-Agent": feedparser.USER_AGENT})
+    if r.status_code >= 400:
+        raise FetchError(f"HTTP {r.status_code} — {r.text[:200]}")
+    return feedparser.parse(r.content)
 
 
 def fetch_gdelt_articles(query, timespan="1h", max_records=25, memory=None):
@@ -82,60 +115,52 @@ def fetch_gdelt_articles(query, timespan="1h", max_records=25, memory=None):
         return articles
 
     def _attempt_json():
-        r = requests.get(base_url, params={**params, "format": "json"}, timeout=30)
+        r = requests.get(base_url, params={**params, "format": "json"}, timeout=FETCH_TIMEOUT)
+        snippet = (r.text or "")[:200]
         if r.status_code != 200:
-            return [], f"GDELT fetch failed: HTTP {r.status_code}"
+            return [], f"GDELT fetch failed: HTTP {r.status_code} — {snippet}"
         try:
             data = r.json()
         except Exception as e:
-            return [], f"GDELT fetch failed: JSON decode error — {e}"
-        articles = _parse_articles(data.get("articles", []))
-        return articles, ""
+            return [], f"GDELT fetch failed: HTTP {r.status_code}, JSON decode error ({e}) — {snippet}"
+        return _parse_articles(data.get("articles", [])), ""
 
     def _attempt_rss():
         rss_params = {**params, "format": "rss"}
-        rss_url = base_url + "?" + urllib.parse.urlencode(rss_params)
-        feed = feedparser.parse(rss_url)
+        feed = _get_feed(base_url + "?" + urllib.parse.urlencode(rss_params))
         articles = _parse_rss_articles(feed)
         return articles, "" if articles else "GDELT RSS returned empty"
 
-    # First JSON attempt
+    start = time.monotonic()
+
+    def _done(articles, err):
+        articles = finalize_articles(articles)
+        record_source("GDELT", bool(articles), err or ("" if articles else "0 articles returned"),
+                      len(articles), round(time.monotonic() - start, 2))
+        return articles, err, memory
+
+    # One JSON attempt (no retry loop), then the RSS fallback, each with the short timeout.
     err = "GDELT fetch failed: unknown"
     try:
         articles, err = _attempt_json()
         if articles:
-            return articles, "", memory
-        print(f"GDELT JSON attempt 1: {err or 'empty'} — retrying in 5s")
+            return _done(articles, "")
+        print(f"GDELT JSON attempt: {err or 'empty'} — falling back to RSS")
     except Exception as e:
-        err = f"GDELT fetch failed: {e}"
-        print(f"GDELT JSON attempt 1 exception: {e} — retrying in 5s")
+        err = f"GDELT fetch failed: {type(e).__name__}: {e}"
+        print(f"GDELT JSON attempt exception: {e} — falling back to RSS")
 
-    time.sleep(5)
-
-    # Second JSON attempt
-    try:
-        articles, err = _attempt_json()
-        if articles:
-            return articles, "", memory
-        print(f"GDELT JSON attempt 2: {err or 'empty'} — falling back to RSS")
-    except Exception as e:
-        err = f"GDELT fetch failed: {e}"
-        print(f"GDELT JSON attempt 2 exception: {e} — falling back to RSS")
-
-    # RSS fallback
     try:
         articles, rss_err = _attempt_rss()
         if articles:
             print(f"GDELT RSS fallback succeeded: {len(articles)} articles")
-            return articles, "", memory
+            return _done(articles, "")
         prefix = err if err else "GDELT fetch failed: empty response"
-        final_err = prefix + "; RSS fallback also empty"
         print(f"GDELT RSS fallback: {rss_err}")
-        return [], final_err, memory
+        return _done([], prefix + "; RSS fallback also empty")
     except Exception as e:
-        final_err = err + f"; RSS fallback failed: {e}"
         print(f"GDELT RSS fallback exception: {e}")
-        return [], final_err, memory
+        return _done([], err + f"; RSS fallback failed: {e}")
 
 
 def fetch_google_news_rss():
@@ -208,12 +233,12 @@ def fetch_guardian(query, page_size=15, section=None):
     }
     if section:
         params["section"] = section
-    try:
-        r = requests.get(url, params=params, timeout=10)
+
+    def _fetch():
+        r = requests.get(url, params=params, timeout=FETCH_TIMEOUT)
         data = r.json()
-        results = data.get("response", {}).get("results", [])
         articles = []
-        for a in results:
+        for a in data.get("response", {}).get("results", []):
             fields = a.get("fields", {})
             body = fields.get("bodyText", "") or fields.get("trailText", "")
             articles.append({
@@ -224,17 +249,23 @@ def fetch_guardian(query, page_size=15, section=None):
                 "content": body[:2000],
                 "image": fields.get("thumbnail", "")
             })
-        record_source("Guardian", articles, "" if articles else "0 articles returned")
         return articles
-    except Exception as e:
-        print(f"Guardian fetch error: {e}")
-        record_source("Guardian", False, f"{type(e).__name__}: {e}"[:300])
-        return []
+    return timed_fetch("Guardian", _fetch)
+
+
+def _entry_published(entry):
+    """ISO-UTC published time for a feed entry: published, else updated, else feedparser's parsed struct."""
+    iso = parse_published(entry.get("published", "")) or parse_published(entry.get("updated", ""))
+    if not iso:
+        st = entry.get("published_parsed") or entry.get("updated_parsed")
+        if st:
+            iso = datetime(*st[:6], tzinfo=timezone.utc).isoformat()
+    return iso
 
 
 def fetch_rss(url, source_name):
-    try:
-        feed = feedparser.parse(url)
+    def _fetch():
+        feed = _get_feed(url)
         articles = []
         for entry in feed.entries[:20]:
             summary = entry.get("summary", "") or entry.get("description", "")
@@ -246,15 +277,12 @@ def fetch_rss(url, source_name):
                 "url": entry.get("link", ""),
                 "source": source_name,
                 "time": entry.get("published", ""),
+                "published": _entry_published(entry),
                 "content": re.sub(r'<[^>]+>', '', summary)[:1000],
                 "image": image
             })
-        record_source(source_name, articles, "" if articles else "0 articles returned")
         return articles
-    except Exception as e:
-        print(f"RSS fetch error {url}: {e}")
-        record_source(source_name, False, f"{type(e).__name__}: {e}"[:300])
-        return []
+    return timed_fetch(source_name, _fetch)
 
 
 def fetch_newsdata(query, country=None):
@@ -262,13 +290,12 @@ def fetch_newsdata(query, country=None):
     params = {"apikey": NEWSDATA_KEY, "q": query, "language": "en", "full_content": 1}
     if country:
         params["country"] = country
-    try:
-        r = requests.get(url, params=params, timeout=10)
-        data = r.json()
-        results = data.get("results", [])
+
+    def _fetch():
+        r = requests.get(url, params=params, timeout=FETCH_TIMEOUT)
+        results = r.json().get("results", [])
         if not isinstance(results, list):
-            record_source("NewsData", False, "unexpected response (no results list)")
-            return []
+            raise FetchError("unexpected response (no results list)")
         articles = []
         for a in results:
             if not isinstance(a, dict):
@@ -282,12 +309,8 @@ def fetch_newsdata(query, country=None):
                 "content": content[:2000],
                 "image": a.get("image_url", "")
             })
-        record_source("NewsData", articles, "" if articles else "0 articles returned")
         return articles
-    except Exception as e:
-        print(f"NewsData fetch error: {e}")
-        record_source("NewsData", False, f"{type(e).__name__}: {e}"[:300])
-        return []
+    return timed_fetch("NewsData", _fetch)
 
 
 def fetch_world_topic_sources():

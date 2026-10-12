@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-11T23:52:30.553786+00:00",
+  "last_gdelt_attempt": "2026-10-12T02:32:19.399160+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -5236,6 +5236,41 @@
       "published": "2026-10-11T22:55:58+00:00",
       "first_seen": "2026-10-12T10:59:33.315607+10:00",
       "category": "football"
+    },
+    "75d64f6b6e552a78": {
+      "source": "BBC News",
+      "title": "Ex-hurricane to bring warm weather to the UK this week",
+      "published": "2026-10-11T23:03:15+00:00",
+      "first_seen": "2026-10-12T12:32:43.223672+10:00",
+      "category": "breaking"
+    },
+    "2340b2f6e871cf19": {
+      "source": "Al Jazeera",
+      "title": "Iran\u2019s FM urges diplomacy in call with Saudi counterpart",
+      "published": "2026-10-12T00:39:08+00:00",
+      "first_seen": "2026-10-12T12:32:43.223672+10:00",
+      "category": "breaking"
+    },
+    "6a1e922486bab233": {
+      "source": "Al Jazeera",
+      "title": "UK PM Andy Burnham says it is \u2018clear\u2019 Russia interfered in 2016 Brexit vote",
+      "published": "2026-10-12T01:12:35+00:00",
+      "first_seen": "2026-10-12T12:32:43.223672+10:00",
+      "category": "breaking"
+    },
+    "ecf4658d1b2976ef": {
+      "source": "Al Jazeera",
+      "title": "Bridge washed away by torrent of water in Nepal",
+      "published": "2026-10-12T01:24:26+00:00",
+      "first_seen": "2026-10-12T12:32:43.223672+10:00",
+      "category": "breaking"
+    },
+    "cf70f99a523c05c4": {
+      "source": "Al Jazeera",
+      "title": "Saudi Arabia says 1 dead, 11 injured in latest attack on Riyadh airport",
+      "published": "2026-10-12T02:11:21+00:00",
+      "first_seen": "2026-10-12T12:32:43.223672+10:00",
+      "category": "breaking"
     }
   }
 }

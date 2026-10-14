@@ -1,12 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-10-10T22:46:48.344573+10:00",
-      "run_type": "breaking_only",
-      "errors": [],
-      "status": "ok"
-    },
-    {
       "timestamp": "2026-10-11T03:08:20.544245+10:00",
       "run_type": "full",
       "errors": [
@@ -1595,27 +1589,35 @@
       ],
       "banner_deploy": false,
       "alerted": false
+    },
+    {
+      "timestamp": "2026-10-15T05:05:57.700691+10:00",
+      "run_type": "breaking_only",
+      "outcome": "ok",
+      "data_good": true,
+      "claude_calls": 0,
+      "claude_calls_errored": 0,
+      "reasons": [],
+      "reason": "claude_off",
+      "categories": {
+        "breaking": {
+          "fetched": 40,
+          "new": 2,
+          "duplicates": 0,
+          "has_new": true,
+          "new_by_source": {
+            "Al Jazeera": 2
+          },
+          "blocked": "claude_disabled",
+          "claude_off": true
+        }
+      },
+      "errors": [],
+      "banner_deploy": false,
+      "alerted": false
     }
   ],
   "errors": [
-    {
-      "timestamp": "2026-10-14T13:37:23.176894+10:00",
-      "run_type": "full",
-      "source": "NewsData",
-      "message": "unexpected response (no results list)"
-    },
-    {
-      "timestamp": "2026-10-14T13:37:23.176894+10:00",
-      "run_type": "full",
-      "source": "EurekAlert",
-      "message": "HTTP 404 \u2014 <h1 style=\"font-family: sans-serif; font-size: 34px;\">Content not found</h1>\n<p style=\"font-family: sans-serif; font-size: 14px;\">The content you're trying to access no longer exists or you've tried t"
-    },
-    {
-      "timestamp": "2026-10-14T13:37:23.176894+10:00",
-      "run_type": "full",
-      "source": "The Conversation",
-      "message": "HTTP 404 \u2014 "
-    },
     {
       "timestamp": "2026-10-14T13:37:23.176894+10:00",
       "run_type": "full",
@@ -1897,16 +1899,34 @@
       "run_type": "breaking_only",
       "source": "AP News",
       "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
+    },
+    {
+      "timestamp": "2026-10-15T05:05:57.700691+10:00",
+      "run_type": "breaking_only",
+      "source": "Guardian",
+      "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-10-15T05:05:57.700691+10:00",
+      "run_type": "breaking_only",
+      "source": "Reuters",
+      "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "timestamp": "2026-10-15T05:05:57.700691+10:00",
+      "run_type": "breaking_only",
+      "source": "AP News",
+      "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
     }
   ],
   "api_cost_ledger": {
-    "as_of": "2026-10-15T04:48:28.644242+10:00",
+    "as_of": "2026-10-15T05:05:57.700746+10:00",
     "aud_rate_display_only": 1.55,
     "legacy_rows_excluded": 314,
     "today": {
       "date": "2026-10-15",
       "calls": 0,
-      "calls_skipped": 6,
+      "calls_skipped": 7,
       "skipped_by_step": {
         "archaeology_selection": {
           "calls": 1,
@@ -1917,7 +1937,7 @@
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 3,
+          "calls": 4,
           "usd": 0.0
         },
         "football_selection": {
@@ -1926,7 +1946,7 @@
         }
       },
       "skipped_by_reason": {
-        "claude_disabled": 6
+        "claude_disabled": 7
       },
       "total_usd": 0,
       "total_aud": 0.0,
@@ -1940,7 +1960,7 @@
     "month_to_date": {
       "month": "2026-10",
       "calls": 511,
-      "calls_skipped": 69,
+      "calls_skipped": 70,
       "skipped_by_step": {
         "archaeology_selection": {
           "calls": 8,
@@ -1951,7 +1971,7 @@
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 37,
+          "calls": 38,
           "usd": 0.0
         },
         "football_selection": {
@@ -1960,7 +1980,7 @@
         }
       },
       "skipped_by_reason": {
-        "claude_disabled": 69
+        "claude_disabled": 70
       },
       "total_usd": 1.541755,
       "total_aud": 2.38972,
@@ -2108,64 +2128,64 @@
     "Guardian": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-15T04:48:28.644183+10:00",
+        "time": "2026-10-15T05:05:57.700691+10:00",
         "message": "0 articles returned"
       },
       "last_run": {
-        "time": "2026-10-15T04:48:28.644183+10:00",
+        "time": "2026-10-15T05:05:57.700691+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.62,
+        "seconds": 0.64,
         "error": "0 articles returned"
       }
     },
     "Reuters": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-15T04:48:28.644183+10:00",
+        "time": "2026-10-15T05:05:57.700691+10:00",
         "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
       },
       "last_run": {
-        "time": "2026-10-15T04:48:28.644183+10:00",
+        "time": "2026-10-15T05:05:57.700691+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.05,
+        "seconds": 0.06,
         "error": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
       }
     },
     "AP News": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-15T04:48:28.644183+10:00",
+        "time": "2026-10-15T05:05:57.700691+10:00",
         "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
       },
       "last_run": {
-        "time": "2026-10-15T04:48:28.644183+10:00",
+        "time": "2026-10-15T05:05:57.700691+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.28,
+        "seconds": 0.12,
         "error": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
       }
     },
     "BBC News": {
-      "last_success": "2026-10-15T04:48:28.644183+10:00",
+      "last_success": "2026-10-15T05:05:57.700691+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-15T04:48:28.644183+10:00",
+        "time": "2026-10-15T05:05:57.700691+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.33,
+        "seconds": 0.18,
         "error": ""
       }
     },
     "Al Jazeera": {
-      "last_success": "2026-10-15T04:48:28.644183+10:00",
+      "last_success": "2026-10-15T05:05:57.700691+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-15T04:48:28.644183+10:00",
+        "time": "2026-10-15T05:05:57.700691+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.22,
+        "seconds": 0.16,
         "error": ""
       }
     },
@@ -2443,7 +2463,7 @@
       }
     }
   },
-  "last_successful_run": "2026-10-15T04:48:28.644183+10:00",
+  "last_successful_run": "2026-10-15T05:05:57.700691+10:00",
   "last_successful_data_update": "2026-10-11T19:09:54.686274+10:00",
   "consecutive_failures": 0,
   "stale_alerted": false,

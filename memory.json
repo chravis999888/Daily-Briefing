@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-14T18:48:02.994288+00:00",
+  "last_gdelt_attempt": "2026-10-14T22:26:48.056424+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -13899,6 +13899,153 @@
       "published": "2026-10-14T19:47:10+00:00",
       "first_seen": "2026-10-15T05:58:48.634690+10:00",
       "category": "football"
+    },
+    "d61a1d4451f78bdd": {
+      "source": "BBC News",
+      "title": "What if you could turn off your algorithm? Australia is about to try",
+      "published": "2026-10-14T18:00:54+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "f288b7f18606a284": {
+      "source": "BBC News",
+      "title": "Why is Starlink internet so important on the battlefield in Ukraine?",
+      "published": "2026-10-14T19:52:04+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "dcddea94f6954a19": {
+      "source": "Al Jazeera",
+      "title": "US lifts sanctions on Venezuela\u2019s top legislator",
+      "published": "2026-10-14T19:53:03+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "00126aaa979fd15d": {
+      "source": "Al Jazeera",
+      "title": "How will a new alliance affect the conflict in eastern DRC?",
+      "published": "2026-10-14T19:54:16+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "85875e1bb57954a7": {
+      "source": "Al Jazeera",
+      "title": "Spanish NGO halts Mediterranean rescue operations, citing fuel prices",
+      "published": "2026-10-14T20:10:15+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "f0edd4cd63339850": {
+      "source": "Al Jazeera",
+      "title": "Barcola scores hat-trick as Liverpool hit LASK for six, Feyenoord beat Como",
+      "published": "2026-10-14T20:12:20+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "ecc5d7c1147aace2": {
+      "source": "Al Jazeera",
+      "title": "Russia attack hits Kyiv after reported intelligence lapse",
+      "published": "2026-10-14T20:14:57+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "5027c12f07ffbf5f": {
+      "source": "Al Jazeera",
+      "title": "Houthi attacks disrupt travel plans for Mecca pilgrims",
+      "published": "2026-10-14T20:25:04+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "646a7aec4afc812e": {
+      "source": "Al Jazeera",
+      "title": "Infantino faces FIFA rebels in Zurich after failed World Cup stake sale",
+      "published": "2026-10-14T20:25:30+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "c1fe30cbb7f8092e": {
+      "source": "Al Jazeera",
+      "title": "Mexico to force Meta, TikTok, and X to better protect minors on platform",
+      "published": "2026-10-14T20:27:41+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "6b5d0ee7671f3d21": {
+      "source": "Al Jazeera",
+      "title": "Woman rescued after being swept away by Istanbul flash flood",
+      "published": "2026-10-14T20:29:50+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "133ba88cc5d50b85": {
+      "source": "Al Jazeera",
+      "title": "World\u2019s oldest shipwreck found off coast of Turkiye",
+      "published": "2026-10-14T20:33:20+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "03ad8886069566fc": {
+      "source": "Al Jazeera",
+      "title": "Sky turns orange as wildfires rage across Indonesia",
+      "published": "2026-10-14T20:39:59+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "61089676864c5395": {
+      "source": "Al Jazeera",
+      "title": "Families of Trinidadian men killed in US boat strike demand accountability",
+      "published": "2026-10-14T20:42:59+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "0e9bc952017f2f80": {
+      "source": "Al Jazeera",
+      "title": "Israeli quadcopter drone drops bomb in Lebanon",
+      "published": "2026-10-14T20:47:46+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "252a853688ec24e3": {
+      "source": "Al Jazeera",
+      "title": "West Indies beat India to level T20 series as Hope continues record run",
+      "published": "2026-10-14T20:52:25+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "8ebbb4d8e67eb5f5": {
+      "source": "BBC News",
+      "title": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
+      "published": "2026-10-14T20:55:24+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "e8734bb446b4921b": {
+      "source": "BBC News",
+      "title": "UK threatens to ban Eritreans over migrant return policy",
+      "published": "2026-10-14T21:30:13+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "390742869d3717be": {
+      "source": "Al Jazeera",
+      "title": "Colombia opposition groups launch protest against de la Espriella\u2019s cuts",
+      "published": "2026-10-14T21:35:27+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "a0f0e3df31ed1bf1": {
+      "source": "Al Jazeera",
+      "title": "PSG beat Man City 4-2 in Champions League thriller",
+      "published": "2026-10-14T21:35:49+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
+    },
+    "84cdbbf466b382c2": {
+      "source": "Al Jazeera",
+      "title": "Real Madrid come from 3-1 down to beat Roma on Champions League travels",
+      "published": "2026-10-14T21:50:01+00:00",
+      "first_seen": "2026-10-15T08:27:05.244492+10:00",
+      "category": "breaking"
     }
   }
 }

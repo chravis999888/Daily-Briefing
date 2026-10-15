@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-15T01:07:32.136514+00:00",
+  "last_gdelt_attempt": "2026-10-15T03:17:03.925826+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -14665,6 +14665,479 @@
       "published": "2026-10-15T00:41:45+00:00",
       "first_seen": "2026-10-15T11:07:56.046790+10:00",
       "category": "breaking"
+    },
+    "e6b2b36d4f4029a3": {
+      "source": "BBC News",
+      "title": "Swimmer Archie Goodburn thanks prime minister as brain cancer review announced",
+      "published": "2026-10-14T19:04:46+00:00",
+      "first_seen": "2026-10-15T13:17:27.207276+10:00",
+      "category": "breaking"
+    },
+    "336744407371becd": {
+      "source": "BBC News",
+      "title": "Why Zelensky's meeting with Burnham matters",
+      "published": "2026-10-14T20:41:03+00:00",
+      "first_seen": "2026-10-15T13:17:27.207276+10:00",
+      "category": "breaking"
+    },
+    "ba3bc508ce3c816a": {
+      "source": "Al Jazeera",
+      "title": "Ship catches fire in Romania\u2019s waters amid rising attacks in the Black Sea",
+      "published": "2026-10-15T01:20:26+00:00",
+      "first_seen": "2026-10-15T13:17:27.207276+10:00",
+      "category": "breaking"
+    },
+    "b27204b70a43b9ca": {
+      "source": "Al Jazeera",
+      "title": "Istanbul in chaos, shut down by heaviest rainfall since 1985",
+      "published": "2026-10-15T01:29:43+00:00",
+      "first_seen": "2026-10-15T13:17:27.207276+10:00",
+      "category": "breaking"
+    },
+    "abd0d3ef9e032271": {
+      "source": "Al Jazeera",
+      "title": "Trump suggests those who leak government information should \u2018be shot\u2019",
+      "published": "2026-10-15T01:34:41+00:00",
+      "first_seen": "2026-10-15T13:17:27.207276+10:00",
+      "category": "breaking"
+    },
+    "6dc7a337a35f92dc": {
+      "source": "Al Jazeera",
+      "title": "White House spokesperson Katie Zacharia\u2019s law career faces scrutiny",
+      "published": "2026-10-15T01:35:40+00:00",
+      "first_seen": "2026-10-15T13:17:27.207276+10:00",
+      "category": "breaking"
+    },
+    "cc28e087f56d7192": {
+      "source": "Al Jazeera",
+      "title": "Tunisia: What has Kais Saied achieved economically in seven years?",
+      "published": "2026-10-15T02:42:21+00:00",
+      "first_seen": "2026-10-15T13:17:27.207276+10:00",
+      "category": "breaking"
+    },
+    "d7b6108648f5752e": {
+      "source": "Al Jazeera",
+      "title": "Kenya\u2019s Ebola cases test preparedness beyond Nairobi",
+      "published": "2026-10-15T02:45:49+00:00",
+      "first_seen": "2026-10-15T13:17:27.207276+10:00",
+      "category": "breaking"
+    },
+    "87bceabae42c227f": {
+      "source": "ABC News",
+      "title": "Hundreds of outback burial sites uncovered by Dave 'the Grave' Hunter",
+      "published": "2026-10-14T23:31:16+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "762057b308d016c0": {
+      "source": "ABC News",
+      "title": "Tasmanian premier's school Christmas intervention labelled 'reprehensible'",
+      "published": "2026-10-15T00:28:08+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "04bd2e5229fe2d4d": {
+      "source": "ABC News",
+      "title": "COVID-19 grants paid to 9,000 ineligible Victorian businesses",
+      "published": "2026-10-15T00:30:03+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "8239157239b9c8f2": {
+      "source": "ABC News",
+      "title": "Surge in iron infusions prompts warning over serious side effect",
+      "published": "2026-10-15T00:31:07+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "4961ed4731463706": {
+      "source": "ABC News",
+      "title": "Brisbane City Council floats trialling licensed bars on CityCats",
+      "published": "2026-10-15T00:40:10+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "4c83d8b9800d42fa": {
+      "source": "ABC News",
+      "title": "Patients struggling with rising costs and long waits for healthcare refunds",
+      "published": "2026-10-15T00:47:34+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "3baf7db50c1d787c": {
+      "source": "ABC News",
+      "title": "Wallaroos lose star but regain experience for historic 'quadruple header'",
+      "published": "2026-10-15T00:48:27+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "aaa99a250d392748": {
+      "source": "ABC News",
+      "title": "Unemployment at five-year high after nearly 40,000 jobs lost",
+      "published": "2026-10-15T00:50:22+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "7142de4b39cdcccc": {
+      "source": "SMH",
+      "title": "Online safety laws to penalise platforms promoting gender-based violence",
+      "published": "2026-10-15T01:00:44+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "731c9d6e729189ca": {
+      "source": "The Age",
+      "title": "Online safety laws to penalise platforms promoting gender-based violence",
+      "published": "2026-10-15T01:00:44+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "7142de4b39cdcccc"
+    },
+    "09cf7b12a9aeb947": {
+      "source": "SMH",
+      "title": "RBA on notice to hold off on rate rises as jobless rate hits five-year high",
+      "published": "2026-10-15T01:01:08+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "5d2c3f0ca2864436": {
+      "source": "The Age",
+      "title": "RBA on notice to hold off on rate rises as jobless rate hits five-year high",
+      "published": "2026-10-15T01:01:08+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "09cf7b12a9aeb947"
+    },
+    "028d972f577af423": {
+      "source": "SMH",
+      "title": "Locksley fires up copper growth push across NSW heartland",
+      "published": "2026-10-15T01:04:36+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "48bd0f8e5d8fd18a": {
+      "source": "The Age",
+      "title": "Locksley fires up copper growth push across NSW heartland",
+      "published": "2026-10-15T01:04:36+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "028d972f577af423"
+    },
+    "43cd0014e2373a42": {
+      "source": "ABC News",
+      "title": "RSL going bush to connect with veterans from Afghanistan",
+      "published": "2026-10-15T01:04:54+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "b4a168dab622090e": {
+      "source": "SMH",
+      "title": "King hopes Green Spaces on best behaviour to provide another debut win",
+      "published": "2026-10-15T01:15:29+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "4b5493cea339eab6": {
+      "source": "The Age",
+      "title": "King hopes Green Spaces on best behaviour to provide another debut win",
+      "published": "2026-10-15T01:15:29+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "b4a168dab622090e"
+    },
+    "b748fed7ae47ac71": {
+      "source": "ABC News",
+      "title": "Conroy targets 'rot' in Defence after $15.6m bungle unmasked",
+      "published": "2026-10-15T01:19:37+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "d11c9dffad79bc3a": {
+      "source": "SMH",
+      "title": "What every Aussie needs to know before visiting the USA",
+      "published": "2026-10-15T01:19:50+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "d93428480c7a5d75": {
+      "source": "The Age",
+      "title": "What every Aussie needs to know before visiting the USA",
+      "published": "2026-10-15T01:19:50+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "d11c9dffad79bc3a"
+    },
+    "8575fd717f3cb0cb": {
+      "source": "SMH",
+      "title": "Teen charged following botched shooting during school pick-up",
+      "published": "2026-10-15T01:20:49+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "cd22f602b25f57e1": {
+      "source": "The Age",
+      "title": "Teen charged following botched shooting during school pick-up",
+      "published": "2026-10-15T01:20:49+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "8575fd717f3cb0cb"
+    },
+    "3a0a19da62b89ba5": {
+      "source": "ABC News",
+      "title": "'Not a lot we can do': Yass council region faces 76pc rate hike",
+      "published": "2026-10-15T01:28:15+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "6110f08ea33ab8dc": {
+      "source": "SMH",
+      "title": "Lamarre-Condon\u2019s celebrity-chasing friend tells trial about \u2018concerning\u2019 phone request",
+      "published": "2026-10-15T01:38:37+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "b1c39292ee2b71c4": {
+      "source": "The Age",
+      "title": "Lamarre-Condon\u2019s celebrity-chasing friend tells trial about \u2018concerning\u2019 phone request",
+      "published": "2026-10-15T01:38:37+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "6110f08ea33ab8dc"
+    },
+    "74ec3ed85aecd350": {
+      "source": "ABC News",
+      "title": "Lamarre-Condon asked friend to toss phone mailed to her in WA, jury told",
+      "published": "2026-10-15T01:50:50+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "53ea073ea38660ea": {
+      "source": "ABC News",
+      "title": "Near head-on crash after speed camera operator's 'dangerous' overtake",
+      "published": "2026-10-15T01:57:15+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "0c3e08750f2f519e": {
+      "source": "SMH",
+      "title": "Debutant set for Bledisloe baptism as Wallabies suffer cruel setback",
+      "published": "2026-10-15T01:57:41+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "13d2a95f1dee61e6": {
+      "source": "The Age",
+      "title": "Debutant set for Bledisloe baptism as Wallabies suffer cruel setback",
+      "published": "2026-10-15T01:57:41+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "0c3e08750f2f519e"
+    },
+    "8b419e8292605d4b": {
+      "source": "SMH",
+      "title": "Northland driver bragged about crime after leaving children \u2018terrified\u2019",
+      "published": "2026-10-15T02:00:40+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "0e715d39410b9dc0": {
+      "source": "The Age",
+      "title": "Northland driver bragged about crime after leaving children \u2018terrified\u2019",
+      "published": "2026-10-15T02:00:40+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "8b419e8292605d4b"
+    },
+    "a4fb08be428a0de1": {
+      "source": "SMH",
+      "title": "Why I have an issue with the Nick Blakey trade to North Melbourne",
+      "published": "2026-10-15T02:08:03+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "6f6ac9fb4b41a4d1": {
+      "source": "The Age",
+      "title": "Why I have an issue with the Nick Blakey trade to North Melbourne",
+      "published": "2026-10-15T02:08:03+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "a4fb08be428a0de1"
+    },
+    "db7657581a98d9bd": {
+      "source": "SMH",
+      "title": "Iron Bear retakes full control of generational Canadian iron ore giant",
+      "published": "2026-10-15T02:11:36+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "0442515a72b455d5": {
+      "source": "The Age",
+      "title": "Iron Bear retakes full control of generational Canadian iron ore giant",
+      "published": "2026-10-15T02:11:36+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "db7657581a98d9bd"
+    },
+    "32cc578db0db38f9": {
+      "source": "ABC News",
+      "title": "Industrial relations minister could terminate strikes under proposed Qld laws",
+      "published": "2026-10-15T02:23:33+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "8f8120d7da269911": {
+      "source": "ABC News",
+      "title": "Wallabies show faith in rookie fly half for final All Blacks Test",
+      "published": "2026-10-15T02:34:00+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "2dc549f74995f1b5": {
+      "source": "SMH",
+      "title": "Trailer: The Hunger Games: Sunrise on the Reaping",
+      "published": "2026-10-15T02:35:20+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "c61548b483f9efe7": {
+      "source": "The Age",
+      "title": "Trailer: The Hunger Games: Sunrise on the Reaping",
+      "published": "2026-10-15T02:35:20+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "2dc549f74995f1b5"
+    },
+    "9e48bf146d64f15f": {
+      "source": "ABC News",
+      "title": "How Sally Rooney's support for Palestine Action led to UK exit",
+      "published": "2026-10-15T02:35:34+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "d8a28de6cf841381": {
+      "source": "ABC News",
+      "title": "Queensland jails will be at triple capacity under new bail laws, union warns",
+      "published": "2026-10-15T02:35:46+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "43697c433d4f589e": {
+      "source": "SMH",
+      "title": "Four men confront construction executive in alleged extortion",
+      "published": "2026-10-15T02:40:05+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "eaf86b33e3386256"
+    },
+    "d8ed517586126509": {
+      "source": "The Age",
+      "title": "Four men confront construction executive in alleged extortion",
+      "published": "2026-10-15T02:40:05+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "eaf86b33e3386256"
+    },
+    "7b025c35f49d6f84": {
+      "source": "ABC News",
+      "title": "New law to force Darwin Private Hospital operators to provide maternity care",
+      "published": "2026-10-15T02:40:24+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "59b3b1508223ab78": {
+      "source": "SMH",
+      "title": "Trailer: Street Fighter",
+      "published": "2026-10-15T02:40:54+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "69fb38b3555d0aed": {
+      "source": "The Age",
+      "title": "Trailer: Street Fighter",
+      "published": "2026-10-15T02:40:54+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "967035a5eebb609b": {
+      "source": "SMH",
+      "title": "Greens senator takes leave after letter raises allegations of inappropriate comments to women",
+      "published": "2026-10-15T02:43:51+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "4470339ed6e03d05": {
+      "source": "The Age",
+      "title": "Greens senator takes leave after letter raises allegations of inappropriate comments to women",
+      "published": "2026-10-15T02:43:51+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "967035a5eebb609b"
+    },
+    "263d0d99f67186b0": {
+      "source": "ABC News",
+      "title": "Nobel Peace Prize winner Navi Pillay reflects on career forged under apartheid",
+      "published": "2026-10-15T02:47:30+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "334a4d7f498abb05": {
+      "source": "ABC News",
+      "title": "Woman charged after allegedly poisoning colleague's curry with snail pellets",
+      "published": "2026-10-15T02:52:14+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "1a4600257d1c08e0": {
+      "source": "SMH",
+      "title": "Adam Liaw\u2019s sundried tomato and olive spaghetti",
+      "published": "2026-10-15T02:58:12+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "26aff9e22a404303": {
+      "source": "The Age",
+      "title": "Adam Liaw\u2019s sundried tomato and olive spaghetti",
+      "published": "2026-10-15T02:58:12+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "1a4600257d1c08e0"
+    },
+    "4c59925cd41ab4d7": {
+      "source": "SMH",
+      "title": "Zenith hits 14 from 14 in WA gold drilling campaign",
+      "published": "2026-10-15T03:04:49+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "32a69b60b6ba4f37": {
+      "source": "The Age",
+      "title": "Zenith hits 14 from 14 in WA gold drilling campaign",
+      "published": "2026-10-15T03:04:49+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "4c59925cd41ab4d7"
+    },
+    "b95e653aeef61a2c": {
+      "source": "SMH",
+      "title": "Lung cancer rates in non-smokers like Pope Leo are rising. How can you catch it early?",
+      "published": "2026-10-15T03:08:59+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia"
+    },
+    "3aea9582b8998f07": {
+      "source": "The Age",
+      "title": "Lung cancer rates in non-smokers like Pope Leo are rising. How can you catch it early?",
+      "published": "2026-10-15T03:08:59+00:00",
+      "first_seen": "2026-10-15T13:17:28.539436+10:00",
+      "category": "australia",
+      "duplicate_of": "b95e653aeef61a2c"
+    },
+    "584aaa33f4018cd4": {
+      "source": "Kicker",
+      "title": "Kovac bedient nach Bod\u00f6-Pleite: \"Defensiv nicht stattgefunden\"",
+      "published": "2026-10-14T22:57:11+00:00",
+      "first_seen": "2026-10-15T13:17:38.449429+10:00",
+      "category": "football"
     }
   }
 }

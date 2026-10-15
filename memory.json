@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-15T03:17:03.925826+00:00",
+  "last_gdelt_attempt": "2026-10-15T06:04:04.668938+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -15214,6 +15214,55 @@
       "title": "Heavy rain causes mass pileup in Brazil tunnel",
       "published": "2026-10-15T04:19:06+00:00",
       "first_seen": "2026-10-15T14:59:30.920434+10:00",
+      "category": "breaking"
+    },
+    "467f64cbcd9b6efb": {
+      "source": "BBC News",
+      "title": "Global charity withholds report into its role in Syria's 'disappeared' children",
+      "published": "2026-10-14T23:20:57+00:00",
+      "first_seen": "2026-10-15T16:04:26.255309+10:00",
+      "category": "breaking"
+    },
+    "6a9f21c07d28a3fb": {
+      "source": "BBC News",
+      "title": "North Korea and China open new bridge after 12-year delay",
+      "published": "2026-10-15T02:59:30+00:00",
+      "first_seen": "2026-10-15T16:04:26.255309+10:00",
+      "category": "breaking"
+    },
+    "9e6806e699cfb7bb": {
+      "source": "Al Jazeera",
+      "title": "Israel has detained more than 2,000 Palestinian children since 2023: report",
+      "published": "2026-10-15T04:43:15+00:00",
+      "first_seen": "2026-10-15T16:04:26.255309+10:00",
+      "category": "breaking"
+    },
+    "2cb4149471cceccf": {
+      "source": "BBC News",
+      "title": "Hundreds of IDF investigations into killings without public outcome, BBC Verify finds",
+      "published": "2026-10-15T05:00:23+00:00",
+      "first_seen": "2026-10-15T16:04:26.255309+10:00",
+      "category": "breaking"
+    },
+    "458a03bf8cbc2f1c": {
+      "source": "BBC News",
+      "title": "My contraceptive coil saved my life after it revealed I had cancer",
+      "published": "2026-10-15T05:05:59+00:00",
+      "first_seen": "2026-10-15T16:04:26.255309+10:00",
+      "category": "breaking"
+    },
+    "3640d6a15d60548b": {
+      "source": "Al Jazeera",
+      "title": "Restoring nature is key to a more resilient future",
+      "published": "2026-10-15T05:24:40+00:00",
+      "first_seen": "2026-10-15T16:04:26.255309+10:00",
+      "category": "breaking"
+    },
+    "429070dccbae7368": {
+      "source": "Al Jazeera",
+      "title": "Is Lamine Yamal\u2019s Barcelona record better than Messi\u2019s as a teenager?",
+      "published": "2026-10-15T05:48:00+00:00",
+      "first_seen": "2026-10-15T16:04:26.255309+10:00",
       "category": "breaking"
     }
   }

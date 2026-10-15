@@ -1,5 +1,5 @@
 # API Cost Summary
-_Updated 2026-10-15T21:54:23.508105+10:00 (AEST). USD is exact; AUD = USD x 1.55 (conversion only)._
+_Updated 2026-10-15T22:19:22.183108+10:00 (AEST). USD is exact; AUD = USD x 1.55 (conversion only)._
 
 - **Today (2026-10-15):** $0.0000 USD (A$0.0000) over 0 calls
 - **Month to date (2026-10):** $1.5418 USD (A$2.3897) over 511 calls

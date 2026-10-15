@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-15T19:41:38.329366+00:00",
+  "last_gdelt_attempt": "2026-10-15T21:52:34.001950+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -17668,6 +17668,41 @@
       "title": "Robots dance the \u2018Macarena\u2019 at Japan tech expo",
       "published": "2026-10-15T21:00:01+00:00",
       "first_seen": "2026-10-16T07:36:51.524575+10:00",
+      "category": "breaking"
+    },
+    "548078419c16311a": {
+      "source": "Al Jazeera",
+      "title": "ICE tactics spark debate before pivotal US midterm elections",
+      "published": "2026-10-15T21:02:31+00:00",
+      "first_seen": "2026-10-16T07:53:03.728489+10:00",
+      "category": "breaking"
+    },
+    "b14c1ce7e5278c46": {
+      "source": "Al Jazeera",
+      "title": "Israeli \u2018ad\u2019 firm helped infect spyware into Al Jazeera devices",
+      "published": "2026-10-15T21:05:01+00:00",
+      "first_seen": "2026-10-16T07:53:03.728489+10:00",
+      "category": "breaking"
+    },
+    "0c87e7130336b9f9": {
+      "source": "BBC News",
+      "title": "Bus hits train stopped on French side of  Channel Tunnel, with 19 injured",
+      "published": "2026-10-15T21:12:14+00:00",
+      "first_seen": "2026-10-16T07:53:03.728489+10:00",
+      "category": "breaking"
+    },
+    "b9767beae33067ed": {
+      "source": "Al Jazeera",
+      "title": "Several people dead or missing after Istanbul floods",
+      "published": "2026-10-15T21:15:46+00:00",
+      "first_seen": "2026-10-16T07:53:03.728489+10:00",
+      "category": "breaking"
+    },
+    "825150149aa81ad7": {
+      "source": "Al Jazeera",
+      "title": "Trump administration sues California over noncitizens on voter rolls",
+      "published": "2026-10-15T21:44:59+00:00",
+      "first_seen": "2026-10-16T07:53:03.728489+10:00",
       "category": "breaking"
     }
   }

@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-14T22:26:48.056424+00:00",
+  "last_gdelt_attempt": "2026-10-15T01:07:32.136514+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -14594,6 +14594,76 @@
       "title": "Denmark pushes back as Trump touts Greenland oil and mineral deals",
       "published": "2026-10-14T23:03:10+00:00",
       "first_seen": "2026-10-15T09:21:08.720981+10:00",
+      "category": "breaking"
+    },
+    "4d4ac0ad31119425": {
+      "source": "BBC News",
+      "title": "How backlash against data centres could shape the US midterm elections",
+      "published": "2026-10-14T23:02:57+00:00",
+      "first_seen": "2026-10-15T11:07:56.046790+10:00",
+      "category": "breaking"
+    },
+    "3aee492ad5db7e3e": {
+      "source": "BBC News",
+      "title": "Dog that hunts invasive 'sea vomit' honoured as animal of the year",
+      "published": "2026-10-14T23:35:40+00:00",
+      "first_seen": "2026-10-15T11:07:56.046790+10:00",
+      "category": "breaking"
+    },
+    "9a8a8b61300db627": {
+      "source": "Al Jazeera",
+      "title": "US destroys dhow suspected of Iranian command and control",
+      "published": "2026-10-14T23:58:13+00:00",
+      "first_seen": "2026-10-15T11:07:56.046790+10:00",
+      "category": "breaking"
+    },
+    "cb3ee08c9640d4ae": {
+      "source": "Al Jazeera",
+      "title": "Iran war live: Tehran vows to fight until US yields as ships sink in Hormuz",
+      "published": "2026-10-15T00:00:00+00:00",
+      "first_seen": "2026-10-15T11:07:56.046790+10:00",
+      "category": "breaking"
+    },
+    "8f9cbbaeef67c2ed": {
+      "source": "BBC News",
+      "title": "I'm 12 and I want to try protein powder - should I?",
+      "published": "2026-10-15T00:00:35+00:00",
+      "first_seen": "2026-10-15T11:07:56.046790+10:00",
+      "category": "breaking"
+    },
+    "8261ec769e550322": {
+      "source": "BBC News",
+      "title": "Wales has a school standards crisis. Will plans to fix it actually work?",
+      "published": "2026-10-15T00:01:46+00:00",
+      "first_seen": "2026-10-15T11:07:56.046790+10:00",
+      "category": "breaking"
+    },
+    "66e4091c95143e7c": {
+      "source": "BBC News",
+      "title": "How West Midlands shed its gun crime capital label",
+      "published": "2026-10-15T00:02:34+00:00",
+      "first_seen": "2026-10-15T11:07:56.046790+10:00",
+      "category": "breaking"
+    },
+    "ca3e95c9c0311d27": {
+      "source": "Al Jazeera",
+      "title": "Mexican court closes case against official over 2023 detention centre fire",
+      "published": "2026-10-15T00:08:58+00:00",
+      "first_seen": "2026-10-15T11:07:56.046790+10:00",
+      "category": "breaking"
+    },
+    "072c8bb29ca1399f": {
+      "source": "Al Jazeera",
+      "title": "Costa Rica opens mega-prison as Bukele model embraced across Latin America",
+      "published": "2026-10-15T00:24:03+00:00",
+      "first_seen": "2026-10-15T11:07:56.046790+10:00",
+      "category": "breaking"
+    },
+    "f6f53ac4ba522208": {
+      "source": "BBC News",
+      "title": "The Papers: 'Zelenskyy blames Trump' and Brand a 'sex predator'",
+      "published": "2026-10-15T00:41:45+00:00",
+      "first_seen": "2026-10-15T11:07:56.046790+10:00",
       "category": "breaking"
     }
   }

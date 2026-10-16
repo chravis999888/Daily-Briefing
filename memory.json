@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-16T07:25:32.170307+00:00",
+  "last_gdelt_attempt": "2026-10-16T09:59:53.867276+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -19335,6 +19335,62 @@
       "published": "2026-10-16T08:14:51+00:00",
       "first_seen": "2026-10-16T18:45:09.698803+10:00",
       "category": "football"
+    },
+    "fdd72688374358ad": {
+      "source": "BBC News",
+      "title": "They fled Russia, but the West sent them back",
+      "published": "2026-10-16T04:57:28+00:00",
+      "first_seen": "2026-10-16T20:00:13.335909+10:00",
+      "category": "breaking"
+    },
+    "456d8176c1ad47fa": {
+      "source": "Al Jazeera",
+      "title": "Indian police launch New Delhi clampdown for Cockroach Party rally",
+      "published": "2026-10-16T09:17:47+00:00",
+      "first_seen": "2026-10-16T20:00:13.335909+10:00",
+      "category": "breaking"
+    },
+    "8d19776d89debc00": {
+      "source": "Al Jazeera",
+      "title": "Man Utd veering towards crisis as Man City cloud hangs over Premier League",
+      "published": "2026-10-16T09:17:50+00:00",
+      "first_seen": "2026-10-16T20:00:13.335909+10:00",
+      "category": "breaking"
+    },
+    "9c728b7e8b8ee533": {
+      "source": "Al Jazeera",
+      "title": "China-North Korea border bridge may do little to spur trade, experts say",
+      "published": "2026-10-16T09:21:40+00:00",
+      "first_seen": "2026-10-16T20:00:13.335909+10:00",
+      "category": "breaking"
+    },
+    "68abef4e6ca181dd": {
+      "source": "BBC News",
+      "title": "Community 'heartbroken and horrified' after Oregon school shooting",
+      "published": "2026-10-16T09:24:19+00:00",
+      "first_seen": "2026-10-16T20:00:13.335909+10:00",
+      "category": "breaking"
+    },
+    "835389c1e833d47e": {
+      "source": "BBC News",
+      "title": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
+      "published": "2026-10-16T09:34:30+00:00",
+      "first_seen": "2026-10-16T20:00:13.335909+10:00",
+      "category": "breaking"
+    },
+    "5f0b2f981da49d9b": {
+      "source": "BBC News",
+      "title": "Police officer who raped two women jailed for 12 years",
+      "published": "2026-10-16T09:50:43+00:00",
+      "first_seen": "2026-10-16T20:00:13.335909+10:00",
+      "category": "breaking"
+    },
+    "5509cfde5b98d582": {
+      "source": "BBC News",
+      "title": "British father fined for causing his two-year-old son's death in Cyprus hotel fall",
+      "published": "2026-10-16T09:57:30+00:00",
+      "first_seen": "2026-10-16T20:00:13.335909+10:00",
+      "category": "breaking"
     }
   }
 }

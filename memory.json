@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-15T21:52:34.001950+00:00",
+  "last_gdelt_attempt": "2026-10-16T00:33:24.006440+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -18080,6 +18080,48 @@
       "published": "2026-10-15T22:27:55+00:00",
       "first_seen": "2026-10-16T08:54:04.781240+10:00",
       "category": "football"
+    },
+    "842d982c80473dc7": {
+      "source": "Al Jazeera",
+      "title": "At least 4, including 3 children, killed in US elementary school shooting",
+      "published": "2026-10-15T22:51:56+00:00",
+      "first_seen": "2026-10-16T10:33:49.336052+10:00",
+      "category": "breaking"
+    },
+    "9d3e91177e49f765": {
+      "source": "BBC News",
+      "title": "Sparks fly at the Celebrity Traitors round table and a 'terrifying' death march",
+      "published": "2026-10-15T23:01:49+00:00",
+      "first_seen": "2026-10-16T10:33:49.336052+10:00",
+      "category": "breaking"
+    },
+    "4ecdd97b8e88087c": {
+      "source": "Al Jazeera",
+      "title": "Two Syrian pipelines damaged amid spate of attacks on energy infrastructure",
+      "published": "2026-10-15T23:35:26+00:00",
+      "first_seen": "2026-10-16T10:33:49.336052+10:00",
+      "category": "breaking"
+    },
+    "da1c0d7f6e29682e": {
+      "source": "BBC News",
+      "title": "Reform faces questions over candidate vetting after undercover filming",
+      "published": "2026-10-15T23:52:27+00:00",
+      "first_seen": "2026-10-16T10:33:49.336052+10:00",
+      "category": "breaking"
+    },
+    "b41ac311d5f247ec": {
+      "source": "Al Jazeera",
+      "title": "Iran war live: Saudi blasts Houthi \u2018war crimes\u2019; US warns on Saudi airports",
+      "published": "2026-10-16T00:02:37+00:00",
+      "first_seen": "2026-10-16T10:33:49.336052+10:00",
+      "category": "breaking"
+    },
+    "ae4a2ae49376f484": {
+      "source": "BBC News",
+      "title": "The Papers: Healey's 'tax raid on banks' and Brand 'topless monster'",
+      "published": "2026-10-16T00:16:10+00:00",
+      "first_seen": "2026-10-16T10:33:49.336052+10:00",
+      "category": "breaking"
     }
   }
 }

@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-16T03:12:53.393804+00:00",
+  "last_gdelt_attempt": "2026-10-16T05:18:05.395040+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -18672,6 +18672,34 @@
       "published": "2023-12-08T12:01:49+00:00",
       "first_seen": "2026-10-16T13:13:24.958235+10:00",
       "category": "football"
+    },
+    "d5bdd8a821f859bd": {
+      "source": "BBC News",
+      "title": "Watch: Will disenchanted Iowa Republicans reject Trump in the midterms?",
+      "published": "2026-10-16T04:16:31+00:00",
+      "first_seen": "2026-10-16T15:18:29.621408+10:00",
+      "category": "breaking"
+    },
+    "983b47d08aa50cd0": {
+      "source": "Al Jazeera",
+      "title": "Infantino apologises amid calls for him to quit as FIFA president",
+      "published": "2026-10-16T04:45:24+00:00",
+      "first_seen": "2026-10-16T15:18:29.621408+10:00",
+      "category": "breaking"
+    },
+    "54fff0ed2f97a961": {
+      "source": "BBC News",
+      "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
+      "published": "2026-10-16T05:00:17+00:00",
+      "first_seen": "2026-10-16T15:18:29.621408+10:00",
+      "category": "breaking"
+    },
+    "c6e4e02983abede3": {
+      "source": "BBC News",
+      "title": "Met needs to move away from criminalising sex workers, officers say after Levy failings",
+      "published": "2026-10-16T05:05:38+00:00",
+      "first_seen": "2026-10-16T15:18:29.621408+10:00",
+      "category": "breaking"
     }
   }
 }

@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-17T03:03:48.277606+00:00",
+  "last_gdelt_attempt": "2026-10-17T05:12:35.487826+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -22159,6 +22159,48 @@
       "published": "2026-10-16T23:32:13+00:00",
       "first_seen": "2026-10-17T13:04:18.080816+10:00",
       "category": "football"
+    },
+    "c72501030d0fd50f": {
+      "source": "BBC News",
+      "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+      "published": "2026-10-17T03:11:10+00:00",
+      "first_seen": "2026-10-17T15:12:58.973563+10:00",
+      "category": "breaking"
+    },
+    "dd46b0a4ca6664f9": {
+      "source": "Al Jazeera",
+      "title": "Cameroonians await government reshuffle after Biya\u2019s return",
+      "published": "2026-10-17T03:14:28+00:00",
+      "first_seen": "2026-10-17T15:12:58.973563+10:00",
+      "category": "breaking"
+    },
+    "dfdd7bf4e912dc61": {
+      "source": "Al Jazeera",
+      "title": "Southern California wildfire engulfs homes, prompts evacuation orders",
+      "published": "2026-10-17T03:30:36+00:00",
+      "first_seen": "2026-10-17T15:12:58.973563+10:00",
+      "category": "breaking"
+    },
+    "d71855abda07a933": {
+      "source": "BBC News",
+      "title": "Third runway at Heathrow Airport would drive growth, Healey says",
+      "published": "2026-10-17T03:57:16+00:00",
+      "first_seen": "2026-10-17T15:12:58.973563+10:00",
+      "category": "breaking"
+    },
+    "6d037f9d52f2d4ab": {
+      "source": "Al Jazeera",
+      "title": "Albania\u2019s PM blames \u2018foreign hands\u2019 for protests",
+      "published": "2026-10-17T04:21:18+00:00",
+      "first_seen": "2026-10-17T15:12:58.973563+10:00",
+      "category": "breaking"
+    },
+    "8eafef662a0761fd": {
+      "source": "Al Jazeera",
+      "title": "Trump puts on hold new Russia sanctions he signed into law",
+      "published": "2026-10-17T04:45:03+00:00",
+      "first_seen": "2026-10-17T15:12:58.973563+10:00",
+      "category": "breaking"
     }
   }
 }

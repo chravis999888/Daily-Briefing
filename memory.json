@@ -23488,6 +23488,245 @@
       "published": "2026-10-17T15:25:27+00:00",
       "first_seen": "2026-10-18T01:48:53.689469+10:00",
       "category": "breaking"
+    },
+    "9820167d882d7a5e": {
+      "source": "Al Jazeera",
+      "title": "Pope Leo leaves hospital after lung cancer surgery",
+      "published": "2026-10-17T15:47:52+00:00",
+      "first_seen": "2026-10-18T02:50:36.093218+10:00",
+      "category": "breaking"
+    },
+    "fe087ce78b40101a": {
+      "source": "Al Jazeera",
+      "title": "Buildings and cars set on fire as cost of living protests rock France",
+      "published": "2026-10-17T16:00:40+00:00",
+      "first_seen": "2026-10-18T02:50:36.093218+10:00",
+      "category": "breaking"
+    },
+    "3fc706916ab43ef2": {
+      "source": "ABC News",
+      "title": "Starlink speed restrictions ground interceptors as Russian strikes batter Ukraine",
+      "published": "2026-10-17T13:48:35+00:00",
+      "first_seen": "2026-10-18T02:50:37.010476+10:00",
+      "category": "australia"
+    },
+    "5e30729001b25c53": {
+      "source": "ABC News",
+      "title": "Burning buildings and tear gas mark 29th day of French student protests",
+      "published": "2026-10-17T14:15:14+00:00",
+      "first_seen": "2026-10-18T02:50:37.010476+10:00",
+      "category": "australia"
+    },
+    "985b5dbc25eac9f0": {
+      "source": "SMH",
+      "title": "Pope Leo walks out of Rome hospital unaided four days after lung cancer surgery",
+      "published": "2026-10-17T14:36:14+00:00",
+      "first_seen": "2026-10-18T02:50:37.010476+10:00",
+      "category": "australia"
+    },
+    "fc38143d0f6db29d": {
+      "source": "The Age",
+      "title": "Pope Leo walks out of Rome hospital unaided four days after lung cancer surgery",
+      "published": "2026-10-17T14:36:14+00:00",
+      "first_seen": "2026-10-18T02:50:37.010476+10:00",
+      "category": "australia",
+      "duplicate_of": "985b5dbc25eac9f0"
+    },
+    "9418b46313c681c2": {
+      "source": "ABC News",
+      "title": "Pope Leo leaves hospital for Vatican four days after lung cancer surgery",
+      "published": "2026-10-17T14:45:08+00:00",
+      "first_seen": "2026-10-18T02:50:37.010476+10:00",
+      "category": "australia"
+    },
+    "d059a77a17382558": {
+      "source": "Marca",
+      "title": "Sin Miguel Sierra, \u00bfqui\u00e9n da un paso al frente en el Bernab\u00e9u?",
+      "published": "2026-10-17T14:26:17+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "636b0615884738df": {
+      "source": "Kicker",
+      "title": "Das sieht man selten: De Bruyne scheitert f\u00fcr Napoli vom Punkt",
+      "published": "2026-10-17T14:30:59+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "5a707b5ebf56ee94": {
+      "source": "Kicker",
+      "title": "Siegen l\u00e4sst auch den Primus abblitzen: Oberhausen kassiert zweite Saisonniederlage",
+      "published": "2026-10-17T14:45:10+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "1c63d5b7607a94a6": {
+      "source": "Marca",
+      "title": "Escud\u00e9: \"El Sevilla tiene argumentos para enfrentarse al Real Madrid\"",
+      "published": "2026-10-17T14:52:32+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "47357ce94994edd0": {
+      "source": "Kicker",
+      "title": "LIVE! PSG unter Zugzwang: Reyna l\u00e4sst Stra\u00dfburg jubeln",
+      "published": "2026-10-17T14:55:39+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "ce41b1c96e242fe5": {
+      "source": "Marca",
+      "title": "Mar\u00edn se une a Herrera en la lista de ausencias de \u00faltima hora para visitar La Rosaleda",
+      "published": "2026-10-17T15:01:24+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "a616127f0f00d018": {
+      "source": "Kicker",
+      "title": "Remis in Mainz: Ulm hadert mit der Chancenverwertung",
+      "published": "2026-10-17T15:04:58+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "60d32ca94cf396ce": {
+      "source": "Marca",
+      "title": "Stassin, novedad para el partido en el Bernab\u00e9u; Kochorashvili no llega",
+      "published": "2026-10-17T15:18:06+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "e9e4a1fb63980b7d": {
+      "source": "Kicker",
+      "title": "Lieberknecht bremst bei Aufstiegsfrage: \"Freuen uns f\u00fcr den Moment\"",
+      "published": "2026-10-17T15:19:49+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "53cf93b1f6910bc0": {
+      "source": "Kicker",
+      "title": "St. Pauli II in Unterzahl chancenlos: VfB L\u00fcbeck verschafft sich Luft nach unten",
+      "published": "2026-10-17T15:20:56+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "bdace4ccc456f406": {
+      "source": "Marca",
+      "title": "Manolo Gonz\u00e1lez: \"Se nos va el partido en una situaci\u00f3n controlable\"",
+      "published": "2026-10-17T15:22:40+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "5328cc94775322e9": {
+      "source": "Kicker",
+      "title": "Ex-BVBler Reyna \u00e4rgert PSG: Stra\u00dfburg geht in F\u00fchrung",
+      "published": "2026-10-17T15:37:41+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "c84b32ee49e92bcc": {
+      "source": "Kicker",
+      "title": "De Bruynes Elfmeter-Fehlschuss wird teuer: Napoli verliert in Venedig",
+      "published": "2026-10-17T15:42:06+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "6bbd0e5ebea0922c": {
+      "source": "Kicker",
+      "title": "\"Im Moment nicht vom Gl\u00fcck gek\u00fcsst\": BVB bangt erneut um Karetsas",
+      "published": "2026-10-17T15:46:21+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "6491d09b8a25546b": {
+      "source": "Kicker",
+      "title": "16-j\u00e4hriger Soldic zu stark: Memmingen kann Buchbachs Ausrutscher nicht nutzen",
+      "published": "2026-10-17T15:51:00+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "55f3d7ed52805d1f": {
+      "source": "Kicker",
+      "title": "Wirtz-Assist als Wendepunkt: Liverpool bezwingt dezimiertes Brentford",
+      "published": "2026-10-17T16:11:57+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "84bc76be06e0cdeb": {
+      "source": "Kicker",
+      "title": "Doppelpack Haaland: ManCity bleibt auch gegen Aufsteiger Ipswich makellos",
+      "published": "2026-10-17T16:14:00+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "c59fa654fd6905ba": {
+      "source": "Kicker",
+      "title": "Ballverlust fliegt Inter um die Ohren: Pobega trifft zum 1:0 f\u00fcr Bologna",
+      "published": "2026-10-17T16:17:37+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "310c009ee8477648": {
+      "source": "Kicker",
+      "title": "D\u00fcsseldorf-Coach Ende ratlos: \"Kann es selbst noch nicht glauben\"",
+      "published": "2026-10-17T16:25:40+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "e449120e83275a19": {
+      "source": "Kicker",
+      "title": "Breitenreiter schiebt Frust: \"Gef\u00fchlt k\u00f6nnen wir das Tor nicht treffen\"",
+      "published": "2026-10-17T16:25:49+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "36828c71186aa317": {
+      "source": "Kicker",
+      "title": "LIVE! Kimmich legt butterweich zur F\u00fchrung auf",
+      "published": "2026-10-17T16:37:42+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "c9aea32d0789dc59": {
+      "source": "Kicker",
+      "title": "Undav legt den Finger in die Wunde: \"Wir sind gerade keine Spitzenmannschaft\"",
+      "published": "2026-10-17T16:38:36+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "e98a32fc32f1906e": {
+      "source": "Marca",
+      "title": "El Elche crece desde el cerrojo atr\u00e1s",
+      "published": "2026-10-17T16:38:46+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "699fe1a44c5cf3e7": {
+      "source": "Kicker",
+      "title": "Faktor Volkspark, Muheim und der \"neu-erfundene HSV\"",
+      "published": "2026-10-17T16:43:02+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "3e94e13073fd799c": {
+      "source": "Kicker",
+      "title": "LIVE! Lamine Yamal verz\u00fcckt mal wieder: Barca schon vorne",
+      "published": "2026-10-17T16:44:24+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "2c328c460d6fb44a": {
+      "source": "Marca",
+      "title": "Fajardo presume de grupo: \"Miras al banquillo y eres consciente del nivel\"",
+      "published": "2026-10-17T16:44:46+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
+    },
+    "43406860573baa6f": {
+      "source": "Kicker",
+      "title": "Betis - Barcelona: Tor zum 0:1 durch Lamine Yamal in der 10. Minute",
+      "published": "2026-10-17T16:46:17+00:00",
+      "first_seen": "2026-10-18T02:50:43.531993+10:00",
+      "category": "football"
     }
   }
 }

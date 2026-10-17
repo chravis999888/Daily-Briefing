@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-17T18:42:21.060347+00:00",
+  "last_gdelt_attempt": "2026-10-17T21:09:53.356137+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -24403,6 +24403,62 @@
       "published": "2026-10-17T20:03:30+00:00",
       "first_seen": "2026-10-18T06:08:56.321368+10:00",
       "category": "football"
+    },
+    "3c9a10b5da4f3173": {
+      "source": "Al Jazeera",
+      "title": "At least 17 killed in stampede at religious gathering in India",
+      "published": "2026-10-17T19:48:54+00:00",
+      "first_seen": "2026-10-18T07:10:14.510762+10:00",
+      "category": "breaking"
+    },
+    "84764984881eea62": {
+      "source": "Al Jazeera",
+      "title": "Iranian TV airs video said to show tanker explosion in Hormuz",
+      "published": "2026-10-17T20:02:22+00:00",
+      "first_seen": "2026-10-18T07:10:14.510762+10:00",
+      "category": "breaking"
+    },
+    "877f10fbdb9a9b93": {
+      "source": "Al Jazeera",
+      "title": "Al Jazeera reporter harassed, struck on head amid France protests, looting",
+      "published": "2026-10-17T20:20:25+00:00",
+      "first_seen": "2026-10-18T07:10:14.510762+10:00",
+      "category": "breaking"
+    },
+    "335266f7c6aea4bc": {
+      "source": "BBC News",
+      "title": "No further action against government adviser's wife over Palestine Action post, police say",
+      "published": "2026-10-17T20:24:32+00:00",
+      "first_seen": "2026-10-18T07:10:14.510762+10:00",
+      "category": "breaking"
+    },
+    "2bd5fa36ff76d721": {
+      "source": "Al Jazeera",
+      "title": "Protesters allege police brutality as violent clashes rage on in Albania",
+      "published": "2026-10-17T20:40:38+00:00",
+      "first_seen": "2026-10-18T07:10:14.510762+10:00",
+      "category": "breaking"
+    },
+    "842af6d7f229cb37": {
+      "source": "BBC News",
+      "title": "Reform activist suspended after reportedly saying Muslims cannot be British",
+      "published": "2026-10-17T20:49:50+00:00",
+      "first_seen": "2026-10-18T07:10:14.510762+10:00",
+      "category": "breaking"
+    },
+    "5f781c2202f61afe": {
+      "source": "Al Jazeera",
+      "title": "Ten killed in fire at beach resort in Bangladesh",
+      "published": "2026-10-17T20:50:01+00:00",
+      "first_seen": "2026-10-18T07:10:14.510762+10:00",
+      "category": "breaking"
+    },
+    "874dc9c462d32690": {
+      "source": "BBC News",
+      "title": "Anti-government protesters battle with police in Albania",
+      "published": "2026-10-17T20:53:00+00:00",
+      "first_seen": "2026-10-18T07:10:14.510762+10:00",
+      "category": "breaking"
     }
   }
 }

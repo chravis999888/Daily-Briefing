@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-17T00:40:35.988232+00:00",
+  "last_gdelt_attempt": "2026-10-17T03:03:48.277606+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -21594,6 +21594,571 @@
       "published": "2026-10-17T00:25:22+00:00",
       "first_seen": "2026-10-17T10:40:59.325269+10:00",
       "category": "breaking"
+    },
+    "0a2086bfc3211b20": {
+      "source": "BBC News",
+      "title": "Toxic algorithms wouldn't let them go - now Australia wants an off switch",
+      "published": "2026-10-16T18:11:29+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "d5de742d5f6d0b6f": {
+      "source": "BBC News",
+      "title": "Trial of German steakhouse heiress that sparked a huge spy scandal",
+      "published": "2026-10-16T23:07:18+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "edc424ec1784e335": {
+      "source": "BBC News",
+      "title": "Two-week half terms: The school holiday no one can agree on",
+      "published": "2026-10-16T23:26:45+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "0333a9f187362c28": {
+      "source": "BBC News",
+      "title": "Not sure what to wear for Halloween? These outfits are set to be the most popular this year",
+      "published": "2026-10-16T23:27:01+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "20ff0b3080daff6b": {
+      "source": "BBC News",
+      "title": "Why people who have never smoked are getting hooked on vaping",
+      "published": "2026-10-16T23:49:16+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "c1878765670982f2": {
+      "source": "BBC News",
+      "title": "The Papers: 'Mystery drones over UK' and 'Troops heading to Poland for war games'",
+      "published": "2026-10-16T23:50:59+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "c70fc4415c285702": {
+      "source": "BBC News",
+      "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
+      "published": "2026-10-16T23:54:35+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "42d4f65ffc75de66": {
+      "source": "Al Jazeera",
+      "title": "US coastguard rescues 16 after boat sinks off Mexico\u2019s Baja coast",
+      "published": "2026-10-17T01:33:37+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "e3eaa6abb6c26624": {
+      "source": "BBC News",
+      "title": "Miranda's tears, joy and dance moves steal show as deadly boredom sets in on The Celebrity Traitors",
+      "published": "2026-10-17T01:34:52+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "b38384fdeb62eb6c": {
+      "source": "Al Jazeera",
+      "title": "Healthcare crisis escalating in Yemen\u2019s besieged Taiz",
+      "published": "2026-10-17T01:37:07+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "8eaae8e3936b546e": {
+      "source": "BBC News",
+      "title": "Faisal Islam: What I learned from a week with the world's top finance leaders",
+      "published": "2026-10-17T01:59:48+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "d863cf07005191aa": {
+      "source": "BBC News",
+      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+      "published": "2026-10-17T02:33:09+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "0dfb5b40b57b2ba2": {
+      "source": "BBC News",
+      "title": "Trump waives several Russia sanctions as new US law takes effect",
+      "published": "2026-10-17T02:48:36+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "b793bc2d60c87cbe": {
+      "source": "Al Jazeera",
+      "title": "Brazil\u2019s Amazon deforestation hits lowest level on record",
+      "published": "2026-10-17T02:49:21+00:00",
+      "first_seen": "2026-10-17T13:04:10.293640+10:00",
+      "category": "breaking"
+    },
+    "da95ef679699f46f": {
+      "source": "ABC News",
+      "title": "Restored cottage gives insight into life on Snowy Scheme",
+      "published": "2026-10-16T22:30:09+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "a19e7fddb411f183": {
+      "source": "SMH",
+      "title": "Why all the president\u2019s women are looksmaxxed, blonde, and more likely to be fired",
+      "published": "2026-10-16T22:32:50+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "f6481e8155676bd8": {
+      "source": "The Age",
+      "title": "Why all the president\u2019s women are looksmaxxed, blonde, and more likely to be fired",
+      "published": "2026-10-16T22:32:50+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "a19e7fddb411f183"
+    },
+    "16a73d0e688e00bf": {
+      "source": "ABC News",
+      "title": "Gunman who sparked lockdown in Sydney's inner west remains on the run",
+      "published": "2026-10-16T22:33:07+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "f02ec26003ba57b1": {
+      "source": "ABC News",
+      "title": "Darwin accountant trades tax for cane toad taxidermy",
+      "published": "2026-10-16T22:37:29+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "a0bbecfe18b26fa7": {
+      "source": "SMH",
+      "title": "Pope Leo recovering well, speaks with Putin on Ukraine",
+      "published": "2026-10-16T22:47:56+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "3f0cd93f26ddc8e0": {
+      "source": "The Age",
+      "title": "Pope Leo recovering well, speaks with Putin on Ukraine",
+      "published": "2026-10-16T22:47:56+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "a0bbecfe18b26fa7"
+    },
+    "bc415a4c6bc87f57": {
+      "source": "ABC News",
+      "title": "Hail, fallen trees and blackouts couldn't stop Alice Springs Masters Games",
+      "published": "2026-10-16T23:05:07+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "55c348d913219218": {
+      "source": "SMH",
+      "title": "\u2018Horrific attack\u2019: Man seriously injured after being mauled by two dogs",
+      "published": "2026-10-16T23:20:54+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "165118e70edbcdcf": {
+      "source": "The Age",
+      "title": "\u2018Horrific attack\u2019: Man seriously injured after being mauled by two dogs",
+      "published": "2026-10-16T23:20:54+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "55c348d913219218"
+    },
+    "7bf5ff40ea7d1351": {
+      "source": "SMH",
+      "title": "Several California homes ablaze in \u2018critical fire weather threat\u2019",
+      "published": "2026-10-16T23:42:28+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "43db04faa491eff7": {
+      "source": "The Age",
+      "title": "Several California homes ablaze in \u2018critical fire weather threat\u2019",
+      "published": "2026-10-16T23:42:28+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "7bf5ff40ea7d1351"
+    },
+    "3202e42d9204544f": {
+      "source": "ABC News",
+      "title": "'Decision next year': Nawaqanitawase keeps Wallabies options open",
+      "published": "2026-10-16T23:44:01+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "f16ec4f585f79afa": {
+      "source": "ABC News",
+      "title": "Dingoes play vital role in protecting animals from feral cats in desert",
+      "published": "2026-10-17T00:06:05+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "61449481d7d57277": {
+      "source": "ABC News",
+      "title": "'Hero' bystanders helped prevent further bloodshed in deadly Oregon shooting",
+      "published": "2026-10-17T00:25:17+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "7e8a1d284d75dcf5": {
+      "source": "ABC News",
+      "title": "Police detain 'cockroach' movement founder ahead of protests in Delhi",
+      "published": "2026-10-17T00:28:23+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "7fc371ee552419d3": {
+      "source": "ABC News",
+      "title": "Live: Wallaroos thrash Scotland 56-12 ahead of Wallabies' clash with All Blacks",
+      "published": "2026-10-17T00:28:44+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "6f27a56d4ae7ba91": {
+      "source": "ABC News",
+      "title": "Work starts on Bundaberg's first hotel development in 20 years",
+      "published": "2026-10-17T00:33:00+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "786551e75d0faddd": {
+      "source": "SMH",
+      "title": "Why Trump\u2019s new press secretary had to go after just five days",
+      "published": "2026-10-17T00:44:24+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "0505ceec5825d07e": {
+      "source": "The Age",
+      "title": "Why Trump\u2019s new press secretary had to go after just five days",
+      "published": "2026-10-17T00:44:24+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "786551e75d0faddd"
+    },
+    "7659daf9cf0d30ad": {
+      "source": "SMH",
+      "title": "Kate Waterhouse's tips for race day",
+      "published": "2026-10-17T01:05:27+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "4b024085fafffbf3": {
+      "source": "The Age",
+      "title": "Kate Waterhouse's tips for race day",
+      "published": "2026-10-17T01:05:27+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "7659daf9cf0d30ad"
+    },
+    "c4be16bfac30e80d": {
+      "source": "ABC News",
+      "title": "Indigenous rockers record third album in outback shed",
+      "published": "2026-10-17T01:06:04+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "3360e358ee38cb47": {
+      "source": "ABC News",
+      "title": "CCTV captures moment flames engulf family home in suspected arson",
+      "published": "2026-10-17T01:11:34+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "6ed46c1dbacd0279": {
+      "source": "SMH",
+      "title": "Steele-John probe should examine Greens processes, publish key findings: WA MPs",
+      "published": "2026-10-17T01:21:45+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "dcfedefdbf9c9af7": {
+      "source": "The Age",
+      "title": "Steele-John probe should examine Greens processes, publish key findings: WA MPs",
+      "published": "2026-10-17T01:21:45+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "6ed46c1dbacd0279"
+    },
+    "ad150ebfcbac9ebc": {
+      "source": "ABC News",
+      "title": "Doctorate awarded to elder for 50 years teaching 'any child to read'",
+      "published": "2026-10-17T01:32:23+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "022c50a54ff32931": {
+      "source": "ABC News",
+      "title": "SA health care worker banned after cancer cure claims",
+      "published": "2026-10-17T01:34:20+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "958fa40420213ba5": {
+      "source": "SMH",
+      "title": "Olivia Molly Rogers on her Caulfield look",
+      "published": "2026-10-17T01:41:49+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "e2358f962ed4eea8": {
+      "source": "The Age",
+      "title": "Olivia Molly Rogers on her Caulfield look",
+      "published": "2026-10-17T01:41:49+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "958fa40420213ba5"
+    },
+    "a534a5a0c0f4a3b6": {
+      "source": "SMH",
+      "title": "World\u2019s worst measles outbreak a \u2018warning\u2019 to other nations",
+      "published": "2026-10-17T02:00:06+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "d4eda239d36f4ed5": {
+      "source": "The Age",
+      "title": "World\u2019s worst measles outbreak a \u2018warning\u2019 to other nations",
+      "published": "2026-10-17T02:00:06+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "a534a5a0c0f4a3b6"
+    },
+    "97d12b0045cea7aa": {
+      "source": "ABC News",
+      "title": "The humble chickpea has just boomed in value",
+      "published": "2026-10-17T02:01:03+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "28c9f08112e6ea82": {
+      "source": "SMH",
+      "title": "AFLW round 10: Daisy Pearce\u2019s \u2018big decision\u2019 as former club destroys the Tigers",
+      "published": "2026-10-17T02:07:36+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "392fa18150280e96": {
+      "source": "The Age",
+      "title": "AFLW round 10: Daisy Pearce\u2019s \u2018big decision\u2019 as former club destroys the Tigers",
+      "published": "2026-10-17T02:07:36+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "28c9f08112e6ea82"
+    },
+    "3f7fee22638cfe23": {
+      "source": "ABC News",
+      "title": "'Oh, shut up': Moment in Maine sums up Trump's troubles",
+      "published": "2026-10-17T02:08:15+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "21b0b364a0c5beaf": {
+      "source": "ABC News",
+      "title": "Wildfires rage in Southern California, burn homes",
+      "published": "2026-10-17T02:23:37+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "3d464b1bd558c16e": {
+      "source": "SMH",
+      "title": "Whose club is it anyway? The battle over one of Sydney\u2019s largest football clubs",
+      "published": "2026-10-17T02:30:00+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "4a472e77b6ab4970": {
+      "source": "SMH",
+      "title": "The \u2018toxic\u2019 legacy of former Agent Orange site looms over new planning permit",
+      "published": "2026-10-17T02:30:00+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "ba05ec1ae7489366": {
+      "source": "SMH",
+      "title": "The president, his beloved dogs and the pet psychic",
+      "published": "2026-10-17T02:30:00+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "35d7380785a92113": {
+      "source": "SMH",
+      "title": "Lamb wars: Australia says it\u2019s not to blame for struggling US industry",
+      "published": "2026-10-17T02:30:00+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "40a8988eafa3c14b": {
+      "source": "The Age",
+      "title": "Whose club is it anyway? The battle over one of Sydney\u2019s largest football clubs",
+      "published": "2026-10-17T02:30:00+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "3d464b1bd558c16e"
+    },
+    "92502c410c681db6": {
+      "source": "The Age",
+      "title": "The \u2018toxic\u2019 legacy of former Agent Orange site looms over new planning permit",
+      "published": "2026-10-17T02:30:00+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "4a472e77b6ab4970"
+    },
+    "e0b8b7f3ba9736fc": {
+      "source": "The Age",
+      "title": "The president, his beloved dogs and the pet psychic",
+      "published": "2026-10-17T02:30:00+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "ba05ec1ae7489366"
+    },
+    "52982afcc9a6ec26": {
+      "source": "The Age",
+      "title": "Lamb wars: Australia says it\u2019s not to blame for struggling US industry",
+      "published": "2026-10-17T02:30:00+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "35d7380785a92113"
+    },
+    "b143c6397431cf56": {
+      "source": "SMH",
+      "title": "First home buyers pick up mid-century inner-north apartment for $752,000",
+      "published": "2026-10-17T02:30:01+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "a797e1ed96fe12cb": {
+      "source": "The Age",
+      "title": "First home buyers pick up mid-century inner-north apartment for $752,000",
+      "published": "2026-10-17T02:30:01+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "b143c6397431cf56"
+    },
+    "08f5ffbb62c6c098": {
+      "source": "ABC News",
+      "title": "Breaking: Mexican court sentences three men over murders of Jake and Callum Robinson",
+      "published": "2026-10-17T02:31:11+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "f3bc0d963ccc0340": {
+      "source": "SMH",
+      "title": "A single bid secures keys to inner west home for $150,000 below reserve",
+      "published": "2026-10-17T02:42:14+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "5f77a04fb528ebfd": {
+      "source": "The Age",
+      "title": "A single bid secures keys to inner west home for $150,000 below reserve",
+      "published": "2026-10-17T02:42:14+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "f3bc0d963ccc0340"
+    },
+    "546e6b6fb7599a8d": {
+      "source": "ABC News",
+      "title": "Dogs captured after attack on Brisbane man",
+      "published": "2026-10-17T02:42:46+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "5b41797509a70d85": {
+      "source": "SMH",
+      "title": "Caulfield Cup 2026",
+      "published": "2026-10-17T02:45:20+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "a7d2fc1e2c995989": {
+      "source": "The Age",
+      "title": "Caulfield Cup 2026",
+      "published": "2026-10-17T02:45:20+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "c4e0d053dd2e711f": {
+      "source": "SMH",
+      "title": "Caulfield Cup and The Everest LIVE: Racegoers warned to beware of wardrobe malfunctions; winning horse dislodges her jockey",
+      "published": "2026-10-17T02:52:32+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "36151619e6da54d3": {
+      "source": "The Age",
+      "title": "Caulfield Cup and The Everest LIVE: Racegoers warned to beware of wardrobe malfunctions; winning horse dislodges her jockey",
+      "published": "2026-10-17T02:52:32+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "c4e0d053dd2e711f"
+    },
+    "b298f2cfee8c8cc3": {
+      "source": "SMH",
+      "title": "Trump puts new Russia sanctions passed by Congress on hold",
+      "published": "2026-10-17T02:56:26+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "eb932bfc11e031df": {
+      "source": "The Age",
+      "title": "Trump puts new Russia sanctions passed by Congress on hold",
+      "published": "2026-10-17T02:56:26+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "b298f2cfee8c8cc3"
+    },
+    "7b3b409f4f14c48d": {
+      "source": "SMH",
+      "title": "Mexican men sentenced to 158 years in prison for murder of Australian brothers",
+      "published": "2026-10-17T02:57:41+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia"
+    },
+    "57aa68bc290dd6f2": {
+      "source": "The Age",
+      "title": "Mexican men sentenced to 158 years in prison for murder of Australian brothers",
+      "published": "2026-10-17T02:57:41+00:00",
+      "first_seen": "2026-10-17T13:04:11.242462+10:00",
+      "category": "australia",
+      "duplicate_of": "7b3b409f4f14c48d"
+    },
+    "7a597631dd8342f2": {
+      "source": "Kicker",
+      "title": "Eintracht atmet auf - \"Fest verankerte Kinderkrankheiten\" beim Effzeh",
+      "published": "2026-10-16T22:20:41+00:00",
+      "first_seen": "2026-10-17T13:04:18.080816+10:00",
+      "category": "football"
+    },
+    "75683827ba1e391e": {
+      "source": "Marca",
+      "title": "Espanyol - Atl\u00e9tico | Un respiro... o presi\u00f3n al Bar\u00e7a",
+      "published": "2026-10-16T23:27:44+00:00",
+      "first_seen": "2026-10-17T13:04:18.080816+10:00",
+      "category": "football"
+    },
+    "ce62773679984d0e": {
+      "source": "Marca",
+      "title": "Betis vs Barcelona: El Betis de Champions, la prueba m\u00e1s dura del Bar\u00e7a",
+      "published": "2026-10-16T23:30:56+00:00",
+      "first_seen": "2026-10-17T13:04:18.080816+10:00",
+      "category": "football"
+    },
+    "8db1766e4a441d61": {
+      "source": "Marca",
+      "title": "Villarreal - Elche | Un partido para confirmar din\u00e1micas: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
+      "published": "2026-10-16T23:31:45+00:00",
+      "first_seen": "2026-10-17T13:04:18.080816+10:00",
+      "category": "football"
+    },
+    "46b939a5db209863": {
+      "source": "Marca",
+      "title": "Valencia - Athletic | Aguirre deja quieto el banquillo de Mestalla: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
+      "published": "2026-10-16T23:32:13+00:00",
+      "first_seen": "2026-10-17T13:04:18.080816+10:00",
+      "category": "football"
     }
   }
 }

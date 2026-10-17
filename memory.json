@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-17T15:48:30.264889+00:00",
+  "last_gdelt_attempt": "2026-10-17T18:42:21.060347+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -23761,6 +23761,41 @@
       "title": "Al Jazeera reports from Paris as protests turns violent",
       "published": "2026-10-17T16:56:40+00:00",
       "first_seen": "2026-10-18T03:38:53.438228+10:00",
+      "category": "breaking"
+    },
+    "cd8cc64d1791bd7c": {
+      "source": "Al Jazeera",
+      "title": "Jerusalem Daily: Israeli settlers attack farmers and journalists",
+      "published": "2026-10-17T17:18:50+00:00",
+      "first_seen": "2026-10-18T04:42:41.083967+10:00",
+      "category": "breaking"
+    },
+    "53a6e91173857133": {
+      "source": "Al Jazeera",
+      "title": "Trump faces bipartisan backlash over Russia sanctions waiver",
+      "published": "2026-10-17T17:24:07+00:00",
+      "first_seen": "2026-10-18T04:42:41.083967+10:00",
+      "category": "breaking"
+    },
+    "8c2c5b4cd94cf507": {
+      "source": "Al Jazeera",
+      "title": "Pope Leo returns to Vatican after lung cancer surgery",
+      "published": "2026-10-17T17:37:52+00:00",
+      "first_seen": "2026-10-18T04:42:41.083967+10:00",
+      "category": "breaking"
+    },
+    "669e62cbff155369": {
+      "source": "Al Jazeera",
+      "title": "India and West Indies denied a thrilling finale as rain hits final T20",
+      "published": "2026-10-17T17:42:01+00:00",
+      "first_seen": "2026-10-18T04:42:41.083967+10:00",
+      "category": "breaking"
+    },
+    "9c22ae26576eaf8b": {
+      "source": "Al Jazeera",
+      "title": "Israeli drone attacks kill six Palestinians across Gaza despite \u2018ceasefire\u2019",
+      "published": "2026-10-17T18:26:59+00:00",
+      "first_seen": "2026-10-18T04:42:41.083967+10:00",
       "category": "breaking"
     }
   }

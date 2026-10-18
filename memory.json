@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-17T23:15:30.262964+00:00",
+  "last_gdelt_attempt": "2026-10-18T01:18:10.487458+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -24953,6 +24953,62 @@
       "published": "2026-10-17T22:25:15+00:00",
       "first_seen": "2026-10-18T09:45:11.090300+10:00",
       "category": "football"
+    },
+    "66213a06d07befa2": {
+      "source": "Al Jazeera",
+      "title": "US ambassador urges Israel to prosecute attackers of American journalist",
+      "published": "2026-10-17T23:40:59+00:00",
+      "first_seen": "2026-10-18T11:18:45.988825+10:00",
+      "category": "breaking"
+    },
+    "5143079001a2ff1f": {
+      "source": "Al Jazeera",
+      "title": "Iran war live: Israeli settlers attack EU diplomats; drones target Riyadh",
+      "published": "2026-10-18T00:00:11+00:00",
+      "first_seen": "2026-10-18T11:18:45.988825+10:00",
+      "category": "breaking"
+    },
+    "8070993d32aee28e": {
+      "source": "BBC News",
+      "title": "Comedian Paul Whitehouse mugged at London cash machine",
+      "published": "2026-10-18T00:06:36+00:00",
+      "first_seen": "2026-10-18T11:18:45.988825+10:00",
+      "category": "breaking"
+    },
+    "83e821571c436a96": {
+      "source": "BBC News",
+      "title": "There's a crackdown on sports piracy - but is it already out of control?",
+      "published": "2026-10-18T00:11:09+00:00",
+      "first_seen": "2026-10-18T11:18:45.988825+10:00",
+      "category": "breaking"
+    },
+    "f3499c36778f5128": {
+      "source": "BBC News",
+      "title": "How The Traitors' music plays with your emotions",
+      "published": "2026-10-18T00:29:58+00:00",
+      "first_seen": "2026-10-18T11:18:45.988825+10:00",
+      "category": "breaking"
+    },
+    "6a4ab263e33a5d48": {
+      "source": "BBC News",
+      "title": "Three takeaways from Elon Musk's latest political donations",
+      "published": "2026-10-18T00:41:06+00:00",
+      "first_seen": "2026-10-18T11:18:45.988825+10:00",
+      "category": "breaking"
+    },
+    "b0085ee665449d5b": {
+      "source": "BBC News",
+      "title": "Watch: Moment historic French town hall spire collapses in flames amid protests",
+      "published": "2026-10-18T00:49:42+00:00",
+      "first_seen": "2026-10-18T11:18:45.988825+10:00",
+      "category": "breaking"
+    },
+    "89b730c4018441c1": {
+      "source": "Al Jazeera",
+      "title": "Israeli settlers attack European diplomats in the occupied West Bank",
+      "published": "2026-10-18T01:02:37+00:00",
+      "first_seen": "2026-10-18T11:18:45.988825+10:00",
+      "category": "breaking"
     }
   }
 }

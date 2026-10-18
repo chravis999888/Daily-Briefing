@@ -2091,1469 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-18T16:02:47.057531+00:00",
   "article_store": {
-    "0fdcaadf173e2479": {
-      "source": "BBC News",
-      "title": "Swinney backs Flynn in ferry gas leak row and says 'nobody's perfect'",
-      "published": "2026-10-11T11:43:39+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "a9383015a7253d75": {
-      "source": "Al Jazeera",
-      "title": "Hormuz attacks intensify as efforts to end war on Iran stall",
-      "published": "2026-10-11T14:04:32+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "c003576fd2482ea5": {
-      "source": "Al Jazeera",
-      "title": "The Mafia Football Murders | True Crime Reports",
-      "published": "2026-10-11T14:05:14+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "82e6e17db4e19d02": {
-      "source": "Al Jazeera",
-      "title": "Ethiopia, Eritrea ramp up rhetoric: Are they inching towards war?",
-      "published": "2026-10-11T14:09:12+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "a81dcb8e14a9ac6d": {
-      "source": "Al Jazeera",
-      "title": "Why are Houthi missiles breaking through Saudi Arabia\u2019s air defences?",
-      "published": "2026-10-11T14:25:03+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "2fe1044d39f4ac73": {
-      "source": "Al Jazeera",
-      "title": "Oval Office spat to public rebukes: A timeline of Trump-Zelenskyy ties",
-      "published": "2026-10-11T14:34:15+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "b14195c583061185": {
-      "source": "Al Jazeera",
-      "title": "Pope Leo to undergo surgery to remove lung nodule",
-      "published": "2026-10-11T14:59:38+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "eb55dd5cdae64b1a": {
-      "source": "Al Jazeera",
-      "title": "Trump says Ukraine and Russia agree to \u2018energy ceasefire\u2019",
-      "published": "2026-10-11T15:10:27+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "51556a779fe13754": {
-      "source": "Al Jazeera",
-      "title": "How the ICC can be saved",
-      "published": "2026-10-11T15:15:35+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "a23b230d78e1821f": {
-      "source": "BBC News",
-      "title": "Poland stabbings driven by online glorification of violence, Tusk says",
-      "published": "2026-10-11T15:18:52+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "43b6682421a28ee7": {
-      "source": "Al Jazeera",
-      "title": "Pope Leo XIV to undergo surgery after lump found in lung",
-      "published": "2026-10-11T15:24:50+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "cbbc85ae76864cc8": {
-      "source": "Al Jazeera",
-      "title": "Power bank fire forces plane to emergency land in India",
-      "published": "2026-10-11T15:26:29+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "7c8a77e2ac2f04e9": {
-      "source": "Al Jazeera",
-      "title": "Tour bus crash in Turkiye leaves at least 11 dead",
-      "published": "2026-10-11T15:52:29+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "15026d2e11f984fc": {
-      "source": "Al Jazeera",
-      "title": "At least five people missing as flash floods in Nepal sweep away houses",
-      "published": "2026-10-11T16:00:48+00:00",
-      "first_seen": "2026-10-12T02:08:45.921842+10:00",
-      "category": "breaking"
-    },
-    "e79c515330d3c746": {
-      "source": "ABC News",
-      "title": "Two Carlton AFL players hospitalised in Melbourne",
-      "published": "2026-10-11T04:05:44+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "289ceba787bf164c": {
-      "source": "ABC News",
-      "title": "Trump factor could help Democrats win Republican strongholds at midterms",
-      "published": "2026-10-11T04:26:50+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "01ccf2393448c8d2": {
-      "source": "ABC News",
-      "title": "Australian government warns against flying to Saudi capital after three attacks on airports",
-      "published": "2026-10-11T04:49:01+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "dda3bde4a57d5852": {
-      "source": "ABC News",
-      "title": "From evading an abusive marriage to dying from a face lift, this is Nellie Melba",
-      "published": "2026-10-11T05:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "0405eab889ff9500": {
-      "source": "ABC News",
-      "title": "Children of shark victim call for return to the ocean at his memorial",
-      "published": "2026-10-11T05:32:15+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "24c7d05ceff70826": {
-      "source": "ABC News",
-      "title": "'Incredibly difficult': Business reports robbery after crash injures five",
-      "published": "2026-10-11T05:39:50+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "3a6b3e2e27ca1fbf": {
-      "source": "ABC News",
-      "title": "The Aussie guy who gave away his kidney and 10pc of his income for life",
-      "published": "2026-10-11T06:17:52+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "fb6bf1972512bdb5": {
-      "source": "ABC News",
-      "title": "Missing Melbourne hiker Jordan Yap has died in Peru, authorities confirm",
-      "published": "2026-10-11T06:25:38+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "96127cce32d86fe1": {
-      "source": "ABC News",
-      "title": "Owners fear rare lamb worth up to $25K stolen",
-      "published": "2026-10-11T06:32:41+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "5079afb7972171a2": {
-      "source": "ABC News",
-      "title": "Nepal urges villagers to evacuate after landslide triggers flood",
-      "published": "2026-10-11T06:54:37+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "cbe9aafd24dcbc13": {
-      "source": "ABC News",
-      "title": "Bad light stops play again after Nic Maddinson's statement shot",
-      "published": "2026-10-11T06:59:57+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "ac93b9b2ea1664e2": {
-      "source": "ABC News",
-      "title": "Roos get past Dockers as Blues and Hawks taste victory",
-      "published": "2026-10-11T07:32:29+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "8b0da4c64b896137": {
-      "source": "ABC News",
-      "title": "WA moves ahead with plans to create mega-uni amid concerns",
-      "published": "2026-10-11T08:45:28+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "cbd4f3ce52bfebaf": {
-      "source": "SMH",
-      "title": "McLaren duo reflect on costly crash",
-      "published": "2026-10-11T08:47:43+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "7e68859fc79621c7": {
-      "source": "SMH",
-      "title": "Teenagers and dog escape south Sydney fire",
-      "published": "2026-10-11T08:48:03+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "86e7a6971a134740": {
-      "source": "The Age",
-      "title": "Teenagers and dog escape south Sydney fire",
-      "published": "2026-10-11T08:48:03+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "7e68859fc79621c7"
-    },
-    "0077767d2bee1790": {
-      "source": "SMH",
-      "title": "Kostecki prevails in thrilling Bathurst 1000 finish",
-      "published": "2026-10-11T08:48:51+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "15325ebd3a6f1955": {
-      "source": "The Age",
-      "title": "Kostecki prevails in thrilling Bathurst 1000 finish",
-      "published": "2026-10-11T08:48:51+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "0077767d2bee1790"
-    },
-    "db577754ae055a91": {
-      "source": "SMH",
-      "title": "Australian veterans commemorated in 25th anniversary",
-      "published": "2026-10-11T08:49:16+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "0df9b98de1e11b07": {
-      "source": "The Age",
-      "title": "Australian veterans commemorated in 25th anniversary",
-      "published": "2026-10-11T08:49:16+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "db577754ae055a91"
-    },
-    "c186bdeb2cd0a05f": {
-      "source": "SMH",
-      "title": "Boy, 13, arrested after bottle shop rampage",
-      "published": "2026-10-11T08:49:20+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "e98bfdb5b7f681de": {
-      "source": "The Age",
-      "title": "Boy, 13, arrested after bottle shop rampage",
-      "published": "2026-10-11T08:49:20+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "c186bdeb2cd0a05f"
-    },
-    "05726723a3a5159a": {
-      "source": "The Age",
-      "title": "Have we reached peak prosperity?",
-      "published": "2026-10-11T09:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "763097f477e6f2ff": {
-      "source": "ABC News",
-      "title": "The LARPers escaping algorithims and finding real life in the past",
-      "published": "2026-10-11T09:12:24+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "349294fc7cff9976": {
-      "source": "SMH",
-      "title": "The Conservatory",
-      "published": "2026-10-11T09:16:44+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "918b68db9487dd75": {
-      "source": "The Age",
-      "title": "The Conservatory",
-      "published": "2026-10-11T09:16:44+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "4a83ca1151d70879": {
-      "source": "SMH",
-      "title": "The toast of San Diego",
-      "published": "2026-10-11T10:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "378188ebf36bcf79": {
-      "source": "The Age",
-      "title": "The toast of San Diego",
-      "published": "2026-10-11T10:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "323f51226dd19166": {
-      "source": "ABC News",
-      "title": "India releases 'cockroach' leaders as movement calls for more protests",
-      "published": "2026-10-11T10:04:23+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "d89a3cfdd85181ec": {
-      "source": "SMH",
-      "title": "Best of cartoons, October 12, 2026",
-      "published": "2026-10-11T10:15:38+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "e6a8b8a4d6614c33": {
-      "source": "The Age",
-      "title": "Best of cartoons, October 12, 2026",
-      "published": "2026-10-11T10:15:38+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "d89a3cfdd85181ec"
-    },
-    "5e40d94ad896be01": {
-      "source": "SMH",
-      "title": "Tribute held for Perth shark attack victim",
-      "published": "2026-10-11T11:12:17+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "900dcee382ff8a4e": {
-      "source": "The Age",
-      "title": "Tribute held for Perth shark attack victim",
-      "published": "2026-10-11T11:12:17+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "5e40d94ad896be01"
-    },
-    "d742e8c93499743b": {
-      "source": "ABC News",
-      "title": "Georgia Voll smashes quickfire ton as Aussies wrap up Bangladesh series",
-      "published": "2026-10-11T11:13:47+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "51a21122f754d1d5": {
-      "source": "SMH",
-      "title": "Verstappen wins Singapore GP; Slow pitstop haunts Piastri",
-      "published": "2026-10-11T11:19:38+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "9ccf0e878edb237f": {
-      "source": "The Age",
-      "title": "Verstappen wins Singapore GP; Slow pitstop haunts Piastri",
-      "published": "2026-10-11T11:19:38+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "51a21122f754d1d5"
-    },
-    "76ebb5f1a1eda874": {
-      "source": "ABC News",
-      "title": "US, China and Japan cut foreign aid to South-East Asia",
-      "published": "2026-10-11T11:31:04+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "2b08199b4fe8f129": {
-      "source": "SMH",
-      "title": "Kumbira",
-      "published": "2026-10-11T11:34:09+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "dc0a0b24d87bece2": {
-      "source": "The Age",
-      "title": "Kumbira",
-      "published": "2026-10-11T11:34:09+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "110ee74f49378f83": {
-      "source": "SMH",
-      "title": "Pizza Elettrica",
-      "published": "2026-10-11T11:39:47+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "2e6e4ecdb12fc856": {
-      "source": "The Age",
-      "title": "Pizza Elettrica",
-      "published": "2026-10-11T11:39:47+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "cb2861e4a8361daa": {
-      "source": "SMH",
-      "title": "Salona",
-      "published": "2026-10-11T11:43:22+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "b97bde9426287e7a": {
-      "source": "The Age",
-      "title": "Salona",
-      "published": "2026-10-11T11:43:22+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "9443202f536fdddb": {
-      "source": "SMH",
-      "title": "Delmonte",
-      "published": "2026-10-11T11:45:49+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "bbe0d30df2018643": {
-      "source": "The Age",
-      "title": "Delmonte",
-      "published": "2026-10-11T11:45:49+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "516a72c611bf0555": {
-      "source": "SMH",
-      "title": "Dutch Rules Distilling Co",
-      "published": "2026-10-11T11:48:29+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "6ce70d2c12179f48": {
-      "source": "The Age",
-      "title": "Dutch Rules Distilling Co",
-      "published": "2026-10-11T11:48:29+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "516a72c611bf0555"
-    },
-    "0ffba2462ea5b2a5": {
-      "source": "SMH",
-      "title": "Australia vs South Africa LIVE: Smith\u2019s four catches set record before Australia extend lead to 139",
-      "published": "2026-10-11T11:55:45+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "8adace6d2ba3eb28": {
-      "source": "The Age",
-      "title": "Australia vs South Africa LIVE: Smith\u2019s four catches set record before Australia extend lead to 139",
-      "published": "2026-10-11T11:55:45+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "0ffba2462ea5b2a5"
-    },
-    "0aed003ef5fca388": {
-      "source": "SMH",
-      "title": "Pope Leo to undergo surgery for small growth on lung",
-      "published": "2026-10-11T12:01:55+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "48f7a675591f4dae": {
-      "source": "The Age",
-      "title": "Pope Leo to undergo surgery for small growth on lung",
-      "published": "2026-10-11T12:01:55+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "0aed003ef5fca388"
-    },
-    "ef0f224f212a0432": {
-      "source": "ABC News",
-      "title": "Saudi Arabia extends airport closure as Houthis warn 'worse is yet to come'",
-      "published": "2026-10-11T12:44:09+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "e8f41d4a2b8d16f2": {
-      "source": "SMH",
-      "title": "Superquiz, Monday, October 12",
-      "published": "2026-10-11T12:59:00+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "14bfecd7aa4ea456": {
-      "source": "SMH",
-      "title": "Greens push to let Australians sue Big Tech in digital safety overhaul",
-      "published": "2026-10-11T12:59:00+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "d6b61f6df6b9d47a": {
-      "source": "The Age",
-      "title": "Superquiz, Monday, October 12",
-      "published": "2026-10-11T12:59:00+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "e8f41d4a2b8d16f2"
-    },
-    "00e1e65cbfbeab89": {
-      "source": "The Age",
-      "title": "Greens push to let Australians sue Big Tech in digital safety overhaul",
-      "published": "2026-10-11T12:59:00+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "14bfecd7aa4ea456"
-    },
-    "2749d55ab61f2035": {
-      "source": "ABC News",
-      "title": "Pope Leo to undergo surgery after discovery of lung nodule",
-      "published": "2026-10-11T13:18:51+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "4ce89ff465cdd38a": {
-      "source": "ABC News",
-      "title": "'Up to our people': Zelenskyy responds to Trump's election call",
-      "published": "2026-10-11T14:21:13+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "12f36cf20e066230": {
-      "source": "SMH",
-      "title": "\u2018You lose your childhood\u2019: The hidden burden carried by 40,000 young WA carers",
-      "published": "2026-10-11T16:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia"
-    },
-    "f6ca0d90d50be9d7": {
-      "source": "The Age",
-      "title": "\u2018You lose your childhood\u2019: The hidden burden carried by 40,000 young WA carers",
-      "published": "2026-10-11T16:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:47.122935+10:00",
-      "category": "australia",
-      "duplicate_of": "12f36cf20e066230"
-    },
-    "c4b896b2aeb79c53": {
-      "source": "ScienceDaily",
-      "title": "A forgotten fossil just revealed a new Triassic predator from 210 million years ago",
-      "published": "2026-07-30T06:34:21+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "58941c1a2a3f0933": {
-      "source": "ScienceDaily",
-      "title": "Scientists found two mysterious \u2018ghost\u2019 ancestors hiding in our DNA",
-      "published": "2026-08-01T01:58:37+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "00cc4e2e114d09ad": {
-      "source": "ScienceDaily",
-      "title": "518-million-year-old creature reveals the origins of spider fangs",
-      "published": "2026-08-04T13:18:10+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "e822266dde2d7860": {
-      "source": "ScienceDaily",
-      "title": "Scientists rediscover lost Megalodon fossils\u2014and reveal a 79-foot giant",
-      "published": "2026-08-07T02:57:08+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "590e5cf7a52626e6": {
-      "source": "ScienceDaily",
-      "title": "60,000-year-old ostrich eggshell engravings reveal a surprisingly sophisticated human mind",
-      "published": "2026-08-09T11:51:37+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "ebb8bbda32b0d633": {
-      "source": "ScienceDaily",
-      "title": "For 15,000 years, humans and dogs have been changing each other",
-      "published": "2026-08-10T05:57:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "e763c95210e9bfcd": {
-      "source": "ScienceDaily",
-      "title": "240-million-year-old reptile fossil reveals a lost chapter before dinosaurs and crocodiles",
-      "published": "2026-08-10T11:40:02+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "b927733129f08ce0": {
-      "source": "ScienceDaily",
-      "title": "150-million-year-old dinosaur footprints reveal something strange about its walk",
-      "published": "2026-08-11T05:03:41+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "ee94f0a69d670740": {
-      "source": "ScienceDaily",
-      "title": "Scientists say the human family tree may need a major rewrite",
-      "published": "2026-08-20T10:42:59+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "db20a6bd28ccfc3e": {
-      "source": "Science",
-      "title": "Recent strengthening of eastern Pacific ENSO in the last millennium paleorecord",
-      "published": "2026-08-27T06:00:10+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "0ccdf46b1fc287dc": {
-      "source": "ScienceDaily",
-      "title": "324-million-year-old fossil reveals how insects conquered land",
-      "published": "2026-08-27T07:22:34+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "ebe51032de0c40a2": {
-      "source": "ScienceDaily",
-      "title": "1.4-million-year-old footprints reveal a surprisingly large human relative",
-      "published": "2026-08-30T15:17:06+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "f163127a5debbb3a": {
-      "source": "ScienceDaily",
-      "title": "Fossil feet may be misleading scientists about human evolution",
-      "published": "2026-08-31T12:38:26+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "2556bd9f694ac3c8": {
-      "source": "Science",
-      "title": "High-capacity associative memory in a quantum-optical spin glass",
-      "published": "2026-09-03T06:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "8652d11593d2c2b5": {
-      "source": "ScienceDaily",
-      "title": "80,000-year-old \u201carrowheads\u201d rewrite human history",
-      "published": "2026-09-06T00:46:25+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "9fe67eb0e29024a7": {
-      "source": "New Scientist",
-      "title": "Denisovan tools from cave in China show how mysterious humans lived",
-      "published": "2026-09-09T15:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "f752f1054a1dd216": {
-      "source": "New Scientist",
-      "title": "Earliest evidence of habitual drug use found in teeth in Indonesia",
-      "published": "2026-09-09T18:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "244629b4e5b861a9": {
-      "source": "New Scientist",
-      "title": "Why our common ancestor with chimpanzees keeps getting further away",
-      "published": "2026-09-09T19:30:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "82f4743878a9c108": {
-      "source": "ScienceDaily",
-      "title": "400,000-year-old teeth reveal a hidden link in human evolution",
-      "published": "2026-09-10T02:18:08+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "c665126f5d1b8851": {
-      "source": "ScienceDaily",
-      "title": "DNA solves the mystery of a body found in the Arctic in 1859",
-      "published": "2026-09-10T12:46:43+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "5fb57c27cb8baf67": {
-      "source": "New Scientist",
-      "title": "Roman roads weren\u2019t so straight after all",
-      "published": "2026-09-15T15:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "12519fc97d2ab22c": {
-      "source": "New Scientist",
-      "title": "How older siblings may shape sexual orientation via mother\u2019s immune system",
-      "published": "2026-09-16T15:50:33+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "355b9f4d876bb892": {
-      "source": "New Scientist",
-      "title": "Ancient skeleton shows woman in imperial China had her nose amputated",
-      "published": "2026-09-17T09:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "0880172dc28fbd22": {
-      "source": "ScienceDaily",
-      "title": "160-million-year-old proteins show surprising power against superbugs",
-      "published": "2026-09-28T09:59:57+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "d7596a6ac55e45d1": {
-      "source": "ScienceDaily",
-      "title": "This 245-million-year-old fossil still has its stomach and intestines",
-      "published": "2026-09-29T11:39:27+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "5558d81bf964be9b": {
-      "source": "ScienceDaily",
-      "title": "Bats may have first evolved in Europe 65 million years ago",
-      "published": "2026-09-30T05:12:36+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "606fc6764543b96d": {
-      "source": "New Scientist",
-      "title": "Turi King: Solving criminal cold cases and archaeological mysteries with DNA",
-      "published": "2026-09-30T17:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "2d88a5197156acfd": {
-      "source": "New Scientist",
-      "title": "Anglo-Saxons got special treatment in medieval Rome",
-      "published": "2026-09-30T23:01:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "4f1d05303632ed2c": {
-      "source": "PhysOrg",
-      "title": "Chameleon embryos reveal early developmental feature once thought unique to mammals",
-      "published": "2026-10-01T14:00:02+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "6f70447bc9a79f2c": {
-      "source": "PhysOrg",
-      "title": "Catalog of mitochondria across life's family tree unearths unusual functions",
-      "published": "2026-10-01T15:00:10+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "06307abfda25211d": {
-      "source": "PhysOrg",
-      "title": "Chimps plunder less pineapple from friends\u2014and expect them to do the same",
-      "published": "2026-10-01T15:20:01+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "9fa68fe3c8abf09b": {
-      "source": "PhysOrg",
-      "title": "Sex-like DNA exchange in starving bacteria occurs over 100 times more often than spontaneous mutations",
-      "published": "2026-10-01T16:00:24+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "c6a68b9bbfa36374": {
-      "source": "PhysOrg",
-      "title": "Urban environments may be the ultimate training grounds for invasive species",
-      "published": "2026-10-01T16:20:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "c25e3f4b7c66da22": {
-      "source": "PhysOrg",
-      "title": "Birdsong tells only part of a forest's story: Evolutionary trees reveal the rest",
-      "published": "2026-10-02T13:40:14+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "0563f8a5214a9d7e": {
-      "source": "PhysOrg",
-      "title": "Animals may have evolved vastly earlier than fossil evidence suggests",
-      "published": "2026-10-02T18:00:13+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "eb40bd7f350d23a2": {
-      "source": "PhysOrg",
-      "title": "Dressed for danger: Venomous snakes are more likely to stand out",
-      "published": "2026-10-05T13:30:01+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "ffdc4401ae3f00a9": {
-      "source": "PhysOrg",
-      "title": "Sharks' inner ears reveal surprising diversity that may reflect evolution more than environment",
-      "published": "2026-10-05T18:20:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "ee132844f44c10db": {
-      "source": "New Scientist",
-      "title": "Shoes may change the structure of our ankle bones",
-      "published": "2026-10-06T17:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "f53859ea28587a65": {
-      "source": "PhysOrg",
-      "title": "Endangered Lantau toads show genetic and call differences that could signal an emerging species",
-      "published": "2026-10-06T17:20:05+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "fcafa2b6e3b60143": {
-      "source": "PhysOrg",
-      "title": "Hydrothermal vents supply a geochemical precursor of ATP that could have powered early life",
-      "published": "2026-10-06T22:00:11+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "6073ac07cca9c3a0": {
-      "source": "Nature",
-      "title": "A guide to Nature Index tables",
-      "published": "2026-10-07T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "f1b004ceab19b640": {
-      "source": "Nature",
-      "title": "Nobel prizes 2026: \u2018ghost\u2019 particles, mirror molecules and light switches in the brain",
-      "published": "2026-10-07T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "039260c89e155805": {
-      "source": "PhysOrg",
-      "title": "'Top predator' from the Jurassic measures just half a meter",
-      "published": "2026-10-07T15:00:21+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "19692145c794be56": {
-      "source": "PhysOrg",
-      "title": "Gut bacteria reveal ancient ties to human migrations across continents, genetic analysis suggests",
-      "published": "2026-10-07T15:01:10+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "e6594091739e7951": {
-      "source": "New Scientist",
-      "title": "Neanderthal Europe was as much a wooden age as a stone age",
-      "published": "2026-10-07T18:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "ce084f9fafc325e1": {
-      "source": "PhysOrg",
-      "title": "Scientists uncover how the world's smallest flowering plant became so tiny",
-      "published": "2026-10-07T18:20:01+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "05bef666df73e018": {
-      "source": "Nature",
-      "title": "Author Correction: Histone readers MLLT1 and MLLT3 concentrate AID to confer locus specificity",
-      "published": "2026-10-08T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "99407783e5440896": {
-      "source": "Nature",
-      "title": "Editorial Expression of Concern: Maternal gut bacteria promote neurodevelopmental abnormalities in mouse offspring",
-      "published": "2026-10-08T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "d995ea81c41afdeb": {
-      "source": "Nature",
-      "title": "Women are talking about menopause \u2014 health systems must listen",
-      "published": "2026-10-08T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "833e223ee898244c": {
-      "source": "Nature",
-      "title": "US proposes $100,000 charge for international students to do post-graduate work",
-      "published": "2026-10-08T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "b7d3bf84080c88a4": {
-      "source": "Nature",
-      "title": "How to build a mouse: embryo development captured in stunning detail",
-      "published": "2026-10-08T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "1fe777b49e81ddd8": {
-      "source": "Nature",
-      "title": "Woody \u2018blankets\u2019 are being deployed on Arctic permafrost to reduce carbon emissions",
-      "published": "2026-10-08T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "8df4f5d73735d932": {
-      "source": "Nature",
-      "title": "Will AI scoop your science? Some researchers see a gloomy future",
-      "published": "2026-10-08T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "48122e193b79f4ae": {
-      "source": "Nature",
-      "title": "Plague scare: what scientists know \u2014 and what Russia won\u2019t say",
-      "published": "2026-10-08T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "3464a1a8bcbed2f7": {
-      "source": "Nature",
-      "title": "Big dogs age faster than little ones \u2014 rogue \u2018jumping genes\u2019 might be to blame",
-      "published": "2026-10-08T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "0b87bf8ad7c0b9d5": {
-      "source": "Nature",
-      "title": "UAE completes Arab world's first solo space probe <b>\u2013 </b>and sets course for an asteroid",
-      "published": "2026-10-08T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "7dce1fdaaf060f66": {
-      "source": "Science",
-      "title": "Demographic \u201cdoomsday\u201d misses the mark",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "b2fd39532dad4dd0": {
-      "source": "Science",
-      "title": "Volatile eutectics to tailor crystallization for perovskite optoelectronics",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "1d909b6a1fc1f5b9": {
-      "source": "Science",
-      "title": "Message in a bottleneck: Nested founder effects from French Polynesia to Rapa Nui and Hawai\u02bbi",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "083f417cf6ceeb75": {
-      "source": "Science",
-      "title": "Wafer-scale low-symmetry graphene moir\u00e9 superlattice for integrated quantum rectifiers",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "c8ebfff8ddd71db4": {
-      "source": "Science",
-      "title": "High-fidelity entangling gates and nonlocal circuits with neutral atoms",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "f734e24e94ec5a6f": {
-      "source": "Science",
-      "title": "Advancing mathematics research with AI-driven formal proof search",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "51e79274fe333319": {
-      "source": "Science",
-      "title": "Natural 15N15N abundances constrain fixed nitrogen loss",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "db61c791943fc76a": {
-      "source": "Science",
-      "title": "Marine snow viscosity regulates microbial degradation and the ocean carbon sink",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "31d3d52db8e2bbeb": {
-      "source": "Science",
-      "title": "Returning home",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "9b665160754580c4": {
-      "source": "Science",
-      "title": "In Other Journals",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "474bf2531a1a1350": {
-      "source": "Science",
-      "title": "Climate change reshapes the global mercury cycle",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "efc6d9a253b4ed26": {
-      "source": "Science",
-      "title": "Before the immunological Big Bang",
-      "published": "2026-10-08T06:00:09+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "00cd257d0c7eb185": {
-      "source": "Science",
-      "title": "Golgi-derived vesicles containing PI(3,4)P2 drive mitochondrial fusion",
-      "published": "2026-10-08T07:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "0db3c761725359ed": {
-      "source": "Science",
-      "title": "Epigenetic aging and transposon dysregulation reflect size-related lifespan compression in dogs",
-      "published": "2026-10-08T07:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "c59d855db16f1fd5": {
-      "source": "Science",
-      "title": "Insights from more than a year of ongoing episodic lava fountaining at K\u012blauea",
-      "published": "2026-10-08T07:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "d5b53e680e043185": {
-      "source": "Science",
-      "title": "Asymmetric enzymatic hydrophosphorylation through O2 activation",
-      "published": "2026-10-08T07:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "38c3db270b34a145": {
-      "source": "Science",
-      "title": "The genetic basis for the production of toxic quinolizidine alkaloids in lupins",
-      "published": "2026-10-08T07:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "4b1cb87868608431": {
-      "source": "Science",
-      "title": "The human gut microbiome primes fever after vaccination",
-      "published": "2026-10-08T07:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "d12a24b9d6204e97": {
-      "source": "ScienceDaily",
-      "title": "Scientists found Homo erectus 200,000 years earlier than expected",
-      "published": "2026-10-08T12:47:46+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "bf219aea985b993b": {
-      "source": "PhysOrg",
-      "title": "Puerto Rico specimen reveals new giant isopod species that went unrecognized for decades",
-      "published": "2026-10-08T16:40:01+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "0b3d4c310dac2970": {
-      "source": "PhysOrg",
-      "title": "One ancient swimming mammal fossil and two evolutionary surprises, including a third set of teeth",
-      "published": "2026-10-08T17:00:26+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "83cf6387173d1fd6": {
-      "source": "Nature",
-      "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
-      "published": "2026-10-09T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "fc8925c5d8196fea": {
-      "source": "Nature",
-      "title": "Briefing Chat: Top researchers are being misled by sham academic societies",
-      "published": "2026-10-09T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "dfccc91cd01eb12b": {
-      "source": "Nature",
-      "title": "Chimp and gorilla brains resist weight loss with age \u2014 unlike human brains",
-      "published": "2026-10-09T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "2b6d253dfefb87c0": {
-      "source": "Nature",
-      "title": "The life of Darwin and the science of clouds: Books in brief",
-      "published": "2026-10-09T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "c3b0b9bb262dc2a1": {
-      "source": "Nature",
-      "title": "Watch this invisible tattoo appear under UV light",
-      "published": "2026-10-09T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "010e1c2007fc2837": {
-      "source": "Nature",
-      "title": "An experiment to glimpse the future Amazon \u2014 in pictures",
-      "published": "2026-10-09T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "ece9bddfb8d8620b": {
-      "source": "Nature",
-      "title": "Publisher Correction: Sleep chart of biological ageing clocks in middle and late life",
-      "published": "2026-10-09T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "5a468a8d74d65555": {
-      "source": "Nature",
-      "title": "Five movements from the edge of the singularity",
-      "published": "2026-10-09T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "014ba32deb562ebd": {
-      "source": "PhysOrg",
-      "title": "3D genome 'entanglement' may explain how cephalopods evolved complex brains",
-      "published": "2026-10-09T09:00:12+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "ad76c229b44b26bd": {
-      "source": "PhysOrg",
-      "title": "Tiny marine microbe sheds new light on how little genetic machinery a cell needs to survive",
-      "published": "2026-10-09T15:00:12+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "0bc852be9b930ea2": {
-      "source": "PhysOrg",
-      "title": "Nightjar wings reveal a trade-off between hunting slowly and traveling far",
-      "published": "2026-10-09T18:40:14+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "c0c9aa43c599ddb0": {
-      "source": "ScienceDaily",
-      "title": "Neanderthals may have used prehistoric glue as an ancient antibiotic",
-      "published": "2026-10-11T00:45:37+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "69322226f170cacd": {
-      "source": "PhysOrg",
-      "title": "Jurassic fossil reveals ancient origins of how mammals drink milk",
-      "published": "2026-10-11T16:00:04+00:00",
-      "first_seen": "2026-10-12T02:08:50.501303+10:00",
-      "category": "archaeology"
-    },
-    "fd01b0bc9e441041": {
-      "source": "Marca",
-      "title": "Mart\u00edn Presa lo tiene claro; Peter Lim, no",
-      "published": "2026-10-11T03:16:42+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "6123bcb20694ff54": {
-      "source": "Marca",
-      "title": "La 'explosi\u00f3n' de Vallecas",
-      "published": "2026-10-11T03:16:52+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "4e5be7e284b05f09": {
-      "source": "Marca",
-      "title": "Elche - Celta | Que el ritmo no pare: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
-      "published": "2026-10-11T03:17:07+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "a9570ef49298f5ff": {
-      "source": "Marca",
-      "title": "A qu\u00e9 hora es el Elche - Celta: horario y d\u00f3nde ver hoy en TV y online el partido de LaLiga EA Sports",
-      "published": "2026-10-11T03:17:27+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "a245aa2be783aa61": {
-      "source": "Marca",
-      "title": "Betis - Osasuna | La Cartuja, fort\u00edn ante un rival herido: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
-      "published": "2026-10-11T03:17:39+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "f0b84838a1844458": {
-      "source": "Marca",
-      "title": "Racing de Santander - Valencia | Aguirre salta al c\u00e9sped",
-      "published": "2026-10-11T03:17:46+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "98b4aa7bee3d7e3c": {
-      "source": "Marca",
-      "title": "Betis - Osasuna: horario y d\u00f3nde ver hoy por TV y 'online' el partido de LaLiga EA Sports",
-      "published": "2026-10-11T08:53:16+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "061914c1c489af33": {
-      "source": "Marca",
-      "title": "Garc\u00eda Plaza aprieta: \"Esperamos m\u00e1s goles de los delanteros\"",
-      "published": "2026-10-11T11:16:53+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "b01fad40b5f89d23": {
-      "source": "Marca",
-      "title": "Luis Garc\u00eda Plaza, sobre el Levante: \"Tiene menos puntos de los que ha merecido\"",
-      "published": "2026-10-11T11:44:01+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "c45606cdb3929fdb": {
-      "source": "Marca",
-      "title": "Lu\u00eds Castro: \u201cNo me ha gustado el par\u00f3n, pero he podido recuperar a jugadores con molestias\u201d",
-      "published": "2026-10-11T11:50:33+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "75cba2464eac88e0": {
-      "source": "Marca",
-      "title": "Confirmados los capitanes del Sevilla para la temporada 2026-2027",
-      "published": "2026-10-11T12:09:23+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "7c890c4840ead157": {
-      "source": "Marca",
-      "title": "El juicio por el 'caso Al-Thani' est\u00e1 m\u00e1s cerca de lo previsto",
-      "published": "2026-10-11T12:21:32+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "8586906d99afb414": {
-      "source": "Marca",
-      "title": "Algunas luces y una sombra en el Elche",
-      "published": "2026-10-11T14:23:49+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "8f6fdd76e53b67bb": {
-      "source": "Marca",
-      "title": "Pleno de empates como for\u00e1neos",
-      "published": "2026-10-11T14:29:53+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "d07ea24e2d727d7d": {
-      "source": "Kicker",
-      "title": "Wagners Probleme in allen Mannschaftsteilen: \"Es gibt keinen Freifahrtschein\"",
-      "published": "2026-10-11T14:35:02+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "8e1304d2944d6146": {
-      "source": "Kicker",
-      "title": "Offener Schlagabtausch nach der Pause: Bonns Serie h\u00e4lt auch in Wiedenbr\u00fcck",
-      "published": "2026-10-11T14:37:56+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "13a9b69e0a912d64": {
-      "source": "Kicker",
-      "title": "Lecce - Bologna: Tor zum 1:2 durch Enem in der 75. Minute",
-      "published": "2026-10-11T14:42:03+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "bcdb90f511956114": {
-      "source": "Kicker",
-      "title": "Nizza - Stra\u00dfburg: Tor zum 2:1 durch Clauss in der 81. Minute",
-      "published": "2026-10-11T14:45:17+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "b77407a79db8fa7b": {
-      "source": "Marca",
-      "title": "Anselmi: \u201cCompitiendo as\u00ed, siempre estaremos m\u00e1s cerca de ganar\u201d",
-      "published": "2026-10-11T14:47:53+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "09756628836d8091": {
-      "source": "Kicker",
-      "title": "San Sebastian - A Coruna: Tor zum 1:0 durch Martin in der 29. Minute",
-      "published": "2026-10-11T14:50:48+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "227ef59cbf9bc6be": {
-      "source": "Kicker",
-      "title": "Lazio - Monza: Tor zum 3:1 durch Pinamonti in der 88. Minute",
-      "published": "2026-10-11T14:53:40+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "1ca8eb813d8bef43": {
-      "source": "Kicker",
-      "title": "San Sebastian - A Coruna: Tor zum 2:0 durch Zakharyan in der 34. Minute",
-      "published": "2026-10-11T14:54:51+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "af2bd18d4ddc2dd7": {
-      "source": "Kicker",
-      "title": "Sorgen um Skhiri: Auswechslung und Untersuchung in Klinik",
-      "published": "2026-10-11T14:56:20+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "db7864242c01bdf2": {
-      "source": "Marca",
-      "title": "Gir\u00e1ldez: \"Hab\u00eda mucha gente mareada al acabar el partido, mucho calor para estas alturas del a\u00f1o\"",
-      "published": "2026-10-11T14:58:18+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "68946fc53f1d0d0f": {
-      "source": "Marca",
-      "title": "Aleix Febas, emocionado con el recibimiento en Elche",
-      "published": "2026-10-11T15:08:05+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "9fad5d87811cfa9f": {
-      "source": "Marca",
-      "title": "Un par\u00f3n demasiado largo para el Athletic",
-      "published": "2026-10-11T15:22:20+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "d187082c4dc58778": {
-      "source": "Kicker",
-      "title": "Rennes - Auxerre: Tor zum 1:0 durch Lepaul in der 15. Minute",
-      "published": "2026-10-11T15:35:32+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "0e38ee56ddd5b39d": {
-      "source": "Kicker",
-      "title": "Erleichterung im Fall von Stuttgarts \"Abwehr-Jeff\" Chabot",
-      "published": "2026-10-11T15:35:51+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "6ea140ccfe738846": {
-      "source": "Marca",
-      "title": "El Getafe, pendiente de Zaid Romero",
-      "published": "2026-10-11T15:36:07+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "effef1059227ae62": {
-      "source": "Kicker",
-      "title": "San Sebastian - A Coruna: Tor zum 3:0 durch Goncalo Guedes in der 54. Minute",
-      "published": "2026-10-11T15:37:10+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "e5dcb79739ee5c81": {
-      "source": "Kicker",
-      "title": "San Sebastian - A Coruna: Tor zum 3:1 durch Soriano in der 61. Minute",
-      "published": "2026-10-11T15:41:00+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "9402b070d3a61913": {
-      "source": "Kicker",
-      "title": "LIVE! Wieder nach einer Ecke: Schalke gleicht aus",
-      "published": "2026-10-11T15:41:25+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "3a0f6e723b0de098": {
-      "source": "Kicker",
-      "title": "Koch reagiert auf H\u00fctter-Kritik: \"\u00c4ndert nichts an meiner Haltung\"",
-      "published": "2026-10-11T15:42:27+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "e8c3f6b1323e5465": {
-      "source": "Kicker",
-      "title": "Rennes - Auxerre: Tor zum 1:1 durch Archer in der 25. Minute",
-      "published": "2026-10-11T15:45:45+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "69ee42c88bf725ad": {
-      "source": "Kicker",
-      "title": "San Sebastian - A Coruna: Rote Karte f\u00fcr Marin in der 66. Minute",
-      "published": "2026-10-11T15:48:51+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "2893ab92cbe36476": {
-      "source": "Kicker",
-      "title": "San Sebastian - A Coruna: Tor zum 3:2 durch Yeremay in der 69. Minute",
-      "published": "2026-10-11T15:50:58+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "cb8fc782b00f1686": {
-      "source": "Kicker",
-      "title": "San Sebastian - A Coruna: Tor zum 3:2 durch Yeremay in der 69. Minute",
-      "published": "2026-10-11T15:51:08+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football",
-      "duplicate_of": "2893ab92cbe36476"
-    },
-    "7eb16c4ae26c863b": {
-      "source": "Marca",
-      "title": "Cardoso y Vargas, en la lista de convocados para visitar al Levante",
-      "published": "2026-10-11T15:58:28+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "420481f2f80643c6": {
-      "source": "Kicker",
-      "title": "LIVE! Noch keine Torchancen in Liverpool",
-      "published": "2026-10-11T15:59:27+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "78237c735f80e599": {
-      "source": "Kicker",
-      "title": "Slapstick-Eigentor vor \u00fcber 13.000 Zuschauern: Chemnitz entthront Erfurt",
-      "published": "2026-10-11T16:04:10+00:00",
-      "first_seen": "2026-10-12T02:08:55.766765+10:00",
-      "category": "football"
-    },
-    "4284aa94b06a5e36": {
-      "source": "BBC News",
-      "title": "BBC News app",
-      "published": "2025-04-30T14:04:28+00:00",
-      "first_seen": "2026-10-12T02:23:59.557585+10:00",
-      "category": "breaking"
-    },
-    "3c0ea60687839425": {
-      "source": "BBC News",
-      "title": "Does Zack Polanski Face A Leadership Crisis?",
-      "published": "2026-10-03T00:00:00+00:00",
-      "first_seen": "2026-10-12T02:23:59.557585+10:00",
-      "category": "breaking"
-    },
-    "3ce36bb4b6ab9298": {
-      "source": "BBC News",
-      "title": "Verstappen dominates for first Singapore Grand Prix win",
-      "published": "2026-10-11T14:46:06+00:00",
-      "first_seen": "2026-10-12T02:23:59.557585+10:00",
-      "category": "breaking"
-    },
     "3e6a5435d903ee9b": {
       "source": "BBC News",
       "title": "DUP MP says her party could help remove O'Neill as first minister over Drumcree row",
@@ -26444,6 +24981,472 @@
       "published": "2026-10-18T15:30:44+00:00",
       "first_seen": "2026-10-19T02:03:10.357083+10:00",
       "category": "breaking"
+    },
+    "4284aa94b06a5e36": {
+      "source": "BBC News",
+      "title": "Download now",
+      "published": "2025-04-30T14:04:28+00:00",
+      "first_seen": "2026-10-19T03:04:17.225563+10:00",
+      "category": "breaking"
+    },
+    "d4ca71c8123e9ebd": {
+      "source": "BBC News",
+      "title": "West Midlands Police officer who accessed police records 2,000 times sacked",
+      "published": "2026-10-18T15:30:49+00:00",
+      "first_seen": "2026-10-19T03:04:17.225563+10:00",
+      "category": "breaking"
+    },
+    "67578c7b89824cb1": {
+      "source": "Al Jazeera",
+      "title": "French mayor attacked by settlers during occupied West Bank olive harvest",
+      "published": "2026-10-18T16:25:43+00:00",
+      "first_seen": "2026-10-19T03:04:17.225563+10:00",
+      "category": "breaking"
+    },
+    "00c9b0587d50ae00": {
+      "source": "Al Jazeera",
+      "title": "\u2018Hybrid warfare\u2019: Taiwan drives away 16 Chinese ships",
+      "published": "2026-10-18T16:25:52+00:00",
+      "first_seen": "2026-10-19T03:04:17.225563+10:00",
+      "category": "breaking"
+    },
+    "7dd90ae8e140c6d8": {
+      "source": "ABC News",
+      "title": "French police arrest 1,800 after violent clashes and looting mar protests",
+      "published": "2026-10-18T14:26:30+00:00",
+      "first_seen": "2026-10-19T03:04:18.013949+10:00",
+      "category": "australia"
+    },
+    "d087f8572929f5dd": {
+      "source": "SMH",
+      "title": "Australia\u2019s workforce is looking at companies at the heart of WA\u2019s economy to act on climate change",
+      "published": "2026-10-18T16:01:00+00:00",
+      "first_seen": "2026-10-19T03:04:18.013949+10:00",
+      "category": "australia"
+    },
+    "386c9f4f76876c8b": {
+      "source": "SMH",
+      "title": "Workers want company climate action \u2014 but don\u2019t believe the hype",
+      "published": "2026-10-18T16:01:00+00:00",
+      "first_seen": "2026-10-19T03:04:18.013949+10:00",
+      "category": "australia"
+    },
+    "0f2208f576aab29f": {
+      "source": "The Age",
+      "title": "Australia\u2019s workforce is looking at companies at the heart of WA\u2019s economy to act on climate change",
+      "published": "2026-10-18T16:01:00+00:00",
+      "first_seen": "2026-10-19T03:04:18.013949+10:00",
+      "category": "australia",
+      "duplicate_of": "d087f8572929f5dd"
+    },
+    "ed3efb61a225dcda": {
+      "source": "The Age",
+      "title": "Workers want company climate action \u2014 but don\u2019t believe the hype",
+      "published": "2026-10-18T16:01:00+00:00",
+      "first_seen": "2026-10-19T03:04:18.013949+10:00",
+      "category": "australia",
+      "duplicate_of": "386c9f4f76876c8b"
+    },
+    "a220ef1118e7a30d": {
+      "source": "SMH",
+      "title": "Massive fire at Canada military base kills service members, dozens injured",
+      "published": "2026-10-18T16:59:55+00:00",
+      "first_seen": "2026-10-19T03:04:18.013949+10:00",
+      "category": "australia"
+    },
+    "24e9ff01888930bf": {
+      "source": "The Age",
+      "title": "Massive fire at Canada military base kills service members, dozens injured",
+      "published": "2026-10-18T16:59:55+00:00",
+      "first_seen": "2026-10-19T03:04:18.013949+10:00",
+      "category": "australia",
+      "duplicate_of": "a220ef1118e7a30d"
+    },
+    "e822266dde2d7860": {
+      "source": "ScienceDaily",
+      "title": "Scientists rediscover lost Megalodon fossils\u2014and reveal a 79-foot giant",
+      "published": "2026-08-07T02:57:08+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "590e5cf7a52626e6": {
+      "source": "ScienceDaily",
+      "title": "60,000-year-old ostrich eggshell engravings reveal a surprisingly sophisticated human mind",
+      "published": "2026-08-09T11:51:37+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "ebb8bbda32b0d633": {
+      "source": "ScienceDaily",
+      "title": "For 15,000 years, humans and dogs have been changing each other",
+      "published": "2026-08-10T05:57:00+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "e763c95210e9bfcd": {
+      "source": "ScienceDaily",
+      "title": "240-million-year-old reptile fossil reveals a lost chapter before dinosaurs and crocodiles",
+      "published": "2026-08-10T11:40:02+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "b927733129f08ce0": {
+      "source": "ScienceDaily",
+      "title": "150-million-year-old dinosaur footprints reveal something strange about its walk",
+      "published": "2026-08-11T05:03:41+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "ee94f0a69d670740": {
+      "source": "ScienceDaily",
+      "title": "Scientists say the human family tree may need a major rewrite",
+      "published": "2026-08-20T10:42:59+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "0ccdf46b1fc287dc": {
+      "source": "ScienceDaily",
+      "title": "324-million-year-old fossil reveals how insects conquered land",
+      "published": "2026-08-27T07:22:34+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "ebe51032de0c40a2": {
+      "source": "ScienceDaily",
+      "title": "1.4-million-year-old footprints reveal a surprisingly large human relative",
+      "published": "2026-08-30T15:17:06+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "f163127a5debbb3a": {
+      "source": "ScienceDaily",
+      "title": "Fossil feet may be misleading scientists about human evolution",
+      "published": "2026-08-31T12:38:26+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "8652d11593d2c2b5": {
+      "source": "ScienceDaily",
+      "title": "80,000-year-old \u201carrowheads\u201d rewrite human history",
+      "published": "2026-09-06T00:46:25+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "82f4743878a9c108": {
+      "source": "ScienceDaily",
+      "title": "400,000-year-old teeth reveal a hidden link in human evolution",
+      "published": "2026-09-10T02:18:08+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "c665126f5d1b8851": {
+      "source": "ScienceDaily",
+      "title": "DNA solves the mystery of a body found in the Arctic in 1859",
+      "published": "2026-09-10T12:46:43+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "5fb57c27cb8baf67": {
+      "source": "New Scientist",
+      "title": "Roman roads weren\u2019t so straight after all",
+      "published": "2026-09-15T15:00:00+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "12519fc97d2ab22c": {
+      "source": "New Scientist",
+      "title": "How older siblings may shape sexual orientation via mother\u2019s immune system",
+      "published": "2026-09-16T15:50:33+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "355b9f4d876bb892": {
+      "source": "New Scientist",
+      "title": "Ancient skeleton shows woman in imperial China had her nose amputated",
+      "published": "2026-09-17T09:00:00+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "0880172dc28fbd22": {
+      "source": "ScienceDaily",
+      "title": "160-million-year-old proteins show surprising power against superbugs",
+      "published": "2026-09-28T09:59:57+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "d7596a6ac55e45d1": {
+      "source": "ScienceDaily",
+      "title": "This 245-million-year-old fossil still has its stomach and intestines",
+      "published": "2026-09-29T11:39:27+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "5558d81bf964be9b": {
+      "source": "ScienceDaily",
+      "title": "Bats may have first evolved in Europe 65 million years ago",
+      "published": "2026-09-30T05:12:36+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "606fc6764543b96d": {
+      "source": "New Scientist",
+      "title": "Turi King: Solving criminal cold cases and archaeological mysteries with DNA",
+      "published": "2026-09-30T17:00:00+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "2d88a5197156acfd": {
+      "source": "New Scientist",
+      "title": "Anglo-Saxons got special treatment in medieval Rome",
+      "published": "2026-09-30T23:01:00+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "ee132844f44c10db": {
+      "source": "New Scientist",
+      "title": "Shoes may change the structure of our ankle bones",
+      "published": "2026-10-06T17:00:00+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "e6594091739e7951": {
+      "source": "New Scientist",
+      "title": "Neanderthal Europe was as much a wooden age as a stone age",
+      "published": "2026-10-07T18:00:00+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "d12a24b9d6204e97": {
+      "source": "ScienceDaily",
+      "title": "Scientists found Homo erectus 200,000 years earlier than expected",
+      "published": "2026-10-08T12:47:46+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "ad76c229b44b26bd": {
+      "source": "PhysOrg",
+      "title": "Tiny marine microbe sheds new light on how little genetic machinery a cell needs to survive",
+      "published": "2026-10-09T15:00:12+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "0bc852be9b930ea2": {
+      "source": "PhysOrg",
+      "title": "Nightjar wings reveal a trade-off between hunting slowly and traveling far",
+      "published": "2026-10-09T18:40:14+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "c0c9aa43c599ddb0": {
+      "source": "ScienceDaily",
+      "title": "Neanderthals may have used prehistoric glue as an ancient antibiotic",
+      "published": "2026-10-11T00:45:37+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "69322226f170cacd": {
+      "source": "PhysOrg",
+      "title": "Jurassic fossil reveals ancient origins of how mammals drink milk",
+      "published": "2026-10-11T16:00:04+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "a3181a160621e1bb": {
+      "source": "ScienceDaily",
+      "title": "Archaeologists discover 1,200-year-old mummified hairless dog in Peru",
+      "published": "2026-10-18T02:32:58+00:00",
+      "first_seen": "2026-10-19T03:04:20.471455+10:00",
+      "category": "archaeology"
+    },
+    "daa5f3aed5368f2b": {
+      "source": "Marca",
+      "title": "Jos\u00e9 Alberto: \"Ha habido muchos condicionantes externos que han afectado en el resultado\"",
+      "published": "2026-10-18T14:26:53+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "4c0e354ae55e56ec": {
+      "source": "Marca",
+      "title": "El 'efecto Jagoba' es inmediato",
+      "published": "2026-10-18T14:37:47+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "8175a857b874ea49": {
+      "source": "Marca",
+      "title": "Arrasate: \"Me hac\u00eda m\u00e1s falta la victoria a m\u00ed que a los jugadores, yo llevaba m\u00e1s tiempo sin ganar\"",
+      "published": "2026-10-18T14:41:25+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "1c17507006609f40": {
+      "source": "Marca",
+      "title": "Pablo Garc\u00eda, muy cr\u00edtico: \"Hay que mirarse un poco el ombligo todo el mundo\"",
+      "published": "2026-10-18T14:57:37+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "68bedb26864ccdc0": {
+      "source": "Marca",
+      "title": "Budimir: \"Osasuna y Jagoba son como el bot\u00f3n y la camisa\"",
+      "published": "2026-10-18T15:05:14+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "2a46c83a1f8609d5": {
+      "source": "Kicker",
+      "title": "FC Paris - Rennes: Tor zum 2:1 durch Lopez in der 45.+4 Minute",
+      "published": "2026-10-18T16:13:08+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "02c262277013bd24": {
+      "source": "Kicker",
+      "title": "Statement nach dem Trainerbeben: Trier dreht 0:2-R\u00fcckstand gegen den FSV Frankfurt",
+      "published": "2026-10-18T16:25:22+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "d4c4cd2176cee302": {
+      "source": "Marca",
+      "title": "El Celta encadena dos victorias ligueras en Bala\u00eddos nueve meses despu\u00e9s",
+      "published": "2026-10-18T16:27:31+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "44acaf56bb514c47": {
+      "source": "Kicker",
+      "title": "\"Wir sind im Flow\": Oppie als Symbol der neuen Konstanz",
+      "published": "2026-10-18T16:29:19+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "f4c3252915acb633": {
+      "source": "Kicker",
+      "title": "Milan - Atalanta: Tor zum 1:0 durch Goncalo Ramos in der 24. Minute",
+      "published": "2026-10-18T16:29:30+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "aa7d5c5a360e6a8e": {
+      "source": "Kicker",
+      "title": "No\u00df butterweich, Duman eiskalt: K\u00f6ln entf\u00fchrt einen Punkt aus Duisburg",
+      "published": "2026-10-18T16:31:48+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "f3f4497d701311fa": {
+      "source": "Kicker",
+      "title": "Eintracht Frankfurt stellt Sportvorstand Kr\u00f6sche frei",
+      "published": "2026-10-18T16:35:04+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "3c87f8bc6ff89cac": {
+      "source": "Kicker",
+      "title": "Malaga - San Sebastian: Tor zum 0:1 durch Kubo in der 3. Minute",
+      "published": "2026-10-18T16:38:18+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "99ef07057ad1e31f": {
+      "source": "Kicker",
+      "title": "LOR - Monaco: Tor in der 61. Minute",
+      "published": "2026-10-18T16:39:38+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "ff2b311fe4d5eab2": {
+      "source": "Kicker",
+      "title": "LOR - Monaco: Elfmeter in der 61. Minute",
+      "published": "2026-10-18T16:39:50+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "e25fd3a3b5f597a5": {
+      "source": "Kicker",
+      "title": "Le Havre - Auxerre: Tor zum 0:2 durch Danny Namaso in der 61. Minute",
+      "published": "2026-10-18T16:40:01+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "d85b764a083dc864": {
+      "source": "Kicker",
+      "title": "Le Havre - Auxerre: Tor zum 1:2 durch Fofana in der 66. Minute",
+      "published": "2026-10-18T16:43:40+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "abad6f701cd6baf5": {
+      "source": "Kicker",
+      "title": "Zwei Verletzte und eine Versp\u00e4tung: Flicks Sorgen vor Paris",
+      "published": "2026-10-18T16:46:46+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "93bcc505e632bd5d": {
+      "source": "Kicker",
+      "title": "Milan - Atalanta: Tor zum 2:0 durch Rabiot in der 43. Minute",
+      "published": "2026-10-18T16:49:15+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "f803f828448ee6b7": {
+      "source": "Kicker",
+      "title": "Bestes Erkenntnis: \"Wir waren zu gierig\"",
+      "published": "2026-10-18T16:50:11+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "632f3d9bd73d719d": {
+      "source": "Kicker",
+      "title": "LIVE! Erf\u00fcllt Wolfsburg die Pflichtaufgabe in Mainz?",
+      "published": "2026-10-18T16:51:09+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "077a21baf990d894": {
+      "source": "Kicker",
+      "title": "LIVE! Prass kontert Mohya - Nicolas pariert gegen Hlozek",
+      "published": "2026-10-18T16:53:32+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "b0de8b2538f744f8": {
+      "source": "Marca",
+      "title": "Javi Rodr\u00edguez: \u201cLo doy todo por esta camiseta y estoy muy feliz\"",
+      "published": "2026-10-18T16:58:46+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "99f4dbf1b862450b": {
+      "source": "Kicker",
+      "title": "Le Havre - Auxerre: Tor zum 1:3 durch Faivre in der 80. Minute",
+      "published": "2026-10-18T16:59:12+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "74088576c2e32ae7": {
+      "source": "Kicker",
+      "title": "FC Paris - Rennes: Tor zum 2:2 durch Lepaul in der 74. Minute",
+      "published": "2026-10-18T16:59:30+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
+    },
+    "76a8d4b35a6b3507": {
+      "source": "Kicker",
+      "title": "FC Paris - Rennes: Tor zum 2:2 durch Lepaul in der 74. Minute",
+      "published": "2026-10-18T17:00:11+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football",
+      "duplicate_of": "74088576c2e32ae7"
+    },
+    "140c4531b57f52f1": {
+      "source": "Kicker",
+      "title": "Malaga - San Sebastian: Tor zum 0:2 durch Oskarsson in der 26. Minute",
+      "published": "2026-10-18T17:00:59+00:00",
+      "first_seen": "2026-10-19T03:04:24.819111+10:00",
+      "category": "football"
     }
   }
 }

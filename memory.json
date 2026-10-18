@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-18T04:54:54.869004+00:00",
+  "last_gdelt_attempt": "2026-10-18T08:32:54.531820+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -25466,6 +25466,537 @@
       "published": "2026-10-18T05:53:33+00:00",
       "first_seen": "2026-10-18T16:11:48.194492+10:00",
       "category": "breaking"
+    },
+    "43b09a76259951eb": {
+      "source": "BBC News",
+      "title": "Student who spells by blinking is denied chance to sit exam",
+      "published": "2026-10-13T07:00:39+00:00",
+      "first_seen": "2026-10-18T18:33:21.167526+10:00",
+      "category": "breaking"
+    },
+    "82332b8128c93b7c": {
+      "source": "BBC News",
+      "title": "Horse-drawn carriages in New York City expected to be outlawed",
+      "published": "2026-10-13T20:45:33+00:00",
+      "first_seen": "2026-10-18T18:33:21.167526+10:00",
+      "category": "breaking"
+    },
+    "63ebe766ab75ef02": {
+      "source": "BBC News",
+      "title": "Watch: Police hunting for synthetic drugs in Chicago jail",
+      "published": "2026-10-18T05:30:16+00:00",
+      "first_seen": "2026-10-18T18:33:21.167526+10:00",
+      "category": "breaking"
+    },
+    "18744bc780c866b8": {
+      "source": "Al Jazeera",
+      "title": "Daniel Dubois defeats Fabio Wardley to retain WBO heavyweight boxing title",
+      "published": "2026-10-18T06:34:02+00:00",
+      "first_seen": "2026-10-18T18:33:21.167526+10:00",
+      "category": "breaking"
+    },
+    "c5890a136f10196c": {
+      "source": "Al Jazeera",
+      "title": "Israel\u2019s ties with Europe are fraying. Can its election change that?",
+      "published": "2026-10-18T07:05:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.167526+10:00",
+      "category": "breaking"
+    },
+    "7a44c3bbe782e7d8": {
+      "source": "Al Jazeera",
+      "title": "WNBA Finals: Gabby Williams leads Valkyries to nervy Game 1 win over Dream",
+      "published": "2026-10-18T07:08:33+00:00",
+      "first_seen": "2026-10-18T18:33:21.167526+10:00",
+      "category": "breaking"
+    },
+    "16c440d7c6796176": {
+      "source": "Al Jazeera",
+      "title": "Why Iran-US negotiations keep failing",
+      "published": "2026-10-18T07:32:59+00:00",
+      "first_seen": "2026-10-18T18:33:21.167526+10:00",
+      "category": "breaking"
+    },
+    "a5d365ed01c0515b": {
+      "source": "Al Jazeera",
+      "title": "There is no split in MAGA",
+      "published": "2026-10-18T08:14:05+00:00",
+      "first_seen": "2026-10-18T18:33:21.167526+10:00",
+      "category": "breaking"
+    },
+    "8345db26ab3b2c3f": {
+      "source": "BBC News",
+      "title": "Police officer in hospital after being shot in Nottingham",
+      "published": "2026-10-18T08:26:14+00:00",
+      "first_seen": "2026-10-18T18:33:21.167526+10:00",
+      "category": "breaking"
+    },
+    "e53b42fd16f16884": {
+      "source": "ABC News",
+      "title": "Tim Winton's Cloudstreet wins Top 100 Australian Books countdown \u2014 as it happened",
+      "published": "2026-10-18T03:36:40+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "d299dc5120e3171b": {
+      "source": "ABC News",
+      "title": "Man in custody after allegedly stabbing woman",
+      "published": "2026-10-18T04:15:44+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "0f24793fdc40795d": {
+      "source": "ABC News",
+      "title": "Labor pledges $30 toll cap as Coalition targets gas ban",
+      "published": "2026-10-18T04:37:04+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "bbb165a9de6d8576": {
+      "source": "ABC News",
+      "title": "Violence forces lockdown, early closure of Perth agricultural show",
+      "published": "2026-10-18T04:44:13+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "c6793f423067b597": {
+      "source": "ABC News",
+      "title": "Two people in custody after protest at offshore Woodside gas platform",
+      "published": "2026-10-18T05:52:40+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "18d18d62c96698f8": {
+      "source": "ABC News",
+      "title": "Live: Diamonds fall short against Silver Ferns in Constellation Cup opener",
+      "published": "2026-10-18T06:24:46+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "9da714361ce8a388": {
+      "source": "ABC News",
+      "title": "Teenage boy rescued from Brisbane stormwater drain",
+      "published": "2026-10-18T06:58:30+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "7f3d847e84f05230": {
+      "source": "ABC News",
+      "title": "Live: Australia to unleash all-out pace attack in second Test against RSA",
+      "published": "2026-10-18T07:09:42+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "4d56eef518ed23ab": {
+      "source": "SMH",
+      "title": "Labor unveils $30 road toll cap in Victoria",
+      "published": "2026-10-18T07:31:08+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "4e11f692f537bfa5": {
+      "source": "The Age",
+      "title": "Labor unveils $30 road toll cap in Victoria",
+      "published": "2026-10-18T07:31:08+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "4d56eef518ed23ab"
+    },
+    "c3004beb6f16f9b8": {
+      "source": "SMH",
+      "title": "Two injured in Melbourne shooting",
+      "published": "2026-10-18T07:36:33+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "81716f2badfc571c": {
+      "source": "The Age",
+      "title": "Two injured in Melbourne shooting",
+      "published": "2026-10-18T07:36:33+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "c3004beb6f16f9b8"
+    },
+    "f6f99d3ffd05a9df": {
+      "source": "ABC News",
+      "title": "Kangaroos flick switch to kill off Bombers' resistance",
+      "published": "2026-10-18T07:48:55+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "55fc3820d44ca3e6": {
+      "source": "SMH",
+      "title": "Fire rips through Clovelly headland",
+      "published": "2026-10-18T07:57:24+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "78201c39bb0d02bf": {
+      "source": "The Age",
+      "title": "Fire rips through Clovelly headland",
+      "published": "2026-10-18T07:57:24+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "55fc3820d44ca3e6"
+    },
+    "d6577e3db2777fe2": {
+      "source": "SMH",
+      "title": "Navy bosses condemn hidden camera incident",
+      "published": "2026-10-18T07:57:47+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "371f42764b119999": {
+      "source": "The Age",
+      "title": "Navy bosses condemn hidden camera incident",
+      "published": "2026-10-18T07:57:47+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "d6577e3db2777fe2"
+    },
+    "8e5f77672251dfe0": {
+      "source": "SMH",
+      "title": "Crisis at Sydney hospital over unread emails",
+      "published": "2026-10-18T07:58:09+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "80d2621fc20c696b": {
+      "source": "The Age",
+      "title": "Crisis at Sydney hospital over unread emails",
+      "published": "2026-10-18T07:58:09+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "8e5f77672251dfe0"
+    },
+    "e1a6d6fd9c5764cf": {
+      "source": "SMH",
+      "title": "Two dead after ute drives through US football match",
+      "published": "2026-10-18T07:58:44+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "a021df3fb1bbc87d": {
+      "source": "The Age",
+      "title": "Two dead after ute drives through US football match",
+      "published": "2026-10-18T07:58:44+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "e1a6d6fd9c5764cf"
+    },
+    "0974688697e5e75b": {
+      "source": "SMH",
+      "title": "Woman arrested over Adelaide hit-run spree",
+      "published": "2026-10-18T07:59:12+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "2185af70a4b469c1": {
+      "source": "The Age",
+      "title": "Woman arrested over Adelaide hit-run spree",
+      "published": "2026-10-18T07:59:12+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "0974688697e5e75b"
+    },
+    "08e6077d59f718d2": {
+      "source": "SMH",
+      "title": "Deadly fire rips through Canadian military base",
+      "published": "2026-10-18T07:59:50+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "74fcb63b85bf79da": {
+      "source": "The Age",
+      "title": "Deadly fire rips through Canadian military base",
+      "published": "2026-10-18T07:59:50+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "08e6077d59f718d2"
+    },
+    "b18a83fcbe623ddc": {
+      "source": "ABC News",
+      "title": "Two teenagers arrested after fight involving dozens of youth at Glenelg",
+      "published": "2026-10-18T08:00:24+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "6f129621644cfbfc": {
+      "source": "SMH",
+      "title": "Hundreds of Whyalla workers offered lifeline",
+      "published": "2026-10-18T08:01:29+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "57bb8cfe6e56aceb": {
+      "source": "The Age",
+      "title": "Hundreds of Whyalla workers offered lifeline",
+      "published": "2026-10-18T08:01:29+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "6f129621644cfbfc"
+    },
+    "ce14e2c3e79b15f4": {
+      "source": "SMH",
+      "title": "Pope Leo emerges from hospital after cancer surgery",
+      "published": "2026-10-18T08:01:58+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "31ab23759fb7fa94": {
+      "source": "The Age",
+      "title": "Pope Leo emerges from hospital after cancer surgery",
+      "published": "2026-10-18T08:01:58+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "ce14e2c3e79b15f4"
+    },
+    "c6614b8641e25710": {
+      "source": "SMH",
+      "title": "Boy, 13, charged over alleged sex offences in Narrabeen",
+      "published": "2026-10-18T08:02:35+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "e9416ea688e29af7": {
+      "source": "The Age",
+      "title": "Boy, 13, charged over alleged sex offences in Narrabeen",
+      "published": "2026-10-18T08:02:35+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "c6614b8641e25710"
+    },
+    "5fe412807d427c87": {
+      "source": "SMH",
+      "title": "Man, 93, arrested over Sydney shopping centre stabbing",
+      "published": "2026-10-18T08:03:19+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "d26ed753e2a2b373": {
+      "source": "The Age",
+      "title": "Man, 93, arrested over Sydney shopping centre stabbing",
+      "published": "2026-10-18T08:03:19+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "5fe412807d427c87"
+    },
+    "30701626c7649212": {
+      "source": "ABC News",
+      "title": "Fatalities as 'serious incident' causes fire at Canadian military base",
+      "published": "2026-10-18T08:07:16+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "ae8871d8d343a747": {
+      "source": "SMH",
+      "title": "\u2018They shoot from the hip before they digest it\u2019: Purton defends Everest ride",
+      "published": "2026-10-18T08:18:19+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "2f28664193ea7b7d": {
+      "source": "The Age",
+      "title": "\u2018They shoot from the hip before they digest it\u2019: Purton defends Everest ride",
+      "published": "2026-10-18T08:18:19+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "ae8871d8d343a747"
+    },
+    "e57815d1f50af252": {
+      "source": "SMH",
+      "title": "Man found dead in north Brisbane bushland",
+      "published": "2026-10-18T08:20:36+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "970ed93dd6d4c626": {
+      "source": "The Age",
+      "title": "Man found dead in north Brisbane bushland",
+      "published": "2026-10-18T08:20:36+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "e57815d1f50af252"
+    },
+    "8286cfdc5ac01217": {
+      "source": "SMH",
+      "title": "Australia vs South Africa LIVE: Boland wins selection battle over Lyon as Australia win the toss and bowl in Gqeberha",
+      "published": "2026-10-18T08:27:35+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "0e00428e81cf2163": {
+      "source": "The Age",
+      "title": "Australia vs South Africa LIVE: Boland wins selection battle over Lyon as Australia win the toss and bowl in Gqeberha",
+      "published": "2026-10-18T08:27:35+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "8286cfdc5ac01217"
+    },
+    "9cf3163d89de0921": {
+      "source": "SMH",
+      "title": "There\u2019s snow business: Veteran Santa buckles up for another Christmas",
+      "published": "2026-10-18T08:30:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "8e0241740fb47731": {
+      "source": "SMH",
+      "title": "From galas to art shows: The real cost of being a private school parent",
+      "published": "2026-10-18T08:30:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "4f131c9f024a9521": {
+      "source": "SMH",
+      "title": "Trying to find a job is now as toxic as dating apps. I want a career, not a booty call",
+      "published": "2026-10-18T08:30:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "8c22bfa95aacd6b0": {
+      "source": "SMH",
+      "title": "\u2018I\u2019m afraid of civil war\u2019: The voters travelling from Australia to vote against Netanyahu",
+      "published": "2026-10-18T08:30:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "e3c9b17ff9427b9c": {
+      "source": "SMH",
+      "title": "\u2018One in 72 billion chance\u2019: Sydney golfer does unthinkable with back-to-back albatross and hole in one",
+      "published": "2026-10-18T08:30:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia"
+    },
+    "81a009898f354e02": {
+      "source": "The Age",
+      "title": "There\u2019s snow business: Veteran Santa buckles up for another Christmas",
+      "published": "2026-10-18T08:30:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "9cf3163d89de0921"
+    },
+    "6b1fe70fd53852fb": {
+      "source": "The Age",
+      "title": "From galas to art shows: The real cost of being a private school parent",
+      "published": "2026-10-18T08:30:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "8e0241740fb47731"
+    },
+    "ce7c33c335168cad": {
+      "source": "The Age",
+      "title": "Trying to find a job is now as toxic as dating apps. I want a career, not a booty call",
+      "published": "2026-10-18T08:30:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "4f131c9f024a9521"
+    },
+    "ec9430557d60f987": {
+      "source": "The Age",
+      "title": "\u2018I\u2019m afraid of civil war\u2019: The voters travelling from Australia to vote against Netanyahu",
+      "published": "2026-10-18T08:30:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "8c22bfa95aacd6b0"
+    },
+    "6e971f4c85ea0613": {
+      "source": "The Age",
+      "title": "\u2018One in 72 billion chance\u2019: Sydney golfer does unthinkable with back-to-back albatross and hole in one",
+      "published": "2026-10-18T08:30:00+00:00",
+      "first_seen": "2026-10-18T18:33:21.807966+10:00",
+      "category": "australia",
+      "duplicate_of": "e3c9b17ff9427b9c"
+    },
+    "9773c1d612c56907": {
+      "source": "Marca",
+      "title": "El problema del Real Madrid no es Tebas ni Goebbels, \u00bfcu\u00e1l es?",
+      "published": "2026-10-18T05:14:44+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "614ce4ff7f2d161c": {
+      "source": "Marca",
+      "title": "\"A Mourinho la moviola le da la raz\u00f3n y el c\u00e9sped se la quita\"",
+      "published": "2026-10-18T05:15:41+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "2c152dc4866259e6": {
+      "source": "Kicker",
+      "title": "Dribblings wie in alten Zeiten: Messis neueste Gala im Video",
+      "published": "2026-10-18T06:04:32+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "8e2d365ec00684de": {
+      "source": "Kicker",
+      "title": "\u00dcberragender Messi sorgt f\u00fcr Schwindelanf\u00e4lle - Mukhtar vor Titel",
+      "published": "2026-10-18T06:06:41+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "343b76d6592741a0": {
+      "source": "Kicker",
+      "title": "Griezmann leitet ein: Sensationelles Tor in der MLS",
+      "published": "2026-10-18T06:06:48+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "8027b00516a74390": {
+      "source": "Marca",
+      "title": "Mou alumbra un nuevo tridente",
+      "published": "2026-10-18T06:47:04+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "7b0c22fba2a8fcad": {
+      "source": "Kicker",
+      "title": "\"Man musste warten, bis er wieder rausl\u00e4uft, um sich Hilfe zu holen\"",
+      "published": "2026-10-18T07:08:53+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "62db3fb3f9e68bf5": {
+      "source": "Kicker",
+      "title": "Rooneys 16-j\u00e4hriger Sohn deb\u00fctiert f\u00fcr Manchester Uniteds U 21",
+      "published": "2026-10-18T07:14:37+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "4edef21e2c5c7037": {
+      "source": "Kicker",
+      "title": "Haching schl\u00e4gt Bayern - Torflut in Stuttgart - Stadtduell beim HSV",
+      "published": "2026-10-18T07:45:59+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "ef0608e639d23b9b": {
+      "source": "Kicker",
+      "title": "Flick \u00fcber Lamine Yamal: \"So verhalten sich wirklich gro\u00dfe Spieler\"",
+      "published": "2026-10-18T07:47:17+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "da2af96253794a74": {
+      "source": "Kicker",
+      "title": "Kanes Sonderrolle: Wie Bayern Leipzig demontierte",
+      "published": "2026-10-18T07:54:36+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "3edc2078ab7f5796": {
+      "source": "Marca",
+      "title": "La tortura de la grada de Mestalla a Hugo Duro",
+      "published": "2026-10-18T08:02:11+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
+    },
+    "f12b0de733020c94": {
+      "source": "Kicker",
+      "title": "Nach heftigem Zusammenprall: Chelsea-Keeper Martinez meldet sich mit Selfie",
+      "published": "2026-10-18T08:14:22+00:00",
+      "first_seen": "2026-10-18T18:33:29.183314+10:00",
+      "category": "football"
     }
   }
 }

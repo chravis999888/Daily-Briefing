@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-18T16:02:47.057531+00:00",
+  "last_gdelt_attempt": "2026-10-18T18:46:04.076620+00:00",
   "article_store": {
     "3e6a5435d903ee9b": {
       "source": "BBC News",
@@ -25447,6 +25447,48 @@
       "published": "2026-10-18T17:00:59+00:00",
       "first_seen": "2026-10-19T03:04:24.819111+10:00",
       "category": "football"
+    },
+    "9842804e4ed6abe7": {
+      "source": "Al Jazeera",
+      "title": "Trump endorses Netanyahu in Israeli legislative elections",
+      "published": "2026-10-18T16:36:26+00:00",
+      "first_seen": "2026-10-19T04:46:27.054081+10:00",
+      "category": "breaking"
+    },
+    "69530b3dd759b68a": {
+      "source": "Al Jazeera",
+      "title": "Residents recount drone strikes in Ethiopia\u2019s northern Tigray region",
+      "published": "2026-10-18T17:20:20+00:00",
+      "first_seen": "2026-10-19T04:46:27.054081+10:00",
+      "category": "breaking"
+    },
+    "805e20b40d724904": {
+      "source": "Al Jazeera",
+      "title": "Madueke scores only goal as below-par Arsenal beat Nottingham Forest",
+      "published": "2026-10-18T17:48:17+00:00",
+      "first_seen": "2026-10-19T04:46:27.054081+10:00",
+      "category": "breaking"
+    },
+    "3c0e6bfa7d03f68a": {
+      "source": "BBC News",
+      "title": "What we know so far about deadly fire at Canadian military base",
+      "published": "2026-10-18T17:48:53+00:00",
+      "first_seen": "2026-10-19T04:46:27.054081+10:00",
+      "category": "breaking"
+    },
+    "34881e4291e36471": {
+      "source": "Al Jazeera",
+      "title": "JERUSALEM DAILY: Settlers attack EU diplomats",
+      "published": "2026-10-18T17:52:37+00:00",
+      "first_seen": "2026-10-19T04:46:27.054081+10:00",
+      "category": "breaking"
+    },
+    "422176eae8462487": {
+      "source": "Al Jazeera",
+      "title": "Indian Bollywood superstar Tiger Shroff allegedly shot at by gunmen",
+      "published": "2026-10-18T17:58:49+00:00",
+      "first_seen": "2026-10-19T04:46:27.054081+10:00",
+      "category": "breaking"
     }
   }
 }

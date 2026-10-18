@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-18T11:33:19.796790+00:00",
+  "last_gdelt_attempt": "2026-10-18T13:45:58.485491+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -26172,6 +26172,474 @@
       "published": "2026-10-18T11:26:35+00:00",
       "first_seen": "2026-10-18T21:33:43.092422+10:00",
       "category": "breaking"
+    },
+    "a2cf82b10495de16": {
+      "source": "Al Jazeera",
+      "title": "Funeral held for 75 Palestinians after remains recovered from Gaza ruins",
+      "published": "2026-10-18T11:24:43+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking"
+    },
+    "57605e8821c0a3b5": {
+      "source": "BBC News",
+      "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+      "published": "2026-10-18T11:57:49+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking"
+    },
+    "d1ba31973774fbe6": {
+      "source": "Al Jazeera",
+      "title": "Who is Mehrdad Akhlaghi, Iran\u2019s new tech-focused defence minister?",
+      "published": "2026-10-18T12:00:04+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking"
+    },
+    "2f7afa3d89bacb29": {
+      "source": "Al Jazeera",
+      "title": "There\u2019s a \u2018New Middle East\u2019, but not the one Israel planned",
+      "published": "2026-10-18T12:07:34+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking"
+    },
+    "55c7719a455479eb": {
+      "source": "Al Jazeera",
+      "title": "Nottingham Forest vs Arsenal LIVE: Premier League",
+      "published": "2026-10-18T12:30:00+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking",
+      "duplicate_of": "af05661c9502be04"
+    },
+    "a76e632a4832aed7": {
+      "source": "Al Jazeera",
+      "title": "Why have settler pogroms surged during olive harvest season in West Bank?",
+      "published": "2026-10-18T12:35:56+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking"
+    },
+    "6c4d8aebeee7a64d": {
+      "source": "Al Jazeera",
+      "title": "Paris residents tell Al Jazeera they\u2019re dismayed by protest damage",
+      "published": "2026-10-18T12:44:26+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking"
+    },
+    "75182274ece0bfae": {
+      "source": "Al Jazeera",
+      "title": "Is FIFA scrapping its peace prize after awarding it to US President Trump?",
+      "published": "2026-10-18T12:49:57+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking"
+    },
+    "f421ad5c586e983b": {
+      "source": "Al Jazeera",
+      "title": "Paris left reeling as student-led protests turn chaotic",
+      "published": "2026-10-18T13:08:06+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking"
+    },
+    "cf81f1ad77bad09f": {
+      "source": "Al Jazeera",
+      "title": "Gaza families fear food shortages as Israel halts commercial shipments",
+      "published": "2026-10-18T13:16:13+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking"
+    },
+    "ddb2a29159d59aaa": {
+      "source": "Al Jazeera",
+      "title": "Was ancient India the world\u2019s forgotten superpower?",
+      "published": "2026-10-18T13:17:31+00:00",
+      "first_seen": "2026-10-18T23:46:21.140273+10:00",
+      "category": "breaking"
+    },
+    "4ef7f9f44da41de4": {
+      "source": "ABC News",
+      "title": "Diamonds centurions forced to the bench in Constellation Cup loss",
+      "published": "2026-10-18T06:24:46+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "6ed6150964189423": {
+      "source": "SMH",
+      "title": "More than 10,000 apartments delayed across Queensland",
+      "published": "2026-10-18T08:39:56+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "e3b8539a1713bda9": {
+      "source": "The Age",
+      "title": "More than 10,000 apartments delayed across Queensland",
+      "published": "2026-10-18T08:39:56+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "6ed6150964189423"
+    },
+    "41222c57c54072be": {
+      "source": "SMH",
+      "title": "Man killed in alleged stabbing in Melbourne",
+      "published": "2026-10-18T08:40:29+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "e8b0b2c8f9bb714a": {
+      "source": "The Age",
+      "title": "Man killed in alleged stabbing in Melbourne",
+      "published": "2026-10-18T08:40:29+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "41222c57c54072be"
+    },
+    "6768d16577af74ab": {
+      "source": "SMH",
+      "title": "\u2018What\u2019s the next Cochlear implant?\u2019 Melbourne Uni\u2019s bold plan for renewed optimism",
+      "published": "2026-10-18T08:45:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "837209e4b96ad737": {
+      "source": "The Age",
+      "title": "\u2018What\u2019s the next Cochlear implant?\u2019 Melbourne Uni\u2019s bold plan for renewed optimism",
+      "published": "2026-10-18T08:45:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "6768d16577af74ab"
+    },
+    "700586a7701f595c": {
+      "source": "The Age",
+      "title": "Barbarians at the gate? Time to write a letter",
+      "published": "2026-10-18T09:00:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "6be3e8f4d2dacb9b": {
+      "source": "SMH",
+      "title": "Package deal: St Kilda moves in on Jake Stringer",
+      "published": "2026-10-18T09:31:08+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "3f0306997d107da1": {
+      "source": "The Age",
+      "title": "Package deal: St Kilda moves in on Jake Stringer",
+      "published": "2026-10-18T09:31:08+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "6be3e8f4d2dacb9b"
+    },
+    "f85c5df47b3c58e8": {
+      "source": "SMH",
+      "title": "\u2018I couldn\u2019t account for it\u2019: Sue Neill-Fraser opens up on lies to police after partner vanished",
+      "published": "2026-10-18T09:40:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "b612af87d2110d4c": {
+      "source": "The Age",
+      "title": "\u2018I couldn\u2019t account for it\u2019: Sue Neill-Fraser opens up on lies to police after partner vanished",
+      "published": "2026-10-18T09:40:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "f85c5df47b3c58e8"
+    },
+    "eb5017926fd65e53": {
+      "source": "SMH",
+      "title": "Walkman down memory lane",
+      "published": "2026-10-18T10:00:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "41d10a6c99089b77": {
+      "source": "SMH",
+      "title": "\u2018Beyond thankful\u2019: How $1 million tech gave five-year-old stroke survivor her childhood back",
+      "published": "2026-10-18T10:00:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "fffd8e3b4e418ac6": {
+      "source": "The Age",
+      "title": "Walkman down memory lane",
+      "published": "2026-10-18T10:00:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "eb5017926fd65e53"
+    },
+    "0ccfe3abb94e76e6": {
+      "source": "The Age",
+      "title": "\u2018Beyond thankful\u2019: How $1 million tech gave five-year-old stroke survivor her childhood back",
+      "published": "2026-10-18T10:00:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "41d10a6c99089b77"
+    },
+    "fd48607105019778": {
+      "source": "ABC News",
+      "title": "Australia claims second silver at track cycling world championships",
+      "published": "2026-10-18T11:11:13+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "88c5699b03f378ab": {
+      "source": "SMH",
+      "title": "RBA\u2019s worst nightmare as oil pushes up inflation threat",
+      "published": "2026-10-18T11:30:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "b19fea1b06dbebb8": {
+      "source": "The Age",
+      "title": "RBA\u2019s worst nightmare as oil pushes up inflation threat",
+      "published": "2026-10-18T11:30:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "88c5699b03f378ab"
+    },
+    "85eed4bc2370281a": {
+      "source": "SMH",
+      "title": "Best of cartoons, October 19, 2026",
+      "published": "2026-10-18T11:38:38+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "5028f1c8ab0b33ad": {
+      "source": "The Age",
+      "title": "Best of cartoons, October 19, 2026",
+      "published": "2026-10-18T11:38:38+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "85eed4bc2370281a"
+    },
+    "1cbc50da755f8d72": {
+      "source": "SMH",
+      "title": "Debutant off the mark in nervy moment",
+      "published": "2026-10-18T12:30:35+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "cac442f062863e69": {
+      "source": "The Age",
+      "title": "Debutant off the mark in nervy moment",
+      "published": "2026-10-18T12:30:35+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "1cbc50da755f8d72"
+    },
+    "16eaef528b47e2a7": {
+      "source": "SMH",
+      "title": "\u2018Nasty political games\u2019: Steele-John claims rumours were weaponised, denies taking leave",
+      "published": "2026-10-18T12:30:46+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "74a9127bd005fea0": {
+      "source": "The Age",
+      "title": "\u2018Nasty political games\u2019: Steele-John claims rumours were weaponised, denies taking leave",
+      "published": "2026-10-18T12:30:46+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "16eaef528b47e2a7"
+    },
+    "1aab7dc32b9aef01": {
+      "source": "ABC News",
+      "title": "Aussies survives dramatic collapse to beat New Zealand in first women's T20",
+      "published": "2026-10-18T12:37:51+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "ed654f449e908811": {
+      "source": "ABC News",
+      "title": "Jordon Steele-John says he has been falsely accused of inappropriate conduct",
+      "published": "2026-10-18T12:53:10+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "52e038a7054f70cf": {
+      "source": "SMH",
+      "title": "Superquiz, Monday, October 19",
+      "published": "2026-10-18T12:59:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia"
+    },
+    "d0a6d2b181970eb3": {
+      "source": "The Age",
+      "title": "Superquiz, Monday, October 19",
+      "published": "2026-10-18T12:59:00+00:00",
+      "first_seen": "2026-10-18T23:46:22.153155+10:00",
+      "category": "australia",
+      "duplicate_of": "52e038a7054f70cf"
+    },
+    "88a3a94d11a8c242": {
+      "source": "Marca",
+      "title": "Maroan aspira a recuperar en Levante los galones perdidos por la tormenta",
+      "published": "2026-10-18T10:02:21+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "49278d224b26958d": {
+      "source": "Marca",
+      "title": "El Athletic espera con nervios las pruebas en la rodilla a Guruzeta",
+      "published": "2026-10-18T10:15:10+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "ecac9d5ef095b438": {
+      "source": "Marca",
+      "title": "Real Madrid - Sevilla FC: horario, d\u00f3nde ver en TV y canal del partido de LaLiga EA Sports",
+      "published": "2026-10-18T10:20:33+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "366cad942c10dfd8": {
+      "source": "Marca",
+      "title": "Una Real aspirina para el M\u00e1laga",
+      "published": "2026-10-18T10:29:20+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "212637f2f68e775d": {
+      "source": "Marca",
+      "title": "Bordal\u00e1s: \"\u00bfCarvajal? Hasta ma\u00f1ana no tomar\u00e9 la decisi\u00f3n\"",
+      "published": "2026-10-18T10:37:48+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "81dfa688a06929f4": {
+      "source": "Kicker",
+      "title": "Die Trainer in der 3. Liga f\u00fcr die Saison 2026/27",
+      "published": "2026-10-18T10:46:14+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "d850106f6ab6d49a": {
+      "source": "Kicker",
+      "title": "Udinese - Lecce: Tor zum 0:1 durch Gaspar in der 11. Minute",
+      "published": "2026-10-18T10:47:42+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "82c627413c77b7ac": {
+      "source": "Kicker",
+      "title": "LIVE! Oldenburg beim HSV II gefordert - Todesfelde gegen formstarken HSC",
+      "published": "2026-10-18T10:56:17+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "e1d1a50a07cf5c37": {
+      "source": "Kicker",
+      "title": "Lukovics spezieller Deb\u00fct-Treffer f\u00fcr den FCK - und eine \"Riesenehre\" f\u00fcr Elvedi",
+      "published": "2026-10-18T11:07:39+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "22115f4bc342ae43": {
+      "source": "Kicker",
+      "title": "Udinese - Lecce: Tor zum 0:2 durch N'Dri in der 33. Minute",
+      "published": "2026-10-18T11:09:49+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "2efa10e76cf470f5": {
+      "source": "Kicker",
+      "title": "H\u00f6her, tiefer, zentraler: Wie ein Wiesbadener Trio von Neu-Coach Seitz profitiert",
+      "published": "2026-10-18T11:25:44+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "2bdfca47208ffa23": {
+      "source": "Kicker",
+      "title": "Das Ende der wilden Aktionen: Wie Sch\u00e4fer Union jetzt stabilisiert",
+      "published": "2026-10-18T11:50:23+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "5439c25fab86f455": {
+      "source": "Marca",
+      "title": "El regreso agridulce de Lo Celso",
+      "published": "2026-10-18T11:50:33+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "aa907d98d705696f": {
+      "source": "Kicker",
+      "title": "Krankheitswelle: Werder gegen Hoffenheim kurzfristig abgesagt",
+      "published": "2026-10-18T12:07:28+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "60605cb093a1569b": {
+      "source": "Kicker",
+      "title": "Osasuna - Santander: Tor zum 1:0 durch Budimir in der 9. Minute",
+      "published": "2026-10-18T12:13:10+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "fd22c0b6aa0aac9a": {
+      "source": "Kicker",
+      "title": "Udinese - Lecce: Tor zum 0:3 durch Siebert in der 86. Minute",
+      "published": "2026-10-18T12:21:01+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "34ead608b1ac91ae": {
+      "source": "Kicker",
+      "title": "LIVE! Schick st\u00fcrmt im Topduell - Gro\u00dfe Rotation beim SC Freiburg",
+      "published": "2026-10-18T12:23:56+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "f44108e3146d790c": {
+      "source": "Kicker",
+      "title": "Fehlende Frische oder Muster? Dortmunds Suche nach der Durchschlagskraft",
+      "published": "2026-10-18T12:53:34+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "11c0df17e9e949a9": {
+      "source": "Kicker",
+      "title": "R\u00e4tselraten beim VfB: \"Angebliches Muster\" oder mehr?",
+      "published": "2026-10-18T12:56:51+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "9cd8161946d42b20": {
+      "source": "Kicker",
+      "title": "Alaba springt vorbei, Ex-Fortune Siebert macht alles klar: Lecce gewinnt  in Udine",
+      "published": "2026-10-18T13:11:48+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "8a7b57e33fe9fe70": {
+      "source": "Kicker",
+      "title": "Angers - Marseille: Tor zum 1:0 durch Raolisoa in der 14. Minute",
+      "published": "2026-10-18T13:20:07+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "1c36a5a5ba606f87": {
+      "source": "Kicker",
+      "title": "Zors Doppelpack stellt die Weichen - Kaube l\u00e4sst Ausgleichschance liegen",
+      "published": "2026-10-18T13:27:45+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "5728b751b692476e": {
+      "source": "Kicker",
+      "title": "Fiorentina - Como: Tor zum 0:1 durch Liberali in der 32. Minute",
+      "published": "2026-10-18T13:38:55+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "872108df31df1b74": {
+      "source": "Kicker",
+      "title": "Angers - Marseille: Tor zum 1:1 durch Abdelli in der 37. Minute",
+      "published": "2026-10-18T13:42:12+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
+    },
+    "663f0db81f302559": {
+      "source": "Kicker",
+      "title": "Fiorentina - Como: Tor zum 0:2 durch Paz in der 36. Minute",
+      "published": "2026-10-18T13:42:59+00:00",
+      "first_seen": "2026-10-18T23:46:30.929206+10:00",
+      "category": "football"
     }
   }
 }

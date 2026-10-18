@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-18T01:18:10.487458+00:00",
+  "last_gdelt_attempt": "2026-10-18T04:54:54.869004+00:00",
   "article_store": {
     "c5e49ba5b49f1bc3": {
       "source": "BBC News",
@@ -25389,6 +25389,34 @@
       "first_seen": "2026-10-18T13:06:39.411706+10:00",
       "category": "football",
       "duplicate_of": "0adc4c427fff96a2"
+    },
+    "1855e19447edb54e": {
+      "source": "Al Jazeera",
+      "title": "Rubio wants \u2018crackdown\u2019 on settler violence after US journalist attack",
+      "published": "2026-10-18T03:44:25+00:00",
+      "first_seen": "2026-10-18T14:55:16.056987+10:00",
+      "category": "breaking"
+    },
+    "ee7eccb8fefe832d": {
+      "source": "BBC News",
+      "title": "Deadly fire breaks out at Canada military base",
+      "published": "2026-10-18T04:00:50+00:00",
+      "first_seen": "2026-10-18T14:55:16.056987+10:00",
+      "category": "breaking"
+    },
+    "19e363ade8567871": {
+      "source": "Al Jazeera",
+      "title": "Tunisia\u2019s economic crisis deepens as the promise of a better life fades",
+      "published": "2026-10-18T04:14:42+00:00",
+      "first_seen": "2026-10-18T14:55:16.056987+10:00",
+      "category": "breaking"
+    },
+    "af3aaa0a5a550913": {
+      "source": "Al Jazeera",
+      "title": "At least 19 dead in stampede at Kolkata Hindu festival",
+      "published": "2026-10-18T04:21:46+00:00",
+      "first_seen": "2026-10-18T14:55:16.056987+10:00",
+      "category": "breaking"
     }
   }
 }

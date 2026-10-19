@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-19T03:20:14.168399+00:00",
+  "last_gdelt_attempt": "2026-10-19T05:31:07.262890+00:00",
   "article_store": {
     "dbe714c298d12c02": {
       "source": "BBC News",
@@ -25813,6 +25813,27 @@
       "title": "Pope greeted by crowds in first major appearance since lung cancer surgery",
       "published": "2026-10-19T04:42:13+00:00",
       "first_seen": "2026-10-19T15:04:01.634504+10:00",
+      "category": "breaking"
+    },
+    "61b4bcaaa4e39a0a": {
+      "source": "BBC News",
+      "title": "BBC visits wildfire front in haze-choked Indonesia",
+      "published": "2026-10-19T01:57:02+00:00",
+      "first_seen": "2026-10-19T15:31:29.685613+10:00",
+      "category": "breaking"
+    },
+    "fa576625ab744de0": {
+      "source": "BBC News",
+      "title": "Companies exploiting welfare system by using residents as 'cash cows,' BBC finds",
+      "published": "2026-10-19T04:59:47+00:00",
+      "first_seen": "2026-10-19T15:31:29.685613+10:00",
+      "category": "breaking"
+    },
+    "a9eaf5f84bc36f5b": {
+      "source": "BBC News",
+      "title": "NHS leaders say maternity care organisation is 'not fit for purpose'",
+      "published": "2026-10-19T05:00:08+00:00",
+      "first_seen": "2026-10-19T15:31:29.685613+10:00",
       "category": "breaking"
     }
   }

@@ -1,65 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-10-16T18:45:09.750548+10:00",
-      "run_type": "full",
-      "outcome": "ok",
-      "data_good": true,
-      "claude_calls": 0,
-      "claude_calls_errored": 0,
-      "reasons": [],
-      "reason": "claude_off",
-      "categories": {
-        "breaking": {
-          "fetched": 40,
-          "new": 3,
-          "duplicates": 0,
-          "has_new": true,
-          "new_by_source": {
-            "Al Jazeera": 2,
-            "BBC News": 1
-          },
-          "blocked": "claude_disabled",
-          "claude_off": true
-        },
-        "australia": {
-          "fetched": 60,
-          "new": 41,
-          "duplicates": 19,
-          "has_new": true,
-          "new_by_source": {
-            "ABC News": 20,
-            "SMH": 20,
-            "The Age": 1
-          },
-          "blocked": "claude_disabled",
-          "claude_off": true
-        },
-        "archaeology": {
-          "fetched": 90,
-          "new": 0,
-          "duplicates": 0,
-          "has_new": false,
-          "new_by_source": {}
-        },
-        "football": {
-          "fetched": 40,
-          "new": 13,
-          "duplicates": 0,
-          "has_new": true,
-          "new_by_source": {
-            "Kicker": 10,
-            "Marca": 3
-          },
-          "blocked": "claude_disabled",
-          "claude_off": true
-        }
-      },
-      "errors": [],
-      "banner_deploy": false,
-      "alerted": false
-    },
-    {
       "timestamp": "2026-10-16T20:00:13.365966+10:00",
       "run_type": "breaking_only",
       "outcome": "ok",
@@ -1904,33 +1845,37 @@
       "errors": [],
       "banner_deploy": false,
       "alerted": false
+    },
+    {
+      "timestamp": "2026-10-19T15:31:29.732466+10:00",
+      "run_type": "breaking_only",
+      "outcome": "ok",
+      "data_good": true,
+      "claude_calls": 0,
+      "claude_calls_errored": 0,
+      "reasons": [],
+      "reason": "claude_off",
+      "categories": {
+        "breaking": {
+          "fetched": 40,
+          "new": 3,
+          "duplicates": 0,
+          "has_new": true,
+          "new_by_source": {
+            "BBC News": 3
+          },
+          "blocked": "claude_disabled",
+          "claude_off": true
+        }
+      },
+      "errors": [
+        "GDELT fetch failed: ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10); RSS fallback failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10)"
+      ],
+      "banner_deploy": false,
+      "alerted": false
     }
   ],
   "errors": [
-    {
-      "timestamp": "2026-10-19T06:07:23.236700+10:00",
-      "run_type": "full",
-      "source": "Reuters",
-      "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "timestamp": "2026-10-19T06:07:23.236700+10:00",
-      "run_type": "full",
-      "source": "AP News",
-      "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
-    },
-    {
-      "timestamp": "2026-10-19T06:07:23.236700+10:00",
-      "run_type": "full",
-      "source": "NewsData",
-      "message": "unexpected response (no results list)"
-    },
-    {
-      "timestamp": "2026-10-19T06:07:23.236700+10:00",
-      "run_type": "full",
-      "source": "NewsData",
-      "message": "unexpected response (no results list)"
-    },
     {
       "timestamp": "2026-10-19T06:07:23.236700+10:00",
       "run_type": "full",
@@ -2206,16 +2151,40 @@
       "run_type": "breaking_only",
       "source": "AP News",
       "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
+    },
+    {
+      "timestamp": "2026-10-19T15:31:29.732466+10:00",
+      "run_type": "breaking_only",
+      "source": "GDELT",
+      "message": "GDELT fetch failed: ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10); RSS fallback failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10)"
+    },
+    {
+      "timestamp": "2026-10-19T15:31:29.732466+10:00",
+      "run_type": "breaking_only",
+      "source": "Guardian",
+      "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-10-19T15:31:29.732466+10:00",
+      "run_type": "breaking_only",
+      "source": "Reuters",
+      "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "timestamp": "2026-10-19T15:31:29.732466+10:00",
+      "run_type": "breaking_only",
+      "source": "AP News",
+      "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
     }
   ],
   "api_cost_ledger": {
-    "as_of": "2026-10-19T15:04:01.692490+10:00",
+    "as_of": "2026-10-19T15:31:29.732547+10:00",
     "aud_rate_display_only": 1.55,
     "legacy_rows_excluded": 314,
     "today": {
       "date": "2026-10-19",
       "calls": 0,
-      "calls_skipped": 19,
+      "calls_skipped": 20,
       "skipped_by_step": {
         "archaeology_selection": {
           "calls": 1,
@@ -2226,7 +2195,7 @@
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 11,
+          "calls": 12,
           "usd": 0.0
         },
         "football_selection": {
@@ -2235,7 +2204,7 @@
         }
       },
       "skipped_by_reason": {
-        "claude_disabled": 19
+        "claude_disabled": 20
       },
       "total_usd": 0,
       "total_aud": 0.0,
@@ -2249,7 +2218,7 @@
     "month_to_date": {
       "month": "2026-10",
       "calls": 511,
-      "calls_skipped": 195,
+      "calls_skipped": 196,
       "skipped_by_step": {
         "archaeology_selection": {
           "calls": 17,
@@ -2260,7 +2229,7 @@
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 106,
+          "calls": 107,
           "usd": 0.0
         },
         "football_selection": {
@@ -2269,7 +2238,7 @@
         }
       },
       "skipped_by_reason": {
-        "claude_disabled": 195
+        "claude_disabled": 196
       },
       "total_usd": 1.541755,
       "total_aud": 2.38972,
@@ -2403,53 +2372,53 @@
     "GDELT": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-19T13:20:46.769001+10:00",
-        "message": "GDELT fetch failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the; RSS fallback failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10)"
+        "time": "2026-10-19T15:31:29.732466+10:00",
+        "message": "GDELT fetch failed: ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10); RSS fallback failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10)"
       },
       "last_run": {
-        "time": "2026-10-19T13:20:46.769001+10:00",
+        "time": "2026-10-19T15:31:29.732466+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 21.62,
-        "error": "GDELT fetch failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the; RSS fallback failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10)"
+        "seconds": 21.2,
+        "error": "GDELT fetch failed: ReadTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10); RSS fallback failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10)"
       }
     },
     "Guardian": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-19T15:04:01.692426+10:00",
+        "time": "2026-10-19T15:31:29.732466+10:00",
         "message": "0 articles returned"
       },
       "last_run": {
-        "time": "2026-10-19T15:04:01.692426+10:00",
+        "time": "2026-10-19T15:31:29.732466+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.53,
+        "seconds": 0.57,
         "error": "0 articles returned"
       }
     },
     "Reuters": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-19T15:04:01.692426+10:00",
+        "time": "2026-10-19T15:31:29.732466+10:00",
         "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
       },
       "last_run": {
-        "time": "2026-10-19T15:04:01.692426+10:00",
+        "time": "2026-10-19T15:31:29.732466+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.05,
+        "seconds": 0.01,
         "error": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
       }
     },
     "AP News": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-19T15:04:01.692426+10:00",
+        "time": "2026-10-19T15:31:29.732466+10:00",
         "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
       },
       "last_run": {
-        "time": "2026-10-19T15:04:01.692426+10:00",
+        "time": "2026-10-19T15:31:29.732466+10:00",
         "ok": false,
         "count": 0,
         "seconds": 0.14,
@@ -2457,24 +2426,24 @@
       }
     },
     "BBC News": {
-      "last_success": "2026-10-19T15:04:01.692426+10:00",
+      "last_success": "2026-10-19T15:31:29.732466+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-19T15:04:01.692426+10:00",
+        "time": "2026-10-19T15:31:29.732466+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.11,
+        "seconds": 0.24,
         "error": ""
       }
     },
     "Al Jazeera": {
-      "last_success": "2026-10-19T15:04:01.692426+10:00",
+      "last_success": "2026-10-19T15:31:29.732466+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-19T15:04:01.692426+10:00",
+        "time": "2026-10-19T15:31:29.732466+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.14,
+        "seconds": 0.26,
         "error": ""
       }
     },
@@ -2752,7 +2721,7 @@
       }
     }
   },
-  "last_successful_run": "2026-10-19T15:04:01.692426+10:00",
+  "last_successful_run": "2026-10-19T15:31:29.732466+10:00",
   "last_successful_data_update": "2026-10-11T19:09:54.686274+10:00",
   "consecutive_failures": 0,
   "stale_alerted": false,

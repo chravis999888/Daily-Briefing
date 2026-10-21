@@ -2089,22 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-21T12:36:09.744339+00:00",
+  "last_gdelt_attempt": "2026-10-21T14:51:12.386228+00:00",
   "article_store": {
-    "591d0c6eb7297a4c": {
-      "source": "Al Jazeera",
-      "title": "Two scenarios for the Yemen war",
-      "published": "2026-10-14T13:50:28+00:00",
-      "first_seen": "2026-10-15T00:13:05.053912+10:00",
-      "category": "breaking"
-    },
-    "9bc7111ff86bb927": {
-      "source": "Al Jazeera",
-      "title": "Colombia inaugurates embassy to Israel in Jerusalem",
-      "published": "2026-10-14T14:08:45+00:00",
-      "first_seen": "2026-10-15T00:13:05.053912+10:00",
-      "category": "breaking"
-    },
     "4a56310f5aea809d": {
       "source": "BBC News",
       "title": "Mechanic who falsified MOT before crash that killed three given community order",
@@ -26481,6 +26467,523 @@
       "published": "2026-10-21T13:32:57+00:00",
       "first_seen": "2026-10-22T00:00:41.183411+10:00",
       "category": "breaking"
+    },
+    "c83d25257209ce7e": {
+      "source": "Al Jazeera",
+      "title": "How Qatar, Turkiye, Pakistan and Indonesia are deepening defence ties",
+      "published": "2026-10-21T13:58:17+00:00",
+      "first_seen": "2026-10-22T00:51:33.566980+10:00",
+      "category": "breaking"
+    },
+    "d7b75d3be25ab289": {
+      "source": "Al Jazeera",
+      "title": "US congressional candidate Brad Lander freed after West Bank detention",
+      "published": "2026-10-21T14:12:15+00:00",
+      "first_seen": "2026-10-22T00:51:33.566980+10:00",
+      "category": "breaking"
+    },
+    "6af4e67b24e47de8": {
+      "source": "BBC News",
+      "title": "Jailed former DUP leader Jeffrey Donaldson being investigated over alleged rape inside Westminster",
+      "published": "2026-10-21T14:26:24+00:00",
+      "first_seen": "2026-10-22T00:51:33.566980+10:00",
+      "category": "breaking"
+    },
+    "18bff2997ebec707": {
+      "source": "Al Jazeera",
+      "title": "Russia releases American Stephen Hubbard after four years in prison",
+      "published": "2026-10-21T14:31:53+00:00",
+      "first_seen": "2026-10-22T00:51:33.566980+10:00",
+      "category": "breaking"
+    },
+    "f24a6da344aae981": {
+      "source": "BBC News",
+      "title": "Don't Stop Believin' - High school musical Glee set for reboot",
+      "published": "2026-10-21T14:38:22+00:00",
+      "first_seen": "2026-10-22T00:51:33.566980+10:00",
+      "category": "breaking"
+    },
+    "6f82bf07479328dd": {
+      "source": "Al Jazeera",
+      "title": "US envoy Witkoff calls Russia\u2019s Putin a \u2018humanitarian\u2019",
+      "published": "2026-10-21T14:39:08+00:00",
+      "first_seen": "2026-10-22T00:51:33.566980+10:00",
+      "category": "breaking"
+    },
+    "73ecb0fc2dfa34a1": {
+      "source": "BBC News",
+      "title": "Websites taken down across Europe as critical cyber-security update issued",
+      "published": "2026-10-21T14:39:41+00:00",
+      "first_seen": "2026-10-22T00:51:33.566980+10:00",
+      "category": "breaking"
+    },
+    "2a7119f6dedd8f40": {
+      "source": "Al Jazeera",
+      "title": "Musk pledges $10bn in SpaceX shares for US children: Who really gains?",
+      "published": "2026-10-21T14:41:03+00:00",
+      "first_seen": "2026-10-22T00:51:33.566980+10:00",
+      "category": "breaking"
+    },
+    "76f4b23bdb854bb4": {
+      "source": "SMH",
+      "title": "Powerful storm sweeps through south-east Queensland",
+      "published": "2026-10-21T09:10:47+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "4233daaf9fcc6250": {
+      "source": "The Age",
+      "title": "Powerful storm sweeps through south-east Queensland",
+      "published": "2026-10-21T09:10:47+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "76f4b23bdb854bb4"
+    },
+    "3990b846f2d863f9": {
+      "source": "SMH",
+      "title": "Ghanem\u2019s hefty 350-seat eatery and open-air bar arrives in Everton Park",
+      "published": "2026-10-21T09:59:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "7615d88f8d24e285": {
+      "source": "The Age",
+      "title": "Ghanem\u2019s hefty 350-seat eatery and open-air bar arrives in Everton Park",
+      "published": "2026-10-21T09:59:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "3990b846f2d863f9"
+    },
+    "cbc11b72345f3e2e": {
+      "source": "SMH",
+      "title": "No wonder exam results are on the slide",
+      "published": "2026-10-21T10:00:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "f27240f26de90d36": {
+      "source": "The Age",
+      "title": "No wonder exam results are on the slide",
+      "published": "2026-10-21T10:00:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "cbc11b72345f3e2e"
+    },
+    "3fdabd701eb8a3a9": {
+      "source": "ABC News",
+      "title": "Putin announces release of imprisoned US citizen during meeting with Witkoff",
+      "published": "2026-10-21T10:04:24+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "3e5c0429774ab165": {
+      "source": "SMH",
+      "title": "Ciro\u2019s",
+      "published": "2026-10-21T10:06:54+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "7dd75b9c83d1c554": {
+      "source": "The Age",
+      "title": "Ciro\u2019s",
+      "published": "2026-10-21T10:06:54+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "db59f943815c1f23": {
+      "source": "SMH",
+      "title": "Morena",
+      "published": "2026-10-21T10:07:54+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "36bb98c6057fdba8": {
+      "source": "The Age",
+      "title": "Morena",
+      "published": "2026-10-21T10:07:54+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "a478aca617580ed3": {
+      "source": "SMH",
+      "title": "Hundreds gather at Wodonga vigil for Helen Haines",
+      "published": "2026-10-21T10:26:06+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "a95346f071fb4794": {
+      "source": "The Age",
+      "title": "Hundreds gather at Wodonga vigil for Helen Haines",
+      "published": "2026-10-21T10:26:06+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "a478aca617580ed3"
+    },
+    "e60899e576e9351c": {
+      "source": "SMH",
+      "title": "Man arrested at WA MP\u2019s office",
+      "published": "2026-10-21T10:34:34+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "2624b21d07e1f0a1": {
+      "source": "The Age",
+      "title": "Man arrested at WA MP\u2019s office",
+      "published": "2026-10-21T10:34:34+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "e60899e576e9351c"
+    },
+    "afba8df0aceaaf02": {
+      "source": "SMH",
+      "title": "Perth dad killed in hit-and-run",
+      "published": "2026-10-21T10:34:59+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "9334d3ac546b2ab6": {
+      "source": "The Age",
+      "title": "Perth dad killed in hit-and-run",
+      "published": "2026-10-21T10:34:59+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "afba8df0aceaaf02"
+    },
+    "035ce33e8eaefa22": {
+      "source": "SMH",
+      "title": "Footage shows how alleged killer cop dragged friends into plot",
+      "published": "2026-10-21T10:41:24+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "da38087302693241": {
+      "source": "The Age",
+      "title": "Footage shows how alleged killer cop dragged friends into plot",
+      "published": "2026-10-21T10:41:24+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "035ce33e8eaefa22"
+    },
+    "a1df677305a72738": {
+      "source": "SMH",
+      "title": "Cartoons of the week",
+      "published": "2026-10-21T10:58:50+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "c53bb008a3f5e68b": {
+      "source": "The Age",
+      "title": "Cartoons of the week",
+      "published": "2026-10-21T10:58:50+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "a864004ce05cc776": {
+      "source": "SMH",
+      "title": "Best of cartoons, October 22, 2026",
+      "published": "2026-10-21T10:59:01+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "585eb36da4e9f643": {
+      "source": "The Age",
+      "title": "Best of cartoons, October 22, 2026",
+      "published": "2026-10-21T10:59:01+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "a864004ce05cc776"
+    },
+    "3d9c6818ee9f781b": {
+      "source": "SMH",
+      "title": "Jamie Foxx transforms streets of Melbourne for new action film",
+      "published": "2026-10-21T11:07:01+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "b47eb8639e2206c7": {
+      "source": "The Age",
+      "title": "Jamie Foxx transforms streets of Melbourne for new action film",
+      "published": "2026-10-21T11:07:01+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "3d9c6818ee9f781b"
+    },
+    "a2b362ba37812e47": {
+      "source": "SMH",
+      "title": "I love Apple\u2019s iPhone Duo. But here\u2019s why you shouldn\u2019t buy one",
+      "published": "2026-10-21T12:00:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "a7cf00c6baa8affd": {
+      "source": "The Age",
+      "title": "I love Apple\u2019s iPhone Duo. But here\u2019s why you shouldn\u2019t buy one",
+      "published": "2026-10-21T12:00:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "a2b362ba37812e47"
+    },
+    "29a34dc3873a4336": {
+      "source": "SMH",
+      "title": "Jansen stares down Renshaw after ripper short ball",
+      "published": "2026-10-21T12:35:24+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "c56f5b2a559588eb": {
+      "source": "The Age",
+      "title": "Jansen stares down Renshaw after ripper short ball",
+      "published": "2026-10-21T12:35:24+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "29a34dc3873a4336"
+    },
+    "a1bd3b5c661fc71e": {
+      "source": "ABC News",
+      "title": "Comedian hit with car in Taiwan after criticising Xi, prosecutors say",
+      "published": "2026-10-21T12:39:01+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "2db9c17b95f6014b": {
+      "source": "SMH",
+      "title": "Superquiz, Thursday, October 22",
+      "published": "2026-10-21T12:59:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "8aab32be83ea4e48": {
+      "source": "The Age",
+      "title": "Superquiz, Thursday, October 22",
+      "published": "2026-10-21T12:59:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "2db9c17b95f6014b"
+    },
+    "21beb4427d16fe2b": {
+      "source": "ABC News",
+      "title": "E-scooter hospitalisations more than tripled since 2019",
+      "published": "2026-10-21T13:01:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "fe9d465ca4a83d7a": {
+      "source": "ABC News",
+      "title": "House prices across capitals post steepest quarterly decline ever: Domain",
+      "published": "2026-10-21T13:01:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "f8e79c48c539e25a": {
+      "source": "SMH",
+      "title": "Perth house prices suffer record fall in unprecedented market reversal",
+      "published": "2026-10-21T14:00:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia"
+    },
+    "e00d69d8de6c97be": {
+      "source": "The Age",
+      "title": "Perth house prices suffer record fall in unprecedented market reversal",
+      "published": "2026-10-21T14:00:00+00:00",
+      "first_seen": "2026-10-22T00:51:34.086485+10:00",
+      "category": "australia",
+      "duplicate_of": "f8e79c48c539e25a"
+    },
+    "9efc3fe32978edc7": {
+      "source": "Nature",
+      "title": "Author Correction: Catalyst-free, microdroplet-mediated waste plastic conversion to diacids",
+      "published": "2026-10-21T00:00:00+00:00",
+      "first_seen": "2026-10-22T00:51:36.501070+10:00",
+      "category": "archaeology"
+    },
+    "29a521d5e419456c": {
+      "source": "Nature",
+      "title": "The Bursar",
+      "published": "2026-10-21T00:00:00+00:00",
+      "first_seen": "2026-10-22T00:51:36.501070+10:00",
+      "category": "archaeology"
+    },
+    "1306678bd99a581f": {
+      "source": "Nature",
+      "title": "How tech billionaires are disrupting biomedical science",
+      "published": "2026-10-21T00:00:00+00:00",
+      "first_seen": "2026-10-22T00:51:36.501070+10:00",
+      "category": "archaeology"
+    },
+    "d2b9253dd919e683": {
+      "source": "Nature",
+      "title": "How a new wave of science philanthropists can have the greatest impact",
+      "published": "2026-10-21T00:00:00+00:00",
+      "first_seen": "2026-10-22T00:51:36.501070+10:00",
+      "category": "archaeology"
+    },
+    "f95a09bef1101422": {
+      "source": "PhysOrg",
+      "title": "Giant Jurassic fossil sheds light on the evolution of a six-legged predator",
+      "published": "2026-10-21T14:00:01+00:00",
+      "first_seen": "2026-10-22T00:51:36.501070+10:00",
+      "category": "archaeology"
+    },
+    "2ac4707b32ce9a48": {
+      "source": "Marca",
+      "title": "El Sevilla no falta a su cita con el gol",
+      "published": "2026-10-21T09:32:20+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "1b63b8814b7b3f90": {
+      "source": "Kicker",
+      "title": "Zwangsverkauf von Manchester City offenbar m\u00f6glich",
+      "published": "2026-10-21T10:12:48+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "185b7a750136ec1f": {
+      "source": "Kicker",
+      "title": "Zwei neue Sonderkategorien: Panini bringt Kollektion f\u00fcr Frauen-Bundesliga 2026/27 heraus",
+      "published": "2026-10-21T10:24:37+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "06f422938a40fc6e": {
+      "source": "Kicker",
+      "title": "Gewalt in Frankreich: Ligue-1-Spiel in Toulouse muss verlegt werden",
+      "published": "2026-10-21T10:26:20+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "81e1d53cdf7c3d09": {
+      "source": "Kicker",
+      "title": "Wer Torsch\u00fctzenk\u00f6nig wird und warum der VfL aufsteigt: Strobl im Auto-Interview",
+      "published": "2026-10-21T10:30:52+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "0b5db5d23ce462ad": {
+      "source": "Kicker",
+      "title": "Anzeichen verdichten sich: Bayern wohl mit Kompany gegen Arsenal",
+      "published": "2026-10-21T11:19:07+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "a3742f33d96fba7b": {
+      "source": "Kicker",
+      "title": "Werder gegen Hoffenheim kurzfristig abgesagt - Nachholtermin steht fest",
+      "published": "2026-10-21T11:22:08+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "c074a81b1e82d584": {
+      "source": "Kicker",
+      "title": "Der 42-J\u00e4hrige mit 44 Toren in neun Spielen",
+      "published": "2026-10-21T11:25:14+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "c9cef4afb31f08ad": {
+      "source": "Kicker",
+      "title": "Hannovers \u00dcberraschungs-Nummer 1 Weinkauf: Eigentlich hatte er keine Chance",
+      "published": "2026-10-21T11:45:51+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "acb12d8a89daa215": {
+      "source": "Marca",
+      "title": "Cuatro partidos de sanci\u00f3n para Facundo Bernal y dos para Manu Fajardo; el Betis recurrir\u00e1",
+      "published": "2026-10-21T11:59:03+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "3cc3765037c54b69": {
+      "source": "Kicker",
+      "title": "Vom Rentner zum Rekordhalter: Churilovs Leben zwischen den Pfosten",
+      "published": "2026-10-21T12:21:09+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "14f05294821703c7": {
+      "source": "Kicker",
+      "title": "Der Fan-Aufreger um Weck geht in Mannheim in die n\u00e4chste Runde",
+      "published": "2026-10-21T13:08:31+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "6a4d7223bee14ed7": {
+      "source": "Kicker",
+      "title": "\"... dann kann Leipzig vielleicht einigerma\u00dfen mithalten\"",
+      "published": "2026-10-21T13:08:36+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "7e0e13223d53a2b0": {
+      "source": "Kicker",
+      "title": "Hoffenheim als Warnung: Was Bayer in Griechenland erwartet",
+      "published": "2026-10-21T13:16:40+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "afb1f7f5c29e1a73": {
+      "source": "Kicker",
+      "title": "Erfahrungsl\u00fccke nach Liesegang-Verletzung: Jena holt Ex-Keeper Dedidis zur\u00fcck",
+      "published": "2026-10-21T13:27:33+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "f4b7a1dc2db5760b": {
+      "source": "Kicker",
+      "title": "Dani Olmo fehlt Barcelona wochenlang",
+      "published": "2026-10-21T13:34:59+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "4c1f0582213ae211": {
+      "source": "Kicker",
+      "title": "Die PSG-Choreo, die Barca w\u00fctend macht",
+      "published": "2026-10-21T13:36:03+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "4818f05391ff32aa": {
+      "source": "Marca",
+      "title": "Starfelt, todav\u00eda lesionado, acompa\u00f1a al equipo a Glasgow",
+      "published": "2026-10-21T14:08:13+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "87385545c8c0455e": {
+      "source": "Kicker",
+      "title": "Wer nimmt es mit Vinicius Junior auf?",
+      "published": "2026-10-21T14:12:25+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "9d265f04bf2191fb": {
+      "source": "Kicker",
+      "title": "Brasilianische Blitzintegration: Wie Arthur die Werder-Baustelle schloss",
+      "published": "2026-10-21T14:32:41+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "5dfa636681b630f8": {
+      "source": "Kicker",
+      "title": "Der ungewohnte Makel des VfB",
+      "published": "2026-10-21T14:41:27+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "603a871ad7c3c27a": {
+      "source": "Kicker",
+      "title": "Asllani: \"Es waren keine einfachen Wochen\"",
+      "published": "2026-10-21T14:41:38+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
+    },
+    "3266101bc122b3d0": {
+      "source": "Kicker",
+      "title": "LIVE! Osmani vom Punkt: Bayern dreht Ergebnis - Langsteiner verk\u00fcrzt f\u00fcr RB",
+      "published": "2026-10-21T14:42:35+00:00",
+      "first_seen": "2026-10-22T00:51:40.549411+10:00",
+      "category": "football"
     }
   }
 }

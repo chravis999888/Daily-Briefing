@@ -2091,153 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-21T22:02:44.981879+00:00",
   "article_store": {
-    "d61a1d4451f78bdd": {
-      "source": "BBC News",
-      "title": "What if you could turn off your algorithm? Australia is about to try",
-      "published": "2026-10-14T18:00:54+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "f288b7f18606a284": {
-      "source": "BBC News",
-      "title": "Why is Starlink internet so important on the battlefield in Ukraine?",
-      "published": "2026-10-14T19:52:04+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "dcddea94f6954a19": {
-      "source": "Al Jazeera",
-      "title": "US lifts sanctions on Venezuela\u2019s top legislator",
-      "published": "2026-10-14T19:53:03+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "00126aaa979fd15d": {
-      "source": "Al Jazeera",
-      "title": "How will a new alliance affect the conflict in eastern DRC?",
-      "published": "2026-10-14T19:54:16+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "85875e1bb57954a7": {
-      "source": "Al Jazeera",
-      "title": "Spanish NGO halts Mediterranean rescue operations, citing fuel prices",
-      "published": "2026-10-14T20:10:15+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "f0edd4cd63339850": {
-      "source": "Al Jazeera",
-      "title": "Barcola scores hat-trick as Liverpool hit LASK for six, Feyenoord beat Como",
-      "published": "2026-10-14T20:12:20+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "ecc5d7c1147aace2": {
-      "source": "Al Jazeera",
-      "title": "Russia attack hits Kyiv after reported intelligence lapse",
-      "published": "2026-10-14T20:14:57+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "5027c12f07ffbf5f": {
-      "source": "Al Jazeera",
-      "title": "Houthi attacks disrupt travel plans for Mecca pilgrims",
-      "published": "2026-10-14T20:25:04+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "646a7aec4afc812e": {
-      "source": "Al Jazeera",
-      "title": "Infantino faces FIFA rebels in Zurich after failed World Cup stake sale",
-      "published": "2026-10-14T20:25:30+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "c1fe30cbb7f8092e": {
-      "source": "Al Jazeera",
-      "title": "Mexico to force Meta, TikTok, and X to better protect minors on platform",
-      "published": "2026-10-14T20:27:41+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "6b5d0ee7671f3d21": {
-      "source": "Al Jazeera",
-      "title": "Woman rescued after being swept away by Istanbul flash flood",
-      "published": "2026-10-14T20:29:50+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "133ba88cc5d50b85": {
-      "source": "Al Jazeera",
-      "title": "World\u2019s oldest shipwreck found off coast of Turkiye",
-      "published": "2026-10-14T20:33:20+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "03ad8886069566fc": {
-      "source": "Al Jazeera",
-      "title": "Sky turns orange as wildfires rage across Indonesia",
-      "published": "2026-10-14T20:39:59+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "61089676864c5395": {
-      "source": "Al Jazeera",
-      "title": "Families of Trinidadian men killed in US boat strike demand accountability",
-      "published": "2026-10-14T20:42:59+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "0e9bc952017f2f80": {
-      "source": "Al Jazeera",
-      "title": "Israeli quadcopter drone drops bomb in Lebanon",
-      "published": "2026-10-14T20:47:46+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "252a853688ec24e3": {
-      "source": "Al Jazeera",
-      "title": "West Indies beat India to level T20 series as Hope continues record run",
-      "published": "2026-10-14T20:52:25+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "8ebbb4d8e67eb5f5": {
-      "source": "BBC News",
-      "title": "Musk says any limits on Ukraine's Starlink access down to US, not his firm",
-      "published": "2026-10-14T20:55:24+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "e8734bb446b4921b": {
-      "source": "BBC News",
-      "title": "UK threatens to ban Eritreans over migrant return policy",
-      "published": "2026-10-14T21:30:13+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "390742869d3717be": {
-      "source": "Al Jazeera",
-      "title": "Colombia opposition groups launch protest against de la Espriella\u2019s cuts",
-      "published": "2026-10-14T21:35:27+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "a0f0e3df31ed1bf1": {
-      "source": "Al Jazeera",
-      "title": "PSG beat Man City 4-2 in Champions League thriller",
-      "published": "2026-10-14T21:35:49+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
-    "84cdbbf466b382c2": {
-      "source": "Al Jazeera",
-      "title": "Real Madrid come from 3-1 down to beat Roma on Champions League travels",
-      "published": "2026-10-14T21:50:01+00:00",
-      "first_seen": "2026-10-15T08:27:05.244492+10:00",
-      "category": "breaking"
-    },
     "88762d799ace8a62": {
       "source": "BBC News",
       "title": "Brooklyn novelty shop reeling from 'surreal' row with Kelly Clarkson over mechanical bird",
@@ -26614,6 +26467,615 @@
       "published": "2026-10-21T21:36:31+00:00",
       "first_seen": "2026-10-22T08:03:09.939957+10:00",
       "category": "breaking"
+    },
+    "03442eac8234b189": {
+      "source": "Al Jazeera",
+      "title": "Tehran displays mock installation of Trump behind bars",
+      "published": "2026-10-21T21:43:06+00:00",
+      "first_seen": "2026-10-22T09:01:02.211638+10:00",
+      "category": "breaking"
+    },
+    "d1c3d7a7737b1841": {
+      "source": "Al Jazeera",
+      "title": "Man United captain Fernandes slams Carrick\u2019s tactics after Como hammering",
+      "published": "2026-10-21T21:50:28+00:00",
+      "first_seen": "2026-10-22T09:01:02.211638+10:00",
+      "category": "breaking"
+    },
+    "f9407592ce651dc7": {
+      "source": "Al Jazeera",
+      "title": "Video shows Israeli settler assaulting Palestinian child",
+      "published": "2026-10-21T22:03:54+00:00",
+      "first_seen": "2026-10-22T09:01:02.211638+10:00",
+      "category": "breaking",
+      "duplicate_of": "257bfcdec2a1dfbf"
+    },
+    "9e9b7996e224321a": {
+      "source": "Al Jazeera",
+      "title": "Canadian publisher cuts ties with best-selling writer Orelien over AI use",
+      "published": "2026-10-21T22:16:50+00:00",
+      "first_seen": "2026-10-22T09:01:02.211638+10:00",
+      "category": "breaking"
+    },
+    "b96254216a8dda3c": {
+      "source": "ABC News",
+      "title": "Parents worried as injury toll from illegal e-bikes continues to grow",
+      "published": "2026-10-21T19:50:45+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "433b281a3eb93486": {
+      "source": "ABC News",
+      "title": "Snail shell rings could hold prehistoric cyclone information",
+      "published": "2026-10-21T20:14:09+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "33774588c3173c84": {
+      "source": "ABC News",
+      "title": "Live: AFP expects to see increase in youth radicalisation",
+      "published": "2026-10-21T20:29:17+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "9990caeaf1eaefc1": {
+      "source": "ABC News",
+      "title": "One in four workers underpaid super, with only 15pc recovered by ATO",
+      "published": "2026-10-21T20:30:23+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "f1b5ae6488c7089a": {
+      "source": "ABC News",
+      "title": "Live: ASX to open higher as Wall Street surges",
+      "published": "2026-10-21T20:34:27+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "024cfa686c56bb10": {
+      "source": "ABC News",
+      "title": "Scatterbrained Australian approach opens door to South African victory",
+      "published": "2026-10-21T21:05:15+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "e430c6c2f3aaf512": {
+      "source": "ABC News",
+      "title": "Putin agrees to resume peace talks with Ukraine and US",
+      "published": "2026-10-21T21:17:09+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "12a8a8ea06dd192b": {
+      "source": "ABC News",
+      "title": "Calls for transparency as pressure builds on regional SA health system",
+      "published": "2026-10-21T21:19:50+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "ae566db7bdf80d61": {
+      "source": "ABC News",
+      "title": "Roads and schools closed as flash flooding hits south-east Queensland",
+      "published": "2026-10-21T21:29:09+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "7f8d82e0993bea82": {
+      "source": "ABC News",
+      "title": "Hospital halts heart surgeries for 10 days after nurse complaints",
+      "published": "2026-10-21T21:41:55+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "24ac8136c26b9f9e": {
+      "source": "ABC News",
+      "title": "Why Tesla's new flying car likely won't be seen in Australia any time soon",
+      "published": "2026-10-21T21:58:16+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "88d180dacb493c41": {
+      "source": "ABC News",
+      "title": "Calls for rent cap to stop WA's spiralling rental market",
+      "published": "2026-10-21T22:00:36+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "1a10583134f78f8e": {
+      "source": "ABC News",
+      "title": "Diamonds looking lost and panicked as Constellation Cup woes continue",
+      "published": "2026-10-21T22:22:29+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "e400cb84dd289964": {
+      "source": "ABC News",
+      "title": "Breaking: Man charged after allegedly taking nunchucks to WA MP's office",
+      "published": "2026-10-21T22:34:15+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "918a9dfc888d5296": {
+      "source": "ABC News",
+      "title": "Man United captain branded 'disgrace' for comments following latest loss",
+      "published": "2026-10-21T22:37:48+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "ae134494cc431e12": {
+      "source": "SMH",
+      "title": "Casa Do Benfica",
+      "published": "2026-10-21T22:44:02+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "e4230e06b31cf8fb": {
+      "source": "The Age",
+      "title": "Casa Do Benfica",
+      "published": "2026-10-21T22:44:02+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "7a178678db42072b": {
+      "source": "ABC News",
+      "title": "Mine on tropical island plans to pump pit water into ocean",
+      "published": "2026-10-21T22:44:48+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "d140fa300fa1ee9f": {
+      "source": "ABC News",
+      "title": "Victorian public schools to be fully funded \u2014 but only by 2034",
+      "published": "2026-10-21T22:44:55+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "05934de674dfc2a2": {
+      "source": "SMH",
+      "title": "Chaco Ramen",
+      "published": "2026-10-21T22:45:10+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "efedd3e80b20ea82": {
+      "source": "The Age",
+      "title": "Chaco Ramen",
+      "published": "2026-10-21T22:45:10+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "7a5f2cc6e8702582": {
+      "source": "ABC News",
+      "title": "Eastern Sydney beaches close after whale carcass washes up",
+      "published": "2026-10-21T22:45:56+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "4f3a3a84f177891f": {
+      "source": "SMH",
+      "title": "Charlie\u2019s at Church",
+      "published": "2026-10-21T22:46:05+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "8abb38984cdc9a23": {
+      "source": "The Age",
+      "title": "Charlie\u2019s at Church",
+      "published": "2026-10-21T22:46:05+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "d51663706690d4c5": {
+      "source": "SMH",
+      "title": "Chat Thai Circular Quay",
+      "published": "2026-10-21T22:47:05+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "be615e547e201bb4": {
+      "source": "The Age",
+      "title": "Chat Thai Circular Quay",
+      "published": "2026-10-21T22:47:05+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia",
+      "duplicate_of": "d51663706690d4c5"
+    },
+    "65cec891b14d1f7d": {
+      "source": "SMH",
+      "title": "Chef Ceylon",
+      "published": "2026-10-21T22:47:51+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "8f5f6b8f14ff211f": {
+      "source": "The Age",
+      "title": "Chef Ceylon",
+      "published": "2026-10-21T22:47:51+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "922c188138c665f7": {
+      "source": "SMH",
+      "title": "China Doll",
+      "published": "2026-10-21T22:49:11+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "c66935781bc286cb": {
+      "source": "The Age",
+      "title": "China Doll",
+      "published": "2026-10-21T22:49:11+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "607b7035e859a140": {
+      "source": "ABC News",
+      "title": "Melbourne man arrested by passers-by after attempted carjacking with axe",
+      "published": "2026-10-21T22:50:07+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "fda3e37bbc89b461": {
+      "source": "SMH",
+      "title": "Coogee Wine Room",
+      "published": "2026-10-21T22:50:12+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "a9cee653b87ee8e0": {
+      "source": "The Age",
+      "title": "Coogee Wine Room",
+      "published": "2026-10-21T22:50:12+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "109ee881a1eaa687": {
+      "source": "SMH",
+      "title": "The Cowrie",
+      "published": "2026-10-21T22:51:01+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "85abdf800717ec16": {
+      "source": "The Age",
+      "title": "The Cowrie",
+      "published": "2026-10-21T22:51:01+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "cf20be339233ac64": {
+      "source": "SMH",
+      "title": "TRG arrest Woodside protesters",
+      "published": "2026-10-21T22:52:34+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "cd456c949442bd64": {
+      "source": "The Age",
+      "title": "TRG arrest Woodside protesters",
+      "published": "2026-10-21T22:52:34+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia",
+      "duplicate_of": "cf20be339233ac64"
+    },
+    "c9e3c6e8fdfde649": {
+      "source": "SMH",
+      "title": "Australian sprinter charged with child sex offence",
+      "published": "2026-10-21T22:52:41+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "8d1f0514e128a778": {
+      "source": "The Age",
+      "title": "Australian sprinter charged with child sex offence",
+      "published": "2026-10-21T22:52:41+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia",
+      "duplicate_of": "c9e3c6e8fdfde649"
+    },
+    "3807a71ef2eac5c9": {
+      "source": "SMH",
+      "title": "Dear Sainte Eloise",
+      "published": "2026-10-21T22:55:15+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "e76ab852f36f6c06": {
+      "source": "The Age",
+      "title": "Dear Sainte Eloise",
+      "published": "2026-10-21T22:55:15+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "8403a51d98798694": {
+      "source": "SMH",
+      "title": "Duck in Heaven",
+      "published": "2026-10-21T22:56:03+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "840100b7ec7b981f": {
+      "source": "The Age",
+      "title": "Duck in Heaven",
+      "published": "2026-10-21T22:56:03+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "59db90472dc90c73": {
+      "source": "SMH",
+      "title": "Emma\u2019s Snack Bar",
+      "published": "2026-10-21T22:56:52+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "4eba9acb3aed4132": {
+      "source": "The Age",
+      "title": "Emma\u2019s Snack Bar",
+      "published": "2026-10-21T22:56:52+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia",
+      "duplicate_of": "59db90472dc90c73"
+    },
+    "524cb94672dbda0d": {
+      "source": "SMH",
+      "title": "Ezra",
+      "published": "2026-10-21T22:57:52+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "07cdba8bb9322faf": {
+      "source": "The Age",
+      "title": "Ezra",
+      "published": "2026-10-21T22:57:52+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "08c5e1ea145b6520": {
+      "source": "SMH",
+      "title": "Fishboy Kitchen",
+      "published": "2026-10-21T22:58:33+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "80584e05623cdb63": {
+      "source": "The Age",
+      "title": "Fishboy Kitchen",
+      "published": "2026-10-21T22:58:33+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "8db33c74a91826ac": {
+      "source": "SMH",
+      "title": "Flour Bar",
+      "published": "2026-10-21T22:59:26+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "0c2e678989999e05": {
+      "source": "The Age",
+      "title": "Flour Bar",
+      "published": "2026-10-21T22:59:26+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "b0a62e3c4e853696": {
+      "source": "SMH",
+      "title": "Brisbane parkland on site of former sewage plant and abattoir wins national award",
+      "published": "2026-10-21T23:00:00+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "c3c56df5e26af516": {
+      "source": "SMH",
+      "title": "The small Bondi garden that won a big prize for recreating natural beachfront",
+      "published": "2026-10-21T23:00:00+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "2f0f5f550ad653fb": {
+      "source": "The Age",
+      "title": "Brisbane parkland on site of former sewage plant and abattoir wins national award",
+      "published": "2026-10-21T23:00:00+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia",
+      "duplicate_of": "b0a62e3c4e853696"
+    },
+    "60fdefc28623ceed": {
+      "source": "The Age",
+      "title": "The small Bondi garden that won a big prize for recreating natural beachfront",
+      "published": "2026-10-21T23:00:00+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia",
+      "duplicate_of": "c3c56df5e26af516"
+    },
+    "ef6b4690e388fc95": {
+      "source": "SMH",
+      "title": "Flyover Fritterie",
+      "published": "2026-10-21T23:00:17+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "e3633cd13863dc26": {
+      "source": "The Age",
+      "title": "Flyover Fritterie",
+      "published": "2026-10-21T23:00:17+00:00",
+      "first_seen": "2026-10-22T09:01:03.230211+10:00",
+      "category": "australia"
+    },
+    "ac4ca264e6b8f3a9": {
+      "source": "New Scientist",
+      "title": "Ancient shipwreck discovered off Turkey claimed to be world\u2019s oldest",
+      "published": "2026-10-14T18:36:40+00:00",
+      "first_seen": "2026-10-22T09:01:06.222853+10:00",
+      "category": "archaeology"
+    },
+    "427b4a02de036df4": {
+      "source": "PhysOrg",
+      "title": "Hearing laughter may cause orangutans to value rewards more",
+      "published": "2026-10-21T21:00:12+00:00",
+      "first_seen": "2026-10-22T09:01:06.222853+10:00",
+      "category": "archaeology"
+    },
+    "19f7f19ff5b3c2dc": {
+      "source": "PhysOrg",
+      "title": "Candida auris: A harbinger of further dangerous fungal species?",
+      "published": "2026-10-21T23:00:01+00:00",
+      "first_seen": "2026-10-22T09:01:06.222853+10:00",
+      "category": "archaeology"
+    },
+    "09572cd80e8b1088": {
+      "source": "Kicker",
+      "title": "Levante - Bilbao: Gelbe Karte f\u00fcr Yuri Berchiche in der 90.+6 Minute",
+      "published": "2026-10-21T20:05:50+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "012b157184907f04": {
+      "source": "Kicker",
+      "title": "Konter \u00fcber den gesamten Platz: Kalajdzic l\u00e4sst den LASK jubeln",
+      "published": "2026-10-21T20:32:32+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "c674c7bed0b97581": {
+      "source": "Kicker",
+      "title": "Klopp \u00fcber Tresoldi und F\u00fcllkrug: \"Wir sind ja nicht doof\"",
+      "published": "2026-10-21T20:45:00+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "5956468ddaf4f555": {
+      "source": "Kicker",
+      "title": "Traumhafter Hammer: Ausgerechnet Diomande macht es deutlich f\u00fcr Real",
+      "published": "2026-10-21T20:52:38+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "0bc5dcc3cdfe3a53": {
+      "source": "Marca",
+      "title": "Laporte pone el derbi en entredicho",
+      "published": "2026-10-21T20:53:03+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "8c645b8e315ebb7a": {
+      "source": "Marca",
+      "title": "Terzic: \"Nos ha pasado todo lo contrario que ante Celta y Atl\u00e9tico\"",
+      "published": "2026-10-21T20:59:48+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "5f2479b759f867d3": {
+      "source": "Kicker",
+      "title": "Auff\u00e4liger Forbs: Br\u00fcgge \u00fcberrollt Lens nach der Pause",
+      "published": "2026-10-21T21:12:39+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "2e9daf2c7ab512f8": {
+      "source": "Kicker",
+      "title": "\"Es hat nicht ganz gereicht\": Bayerns Davies-\u00dcberraschung geht fast auf",
+      "published": "2026-10-21T21:23:21+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "631597b2f0dcb3c0": {
+      "source": "Kicker",
+      "title": "Ecke, Elfmeter, Eigentor: Viking ohne Chance gegen Villa",
+      "published": "2026-10-21T21:29:33+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "1e1cf4469f7fbfc9": {
+      "source": "Kicker",
+      "title": "Diomandes Hammer als Schlusspunkt: Reals Stars f\u00fcr RB eine Nummer zu gro\u00df",
+      "published": "2026-10-21T21:31:08+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "17326c0f428f1c27": {
+      "source": "Kicker",
+      "title": "Isco erl\u00f6st Betis: Feyenoord unterliegt in Sevilla",
+      "published": "2026-10-21T21:39:17+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "eca1c2a05bbc77ea": {
+      "source": "Kicker",
+      "title": "Historischer erster CL-Sieg: Kalajdzic und Co. feiern in Lissabon",
+      "published": "2026-10-21T21:43:52+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "568206f6750524b6": {
+      "source": "Kicker",
+      "title": "Trotz Bastoni-Aussetzer: Inter siegt nach Mkhitaryans Sahnepass",
+      "published": "2026-10-21T21:44:14+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "dc0887f402b38514": {
+      "source": "Kicker",
+      "title": "Carrick zum Auftritt in Como: \"Es war schwer mit anzusehen\"",
+      "published": "2026-10-21T21:45:17+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "a5c26d47fae7e6c6": {
+      "source": "Kicker",
+      "title": "Eberl zur Bayern-Aufstellung: \"Beim DFB gibt es ja diese Kappe ...\"",
+      "published": "2026-10-21T21:50:04+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "26ba6e54415bff97": {
+      "source": "Kicker",
+      "title": "Neuer \u00fcber anf\u00e4llige Defensive: \"Nat\u00fcrlich nicht unser Anspruch\"",
+      "published": "2026-10-21T21:52:26+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "cc5ccea556876ffe": {
+      "source": "Kicker",
+      "title": "Tresoldi r\u00fcckt in Arsenals Fokus - Drei Szenarien f\u00fcr Augsburgs Claude-Maurice",
+      "published": "2026-10-21T22:01:21+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "6ea6528ec16a55e7": {
+      "source": "Kicker",
+      "title": "Gnabry: \"Ich dachte, wir h\u00e4tten sie gehabt\"",
+      "published": "2026-10-21T22:04:33+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "af060487c999c656": {
+      "source": "Kicker",
+      "title": "\"\u00dcbernehme zu 100 Prozent die Verantwortung\": Carrick bei United mit dem R\u00fccken zur Wand",
+      "published": "2026-10-21T22:22:35+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "ffd1c1e2503cd600": {
+      "source": "Kicker",
+      "title": "\"Courtois war entscheidend\": Mourinho lobt Leipzigs erste H\u00e4lfte",
+      "published": "2026-10-21T22:25:08+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "c6d30ce8b79b0da0": {
+      "source": "Kicker",
+      "title": "\"Der Ball ist unfassbar \u00fcbrigens - geisteskrank\"",
+      "published": "2026-10-21T22:34:48+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
+    },
+    "2a2bafef727dddfa": {
+      "source": "Kicker",
+      "title": "\"Erste Halbzeit auf Augenh\u00f6he\": Was Leipzig in Madrid beherzigt hat",
+      "published": "2026-10-21T22:51:37+00:00",
+      "first_seen": "2026-10-22T09:01:12.342133+10:00",
+      "category": "football"
     }
   }
 }

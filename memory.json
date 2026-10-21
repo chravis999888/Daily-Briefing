@@ -2089,57 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-20T21:47:28.556085+00:00",
+  "last_gdelt_attempt": "2026-10-21T00:44:47.009265+00:00",
   "article_store": {
-    "6f7593d18379c392": {
-      "source": "BBC News",
-      "title": "Martinez issues scathing attack on Man Utd board - has he made things worse?",
-      "published": "2026-10-13T21:43:09+00:00",
-      "first_seen": "2026-10-14T09:10:07.257243+10:00",
-      "category": "breaking"
-    },
-    "3bf0f64a223b594d": {
-      "source": "Al Jazeera",
-      "title": "US trial begins for Rwandan-American accused of role in genocide",
-      "published": "2026-10-13T22:15:44+00:00",
-      "first_seen": "2026-10-14T09:10:07.257243+10:00",
-      "category": "breaking"
-    },
-    "31cc9279f5055123": {
-      "source": "Al Jazeera",
-      "title": "Man City vs PSG: Champions League \u2013 teams, predictions, line ups",
-      "published": "2026-10-13T22:17:26+00:00",
-      "first_seen": "2026-10-14T09:10:07.257243+10:00",
-      "category": "breaking"
-    },
-    "192a99efdf495e21": {
-      "source": "Al Jazeera",
-      "title": "Albanian police fire tear gas at protesters as Education Ministry attacked",
-      "published": "2026-10-13T22:33:50+00:00",
-      "first_seen": "2026-10-14T09:10:07.257243+10:00",
-      "category": "breaking"
-    },
-    "21526a7d7087b683": {
-      "source": "Al Jazeera",
-      "title": "Mauritius imposes curfew after night of unrest over police shooting",
-      "published": "2026-10-13T22:41:59+00:00",
-      "first_seen": "2026-10-14T09:10:07.257243+10:00",
-      "category": "breaking"
-    },
-    "c290960acf3c061c": {
-      "source": "Al Jazeera",
-      "title": "Bayern\u2019s Michael Olise sent off for \u2018super dumb\u2019 yellows within seconds",
-      "published": "2026-10-13T22:56:24+00:00",
-      "first_seen": "2026-10-14T09:10:07.257243+10:00",
-      "category": "breaking"
-    },
-    "f8ddf9eb993b129b": {
-      "source": "Al Jazeera",
-      "title": "Manchester United\u2019s Martinez blasts board\u2019s lack of investment",
-      "published": "2026-10-13T22:57:56+00:00",
-      "first_seen": "2026-10-14T09:10:07.257243+10:00",
-      "category": "breaking"
-    },
     "5fa9dfc3125df137": {
       "source": "BBC News",
       "title": "Actress Selma Blair faces charges for kicking nurse and officer after plane incident",
@@ -26546,6 +26497,83 @@
       "published": "2026-10-20T22:51:56+00:00",
       "first_seen": "2026-10-21T08:55:54.714050+10:00",
       "category": "football"
+    },
+    "abb73f91aa523d48": {
+      "source": "Al Jazeera",
+      "title": "The Gambia to pay reparations to ex-dictator\u2019s victims from sale of US mansion",
+      "published": "2026-10-20T22:51:35+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
+    },
+    "04a265f21cb77fe7": {
+      "source": "BBC News",
+      "title": "Ali G is back. But is the character past its sell-by date?",
+      "published": "2026-10-20T23:04:14+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
+    },
+    "79b00b5ecb78879e": {
+      "source": "BBC News",
+      "title": "I left state secrets on the train - I'm proof you can recover from the biggest mistake of your life",
+      "published": "2026-10-20T23:05:05+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
+    },
+    "ac37fba081255c4c": {
+      "source": "BBC News",
+      "title": "Tighter rules planned to protect people from cosmetic surgery that goes badly wrong",
+      "published": "2026-10-20T23:06:07+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
+    },
+    "b1821c929f915982": {
+      "source": "Al Jazeera",
+      "title": "NATO to send additional patrol planes to Black Sea after drone attacks",
+      "published": "2026-10-20T23:19:52+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
+    },
+    "b80fbc3f1f739fed": {
+      "source": "Al Jazeera",
+      "title": "Moment plane crashes on a busy highway in the US",
+      "published": "2026-10-20T23:54:50+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
+    },
+    "8b11b7d25fbcfe03": {
+      "source": "Al Jazeera",
+      "title": "Iran war live: US warns peace deal with Tehran is extremely difficult",
+      "published": "2026-10-21T00:00:00+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
+    },
+    "a4b6dec775b60fd2": {
+      "source": "Al Jazeera",
+      "title": "King Charles welcomes Omani sultan, hails peace efforts in UK state visit",
+      "published": "2026-10-21T00:08:25+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
+    },
+    "570f224befc56cfc": {
+      "source": "BBC News",
+      "title": "The Papers: 'Burnham faces climate revolt' and 'Harry wants to fix feud'",
+      "published": "2026-10-21T00:21:34+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
+    },
+    "81fa847df08c297b": {
+      "source": "Al Jazeera",
+      "title": "One year on: Has Kenya\u2019s opposition lost its way without Raila Odinga?",
+      "published": "2026-10-21T00:22:19+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
+    },
+    "4805e56d609112bb": {
+      "source": "Al Jazeera",
+      "title": "Why former FDLR fighters are returning to Rwanda",
+      "published": "2026-10-21T00:25:43+00:00",
+      "first_seen": "2026-10-21T10:45:05.318262+10:00",
+      "category": "breaking"
     }
   }
 }

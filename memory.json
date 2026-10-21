@@ -2089,562 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-21T14:51:12.386228+00:00",
+  "last_gdelt_attempt": "2026-10-21T17:47:49.234312+00:00",
   "article_store": {
-    "4a56310f5aea809d": {
-      "source": "BBC News",
-      "title": "Mechanic who falsified MOT before crash that killed three given community order",
-      "published": "2026-10-14T10:57:28+00:00",
-      "first_seen": "2026-10-15T00:52:55.800634+10:00",
-      "category": "breaking"
-    },
-    "75944416aff6816e": {
-      "source": "BBC News",
-      "title": "Burnham careful before Zelensky meeting but promises Ukraine won't leave 'empty handed'",
-      "published": "2026-10-14T14:30:48+00:00",
-      "first_seen": "2026-10-15T00:52:55.800634+10:00",
-      "category": "breaking"
-    },
-    "97f16b0026da75a7": {
-      "source": "Al Jazeera",
-      "title": "What is potash, and why is the US importing it from Belarus?",
-      "published": "2026-10-14T14:36:48+00:00",
-      "first_seen": "2026-10-15T00:52:55.800634+10:00",
-      "category": "breaking"
-    },
-    "eea538c903cccf0e": {
-      "source": "Al Jazeera",
-      "title": "Law of the Sea comes to life in the hunt for sanctioned Russian oil",
-      "published": "2026-10-14T14:38:09+00:00",
-      "first_seen": "2026-10-15T00:52:55.800634+10:00",
-      "category": "breaking"
-    },
-    "bca564c10cb39fa6": {
-      "source": "Al Jazeera",
-      "title": "Saudi national charged with planting a listening device at OpenAI offices",
-      "published": "2026-10-14T14:39:29+00:00",
-      "first_seen": "2026-10-15T00:52:55.800634+10:00",
-      "category": "breaking"
-    },
-    "41d42e21664ca5d8": {
-      "source": "SMH",
-      "title": "Deputy premier to get strike-breaking powers under overhaul of Qld labour laws",
-      "published": "2026-10-14T09:25:40+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "08e3f198117963a2": {
-      "source": "The Age",
-      "title": "Deputy premier to get strike-breaking powers under overhaul of Qld labour laws",
-      "published": "2026-10-14T09:25:40+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "41d42e21664ca5d8"
-    },
-    "c7f4b1fea9cfccb0": {
-      "source": "SMH",
-      "title": "Pilot who survived Muchea plane crash tells of moment he knew he was in trouble",
-      "published": "2026-10-14T09:26:40+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "ce978d83de4e3f14": {
-      "source": "The Age",
-      "title": "Pilot who survived Muchea plane crash tells of moment he knew he was in trouble",
-      "published": "2026-10-14T09:26:40+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "c7f4b1fea9cfccb0"
-    },
-    "25330fdf787597d6": {
-      "source": "ABC News",
-      "title": "Michelin Guide dishes out first Australian stars to array of SA restaurants",
-      "published": "2026-10-14T09:35:44+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "b2defdf6f720819e": {
-      "source": "SMH",
-      "title": "How side deals, mega bucks and a rare breakout of honest and rational negotiating ruled trade period",
-      "published": "2026-10-14T09:47:20+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "4ed109653602ee92": {
-      "source": "The Age",
-      "title": "How side deals, mega bucks and a rare breakout of honest and rational negotiating ruled trade period",
-      "published": "2026-10-14T09:47:20+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "b2defdf6f720819e"
-    },
-    "2d71dc4993bd207e": {
-      "source": "SMH",
-      "title": "Cartoons of the week",
-      "published": "2026-10-14T09:53:05+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "3ed6581fa2435d51": {
-      "source": "The Age",
-      "title": "Cartoons of the week",
-      "published": "2026-10-14T09:53:05+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "9d8c569ca9bffd61": {
-      "source": "SMH",
-      "title": "Best of cartoons, October 15, 2026",
-      "published": "2026-10-14T09:53:23+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "18413a158b853a64": {
-      "source": "The Age",
-      "title": "Best of cartoons, October 15, 2026",
-      "published": "2026-10-14T09:53:23+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "9d8c569ca9bffd61"
-    },
-    "e4e6933c04cd1ebb": {
-      "source": "SMH",
-      "title": "When paperboy turns prohibitor",
-      "published": "2026-10-14T10:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "c51f3fc466b66e9f": {
-      "source": "The Age",
-      "title": "When paperboy turns prohibitor",
-      "published": "2026-10-14T10:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "e4e6933c04cd1ebb"
-    },
-    "5be7644692231346": {
-      "source": "SMH",
-      "title": "Sutherland seals series whitewash",
-      "published": "2026-10-14T10:03:36+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "e53e8c8952d9c96c": {
-      "source": "The Age",
-      "title": "Sutherland seals series whitewash",
-      "published": "2026-10-14T10:03:36+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "5be7644692231346"
-    },
-    "1b89a2201770d77b": {
-      "source": "SMH",
-      "title": "Blues \u2018embarrassed\u2019 by weekend incident. The AFL integrity unit is now investigating",
-      "published": "2026-10-14T10:18:32+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "3c047d13ae3691cd": {
-      "source": "The Age",
-      "title": "Blues \u2018embarrassed\u2019 by weekend incident. The AFL integrity unit is now investigating",
-      "published": "2026-10-14T10:18:32+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "1b89a2201770d77b"
-    },
-    "2e32c66916771197": {
-      "source": "ABC News",
-      "title": "Cracking firetrucks, $1b funding shortfall identified in Victorian audit",
-      "published": "2026-10-14T10:25:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "20c0f2b757643c2a": {
-      "source": "SMH",
-      "title": "Wife speaks out after husband survives light plane crash",
-      "published": "2026-10-14T10:35:20+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "f2ff280326623ea7": {
-      "source": "The Age",
-      "title": "Wife speaks out after husband survives light plane crash",
-      "published": "2026-10-14T10:35:20+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "20c0f2b757643c2a"
-    },
-    "c3bebe4991f3bcbc": {
-      "source": "ABC News",
-      "title": "Zelenskyy says partners not warning Ukraine of incoming ballistic missiles",
-      "published": "2026-10-14T10:44:30+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "96af10e2584b28d2": {
-      "source": "SMH",
-      "title": "South Australia joins world-renowned Michelin Guide in Aussie first",
-      "published": "2026-10-14T11:16:11+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "ecd2cc13bf70dd64": {
-      "source": "The Age",
-      "title": "South Australia joins world-renowned Michelin Guide in Aussie first",
-      "published": "2026-10-14T11:16:11+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "96af10e2584b28d2"
-    },
-    "5d39dcfc2a3c36b6": {
-      "source": "SMH",
-      "title": "Frydenberg writes new chapter but coy on political comeback",
-      "published": "2026-10-14T11:30:09+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "baaff13caef065b2": {
-      "source": "The Age",
-      "title": "Frydenberg writes new chapter but coy on political comeback",
-      "published": "2026-10-14T11:30:09+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "5d39dcfc2a3c36b6"
-    },
-    "e1ca363b361d11f1": {
-      "source": "SMH",
-      "title": "Superquiz, Thursday, October 15",
-      "published": "2026-10-14T12:59:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "71e8921f94d2a1ed": {
-      "source": "The Age",
-      "title": "Superquiz, Thursday, October 15",
-      "published": "2026-10-14T12:59:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "e1ca363b361d11f1"
-    },
-    "82a704e0bd1ab641": {
-      "source": "SMH",
-      "title": "\u2018Please look after this bear\u2019: Paddington The Musical is coming to Australia",
-      "published": "2026-10-14T13:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "b07452e1c6c37ac2": {
-      "source": "SMH",
-      "title": "Paddington The Musical",
-      "published": "2026-10-14T13:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "7971fbe846f16afa": {
-      "source": "The Age",
-      "title": "\u2018Please look after this bear\u2019: Paddington The Musical is coming to Australia",
-      "published": "2026-10-14T13:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "82a704e0bd1ab641"
-    },
-    "f7f056937f13a62a": {
-      "source": "The Age",
-      "title": "Paddington The Musical",
-      "published": "2026-10-14T13:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "92dbc68e2953d7c5": {
-      "source": "SMH",
-      "title": "Australian kids\u2019 AI chats for sale as chatbot app goes bankrupt",
-      "published": "2026-10-14T13:01:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "22607863a0da0674": {
-      "source": "The Age",
-      "title": "Australian kids\u2019 AI chats for sale as chatbot app goes bankrupt",
-      "published": "2026-10-14T13:01:00+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "92dbc68e2953d7c5"
-    },
-    "1fe3d4e1e0fad257": {
-      "source": "SMH",
-      "title": "Russell Brand behaved as a \u2018ruthless\u2019 sexual predator, prosecutors allege",
-      "published": "2026-10-14T13:37:45+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "40033ea752b11338": {
-      "source": "The Age",
-      "title": "Russell Brand behaved as a \u2018ruthless\u2019 sexual predator, prosecutors allege",
-      "published": "2026-10-14T13:37:45+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "1fe3d4e1e0fad257"
-    },
-    "01523158f9d09b71": {
-      "source": "ABC News",
-      "title": "Russell Brand a 'ruthless, calculated sexual predator', court hears",
-      "published": "2026-10-14T13:45:54+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "df3b8491febbb786": {
-      "source": "SMH",
-      "title": "Contending, rebuilding or stuck in limbo: What AFL trade period says about your team\u2019s flag hopes",
-      "published": "2026-10-14T14:00:11+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia"
-    },
-    "1f768111ca102e1e": {
-      "source": "The Age",
-      "title": "Contending, rebuilding or stuck in limbo: What AFL trade period says about your team\u2019s flag hopes",
-      "published": "2026-10-14T14:00:11+00:00",
-      "first_seen": "2026-10-15T00:52:56.871035+10:00",
-      "category": "australia",
-      "duplicate_of": "df3b8491febbb786"
-    },
-    "bb7543718c29c625": {
-      "source": "Nature",
-      "title": "Daily briefing: What makes a happy scientist at work?",
-      "published": "2026-10-13T00:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:59.239161+10:00",
-      "category": "archaeology"
-    },
-    "db462e929c36b829": {
-      "source": "Nature",
-      "title": "Biomedical engineering is growing rapidly, but will it help patients?",
-      "published": "2026-10-14T00:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:59.239161+10:00",
-      "category": "archaeology"
-    },
-    "2ebc379cf6179310": {
-      "source": "Nature",
-      "title": "Becoming real",
-      "published": "2026-10-14T00:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:59.239161+10:00",
-      "category": "archaeology"
-    },
-    "d0d351069f28c553": {
-      "source": "Nature",
-      "title": "Will my lack of country-specific grants limit my chances of employment abroad?",
-      "published": "2026-10-14T00:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:59.239161+10:00",
-      "category": "archaeology"
-    },
-    "2cad9a3d467bfbce": {
-      "source": "Nature",
-      "title": "A guide to the Nature Index",
-      "published": "2026-10-14T00:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:59.239161+10:00",
-      "category": "archaeology"
-    },
-    "d9996e6095e3a29b": {
-      "source": "Nature",
-      "title": "Nature Index reveals the four countries to watch in biomedical engineering",
-      "published": "2026-10-14T00:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:59.239161+10:00",
-      "category": "archaeology"
-    },
-    "9fb931495584c1ce": {
-      "source": "Nature",
-      "title": "Hydrogels and MRI: meet three biomedical engineers reshaping health care",
-      "published": "2026-10-14T00:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:59.239161+10:00",
-      "category": "archaeology"
-    },
-    "85050799543e2118": {
-      "source": "Nature",
-      "title": "Smartwatch health data are piling up. How can doctors keep pace?",
-      "published": "2026-10-14T00:00:00+00:00",
-      "first_seen": "2026-10-15T00:52:59.239161+10:00",
-      "category": "archaeology"
-    },
-    "9c670dc48de7ddb2": {
-      "source": "Marca",
-      "title": "Terzic vuelve a reclutar a Imga, que gana opciones para viajar a Valencia",
-      "published": "2026-10-14T09:47:09+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "3b31d5310b9bd6e4": {
-      "source": "Marca",
-      "title": "El Sevilla prepara la visita al Bernab\u00e9u sin Guridi",
-      "published": "2026-10-14T09:52:40+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "44883a5641de57e8": {
-      "source": "Kicker",
-      "title": "\"Wir wollten eine Ver\u00e4nderung\": Fritz erkl\u00e4rt das neue Werder-Mindset",
-      "published": "2026-10-14T10:42:52+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "22ad0d38b6d31699": {
-      "source": "Kicker",
-      "title": "Fragen und Antworten: So l\u00e4uft der FIFA-Gipfel",
-      "published": "2026-10-14T10:59:41+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "a0c1a5a1587cf253": {
-      "source": "Kicker",
-      "title": "\"Belogen und betrogen\": Waldhof und Stadt Mannheim k\u00fcndigen Derby-Konsequenzen an",
-      "published": "2026-10-14T11:10:52+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "5f35ed5187875932": {
-      "source": "Kicker",
-      "title": "Premier League hebt Rote Karte gegen Brighton-Profi Struijk auf",
-      "published": "2026-10-14T11:35:39+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "6a9c6a43072a366b": {
-      "source": "Kicker",
-      "title": "\"Komplett \u00fcberzeugt\": Cottbus gibt Guwara doch einen neuen Vertrag",
-      "published": "2026-10-14T11:36:08+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "0ce48b0705019753": {
-      "source": "Marca",
-      "title": "David Mella es el mejor sustento de Yeremay",
-      "published": "2026-10-14T11:39:54+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "8f17c8ef8ab1bbc6": {
-      "source": "Kicker",
-      "title": "\"Er darf gerne noch mehr zu Sch\u00fcssen kommen\": Vidovic bleibt Kettemanns Schl\u00fcssel zum Tor",
-      "published": "2026-10-14T11:43:25+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "09edec5d76650238": {
-      "source": "Kicker",
-      "title": "Wellenreuthers Comeback f\u00fchrt zu Strobls Gretchenfrage: Wohin fliegt Zielinski?",
-      "published": "2026-10-14T11:48:32+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "e9b15e7bac215875": {
-      "source": "Kicker",
-      "title": "\"Frohnatur mit unheimlichem Willen\": B\u00fchl erntet mal wieder Lobeshymnen",
-      "published": "2026-10-14T11:59:56+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "8e97ac3f4d16d2e3": {
-      "source": "Kicker",
-      "title": "Tresoldi entthront Adeyemi: Die j\u00fcngsten deutschen Dreierpacker der CL-Geschichte",
-      "published": "2026-10-14T12:04:51+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "8b35d459a7ffda67": {
-      "source": "Marca",
-      "title": "Kubo, Gorrotxategi, Remiro y Oyarzabal, los nombres propios de la comparecencia de Erik Bretos",
-      "published": "2026-10-14T12:24:11+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "8615c6577f427a94": {
-      "source": "Marca",
-      "title": "El agente de Erik Lira se re\u00fane con Braulio V\u00e1zquez en Paterna y alimenta los rumores sobre su futuro",
-      "published": "2026-10-14T12:26:30+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "99d80b9e6daf4ad1": {
-      "source": "Kicker",
-      "title": "Erzgebirge Aue: R\u00fcckkehrer Loune soll den Konkurrenzkampf anheizen",
-      "published": "2026-10-14T12:53:59+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "b92d861ba17b7189": {
-      "source": "Kicker",
-      "title": "Hertha: Neue Sorgen um Nilsson",
-      "published": "2026-10-14T12:58:18+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "b6160a9d9c4fb580": {
-      "source": "Kicker",
-      "title": "\"Unendlich bitter\": Duisburgs Bookjans erleidet Kreuzbandriss",
-      "published": "2026-10-14T13:02:11+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "12d5916ee4933ef4": {
-      "source": "Kicker",
-      "title": "HSV: Erster Auftrag f\u00fcr das Remberg-Double",
-      "published": "2026-10-14T13:20:46+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "f2ffc4f75732cca6": {
-      "source": "Kicker",
-      "title": "Chuki \u00fcber F\u00fcllkrug, die Bruder-WG - und sein Warten auf das erste Tor",
-      "published": "2026-10-14T13:37:03+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "3813fc3a99971036": {
-      "source": "Kicker",
-      "title": "\"Er hat es eingesehen\": H\u00fctter \u00fcber Kochs Reaktion und warum er gegen K\u00f6ln spielt",
-      "published": "2026-10-14T13:42:02+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "db53a21f9d303e70": {
-      "source": "Marca",
-      "title": "Dani Carvajal, inscrito en LaLiga: podr\u00eda debutar el lunes frente al Rayo",
-      "published": "2026-10-14T13:55:07+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "cc239c42cbc9d57d": {
-      "source": "Kicker",
-      "title": "\u00dcberraschung in Bratislava: VfB-Junioren unterliegen Slovan",
-      "published": "2026-10-14T14:03:56+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "f2ea1703eb41e12d": {
-      "source": "Kicker",
-      "title": "Wie der BVB auflaufen k\u00f6nnte - und wo die entscheidenden Duelle liegen",
-      "published": "2026-10-14T14:05:43+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "767788ec57edefa0": {
-      "source": "Kicker",
-      "title": "Ein Fall f\u00fcr VfB-Abwehrchef Chabot: Achtung vor Torj\u00e4ger Sporar",
-      "published": "2026-10-14T14:08:18+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "c7256b18ab169f71": {
-      "source": "Kicker",
-      "title": "Bewusste Entscheidung f\u00fcr die Essener Hafenstra\u00dfe: U 21 testet gegen Belgien",
-      "published": "2026-10-14T14:18:45+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
-    "df90d94b82111553": {
-      "source": "Kicker",
-      "title": "Kabak steckt in der Doppel-Krise - Hajdari fehlt wochenlang",
-      "published": "2026-10-14T14:21:24+00:00",
-      "first_seen": "2026-10-15T00:53:04.799205+10:00",
-      "category": "football"
-    },
     "0e5730afe88baab2": {
       "source": "BBC News",
       "title": "What we know about the Pope's lung cancer diagnosis",
@@ -26984,6 +26430,140 @@
       "published": "2026-10-21T14:42:35+00:00",
       "first_seen": "2026-10-22T00:51:40.549411+10:00",
       "category": "football"
+    },
+    "a4e9d91fb6646fc2": {
+      "source": "BBC News",
+      "title": "Why Jackdaw decision ignites row over climate and costs",
+      "published": "2026-10-21T13:46:34+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "9c36a90a77af6a9e": {
+      "source": "Al Jazeera",
+      "title": "Russia to send first diesel tanker to the US amid Trump deal",
+      "published": "2026-10-21T14:54:55+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "609bec9828bd37a0": {
+      "source": "Al Jazeera",
+      "title": "Trump says AI data centres should pay \u2018dividends\u2019 in pre-midterm shift",
+      "published": "2026-10-21T15:09:33+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "6ce9f9ff01bd6510": {
+      "source": "BBC News",
+      "title": "Holocaust school lessons to be improved after 'shocking' antisemitism review",
+      "published": "2026-10-21T15:24:23+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "46d5dfd776cc466a": {
+      "source": "BBC News",
+      "title": "Glastonbury coach tickets oversold in admin error",
+      "published": "2026-10-21T15:30:57+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "088b511aa56ac696": {
+      "source": "Al Jazeera",
+      "title": "What are Italy\u2019s new measures against violent protests?",
+      "published": "2026-10-21T15:35:54+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "d420fe0b4b8b051a": {
+      "source": "BBC News",
+      "title": "Burnham defends Jackdaw decision as Badenoch urges PM to overturn ban on new oil and gas licences",
+      "published": "2026-10-21T15:36:31+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "99ebd574c7e2dd37": {
+      "source": "Al Jazeera",
+      "title": "Catalonia\u2019s new far right: How anti-Muslim sentiment is reshaping politics",
+      "published": "2026-10-21T15:36:42+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "2828bc48ef31064b": {
+      "source": "BBC News",
+      "title": "Google staff resign in backlash over its AI contracts with military",
+      "published": "2026-10-21T15:41:25+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "95950be6f3e46b3c": {
+      "source": "Al Jazeera",
+      "title": "Canada wants to expand its LNG business. Critics raise red flags",
+      "published": "2026-10-21T15:52:46+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "a46aaafef5cba303": {
+      "source": "BBC News",
+      "title": "Aberfan disaster 'most tragic of days imaginable' says King on 60th anniversary",
+      "published": "2026-10-21T15:56:03+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "41c03c8baddc197b": {
+      "source": "Al Jazeera",
+      "title": "Bayern Munich vs Arsenal LIVE: Champions League",
+      "published": "2026-10-21T16:00:00+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking",
+      "duplicate_of": "ecbe20053913dc14"
+    },
+    "c81292ef245d37c1": {
+      "source": "Al Jazeera",
+      "title": "Real Madrid vs RB Leipzig LIVE: Champions League",
+      "published": "2026-10-21T16:01:56+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "3a7efee7a5060d69": {
+      "source": "BBC News",
+      "title": "Will it bring down your energy bills?",
+      "published": "2026-10-21T16:17:49+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "3ea113e98c3ced6b": {
+      "source": "Al Jazeera",
+      "title": "Macron\u2019s surprise \u2018solidarity\u2019 visit to Saudi Arabia",
+      "published": "2026-10-21T16:34:27+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "c6e63d1d5ea7f919": {
+      "source": "BBC News",
+      "title": "How the project will work and the difference it will make",
+      "published": "2026-10-21T16:45:50+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "8840a80c92a9e73f": {
+      "source": "Al Jazeera",
+      "title": "Paris shopkeepers fear more destruction after riots destroy livelihoods",
+      "published": "2026-10-21T16:57:15+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "ce8fd6092b37e27b": {
+      "source": "Al Jazeera",
+      "title": "Macron makes surprise Saudi visit as France secures extra diesel supplies",
+      "published": "2026-10-21T16:58:39+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
+    },
+    "d144de760f4e7c0d": {
+      "source": "BBC News",
+      "title": "Russia says it is ready to resume talks with Ukraine and US to end war",
+      "published": "2026-10-21T17:42:34+00:00",
+      "first_seen": "2026-10-22T03:48:11.531806+10:00",
+      "category": "breaking"
     }
   }
 }

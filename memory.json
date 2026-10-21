@@ -2089,662 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-21T09:07:11.487432+00:00",
+  "last_gdelt_attempt": "2026-10-21T12:36:09.744339+00:00",
   "article_store": {
-    "9eb1f821826b10ea": {
-      "source": "BBC News",
-      "title": "Sign up now",
-      "published": "2026-09-09T10:24:59+00:00",
-      "first_seen": "2026-10-14T19:17:15.543456+10:00",
-      "category": "breaking"
-    },
-    "5b340876d79b9b9d": {
-      "source": "BBC News",
-      "title": "Why the lonely in China are hiring 'temporary children'",
-      "published": "2026-10-13T22:00:20+00:00",
-      "first_seen": "2026-10-14T19:17:15.543456+10:00",
-      "category": "breaking"
-    },
-    "91a11bd4c402f378": {
-      "source": "Al Jazeera",
-      "title": "Tensions with teachers, pupils and Turkiye: Inside Azerbaijan\u2019s hijab row",
-      "published": "2026-10-14T07:57:45+00:00",
-      "first_seen": "2026-10-14T19:17:15.543456+10:00",
-      "category": "breaking"
-    },
-    "1e3e5e1b8b828f1a": {
-      "source": "Al Jazeera",
-      "title": "Trump says oil, gas and mineral exploration to begin in Greenland",
-      "published": "2026-10-14T08:08:42+00:00",
-      "first_seen": "2026-10-14T19:17:15.543456+10:00",
-      "category": "breaking"
-    },
-    "07410b4c4946652f": {
-      "source": "Al Jazeera",
-      "title": "How do Iranians move money abroad to avoid US sanctions?",
-      "published": "2026-10-14T08:24:02+00:00",
-      "first_seen": "2026-10-14T19:17:15.543456+10:00",
-      "category": "breaking"
-    },
-    "cc54d1a1784047f4": {
-      "source": "Al Jazeera",
-      "title": "Jerry Seinfeld dances as pro-Palestine protesters interrupt show",
-      "published": "2026-10-14T08:51:27+00:00",
-      "first_seen": "2026-10-14T19:17:15.543456+10:00",
-      "category": "breaking"
-    },
-    "75188e4838f5e41a": {
-      "source": "Al Jazeera",
-      "title": "India\u2019s \u2018Cockroach\u2019 leaders jailed after entering \u2018banned\u2019 protest site",
-      "published": "2026-10-14T08:51:36+00:00",
-      "first_seen": "2026-10-14T19:17:15.543456+10:00",
-      "category": "breaking"
-    },
-    "39da5ef9b4556bca": {
-      "source": "ABC News",
-      "title": "Why fame was 'fickle' to Breaking Bad star RJ Mitte",
-      "published": "2026-10-14T06:05:58+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "9907a00a56e8b1b5": {
-      "source": "ABC News",
-      "title": "Hospitality bosses warn of empty cafes and kitchens under migration cuts",
-      "published": "2026-10-14T06:08:37+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "f51b199ac96b31bb": {
-      "source": "ABC News",
-      "title": "WOMADelaide reveals 2027 line-up marking 35 years of The World's Festival",
-      "published": "2026-10-14T06:17:19+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "247ef998c32e9339": {
-      "source": "ABC News",
-      "title": "Inmate died after waiting 305 days for help, NSW coroner finds",
-      "published": "2026-10-14T06:23:18+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "38950d6d5c92e44b": {
-      "source": "ABC News",
-      "title": "Government fails to secure support for beleaguered private health bill",
-      "published": "2026-10-14T06:37:13+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "b9526b031fdf46d5": {
-      "source": "ABC News",
-      "title": "Albatross colony to be vaccinated by hand in fight against bird flu spread",
-      "published": "2026-10-14T06:47:25+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "7f08b230ade331e0": {
-      "source": "ABC News",
-      "title": "Fresh calls for CCTV after alleged robbery, assault in Victorian town",
-      "published": "2026-10-14T06:58:44+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "1867659f2d0124ae": {
-      "source": "ABC News",
-      "title": "Inquest into 3yo's death hears experts pushed for pool safety changes",
-      "published": "2026-10-14T07:13:17+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "11ba7ee3db50553f": {
-      "source": "ABC News",
-      "title": "Boy sentenced to seven years' jail over crash that killed grandmother",
-      "published": "2026-10-14T07:16:21+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "283957bf666ca2b9": {
-      "source": "ABC News",
-      "title": "Man accused of Paralowie child abduction granted home detention bail",
-      "published": "2026-10-14T07:22:11+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "cc0c8786321b1ded": {
-      "source": "ABC News",
-      "title": "Qld union officials to undergo 'fit and proper' test under proposed changes",
-      "published": "2026-10-14T07:26:24+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "b4a2398b23e859e3": {
-      "source": "ABC News",
-      "title": "Darwin\u2019s mango harvest historically low after 'strange' season for growers",
-      "published": "2026-10-14T07:32:54+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "12c7a13ad5003bb1": {
-      "source": "ABC News",
-      "title": "Pope's AI adviser warns Australia's copyright changes risk 'new form of colonialism'",
-      "published": "2026-10-14T07:36:56+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "75c8365eae816776": {
-      "source": "ABC News",
-      "title": "Pet cat restrictions mulled by WA councils as they face 'frustrating' wait",
-      "published": "2026-10-14T07:40:48+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "deae4b860b73424f": {
-      "source": "ABC News",
-      "title": "Patient allegedly set on fire, two others doused in accelerant at Sydney hospital",
-      "published": "2026-10-14T07:48:00+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "79631ac8cfb5a7e3": {
-      "source": "ABC News",
-      "title": "Alice Springs resident whose home was destroyed welcomes funding support",
-      "published": "2026-10-14T07:50:17+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "bba305ba4b1de6e6": {
-      "source": "ABC News",
-      "title": "Shots fired in Tullamarine linked to road rage incident, police say",
-      "published": "2026-10-14T07:53:39+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "0eafe0402910f925": {
-      "source": "ABC News",
-      "title": "Woman charged over crash that claimed life of 11yo girl",
-      "published": "2026-10-14T08:02:21+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "c18a11513e9f6d06": {
-      "source": "SMH",
-      "title": "Clock ticks down on deadline trades",
-      "published": "2026-10-14T08:05:15+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "0427f0715b24b196": {
-      "source": "SMH",
-      "title": "Walters explains Teddy resting",
-      "published": "2026-10-14T08:08:57+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "5d79fa9534e4e0f9": {
-      "source": "ABC News",
-      "title": "The boldness Australia needs has no political home right now",
-      "published": "2026-10-14T08:10:08+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "eaf86b33e3386256": {
-      "source": "SMH",
-      "title": "Four men confront construction executive in alleged extortion",
-      "published": "2026-10-14T08:13:20+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "dde8cf0b8446cbf9": {
-      "source": "The Age",
-      "title": "Four men confront construction executive in alleged extortion",
-      "published": "2026-10-14T08:13:20+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "eaf86b33e3386256"
-    },
-    "bf1cad44e5d34fa4": {
-      "source": "SMH",
-      "title": "Senate blocks cuts to private health rebates for older Aussies",
-      "published": "2026-10-14T08:15:25+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "8a13e269ecf97ffd": {
-      "source": "The Age",
-      "title": "Senate blocks cuts to private health rebates for older Aussies",
-      "published": "2026-10-14T08:15:25+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "bf1cad44e5d34fa4"
-    },
-    "7911cc4b62dcecbb": {
-      "source": "SMH",
-      "title": "Ex-cop allegedly tried to use farm of another man to dump bodies",
-      "published": "2026-10-14T08:15:32+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "3a8a7d2f29b4fe3b": {
-      "source": "The Age",
-      "title": "Ex-cop allegedly tried to use farm of another man to dump bodies",
-      "published": "2026-10-14T08:15:32+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "7911cc4b62dcecbb"
-    },
-    "85dff5be7fa6c6f6": {
-      "source": "SMH",
-      "title": "Sydney teenager charged with shooting murder of 12-year-old boy",
-      "published": "2026-10-14T08:15:45+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "166225a9e4175a1f": {
-      "source": "The Age",
-      "title": "Sydney teenager charged with shooting murder of 12-year-old boy",
-      "published": "2026-10-14T08:15:45+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "85dff5be7fa6c6f6"
-    },
-    "fe02c08d1df50a72": {
-      "source": "SMH",
-      "title": "Hidden camera found in female showers on navy ship",
-      "published": "2026-10-14T08:15:52+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "a29b7b5e6e16a224": {
-      "source": "The Age",
-      "title": "Hidden camera found in female showers on navy ship",
-      "published": "2026-10-14T08:15:52+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "fe02c08d1df50a72"
-    },
-    "ad47132552bfbeee": {
-      "source": "SMH",
-      "title": "Two more men charged after fatal Mount Druitt stabbing",
-      "published": "2026-10-14T08:16:21+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "0747ac24603e4425": {
-      "source": "The Age",
-      "title": "Two more men charged after fatal Mount Druitt stabbing",
-      "published": "2026-10-14T08:16:21+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "ad47132552bfbeee"
-    },
-    "675823eb84927f93": {
-      "source": "SMH",
-      "title": "Police hunt gunmen after shots fired outside kindergarten",
-      "published": "2026-10-14T08:18:49+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "47733a3f342822db": {
-      "source": "The Age",
-      "title": "Police hunt gunmen after shots fired outside kindergarten",
-      "published": "2026-10-14T08:18:49+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "675823eb84927f93"
-    },
-    "3309678fb98981f8": {
-      "source": "SMH",
-      "title": "Brisbane widower stuns courtroom with compassionate wish for killer",
-      "published": "2026-10-14T08:27:09+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "20a609232bbda58f": {
-      "source": "The Age",
-      "title": "Brisbane widower stuns courtroom with compassionate wish for killer",
-      "published": "2026-10-14T08:27:09+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "3309678fb98981f8"
-    },
-    "02c42ad42eb11d69": {
-      "source": "SMH",
-      "title": "Australia will go into the Rugby League World Cup as favourites, but do they deserve to be?",
-      "published": "2026-10-14T08:30:00+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "6713c473865fabd0": {
-      "source": "The Age",
-      "title": "Australia will go into the Rugby League World Cup as favourites, but do they deserve to be?",
-      "published": "2026-10-14T08:30:00+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "02c42ad42eb11d69"
-    },
-    "f0cc51aa943fdb65": {
-      "source": "The Age",
-      "title": "The Richmond truce: Jeff Kennett and Stephen Jolly find common ground 30 years on",
-      "published": "2026-10-14T08:30:00+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "32113dde4318bca9": {
-      "source": "SMH",
-      "title": "Our five favourite luxury homes for sale with plenty of street appeal",
-      "published": "2026-10-14T08:45:00+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "7759ab5a8def69bf": {
-      "source": "SMH",
-      "title": "Brethren a controlling sect, not a religion say former and current members",
-      "published": "2026-10-14T08:45:00+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "aaddb3ca345bf13e": {
-      "source": "The Age",
-      "title": "Our five favourite luxury homes for sale with plenty of street appeal",
-      "published": "2026-10-14T08:45:00+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "32113dde4318bca9"
-    },
-    "416dbeab6b55ab11": {
-      "source": "The Age",
-      "title": "Brethren a controlling sect, not a religion say former and current members",
-      "published": "2026-10-14T08:45:00+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "7759ab5a8def69bf"
-    },
-    "7dac2fe3a4f651ea": {
-      "source": "SMH",
-      "title": "Video captures cafe meeting where building executive was allegedly delivered a $6m threat",
-      "published": "2026-10-14T08:45:02+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "3b199564f2639f72": {
-      "source": "The Age",
-      "title": "Video captures cafe meeting where building executive was allegedly delivered a $6m threat",
-      "published": "2026-10-14T08:45:02+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "7dac2fe3a4f651ea"
-    },
-    "cf5663c07fe6c496": {
-      "source": "ABC News",
-      "title": "India's 'cockroach' movement leaders detained for five days",
-      "published": "2026-10-14T08:51:08+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "b0a9b554eb6a974e": {
-      "source": "SMH",
-      "title": "\u2018Stabbed her\u2019: Court played jail admission from WA mother accused of murder",
-      "published": "2026-10-14T08:52:25+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "caa9b57f2b7243db": {
-      "source": "The Age",
-      "title": "\u2018Stabbed her\u2019: Court played jail admission from WA mother accused of murder",
-      "published": "2026-10-14T08:52:25+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "b0a9b554eb6a974e"
-    },
-    "a635bb34b39ffae5": {
-      "source": "The Age",
-      "title": "Ability to pay shouldn\u2019t decide kids\u2019 education",
-      "published": "2026-10-14T08:55:00+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "998047f19f5ac4f8": {
-      "source": "SMH",
-      "title": "Pineapple growers warn $80m industry could be wiped out",
-      "published": "2026-10-14T08:59:34+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "aec3fb87d26867f4": {
-      "source": "The Age",
-      "title": "Pineapple growers warn $80m industry could be wiped out",
-      "published": "2026-10-14T08:59:34+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "998047f19f5ac4f8"
-    },
-    "44d67ecb2501d1c1": {
-      "source": "SMH",
-      "title": "Grieving husband forgives teen who killed his wife in stolen car crash",
-      "published": "2026-10-14T09:03:49+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "3c6a5cbadf6aa338": {
-      "source": "The Age",
-      "title": "Grieving husband forgives teen who killed his wife in stolen car crash",
-      "published": "2026-10-14T09:03:49+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "44d67ecb2501d1c1"
-    },
-    "8ed14568d8239927": {
-      "source": "SMH",
-      "title": "Crows queried for shock call not to trade defender",
-      "published": "2026-10-14T09:13:42+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "fb0ee0a2bc509415": {
-      "source": "The Age",
-      "title": "Crows queried for shock call not to trade defender",
-      "published": "2026-10-14T09:13:42+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "8ed14568d8239927"
-    },
-    "ec2eccbc14597cad": {
-      "source": "SMH",
-      "title": "Disability support worker attacked outside shopping centre",
-      "published": "2026-10-14T09:14:23+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia"
-    },
-    "b56a21292965effc": {
-      "source": "The Age",
-      "title": "Disability support worker attacked outside shopping centre",
-      "published": "2026-10-14T09:14:23+00:00",
-      "first_seen": "2026-10-14T19:17:16.711080+10:00",
-      "category": "australia",
-      "duplicate_of": "ec2eccbc14597cad"
-    },
-    "afb9e860ebf47010": {
-      "source": "Nature",
-      "title": "China\u2019s AI research is booming. Where is it headed?",
-      "published": "2026-10-14T00:00:00+00:00",
-      "first_seen": "2026-10-14T19:17:19.761283+10:00",
-      "category": "archaeology"
-    },
-    "f9a564d3234aff9f": {
-      "source": "Nature",
-      "title": "China\u2019s extraordinary rise in science and how it will change the world",
-      "published": "2026-10-14T00:00:00+00:00",
-      "first_seen": "2026-10-14T19:17:19.761283+10:00",
-      "category": "archaeology"
-    },
-    "6564dbefd2795ef5": {
-      "source": "Gazzetta dello Sport",
-      "title": "Maltempo e allagamenti in Toscana: segui la diretta",
-      "published": "2023-11-03T07:57:25+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "ce50e0a4cf17cea5": {
-      "source": "Marca",
-      "title": "La violencia en el f\u00fatbol ser\u00e1 al final lo de menos",
-      "published": "2026-10-14T04:08:34+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "5051e6daebd30aea": {
-      "source": "Marca",
-      "title": "Mourinho, general hacia arriba y padre hacia abajo",
-      "published": "2026-10-14T04:09:07+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "6dd15e0c24b563e1": {
-      "source": "Kicker",
-      "title": "Pulverfass ManUnited: Martinez attackiert Klubf\u00fchrung",
-      "published": "2026-10-14T04:43:40+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "e48b0c2ff955ed53": {
-      "source": "Kicker",
-      "title": "Tresoldis \"unglaublicher\" Abend: Dreierpack, warme Milan-Herzen - und ein Problem f\u00fcr den DFB?",
-      "published": "2026-10-14T04:51:56+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "12125b27ce1103f6": {
-      "source": "Kicker",
-      "title": "Wer \u00fcbertr\u00e4gt FK Bod\u00f6/Glimt gegen den BVB live im TV und Stream?",
-      "published": "2026-10-14T05:00:00+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "7cc85cf414b2b385": {
-      "source": "Kicker",
-      "title": "Beh\u00f6rde warnt: \"Finanzielle Katastrophe\" im englischen Fu\u00dfball",
-      "published": "2026-10-14T05:00:42+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "ec89d90cdb37ec50": {
-      "source": "Kicker",
-      "title": "Kompany kritisiert Olise deutlich: \"Zu 100 Prozent sein Fehler\"",
-      "published": "2026-10-14T05:23:55+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "5f68070112ef5232": {
-      "source": "Kicker",
-      "title": "Wer \u00fcbertr\u00e4gt Slovan Bratislava gegen VfB Stuttgart live im TV und Stream?",
-      "published": "2026-10-14T05:30:00+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "a20a2249bf56abd5": {
-      "source": "Kicker",
-      "title": "Kane sichtlich unzufrieden: \"Das war nervig\"",
-      "published": "2026-10-14T05:35:10+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "681e9897422db2da": {
-      "source": "Kicker",
-      "title": "Dreesen zum Bayern-Patzer: \"Unn\u00f6tige Fehler\" und ein \"faires Remis\"",
-      "published": "2026-10-14T05:55:55+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "d7ae29a6bc9b0b39": {
-      "source": "Kicker",
-      "title": "H\u00e4tte Olise glatt Rot sehen m\u00fcssen?",
-      "published": "2026-10-14T06:28:50+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "465afd11a4b5f445": {
-      "source": "Kicker",
-      "title": "\"Oktoberfest in Stavanger\": Pressestimmen zum Bayern-Remis",
-      "published": "2026-10-14T06:32:50+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "230290625dfc1704": {
-      "source": "Marca",
-      "title": "Qu\u00e9 pas\u00f3 en Mestalla... un 14 de octubre: la riada de 1957 y el estadio anegado por completo de agua",
-      "published": "2026-10-14T06:55:41+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "bcdee487d609ae3c": {
-      "source": "Kicker",
-      "title": "S\u00fc\u00dfes Wiedersehen f\u00fcr Stuttgarts Sauer?",
-      "published": "2026-10-14T07:16:44+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "a89850d554f255f6": {
-      "source": "Marca",
-      "title": "Kiat Lim le pide a su padre que no venda el Valencia",
-      "published": "2026-10-14T07:24:54+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "2bf1d64f855e02a8": {
-      "source": "Kicker",
-      "title": "\"Drecksack\" Tripic feiert Olise-Platzverweis: \"Es ist gro\u00dfartig\"",
-      "published": "2026-10-14T07:34:57+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "6e85620694bcc266": {
-      "source": "Kicker",
-      "title": "Koutsidis und der \"positive Schock\"",
-      "published": "2026-10-14T07:51:42+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "59a473cbe70e6549": {
-      "source": "Kicker",
-      "title": "Nur einer gl\u00e4nzt neben vier F\u00fcnfen: Die Noten zu Bayerns 3:3 in Stavanger",
-      "published": "2026-10-14T07:57:38+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "4505599d03dfe2d8": {
-      "source": "Kicker",
-      "title": "Flick lobt Yamal-Auftritt: \"Unglaublich, was er leistet\"",
-      "published": "2026-10-14T08:07:09+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "8799765666023acd": {
-      "source": "Kicker",
-      "title": "Leko schw\u00e4rmt von Tresoldi: \"Wird bei einem Topverein landen\"",
-      "published": "2026-10-14T08:17:31+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "48244142a9a970d0": {
-      "source": "Marca",
-      "title": "Areso: \"El a\u00f1o pasado no estuve al 100% y la adaptaci\u00f3n no pudo ser tan r\u00e1pida como esperaba\"",
-      "published": "2026-10-14T08:34:40+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "b817a4c39ac61791": {
-      "source": "Kicker",
-      "title": "Nach Platzverweis: \"Olise gab sich ungewohnt aufger\u00e4umt\"",
-      "published": "2026-10-14T08:47:05+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
-    "f933694eb640e759": {
-      "source": "Kicker",
-      "title": "N\u00e4chster Schritt zu Infantinos Wiederwahl? FIFA will Verb\u00e4nden Milliarden aussch\u00fctten",
-      "published": "2026-10-14T08:51:43+00:00",
-      "first_seen": "2026-10-14T19:17:24.782013+10:00",
-      "category": "football"
-    },
     "762806c4cdada5fa": {
       "source": "BBC News",
       "title": "Watch: Block of flats in ruins after Russian strikes on Ukraine",
@@ -27128,6 +26474,153 @@
       "published": "2026-10-21T08:57:06+00:00",
       "first_seen": "2026-10-21T19:07:43.536068+10:00",
       "category": "football"
+    },
+    "9eb1f821826b10ea": {
+      "source": "BBC News",
+      "title": "Sign up now",
+      "published": "2026-09-09T10:24:59+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "6a8684144cec926a": {
+      "source": "Al Jazeera",
+      "title": "Blast heard in Yemen\u2019s Aden as Houthis claim attack on military camp",
+      "published": "2026-10-21T09:02:18+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "aa5b8c51bfe4f59a": {
+      "source": "Al Jazeera",
+      "title": "Attack on Australian MP Haines: How threats against legislators have soared",
+      "published": "2026-10-21T09:24:47+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "6aa24c7e360e4da5": {
+      "source": "Al Jazeera",
+      "title": "UK king welcomes Oman\u2019s sultan in speech quoting Prophet Muhammad",
+      "published": "2026-10-21T10:17:41+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "9ea660120c306353": {
+      "source": "BBC News",
+      "title": "Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge",
+      "published": "2026-10-21T10:20:15+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "b3db75b013d1da92": {
+      "source": "Al Jazeera",
+      "title": "Paramilitary hitman linked to British right-wing group Turning Point UK",
+      "published": "2026-10-21T10:20:41+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "b0eeb64b36d2f3ee": {
+      "source": "Al Jazeera",
+      "title": "WW1 to Houthis: British jets for Saudi Arabia build on long military bond",
+      "published": "2026-10-21T10:22:35+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "8e4caf619a02ca55": {
+      "source": "Al Jazeera",
+      "title": "UK approves development of Jackdaw gasfield in North Sea",
+      "published": "2026-10-21T10:28:18+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "f2348f8f67f61921": {
+      "source": "Al Jazeera",
+      "title": "Why are French protesters chanting \u2018Bismillah, c\u2019est les t\u00e9n\u00e8bres\u2019?",
+      "published": "2026-10-21T10:35:34+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "31bd2c44dd2d0fab": {
+      "source": "Al Jazeera",
+      "title": "Kvaratskhelia, Dembele and Marquinhos out injured after PSG\u2019s win",
+      "published": "2026-10-21T10:45:01+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "a662420b2c945b3d": {
+      "source": "Al Jazeera",
+      "title": "Cost of living protests aren\u2019t just happening in Europe",
+      "published": "2026-10-21T10:49:44+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "12de014ae4c08e30": {
+      "source": "BBC News",
+      "title": "Amber warning issued as Storm Austen threatens UK with strong winds and heavy rain",
+      "published": "2026-10-21T10:55:32+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "1cf8949880eb0842": {
+      "source": "BBC News",
+      "title": "Hackers steal children's data after company used 'Password1' to protect old account",
+      "published": "2026-10-21T10:56:47+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "938d5a4e4a9f7af8": {
+      "source": "BBC News",
+      "title": "Woman told Russell Brand he 'treated her like an animal', court hears",
+      "published": "2026-10-21T11:47:01+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "658bf4b5c6822fe2": {
+      "source": "BBC News",
+      "title": "How much gas could Jackdaw provide? And will it cut your energy bills?",
+      "published": "2026-10-21T11:57:49+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "251c31a15bfab9a1": {
+      "source": "BBC News",
+      "title": "Student who murdered university housemate jailed for life",
+      "published": "2026-10-21T12:00:58+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "8496a9d53612f8cc": {
+      "source": "BBC News",
+      "title": "Teenage boy guilty of trying to murder girl, 15, in school",
+      "published": "2026-10-21T12:03:52+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "692fba55c1854d5e": {
+      "source": "Al Jazeera",
+      "title": "Iran\u2019s enriched uranium re-emerges as point of contention in US talks",
+      "published": "2026-10-21T12:18:10+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "d07e2d658abb68a9": {
+      "source": "Al Jazeera",
+      "title": "Macron says Trump spread rumours about protests",
+      "published": "2026-10-21T12:18:37+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "af0792ee41b01441": {
+      "source": "Al Jazeera",
+      "title": "\u2018They try to break us\u2019: Pro-Palestine activists in Czech custody",
+      "published": "2026-10-21T12:24:23+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
+    },
+    "30c1f044a9f408fb": {
+      "source": "BBC News",
+      "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+      "published": "2026-10-21T12:32:01+00:00",
+      "first_seen": "2026-10-21T22:36:31.177694+10:00",
+      "category": "breaking"
     }
   }
 }

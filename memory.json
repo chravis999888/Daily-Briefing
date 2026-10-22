@@ -2089,798 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-22T17:28:14.061369+00:00",
+  "last_gdelt_attempt": "2026-10-22T19:44:11.770915+00:00",
   "article_store": {
-    "0ae7a6a170212223": {
-      "source": "BBC News",
-      "title": "What we know about the criminal investigation into US Congresswoman Ilhan Omar",
-      "published": "2026-10-15T16:59:31+00:00",
-      "first_seen": "2026-10-16T05:42:01.392884+10:00",
-      "category": "breaking"
-    },
-    "1c74e03e05f05e00": {
-      "source": "Al Jazeera",
-      "title": "Pope Leo resumes work in hospital while recovering from surgery",
-      "published": "2026-10-15T17:25:09+00:00",
-      "first_seen": "2026-10-16T05:42:01.392884+10:00",
-      "category": "breaking"
-    },
-    "d7cd46bf3eded677": {
-      "source": "BBC News",
-      "title": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
-      "published": "2026-10-15T17:31:37+00:00",
-      "first_seen": "2026-10-16T05:42:01.392884+10:00",
-      "category": "breaking"
-    },
-    "7a36705eb3f892d1": {
-      "source": "Al Jazeera",
-      "title": "A mother\u2019s touch helps premature babies grow strong in Gaza",
-      "published": "2026-10-15T17:43:01+00:00",
-      "first_seen": "2026-10-16T05:42:01.392884+10:00",
-      "category": "breaking"
-    },
-    "997c67f8b7d90919": {
-      "source": "Al Jazeera",
-      "title": "Trump ramps up third-country US deportations despite global rights outcry",
-      "published": "2026-10-15T17:54:26+00:00",
-      "first_seen": "2026-10-16T05:42:01.392884+10:00",
-      "category": "breaking"
-    },
-    "180d76460bd854e0": {
-      "source": "Al Jazeera",
-      "title": "Ahead of US midterms, voters are frustrated with Trump, want change: Poll",
-      "published": "2026-10-15T18:17:57+00:00",
-      "first_seen": "2026-10-16T05:42:01.392884+10:00",
-      "category": "breaking"
-    },
-    "d4a58d5a2c1cce7f": {
-      "source": "Al Jazeera",
-      "title": "Ethiopian forces expand control in Tigray as militia claims Eritrean losses",
-      "published": "2026-10-15T18:41:41+00:00",
-      "first_seen": "2026-10-16T05:42:01.392884+10:00",
-      "category": "breaking"
-    },
-    "bb0244deb0f34bbb": {
-      "source": "Al Jazeera",
-      "title": "Dying in ICE custody: Inside one family\u2019s story of heartbreak",
-      "published": "2026-10-15T18:57:08+00:00",
-      "first_seen": "2026-10-16T05:42:01.392884+10:00",
-      "category": "breaking"
-    },
-    "45f6dd9e2d333304": {
-      "source": "ABC News",
-      "title": "Alleged Chinese spy posed as recruiter for 'retired Australian police'",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "5813d7158699630f": {
-      "source": "ABC News",
-      "title": "Private health rebate changes causing Labor 'a lot of pain in electorates'",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "5b2b992e6a7ecc52": {
-      "source": "ABC News",
-      "title": "Family court dismissed concerns over India data breach a decade ago",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "42889ade9700db7c": {
-      "source": "ABC News",
-      "title": "Brethren Church hauled back before inquiry over election interference claim",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "cb4a944d24e8a28b": {
-      "source": "ABC News",
-      "title": "America's 'boomcession' and what it means for Australia",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "b3b71e58fa80b0c6": {
-      "source": "SMH",
-      "title": "Ten of the world\u2019s great ocean pools, ranked",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "0c682571f326d6aa": {
-      "source": "SMH",
-      "title": "The 100 Essential Restaurants in Victoria right now",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "f4d258953acc614f": {
-      "source": "SMH",
-      "title": "A lingerie behemoth hit a cultural hurdle \u2013 so a former churchgoing cheerleader stepped in",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "6825e7b55b0770d9": {
-      "source": "SMH",
-      "title": "Cook the trends of 2026: Three retro dishes Melbourne restaurants are loving right now",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "b0f95d393c6aecba": {
-      "source": "The Age",
-      "title": "Ten of the world\u2019s great ocean pools, ranked",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "b3b71e58fa80b0c6"
-    },
-    "30bf0134b69ce85d": {
-      "source": "The Age",
-      "title": "The 100 Essential Restaurants in Victoria right now",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "0c682571f326d6aa"
-    },
-    "8466038c343f4d4e": {
-      "source": "The Age",
-      "title": "A lingerie behemoth hit a cultural hurdle \u2013 so a former churchgoing cheerleader stepped in",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "f4d258953acc614f"
-    },
-    "aa2667230f59d5f9": {
-      "source": "The Age",
-      "title": "What is The Age Good Food Guide\u2019s restaurant of the year? Take The Age quiz",
-      "published": "2026-10-15T18:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "4f8cb3ec3e2d098d": {
-      "source": "SMH",
-      "title": "The three factors driving NSW unemployment to a five-year high",
-      "published": "2026-10-15T18:00:51+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "2ae027ed391df818": {
-      "source": "The Age",
-      "title": "The three factors driving NSW unemployment to a five-year high",
-      "published": "2026-10-15T18:00:51+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "4f8cb3ec3e2d098d"
-    },
-    "b7ff3d3e77dc3fea": {
-      "source": "ABC News",
-      "title": "Victorian schools told to remind parents education is free",
-      "published": "2026-10-15T18:02:01+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "f6018167c7536bdc": {
-      "source": "SMH",
-      "title": "ASX set to jump as Wall Street steadies",
-      "published": "2026-10-15T18:20:15+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "cf58b315e13f9ca3": {
-      "source": "The Age",
-      "title": "ASX set to jump as Wall Street steadies",
-      "published": "2026-10-15T18:20:15+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "f6018167c7536bdc"
-    },
-    "b28546178feb7567": {
-      "source": "ABC News",
-      "title": "Journalist Amy Goodman won't take 'no comment' for an answer",
-      "published": "2026-10-15T18:30:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "52d6a184568bb2bb": {
-      "source": "SMH",
-      "title": "Fontaines DC, rock music\u2019s latest saviours, swoon into the apocalypse",
-      "published": "2026-10-15T18:30:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "d4e9bac87e6e8063": {
-      "source": "The Age",
-      "title": "Fontaines DC, rock music\u2019s latest saviours, swoon into the apocalypse",
-      "published": "2026-10-15T18:30:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "52d6a184568bb2bb"
-    },
-    "dd9d212c431db6e2": {
-      "source": "SMH",
-      "title": "McKinsey leader steps down from charity board days after controversial \u2018glass cliff\u2019 comments",
-      "published": "2026-10-15T18:30:41+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "9c6bb658b281e645": {
-      "source": "The Age",
-      "title": "McKinsey leader steps down from charity board days after controversial \u2018glass cliff\u2019 comments",
-      "published": "2026-10-15T18:30:41+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "dd9d212c431db6e2"
-    },
-    "a72d7bc5707ccee2": {
-      "source": "SMH",
-      "title": "Inquest ordered into deaths of three WA children murdered by mum",
-      "published": "2026-10-15T18:39:03+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "aa79b55d8306190c": {
-      "source": "The Age",
-      "title": "Inquest ordered into deaths of three WA children murdered by mum",
-      "published": "2026-10-15T18:39:03+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "a72d7bc5707ccee2"
-    },
-    "da0f303ed08374e6": {
-      "source": "ABC News",
-      "title": "Spirit of Tasmania crew hit by severe gastro on voyage from Scotland",
-      "published": "2026-10-15T18:47:35+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "e887db5384ae8294": {
-      "source": "ABC News",
-      "title": "How the joy of Pride is 'a form of resistance' against queer discrimination",
-      "published": "2026-10-15T18:49:58+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "f31ec9cf90afa456": {
-      "source": "SMH",
-      "title": "\u2018It\u2019s wonderful to be back\u2019: Harry and Meghan on first outing since UK return",
-      "published": "2026-10-15T18:54:07+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "5d2aebcc076fd3b2": {
-      "source": "The Age",
-      "title": "\u2018It\u2019s wonderful to be back\u2019: Harry and Meghan on first outing since UK return",
-      "published": "2026-10-15T18:54:07+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "f31ec9cf90afa456"
-    },
-    "10c65ad4efd17a47": {
-      "source": "ABC News",
-      "title": "Hobart stadium facing 'cost pressures' as price tag remains unclear",
-      "published": "2026-10-15T18:54:42+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "994d907083c836be": {
-      "source": "SMH",
-      "title": "\u2018Monster-like\u2019: Woman alleges Russell Brand posed for photos moments before sudden rape",
-      "published": "2026-10-15T18:55:15+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "154ca04fb399b0ea": {
-      "source": "The Age",
-      "title": "\u2018Monster-like\u2019: Woman alleges Russell Brand posed for photos moments before sudden rape",
-      "published": "2026-10-15T18:55:15+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "994d907083c836be"
-    },
-    "922ea80c64c0c2c3": {
-      "source": "ABC News",
-      "title": "Friday news quiz: Investigate a fake murder and meet some introverted seabirds",
-      "published": "2026-10-15T18:55:57+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "d88f1a1c2d3ebb41": {
-      "source": "SMH",
-      "title": "Sydney airport security workers strike",
-      "published": "2026-10-15T18:59:39+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "f0d032d9f1a9e1d8": {
-      "source": "The Age",
-      "title": "Sydney airport security workers strike",
-      "published": "2026-10-15T18:59:39+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "d88f1a1c2d3ebb41"
-    },
-    "e7a66b7e358ef948": {
-      "source": "SMH",
-      "title": "The LNP is adamant Brisbane 2032 will be delivered within budget. Here\u2019s what voters think",
-      "published": "2026-10-15T19:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "266db261daeadab8": {
-      "source": "The Age",
-      "title": "The LNP is adamant Brisbane 2032 will be delivered within budget. Here\u2019s what voters think",
-      "published": "2026-10-15T19:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "e7a66b7e358ef948"
-    },
-    "817160c7e7ae6022": {
-      "source": "ABC News",
-      "title": "Dead man found north of Melbourne may have been targeted",
-      "published": "2026-10-15T19:00:52+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "c2d940de3f198a22": {
-      "source": "SMH",
-      "title": "Garbin's 'emotional' return to the WNBL court",
-      "published": "2026-10-15T19:04:24+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "30268af4269f43b0": {
-      "source": "The Age",
-      "title": "Garbin's 'emotional' return to the WNBL court",
-      "published": "2026-10-15T19:04:24+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "c2d940de3f198a22"
-    },
-    "4dc5304607963690": {
-      "source": "SMH",
-      "title": "Victorian doctors prepare for 12-hour long strike",
-      "published": "2026-10-15T19:05:16+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "b5cd2245f2830c54": {
-      "source": "The Age",
-      "title": "Victorian doctors prepare for 12-hour long strike",
-      "published": "2026-10-15T19:05:16+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "4dc5304607963690"
-    },
-    "29b0685207e05915": {
-      "source": "SMH",
-      "title": "Three people killed in Turkey floods",
-      "published": "2026-10-15T19:05:46+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "acbbbe50f8cbb4fb": {
-      "source": "The Age",
-      "title": "Three people killed in Turkey floods",
-      "published": "2026-10-15T19:05:46+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "29b0685207e05915"
-    },
-    "a26f2619020798d1": {
-      "source": "SMH",
-      "title": "Trump calls off livestream of execution",
-      "published": "2026-10-15T19:06:38+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "151c17e0e6635c7b": {
-      "source": "The Age",
-      "title": "Trump calls off livestream of execution",
-      "published": "2026-10-15T19:06:38+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "a26f2619020798d1"
-    },
-    "5ac07c1a93fe9ea2": {
-      "source": "ABC News",
-      "title": "De Minaur falls to world number one Zverev in Shanghai",
-      "published": "2026-10-15T19:09:03+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "a3c4a4e450e07759": {
-      "source": "ABC News",
-      "title": "Councillor told woman it was a 'pity' she wasn't bashed, investigator finds",
-      "published": "2026-10-15T19:16:02+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "569b866fb4b63f54": {
-      "source": "ABC News",
-      "title": "Wallaroos believe 'possibilities are endless' ahead of 2029 World Cup",
-      "published": "2026-10-15T19:17:22+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "6aa531204fac23a4": {
-      "source": "ABC News",
-      "title": "Government urged to do more over Australian's arrest in Vietnam",
-      "published": "2026-10-15T19:19:33+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "e8ad43bab6c15dca": {
-      "source": "SMH",
-      "title": "Jewels win in WNBL comeback",
-      "published": "2026-10-15T19:24:03+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "64cd5077b1a2005c": {
-      "source": "The Age",
-      "title": "Jewels win in WNBL comeback",
-      "published": "2026-10-15T19:24:03+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "e8ad43bab6c15dca"
-    },
-    "6cb31f614e9f63c1": {
-      "source": "SMH",
-      "title": "Bostock hat-trick spurs Kangaroos to victory",
-      "published": "2026-10-15T19:24:22+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "c73df8018afb2e42": {
-      "source": "The Age",
-      "title": "Bostock hat-trick spurs Kangaroos to victory",
-      "published": "2026-10-15T19:24:22+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "6cb31f614e9f63c1"
-    },
-    "7b77fcf236492599": {
-      "source": "ABC News",
-      "title": "Amazon removes ceiling light after it catches fire in safety test",
-      "published": "2026-10-15T19:24:57+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "5a98e83437cddef5": {
-      "source": "ABC News",
-      "title": "Council opposes $209m Hindu temple in outer Melbourne green zone",
-      "published": "2026-10-15T19:27:44+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "a6cd613327b7769f": {
-      "source": "SMH",
-      "title": "\u2018As if the sky had fallen\u2019: School roof collapse kills at least 34 children and a teacher",
-      "published": "2026-10-15T19:29:38+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "d855ebc84719685d": {
-      "source": "The Age",
-      "title": "\u2018As if the sky had fallen\u2019: School roof collapse kills at least 34 children and a teacher",
-      "published": "2026-10-15T19:29:38+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia",
-      "duplicate_of": "a6cd613327b7769f"
-    },
-    "b2f4320afce38547": {
-      "source": "ABC News",
-      "title": "Weekend storms and showers forecast for parts of Queensland",
-      "published": "2026-10-15T19:34:04+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "c0b355960f5568b0": {
-      "source": "ABC News",
-      "title": "State government corporation axes Brisbane sign\u2019s Indigenous makeover",
-      "published": "2026-10-15T19:34:35+00:00",
-      "first_seen": "2026-10-16T05:42:02.370754+10:00",
-      "category": "australia"
-    },
-    "3027efdef13777ed": {
-      "source": "Science",
-      "title": "Stereoselective polysubstituted bicyclo[1.1.0]butane synthesis by rhodium-catalyzed kinetic resolution",
-      "published": "2026-09-08T06:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "23f715fb15adfe46": {
-      "source": "Nature",
-      "title": "Is AI eroding PhD students\u2019 critical thinking and analysis skills?",
-      "published": "2026-10-15T00:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "2a751e1662e81699": {
-      "source": "Nature",
-      "title": "World\u2019s timekeepers upend how they adjust time to avoid catastrophic \u2018negative second\u2019",
-      "published": "2026-10-15T00:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "bcf788ef5b014567": {
-      "source": "Nature",
-      "title": "Nearly half of reef-building corals face elevated relative risk of extinction",
-      "published": "2026-10-15T00:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "63c0436333cab2bc": {
-      "source": "Nature",
-      "title": "Margaret Hamilton obituary: computer scientist who pioneered software engineering and helped us get to the Moon",
-      "published": "2026-10-15T00:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "625093a762d35272": {
-      "source": "Science",
-      "title": "An elegy for the unsung world-builders",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "4fcaa497c07172f2": {
-      "source": "Science",
-      "title": "Fear the bioengineered future",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "81ac1d1ec0027c1f": {
-      "source": "Science",
-      "title": "Gate-tunable chiral spin mode in WSe2/WS2 moir\u00e9 superlattices",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "e0766cdd637c64bd": {
-      "source": "Science",
-      "title": "A pair of chitosan receptors confer broad-spectrum fungal resistance",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "ece9bfb9baf48948": {
-      "source": "Science",
-      "title": "Empirical constraints on ice cliff calving",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "ffc32c5158a97a8f": {
-      "source": "Science",
-      "title": "Engineering ordered two-dimensional defect phases to strengthen structural alloys",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "9d4b778c63df8715": {
-      "source": "Science",
-      "title": "Deterministic generation and distribution of genuine multipartite entanglement in macroscopic acoustic resonators",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "ef26e0c585d5a8d4": {
-      "source": "Science",
-      "title": "Modular van der Waals MOSFETs through layer-by-layer chalcogen substitutions",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "83ff49501ea9f0ff": {
-      "source": "Science",
-      "title": "Structural basis for size-selective perception of chitin in plants",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "6823ca885b97c5e4": {
-      "source": "Science",
-      "title": "Airflows redefine the cost of aerial transport in the wild",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "5b81d40e413968e5": {
-      "source": "Science",
-      "title": "Electrically driven chiral emission from plasmonic tunnel junctions",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "08240ea1a344c9de": {
-      "source": "Science",
-      "title": "In Other Journals",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "480481435defe329": {
-      "source": "Science",
-      "title": "Speaking with authority",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "ec995a444802e42d": {
-      "source": "Science",
-      "title": "Winds make bird flights cheaper",
-      "published": "2026-10-15T06:00:12+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "af51f2ffea6f851f": {
-      "source": "Science",
-      "title": "Regulation of target gene expression by chromatin-associated protein-coding transcripts in plants",
-      "published": "2026-10-15T07:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "2e41b11d88ab4735": {
-      "source": "Science",
-      "title": "Dendritic computation for abstract rule-based flexible decision-making",
-      "published": "2026-10-15T07:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "386643ba87f8f21e": {
-      "source": "Science",
-      "title": "In situ structure of the human ciliary transition zone links linker defects to primary ciliary dyskinesia",
-      "published": "2026-10-15T07:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "d0a4714e4c262d03": {
-      "source": "Science",
-      "title": "Frequency encoding regulates cell type composition in the small intestine",
-      "published": "2026-10-15T07:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "5ac1a67c78ef532a": {
-      "source": "Science",
-      "title": "Glycan recognition by a plant damage-sensing immune receptor",
-      "published": "2026-10-15T07:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "3a526fd29b06cbd1": {
-      "source": "New Scientist",
-      "title": "Neanderthal skeleton found with horrific injuries",
-      "published": "2026-10-15T15:00:00+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "4106d790023d1b6a": {
-      "source": "PhysOrg",
-      "title": "Solving the mystery behind a flightless beetle's transatlantic journey",
-      "published": "2026-10-15T15:20:11+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "24433eae947ac70f": {
-      "source": "PhysOrg",
-      "title": "India's cobras share genetic ties across the mainland, while Sri Lankan cobras form a distinct genetic lineage",
-      "published": "2026-10-15T17:20:21+00:00",
-      "first_seen": "2026-10-16T05:42:05.364936+10:00",
-      "category": "archaeology"
-    },
-    "4c3beabafb4541a5": {
-      "source": "Kicker",
-      "title": "Frankfurts \"Schl\u00fcsselsaison\": Droht die SGE Gladbach 2.0 zu werden?",
-      "published": "2026-10-15T13:19:57+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "ed3c849e3392f172": {
-      "source": "Kicker",
-      "title": "Profivertrag f\u00fcr Senkrechtstarter Nakuzola: \"Ging dann doch relativ schnell\"",
-      "published": "2026-10-15T14:38:30+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football",
-      "duplicate_of": "cb623032ab6e4fb0"
-    },
-    "bb5c0c1ed6c89ac2": {
-      "source": "Marca",
-      "title": "El Athletic lucir\u00e1 un tercer patrocinador en la camiseta",
-      "published": "2026-10-15T14:49:34+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "98ef2bdd17163886": {
-      "source": "Marca",
-      "title": "Gulacsi vuelve a los entrenamientos tras su \u201cprofundamente traum\u00e1tica\u201d experiencia",
-      "published": "2026-10-15T14:54:57+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "76df4a0e7082a5af": {
-      "source": "Kicker",
-      "title": "Nach Vorkommnissen im Pokal: DFB belegt Waldhof mit Zuschauer-Teilausschluss",
-      "published": "2026-10-15T15:07:14+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "a5b5249452b7e957": {
-      "source": "Kicker",
-      "title": "Klose fordert Energie gegen Cottbus: \"Mit das schwierigste Spiel\"",
-      "published": "2026-10-15T15:27:41+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "e54dc2b0dbbf0c0f": {
-      "source": "Kicker",
-      "title": "Lob als St\u00f6rfaktor? Baums Lehren aus dem Bayern-Spiel",
-      "published": "2026-10-15T15:30:28+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "0d82c3414209c1d3": {
-      "source": "Kicker",
-      "title": "N\u00e4chster Ausfall im Sturm: Auch Rondic fehlt K\u00f6ln",
-      "published": "2026-10-15T15:48:11+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "3ff9a66006e01542": {
-      "source": "Marca",
-      "title": "Javier Aguirre rompe con 103 a\u00f1os de tradici\u00f3n en Mestalla",
-      "published": "2026-10-15T15:54:11+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "31970cfe7c8d6225": {
-      "source": "Marca",
-      "title": "Juan Cruz vuelve a caer y ser\u00e1 baja contra la Real",
-      "published": "2026-10-15T16:32:42+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "8487173c76da685e": {
-      "source": "Marca",
-      "title": "\u00c1ngel Torres reconoce conversaciones con Sancho... y no descarta a Parejo",
-      "published": "2026-10-15T17:04:03+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "483948dd3bd6c50f": {
-      "source": "Kicker",
-      "title": "\"Mit Infantino nicht m\u00f6glich\": Neuendorf fordert Neuanfang",
-      "published": "2026-10-15T17:25:01+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "9abae40d2e381aca": {
-      "source": "Kicker",
-      "title": "Harmloser VfL in der Sinnkrise: R\u00f6sler setzt alles auf eine Karte",
-      "published": "2026-10-15T17:39:51+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "33301d23380c02f2": {
-      "source": "Kicker",
-      "title": "VAR-Festival und doppelter Schick: Leverkusens Serie h\u00e4lt auch in Posen an",
-      "published": "2026-10-15T18:38:58+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
-    "fefdb4ef3b2b50ed": {
-      "source": "Kicker",
-      "title": "LIVE! Kabaks starke Rettungsaktion - Hlozek trifft das Au\u00dfennetz",
-      "published": "2026-10-15T19:18:01+00:00",
-      "first_seen": "2026-10-16T05:42:09.187267+10:00",
-      "category": "football"
-    },
     "07588b8efc66a20f": {
       "source": "Al Jazeera",
       "title": "Will Israeli voters punish Benjamin Netanyahu?",
@@ -26572,6 +25782,823 @@
       "published": "2026-10-22T17:35:44+00:00",
       "first_seen": "2026-10-23T03:45:21.486302+10:00",
       "category": "breaking"
+    },
+    "be9fe3169e9a9a63": {
+      "source": "Al Jazeera",
+      "title": "\u2018Longer we wait, worse it gets\u2019: Struggle of Gaza\u2019s breast cancer patients",
+      "published": "2026-10-22T17:40:24+00:00",
+      "first_seen": "2026-10-23T05:44:42.169006+10:00",
+      "category": "breaking"
+    },
+    "cdd3f201478bc548": {
+      "source": "Al Jazeera",
+      "title": "US-sanctioned ICC wins top EU human rights award",
+      "published": "2026-10-22T17:46:03+00:00",
+      "first_seen": "2026-10-23T05:44:42.169006+10:00",
+      "category": "breaking"
+    },
+    "74f9ac66fe6c838c": {
+      "source": "BBC News",
+      "title": "Ukraine hit by strikes after Russia agrees to new peace talks",
+      "published": "2026-10-22T17:49:13+00:00",
+      "first_seen": "2026-10-23T05:44:42.169006+10:00",
+      "category": "breaking"
+    },
+    "f3dbc1b2e2e6113d": {
+      "source": "Al Jazeera",
+      "title": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
+      "published": "2026-10-22T17:58:04+00:00",
+      "first_seen": "2026-10-23T05:44:42.169006+10:00",
+      "category": "breaking"
+    },
+    "30306b27b86ed5a9": {
+      "source": "BBC News",
+      "title": "Bruno Fernandes has home burgled while in Italy with Man Utd",
+      "published": "2026-10-22T18:04:21+00:00",
+      "first_seen": "2026-10-23T05:44:42.169006+10:00",
+      "category": "breaking"
+    },
+    "fd990e42fc22b6d5": {
+      "source": "Al Jazeera",
+      "title": "Trump says NBA star LeBron James disrespected US national anthem",
+      "published": "2026-10-22T18:05:52+00:00",
+      "first_seen": "2026-10-23T05:44:42.169006+10:00",
+      "category": "breaking"
+    },
+    "458d6e7bb5345d52": {
+      "source": "Al Jazeera",
+      "title": "Israel frees suspects in two settler attacks as West Bank pogroms intensify",
+      "published": "2026-10-22T18:17:29+00:00",
+      "first_seen": "2026-10-23T05:44:42.169006+10:00",
+      "category": "breaking"
+    },
+    "b898409d294dc591": {
+      "source": "Al Jazeera",
+      "title": "Time just changed forever",
+      "published": "2026-10-22T19:00:07+00:00",
+      "first_seen": "2026-10-23T05:44:42.169006+10:00",
+      "category": "breaking"
+    },
+    "fb6fb0c1ad6ee379": {
+      "source": "Al Jazeera",
+      "title": "WHO warns \u2018more complex\u2019 Ebola outbreak now present in 3 African countries",
+      "published": "2026-10-22T19:31:27+00:00",
+      "first_seen": "2026-10-23T05:44:42.169006+10:00",
+      "category": "breaking"
+    },
+    "931ecb1ce5142afe": {
+      "source": "BBC News",
+      "title": "Woman charged after police officer injured in shooting",
+      "published": "2026-10-22T19:41:28+00:00",
+      "first_seen": "2026-10-23T05:44:42.169006+10:00",
+      "category": "breaking"
+    },
+    "30d653daf0ae2ac6": {
+      "source": "ABC News",
+      "title": "North and South Korea tensions rise as Pyongyang fortifies border",
+      "published": "2026-10-22T17:09:34+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "b0b44c1eb7394df8": {
+      "source": "ABC News",
+      "title": "Trump ordered to sit for deposition in his $14b BBC lawsuit",
+      "published": "2026-10-22T17:14:25+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "dc670a8c36fd8d23": {
+      "source": "ABC News",
+      "title": "An artist's answer to finding a place for uncomfortable feelings",
+      "published": "2026-10-22T17:30:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "b346e8ae6ba0e153": {
+      "source": "ABC News",
+      "title": "Helen Haines pressed PM on regional health days before car attack",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "1f7c13b407bddd3b": {
+      "source": "SMH",
+      "title": "A Sydney council wants to add thousands of homes. Residents oppose such \u2018radical change\u2019",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "b48bc05844a517cf": {
+      "source": "SMH",
+      "title": "The funeral where the worlds of power, politics and organised crime came together",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "a13f0be919a0afdf": {
+      "source": "SMH",
+      "title": "\u2018Almost broke my spirit\u2019: The \u2018absolute panic\u2019 behind Tamara Dean\u2019s $50,000 prize-winning photo",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "fcdee82c69b37cef": {
+      "source": "SMH",
+      "title": "How monster El Nino is causing havoc around the world",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "df996e87263845c3": {
+      "source": "SMH",
+      "title": "Why Melbourne\u2019s independent schools are booming",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "0e032c4ac8196ca8": {
+      "source": "SMH",
+      "title": "How to save your group trip from dying in the group chat",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "6cadae65b208692a": {
+      "source": "SMH",
+      "title": "Inside the luxury hotel boom sweeping this ancient Japanese city",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "31016f0e768ac0c2": {
+      "source": "SMH",
+      "title": "How to carve a smashing Halloween pumpkin (and what to do with its guts)",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "58d378a503aeaa1b": {
+      "source": "The Age",
+      "title": "What was the original site of the Melbourne Museum? Test yourself with The Age quiz",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "6c7b81d1973da083": {
+      "source": "The Age",
+      "title": "A Sydney council wants to add thousands of homes. Residents oppose such \u2018radical change\u2019",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "1f7c13b407bddd3b"
+    },
+    "5bafb3e603d68257": {
+      "source": "The Age",
+      "title": "The funeral where the worlds of power, politics and organised crime came together",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "b48bc05844a517cf"
+    },
+    "2f8eaac1122c4ead": {
+      "source": "The Age",
+      "title": "\u2018Almost broke my spirit\u2019: The \u2018absolute panic\u2019 behind Tamara Dean\u2019s $50,000 prize-winning photo",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "a13f0be919a0afdf"
+    },
+    "5f97b5ecdc2ea974": {
+      "source": "The Age",
+      "title": "How monster El Nino is causing havoc around the world",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "fcdee82c69b37cef"
+    },
+    "a62ed070977401ed": {
+      "source": "The Age",
+      "title": "Why Melbourne\u2019s independent schools are booming",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "df996e87263845c3"
+    },
+    "ba8d92563a0b6093": {
+      "source": "The Age",
+      "title": "How to save your group trip from dying in the group chat",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "0e032c4ac8196ca8"
+    },
+    "ddb34de96e8b7407": {
+      "source": "The Age",
+      "title": "Inside the luxury hotel boom sweeping this ancient Japanese city",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "6cadae65b208692a"
+    },
+    "58d9a37d31354835": {
+      "source": "SMH",
+      "title": "Collingwood\u2019s The Vine Hotel looking for new owner in $4m sale",
+      "published": "2026-10-22T18:01:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "17e244d182e057dc": {
+      "source": "SMH",
+      "title": "Catholic Church seeking $18m windfall for inner west uni site",
+      "published": "2026-10-22T18:01:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "3dfefc6767c340b1": {
+      "source": "The Age",
+      "title": "Collingwood\u2019s The Vine Hotel looking for new owner in $4m sale",
+      "published": "2026-10-22T18:01:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "58d9a37d31354835"
+    },
+    "7557a48a1921b4cd": {
+      "source": "The Age",
+      "title": "Catholic Church seeking $18m windfall for inner west uni site",
+      "published": "2026-10-22T18:01:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "17e244d182e057dc"
+    },
+    "aa8e13012b8be383": {
+      "source": "ABC News",
+      "title": "Influencer 'Clavicular' pleads not guilty to rape allegation",
+      "published": "2026-10-22T18:04:41+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "bf915c56dd9f604a": {
+      "source": "SMH",
+      "title": "The NSW regional towns where house prices defied the downturn",
+      "published": "2026-10-22T18:05:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "0ec387c1fbf87ce9": {
+      "source": "The Age",
+      "title": "The NSW regional towns where house prices defied the downturn",
+      "published": "2026-10-22T18:05:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "bf915c56dd9f604a"
+    },
+    "d3976c8e90b64b4e": {
+      "source": "SMH",
+      "title": "ASX set to slide as Wall Street falls; oil at highest since May",
+      "published": "2026-10-22T18:17:47+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "ae47e00f12b643bb": {
+      "source": "The Age",
+      "title": "ASX set to slide as Wall Street falls; oil at highest since May",
+      "published": "2026-10-22T18:17:47+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "d3976c8e90b64b4e"
+    },
+    "c5f9439380800b48": {
+      "source": "SMH",
+      "title": "Australia\u2019s patched-up batting has reached boiling point. It must change for Cape Town",
+      "published": "2026-10-22T18:22:12+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "2b39c1b911a559d8": {
+      "source": "The Age",
+      "title": "Australia\u2019s patched-up batting has reached boiling point. It must change for Cape Town",
+      "published": "2026-10-22T18:22:12+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "c5f9439380800b48"
+    },
+    "7a8433b28ac1840f": {
+      "source": "ABC News",
+      "title": "Friday news quiz: Royal reconciliation, muddled maps and an island evacuation",
+      "published": "2026-10-22T18:30:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "36ac04c82e9f0949": {
+      "source": "ABC News",
+      "title": "Painted for the Archibald, collected by the Tate: Meet Justene Williams",
+      "published": "2026-10-22T18:30:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "3d9c9e4c7da458ab": {
+      "source": "SMH",
+      "title": "Everyone is making \u201990s alt-rock again. Why?",
+      "published": "2026-10-22T18:30:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "7d7d78500ec1e750": {
+      "source": "The Age",
+      "title": "Everyone is making \u201990s alt-rock again. Why?",
+      "published": "2026-10-22T18:30:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "3d9c9e4c7da458ab"
+    },
+    "5d816ced37ce9467": {
+      "source": "ABC News",
+      "title": "Raiding super to pay medical bills leaves trail of 'financial damage'",
+      "published": "2026-10-22T18:35:08+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "ed4a795409433371": {
+      "source": "ABC News",
+      "title": "Promised a better life, New Zealand voters are asking what went wrong",
+      "published": "2026-10-22T18:37:41+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "e6bdf0925bca6916": {
+      "source": "ABC News",
+      "title": "Heavy rain forces south-east Qld school closures but falls set to ease",
+      "published": "2026-10-22T18:38:38+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "9f755181f8b88ac9": {
+      "source": "ABC News",
+      "title": "AI tool saves time but makes errors in police trial",
+      "published": "2026-10-22T18:39:08+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "176ed4f21c06a6c1": {
+      "source": "ABC News",
+      "title": "A mother's heartfelt letter to Helen Haines",
+      "published": "2026-10-22T18:40:30+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "458e58d694b30e9a": {
+      "source": "ABC News",
+      "title": "Federal Court accused of 'obfuscation' as data breach crisis deepens",
+      "published": "2026-10-22T18:42:41+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "4ae54b0aa5bedc46": {
+      "source": "ABC News",
+      "title": "Children in care at high risk of suicide but national data is patchy",
+      "published": "2026-10-22T18:44:49+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "03916662e7826da8": {
+      "source": "ABC News",
+      "title": "In occupied Ukraine, Russia is trying to indoctrinate the children it stole",
+      "published": "2026-10-22T18:46:20+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "f74d913d9a9c720f": {
+      "source": "ABC News",
+      "title": "People power in the suburbs exposes the fragility of the AI boom",
+      "published": "2026-10-22T18:47:44+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "a2a9576655ece25d": {
+      "source": "SMH",
+      "title": "I spent thousands on a \u2018potentially dangerous\u2019 marathon. I\u2019d do it again",
+      "published": "2026-10-22T19:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "f81ad19466a5dbbd": {
+      "source": "The Age",
+      "title": "I spent thousands on a \u2018potentially dangerous\u2019 marathon. I\u2019d do it again",
+      "published": "2026-10-22T19:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "a2a9576655ece25d"
+    },
+    "5fe527c77adaf408": {
+      "source": "ABC News",
+      "title": "New Sydney airport honours trailblazing pilot as first passengers welcomed",
+      "published": "2026-10-22T19:02:09+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "91e3274c367743a6": {
+      "source": "SMH",
+      "title": "Woman and child found dead in Melbourne",
+      "published": "2026-10-22T19:05:57+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "cf8f24a421971ceb": {
+      "source": "The Age",
+      "title": "Woman and child found dead in Melbourne",
+      "published": "2026-10-22T19:05:57+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "91e3274c367743a6"
+    },
+    "6c2a2a10f22bffaa": {
+      "source": "SMH",
+      "title": "Wild thunderstorms rock south-east Queensland",
+      "published": "2026-10-22T19:07:18+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "07b174b8e079e0ec": {
+      "source": "The Age",
+      "title": "Wild thunderstorms rock south-east Queensland",
+      "published": "2026-10-22T19:07:18+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "6c2a2a10f22bffaa"
+    },
+    "fdc46f4dc022e8ad": {
+      "source": "SMH",
+      "title": "Meta facing landmark class action in Australia",
+      "published": "2026-10-22T19:10:48+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "990e836536bb848a": {
+      "source": "The Age",
+      "title": "Meta facing landmark class action in Australia",
+      "published": "2026-10-22T19:10:48+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "fdc46f4dc022e8ad"
+    },
+    "063e57368bab7631": {
+      "source": "SMH",
+      "title": "Claim more bank jobs at risk",
+      "published": "2026-10-22T19:11:09+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "e053126949b3e418": {
+      "source": "The Age",
+      "title": "Claim more bank jobs at risk",
+      "published": "2026-10-22T19:11:09+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "063e57368bab7631"
+    },
+    "db03ca49b0488ea7": {
+      "source": "ABC News",
+      "title": "Quick hits: Bavuma hides from Smith implosion as Boland outgrits batters",
+      "published": "2026-10-22T19:30:31+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "69796f78b71f83f1": {
+      "source": "SMH",
+      "title": "Aussies pumped by Proteas in Gqeberha",
+      "published": "2026-10-22T19:35:51+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "d9c30e1d340280ec": {
+      "source": "The Age",
+      "title": "Aussies pumped by Proteas in Gqeberha",
+      "published": "2026-10-22T19:35:51+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia",
+      "duplicate_of": "69796f78b71f83f1"
+    },
+    "3f9d266c37fa0b26": {
+      "source": "ABC News",
+      "title": "Images are all this community has left of their ancestral villages",
+      "published": "2026-10-22T19:38:58+00:00",
+      "first_seen": "2026-10-23T05:44:43.114250+10:00",
+      "category": "australia"
+    },
+    "7a13c3c038c67af1": {
+      "source": "Science",
+      "title": "Noncoding transcription controls the developmental dynamics of long-range gene regulation",
+      "published": "2026-09-10T06:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "920e70339b68655b": {
+      "source": "Science",
+      "title": "Safeguarding global terrestrial vertebrate species from future sea level rise",
+      "published": "2026-10-08T06:13:14+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "3a526fd29b06cbd1": {
+      "source": "New Scientist",
+      "title": "Neanderthal skeleton found with horrific injuries",
+      "published": "2026-10-15T15:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "4106d790023d1b6a": {
+      "source": "PhysOrg",
+      "title": "Solving the mystery behind a flightless beetle's transatlantic journey",
+      "published": "2026-10-15T15:20:11+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "24433eae947ac70f": {
+      "source": "PhysOrg",
+      "title": "India's cobras share genetic ties across the mainland, while Sri Lankan cobras form a distinct genetic lineage",
+      "published": "2026-10-15T17:20:21+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "d1e00fa0f2bfb555": {
+      "source": "Nature",
+      "title": "Can a 'lullaby' save coral reefs from extinction?",
+      "published": "2026-10-22T00:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "ce51911d9d62a782": {
+      "source": "Nature",
+      "title": "Can maths survive AI? Fields medallist Terence Tao calls for a \u2018Maths 2.0\u2019 world",
+      "published": "2026-10-22T00:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "c33e589feca46d5b": {
+      "source": "Nature",
+      "title": "Current-Driven Molecular Machine with Rotation-Enhanced Conductance",
+      "published": "2026-10-22T00:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "ef1ccfb8b3f0a1a6": {
+      "source": "Science",
+      "title": "The Monarch Bear",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "b565cd10dfd43ee5": {
+      "source": "Science",
+      "title": "The microscope and the metaphor",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "f5503f91b42e11e8": {
+      "source": "Science",
+      "title": "Thermodynamic origin of the phonon Hall effect in a honeycomb antiferromagnet",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "d49565f395e3722e": {
+      "source": "Science",
+      "title": "Late Holocene reexpansion of the Laurentide Ice Sheet",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "735e1040aca2d076": {
+      "source": "Science",
+      "title": "Ultrarapid decision-making in an avian brain",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "6aded43cf5084701": {
+      "source": "Science",
+      "title": "Dynamic functionality\u2013enabled fast and selective transport in nanochannels",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "707b4c78031616cf": {
+      "source": "Science",
+      "title": "Imaging electron-hole asymmetry in the quantum melting of generalized Wigner crystals",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "0f6e65af8cf6b8cb": {
+      "source": "Science",
+      "title": "Visualizing symmetry-broken Chern insulators and their quantum melting",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "0b8141bbc261f7da": {
+      "source": "Science",
+      "title": "Natural product biosynthesis by guanidine prenyltransferases in plants and bacteria",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "d137377d96783ca4": {
+      "source": "Science",
+      "title": "Sequential diagnosis with language models",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "0e2342c6553e42a2": {
+      "source": "Science",
+      "title": "Electronic bound states in the continuum in a two-dimensional metal",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "5a35b81aa0fce96f": {
+      "source": "Science",
+      "title": "In Other Journals",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "fe6fe20c5bdb139c": {
+      "source": "Science",
+      "title": "My hidden homeless past",
+      "published": "2026-10-22T06:00:10+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "71c734d59c3f8a0c": {
+      "source": "Science",
+      "title": "Wireless electrocatalytic closed-loop system for drug-free management of diabesity",
+      "published": "2026-10-22T07:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "d5e6e38179a9a7a4": {
+      "source": "Science",
+      "title": "BAK and BAX form a multiprotein complex to drive mtDNA efflux and caspase-independent cell death",
+      "published": "2026-10-22T07:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "2795293ebb426d37": {
+      "source": "Science",
+      "title": "Intron retention regulates STAT2 function and associates with immunotherapy response in lung cancer",
+      "published": "2026-10-22T07:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "7b8e478adc60f379": {
+      "source": "Science",
+      "title": "Decoupled self-assembled monolayer and perovskite deposition for efficient flexible solar modules",
+      "published": "2026-10-22T07:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "105c5b264af5ffa0": {
+      "source": "Science",
+      "title": "The Virtual Biotech: A multi-agent AI framework for therapeutic discovery and development",
+      "published": "2026-10-22T07:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:45.726627+10:00",
+      "category": "archaeology"
+    },
+    "095d355cb02e9a3f": {
+      "source": "Kicker",
+      "title": "Hellmann \u00fcber Transferstrategie der Eintracht: \"Modifikation ist das Zauberwort\"",
+      "published": "2026-10-22T14:48:56+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "4e61c2fe7959eb3d": {
+      "source": "Kicker",
+      "title": "KSC bangt um Torwart Bernat - Senft \"vorsichtig optimistisch\"",
+      "published": "2026-10-22T15:01:05+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "bceb542b8204a447": {
+      "source": "Kicker",
+      "title": "Pl\u00f6tzlich Vorstandsboss: Wie Hellmann seine neue Rolle in Frankfurt interpretiert",
+      "published": "2026-10-22T15:05:58+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "c4d330db166fdbb9": {
+      "source": "Kicker",
+      "title": "Fahne als pr\u00e4gendes Symbol: Hertha BSC pr\u00e4sentiert ein Trikotmanifest",
+      "published": "2026-10-22T15:09:41+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "d9e2f721a072b25a": {
+      "source": "Kicker",
+      "title": "Blessin \u00fcber Stimmung: \"Ist ja klar, dass hier niemand Party macht\"",
+      "published": "2026-10-22T15:32:08+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "9725a2dc2e18bdd7": {
+      "source": "Kicker",
+      "title": "Nach Goebbels-Eklat: Tebas drohen juristische Folgen",
+      "published": "2026-10-22T15:37:00+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "96d46a0abb76bb63": {
+      "source": "Kicker",
+      "title": "Wagners Plan um Schalke zu schlagen: \"Die Basics des Fu\u00dfballs leben\"",
+      "published": "2026-10-22T15:54:59+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "ae8c84a10e8a39aa": {
+      "source": "Kicker",
+      "title": "Gegen Katar durchgesetzt: USA richten die erste Klub-WM der Frauen aus",
+      "published": "2026-10-22T16:38:49+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "db7aeb3c8b597874": {
+      "source": "Kicker",
+      "title": "Kant\u00e9-Vergleich und Trikot-Leibchen-Frage: Bans\u00e9 bl\u00fcht in F\u00fcrth auf",
+      "published": "2026-10-22T16:42:27+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "2fd98ee50a5e7eec": {
+      "source": "Kicker",
+      "title": "Heidenheims Sturm-Talent Vogt: gef\u00e4hrlich - und doch zu ungef\u00e4hrlich",
+      "published": "2026-10-22T17:19:35+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "74130e845d4e5d81": {
+      "source": "Kicker",
+      "title": "LIVE! Lange Unterbrechung: Gro\u00dfe Sorgen um Kango",
+      "published": "2026-10-22T18:00:00+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "79b03031ce022d44": {
+      "source": "Marca",
+      "title": "Se avecina tormenta en Vallecas: \"Si no se producen cambios, el descontento no va a desaparecer\"",
+      "published": "2026-10-22T18:13:30+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "edc9e1f5e0e7f1dc": {
+      "source": "Kicker",
+      "title": "Dirkner fehlt nicht nur beim Krisenduell gegen die Fortuna",
+      "published": "2026-10-22T18:20:00+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "3e5f75dcdf7070ab": {
+      "source": "Kicker",
+      "title": "Bonhof weist R\u00fccktrittsforderungen zur\u00fcck - und l\u00e4sst erneute Kandidatur offen",
+      "published": "2026-10-22T18:34:59+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "48346bca4dde2e69": {
+      "source": "Kicker",
+      "title": "Nachr\u00fccker Hofmann schn\u00fcrt Blitz-Doppelpack: Leverkusen siegt auch auf Kreta",
+      "published": "2026-10-22T18:43:00+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "adf7bd2ad15478d9": {
+      "source": "Marca",
+      "title": "Alav\u00e9s - M\u00e1laga | Al M\u00e1laga le urge cantar Vitoria: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
+      "published": "2026-10-22T18:48:21+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "acc86f6b5db61b83": {
+      "source": "Kicker",
+      "title": "Zwei Scorerpunkte von Woltemade zu wenig: Juventus verpasst Sieg gegen Rennes",
+      "published": "2026-10-22T19:12:08+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "5658750532773610": {
+      "source": "Kicker",
+      "title": "Harter Schlag f\u00fcr RWE: Offensivduo Telalovic und Obuz fehlt l\u00e4nger",
+      "published": "2026-10-22T19:12:54+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
+    },
+    "a4a2bee95efbb733": {
+      "source": "Kicker",
+      "title": "Mazas Anekdote vom Trikottausch: \"Das ist mein Abi\"",
+      "published": "2026-10-22T19:19:08+00:00",
+      "first_seen": "2026-10-23T05:44:50.962223+10:00",
+      "category": "football"
     }
   }
 }

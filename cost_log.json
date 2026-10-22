@@ -16565,5 +16565,43 @@
     "outcome": "skipped",
     "error": null,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-10-22T13:22:24.545787+10:00",
+    "run_id": "39716404922",
+    "run_type": "full",
+    "label": "breaking_selection",
+    "category": "breaking",
+    "model": "none",
+    "candidates": 30,
+    "reason": "claude_disabled",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "web_search_requests": 0,
+    "stop_reason": null,
+    "outcome": "skipped",
+    "error": null,
+    "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-10-22T13:22:25.842277+10:00",
+    "run_id": "39716404922",
+    "run_type": "full",
+    "label": "australia_selection",
+    "category": "australia",
+    "model": "none",
+    "candidates": 30,
+    "reason": "claude_disabled",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "web_search_requests": 0,
+    "stop_reason": null,
+    "outcome": "skipped",
+    "error": null,
+    "cost_usd": 0.0
   }
 ]

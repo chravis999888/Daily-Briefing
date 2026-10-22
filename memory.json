@@ -2091,83 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-22T03:21:59.483909+00:00",
   "article_store": {
-    "d230e1aa3b96b449": {
-      "source": "BBC News",
-      "title": "Retired US generals call on Pentagon to cancel 'barbaric' execution livestream",
-      "published": "2026-10-15T02:26:07+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
-    "39604261fa9dabb6": {
-      "source": "Al Jazeera",
-      "title": "Trump plays Muslim Brotherhood card against Senate candidate El-Sayed",
-      "published": "2026-10-15T02:54:31+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
-    "f2a16424266970be": {
-      "source": "Al Jazeera",
-      "title": "Trump administration seeks to strip Ilhan Omar of US citizenship: WSJ",
-      "published": "2026-10-15T03:03:00+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
-    "0db67867289160df": {
-      "source": "BBC News",
-      "title": "White House defends new press secretary amid questions about her legal credentials",
-      "published": "2026-10-15T03:03:16+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
-    "34c54cb6c6b1a82c": {
-      "source": "Al Jazeera",
-      "title": "Teenager dies as heavy rain floods Istanbul",
-      "published": "2026-10-15T03:12:02+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
-    "02f3c301d73c901d": {
-      "source": "Al Jazeera",
-      "title": "North Korea tests two submarine-launched missiles, state media reports",
-      "published": "2026-10-15T03:23:49+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
-    "252b0b87e3f38df1": {
-      "source": "Al Jazeera",
-      "title": "OpenAI bugging suspect allegedly booked one-way trip to Saudi Arabia",
-      "published": "2026-10-15T03:28:44+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
-    "f59a2132b53eca04": {
-      "source": "Al Jazeera",
-      "title": "Albanian Ministry of Justice on fire as education protesters riot",
-      "published": "2026-10-15T03:30:42+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
-    "d84aa68a87d59ddc": {
-      "source": "Al Jazeera",
-      "title": "Argentina\u2019s Milei backs Trump for US midterms, calls vote crucial for West",
-      "published": "2026-10-15T03:50:14+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
-    "461515705c3c015a": {
-      "source": "Al Jazeera",
-      "title": "X suspends 13,000 accounts, alleging foreign influence ahead of US midterms",
-      "published": "2026-10-15T04:15:55+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
-    "4a8dce09874955ff": {
-      "source": "Al Jazeera",
-      "title": "Heavy rain causes mass pileup in Brazil tunnel",
-      "published": "2026-10-15T04:19:06+00:00",
-      "first_seen": "2026-10-15T14:59:30.920434+10:00",
-      "category": "breaking"
-    },
     "467f64cbcd9b6efb": {
       "source": "BBC News",
       "title": "Global charity withholds report into its role in Syria's 'disappeared' children",
@@ -26605,6 +26528,62 @@
       "first_seen": "2026-10-22T13:22:25.763857+10:00",
       "category": "australia",
       "duplicate_of": "72359f6c3c1843bc"
+    },
+    "4b3ae4ff3a2f663f": {
+      "source": "Al Jazeera",
+      "title": "Trump administration seeks Supreme Court approval to build Big Bend wall",
+      "published": "2026-10-22T03:19:38+00:00",
+      "first_seen": "2026-10-22T15:10:31.239508+10:00",
+      "category": "breaking"
+    },
+    "9e04d1bc9e1f6a05": {
+      "source": "BBC News",
+      "title": "What is PHP and why did it spark a global cyber-security scramble?",
+      "published": "2026-10-22T03:48:50+00:00",
+      "first_seen": "2026-10-22T15:10:31.239508+10:00",
+      "category": "breaking"
+    },
+    "1e214b11022b6fe9": {
+      "source": "BBC News",
+      "title": "Celebrity shark returns to South Korea canal after failed rescue",
+      "published": "2026-10-22T04:12:26+00:00",
+      "first_seen": "2026-10-22T15:10:31.239508+10:00",
+      "category": "breaking"
+    },
+    "eaf9136e98418217": {
+      "source": "Al Jazeera",
+      "title": "Australian TV reporter rescues man from sinking car",
+      "published": "2026-10-22T04:19:33+00:00",
+      "first_seen": "2026-10-22T15:10:31.239508+10:00",
+      "category": "breaking"
+    },
+    "583ad8df9be96576": {
+      "source": "Al Jazeera",
+      "title": "Brazil\u2019s Bolsonaro challenges Lula to expand release of personal records",
+      "published": "2026-10-22T04:36:04+00:00",
+      "first_seen": "2026-10-22T15:10:31.239508+10:00",
+      "category": "breaking"
+    },
+    "7d984e2507ae951e": {
+      "source": "Al Jazeera",
+      "title": "North Korea to resume propaganda broadcasts, South Korea urges dialogue",
+      "published": "2026-10-22T04:45:41+00:00",
+      "first_seen": "2026-10-22T15:10:31.239508+10:00",
+      "category": "breaking"
+    },
+    "51c339acd5028512": {
+      "source": "BBC News",
+      "title": "Dame Judi Dench: 'I can't do a play, a film or read anymore'",
+      "published": "2026-10-22T05:01:01+00:00",
+      "first_seen": "2026-10-22T15:10:31.239508+10:00",
+      "category": "breaking"
+    },
+    "6d928d65fbac93c5": {
+      "source": "BBC News",
+      "title": "UK working to identify exposure after global cyber-security warning",
+      "published": "2026-10-22T05:03:47+00:00",
+      "first_seen": "2026-10-22T15:10:31.239508+10:00",
+      "category": "breaking"
     }
   }
 }

@@ -2089,57 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-22T03:21:59.483909+00:00",
+  "last_gdelt_attempt": "2026-10-22T06:16:56.379006+00:00",
   "article_store": {
-    "467f64cbcd9b6efb": {
-      "source": "BBC News",
-      "title": "Global charity withholds report into its role in Syria's 'disappeared' children",
-      "published": "2026-10-14T23:20:57+00:00",
-      "first_seen": "2026-10-15T16:04:26.255309+10:00",
-      "category": "breaking"
-    },
-    "6a9f21c07d28a3fb": {
-      "source": "BBC News",
-      "title": "North Korea and China open new bridge after 12-year delay",
-      "published": "2026-10-15T02:59:30+00:00",
-      "first_seen": "2026-10-15T16:04:26.255309+10:00",
-      "category": "breaking"
-    },
-    "9e6806e699cfb7bb": {
-      "source": "Al Jazeera",
-      "title": "Israel has detained more than 2,000 Palestinian children since 2023: report",
-      "published": "2026-10-15T04:43:15+00:00",
-      "first_seen": "2026-10-15T16:04:26.255309+10:00",
-      "category": "breaking"
-    },
-    "2cb4149471cceccf": {
-      "source": "BBC News",
-      "title": "Hundreds of IDF investigations into killings without public outcome, BBC Verify finds",
-      "published": "2026-10-15T05:00:23+00:00",
-      "first_seen": "2026-10-15T16:04:26.255309+10:00",
-      "category": "breaking"
-    },
-    "458a03bf8cbc2f1c": {
-      "source": "BBC News",
-      "title": "My contraceptive coil saved my life after it revealed I had cancer",
-      "published": "2026-10-15T05:05:59+00:00",
-      "first_seen": "2026-10-15T16:04:26.255309+10:00",
-      "category": "breaking"
-    },
-    "3640d6a15d60548b": {
-      "source": "Al Jazeera",
-      "title": "Restoring nature is key to a more resilient future",
-      "published": "2026-10-15T05:24:40+00:00",
-      "first_seen": "2026-10-15T16:04:26.255309+10:00",
-      "category": "breaking"
-    },
-    "429070dccbae7368": {
-      "source": "Al Jazeera",
-      "title": "Is Lamine Yamal\u2019s Barcelona record better than Messi\u2019s as a teenager?",
-      "published": "2026-10-15T05:48:00+00:00",
-      "first_seen": "2026-10-15T16:04:26.255309+10:00",
-      "category": "breaking"
-    },
     "2d6e708c9b5004f1": {
       "source": "BBC News",
       "title": "UK temperatures to rise to 23C before autumn chill sets in",
@@ -26583,6 +26534,76 @@
       "title": "UK working to identify exposure after global cyber-security warning",
       "published": "2026-10-22T05:03:47+00:00",
       "first_seen": "2026-10-22T15:10:31.239508+10:00",
+      "category": "breaking"
+    },
+    "5309b3c7eec137b8": {
+      "source": "BBC News",
+      "title": "Meta fined $25bn for 'lies' over user data privacy",
+      "published": "2026-10-21T21:49:07+00:00",
+      "first_seen": "2026-10-22T16:17:17.721553+10:00",
+      "category": "breaking"
+    },
+    "76f6fa9eb0bdc2b4": {
+      "source": "BBC News",
+      "title": "Why is a peat fire so bad? BBC is in Indonesia to find out",
+      "published": "2026-10-21T22:02:18+00:00",
+      "first_seen": "2026-10-22T16:17:17.721553+10:00",
+      "category": "breaking"
+    },
+    "c4dce7827ae5af36": {
+      "source": "Al Jazeera",
+      "title": "El-Sayed in face-off against rival Rogers for Michigan Senate seat",
+      "published": "2026-10-22T05:00:56+00:00",
+      "first_seen": "2026-10-22T16:17:17.721553+10:00",
+      "category": "breaking"
+    },
+    "83f754316745d97f": {
+      "source": "BBC News",
+      "title": "How Arab parties could hold critical balance of power in Israeli election",
+      "published": "2026-10-22T05:30:22+00:00",
+      "first_seen": "2026-10-22T16:17:17.721553+10:00",
+      "category": "breaking"
+    },
+    "e9a52e7cd6e7e90b": {
+      "source": "Al Jazeera",
+      "title": "El Salvador\u2019s Bukele threatens Haitian gangs over abducted soldiers",
+      "published": "2026-10-22T05:36:33+00:00",
+      "first_seen": "2026-10-22T16:17:17.721553+10:00",
+      "category": "breaking"
+    },
+    "23f472790de0f051": {
+      "source": "Al Jazeera",
+      "title": "Ukraine\u2019s access to Starlink a decision for Elon Musk, Rubio says",
+      "published": "2026-10-22T05:54:12+00:00",
+      "first_seen": "2026-10-22T16:17:17.721553+10:00",
+      "category": "breaking"
+    },
+    "a2cd012e7229212a": {
+      "source": "Al Jazeera",
+      "title": "\u2018Stupid talk\u2019: France rejects Trump\u2019s attempt to blame unrest on migration",
+      "published": "2026-10-22T05:58:52+00:00",
+      "first_seen": "2026-10-22T16:17:17.721553+10:00",
+      "category": "breaking"
+    },
+    "39ae4cbaefe8b858": {
+      "source": "Al Jazeera",
+      "title": "The world is $365 trillion in debt, and the interest bill is climbing",
+      "published": "2026-10-22T05:59:52+00:00",
+      "first_seen": "2026-10-22T16:17:17.721553+10:00",
+      "category": "breaking"
+    },
+    "cd8bb3d8661860d0": {
+      "source": "Al Jazeera",
+      "title": "Man United\u2019s Carrick not worried about his job despite \u2018unacceptable\u2019 loss",
+      "published": "2026-10-22T06:01:48+00:00",
+      "first_seen": "2026-10-22T16:17:17.721553+10:00",
+      "category": "breaking"
+    },
+    "5d06bee1776d0d73": {
+      "source": "Al Jazeera",
+      "title": "Cookies and weapons: Women in Yemen\u2019s Taiz find ways to help the city\u2019s defence",
+      "published": "2026-10-22T06:06:28+00:00",
+      "first_seen": "2026-10-22T16:17:17.721553+10:00",
       "category": "breaking"
     }
   }

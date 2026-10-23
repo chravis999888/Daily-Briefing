@@ -2089,64 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-23T09:06:07.912283+00:00",
+  "last_gdelt_attempt": "2026-10-23T12:18:16.651984+00:00",
   "article_store": {
-    "fdd72688374358ad": {
-      "source": "BBC News",
-      "title": "They fled Russia, but the West sent them back",
-      "published": "2026-10-16T04:57:28+00:00",
-      "first_seen": "2026-10-16T20:00:13.335909+10:00",
-      "category": "breaking"
-    },
-    "456d8176c1ad47fa": {
-      "source": "Al Jazeera",
-      "title": "Indian police launch New Delhi clampdown for Cockroach Party rally",
-      "published": "2026-10-16T09:17:47+00:00",
-      "first_seen": "2026-10-16T20:00:13.335909+10:00",
-      "category": "breaking"
-    },
-    "8d19776d89debc00": {
-      "source": "Al Jazeera",
-      "title": "Man Utd veering towards crisis as Man City cloud hangs over Premier League",
-      "published": "2026-10-16T09:17:50+00:00",
-      "first_seen": "2026-10-16T20:00:13.335909+10:00",
-      "category": "breaking"
-    },
-    "9c728b7e8b8ee533": {
-      "source": "Al Jazeera",
-      "title": "China-North Korea border bridge may do little to spur trade, experts say",
-      "published": "2026-10-16T09:21:40+00:00",
-      "first_seen": "2026-10-16T20:00:13.335909+10:00",
-      "category": "breaking"
-    },
-    "68abef4e6ca181dd": {
-      "source": "BBC News",
-      "title": "Community 'heartbroken and horrified' after Oregon school shooting",
-      "published": "2026-10-16T09:24:19+00:00",
-      "first_seen": "2026-10-16T20:00:13.335909+10:00",
-      "category": "breaking"
-    },
-    "835389c1e833d47e": {
-      "source": "BBC News",
-      "title": "Zelensky rallies EU support as Trump says Ukraine leader 'more difficult to deal with than Putin'",
-      "published": "2026-10-16T09:34:30+00:00",
-      "first_seen": "2026-10-16T20:00:13.335909+10:00",
-      "category": "breaking"
-    },
-    "5f0b2f981da49d9b": {
-      "source": "BBC News",
-      "title": "Police officer who raped two women jailed for 12 years",
-      "published": "2026-10-16T09:50:43+00:00",
-      "first_seen": "2026-10-16T20:00:13.335909+10:00",
-      "category": "breaking"
-    },
-    "5509cfde5b98d582": {
-      "source": "BBC News",
-      "title": "British father fined for causing his two-year-old son's death in Cyprus hotel fall",
-      "published": "2026-10-16T09:57:30+00:00",
-      "first_seen": "2026-10-16T20:00:13.335909+10:00",
-      "category": "breaking"
-    },
     "f016f6d2731c527d": {
       "source": "BBC News",
       "title": "The hero dinner lady who died saving five children in the Aberfan disaster",
@@ -26713,6 +26657,153 @@
       "published": "2026-10-23T08:52:24+00:00",
       "first_seen": "2026-10-23T19:06:40.834847+10:00",
       "category": "football"
+    },
+    "266a24426e610e1f": {
+      "source": "Al Jazeera",
+      "title": "Ultra-Orthodox conscription debate ignites Israel\u2019s election battleground",
+      "published": "2026-10-23T09:03:39+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "78ac639685a67cb8": {
+      "source": "Al Jazeera",
+      "title": "Israeli military kills two in gun battle in occupied West Bank",
+      "published": "2026-10-23T09:12:38+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "92b5139179897ff5": {
+      "source": "Al Jazeera",
+      "title": "Hamilton calls for Palestine and DR Congo freedom as Rwanda takes F1 spotlight",
+      "published": "2026-10-23T09:12:46+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "2d8e1b84066be6b2": {
+      "source": "BBC News",
+      "title": "Hispanic voters helped bring Trump to power - in Texas, the tide may be turning",
+      "published": "2026-10-23T09:23:53+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "4657f64bb8648781": {
+      "source": "Al Jazeera",
+      "title": "Pulaku: The two faces of Nigeria\u2019s vigilantes",
+      "published": "2026-10-23T09:30:05+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "8590e41efbea3b31": {
+      "source": "Al Jazeera",
+      "title": "What role does the military play in Israeli schools?",
+      "published": "2026-10-23T09:32:33+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "2bcca241383bd0ea": {
+      "source": "Al Jazeera",
+      "title": "NBA\u2019s Irving praises Al-Shaair\u2019s \u2018selfless act\u2019 after Hind Rajab fine paid",
+      "published": "2026-10-23T09:40:57+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "a37acf199f8cae71": {
+      "source": "BBC News",
+      "title": "Final James Bond screen tests to take place this weekend, reports say",
+      "published": "2026-10-23T09:41:44+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "a9f7ada74262d4cc": {
+      "source": "Al Jazeera",
+      "title": "Serbia\u2019s snap election: What\u2019s at stake and can students unseat Vucic?",
+      "published": "2026-10-23T09:52:20+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "9991f337dcb3b05b": {
+      "source": "Al Jazeera",
+      "title": "New electronics reach Iran, but prices soar as gov\u2019t fees, US sanctions hit",
+      "published": "2026-10-23T09:56:28+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "4ea25cd857d8445d": {
+      "source": "BBC News",
+      "title": "Cyprus police open investigation into financial affairs of Roman Abramovich",
+      "published": "2026-10-23T10:14:37+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "5fc1617eadeac865": {
+      "source": "Al Jazeera",
+      "title": "South Korea invites North for military talks over border",
+      "published": "2026-10-23T10:20:31+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "a78c496904ced467": {
+      "source": "BBC News",
+      "title": "Five Israelis wounded and two suspected Palestinian attackers killed in West Bank shooting",
+      "published": "2026-10-23T10:26:06+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "537f243f9bfbf9e3": {
+      "source": "Al Jazeera",
+      "title": "France tightens security in anticipation of weekend protests",
+      "published": "2026-10-23T11:05:13+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "b435b17c21edf8f3": {
+      "source": "Al Jazeera",
+      "title": "\u2018Pink blooms from among the rubble\u2019: Battling breast cancer in Gaza",
+      "published": "2026-10-23T11:27:35+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "cc4b7015302736e3": {
+      "source": "Al Jazeera",
+      "title": "Saudi Arabia security puts Asian Cup in doubt: Japan football chief",
+      "published": "2026-10-23T11:34:59+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "642bc2cfeab555b9": {
+      "source": "Al Jazeera",
+      "title": "US-Iran war, then and now: How the landscape has changed since February",
+      "published": "2026-10-23T11:43:53+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "fc65450539783344": {
+      "source": "BBC News",
+      "title": "Meghan says she was informed about 'disturbing allegations' against her father in 2018",
+      "published": "2026-10-23T11:43:59+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "d74ee4e8aad1791c": {
+      "source": "BBC News",
+      "title": "Earnings limit of up to \u00a3140K for first-time buyers loan scheme",
+      "published": "2026-10-23T11:48:04+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "f89045e607744067": {
+      "source": "BBC News",
+      "title": "Burnham suggests stocking up on tinned food and bottled water",
+      "published": "2026-10-23T11:57:31+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
+    },
+    "6c27b5b96c5b1ee6": {
+      "source": "BBC News",
+      "title": "At least one dead and four injured in Paris suburb shooting",
+      "published": "2026-10-23T12:06:50+00:00",
+      "first_seen": "2026-10-23T22:18:38.540857+10:00",
+      "category": "breaking"
     }
   }
 }

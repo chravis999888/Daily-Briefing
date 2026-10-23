@@ -2091,90 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-23T06:10:46.721076+00:00",
   "article_store": {
-    "5e394872c6eb978d": {
-      "source": "BBC News",
-      "title": "Mother of Henry Nowak killer could be deported",
-      "published": "2026-10-15T19:43:07+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "9f3efe07137ad5d5": {
-      "source": "Al Jazeera",
-      "title": "Bystander guns down suspected primary school shooter in Oregon",
-      "published": "2026-10-16T05:00:25+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "aa7ef8af421e59e6": {
-      "source": "Al Jazeera",
-      "title": "Four killed as Indonesia battles worst forest fires in more than a decade",
-      "published": "2026-10-16T05:15:09+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "74c88b1ab02bab05": {
-      "source": "Al Jazeera",
-      "title": "Rubio presses Lebanon on confiscation of weapons from Hezbollah",
-      "published": "2026-10-16T05:28:29+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "46fe5ad1937fc13d": {
-      "source": "BBC News",
-      "title": "The Olympic sprinter now bedbound for 22 hours a day",
-      "published": "2026-10-16T05:31:22+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "83abcf922dbe1f59": {
-      "source": "Al Jazeera",
-      "title": "US sanctions leave Iranians facing flight cancellations and soaring costs",
-      "published": "2026-10-16T05:51:40+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "3f182d1dc97aaa03": {
-      "source": "Al Jazeera",
-      "title": "Alone in Gaza: Genocide leaves Palestinian man without family or a home",
-      "published": "2026-10-16T05:55:23+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "1849eb058d1641ce": {
-      "source": "Al Jazeera",
-      "title": "Vibe coding: Game-changer or risky business?",
-      "published": "2026-10-16T06:01:34+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "79c70d24bd089f77": {
-      "source": "Al Jazeera",
-      "title": "Which countries waste the most food, and how to reduce waste at home",
-      "published": "2026-10-16T06:31:57+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "b5e11babee0525de": {
-      "source": "Al Jazeera",
-      "title": "In Israel, Netanyahu\u2019s ultimate legacy is the opposition he has forged",
-      "published": "2026-10-16T06:41:15+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "462f184bac8103f0": {
-      "source": "Al Jazeera",
-      "title": "How Israel\u2019s elections will affect Palestinians",
-      "published": "2026-10-16T07:04:54+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
-    "ff4e29fc5da9bcfa": {
-      "source": "Al Jazeera",
-      "title": "Tesla unveils car that can drive upside down and jump through the air",
-      "published": "2026-10-16T07:10:42+00:00",
-      "first_seen": "2026-10-16T17:25:55.571947+10:00",
-      "category": "breaking"
-    },
     "f045b216ba4bd46e": {
       "source": "BBC News",
       "title": "Doctor regrets not going to police earlier about Lucy Letby",
@@ -26705,6 +26621,41 @@
       "title": "EU entering winter with lowest gas reserves on record, IEA boss warns",
       "published": "2026-10-23T06:02:15+00:00",
       "first_seen": "2026-10-23T16:11:07.807338+10:00",
+      "category": "breaking"
+    },
+    "81d9a6d02239ae0e": {
+      "source": "Al Jazeera",
+      "title": "Manchester United labelled \u2018babies\u2019 by club legend Wayne Rooney",
+      "published": "2026-10-23T06:11:17+00:00",
+      "first_seen": "2026-10-23T17:49:17.110477+10:00",
+      "category": "breaking"
+    },
+    "261f4aec984a0863": {
+      "source": "Al Jazeera",
+      "title": "FIFA President Infantino\u2019s re-election endorsed in U-turn by Asian football",
+      "published": "2026-10-23T06:11:27+00:00",
+      "first_seen": "2026-10-23T17:49:17.110477+10:00",
+      "category": "breaking"
+    },
+    "877f485d6f2e54e4": {
+      "source": "Al Jazeera",
+      "title": "How the midterms could change Trump\u2019s presidency",
+      "published": "2026-10-23T06:28:05+00:00",
+      "first_seen": "2026-10-23T17:49:17.110477+10:00",
+      "category": "breaking"
+    },
+    "ac03c738c2a15245": {
+      "source": "Al Jazeera",
+      "title": "Maradona death: Verdict in trial to be delivered on December 22",
+      "published": "2026-10-23T06:55:21+00:00",
+      "first_seen": "2026-10-23T17:49:17.110477+10:00",
+      "category": "breaking"
+    },
+    "f09168d20f78ad2d": {
+      "source": "Al Jazeera",
+      "title": "Europe needs a war economy",
+      "published": "2026-10-23T07:08:10+00:00",
+      "first_seen": "2026-10-23T17:49:17.110477+10:00",
       "category": "breaking"
     }
   }

@@ -1,33 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-10-20T00:11:43.147814+10:00",
-      "run_type": "breaking_only",
-      "outcome": "ok",
-      "data_good": true,
-      "claude_calls": 0,
-      "claude_calls_errored": 0,
-      "reasons": [],
-      "reason": "claude_off",
-      "categories": {
-        "breaking": {
-          "fetched": 40,
-          "new": 6,
-          "duplicates": 0,
-          "has_new": true,
-          "new_by_source": {
-            "Al Jazeera": 3,
-            "BBC News": 3
-          },
-          "blocked": "claude_disabled",
-          "claude_off": true
-        }
-      },
-      "errors": [],
-      "banner_deploy": false,
-      "alerted": false
-    },
-    {
       "timestamp": "2026-10-20T02:47:59.936403+10:00",
       "run_type": "full",
       "outcome": "ok",
@@ -1967,27 +1940,31 @@
       ],
       "banner_deploy": false,
       "alerted": false
+    },
+    {
+      "timestamp": "2026-10-23T11:07:06.942434+10:00",
+      "run_type": "breaking_only",
+      "outcome": "ok",
+      "data_good": true,
+      "claude_calls": 0,
+      "claude_calls_errored": 0,
+      "reasons": [],
+      "reason": "no_new",
+      "categories": {
+        "breaking": {
+          "fetched": 40,
+          "new": 0,
+          "duplicates": 0,
+          "has_new": false,
+          "new_by_source": {}
+        }
+      },
+      "errors": [],
+      "banner_deploy": false,
+      "alerted": false
     }
   ],
   "errors": [
-    {
-      "timestamp": "2026-10-23T00:52:38.606110+10:00",
-      "run_type": "full",
-      "source": "EurekAlert",
-      "message": "HTTP 404 \u2014 <h1 style=\"font-family: sans-serif; font-size: 34px;\">Content not found</h1>\n<p style=\"font-family: sans-serif; font-size: 14px;\">The content you're trying to access no longer exists or you've tried t"
-    },
-    {
-      "timestamp": "2026-10-23T00:52:38.606110+10:00",
-      "run_type": "full",
-      "source": "The Conversation",
-      "message": "HTTP 404 \u2014 "
-    },
-    {
-      "timestamp": "2026-10-23T00:52:38.606110+10:00",
-      "run_type": "full",
-      "source": "Guardian",
-      "message": "0 articles returned"
-    },
     {
       "timestamp": "2026-10-23T00:52:38.606110+10:00",
       "run_type": "full",
@@ -2269,10 +2246,28 @@
       "run_type": "breaking_only",
       "source": "AP News",
       "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
+    },
+    {
+      "timestamp": "2026-10-23T11:07:06.942434+10:00",
+      "run_type": "breaking_only",
+      "source": "Guardian",
+      "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-10-23T11:07:06.942434+10:00",
+      "run_type": "breaking_only",
+      "source": "Reuters",
+      "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "timestamp": "2026-10-23T11:07:06.942434+10:00",
+      "run_type": "breaking_only",
+      "source": "AP News",
+      "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
     }
   ],
   "api_cost_ledger": {
-    "as_of": "2026-10-23T10:48:19.629944+10:00",
+    "as_of": "2026-10-23T11:07:06.942478+10:00",
     "aud_rate_display_only": 1.55,
     "legacy_rows_excluded": 314,
     "today": {
@@ -2480,64 +2475,64 @@
     "Guardian": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-23T10:48:19.629866+10:00",
+        "time": "2026-10-23T11:07:06.942434+10:00",
         "message": "0 articles returned"
       },
       "last_run": {
-        "time": "2026-10-23T10:48:19.629866+10:00",
+        "time": "2026-10-23T11:07:06.942434+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.63,
+        "seconds": 0.72,
         "error": "0 articles returned"
       }
     },
     "Reuters": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-23T10:48:19.629866+10:00",
+        "time": "2026-10-23T11:07:06.942434+10:00",
         "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
       },
       "last_run": {
-        "time": "2026-10-23T10:48:19.629866+10:00",
+        "time": "2026-10-23T11:07:06.942434+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.1,
+        "seconds": 0.03,
         "error": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
       }
     },
     "AP News": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-23T10:48:19.629866+10:00",
+        "time": "2026-10-23T11:07:06.942434+10:00",
         "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
       },
       "last_run": {
-        "time": "2026-10-23T10:48:19.629866+10:00",
+        "time": "2026-10-23T11:07:06.942434+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.16,
+        "seconds": 0.11,
         "error": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
       }
     },
     "BBC News": {
-      "last_success": "2026-10-23T10:48:19.629866+10:00",
+      "last_success": "2026-10-23T11:07:06.942434+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-23T10:48:19.629866+10:00",
+        "time": "2026-10-23T11:07:06.942434+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.18,
+        "seconds": 0.1,
         "error": ""
       }
     },
     "Al Jazeera": {
-      "last_success": "2026-10-23T10:48:19.629866+10:00",
+      "last_success": "2026-10-23T11:07:06.942434+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-23T10:48:19.629866+10:00",
+        "time": "2026-10-23T11:07:06.942434+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.21,
+        "seconds": 0.09,
         "error": ""
       }
     },
@@ -2818,7 +2813,7 @@
       }
     }
   },
-  "last_successful_run": "2026-10-23T10:48:19.629866+10:00",
+  "last_successful_run": "2026-10-23T11:07:06.942434+10:00",
   "last_successful_data_update": "2026-10-11T19:09:54.686274+10:00",
   "consecutive_failures": 0,
   "stale_alerted": false,

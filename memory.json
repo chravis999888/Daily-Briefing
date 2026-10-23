@@ -2089,558 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-23T00:47:56.986928+00:00",
+  "last_gdelt_attempt": "2026-10-23T03:27:12.258924+00:00",
   "article_store": {
-    "bc374d33858f098e": {
-      "source": "BBC News",
-      "title": "Weekly quiz: Which star is lending his voice to Gromit?",
-      "published": "2026-10-15T17:52:33+00:00",
-      "first_seen": "2026-10-16T10:54:40.136630+10:00",
-      "category": "breaking"
-    },
-    "0455a49b6eb6bbf9": {
-      "source": "BBC News",
-      "title": "I find it quite demoralising in store - why I do all my shopping online",
-      "published": "2026-10-15T23:16:12+00:00",
-      "first_seen": "2026-10-16T10:54:40.136630+10:00",
-      "category": "breaking"
-    },
-    "d96e3cf07db5888a": {
-      "source": "BBC News",
-      "title": "Are student protests being manipulated ahead of France's presidential election?",
-      "published": "2026-10-15T23:25:06+00:00",
-      "first_seen": "2026-10-16T10:54:40.136630+10:00",
-      "category": "breaking"
-    },
-    "01658cc95d4ae856": {
-      "source": "BBC News",
-      "title": "Porn showing choking or incest to be banned from early November, government says",
-      "published": "2026-10-15T23:27:57+00:00",
-      "first_seen": "2026-10-16T10:54:40.136630+10:00",
-      "category": "breaking"
-    },
-    "e41153add26a6c04": {
-      "source": "BBC News",
-      "title": "India's 'cockroach' protesters set to return despite police crackdown",
-      "published": "2026-10-15T23:30:29+00:00",
-      "first_seen": "2026-10-16T10:54:40.136630+10:00",
-      "category": "breaking"
-    },
-    "c0a8444d6651ff7a": {
-      "source": "Al Jazeera",
-      "title": "Iraq parliament approves al-Zaidi\u2019s cabinet amid growing economic concerns",
-      "published": "2026-10-16T00:31:18+00:00",
-      "first_seen": "2026-10-16T10:54:40.136630+10:00",
-      "category": "breaking"
-    },
-    "839e70f509ab92bf": {
-      "source": "BBC News",
-      "title": "Same-day test helps doctors detect hidden infections in critically ill children",
-      "published": "2026-10-16T00:34:45+00:00",
-      "first_seen": "2026-10-16T10:54:40.136630+10:00",
-      "category": "breaking"
-    },
-    "0542df3d336501cf": {
-      "source": "BBC News",
-      "title": "Your child wasn't invited to the party - here's how to handle the disappointment",
-      "published": "2026-10-16T00:46:10+00:00",
-      "first_seen": "2026-10-16T10:54:40.136630+10:00",
-      "category": "breaking"
-    },
-    "ecee42ed512477b9": {
-      "source": "BBC News",
-      "title": "'We got penalised for saying 'pregnancy' on Instagram'",
-      "published": "2026-10-16T00:53:58+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "92a4595751b9d311": {
-      "source": "Al Jazeera",
-      "title": "Can Zimbabwe\u2019s ZiG win trust and replace the US dollar?",
-      "published": "2026-10-16T01:12:26+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "a8869849c7a83074": {
-      "source": "Al Jazeera",
-      "title": "Clashes erupt at protest over university funding law in Argentina",
-      "published": "2026-10-16T01:19:25+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "d6bf32d12fb47f04": {
-      "source": "Al Jazeera",
-      "title": "Myanmar\u2019s coup leader-turned-president wins back neighbours despite war",
-      "published": "2026-10-16T01:34:47+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "cc0107ef1896c8d2": {
-      "source": "BBC News",
-      "title": "'It's really hard to believe' - How Oregon primary school shooting unfolded",
-      "published": "2026-10-16T01:36:45+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "59e454e4793dcbae": {
-      "source": "Al Jazeera",
-      "title": "Progressives, AIPAC and the future of the Democratic Party",
-      "published": "2026-10-16T02:01:15+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "cbcb4e3e1bddfcea": {
-      "source": "Al Jazeera",
-      "title": "Peshawar mourns children killed in school roof collapse",
-      "published": "2026-10-16T02:01:43+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "6b4772a7d4cf551e": {
-      "source": "Al Jazeera",
-      "title": "Argentine students protest on campus over Milei\u2019s austerity",
-      "published": "2026-10-16T02:11:33+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "2cb5e8effab79f94": {
-      "source": "Al Jazeera",
-      "title": "Residents douse workers with flaming gasoline during eviction in Peru",
-      "published": "2026-10-16T02:35:57+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "5d61e4299dd3665f": {
-      "source": "Al Jazeera",
-      "title": "China tells Israel to stop \u2018forced establishment\u2019 of West Bank settlements",
-      "published": "2026-10-16T02:56:21+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "fbda300348f27f40": {
-      "source": "BBC News",
-      "title": "Three children and teacher killed by 16-year-old at Oregon primary school",
-      "published": "2026-10-16T03:01:38+00:00",
-      "first_seen": "2026-10-16T13:13:15.139101+10:00",
-      "category": "breaking"
-    },
-    "7336edcc32f5cb78": {
-      "source": "ABC News",
-      "title": "Live: Children among dead in shooting at elementary school in Oregon",
-      "published": "2026-10-15T23:00:57+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "c284d2f7ffd35280": {
-      "source": "ABC News",
-      "title": "Chickens allowed free range again in Victoria as bird flu lockdown ends",
-      "published": "2026-10-15T23:02:08+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "6b477e251ee95095": {
-      "source": "ABC News",
-      "title": "Sandalwood industry left in limbo as WA government mulls new rules",
-      "published": "2026-10-15T23:03:26+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "4a802ab473a1e8c9": {
-      "source": "ABC News",
-      "title": "Mayor says flood-prone airstrip may need to move despite $27m upgrade",
-      "published": "2026-10-15T23:31:17+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "5cea00589c6b916e": {
-      "source": "ABC News",
-      "title": "Cowan handed AFL suspension following illicit substance investigation",
-      "published": "2026-10-15T23:32:29+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "c5d6cc83b58085aa": {
-      "source": "ABC News",
-      "title": "House where Sydney couple died visited by Lamarre-Condon jury",
-      "published": "2026-10-16T00:18:21+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "b55ed9f61b9a3d51": {
-      "source": "ABC News",
-      "title": "Safety concern in remote community with police station unstaffed",
-      "published": "2026-10-16T00:56:00+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "061e2dd7f854aedc": {
-      "source": "ABC News",
-      "title": "'Investors freaking out' about Wall Street big tech as warning bell rings",
-      "published": "2026-10-16T01:03:34+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "8440bbed3b15d7b0": {
-      "source": "SMH",
-      "title": "December rare earths production debut looms for Lindian in Malawi",
-      "published": "2026-10-16T01:07:43+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "65473f58db5eeadd": {
-      "source": "The Age",
-      "title": "December rare earths production debut looms for Lindian in Malawi",
-      "published": "2026-10-16T01:07:43+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "8440bbed3b15d7b0"
-    },
-    "8a69b02808d12ced": {
-      "source": "SMH",
-      "title": "Climb this spiral staircase for the long lunch of your dreams",
-      "published": "2026-10-16T01:10:19+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "724c13a2d235c294": {
-      "source": "The Age",
-      "title": "Climb this spiral staircase for the long lunch of your dreams",
-      "published": "2026-10-16T01:10:19+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "8a69b02808d12ced"
-    },
-    "0a9fb79309dce6b7": {
-      "source": "SMH",
-      "title": "Principal admits \u2018failures\u2019 after anti-abortion speaker addressed Scotch students",
-      "published": "2026-10-16T01:12:12+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "2501ef2b9a123eec": {
-      "source": "The Age",
-      "title": "Principal admits \u2018failures\u2019 after anti-abortion speaker addressed Scotch students",
-      "published": "2026-10-16T01:12:12+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "0a9fb79309dce6b7"
-    },
-    "5b05dea8cb4349f3": {
-      "source": "ABC News",
-      "title": "Police respond to gunman reports in Sydney's inner west",
-      "published": "2026-10-16T01:17:19+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "f07459f1564ea3c8": {
-      "source": "ABC News",
-      "title": "Indian voting changes sparking gen Z anger on the streets",
-      "published": "2026-10-16T01:17:40+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "0f206b17f41e959f": {
-      "source": "SMH",
-      "title": "Even Stephen Curry\u2019s King Arthur can\u2019t save stale Spamalot, plus other new shows this week",
-      "published": "2026-10-16T01:19:09+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "73bcd1eea06b3e51": {
-      "source": "The Age",
-      "title": "Even Stephen Curry\u2019s King Arthur can\u2019t save stale Spamalot, plus other new shows this week",
-      "published": "2026-10-16T01:19:09+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "0f206b17f41e959f"
-    },
-    "abdd7617abdd72a2": {
-      "source": "ABC News",
-      "title": "Shop owner allegedly caught with 2,500 child abuse files, court hears",
-      "published": "2026-10-16T01:19:47+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "cfc02b2d38b2ca4a": {
-      "source": "ABC News",
-      "title": "ICE investigation reportedly aims to strip Ilhan Omar's US citizenship",
-      "published": "2026-10-16T01:25:21+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "50f12725d28abf33": {
-      "source": "SMH",
-      "title": "Boy, 16, kills three children and a teacher in Oregon school shooting",
-      "published": "2026-10-16T01:25:45+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "09ecf475eeb06c65": {
-      "source": "The Age",
-      "title": "Boy, 16, kills three children and a teacher in Oregon school shooting",
-      "published": "2026-10-16T01:25:45+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "50f12725d28abf33"
-    },
-    "a555eedeb065aa00": {
-      "source": "ABC News",
-      "title": "Coroner probing teen's cricketing death will not recommend rule changes",
-      "published": "2026-10-16T01:28:35+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "7ace799deaa8e209": {
-      "source": "SMH",
-      "title": "Spring vegetable soup with orzo and cannellini beans",
-      "published": "2026-10-16T01:36:57+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "6a65e23135cf8ba2": {
-      "source": "The Age",
-      "title": "Spring vegetable soup with orzo and cannellini beans",
-      "published": "2026-10-16T01:36:57+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "7ace799deaa8e209"
-    },
-    "8dc2c19ff894ac4f": {
-      "source": "ABC News",
-      "title": "Family of man who died waiting for ambulance learnt of death through the media",
-      "published": "2026-10-16T01:37:27+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "a681b92f5a68aa71": {
-      "source": "SMH",
-      "title": "Gunfire reported in Dulwich Hill as police hunt for armed man",
-      "published": "2026-10-16T01:38:57+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "0e713bef255789e3": {
-      "source": "The Age",
-      "title": "Gunfire reported in Dulwich Hill as police hunt for armed man",
-      "published": "2026-10-16T01:38:57+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "a681b92f5a68aa71"
-    },
-    "26ee2bec50da944d": {
-      "source": "SMH",
-      "title": "'He seems to have a vendetta.'",
-      "published": "2026-10-16T01:45:53+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "0817e64b232193d6": {
-      "source": "The Age",
-      "title": "'He seems to have a vendetta.'",
-      "published": "2026-10-16T01:45:53+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "26ee2bec50da944d"
-    },
-    "e21ae94887ba7cec": {
-      "source": "SMH",
-      "title": "Jack is about to run a race with no finish line. The goal, to be the last man standing",
-      "published": "2026-10-16T01:52:29+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "4623507ca81b73f4": {
-      "source": "The Age",
-      "title": "Jack is about to run a race with no finish line. The goal, to be the last man standing",
-      "published": "2026-10-16T01:52:29+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "e21ae94887ba7cec"
-    },
-    "cb360521946534fd": {
-      "source": "ABC News",
-      "title": "Tahiti police gather evidence after pro surfer suspended over alleged incident",
-      "published": "2026-10-16T01:53:00+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "2cce9867b1c9c5e1": {
-      "source": "SMH",
-      "title": "Which horse is expected to win the Caulfield Cup",
-      "published": "2026-10-16T01:56:46+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "21ff649dc3fa4cee": {
-      "source": "The Age",
-      "title": "Which horse is expected to win the Caulfield Cup",
-      "published": "2026-10-16T01:56:46+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "2cce9867b1c9c5e1"
-    },
-    "fe68caa59a7e240d": {
-      "source": "SMH",
-      "title": "'Just leave': A-League villain fires up at journalist",
-      "published": "2026-10-16T01:58:39+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "ae92fa13b02384d7": {
-      "source": "The Age",
-      "title": "'Just leave': A-League villain fires up at journalist",
-      "published": "2026-10-16T01:58:39+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "fe68caa59a7e240d"
-    },
-    "d356520af0177926": {
-      "source": "ABC News",
-      "title": "Sharing care for my son is hard. But I'm learning",
-      "published": "2026-10-16T02:01:03+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "a9b3d59aec3af529": {
-      "source": "ABC News",
-      "title": "Council suspended after GM sacked in wake of mayoral vote hat-draw blunder",
-      "published": "2026-10-16T02:15:26+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "37dc532bb7e20eac": {
-      "source": "ABC News",
-      "title": "Self-described 'lawyer' Katie Zacharia defends legal credentials",
-      "published": "2026-10-16T02:29:00+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "b4c83bc6914c5d51": {
-      "source": "SMH",
-      "title": "Young cricketer Ben Austin\u2019s death ruled a tragic accident",
-      "published": "2026-10-16T02:39:03+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "95d754388a71d92b": {
-      "source": "The Age",
-      "title": "Young cricketer Ben Austin\u2019s death ruled a tragic accident",
-      "published": "2026-10-16T02:39:03+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "b4c83bc6914c5d51"
-    },
-    "db9aabc99b3ac5cd": {
-      "source": "SMH",
-      "title": "Carlton off-field crisis deepens after defender suspended for drink-driving",
-      "published": "2026-10-16T02:40:18+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "231c3022c1729051": {
-      "source": "The Age",
-      "title": "Carlton off-field crisis deepens after defender suspended for drink-driving",
-      "published": "2026-10-16T02:40:18+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "db9aabc99b3ac5cd"
-    },
-    "91ebe85cbaef4ba1": {
-      "source": "SMH",
-      "title": "Our wine writer\u2019s top three tips for navigating restaurant wine lists on a budget",
-      "published": "2026-10-16T02:43:40+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "b211491ace687555": {
-      "source": "The Age",
-      "title": "Our wine writer\u2019s top three tips for navigating restaurant wine lists on a budget",
-      "published": "2026-10-16T02:43:40+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "91ebe85cbaef4ba1"
-    },
-    "1d18a478855890ab": {
-      "source": "ABC News",
-      "title": "Ferry blocks major Tasmanian highway after transportation fail",
-      "published": "2026-10-16T02:44:34+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "613141106420ffee": {
-      "source": "SMH",
-      "title": "Catalano bound for Bali as his lawyers try to resolve domestic violence charges",
-      "published": "2026-10-16T02:45:11+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "07242459cd194e55": {
-      "source": "The Age",
-      "title": "Catalano bound for Bali as his lawyers try to resolve domestic violence charges",
-      "published": "2026-10-16T02:45:11+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "613141106420ffee"
-    },
-    "e280c721c9f23fcf": {
-      "source": "SMH",
-      "title": "The fakeaway burger with a secret ingredient",
-      "published": "2026-10-16T02:51:02+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "807c1b9d3dc77d6a": {
-      "source": "The Age",
-      "title": "The fakeaway burger with a secret ingredient",
-      "published": "2026-10-16T02:51:02+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "e280c721c9f23fcf"
-    },
-    "1456fb8b499336c8": {
-      "source": "SMH",
-      "title": "Forrestania fast-tracks WA gold production for December",
-      "published": "2026-10-16T02:57:03+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "e33820d9cd08a856": {
-      "source": "The Age",
-      "title": "Forrestania fast-tracks WA gold production for December",
-      "published": "2026-10-16T02:57:03+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "1456fb8b499336c8"
-    },
-    "39beb31c1677b508": {
-      "source": "SMH",
-      "title": "Aurum hits more golden paydirt beyond West African resource",
-      "published": "2026-10-16T02:57:37+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia"
-    },
-    "8601eca8f68d110b": {
-      "source": "The Age",
-      "title": "Aurum hits more golden paydirt beyond West African resource",
-      "published": "2026-10-16T02:57:37+00:00",
-      "first_seen": "2026-10-16T13:13:16.229988+10:00",
-      "category": "australia",
-      "duplicate_of": "39beb31c1677b508"
-    },
-    "195f22e830901b65": {
-      "source": "PhysOrg",
-      "title": "Newly discovered viruses reveal an evolutionary missing link",
-      "published": "2026-10-15T23:40:10+00:00",
-      "first_seen": "2026-10-16T13:13:19.280972+10:00",
-      "category": "archaeology"
-    },
-    "f56e2324e3912f4d": {
-      "source": "Gazzetta dello Sport",
-      "title": "Thuram e la storia dell'Inter: tutte le esultanze copiate dai grandi bomber",
-      "published": "2023-12-08T12:01:49+00:00",
-      "first_seen": "2026-10-16T13:13:24.958235+10:00",
-      "category": "football"
-    },
     "d5bdd8a821f859bd": {
       "source": "BBC News",
       "title": "Watch: Will disenchanted Iowa Republicans reject Trump in the midterms?",
@@ -26728,6 +26178,492 @@
       "published": "2026-10-23T00:33:16+00:00",
       "first_seen": "2026-10-23T10:48:19.558245+10:00",
       "category": "breaking"
+    },
+    "410c9c389e6c8937": {
+      "source": "BBC News",
+      "title": "Private care home investors a risk to public sector, regulator says",
+      "published": "2026-10-22T23:20:05+00:00",
+      "first_seen": "2026-10-23T13:27:38.250957+10:00",
+      "category": "breaking"
+    },
+    "9fae2c5437974b43": {
+      "source": "Al Jazeera",
+      "title": "Rare unrest flares in Tunisian capital as police clash with protesters",
+      "published": "2026-10-23T00:51:40+00:00",
+      "first_seen": "2026-10-23T13:27:38.250957+10:00",
+      "category": "breaking"
+    },
+    "4a813c5cec4bb563": {
+      "source": "Al Jazeera",
+      "title": "Thousands protest across Poland for access to free and legal abortions",
+      "published": "2026-10-23T00:54:51+00:00",
+      "first_seen": "2026-10-23T13:27:38.250957+10:00",
+      "category": "breaking"
+    },
+    "6e0dbcf7d7412f24": {
+      "source": "Al Jazeera",
+      "title": "Trump says Musk restored Ukraine\u2019s Starlink access amid Russia war",
+      "published": "2026-10-23T01:46:40+00:00",
+      "first_seen": "2026-10-23T13:27:38.250957+10:00",
+      "category": "breaking"
+    },
+    "6d873ab453c87195": {
+      "source": "Al Jazeera",
+      "title": "Will ICE agents play a role in the 2026 US midterm elections?",
+      "published": "2026-10-23T01:47:39+00:00",
+      "first_seen": "2026-10-23T13:27:38.250957+10:00",
+      "category": "breaking"
+    },
+    "598294cdd793ff5f": {
+      "source": "Al Jazeera",
+      "title": "Ilhan Omar plans to move out of her Washington DC home after federal raid",
+      "published": "2026-10-23T02:09:38+00:00",
+      "first_seen": "2026-10-23T13:27:38.250957+10:00",
+      "category": "breaking"
+    },
+    "1050c5933fb82249": {
+      "source": "Al Jazeera",
+      "title": "Trump backs Ramaswamy ad featuring rival Amy Acton\u2019s estranged mother",
+      "published": "2026-10-23T02:22:24+00:00",
+      "first_seen": "2026-10-23T13:27:38.250957+10:00",
+      "category": "breaking"
+    },
+    "8f446f7e55da479b": {
+      "source": "Al Jazeera",
+      "title": "Indian developer turns \u2018Cockroach\u2019 protests into video game",
+      "published": "2026-10-23T02:44:35+00:00",
+      "first_seen": "2026-10-23T13:27:38.250957+10:00",
+      "category": "breaking"
+    },
+    "e4804e9718c972dc": {
+      "source": "Al Jazeera",
+      "title": "Venezuelans demand elections in first national protest in nearly two years",
+      "published": "2026-10-23T03:12:12+00:00",
+      "first_seen": "2026-10-23T13:27:38.250957+10:00",
+      "category": "breaking"
+    },
+    "30e43a7fe486d1e1": {
+      "source": "Al Jazeera",
+      "title": "US tech stocks tumble as investors fret over AI spending",
+      "published": "2026-10-23T03:13:13+00:00",
+      "first_seen": "2026-10-23T13:27:38.250957+10:00",
+      "category": "breaking"
+    },
+    "d270ca88559c200d": {
+      "source": "ABC News",
+      "title": "Dozens arrested over illegal casino operations, drug trafficking",
+      "published": "2026-10-22T23:57:32+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "6df076628b3bbbe9": {
+      "source": "ABC News",
+      "title": "Mayor told staff member to 'lose some weight', misconduct probe finds",
+      "published": "2026-10-23T00:19:12+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "0fff517055a010cc": {
+      "source": "ABC News",
+      "title": "Man United legend lashes current players for behaving 'like babies'",
+      "published": "2026-10-23T00:53:50+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "eca779855242856b": {
+      "source": "SMH",
+      "title": "Kennedy scorches to 100m title",
+      "published": "2026-10-23T01:25:52+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "b3ef443165111d52": {
+      "source": "The Age",
+      "title": "Kennedy scorches to 100m title",
+      "published": "2026-10-23T01:25:52+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "eca779855242856b"
+    },
+    "ad218b7f1813b1cd": {
+      "source": "SMH",
+      "title": "\u2018You can work out how many decades!\u2019 Ann Peacock on famous parents, racing, the Liberal Party \u2013 and her stalker",
+      "published": "2026-10-23T01:26:56+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "8d592e4d6a1213a9": {
+      "source": "The Age",
+      "title": "\u2018You can work out how many decades!\u2019 Ann Peacock on famous parents, racing, the Liberal Party \u2013 and her stalker",
+      "published": "2026-10-23T01:26:56+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "ad218b7f1813b1cd"
+    },
+    "3784e7f3aca187fb": {
+      "source": "ABC News",
+      "title": "'Sell or put up with it': Changed regulations have redrawn housing battle lines",
+      "published": "2026-10-23T01:28:51+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "1bc31fd55ae5c46c": {
+      "source": "ABC News",
+      "title": "ABC wipes staff devices exposed to new, sophisticated cyber attack",
+      "published": "2026-10-23T01:41:30+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "0fd093adb54e68c5": {
+      "source": "SMH",
+      "title": "\u2018Killing the game\u2019: Kisnorbo unloads over Akon\u2019s U17 World Cup controversy",
+      "published": "2026-10-23T01:51:21+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "e46d212b776f1c25": {
+      "source": "The Age",
+      "title": "\u2018Killing the game\u2019: Kisnorbo unloads over Akon\u2019s U17 World Cup controversy",
+      "published": "2026-10-23T01:51:21+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "0fd093adb54e68c5"
+    },
+    "e00641d0e33932c2": {
+      "source": "SMH",
+      "title": "Maddinson chops on for 33-ball duck",
+      "published": "2026-10-23T01:54:54+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "3803dff10d20c8e6": {
+      "source": "The Age",
+      "title": "Maddinson chops on for 33-ball duck",
+      "published": "2026-10-23T01:54:54+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "e00641d0e33932c2"
+    },
+    "b7b26436e9db2cc1": {
+      "source": "ABC News",
+      "title": "How to transform an underused balcony into a lush, functional living space",
+      "published": "2026-10-23T02:00:34+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "664aab162ecf1383": {
+      "source": "ABC News",
+      "title": "Minister apologises for communication delay of alleged school knife attack",
+      "published": "2026-10-23T02:03:13+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "4a4cb848011ce3b2": {
+      "source": "SMH",
+      "title": "A passion for puppetry: the world according to Wildwood director Travis Knight",
+      "published": "2026-10-23T02:03:50+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "58c30dafd6eba287": {
+      "source": "The Age",
+      "title": "A passion for puppetry: the world according to Wildwood director Travis Knight",
+      "published": "2026-10-23T02:03:50+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "4a4cb848011ce3b2"
+    },
+    "55b73b9897cc299b": {
+      "source": "SMH",
+      "title": "The multimillion-dollar cost of sending the Australian of the Year into space",
+      "published": "2026-10-23T02:05:42+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "1a9b15fb018f8c03": {
+      "source": "The Age",
+      "title": "The multimillion-dollar cost of sending the Australian of the Year into space",
+      "published": "2026-10-23T02:05:42+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "55b73b9897cc299b"
+    },
+    "15f62cf54625bfcc": {
+      "source": "SMH",
+      "title": "Meghan\u2019s estranged father investigated over alleged child abuse images: report",
+      "published": "2026-10-23T02:14:30+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "a978eea35aeaa219": {
+      "source": "The Age",
+      "title": "Meghan\u2019s estranged father investigated over alleged child abuse images: report",
+      "published": "2026-10-23T02:14:30+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "15f62cf54625bfcc"
+    },
+    "7c043d1dbfbd07a6": {
+      "source": "SMH",
+      "title": "NextDC boss Craig Scroggie goes viral with gym video",
+      "published": "2026-10-23T02:15:01+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "b494822e2b269be1": {
+      "source": "The Age",
+      "title": "NextDC boss Craig Scroggie goes viral with gym video",
+      "published": "2026-10-23T02:15:01+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "7c043d1dbfbd07a6"
+    },
+    "872872bd064660de": {
+      "source": "SMH",
+      "title": "\u2018Pew, pew\u2019: Lamarre-Condon allegedly confessed to friend about double murder",
+      "published": "2026-10-23T02:17:46+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "f5f9656b161b86d8": {
+      "source": "The Age",
+      "title": "\u2018Pew, pew\u2019: Lamarre-Condon allegedly confessed to friend about double murder",
+      "published": "2026-10-23T02:17:46+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "872872bd064660de"
+    },
+    "2c8601ef585626bc": {
+      "source": "ABC News",
+      "title": "New York City bans horse-drawn carriages from 2028",
+      "published": "2026-10-23T02:20:12+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "a87ba3e07417b94a": {
+      "source": "SMH",
+      "title": "Tourists get caught up in Paris protests",
+      "published": "2026-10-23T02:21:30+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "434438b5ddb5aae0": {
+      "source": "The Age",
+      "title": "Tourists get caught up in Paris protests",
+      "published": "2026-10-23T02:21:30+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "a87ba3e07417b94a"
+    },
+    "7c2d8082a6eb3bbb": {
+      "source": "ABC News",
+      "title": "Spirit ferries, terminals have millions wiped in major asset write-down",
+      "published": "2026-10-23T02:31:06+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "db21a6978190ad8c": {
+      "source": "ABC News",
+      "title": "Australia targets fraudulent North Korean workers propping up nuclear program",
+      "published": "2026-10-23T02:32:50+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "d5086d3ce0b7875b": {
+      "source": "ABC News",
+      "title": "Israelis are heading to the polls in their most seismic election in decades",
+      "published": "2026-10-23T02:34:15+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "977ab3b22667c993": {
+      "source": "ABC News",
+      "title": "Nationals leader eyes lower house as Landry announces retirement",
+      "published": "2026-10-23T02:36:58+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "e9c41b4b8a6c92b1": {
+      "source": "ABC News",
+      "title": "NCA bomber threatened to 'cough blood' onto doctors, coroner says",
+      "published": "2026-10-23T02:40:31+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "43e94a802f6f5f79": {
+      "source": "ABC News",
+      "title": "WA police chief says no concerns reported before alleged WA MP threats",
+      "published": "2026-10-23T02:41:16+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "8c41dec7f2092d5d": {
+      "source": "SMH",
+      "title": "Aussie emerges unscathed after brutal crash",
+      "published": "2026-10-23T02:41:48+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "db080243f342f826": {
+      "source": "The Age",
+      "title": "Aussie emerges unscathed after brutal crash",
+      "published": "2026-10-23T02:41:48+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "8c41dec7f2092d5d"
+    },
+    "75fd4cb4319dc54a": {
+      "source": "ABC News",
+      "title": "Accuser's mother denies taking advantage of Jones's generosity",
+      "published": "2026-10-23T02:44:27+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "e7b5a3c984e1a53b": {
+      "source": "SMH",
+      "title": "Which horses to pick in this year's Cox Plate?",
+      "published": "2026-10-23T02:44:52+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "c37bf7e4cc795aa0": {
+      "source": "The Age",
+      "title": "Which horses to pick in this year's Cox Plate?",
+      "published": "2026-10-23T02:44:52+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "e7b5a3c984e1a53b"
+    },
+    "b6b6d69e8cfc168d": {
+      "source": "SMH",
+      "title": "Mother and child found dead outside Melbourne apartment building",
+      "published": "2026-10-23T02:47:00+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "8f89effdf3d64e38": {
+      "source": "The Age",
+      "title": "Mother and child found dead outside Melbourne apartment building",
+      "published": "2026-10-23T02:47:00+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "b6b6d69e8cfc168d"
+    },
+    "7650e1f63e91f125": {
+      "source": "SMH",
+      "title": "Anika Wells\u2019 Brisbane office closed over security incident",
+      "published": "2026-10-23T02:47:26+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "3519af3077647922": {
+      "source": "The Age",
+      "title": "Anika Wells\u2019 Brisbane office closed over security incident",
+      "published": "2026-10-23T02:47:26+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "7650e1f63e91f125"
+    },
+    "2b92ddf701a6ce27": {
+      "source": "SMH",
+      "title": "South-East Queensland braces for more rain after surprise deluge",
+      "published": "2026-10-23T02:47:31+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "bcdbb142c84cd646": {
+      "source": "The Age",
+      "title": "South-East Queensland braces for more rain after surprise deluge",
+      "published": "2026-10-23T02:47:31+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "2b92ddf701a6ce27"
+    },
+    "0ddd249514f2e541": {
+      "source": "SMH",
+      "title": "Flagship sweetens Chilean copper deal with 50% price cut",
+      "published": "2026-10-23T02:58:31+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "1efc19d23720391d": {
+      "source": "The Age",
+      "title": "Flagship sweetens Chilean copper deal with 50% price cut",
+      "published": "2026-10-23T02:58:31+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "0ddd249514f2e541"
+    },
+    "4af636c2e19c34af": {
+      "source": "ABC News",
+      "title": "Forum offers peek behind political curtain ahead of election",
+      "published": "2026-10-23T02:58:40+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "8ffd420aff9f7099": {
+      "source": "ABC News",
+      "title": "Lamarre-Condon told friend he'd 'killed people', court hears",
+      "published": "2026-10-23T03:01:24+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "7b9180f6a0ddf796": {
+      "source": "ABC News",
+      "title": "Canberra man accused of strangling seller during Facebook Marketplace deal",
+      "published": "2026-10-23T03:15:05+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "7fda68a1cdd8c3d6": {
+      "source": "ABC News",
+      "title": "How the Western Bulldogs engineered a return to AFLW finals",
+      "published": "2026-10-23T03:18:31+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "47610b628541760c": {
+      "source": "ABC News",
+      "title": "Dame Judi Dench 'can't act anymore' as her eyesight worsens",
+      "published": "2026-10-23T03:19:12+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "65e2b63ce950cca4": {
+      "source": "SMH",
+      "title": "Ramblin\u2019 Rascal",
+      "published": "2026-10-23T03:20:57+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "dd4ab47d9f23c7d1": {
+      "source": "The Age",
+      "title": "Ramblin\u2019 Rascal",
+      "published": "2026-10-23T03:20:57+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "c731db7328bb25a3": {
+      "source": "SMH",
+      "title": "Son of Wallabies legend named in spring tour squad",
+      "published": "2026-10-23T03:24:04+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia"
+    },
+    "7d78a0465751fb4d": {
+      "source": "The Age",
+      "title": "Son of Wallabies legend named in spring tour squad",
+      "published": "2026-10-23T03:24:04+00:00",
+      "first_seen": "2026-10-23T13:27:39.529291+10:00",
+      "category": "australia",
+      "duplicate_of": "c731db7328bb25a3"
+    },
+    "195f22e830901b65": {
+      "source": "PhysOrg",
+      "title": "Newly discovered viruses reveal an evolutionary missing link",
+      "published": "2026-10-15T23:40:10+00:00",
+      "first_seen": "2026-10-23T13:27:42.276547+10:00",
+      "category": "archaeology"
     }
   }
 }

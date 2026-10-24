@@ -2089,71 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-23T21:46:47.890249+00:00",
+  "last_gdelt_attempt": "2026-10-24T01:16:03.459613+00:00",
   "article_store": {
-    "e6b8d9b3e0ee52b7": {
-      "source": "BBC News",
-      "title": "Five days, one briefing: How Katie Zacharia\u2019s short tenure unfolded",
-      "published": "2026-10-16T20:28:59+00:00",
-      "first_seen": "2026-10-17T10:40:59.325269+10:00",
-      "category": "breaking"
-    },
-    "b33a8f1f5f757681": {
-      "source": "Al Jazeera",
-      "title": "Families demand justice after Pakistan school collapse",
-      "published": "2026-10-16T22:38:04+00:00",
-      "first_seen": "2026-10-17T10:40:59.325269+10:00",
-      "category": "breaking"
-    },
-    "1b3cc6f937df1421": {
-      "source": "Al Jazeera",
-      "title": "Italy probes Israel\u2019s Katz over abuse, sexual assault of flotilla activists",
-      "published": "2026-10-16T22:48:54+00:00",
-      "first_seen": "2026-10-17T10:40:59.325269+10:00",
-      "category": "breaking"
-    },
-    "c7e45c9a9f4a2dc5": {
-      "source": "Al Jazeera",
-      "title": "Leeds vs Manchester United: Premier League \u2013 teams, prediction, lineups",
-      "published": "2026-10-16T22:53:26+00:00",
-      "first_seen": "2026-10-17T10:40:59.325269+10:00",
-      "category": "breaking"
-    },
-    "c42e2fbf44860ee2": {
-      "source": "BBC News",
-      "title": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-      "published": "2026-10-16T23:07:38+00:00",
-      "first_seen": "2026-10-17T10:40:59.325269+10:00",
-      "category": "breaking"
-    },
-    "1797673a65dcacdc": {
-      "source": "Al Jazeera",
-      "title": "Albanian PM blames \u2018foreign hands\u2019 for unrest as student protests intensify",
-      "published": "2026-10-16T23:27:01+00:00",
-      "first_seen": "2026-10-17T10:40:59.325269+10:00",
-      "category": "breaking"
-    },
-    "cb75a67e7d889150": {
-      "source": "Al Jazeera",
-      "title": "Trump mocks Middle Eastern names with \u2018Mohammed\u2019 joke",
-      "published": "2026-10-16T23:55:57+00:00",
-      "first_seen": "2026-10-17T10:40:59.325269+10:00",
-      "category": "breaking"
-    },
-    "8097ffa7eb1b9c1f": {
-      "source": "Al Jazeera",
-      "title": "Iran war live: Trump claims US Navy blockade stops Iranian ships in Hormuz",
-      "published": "2026-10-17T00:00:00+00:00",
-      "first_seen": "2026-10-17T10:40:59.325269+10:00",
-      "category": "breaking"
-    },
-    "8fef981b3842bb06": {
-      "source": "Al Jazeera",
-      "title": "Oregon school shooter was former special needs student, police say",
-      "published": "2026-10-17T00:25:22+00:00",
-      "first_seen": "2026-10-17T10:40:59.325269+10:00",
-      "category": "breaking"
-    },
     "0a2086bfc3211b20": {
       "source": "BBC News",
       "title": "Toxic algorithms wouldn't let them go - now Australia wants an off switch",
@@ -26719,6 +26656,76 @@
       "title": "The Papers: 'Meghan warned over father' and 'Don't risk Truss-style budget'",
       "published": "2026-10-23T23:06:12+00:00",
       "first_seen": "2026-10-24T09:18:45.805841+10:00",
+      "category": "breaking"
+    },
+    "1063993217bd2199": {
+      "source": "BBC News",
+      "title": "Ruins of Limoges city hall a symbol of France divided by national protests",
+      "published": "2026-10-23T23:09:16+00:00",
+      "first_seen": "2026-10-24T11:16:24.862398+10:00",
+      "category": "breaking"
+    },
+    "53a2993817bb60dd": {
+      "source": "Al Jazeera",
+      "title": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+      "published": "2026-10-23T23:10:54+00:00",
+      "first_seen": "2026-10-24T11:16:24.862398+10:00",
+      "category": "breaking"
+    },
+    "4ca35728e26e6054": {
+      "source": "BBC News",
+      "title": "Are California voters about to impose world's first 'tax on billionaires'?",
+      "published": "2026-10-23T23:11:31+00:00",
+      "first_seen": "2026-10-24T11:16:24.862398+10:00",
+      "category": "breaking"
+    },
+    "f8f8005687fa1418": {
+      "source": "BBC News",
+      "title": "Strictly's new presenters - after frosty reviews have they warmed up?",
+      "published": "2026-10-23T23:15:47+00:00",
+      "first_seen": "2026-10-24T11:16:24.862398+10:00",
+      "category": "breaking"
+    },
+    "4a625bbd1ee880eb": {
+      "source": "Al Jazeera",
+      "title": "Macklemore: \u2018I say free Palestine\u2019 as he kicks off a new tour",
+      "published": "2026-10-23T23:25:11+00:00",
+      "first_seen": "2026-10-24T11:16:24.862398+10:00",
+      "category": "breaking"
+    },
+    "a51f3bb05a7b4384": {
+      "source": "BBC News",
+      "title": "Before you crank up the thermostat, try these tips to keep your house warmer for longer",
+      "published": "2026-10-23T23:50:45+00:00",
+      "first_seen": "2026-10-24T11:16:24.862398+10:00",
+      "category": "breaking"
+    },
+    "d824cd6e4750097a": {
+      "source": "Al Jazeera",
+      "title": "Iran war live: Israel launches \u2018targeted\u2019 Hebron operation after attack",
+      "published": "2026-10-24T00:00:00+00:00",
+      "first_seen": "2026-10-24T11:16:24.862398+10:00",
+      "category": "breaking"
+    },
+    "04dc76a187a72f93": {
+      "source": "BBC News",
+      "title": "UK to invest \u00a3100m in 'world first' AI Biosecurity Lab",
+      "published": "2026-10-24T00:05:45+00:00",
+      "first_seen": "2026-10-24T11:16:24.862398+10:00",
+      "category": "breaking"
+    },
+    "7e55ca1d5717ec5d": {
+      "source": "Al Jazeera",
+      "title": "WHO announces start of Ebola vaccine clinical trial in DR Congo",
+      "published": "2026-10-24T00:27:21+00:00",
+      "first_seen": "2026-10-24T11:16:24.862398+10:00",
+      "category": "breaking"
+    },
+    "41d28d8cfc5d20a0": {
+      "source": "Al Jazeera",
+      "title": "Syrians protest Israel\u2019s incursions near occupied Golan Heights",
+      "published": "2026-10-24T00:50:05+00:00",
+      "first_seen": "2026-10-24T11:16:24.862398+10:00",
       "category": "breaking"
     }
   }

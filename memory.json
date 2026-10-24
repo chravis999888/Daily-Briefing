@@ -2089,64 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-24T18:54:52.239800+00:00",
+  "last_gdelt_attempt": "2026-10-24T21:42:32.762291+00:00",
   "article_store": {
-    "3c9a10b5da4f3173": {
-      "source": "Al Jazeera",
-      "title": "At least 17 killed in stampede at religious gathering in India",
-      "published": "2026-10-17T19:48:54+00:00",
-      "first_seen": "2026-10-18T07:10:14.510762+10:00",
-      "category": "breaking"
-    },
-    "84764984881eea62": {
-      "source": "Al Jazeera",
-      "title": "Iranian TV airs video said to show tanker explosion in Hormuz",
-      "published": "2026-10-17T20:02:22+00:00",
-      "first_seen": "2026-10-18T07:10:14.510762+10:00",
-      "category": "breaking"
-    },
-    "877f10fbdb9a9b93": {
-      "source": "Al Jazeera",
-      "title": "Al Jazeera reporter harassed, struck on head amid France protests, looting",
-      "published": "2026-10-17T20:20:25+00:00",
-      "first_seen": "2026-10-18T07:10:14.510762+10:00",
-      "category": "breaking"
-    },
-    "335266f7c6aea4bc": {
-      "source": "BBC News",
-      "title": "No further action against government adviser's wife over Palestine Action post, police say",
-      "published": "2026-10-17T20:24:32+00:00",
-      "first_seen": "2026-10-18T07:10:14.510762+10:00",
-      "category": "breaking"
-    },
-    "2bd5fa36ff76d721": {
-      "source": "Al Jazeera",
-      "title": "Protesters allege police brutality as violent clashes rage on in Albania",
-      "published": "2026-10-17T20:40:38+00:00",
-      "first_seen": "2026-10-18T07:10:14.510762+10:00",
-      "category": "breaking"
-    },
-    "842af6d7f229cb37": {
-      "source": "BBC News",
-      "title": "Reform activist suspended after reportedly saying Muslims cannot be British",
-      "published": "2026-10-17T20:49:50+00:00",
-      "first_seen": "2026-10-18T07:10:14.510762+10:00",
-      "category": "breaking"
-    },
-    "5f781c2202f61afe": {
-      "source": "Al Jazeera",
-      "title": "Ten killed in fire at beach resort in Bangladesh",
-      "published": "2026-10-17T20:50:01+00:00",
-      "first_seen": "2026-10-18T07:10:14.510762+10:00",
-      "category": "breaking"
-    },
-    "874dc9c462d32690": {
-      "source": "BBC News",
-      "title": "Anti-government protesters battle with police in Albania",
-      "published": "2026-10-17T20:53:00+00:00",
-      "first_seen": "2026-10-18T07:10:14.510762+10:00",
-      "category": "breaking"
-    },
     "4b8ce6b66ca34400": {
       "source": "BBC News",
       "title": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
@@ -26573,6 +26517,69 @@
       "published": "2026-10-24T20:07:15+00:00",
       "first_seen": "2026-10-25T06:15:02.265859+10:00",
       "category": "football"
+    },
+    "6a7b3fd69ceb0551": {
+      "source": "Al Jazeera",
+      "title": "Arsenal join Man City at Premier League summit, Spurs shock Chelsea 2-0",
+      "published": "2026-10-24T20:03:29+00:00",
+      "first_seen": "2026-10-25T07:42:56.213382+10:00",
+      "category": "breaking"
+    },
+    "75158c1834e1c18e": {
+      "source": "Al Jazeera",
+      "title": "Could Israel\u2019s military crackdown influence Tuesday\u2019s election?",
+      "published": "2026-10-24T20:37:02+00:00",
+      "first_seen": "2026-10-25T07:42:56.213382+10:00",
+      "category": "breaking"
+    },
+    "c0a0ccf8c248421b": {
+      "source": "Al Jazeera",
+      "title": "Violent clashes as Albanian government cracks down on protests",
+      "published": "2026-10-24T20:39:08+00:00",
+      "first_seen": "2026-10-25T07:42:56.213382+10:00",
+      "category": "breaking"
+    },
+    "aba0ba17c15dbef6": {
+      "source": "Al Jazeera",
+      "title": "Severe hunger stalks people in Gaza as bakeries close down",
+      "published": "2026-10-24T20:52:55+00:00",
+      "first_seen": "2026-10-25T07:42:56.213382+10:00",
+      "category": "breaking"
+    },
+    "2f7502d1d5dcda5e": {
+      "source": "Al Jazeera",
+      "title": "Train slams into crane that collapsed onto railway line in Brazil",
+      "published": "2026-10-24T21:02:55+00:00",
+      "first_seen": "2026-10-25T07:42:56.213382+10:00",
+      "category": "breaking"
+    },
+    "62ac872982ab0d91": {
+      "source": "Al Jazeera",
+      "title": "Houthis launch attacks on Saudi Arabia and Yemen\u2019s Aden",
+      "published": "2026-10-24T21:08:51+00:00",
+      "first_seen": "2026-10-25T07:42:56.213382+10:00",
+      "category": "breaking"
+    },
+    "47e8a3a918892c64": {
+      "source": "BBC News",
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "published": "2026-10-24T21:09:27+00:00",
+      "first_seen": "2026-10-25T07:42:56.213382+10:00",
+      "category": "breaking"
+    },
+    "b76d6cdda3d5bf03": {
+      "source": "BBC News",
+      "title": "The candid meeting that 'changed' Spurs - are they finally on way back?",
+      "published": "2026-10-24T21:14:42+00:00",
+      "first_seen": "2026-10-25T07:42:56.213382+10:00",
+      "category": "breaking"
+    },
+    "4a067e46333580ef": {
+      "source": "Al Jazeera",
+      "title": "Iran blames US for deal failure, urges new try amid fear of new attacks",
+      "published": "2026-10-24T21:30:11+00:00",
+      "first_seen": "2026-10-25T07:42:56.213382+10:00",
+      "category": "breaking"
     }
   }
 }

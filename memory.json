@@ -2089,50 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-24T03:21:50.842188+00:00",
+  "last_gdelt_attempt": "2026-10-24T06:06:02.949798+00:00",
   "article_store": {
-    "c72501030d0fd50f": {
-      "source": "BBC News",
-      "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
-      "published": "2026-10-17T03:11:10+00:00",
-      "first_seen": "2026-10-17T15:12:58.973563+10:00",
-      "category": "breaking"
-    },
-    "dd46b0a4ca6664f9": {
-      "source": "Al Jazeera",
-      "title": "Cameroonians await government reshuffle after Biya\u2019s return",
-      "published": "2026-10-17T03:14:28+00:00",
-      "first_seen": "2026-10-17T15:12:58.973563+10:00",
-      "category": "breaking"
-    },
-    "dfdd7bf4e912dc61": {
-      "source": "Al Jazeera",
-      "title": "Southern California wildfire engulfs homes, prompts evacuation orders",
-      "published": "2026-10-17T03:30:36+00:00",
-      "first_seen": "2026-10-17T15:12:58.973563+10:00",
-      "category": "breaking"
-    },
-    "d71855abda07a933": {
-      "source": "BBC News",
-      "title": "Third runway at Heathrow Airport would drive growth, Healey says",
-      "published": "2026-10-17T03:57:16+00:00",
-      "first_seen": "2026-10-17T15:12:58.973563+10:00",
-      "category": "breaking"
-    },
-    "6d037f9d52f2d4ab": {
-      "source": "Al Jazeera",
-      "title": "Albania\u2019s PM blames \u2018foreign hands\u2019 for protests",
-      "published": "2026-10-17T04:21:18+00:00",
-      "first_seen": "2026-10-17T15:12:58.973563+10:00",
-      "category": "breaking"
-    },
-    "8eafef662a0761fd": {
-      "source": "Al Jazeera",
-      "title": "Trump puts on hold new Russia sanctions he signed into law",
-      "published": "2026-10-17T04:45:03+00:00",
-      "first_seen": "2026-10-17T15:12:58.973563+10:00",
-      "category": "breaking"
-    },
     "d45b26dbb3fbd4a8": {
       "source": "Al Jazeera",
       "title": "Trump waives Russia sanctions as rift with Zelenskyy widens",
@@ -26653,6 +26611,48 @@
       "title": "France prepares for day of protest a week after nationwide riots",
       "published": "2026-10-24T04:03:46+00:00",
       "first_seen": "2026-10-24T14:53:23.033348+10:00",
+      "category": "breaking"
+    },
+    "9d7bd278ec202a93": {
+      "source": "BBC News",
+      "title": "How does the UK state pension compare with other countries?",
+      "published": "2026-10-24T00:09:12+00:00",
+      "first_seen": "2026-10-24T16:06:24.256348+10:00",
+      "category": "breaking"
+    },
+    "b619d3244a126fc5": {
+      "source": "Al Jazeera",
+      "title": "Massive oil slick seen weeks after tanker struck off UAE\u2019s coast",
+      "published": "2026-10-24T04:48:40+00:00",
+      "first_seen": "2026-10-24T16:06:24.256348+10:00",
+      "category": "breaking"
+    },
+    "4b98ea5272fdb459": {
+      "source": "BBC News",
+      "title": "The rise of AI election ads in US midterms campaign",
+      "published": "2026-10-24T05:03:44+00:00",
+      "first_seen": "2026-10-24T16:06:24.256348+10:00",
+      "category": "breaking"
+    },
+    "1c231a896e7956ed": {
+      "source": "Al Jazeera",
+      "title": "Lebanese sceptical Israeli polls will bring change, end occupation of south",
+      "published": "2026-10-24T05:04:32+00:00",
+      "first_seen": "2026-10-24T16:06:24.256348+10:00",
+      "category": "breaking"
+    },
+    "077f2e584b156b85": {
+      "source": "Al Jazeera",
+      "title": "Hospital in Yemen\u2019s Taiz warns of collapse in days because of Houthi siege",
+      "published": "2026-10-24T05:20:35+00:00",
+      "first_seen": "2026-10-24T16:06:24.256348+10:00",
+      "category": "breaking"
+    },
+    "d173b365f099e59d": {
+      "source": "Al Jazeera",
+      "title": "How Benjamin Netanyahu reshaped Israel\u2019s institutions",
+      "published": "2026-10-24T05:29:07+00:00",
+      "first_seen": "2026-10-24T16:06:24.256348+10:00",
       "category": "breaking"
     }
   }

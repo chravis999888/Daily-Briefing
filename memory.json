@@ -2091,612 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-24T18:54:52.239800+00:00",
   "article_store": {
-    "b2a33fb549f5bf5e": {
-      "source": "BBC News",
-      "title": "Chelsea's Martinez taken to hospital for 'precautionary tests'",
-      "published": "2026-10-17T16:02:31+00:00",
-      "first_seen": "2026-10-18T06:08:47.014241+10:00",
-      "category": "breaking"
-    },
-    "885d8df0c50ba259": {
-      "source": "BBC News",
-      "title": "Swinney's emotional explanation for his commitment to independence",
-      "published": "2026-10-17T18:11:42+00:00",
-      "first_seen": "2026-10-18T06:08:47.014241+10:00",
-      "category": "breaking"
-    },
-    "f164bedfbd859a51": {
-      "source": "BBC News",
-      "title": "European diplomats attacked by Israeli settlers in West Bank",
-      "published": "2026-10-17T18:38:57+00:00",
-      "first_seen": "2026-10-18T06:08:47.014241+10:00",
-      "category": "breaking"
-    },
-    "d3d37f58afbd42be": {
-      "source": "Al Jazeera",
-      "title": "Is the US Embassy in Jerusalem for Israel or America?",
-      "published": "2026-10-17T18:41:30+00:00",
-      "first_seen": "2026-10-18T06:08:47.014241+10:00",
-      "category": "breaking"
-    },
-    "99b770c4ae14648b": {
-      "source": "Al Jazeera",
-      "title": "Will the EU come to Ukraine\u2019s rescue in war against Russia?",
-      "published": "2026-10-17T19:03:49+00:00",
-      "first_seen": "2026-10-18T06:08:47.014241+10:00",
-      "category": "breaking"
-    },
-    "e43ec7dcbf26dc16": {
-      "source": "Al Jazeera",
-      "title": "Hundreds rally in Kyiv to demand the resignation of Mayor Vitali Klitschko",
-      "published": "2026-10-17T19:04:00+00:00",
-      "first_seen": "2026-10-18T06:08:47.014241+10:00",
-      "category": "breaking"
-    },
-    "3b2e63ea77654005": {
-      "source": "Al Jazeera",
-      "title": "Albanian police fire rubber bullets as protests against Rama escalate",
-      "published": "2026-10-17T19:26:13+00:00",
-      "first_seen": "2026-10-18T06:08:47.014241+10:00",
-      "category": "breaking"
-    },
-    "4c4ad2549ea51869": {
-      "source": "ABC News",
-      "title": "Can Denmark teach Britain how to raise royals?",
-      "published": "2026-10-17T17:30:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "ad9a6601ecf03582": {
-      "source": "ABC News",
-      "title": "The toy store, $15m bird and famous singer at the centre of an online feud",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "ebac587dcc971c9d": {
-      "source": "ABC News",
-      "title": "The tactics used by companies to push pregnant women out of work",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "19e910f8694ef2bb": {
-      "source": "ABC News",
-      "title": "Patience of Labor MPs is beginning to wear thin as mid-term blues bite",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "3fcd4a1de63252e1": {
-      "source": "ABC News",
-      "title": "Australian zoo saving baby elephants from killer virus",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "5ac191fbea10cd49": {
-      "source": "SMH",
-      "title": "September 11 to Qantas grounding: \u2018White-knuckle ride\u2019 for man behind Sydney\u2019s new airport",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "b2aa8e98886e6a2a": {
-      "source": "SMH",
-      "title": "Kelly\u2019s abusive ex left her with thousands in debt. There was a way out",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "45d80351975a74aa": {
-      "source": "SMH",
-      "title": "This Spanish hideaway obeys an important rule for decorating any beach house",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "79dd6731a2545cbc": {
-      "source": "SMH",
-      "title": "The best hotels in Europe with five-star vibes at three-star prices",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "94ab590f1b933114": {
-      "source": "SMH",
-      "title": "The WNBA is shattering records. Is women\u2019s sport in Australia falling behind?",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "72041ba2f108d988": {
-      "source": "SMH",
-      "title": "Libra: This week, expected the unexpected",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "baee4167331b70b9": {
-      "source": "SMH",
-      "title": "Nice is a millionaire\u2019s playground, but I found plenty of affordable ways to play there",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "55029c7023c91c58": {
-      "source": "SMH",
-      "title": "Camille Cottin walked away from a hit series. Then came an offer to film with George Clooney",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "3a3f260b6ecc0327": {
-      "source": "SMH",
-      "title": "As a child, Jenny dreamed of Australia. When she arrived at 12, it wasn\u2019t a smooth start",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "58958e3f9c8db3fc": {
-      "source": "SMH",
-      "title": "If you own a jacket, you can wear this jewellery curator\u2019s favourite micro-trend",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "bb6584ec8f2789a0": {
-      "source": "SMH",
-      "title": "\u2018People come at you from all over\u2019: How fame changed Sarah Cracknell\u2019s outlook on love",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "2cafa72c7ee0d6a7": {
-      "source": "SMH",
-      "title": "Luke thought he had to hide the grief of losing a baby. Then he spoke about it on live radio",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "8f86e4ae6bff4f1c": {
-      "source": "SMH",
-      "title": "Most runway beauty looks take an army to perfect. These are the ones you can do at home",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "10f3c85f1fd8c6b6": {
-      "source": "The Age",
-      "title": "September 11 to Qantas grounding: \u2018White-knuckle ride\u2019 for man behind Sydney\u2019s new airport",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "5ac191fbea10cd49"
-    },
-    "db4ad301cffbda99": {
-      "source": "The Age",
-      "title": "Kelly\u2019s abusive ex left her with thousands in debt. There was a way out",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "b2aa8e98886e6a2a"
-    },
-    "59eaff750058c589": {
-      "source": "The Age",
-      "title": "This Spanish hideaway obeys an important rule for decorating any beach house",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "45d80351975a74aa"
-    },
-    "d3dc3981022165a7": {
-      "source": "The Age",
-      "title": "The best hotels in Europe with five-star vibes at three-star prices",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "79dd6731a2545cbc"
-    },
-    "9f8bce19df682d40": {
-      "source": "The Age",
-      "title": "The WNBA is shattering records. Is women\u2019s sport in Australia falling behind?",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "94ab590f1b933114"
-    },
-    "b94938df7f9126f4": {
-      "source": "The Age",
-      "title": "Libra: This week, expected the unexpected",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "72041ba2f108d988"
-    },
-    "f80967b39ba719ef": {
-      "source": "The Age",
-      "title": "Nice is a millionaire\u2019s playground, but I found plenty of affordable ways to play there",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "baee4167331b70b9"
-    },
-    "fd757a93314cd64b": {
-      "source": "The Age",
-      "title": "Camille Cottin walked away from a hit series. Then came an offer to film with George Clooney",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "55029c7023c91c58"
-    },
-    "85ea5ce99c3dd7c8": {
-      "source": "The Age",
-      "title": "As a child, Jenny dreamed of Australia. When she arrived at 12, it wasn\u2019t a smooth start",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "3a3f260b6ecc0327"
-    },
-    "6648c1895bc0784c": {
-      "source": "The Age",
-      "title": "If you own a jacket, you can wear this jewellery curator\u2019s favourite micro-trend",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "58958e3f9c8db3fc"
-    },
-    "9684c9220e9043ef": {
-      "source": "The Age",
-      "title": "\u2018People come at you from all over\u2019: How fame changed Sarah Cracknell\u2019s outlook on love",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "bb6584ec8f2789a0"
-    },
-    "6aaf74ee52e4d904": {
-      "source": "The Age",
-      "title": "Luke thought he had to hide the grief of losing a baby. Then he spoke about it on live radio",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "2cafa72c7ee0d6a7"
-    },
-    "805ef17f8b584cea": {
-      "source": "The Age",
-      "title": "Most runway beauty looks take an army to perfect. These are the ones you can do at home",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "8f86e4ae6bff4f1c"
-    },
-    "17236ad1d3e51ab5": {
-      "source": "The Age",
-      "title": "This cookbook author scores a near perfect diet from an expert. So, what\u2019s the catch?",
-      "published": "2026-10-17T18:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "3f3183fc0ee2c7ad": {
-      "source": "SMH",
-      "title": "Former NSW opposition leader lists renovated convict-built home for $13m",
-      "published": "2026-10-17T18:22:54+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "748c4d744f90df5e": {
-      "source": "The Age",
-      "title": "Former NSW opposition leader lists renovated convict-built home for $13m",
-      "published": "2026-10-17T18:22:54+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "3f3183fc0ee2c7ad"
-    },
-    "2ff933eb8078afe0": {
-      "source": "ABC News",
-      "title": "ABC Wordage quiz: It's time to get angry",
-      "published": "2026-10-17T18:30:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "b9acb3165e2f4f9f": {
-      "source": "ABC News",
-      "title": "Stunning photos demonstrate why Darwin is known as the 'city of birds'",
-      "published": "2026-10-17T18:30:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "ff5d85b634d8660a": {
-      "source": "ABC News",
-      "title": "He is YouTube's spiciest music analyst but Rick Beato loves the backlash",
-      "published": "2026-10-17T18:30:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "59028bca9e6f2fb0": {
-      "source": "SMH",
-      "title": "What my pilgrimage to Mecca taught me",
-      "published": "2026-10-17T18:30:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "6569499f1265b82a": {
-      "source": "SMH",
-      "title": "Deposits lost, warranties wiped: Consumers hit by green energy scheme chaos",
-      "published": "2026-10-17T18:30:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "071cba21e003ae48": {
-      "source": "SMH",
-      "title": "New twist could revive PNG Chiefs\u2019 pursuit of Hudson Young",
-      "published": "2026-10-17T18:30:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "09b3a73b20748b61": {
-      "source": "The Age",
-      "title": "What my pilgrimage to Mecca taught me",
-      "published": "2026-10-17T18:30:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "59028bca9e6f2fb0"
-    },
-    "f218f86d5846bbae": {
-      "source": "The Age",
-      "title": "Deposits lost, warranties wiped: Consumers hit by green energy scheme chaos",
-      "published": "2026-10-17T18:30:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "6569499f1265b82a"
-    },
-    "df6403a553caf9b2": {
-      "source": "The Age",
-      "title": "New twist could revive PNG Chiefs\u2019 pursuit of Hudson Young",
-      "published": "2026-10-17T18:30:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "071cba21e003ae48"
-    },
-    "0dbd9cb5bdf7791d": {
-      "source": "ABC News",
-      "title": "Farmers loyal to Trump turn on him as crucial elections approach",
-      "published": "2026-10-17T18:33:48+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "eb1f578e359288c7": {
-      "source": "ABC News",
-      "title": "Is New Zealand holding back women's Test cricket?",
-      "published": "2026-10-17T18:39:59+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "e64770e663a42f78": {
-      "source": "ABC News",
-      "title": "Meet the first hijab-wearing non-verbal wheelchair basketballer",
-      "published": "2026-10-17T18:39:59+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "e8cb4c600959fae8": {
-      "source": "SMH",
-      "title": "\u2018Planned operation\u2019: The test result that reveals a dangerous Trump betrayal",
-      "published": "2026-10-17T18:55:11+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "6a2435cbc474c660": {
-      "source": "The Age",
-      "title": "\u2018Planned operation\u2019: The test result that reveals a dangerous Trump betrayal",
-      "published": "2026-10-17T18:55:11+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia",
-      "duplicate_of": "e8cb4c600959fae8"
-    },
-    "4ffba9d33acea3bf": {
-      "source": "SMH",
-      "title": "Two resorts, one paradise: The ultimate Cook Islands getaway",
-      "published": "2026-10-17T19:00:00+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "d0e7942ae61a1d82": {
-      "source": "ABC News",
-      "title": "Ex-soldier uncontactable ahead of accused gangster's deportation hearings",
-      "published": "2026-10-17T20:00:18+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "dbf24243c90d9470": {
-      "source": "ABC News",
-      "title": "Renshaw to stay at number five as Aussies delay naming Test side",
-      "published": "2026-10-17T20:02:46+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "562733d7397d7d42": {
-      "source": "ABC News",
-      "title": "Scientists unearth remarkable volcanic origins of Lord Howe Island",
-      "published": "2026-10-17T20:06:17+00:00",
-      "first_seen": "2026-10-18T06:08:48.402468+10:00",
-      "category": "australia"
-    },
-    "87b0caff70697041": {
-      "source": "Marca",
-      "title": "La falta de pegada del Villarreal rebaja la euforia",
-      "published": "2026-10-17T16:53:07+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "936cecd9eded5b97": {
-      "source": "Marca",
-      "title": "I\u00f1igo: \u201cFallamos ocasiones demasiado claras\u201d",
-      "published": "2026-10-17T17:22:58+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "663c35e16f9a5992": {
-      "source": "Marca",
-      "title": "Logan Costa: \u201cEstanos tristes y nos sabe a poco este punto\u201d",
-      "published": "2026-10-17T17:55:04+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "a20f6cee8f0c3607": {
-      "source": "Kicker",
-      "title": "BET - Barcelona: Tor in der 62. Minute",
-      "published": "2026-10-17T18:04:54+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "93aea03ff09c966f": {
-      "source": "Kicker",
-      "title": "Kovac unzufrieden: \"F\u00fcr unsere Anspr\u00fcche zu wenig\"",
-      "published": "2026-10-17T18:16:19+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "bd81612bfa713f76": {
-      "source": "Kicker",
-      "title": "Betis - Barcelona: Tor zum 2:5 durch Dani Olmo in der 81. Minute",
-      "published": "2026-10-17T18:22:40+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "580ec4ca8a4c55d3": {
-      "source": "Kicker",
-      "title": "Petkov nach Elfmeter-Show: \"Wusste nicht, wo oben und unten ist\"",
-      "published": "2026-10-17T18:22:46+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "e4f2b0c6bb764721": {
-      "source": "Kicker",
-      "title": "BET - Barcelona: Tor in der 53. Minute",
-      "published": "2026-10-17T18:44:32+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "fa8e50371c98d6eb": {
-      "source": "Kicker",
-      "title": "Kovac zu Karetsas-Verletzung: \"Nicht vom Gl\u00fcck gek\u00fcsst\"",
-      "published": "2026-10-17T18:44:55+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "21b0cbcc0b884162": {
-      "source": "Kicker",
-      "title": "\u00dcberflieger Kane: Die meisten Tore in den ersten 100 Bundesliga-Spielen",
-      "published": "2026-10-17T18:52:25+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "c1073ec407e71de5": {
-      "source": "Kicker",
-      "title": "\"Saison geht jetzt erst richtig los\": Luis Diaz gl\u00e4nzt gegen \u00fcberfordertes RB",
-      "published": "2026-10-17T18:58:17+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "4f13d097ca4a8fa3": {
-      "source": "Kicker",
-      "title": "Troyes - Lens: Eigentor zum 0:1 durch Monfray in der 13. Minute",
-      "published": "2026-10-17T19:03:45+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "eceae557e31be464": {
-      "source": "Marca",
-      "title": "Braulio descarta el mercado mexicano: \"Hay muchos programas de televisi\u00f3n all\u00ed...\"",
-      "published": "2026-10-17T19:04:29+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "4e0b6c2c36e5009e": {
-      "source": "Kicker",
-      "title": "Erst Elfmeter-Fehlschuss, dann Siegtreffer: Dembel\u00e9 bei PSG im Fokus",
-      "published": "2026-10-17T19:12:06+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "d6f3c40fe90bb538": {
-      "source": "Kicker",
-      "title": "Troyes - Lens: Tor zum 1:1 durch Nkada in der 26. Minute",
-      "published": "2026-10-17T19:17:10+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "4ceb54003d75363f": {
-      "source": "Kicker",
-      "title": "Drei Tore und ein krasser Fehlschluss: Inter besteht in Bologna",
-      "published": "2026-10-17T19:17:23+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "3d9f6241fd926d47": {
-      "source": "Kicker",
-      "title": "Sch\u00e4fer: \"Ein komplettes Versagen in allen Bereichen\"",
-      "published": "2026-10-17T19:31:38+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "71ec60a9db9a6c92": {
-      "source": "Kicker",
-      "title": "Lille - Brest: Tor zum 0:1 durch Mama Bald\u00e9 in der 6. Minute",
-      "published": "2026-10-17T19:31:41+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "49b8bfeeb90b2e04": {
-      "source": "Kicker",
-      "title": "N\u00e4chste Lamine-Yamal-Show im Video: Barcelona weiter nicht zu stoppen",
-      "published": "2026-10-17T19:36:51+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "fdf0cbf7fca9bc57": {
-      "source": "Kicker",
-      "title": "Troyes - Lens: Tor zum 1:2 durch Edouard in der 45.+2 Minute",
-      "published": "2026-10-17T19:38:18+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "2965d86a35c97cb5": {
-      "source": "Kicker",
-      "title": "Hoene\u00df hadert mit HSV-Momenten: \"Besonders gerne gegen uns\"",
-      "published": "2026-10-17T19:45:05+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "bd821c944303beed": {
-      "source": "Marca",
-      "title": "Pellegrini: \"Decisiones absolutamente inentendibles e inexplicables\"",
-      "published": "2026-10-17T19:45:59+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "8dde83f5458be6f4": {
-      "source": "Kicker",
-      "title": "Roma - Genoa: Tor in der 50. Minute",
-      "published": "2026-10-17T19:57:36+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "e6b23c4f78dbfe32": {
-      "source": "Kicker",
-      "title": "LIVE! Nun St. Pauli im Alu-Pech: Ceesay scheitert am Pfosten",
-      "published": "2026-10-17T20:00:51+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
-    "93639b9496676263": {
-      "source": "Marca",
-      "title": "Beller\u00edn: \"Hay dos jugadas dudosas y una la castiga y otra la premia\"",
-      "published": "2026-10-17T20:03:30+00:00",
-      "first_seen": "2026-10-18T06:08:56.321368+10:00",
-      "category": "football"
-    },
     "3c9a10b5da4f3173": {
       "source": "Al Jazeera",
       "title": "At least 17 killed in stampede at religious gathering in India",
@@ -26566,6 +25960,619 @@
       "published": "2026-10-24T18:30:56+00:00",
       "first_seen": "2026-10-25T04:55:14.802055+10:00",
       "category": "breaking"
+    },
+    "f7f51206ecc16baa": {
+      "source": "Al Jazeera",
+      "title": "Thousands join Paris protests as authorities clamp down on disorder",
+      "published": "2026-10-24T19:01:52+00:00",
+      "first_seen": "2026-10-25T06:14:52.688609+10:00",
+      "category": "breaking"
+    },
+    "bbe4e89a16c2f359": {
+      "source": "Al Jazeera",
+      "title": "Thousands of Israelis rally against Netanyahu gov\u2019t days before election",
+      "published": "2026-10-24T19:11:48+00:00",
+      "first_seen": "2026-10-25T06:14:52.688609+10:00",
+      "category": "breaking"
+    },
+    "894d24bff2e731a2": {
+      "source": "BBC News",
+      "title": "Watch: BBC in Paris as police charge protesters and use tear gas during unrest",
+      "published": "2026-10-24T19:37:35+00:00",
+      "first_seen": "2026-10-25T06:14:52.688609+10:00",
+      "category": "breaking"
+    },
+    "960ceb9260a0efa6": {
+      "source": "ABC News",
+      "title": "'Did we do well today?': This is what it takes to keep an independent restaurant open",
+      "published": "2026-10-24T17:45:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "0e2cba3009c33deb": {
+      "source": "ABC News",
+      "title": "Women report stalkers abusing exercise apps to harass them",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "bef5f9051a4f395b": {
+      "source": "ABC News",
+      "title": "Ghosts of past reports linger for NT child protection review",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "ee3898093959e463": {
+      "source": "ABC News",
+      "title": "Kiwi expats could prove crucial in New Zealand's 'knife edge' election",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "c629414d5e4137ae": {
+      "source": "ABC News",
+      "title": "MP says temperature of online debate intensifying since Haines's attack",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "365af20474eb4c30": {
+      "source": "SMH",
+      "title": "The European river ship so good, other cruise lines copy it",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "2f7dfb541c6a3020": {
+      "source": "SMH",
+      "title": "\u2018We understood each other\u2019: Why writer Jon Ronson says he and Monica Lewinsky bonded",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "b76b4c4e21239612": {
+      "source": "SMH",
+      "title": "Billionaires, immortality and barbecues: Sci-fi author ready for arrival at Powerhouse",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "32bb0a77c33230a4": {
+      "source": "SMH",
+      "title": "Forgotten forest secrets in Canada\u2019s greenest city",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "e534f4cdcbb65033": {
+      "source": "SMH",
+      "title": "Scorpio: Stepping back will help to keep you centred",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "e015369ce54e94b3": {
+      "source": "SMH",
+      "title": "Having a beauty treatment before the party season? Follow these steps to protect your skin",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "0d12c2d152b41c86": {
+      "source": "SMH",
+      "title": "At one of Queensland\u2019s most exclusive resorts, the highlight was this DIY experience",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "6b4ae49b8ad163c2": {
+      "source": "SMH",
+      "title": "\u2018Quite a few exes were there\u2019: At 70, Jerry Hall has made peace with her past, and herself",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "0f752c369ad636b5": {
+      "source": "SMH",
+      "title": "After surgery, I was in the ICU, but my condition gave me less grief than a fellow patient",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "887f392c8182f6fd": {
+      "source": "SMH",
+      "title": "As a kid, Peter hid his vegies. Now 64, he\u2019s heeding this important nutritional advice",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "1c5c2c9b40f56bb2": {
+      "source": "SMH",
+      "title": "\u2018Some people meditate, I buy shoes\u2019: Kathryn Eisman shares the pairs she wears most",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "80493d0961a5d7ec": {
+      "source": "The Age",
+      "title": "The European river ship so good, other cruise lines copy it",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "365af20474eb4c30"
+    },
+    "5fc2a3b69957b3ea": {
+      "source": "The Age",
+      "title": "\u2018We understood each other\u2019: Why writer Jon Ronson says he and Monica Lewinsky bonded",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "2f7dfb541c6a3020"
+    },
+    "609c3b81707809a3": {
+      "source": "The Age",
+      "title": "Billionaires, immortality and barbecues: Sci-fi author ready for arrival at Powerhouse",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "b76b4c4e21239612"
+    },
+    "8e0b35460d79a79a": {
+      "source": "The Age",
+      "title": "Forgotten forest secrets in Canada\u2019s greenest city",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "32bb0a77c33230a4"
+    },
+    "5de15cd6d83b23c1": {
+      "source": "The Age",
+      "title": "Scorpio: Stepping back will help to keep you centred",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "e534f4cdcbb65033"
+    },
+    "51665ded6a0dbac5": {
+      "source": "The Age",
+      "title": "Having a beauty treatment before the party season? Follow these steps to protect your skin",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "e015369ce54e94b3"
+    },
+    "1b129d4d1fe89689": {
+      "source": "The Age",
+      "title": "At one of Queensland\u2019s most exclusive resorts, the highlight was this DIY experience",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "0d12c2d152b41c86"
+    },
+    "a646a1d3178c92e8": {
+      "source": "The Age",
+      "title": "\u2018Quite a few exes were there\u2019: At 70, Jerry Hall has made peace with her past, and herself",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "6b4ae49b8ad163c2"
+    },
+    "e73398edf8bdee25": {
+      "source": "The Age",
+      "title": "After surgery, I was in the ICU, but my condition gave me less grief than a fellow patient",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "0f752c369ad636b5"
+    },
+    "50b800d8302c0b7c": {
+      "source": "The Age",
+      "title": "As a kid, Peter hid his vegies. Now 64, he\u2019s heeding this important nutritional advice",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "887f392c8182f6fd"
+    },
+    "dbca71aa2c6ca473": {
+      "source": "The Age",
+      "title": "\u2018Some people meditate, I buy shoes\u2019: Kathryn Eisman shares the pairs she wears most",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "1c5c2c9b40f56bb2"
+    },
+    "ea0944643aa87737": {
+      "source": "The Age",
+      "title": "The mid-life bucket list: 20 extraordinary trips to do after 50",
+      "published": "2026-10-24T18:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "5cb0fd7a10dfc2b6": {
+      "source": "SMH",
+      "title": "Will I still have to pay the 30% tax if I only sell a few shares?",
+      "published": "2026-10-24T18:01:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "b5755d7b00fa88fc": {
+      "source": "The Age",
+      "title": "Will I still have to pay the 30% tax if I only sell a few shares?",
+      "published": "2026-10-24T18:01:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "5cb0fd7a10dfc2b6"
+    },
+    "7b18d2d61bf7837d": {
+      "source": "SMH",
+      "title": "Young investors love AI stocks. Are they falling into a debt trap?",
+      "published": "2026-10-24T18:08:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "589a7c138b92393c": {
+      "source": "The Age",
+      "title": "Young investors love AI stocks. Are they falling into a debt trap?",
+      "published": "2026-10-24T18:08:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "7b18d2d61bf7837d"
+    },
+    "e706d987c3ca098d": {
+      "source": "ABC News",
+      "title": "Farmers cross country for training tips from ABC Muster Dogs expert",
+      "published": "2026-10-24T18:30:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "26bb248015331f31": {
+      "source": "ABC News",
+      "title": "Why Wales will always come first for Sir Bryn Terfel",
+      "published": "2026-10-24T18:30:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "a2edef4ca9429066": {
+      "source": "ABC News",
+      "title": "ABC Wordage quiz: It's time to raise a glass",
+      "published": "2026-10-24T18:30:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "0bb94e3695dcaa21": {
+      "source": "SMH",
+      "title": "\u2018Fourteen-year-olds are watching it\u2019: Think Love Island is grown-up entertainment? Think again",
+      "published": "2026-10-24T18:30:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "36eaa00ef6671daa": {
+      "source": "SMH",
+      "title": "The answer to the meaning of life",
+      "published": "2026-10-24T18:30:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "6d7c286fdf1dbab6": {
+      "source": "SMH",
+      "title": "You\u2019re an NRL star thinking about joining the Chiefs? This is what your life in PNG will be like",
+      "published": "2026-10-24T18:30:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "f9d24642ccef1a66": {
+      "source": "The Age",
+      "title": "\u2018Fourteen-year-olds are watching it\u2019: Think Love Island is grown-up entertainment? Think again",
+      "published": "2026-10-24T18:30:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "0bb94e3695dcaa21"
+    },
+    "a16e03178e549e94": {
+      "source": "The Age",
+      "title": "The answer to the meaning of life",
+      "published": "2026-10-24T18:30:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "3cb747534e1d1a20": {
+      "source": "The Age",
+      "title": "You\u2019re an NRL star thinking about joining the Chiefs? This is what your life in PNG will be like",
+      "published": "2026-10-24T18:30:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "6d7c286fdf1dbab6"
+    },
+    "7b9b5ab143625304": {
+      "source": "SMH",
+      "title": "\u2018Without you the union is gone\u2019: Mick Gatto\u2019s secret support for John Setka",
+      "published": "2026-10-24T18:33:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "1d9640e22dfe7410": {
+      "source": "The Age",
+      "title": "\u2018Without you the union is gone\u2019: Mick Gatto\u2019s secret support for John Setka",
+      "published": "2026-10-24T18:33:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "7b9b5ab143625304"
+    },
+    "c96010ed3d2f7daf": {
+      "source": "SMH",
+      "title": "\u2018National suicide\u2019: The election issue tearing Israelis apart",
+      "published": "2026-10-24T18:45:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "b219c332ddf9911b": {
+      "source": "The Age",
+      "title": "\u2018National suicide\u2019: The election issue tearing Israelis apart",
+      "published": "2026-10-24T18:45:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "c96010ed3d2f7daf"
+    },
+    "af4873be025fc9af": {
+      "source": "ABC News",
+      "title": "Tarrawingee tries to make sense of attack on local member Helen Haines",
+      "published": "2026-10-24T18:48:05+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "49510f32b03eb341": {
+      "source": "SMH",
+      "title": "A VIP family holiday on Fiji\u2019s Denarau Island",
+      "published": "2026-10-24T19:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "1ee1f732cc22e6a8": {
+      "source": "SMH",
+      "title": "Sydney to host Super Netball grand final for first time",
+      "published": "2026-10-24T19:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "a3a217380cbc7ac4": {
+      "source": "The Age",
+      "title": "Sydney to host Super Netball grand final for first time",
+      "published": "2026-10-24T19:00:00+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia",
+      "duplicate_of": "1ee1f732cc22e6a8"
+    },
+    "450794a46f8f344f": {
+      "source": "ABC News",
+      "title": "Usman Khawaja reveals why he kept debilitating illness a secret",
+      "published": "2026-10-24T19:06:12+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "fc0a03d08aa4e218": {
+      "source": "ABC News",
+      "title": "Dreamworld tragedy witness describes 'sheer panic' moment",
+      "published": "2026-10-24T19:09:08+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "16bb0c4fbcf44c53": {
+      "source": "ABC News",
+      "title": "Accused paedophile barrister asked Cambodian woman to help find 'virgins'",
+      "published": "2026-10-24T19:10:01+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "143afb0992707551": {
+      "source": "ABC News",
+      "title": "The Tasmanian garden helping people with dementia live well",
+      "published": "2026-10-24T19:11:35+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "670e4f93aae1aca7": {
+      "source": "ABC News",
+      "title": "Houthis claim 'phases' of attacks on Saudi airports, oil pipelines",
+      "published": "2026-10-24T19:25:25+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "5288fc09b2e5705a": {
+      "source": "ABC News",
+      "title": "Trump's waning support among young men could hurt Republicans",
+      "published": "2026-10-24T19:31:15+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "1ea06cf4585c39a7": {
+      "source": "ABC News",
+      "title": "The extraordinary discoveries emerging from the ruins of Juukan Gorge",
+      "published": "2026-10-24T19:45:59+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "9239c50288f30431": {
+      "source": "ABC News",
+      "title": "Kim Jong Un crosses new bridge into China as trade ties warm",
+      "published": "2026-10-24T20:12:34+00:00",
+      "first_seen": "2026-10-25T06:14:53.336074+10:00",
+      "category": "australia"
+    },
+    "e977c9cadee91545": {
+      "source": "Marca",
+      "title": "Celta - Betis | Gallegos y andaluces se tocan la moral",
+      "published": "2026-10-24T17:17:35+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "ab934c08c9c2512c": {
+      "source": "Marca",
+      "title": "Real Sociedad - Levante | Que el ritmo no pare: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
+      "published": "2026-10-24T17:51:48+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "ce9e14e986d623a6": {
+      "source": "Kicker",
+      "title": "Valencia - Villarreal: Tor zum 1:1 durch Freeman in der 69. Minute",
+      "published": "2026-10-24T18:06:40+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "c7470c0a975fb589": {
+      "source": "Kicker",
+      "title": "Neuer fehlt den Bayern in Freiburg - Auch Pavlovic f\u00e4llt wohl aus",
+      "published": "2026-10-24T18:13:08+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "93c49e02bfd9b65e": {
+      "source": "Kicker",
+      "title": "Valencia - Villarreal: Rote Karte f\u00fcr Gueye in der 79. Minute",
+      "published": "2026-10-24T18:16:03+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "bb4f745a3e0bc297": {
+      "source": "Kicker",
+      "title": "Valencia - Villarreal: Gelb-Rote Karte f\u00fcr Elliott in der 89. Minute",
+      "published": "2026-10-24T18:26:41+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "f10e2d14a67afbd2": {
+      "source": "Kicker",
+      "title": "Muslic dankt den K\u00f6ln-Fans: \"Applaus zeugt von Gr\u00f6\u00dfe\"",
+      "published": "2026-10-24T18:30:53+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "29c488bb7eec7f4d": {
+      "source": "Kicker",
+      "title": "Fallr\u00fcckzieher-Tor und Roma-Comeback: 3:3-Spektakel in Neapel",
+      "published": "2026-10-24T18:31:15+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "e63f457e55ef19c2": {
+      "source": "Kicker",
+      "title": "Traumkonter in der 96. Minute: Mikautadze schie\u00dft Villarreal zum Sieg",
+      "published": "2026-10-24T18:33:26+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "21ed3cf25e22dbf3": {
+      "source": "Kicker",
+      "title": "\"Wenn ich daf\u00fcr eine Begr\u00fcndung h\u00e4tte\" - Leipzig luchst Bayern einen Bundesliga-Rekord ab",
+      "published": "2026-10-24T18:35:52+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "5f1d8f887e54bdcf": {
+      "source": "Kicker",
+      "title": "Beier mit Auge: BVB bringt sich vor dem Bundesliga-Knaller in Stellung",
+      "published": "2026-10-24T18:41:14+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "c859164c35749448": {
+      "source": "Kicker",
+      "title": "Arteta begeistert: \"Liebe die Mentalit\u00e4t dieser Mannschaft\"",
+      "published": "2026-10-24T18:55:30+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "11d84f71a7c4a0e0": {
+      "source": "Marca",
+      "title": "Pepelu lamenta c\u00f3mo se le escap\u00f3 el derbi al Valencia: \u201cNo se te puede ir un partido en el 93\u201d",
+      "published": "2026-10-24T18:59:39+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "01d3bb81268f2bfc": {
+      "source": "Kicker",
+      "title": "Wagner zu Pfiffen der Fans: \"Erwartungshaltung ist riesig\"",
+      "published": "2026-10-24T19:03:00+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "e1877706e399850c": {
+      "source": "Marca",
+      "title": "Aguirre explica la derrota ante el Villarreal: \"Distracciones, temas individuales... la culpa es m\u00eda\"",
+      "published": "2026-10-24T19:08:51+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "37e70b0f95bb3c22": {
+      "source": "Marca",
+      "title": "El Villarreal sigue siendo el rey de los derbis valencianos",
+      "published": "2026-10-24T19:21:29+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "7e2310b342514163": {
+      "source": "Marca",
+      "title": "\u00cd\u00f1igo: \u201cLa victoria es merecida, no por suerte\u201d",
+      "published": "2026-10-24T19:28:37+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "bc095ebc685cd298": {
+      "source": "Kicker",
+      "title": "Lens - FC Paris: Tor zum 0:1 durch Koleosho in der 45.+2 Minute",
+      "published": "2026-10-24T19:37:01+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "693b3b58e211ce11": {
+      "source": "Kicker",
+      "title": "\"Leider Gottes hat es ihn zerlegt\": Wagner best\u00e4tigt Gyamerah-Verletzung",
+      "published": "2026-10-24T19:39:02+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "85cf23db56a59f96": {
+      "source": "Kicker",
+      "title": "Trotz Reisestrapazen: \"Fitnessfanatiker\" Kovac beweist erneut H\u00e4ndchen",
+      "published": "2026-10-24T19:54:43+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "7893f03ed8e18c97": {
+      "source": "Kicker",
+      "title": "\"Das sind die Finisher\": Kovac freut sich \u00fcber seine Auswahlm\u00f6glichkeiten",
+      "published": "2026-10-24T19:55:00+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "93709ff2572cd250": {
+      "source": "Kicker",
+      "title": "Lazio - Parma: Tor zum 1:0 durch Taylor in der 50. Minute",
+      "published": "2026-10-24T19:59:26+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "d858b5c2618ae4c0": {
+      "source": "Kicker",
+      "title": "LEN - PFC: Rote Karte f\u00fcr in der 49. Minute",
+      "published": "2026-10-24T20:01:18+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "e92d1726e19e9eae": {
+      "source": "Kicker",
+      "title": "FCA k\u00fcndigt Anzeigen an: Bah nach Platzverweis rassistisch beleidigt",
+      "published": "2026-10-24T20:01:39+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
+    },
+    "c5f3eb684904bdb4": {
+      "source": "Kicker",
+      "title": "Lazio - Parma: Eigentor zum 2:0 durch Diego Carlos in der 58. Minute",
+      "published": "2026-10-24T20:07:15+00:00",
+      "first_seen": "2026-10-25T06:15:02.265859+10:00",
+      "category": "football"
     }
   }
 }

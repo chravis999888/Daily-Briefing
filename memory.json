@@ -2091,34 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-25T04:27:23.173381+00:00",
   "article_store": {
-    "1855e19447edb54e": {
-      "source": "Al Jazeera",
-      "title": "Rubio wants \u2018crackdown\u2019 on settler violence after US journalist attack",
-      "published": "2026-10-18T03:44:25+00:00",
-      "first_seen": "2026-10-18T14:55:16.056987+10:00",
-      "category": "breaking"
-    },
-    "ee7eccb8fefe832d": {
-      "source": "BBC News",
-      "title": "Deadly fire breaks out at Canada military base",
-      "published": "2026-10-18T04:00:50+00:00",
-      "first_seen": "2026-10-18T14:55:16.056987+10:00",
-      "category": "breaking"
-    },
-    "19e363ade8567871": {
-      "source": "Al Jazeera",
-      "title": "Tunisia\u2019s economic crisis deepens as the promise of a better life fades",
-      "published": "2026-10-18T04:14:42+00:00",
-      "first_seen": "2026-10-18T14:55:16.056987+10:00",
-      "category": "breaking"
-    },
-    "af3aaa0a5a550913": {
-      "source": "Al Jazeera",
-      "title": "At least 19 dead in stampede at Kolkata Hindu festival",
-      "published": "2026-10-18T04:21:46+00:00",
-      "first_seen": "2026-10-18T14:55:16.056987+10:00",
-      "category": "breaking"
-    },
     "c8de1d976c1346f3": {
       "source": "Al Jazeera",
       "title": "UK police rule out probe into Palestine Action post by PM adviser\u2019s wife",
@@ -26679,6 +26651,20 @@
       "published": "2026-10-25T02:00:14+00:00",
       "first_seen": "2026-10-25T14:27:58.469789+10:00",
       "category": "football"
+    },
+    "b9f9fa8a91831819": {
+      "source": "Al Jazeera",
+      "title": "Serbia votes in election pitting longtime leader against student movement",
+      "published": "2026-10-25T04:43:06+00:00",
+      "first_seen": "2026-10-25T15:31:56.444483+10:00",
+      "category": "breaking"
+    },
+    "fb58b8073e648ab3": {
+      "source": "BBC News",
+      "title": "Israel to close West Bank crossings on election day as crackdown escalates",
+      "published": "2026-10-25T05:15:52+00:00",
+      "first_seen": "2026-10-25T15:31:56.444483+10:00",
+      "category": "breaking"
     }
   }
 }

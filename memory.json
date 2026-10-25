@@ -2089,474 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-24T21:42:32.762291+00:00",
+  "last_gdelt_attempt": "2026-10-24T23:59:57.060582+00:00",
   "article_store": {
-    "c2510198fdd60aec": {
-      "source": "BBC News",
-      "title": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
-      "published": "2026-10-17T22:09:50+00:00",
-      "first_seen": "2026-10-18T09:15:51.484458+10:00",
-      "category": "breaking"
-    },
-    "29a55168adae6359": {
-      "source": "BBC News",
-      "title": "Dubois destroys Wardley in two rounds to retain title",
-      "published": "2026-10-17T22:27:49+00:00",
-      "first_seen": "2026-10-18T09:15:51.484458+10:00",
-      "category": "breaking"
-    },
-    "5911e0a0184f52ec": {
-      "source": "BBC News",
-      "title": "The playground murder: Trauma, loss and a love that endured",
-      "published": "2026-10-17T23:04:50+00:00",
-      "first_seen": "2026-10-18T09:15:51.484458+10:00",
-      "category": "breaking"
-    },
-    "205309d8a144a6b4": {
-      "source": "BBC News",
-      "title": "Manifest: From reality TV to Wembley Arena in one turbulent year",
-      "published": "2026-10-17T23:07:57+00:00",
-      "first_seen": "2026-10-18T09:15:51.484458+10:00",
-      "category": "breaking"
-    },
-    "9b26445cd5737b5a": {
-      "source": "Al Jazeera",
-      "title": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
-      "published": "2026-10-17T23:21:57+00:00",
-      "first_seen": "2026-10-18T09:44:59.750392+10:00",
-      "category": "breaking"
-    },
-    "ea9f665cd94a89a3": {
-      "source": "BBC News",
-      "title": "The Papers: 'French protests become violent' and SAS men 'arrested for murder'",
-      "published": "2026-10-17T23:40:34+00:00",
-      "first_seen": "2026-10-18T09:44:59.750392+10:00",
-      "category": "breaking"
-    },
-    "8d840815c1396462": {
-      "source": "ABC News",
-      "title": "Family says Las Vegas police search for missing Australian 'lacklustre'",
-      "published": "2026-10-17T20:09:58+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "4a39bc30dfb2bcdc": {
-      "source": "ABC News",
-      "title": "A little-known office, $55k contracts and a growing political problem",
-      "published": "2026-10-17T20:25:38+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "82a08c689f5d2b36": {
-      "source": "ABC News",
-      "title": "Young people the hidden group of carers few are talking about",
-      "published": "2026-10-17T20:27:30+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "ac64acf023643bc9": {
-      "source": "SMH",
-      "title": "Australia v South Africa second Test preview",
-      "published": "2026-10-17T20:29:24+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "69b5d4b85a95b0e2": {
-      "source": "The Age",
-      "title": "Australia v South Africa second Test preview",
-      "published": "2026-10-17T20:29:24+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "ac64acf023643bc9"
-    },
-    "45a470c48d1af328": {
-      "source": "ABC News",
-      "title": "Israeli settlers attack European diplomats in West Bank",
-      "published": "2026-10-17T20:49:25+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "353882e221e3b16e": {
-      "source": "SMH",
-      "title": "Man arrested after alleged stabbing death",
-      "published": "2026-10-17T20:58:56+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "d3b9a6196ced5358": {
-      "source": "The Age",
-      "title": "Man arrested after alleged stabbing death",
-      "published": "2026-10-17T20:58:56+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "353882e221e3b16e"
-    },
-    "a099845d64808fec": {
-      "source": "ABC News",
-      "title": "A lost knife, but a new love found for outback bladesmith",
-      "published": "2026-10-17T21:00:31+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "23742d763d4b4c3c": {
-      "source": "SMH",
-      "title": "The leap second has been cancelled. It\u2019s about time",
-      "published": "2026-10-17T21:00:47+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "e77f4e21e2a48d6e": {
-      "source": "The Age",
-      "title": "The leap second has been cancelled. It\u2019s about time",
-      "published": "2026-10-17T21:00:47+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "23742d763d4b4c3c"
-    },
-    "58a1c20022cbbdfb": {
-      "source": "ABC News",
-      "title": "Paramedics unable to respond to 'lights and sirens' cases while ramped",
-      "published": "2026-10-17T21:02:49+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "c625edd81f95a1c8": {
-      "source": "The Age",
-      "title": "Take The Age quiz",
-      "published": "2026-10-17T21:15:13+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "de80a7e3d0a6b720": {
-      "source": "ABC News",
-      "title": "Siblings with feet turned backwards get life-changing care",
-      "published": "2026-10-17T21:15:33+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "6b1af4c8dc159add": {
-      "source": "ABC News",
-      "title": "AI helps to track lobsters when 'no two shells are the same'",
-      "published": "2026-10-17T21:22:29+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "35e2aacb376fb579": {
-      "source": "SMH",
-      "title": "King Dobby ate a Croc and a bottle top \u2013 leaving his owners an impossible $6000 choice",
-      "published": "2026-10-17T21:30:00+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "a1006dbaa20f833b": {
-      "source": "The Age",
-      "title": "King Dobby ate a Croc and a bottle top \u2013 leaving his owners an impossible $6000 choice",
-      "published": "2026-10-17T21:30:00+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "35e2aacb376fb579"
-    },
-    "2f88df736c358b5e": {
-      "source": "ABC News",
-      "title": "How to deal with spring weeds before they take over your garden",
-      "published": "2026-10-17T21:33:51+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "d966de3bc23ae281": {
-      "source": "SMH",
-      "title": "Brentford player sent off for headbutt",
-      "published": "2026-10-17T21:39:05+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "665a0aab1b984fa5": {
-      "source": "The Age",
-      "title": "Brentford player sent off for headbutt",
-      "published": "2026-10-17T21:39:05+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "d966de3bc23ae281"
-    },
-    "9c68c2bf50374422": {
-      "source": "SMH",
-      "title": "Experts slam One Nation immigration plan",
-      "published": "2026-10-17T21:50:46+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "e4c3bb6c5a4e1cfc": {
-      "source": "The Age",
-      "title": "Experts slam One Nation immigration plan",
-      "published": "2026-10-17T21:50:46+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "9c68c2bf50374422"
-    },
-    "e8a87c7464ab523b": {
-      "source": "ABC News",
-      "title": "Basque migrants transformed town and left behind heritage handball court",
-      "published": "2026-10-17T22:03:20+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "fdc456115bf9aa22": {
-      "source": "SMH",
-      "title": "Clashes, fires and looting break out as protesters rally across France",
-      "published": "2026-10-17T22:20:41+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "7d08c28ed01d441b": {
-      "source": "The Age",
-      "title": "Clashes, fires and looting break out as protesters rally across France",
-      "published": "2026-10-17T22:20:41+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "fdc456115bf9aa22"
-    },
-    "8be4882947e6369b": {
-      "source": "ABC News",
-      "title": "'Outstanding' Tonga puts England on the brink of World Cup elimination",
-      "published": "2026-10-17T22:25:41+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "5704666029e38648": {
-      "source": "ABC News",
-      "title": "Women's group vows they're 'not going to get grey hair and do it quietly'",
-      "published": "2026-10-17T22:29:24+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "6f47c17d8dd7c2ff": {
-      "source": "SMH",
-      "title": "Forget Starbucks \u2013 welcome to the birthplace of China\u2019s coffee industry",
-      "published": "2026-10-17T22:30:00+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "aba58ba47dacf2a3": {
-      "source": "SMH",
-      "title": "How this relentless Australian bowling attack stacks up against the greats",
-      "published": "2026-10-17T22:30:00+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "5608de491f02f035": {
-      "source": "The Age",
-      "title": "Forget Starbucks \u2013 welcome to the birthplace of China\u2019s coffee industry",
-      "published": "2026-10-17T22:30:00+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "6f47c17d8dd7c2ff"
-    },
-    "c9acc8e5b2609756": {
-      "source": "The Age",
-      "title": "How this relentless Australian bowling attack stacks up against the greats",
-      "published": "2026-10-17T22:30:00+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "aba58ba47dacf2a3"
-    },
-    "31201483e0314e35": {
-      "source": "SMH",
-      "title": "Dubois retains world title in brutal fashion",
-      "published": "2026-10-17T22:35:55+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "7e7515f44afd58a9": {
-      "source": "The Age",
-      "title": "Dubois retains world title in brutal fashion",
-      "published": "2026-10-17T22:35:55+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "31201483e0314e35"
-    },
-    "8837bc429a721e70": {
-      "source": "ABC News",
-      "title": "A secret diagnosis could have torn us apart, but it brought us together",
-      "published": "2026-10-17T23:00:00+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "9ba2869a0e48fee2": {
-      "source": "ABC News",
-      "title": "Back where they belong, Murray Cod bring new life to SA's Lake Bonney",
-      "published": "2026-10-17T23:00:33+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "421deffee7b2ba4f": {
-      "source": "ABC News",
-      "title": "Sculptors see the fruit of their labour as oranges become art",
-      "published": "2026-10-17T23:28:10+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "821c4f2472bfc1e8": {
-      "source": "SMH",
-      "title": "Good news for jockeys amid fallout from horror Caulfield Cup fall",
-      "published": "2026-10-17T23:38:08+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia"
-    },
-    "0f746b3764ea4b11": {
-      "source": "The Age",
-      "title": "Good news for jockeys amid fallout from horror Caulfield Cup fall",
-      "published": "2026-10-17T23:38:08+00:00",
-      "first_seen": "2026-10-18T09:45:00.620302+10:00",
-      "category": "australia",
-      "duplicate_of": "821c4f2472bfc1e8"
-    },
-    "5a28896dab6576f8": {
-      "source": "Kicker",
-      "title": "Frecher Geniestreich von Romas Castro",
-      "published": "2026-10-17T19:57:36+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "23419454157f5c30": {
-      "source": "Kicker",
-      "title": "Kimmich: \"Die ersten 60 waren schon auf einem anderen Level\"",
-      "published": "2026-10-17T20:06:00+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "564477ebf4c8a214": {
-      "source": "Kicker",
-      "title": "Troyes - Lens: Tor zum 1:3 durch Aguilar in der 55. Minute",
-      "published": "2026-10-17T20:10:28+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "9723f0591cb4929a": {
-      "source": "Kicker",
-      "title": "Lille - Brest: Tor zum 1:1 durch Giroud in der 64. Minute",
-      "published": "2026-10-17T20:11:05+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "054d432b24503da9": {
-      "source": "Kicker",
-      "title": "Roma - Genoa: Tor zum 2:0 durch Lulli in der 68. Minute",
-      "published": "2026-10-17T20:17:25+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "0034878f917b547b": {
-      "source": "Kicker",
-      "title": "Alarmstufe Rot in Bochum: \"Es ist wieder Abstiegskampf pur\"",
-      "published": "2026-10-17T20:25:22+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "572acec8b3e86b76": {
-      "source": "Marca",
-      "title": "Alarma con la lesi\u00f3n de Guruzeta",
-      "published": "2026-10-17T20:44:09+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "7aa42cecef3f9a08": {
-      "source": "Kicker",
-      "title": "Polzin: \"Der Weg, dem wir uns als HSV verschrieben haben\"",
-      "published": "2026-10-17T20:49:25+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "bd3260056dc51f93": {
-      "source": "Kicker",
-      "title": "\"Du brauchst solche Spieler\": Wirtz' seltenes Kunstst\u00fcck l\u00e4sst Iraola schw\u00e4rmen",
-      "published": "2026-10-17T20:56:13+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "736a9d2dda38e779": {
-      "source": "Marca",
-      "title": "El Athletic vuelve a la Liga igual que la dej\u00f3, empatando otra vez sin goles",
-      "published": "2026-10-17T21:00:35+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "d0e1e5ec9f948748": {
-      "source": "Kicker",
-      "title": "Frecher Geniestreich auf engstem Raum leitet Roma-Sieg ein",
-      "published": "2026-10-17T21:10:47+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "bf612efeb319a480": {
-      "source": "Marca",
-      "title": "Facundo Bernal pide disculpas por su expulsi\u00f3n: \"Deb\u00ed controlarme\"",
-      "published": "2026-10-17T21:12:09+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "ab90b3d9b91cb649": {
-      "source": "Kicker",
-      "title": "Bilbao-Keeper gl\u00e4nzt: Unai Simon rettet Terzic einen Punkt",
-      "published": "2026-10-17T21:22:10+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "05f4711bb675fadf": {
-      "source": "Marca",
-      "title": "Terzic: \"Un partido un poco loco\"",
-      "published": "2026-10-17T21:30:26+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "99ec19ff8ed028fb": {
-      "source": "Marca",
-      "title": "Espanyol - Osasuna | Quieren salir del borde del abismo",
-      "published": "2026-10-17T21:36:04+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "0adc4c427fff96a2": {
-      "source": "Kicker",
-      "title": "\"Habe gehofft, dass die Wolken auf meiner Seite sind\": Scepanik erkl\u00e4rt Freisto\u00df-Trick und Elefanten-Jubel",
-      "published": "2026-10-17T21:45:37+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "270cc22c321e87bb": {
-      "source": "Kicker",
-      "title": "Ungewohnter PK-Gast: Eberl vertritt Kompany und erkl\u00e4rt dessen Fehlen",
-      "published": "2026-10-17T21:48:32+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "da2b5ea00e3e8cee": {
-      "source": "Kicker",
-      "title": "Demichelis entschuldigt sich und will nicht \u00fcber Klostermann sprechen",
-      "published": "2026-10-17T21:50:47+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "a30a5c4dfe610853": {
-      "source": "Marca",
-      "title": "Aguirre: \"No me preocupa la falta de gol; me preocupa m\u00e1s que nos quiten la pelota\"",
-      "published": "2026-10-17T21:53:05+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "ccdfdae64fc51d3d": {
-      "source": "Kicker",
-      "title": "Wagner: \"Habe gesagt, es gibt keinen Grund, schlecht gelaunt dazusitzen\"",
-      "published": "2026-10-17T22:10:03+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
-    "e4b4e02b1eb45c40": {
-      "source": "Kicker",
-      "title": "Heftiger Zusammenprall: Chelsea bangt um Torh\u00fcter Martinez",
-      "published": "2026-10-17T22:25:15+00:00",
-      "first_seen": "2026-10-18T09:45:11.090300+10:00",
-      "category": "football"
-    },
     "66213a06d07befa2": {
       "source": "Al Jazeera",
       "title": "US ambassador urges Israel to prosecute attackers of American journalist",
@@ -26580,6 +26114,508 @@
       "published": "2026-10-24T22:31:41+00:00",
       "first_seen": "2026-10-25T08:37:40.961452+10:00",
       "category": "breaking"
+    },
+    "26315826209faa6b": {
+      "source": "Al Jazeera",
+      "title": "How have Democrats\u2019 policies shifted since the last major US election?",
+      "published": "2026-10-24T22:28:37+00:00",
+      "first_seen": "2026-10-25T10:00:22.517244+10:00",
+      "category": "breaking"
+    },
+    "605943d1806b7d3b": {
+      "source": "Al Jazeera",
+      "title": "Gunmen kill at least 10 people in eastern Nigeria, police say",
+      "published": "2026-10-24T22:35:45+00:00",
+      "first_seen": "2026-10-25T10:00:22.517244+10:00",
+      "category": "breaking"
+    },
+    "1bf17bfec23ac571": {
+      "source": "BBC News",
+      "title": "A shark went astray and captured Korea's heart - will she finally make it back to sea?",
+      "published": "2026-10-24T22:58:43+00:00",
+      "first_seen": "2026-10-25T10:00:22.517244+10:00",
+      "category": "breaking"
+    },
+    "dbae4e96ceadf1c9": {
+      "source": "BBC News",
+      "title": "Ukraine depends on Starlink - can Europe plug the gap?",
+      "published": "2026-10-24T23:00:08+00:00",
+      "first_seen": "2026-10-25T10:00:22.517244+10:00",
+      "category": "breaking"
+    },
+    "dab1a0d99a303e52": {
+      "source": "BBC News",
+      "title": "Why the King's Caribbean tour could be 'biggest risk of his reign'",
+      "published": "2026-10-24T23:03:09+00:00",
+      "first_seen": "2026-10-25T10:00:22.517244+10:00",
+      "category": "breaking"
+    },
+    "8fad38bbe0a68317": {
+      "source": "BBC News",
+      "title": "The bitter row over military service that could shape Israel's future",
+      "published": "2026-10-24T23:03:21+00:00",
+      "first_seen": "2026-10-25T10:00:22.517244+10:00",
+      "category": "breaking"
+    },
+    "0d84f0e629a64273": {
+      "source": "BBC News",
+      "title": "Why the charts are full of old songs - and so are your playlists",
+      "published": "2026-10-24T23:05:41+00:00",
+      "first_seen": "2026-10-25T10:00:22.517244+10:00",
+      "category": "breaking"
+    },
+    "34a74e5845756f13": {
+      "source": "Al Jazeera",
+      "title": "Trump lauds Melania over Russia-Ukraine localised ceasefire deal",
+      "published": "2026-10-24T23:08:16+00:00",
+      "first_seen": "2026-10-25T10:00:22.517244+10:00",
+      "category": "breaking"
+    },
+    "391d880c63c01602": {
+      "source": "BBC News",
+      "title": "Rosebank: Life on the oil field at the centre of a political storm",
+      "published": "2026-10-24T23:15:18+00:00",
+      "first_seen": "2026-10-25T10:00:22.517244+10:00",
+      "category": "breaking"
+    },
+    "ddaca0511ee3d8db": {
+      "source": "BBC News",
+      "title": "Voters in Brazil to choose between Lula and Bolsonaro's son",
+      "published": "2026-10-24T23:50:02+00:00",
+      "first_seen": "2026-10-25T10:00:22.517244+10:00",
+      "category": "breaking"
+    },
+    "74b35117cdc2b242": {
+      "source": "ABC News",
+      "title": "Western Sydney International Airport opens to passengers today",
+      "published": "2026-10-24T20:21:38+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "510524061221a90c": {
+      "source": "ABC News",
+      "title": "36er knew his NBL days were numbered when he had the 'most pain ever'",
+      "published": "2026-10-24T20:25:54+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "0269744c7cb7964d": {
+      "source": "SMH",
+      "title": "Italian police wield batons, French fire tear gas at latest protests",
+      "published": "2026-10-24T20:31:04+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "d09e5b876614b942": {
+      "source": "The Age",
+      "title": "Italian police wield batons, French fire tear gas at latest protests",
+      "published": "2026-10-24T20:31:04+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "0269744c7cb7964d"
+    },
+    "a6d6015d7456c0e0": {
+      "source": "ABC News",
+      "title": "Infantino claims support of 'vast majority' of soccer ahead of FIFA elections",
+      "published": "2026-10-24T20:34:35+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "a47cdc9fd01d1905": {
+      "source": "ABC News",
+      "title": "Almost 1,000 arrests in protests across France",
+      "published": "2026-10-24T20:35:29+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "6dd25ed78aa4bbc6": {
+      "source": "ABC News",
+      "title": "Picture proves Best has been waiting for Aussie debut since year 6",
+      "published": "2026-10-24T20:38:55+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "7f8d5ea4173dcd6a": {
+      "source": "SMH",
+      "title": "Melbourne in the firing line as wet weather continues",
+      "published": "2026-10-24T20:48:24+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "7c03b644e231627a": {
+      "source": "The Age",
+      "title": "Melbourne in the firing line as wet weather continues",
+      "published": "2026-10-24T20:48:24+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "7f8d5ea4173dcd6a"
+    },
+    "52a8deef88c39a7e": {
+      "source": "SMH",
+      "title": "Gabriel seals vital Arsenal victory",
+      "published": "2026-10-24T20:58:29+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "ef2a57d99e2249f3": {
+      "source": "The Age",
+      "title": "Gabriel seals vital Arsenal victory",
+      "published": "2026-10-24T20:58:29+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "52a8deef88c39a7e"
+    },
+    "6d33356e0655b7a6": {
+      "source": "ABC News",
+      "title": "Qld premier rules out working with One Nation 'juggernaut'",
+      "published": "2026-10-24T21:02:41+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "94c17fe3b1830727": {
+      "source": "ABC News",
+      "title": "Skink havens offer hope for Australia's struggling reptiles",
+      "published": "2026-10-24T21:07:45+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "25130978ac750f89": {
+      "source": "ABC News",
+      "title": "Drive-by pub shooting leaves woman critical, three injured south of Brisbane",
+      "published": "2026-10-24T21:26:17+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "61a10f26f2a6a180": {
+      "source": "ABC News",
+      "title": "Authors paid hundreds to publish their books, but allege 'crap' service and AI art",
+      "published": "2026-10-24T21:29:52+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "be446395bc9727eb": {
+      "source": "ABC News",
+      "title": "Regional students band together for unique performance",
+      "published": "2026-10-24T21:35:23+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "ca43b416ae442b1d": {
+      "source": "SMH",
+      "title": "Protests continue across France",
+      "published": "2026-10-24T21:36:46+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "a89e04e6801b526d": {
+      "source": "The Age",
+      "title": "Protests continue across France",
+      "published": "2026-10-24T21:36:46+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "ca43b416ae442b1d"
+    },
+    "3d2ab82db9290d79": {
+      "source": "SMH",
+      "title": "Italian police clash with protesters in Turin",
+      "published": "2026-10-24T21:47:20+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "b37949181e59e591": {
+      "source": "The Age",
+      "title": "Italian police clash with protesters in Turin",
+      "published": "2026-10-24T21:47:20+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "3d2ab82db9290d79"
+    },
+    "be721d4636a2de62": {
+      "source": "ABC News",
+      "title": "Valkyries shut down Borlase's Dream to square WNBA Finals",
+      "published": "2026-10-24T21:54:20+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "f6699637541f2550": {
+      "source": "ABC News",
+      "title": "Australia has an Asian history, too, you just have to look for it",
+      "published": "2026-10-24T22:00:00+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "62075bc1005524c6": {
+      "source": "ABC News",
+      "title": "1,000 native trees planted to turn school playground into tiny forest",
+      "published": "2026-10-24T22:08:57+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "98149446ec0019ed": {
+      "source": "SMH",
+      "title": "Destiny's Child reunite at a Jay-Z concert",
+      "published": "2026-10-24T22:19:43+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "319e3903abd62fbc": {
+      "source": "The Age",
+      "title": "Destiny's Child reunite at a Jay-Z concert",
+      "published": "2026-10-24T22:19:43+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "98149446ec0019ed"
+    },
+    "47e4a7d07af1ef7f": {
+      "source": "SMH",
+      "title": "Dalifornia: China\u2019s mountain escape route for burnt-out youth",
+      "published": "2026-10-24T22:30:00+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "2e4e942b3d00a68d": {
+      "source": "SMH",
+      "title": "Selectors\u2019 disdain for Sheffield Shield is sabotaging the Test team",
+      "published": "2026-10-24T22:30:00+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "ac5a2548a0f49b1c": {
+      "source": "The Age",
+      "title": "Dalifornia: China\u2019s mountain escape route for burnt-out youth",
+      "published": "2026-10-24T22:30:00+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "47e4a7d07af1ef7f"
+    },
+    "a7a6d483afec1e25": {
+      "source": "The Age",
+      "title": "Selectors\u2019 disdain for Sheffield Shield is sabotaging the Test team",
+      "published": "2026-10-24T22:30:00+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "2e4e942b3d00a68d"
+    },
+    "7b984fa66a9786cd": {
+      "source": "ABC News",
+      "title": "Navigator steers home latest patrol ship in centuries-old ceremony",
+      "published": "2026-10-24T22:34:57+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "1cab7f0207549c45": {
+      "source": "SMH",
+      "title": "Meghan \u2018upset\u2019 by police failure to act on letter about father",
+      "published": "2026-10-24T22:52:35+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "6d74078fb07b5e48": {
+      "source": "The Age",
+      "title": "Meghan \u2018upset\u2019 by police failure to act on letter about father",
+      "published": "2026-10-24T22:52:35+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "1cab7f0207549c45"
+    },
+    "7cd0ea3d4f277017": {
+      "source": "SMH",
+      "title": "Four people shot in Queensland drive-by shooting",
+      "published": "2026-10-24T22:56:33+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "0f49562d9de8f6f0": {
+      "source": "The Age",
+      "title": "Four people shot in Queensland drive-by shooting",
+      "published": "2026-10-24T22:56:33+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "7cd0ea3d4f277017"
+    },
+    "9920c705099c9fc9": {
+      "source": "SMH",
+      "title": "Volkanovski retains UFC featherweight title",
+      "published": "2026-10-24T22:56:41+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "40251809c869f13b": {
+      "source": "The Age",
+      "title": "Volkanovski retains UFC featherweight title",
+      "published": "2026-10-24T22:56:41+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "9920c705099c9fc9"
+    },
+    "58ca40fd7e803cce": {
+      "source": "ABC News",
+      "title": "Konstas crunches another ton for NSW, pushing case for Test recall",
+      "published": "2026-10-24T22:58:18+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "e51c27d5f8eb056c": {
+      "source": "ABC News",
+      "title": "We both overpromised our physical attributes in an email. It led to love",
+      "published": "2026-10-24T23:00:00+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "ce8172fdb2b7b36e": {
+      "source": "ABC News",
+      "title": "Qualified migrant women forced into 'survival jobs' are paying price",
+      "published": "2026-10-24T23:00:50+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "0db27fc3483da483": {
+      "source": "ABC News",
+      "title": "Kids playing pool for Australia say there's not much time for homework",
+      "published": "2026-10-24T23:05:41+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "d5818a6cf77e9ab3": {
+      "source": "SMH",
+      "title": "Historic day as Sydney\u2019s new airport finally opens",
+      "published": "2026-10-24T23:08:15+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "c9cec8cdd105851f": {
+      "source": "The Age",
+      "title": "Historic day as Sydney\u2019s new airport finally opens",
+      "published": "2026-10-24T23:08:15+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia",
+      "duplicate_of": "d5818a6cf77e9ab3"
+    },
+    "df7e2bb98fa25517": {
+      "source": "ABC News",
+      "title": "Multiple flood warnings as Queensland braces for more wild weather",
+      "published": "2026-10-24T23:27:06+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "a03b11e8e5d9089a": {
+      "source": "ABC News",
+      "title": "Thousands rally in Tel Aviv against Netanyahu ahead of vote",
+      "published": "2026-10-24T23:34:37+00:00",
+      "first_seen": "2026-10-25T10:00:35.808755+10:00",
+      "category": "australia"
+    },
+    "79bf63c347685242": {
+      "source": "Kicker",
+      "title": "Treffer im Liegen: Nashville jubelt dank Ex-Herthaner Mukhtar",
+      "published": "2026-10-24T19:45:46+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "8c3ca4f1dd8a8065": {
+      "source": "Kicker",
+      "title": "Kovac und H\u00fctter schicken Genesungsw\u00fcnsche an Kompany",
+      "published": "2026-10-24T20:04:54+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "d9c92d187b1c4f86": {
+      "source": "Kicker",
+      "title": "Kovac gibt Darts-Ticket an Beier weiter: \"Er ist ein toller Kerl\"",
+      "published": "2026-10-24T20:05:11+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "f0d121f91d1cd6a8": {
+      "source": "Kicker",
+      "title": "Grimaldo legt vor, Alvarez vollendet: Atletico jubelt \u00fcber F\u00fchrung",
+      "published": "2026-10-24T20:13:43+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "13d3731d7e2f30b0": {
+      "source": "Kicker",
+      "title": "Lens - FC Paris: Tor zum 1:1 durch Thauvin in der 63. Minute",
+      "published": "2026-10-24T20:17:06+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "cef4d1b8b9b87f77": {
+      "source": "Kicker",
+      "title": "H\u00fctter schw\u00e4rmt von Aseko: \"Das gef\u00e4llt uns Trainern\"",
+      "published": "2026-10-24T20:22:26+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "275926b18868942c": {
+      "source": "Kicker",
+      "title": "Lens - FC Paris: Tor zum 2:1 durch Hazard in der 83. Minute",
+      "published": "2026-10-24T20:36:47+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "9f3d26c25f4f47f1": {
+      "source": "Kicker",
+      "title": "Lazio - Parma: Tor zum 2:1 durch Lontani in der 90.+5 Minute",
+      "published": "2026-10-24T20:43:23+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "e3b0ca03861d6389": {
+      "source": "Kicker",
+      "title": "Polzin schimpft \u00fcber Gegentor: \"Es ist ein klares Foulspiel\"",
+      "published": "2026-10-24T20:59:59+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "1ce1eef271751e9c": {
+      "source": "Kicker",
+      "title": "Luftloch ein Meter vor dem Tor: Lazio siegt trotz bitterem Fehlschuss",
+      "published": "2026-10-24T21:12:33+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "a7007b64c9cec18b": {
+      "source": "Kicker",
+      "title": "Grimaldo findet Alvarez: Atletico bejubelt knappen Heimsieg",
+      "published": "2026-10-24T21:35:13+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "04cca9e346eea5d0": {
+      "source": "Kicker",
+      "title": "Lieberknecht ist \"ein bisschen schockiert\": Yardimci wird zum tragischen Helden",
+      "published": "2026-10-24T21:50:06+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "bf8c18adf3ac67cd": {
+      "source": "Kicker",
+      "title": "Krahl wird f\u00fcr Lautern zum Hexer: \"Tolle Paraden, gute Ausstrahlung\"",
+      "published": "2026-10-24T22:04:47+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "c3393a86f593bd72": {
+      "source": "Kicker",
+      "title": "F\u00fcllkrug versteht Klopp-Aussage: \"Wollen jung und dynamisch sein\"",
+      "published": "2026-10-24T22:13:17+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "22d2514c81fa643a": {
+      "source": "Marca",
+      "title": "Barcelona - Real Madrid: 'Match-ball' o salvavidas",
+      "published": "2026-10-24T23:07:17+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
+    },
+    "0b006c5ba2edf0a5": {
+      "source": "Marca",
+      "title": "Athletic - Getafe | Un incendio que apagar",
+      "published": "2026-10-24T23:15:20+00:00",
+      "first_seen": "2026-10-25T10:00:54.083081+10:00",
+      "category": "football"
     }
   }
 }

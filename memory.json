@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-26T00:32:30.354619+00:00",
+  "last_gdelt_attempt": "2026-10-26T03:18:30.623122+00:00",
   "article_store": {
     "4cddedefa9260c20": {
       "source": "BBC News",
@@ -26373,6 +26373,504 @@
       "published": "2026-10-26T00:50:51+00:00",
       "first_seen": "2026-10-26T10:52:54.104480+10:00",
       "category": "breaking"
+    },
+    "da19b0d58e2ab320": {
+      "source": "BBC News",
+      "title": "How a movement of students brought down Serbia's Vu\u010di\u0107",
+      "published": "2026-10-26T00:31:51+00:00",
+      "first_seen": "2026-10-26T13:18:51.828241+10:00",
+      "category": "breaking"
+    },
+    "c3f6b63e2a85eeaf": {
+      "source": "BBC News",
+      "title": "Lula wins but faces hostile Congress and divided country",
+      "published": "2026-10-26T00:45:10+00:00",
+      "first_seen": "2026-10-26T13:18:51.828241+10:00",
+      "category": "breaking"
+    },
+    "15571e2b98d399c8": {
+      "source": "Al Jazeera",
+      "title": "Serbia celebrates historic election win for student-backed movement",
+      "published": "2026-10-26T00:58:21+00:00",
+      "first_seen": "2026-10-26T13:18:51.828241+10:00",
+      "category": "breaking"
+    },
+    "541dfa9668483852": {
+      "source": "Al Jazeera",
+      "title": "Netanyahu rival Eisenkot holds final rally before Israeli election",
+      "published": "2026-10-26T01:02:57+00:00",
+      "first_seen": "2026-10-26T13:18:51.828241+10:00",
+      "category": "breaking"
+    },
+    "2406a27ac7614b23": {
+      "source": "BBC News",
+      "title": "Sharon Osbourne: 'I visit Ozzy's grave every day'",
+      "published": "2026-10-26T01:40:39+00:00",
+      "first_seen": "2026-10-26T13:18:51.828241+10:00",
+      "category": "breaking"
+    },
+    "f67493b0aa503671": {
+      "source": "BBC News",
+      "title": "Is 'ferritin face' a real thing - and can you really spot low iron from looks?",
+      "published": "2026-10-26T01:43:55+00:00",
+      "first_seen": "2026-10-26T13:18:51.828241+10:00",
+      "category": "breaking"
+    },
+    "3e17418136513898": {
+      "source": "Al Jazeera",
+      "title": "Two storms slam northern Europe, cut power to 150,000 homes",
+      "published": "2026-10-26T02:04:31+00:00",
+      "first_seen": "2026-10-26T13:18:51.828241+10:00",
+      "category": "breaking"
+    },
+    "e6a29178d80694b8": {
+      "source": "ABC News",
+      "title": "England 'gutted' after second extraordinary ODI defeat in as many games",
+      "published": "2026-10-25T22:30:22+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "052d516f3b7d0ffb": {
+      "source": "ABC News",
+      "title": "Labor promises $6.8b South Coast rail fix days after timetable backflip",
+      "published": "2026-10-25T22:41:19+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "40a584d9462e2019": {
+      "source": "ABC News",
+      "title": "Police say they don't expect retaliation for Logan drive-by shooting",
+      "published": "2026-10-25T22:49:51+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "2b97e8a82f42ea23": {
+      "source": "ABC News",
+      "title": "Fowler's City draw to end winning start",
+      "published": "2026-10-25T23:31:49+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "efe7e06e86fd5bf9": {
+      "source": "ABC News",
+      "title": "Youth boxing program fights off negativity, provides positive role models",
+      "published": "2026-10-25T23:41:23+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "d54f9f0be044f394": {
+      "source": "ABC News",
+      "title": "Women take bushfire preparation into their own hands",
+      "published": "2026-10-26T00:00:13+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "e896fde2a09a93e1": {
+      "source": "ABC News",
+      "title": "'Meant to be in Perth': Passengers confused by Sydney's new airport",
+      "published": "2026-10-26T00:01:50+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "6bb804b16c18f23b": {
+      "source": "ABC News",
+      "title": "Antonelli is two points away from the F1 title, and can win it next week",
+      "published": "2026-10-26T00:27:03+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "b9ab59fb8604786d": {
+      "source": "ABC News",
+      "title": "Victorian Liberals to ban 'globalise the intifada' chant if elected",
+      "published": "2026-10-26T00:30:50+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "5b02f9f550774a17": {
+      "source": "ABC News",
+      "title": "Brazil's Luiz In\u00e1cio Lula da Silva re-elected president",
+      "published": "2026-10-26T00:36:24+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "b54302a789e757e6": {
+      "source": "ABC News",
+      "title": "Melbourne Market board quits over appointment of former Demons chief Paul Guerra",
+      "published": "2026-10-26T00:47:47+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "22a7486c0ef7d7a6": {
+      "source": "The Age",
+      "title": "Gunmen on the run after Logan shooting",
+      "published": "2026-10-26T00:58:42+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "9aed98c4265b51c4": {
+      "source": "SMH",
+      "title": "\u2018One way or the other\u2019: Trump\u2019s threats send oil prices surging",
+      "published": "2026-10-26T00:58:59+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "639bdf89fe1f368f": {
+      "source": "The Age",
+      "title": "\u2018One way or the other\u2019: Trump\u2019s threats send oil prices surging",
+      "published": "2026-10-26T00:58:59+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "9aed98c4265b51c4"
+    },
+    "ead9f8a805e9e956": {
+      "source": "SMH",
+      "title": "Gift articles to your friends with our new subscriber feature",
+      "published": "2026-10-26T01:00:00+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "7856e65666c8a673": {
+      "source": "SMH",
+      "title": "The Monday meeting that could seal Sam Walker\u2019s future at Bondi",
+      "published": "2026-10-26T01:00:00+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "f78f8453e99ee371": {
+      "source": "The Age",
+      "title": "Gift articles to your friends with our new subscriber feature",
+      "published": "2026-10-26T01:00:00+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "ead9f8a805e9e956"
+    },
+    "99af092752549f9c": {
+      "source": "The Age",
+      "title": "The Monday meeting that could seal Sam Walker\u2019s future at Bondi",
+      "published": "2026-10-26T01:00:00+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "7856e65666c8a673"
+    },
+    "457ded40f6d101c1": {
+      "source": "SMH",
+      "title": "Late car magnate\u2019s riverfront penthouse sells for $5.825 million",
+      "published": "2026-10-26T01:01:58+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "ed252ec691be55a7": {
+      "source": "The Age",
+      "title": "Late car magnate\u2019s riverfront penthouse sells for $5.825 million",
+      "published": "2026-10-26T01:01:58+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "457ded40f6d101c1"
+    },
+    "19e1073ec4fb9988": {
+      "source": "SMH",
+      "title": "\u2018Glad we checked our tickets\u2019: First international flight departs Western Sydney",
+      "published": "2026-10-26T01:15:34+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "6acb160c9d27e80f": {
+      "source": "The Age",
+      "title": "\u2018Glad we checked our tickets\u2019: First international flight departs Western Sydney",
+      "published": "2026-10-26T01:15:34+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "19e1073ec4fb9988"
+    },
+    "03cd7c18a25c97de": {
+      "source": "SMH",
+      "title": "PM leads tributes to injured Helen Haines",
+      "published": "2026-10-26T01:22:15+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "b0042a623e7fc6f2": {
+      "source": "The Age",
+      "title": "PM leads tributes to injured Helen Haines",
+      "published": "2026-10-26T01:22:15+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "03cd7c18a25c97de"
+    },
+    "96d0c8d4a2b5423a": {
+      "source": "SMH",
+      "title": "James Packer pays $1.8m to law firm also defending Netanyahu\u2019s corruption charges",
+      "published": "2026-10-26T01:24:18+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "8f80adcfa6499b5c": {
+      "source": "The Age",
+      "title": "James Packer pays $1.8m to law firm also defending Netanyahu\u2019s corruption charges",
+      "published": "2026-10-26T01:24:18+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "96d0c8d4a2b5423a"
+    },
+    "1eb4322e567bbdc5": {
+      "source": "ABC News",
+      "title": "Zempilas echoes 'The Road Not Taken' as WA Liberals face difficult choice",
+      "published": "2026-10-26T01:39:39+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "689f77ca23654f98": {
+      "source": "ABC News",
+      "title": "Worker dies in hospital after being dragged under ute at service station",
+      "published": "2026-10-26T01:50:29+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "db4a4c7109d07f6d": {
+      "source": "SMH",
+      "title": "Gawn backs Melbourne\u2019s \u2018brutal\u2019 call on Viney as his own contract call looms",
+      "published": "2026-10-26T01:59:21+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "efad9ce85f3c0eeb": {
+      "source": "The Age",
+      "title": "Gawn backs Melbourne\u2019s \u2018brutal\u2019 call on Viney as his own contract call looms",
+      "published": "2026-10-26T01:59:21+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "db4a4c7109d07f6d"
+    },
+    "69c2b0a63e8ecabb": {
+      "source": "SMH",
+      "title": "Smith sent off in final match",
+      "published": "2026-10-26T02:04:18+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "0f536cdebf0b13eb": {
+      "source": "The Age",
+      "title": "Smith sent off in final match",
+      "published": "2026-10-26T02:04:18+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "69c2b0a63e8ecabb"
+    },
+    "641b79c436fc17e5": {
+      "source": "SMH",
+      "title": "Red Metal cracks deeper Qld rare earths potential at Sybella",
+      "published": "2026-10-26T02:08:09+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "06ebfdb2ea1bf339": {
+      "source": "The Age",
+      "title": "Red Metal cracks deeper Qld rare earths potential at Sybella",
+      "published": "2026-10-26T02:08:09+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "641b79c436fc17e5"
+    },
+    "76d3de31d3d0e60f": {
+      "source": "ABC News",
+      "title": "Woman granted bail after allegedly trying to snatch teen's hijab",
+      "published": "2026-10-26T02:09:43+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "eeb2fa6ab6e64ff3": {
+      "source": "ABC News",
+      "title": "Rome demonstrators storm Colosseum as Europe's youth protests spread",
+      "published": "2026-10-26T02:16:31+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "fcbbf8014b958881": {
+      "source": "SMH",
+      "title": "\u2018These renovations allow me to actually enjoy my retirement\u2019",
+      "published": "2026-10-26T02:23:55+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "08946729b16fcadb": {
+      "source": "SMH",
+      "title": "NBA All-Star's horror leg injury",
+      "published": "2026-10-26T02:34:04+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "08ac0bd5ae7aebaf": {
+      "source": "The Age",
+      "title": "NBA All-Star's horror leg injury",
+      "published": "2026-10-26T02:34:04+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "08946729b16fcadb"
+    },
+    "82ad3cd026b5d71a": {
+      "source": "SMH",
+      "title": "\u2018Good people should be able to have weapons\u2019: Premier again dismisses buyback",
+      "published": "2026-10-26T02:34:23+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "f8fb27190ac183e6": {
+      "source": "The Age",
+      "title": "\u2018Good people should be able to have weapons\u2019: Premier again dismisses buyback",
+      "published": "2026-10-26T02:34:23+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "82ad3cd026b5d71a"
+    },
+    "2f88ffa11f934faa": {
+      "source": "ABC News",
+      "title": "Lamarre-Condon told friend he misinterpreted alleged confession, court hears",
+      "published": "2026-10-26T02:40:29+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "cf5ab5c0ab2d480c": {
+      "source": "ABC News",
+      "title": "Prisoner loses court case over access to Vegemite",
+      "published": "2026-10-26T02:45:24+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "565e9d2b067fcc7f": {
+      "source": "SMH",
+      "title": "Trump critic Lula comes from behind to win re-election in Brazil",
+      "published": "2026-10-26T02:50:09+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "898392b4aa81f248": {
+      "source": "The Age",
+      "title": "Trump critic Lula comes from behind to win re-election in Brazil",
+      "published": "2026-10-26T02:50:09+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "565e9d2b067fcc7f"
+    },
+    "c8d15251c35d95f6": {
+      "source": "ABC News",
+      "title": "Australia's second largest veggie company admits 'cartel conduct'",
+      "published": "2026-10-26T02:52:05+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "c78117f720c1b307": {
+      "source": "SMH",
+      "title": "Fiery exchange over pre-COP hotel bill",
+      "published": "2026-10-26T02:56:20+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "07b0ec17b56971fb": {
+      "source": "The Age",
+      "title": "Fiery exchange over pre-COP hotel bill",
+      "published": "2026-10-26T02:56:20+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "c78117f720c1b307"
+    },
+    "aeb0aa5fad469cea": {
+      "source": "ABC News",
+      "title": "'Our motherland needs us': The Israeli expats flying home to vote",
+      "published": "2026-10-26T03:04:29+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "7a00d3f27c633111": {
+      "source": "ABC News",
+      "title": "Automated aged care algorithm needs a human override, ombudsman finds",
+      "published": "2026-10-26T03:08:00+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "1bd9d79fa8c83c02": {
+      "source": "SMH",
+      "title": "\u2018It\u2019s been challenging\u2019: Gardner opens up on teammate affair ahead of WBBL campaign",
+      "published": "2026-10-26T03:15:01+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia"
+    },
+    "2865950b75713678": {
+      "source": "The Age",
+      "title": "\u2018It\u2019s been challenging\u2019: Gardner opens up on teammate affair ahead of WBBL campaign",
+      "published": "2026-10-26T03:15:01+00:00",
+      "first_seen": "2026-10-26T13:18:52.831983+10:00",
+      "category": "australia",
+      "duplicate_of": "1bd9d79fa8c83c02"
+    },
+    "7c8d708b0054de7f": {
+      "source": "Kicker",
+      "title": "Ilzer: \"Heute d\u00fcrfen wir uns auf die Schulter klopfen\"",
+      "published": "2026-10-25T20:05:14+00:00",
+      "first_seen": "2026-10-26T13:19:01.350618+10:00",
+      "category": "football"
+    },
+    "04cb1b3074835894": {
+      "source": "Kicker",
+      "title": "Hattrick bei Teilausschluss: Joker Boyd schie\u00dft Hoffenheim ab",
+      "published": "2026-10-25T21:57:10+00:00",
+      "first_seen": "2026-10-26T13:19:01.350618+10:00",
+      "category": "football"
+    },
+    "84d3cd3a737cf956": {
+      "source": "Kicker",
+      "title": "Pulisic erst allein, dann im Weg: Milan siegt gegen Runjaics Udine",
+      "published": "2026-10-25T22:07:03+00:00",
+      "first_seen": "2026-10-26T13:19:01.350618+10:00",
+      "category": "football"
+    },
+    "c37a866fe31bf50d": {
+      "source": "Kicker",
+      "title": "Boyd beweist es allen: \"Der Alte, der kann noch ein bisschen kicken\"",
+      "published": "2026-10-25T22:07:28+00:00",
+      "first_seen": "2026-10-26T13:19:01.350618+10:00",
+      "category": "football"
+    },
+    "9229815c0f1e69fc": {
+      "source": "Marca",
+      "title": "Cu\u00e1ndo es el pr\u00f3ximo Cl\u00e1sico de LaLiga",
+      "published": "2026-10-25T22:15:40+00:00",
+      "first_seen": "2026-10-26T13:19:01.350618+10:00",
+      "category": "football"
+    },
+    "688178f2f88d073a": {
+      "source": "Kicker",
+      "title": "Danks: \"Vielleicht waren ein, zwei Spieler ein wenig ersch\u00f6pft\"",
+      "published": "2026-10-25T22:54:52+00:00",
+      "first_seen": "2026-10-26T13:19:01.350618+10:00",
+      "category": "football"
+    },
+    "7177d56961de6ce6": {
+      "source": "Kicker",
+      "title": "Danks: Upamecano \"fast schon Harry-Kane-m\u00e4\u00dfig\"",
+      "published": "2026-10-25T23:03:00+00:00",
+      "first_seen": "2026-10-26T13:19:01.350618+10:00",
+      "category": "football"
+    },
+    "365e75a15c1bbf64": {
+      "source": "Kicker",
+      "title": "Lamine Yamal verpasst, Bellingham zaubert: Real siegt sp\u00e4t im Clasico",
+      "published": "2026-10-25T23:04:59+00:00",
+      "first_seen": "2026-10-26T13:19:01.350618+10:00",
+      "category": "football"
+    },
+    "45b0298ed27d240a": {
+      "source": "Marca",
+      "title": "Mourinho persisti\u00f3 en el equipo creativo",
+      "published": "2026-10-25T23:16:34+00:00",
+      "first_seen": "2026-10-26T13:19:01.350618+10:00",
+      "category": "football"
+    },
+    "4e5579e11642fda7": {
+      "source": "Marca",
+      "title": "Sevilla - Osasuna | Nervi\u00f3n abre sus puertas 37 d\u00edas despu\u00e9s: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
+      "published": "2026-10-26T01:03:50+00:00",
+      "first_seen": "2026-10-26T13:19:01.350618+10:00",
+      "category": "football"
     }
   }
 }

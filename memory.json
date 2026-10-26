@@ -2089,494 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-26T03:18:30.623122+00:00",
+  "last_gdelt_attempt": "2026-10-26T05:37:21.593310+00:00",
   "article_store": {
-    "4cddedefa9260c20": {
-      "source": "BBC News",
-      "title": "Watch: Russian saboteur working for Ukraine shares reconnaissance videos",
-      "published": "2026-10-19T00:28:44+00:00",
-      "first_seen": "2026-10-19T13:20:37.203369+10:00",
-      "category": "breaking"
-    },
-    "d3377b8dced9b516": {
-      "source": "BBC News",
-      "title": "Chance of storms this week as Atlantic jet stream roars into life",
-      "published": "2026-10-19T00:34:38+00:00",
-      "first_seen": "2026-10-19T13:20:37.203369+10:00",
-      "category": "breaking"
-    },
-    "889013b18e9aa2b3": {
-      "source": "Al Jazeera",
-      "title": "Kinship and surveillance: The return of Somali piracy",
-      "published": "2026-10-19T00:56:17+00:00",
-      "first_seen": "2026-10-19T13:20:37.203369+10:00",
-      "category": "breaking"
-    },
-    "e4567a5ce90bf178": {
-      "source": "Al Jazeera",
-      "title": "Kenya confirms eighth Ebola case amid widening regional outbreak",
-      "published": "2026-10-19T01:07:52+00:00",
-      "first_seen": "2026-10-19T13:20:37.203369+10:00",
-      "category": "breaking"
-    },
-    "b34136ac758b1d46": {
-      "source": "BBC News",
-      "title": "Burnham says youth employment and training crisis is a 'moral failure'",
-      "published": "2026-10-19T01:40:53+00:00",
-      "first_seen": "2026-10-19T13:20:37.203369+10:00",
-      "category": "breaking"
-    },
-    "fa6fa305a32abe78": {
-      "source": "Al Jazeera",
-      "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
-      "published": "2026-10-19T02:10:09+00:00",
-      "first_seen": "2026-10-19T13:20:37.203369+10:00",
-      "category": "breaking"
-    },
-    "6fa94774283821a8": {
-      "source": "ABC News",
-      "title": "Convicted killer Susan Neill-Fraser says she 'can't remain quiet'",
-      "published": "2026-10-19T00:01:05+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "d89b7949feccb24f": {
-      "source": "ABC News",
-      "title": "Judge finds Aboriginal protection order on goldmine 'fundamentally flawed'",
-      "published": "2026-10-19T00:01:20+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "833566c5dce77f14": {
-      "source": "ABC News",
-      "title": "Bullara Station finds 'silver linings' following Cyclone Narelle",
-      "published": "2026-10-19T00:02:17+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "7350e56c38801423": {
-      "source": "ABC News",
-      "title": "Inside the 'ghost city' designed to become Indonesia's new capital",
-      "published": "2026-10-19T00:04:36+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "538a168931c1a482": {
-      "source": "ABC News",
-      "title": "Cindy Crawford 'beyond heartbroken' to lose son Presley Gerber",
-      "published": "2026-10-19T00:32:47+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "b40c398ef92a4bb8": {
-      "source": "SMH",
-      "title": "The winter revolution that transformed Renshaw into Australia\u2019s triple-threat saviour",
-      "published": "2026-10-19T01:00:00+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "05d15f145f143426": {
-      "source": "The Age",
-      "title": "The winter revolution that transformed Renshaw into Australia\u2019s triple-threat saviour",
-      "published": "2026-10-19T01:00:00+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "b40c398ef92a4bb8"
-    },
-    "0830a0ca9610cc5a": {
-      "source": "SMH",
-      "title": "Meet the new Kerrigans: The Castle stage show\u2019s cast revealed",
-      "published": "2026-10-19T01:00:06+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "8ebb7d7d64a05528": {
-      "source": "The Age",
-      "title": "Meet the new Kerrigans: The Castle stage show\u2019s cast revealed",
-      "published": "2026-10-19T01:00:06+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "0830a0ca9610cc5a"
-    },
-    "96c6ca893da19948": {
-      "source": "ABC News",
-      "title": "Small-scale florists hope to fill gap for romantics in Kununurra",
-      "published": "2026-10-19T01:00:26+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "4a4ee2e00c2edbcf": {
-      "source": "SMH",
-      "title": "Crisafulli accuses federal government of siege on small business",
-      "published": "2026-10-19T01:13:19+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "617f574e6bbd93d8": {
-      "source": "The Age",
-      "title": "Crisafulli accuses federal government of siege on small business",
-      "published": "2026-10-19T01:13:19+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "4a4ee2e00c2edbcf"
-    },
-    "05e8bf7700e30c89": {
-      "source": "ABC News",
-      "title": "Kenyan Ebola cases rise to eight in two weeks",
-      "published": "2026-10-19T01:15:08+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "38f0d79ba6afb658": {
-      "source": "ABC News",
-      "title": "RLWC quick hits: Ponga's power, Tonga's triumph and Fiji's sunny day",
-      "published": "2026-10-19T01:21:13+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "3e5b570946932837": {
-      "source": "ABC News",
-      "title": "Outstations and town camps struggle with damage from 'scary' storm",
-      "published": "2026-10-19T01:24:07+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "d22e92f118b93e14": {
-      "source": "ABC News",
-      "title": "Teen charged over Melbourne CBD crash wants to plead guilty, court hears",
-      "published": "2026-10-19T01:25:12+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "4bce2b2bb4a200d5": {
-      "source": "SMH",
-      "title": "How tragedy unfolded in the Caulfield Cup",
-      "published": "2026-10-19T01:28:31+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "102b10198c8f1157": {
-      "source": "The Age",
-      "title": "How tragedy unfolded in the Caulfield Cup",
-      "published": "2026-10-19T01:28:31+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "4bce2b2bb4a200d5"
-    },
-    "4188076d5b130162": {
-      "source": "ABC News",
-      "title": "Climate activists charged after Woodside offshore rig stunt",
-      "published": "2026-10-19T01:41:42+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "a00c537846f9c054": {
-      "source": "SMH",
-      "title": "O'Keefe fumes at Lyon's Test omission",
-      "published": "2026-10-19T01:44:32+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "2d0700ed592d0c0e": {
-      "source": "The Age",
-      "title": "O'Keefe fumes at Lyon's Test omission",
-      "published": "2026-10-19T01:44:32+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "a00c537846f9c054"
-    },
-    "842b59dc4b5afb9c": {
-      "source": "SMH",
-      "title": "Vietjet\u2019s domestic ambitions dealt a blow after court orders global asset freeze",
-      "published": "2026-10-19T01:46:09+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "7ea39b583c2307d7": {
-      "source": "The Age",
-      "title": "Vietjet\u2019s domestic ambitions dealt a blow after court orders global asset freeze",
-      "published": "2026-10-19T01:46:09+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "842b59dc4b5afb9c"
-    },
-    "ae482191b525c1aa": {
-      "source": "SMH",
-      "title": "\u2018That\u2019s so savage\u2019: Accused killer allegedly broke into TV presenter\u2019s home hours after rejection",
-      "published": "2026-10-19T01:46:29+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "c79748ea8423a97c": {
-      "source": "The Age",
-      "title": "\u2018That\u2019s so savage\u2019: Accused killer allegedly broke into TV presenter\u2019s home hours after rejection",
-      "published": "2026-10-19T01:46:29+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "ae482191b525c1aa"
-    },
-    "dd0b0b4519fe339b": {
-      "source": "SMH",
-      "title": "Sydney man allegedly discussed plans for childcare mass shooting with AI chatbot",
-      "published": "2026-10-19T01:50:02+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "94c7acee3578883b": {
-      "source": "The Age",
-      "title": "Sydney man allegedly discussed plans for childcare mass shooting with AI chatbot",
-      "published": "2026-10-19T01:50:02+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "dd0b0b4519fe339b"
-    },
-    "388ab39d521a5c7b": {
-      "source": "SMH",
-      "title": "Chancellor helps drive Karpani over",
-      "published": "2026-10-19T01:50:12+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "b0658593a58993a3": {
-      "source": "The Age",
-      "title": "Chancellor helps drive Karpani over",
-      "published": "2026-10-19T01:50:12+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "388ab39d521a5c7b"
-    },
-    "94a4dcecfbaead49": {
-      "source": "SMH",
-      "title": "Nothing left to loot: Parisians ponder the real cost of another night of riots",
-      "published": "2026-10-19T01:50:43+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "5ea7f07c8a20ab0a": {
-      "source": "The Age",
-      "title": "Nothing left to loot: Parisians ponder the real cost of another night of riots",
-      "published": "2026-10-19T01:50:43+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "94a4dcecfbaead49"
-    },
-    "e52f25982259953f": {
-      "source": "SMH",
-      "title": "Rare earths strike in NT extends 8km beyond previous Barkly hits",
-      "published": "2026-10-19T02:13:20+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "d87c93cb07986454": {
-      "source": "The Age",
-      "title": "Rare earths strike in NT extends 8km beyond previous Barkly hits",
-      "published": "2026-10-19T02:13:20+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "e52f25982259953f"
-    },
-    "95e4b52053a4070f": {
-      "source": "SMH",
-      "title": "\u2018I committed heinous crimes\u2019: Moore Park rapist\u2019s message to victims revealed",
-      "published": "2026-10-19T02:25:51+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "2bcd801e4b91477f": {
-      "source": "The Age",
-      "title": "\u2018I committed heinous crimes\u2019: Moore Park rapist\u2019s message to victims revealed",
-      "published": "2026-10-19T02:25:51+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "95e4b52053a4070f"
-    },
-    "b70ae8696b7dd7b9": {
-      "source": "SMH",
-      "title": "Commissioner\u2019s SCG briefing, police miscommunications in spotlight at Town Hall protest inquiry",
-      "published": "2026-10-19T02:33:30+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "b8b7dd82506e987f": {
-      "source": "The Age",
-      "title": "Commissioner\u2019s SCG briefing, police miscommunications in spotlight at Town Hall protest inquiry",
-      "published": "2026-10-19T02:33:30+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "b70ae8696b7dd7b9"
-    },
-    "67f30134e75d0a58": {
-      "source": "ABC News",
-      "title": "As Russia-Ukraine war changes, Zelenskyy could be 'losing a strong partner'",
-      "published": "2026-10-19T02:38:59+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "f243f13ae1f19902": {
-      "source": "SMH",
-      "title": "Great Southern uncovers new high-grade hits in WA gold hunt",
-      "published": "2026-10-19T02:39:25+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "52b15a94a1eeec8d": {
-      "source": "The Age",
-      "title": "Great Southern uncovers new high-grade hits in WA gold hunt",
-      "published": "2026-10-19T02:39:25+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "f243f13ae1f19902"
-    },
-    "73d1c5536766f2f9": {
-      "source": "ABC News",
-      "title": "Flydubai captain describes co-pilot's axe attack and saving 170 passengers",
-      "published": "2026-10-19T02:42:11+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "b41d1b348830582d": {
-      "source": "ABC News",
-      "title": "'Why all the secrecy?': Accused gangster begins challenge against AFP",
-      "published": "2026-10-19T03:02:48+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "888254d3c5377e71": {
-      "source": "SMH",
-      "title": "Post-mortem underway after man found dead in Brisbane",
-      "published": "2026-10-19T03:05:41+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "9af057b7e1670d47": {
-      "source": "The Age",
-      "title": "Post-mortem underway after man found dead in Brisbane",
-      "published": "2026-10-19T03:05:41+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "888254d3c5377e71"
-    },
-    "8bac9f4673ade984": {
-      "source": "SMH",
-      "title": "The Fantasy Bra makes a comeback at Victoria\u2019s Secret Fashion Show",
-      "published": "2026-10-19T03:08:28+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "90c68ba2822b38de": {
-      "source": "The Age",
-      "title": "The Fantasy Bra makes a comeback at Victoria\u2019s Secret Fashion Show",
-      "published": "2026-10-19T03:08:28+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "8bac9f4673ade984"
-    },
-    "a9eb3f44a626bbe5": {
-      "source": "SMH",
-      "title": "How to make a killer gnome: behind the scenes of new comedy-horror series Gnomes",
-      "published": "2026-10-19T03:17:08+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia"
-    },
-    "9a65e5413b5000e6": {
-      "source": "The Age",
-      "title": "How to make a killer gnome: behind the scenes of new comedy-horror series Gnomes",
-      "published": "2026-10-19T03:17:08+00:00",
-      "first_seen": "2026-10-19T13:20:38.564929+10:00",
-      "category": "australia",
-      "duplicate_of": "a9eb3f44a626bbe5"
-    },
-    "13fd83060336c38c": {
-      "source": "BBC News",
-      "title": "Bollywood actor Tiger Shroff survives shooting in Mumbai",
-      "published": "2026-10-19T01:50:48+00:00",
-      "first_seen": "2026-10-19T15:04:01.634504+10:00",
-      "category": "breaking"
-    },
-    "3ecaac8243e901b3": {
-      "source": "BBC News",
-      "title": "Threat forces Israel to Austria flight into emergency landing",
-      "published": "2026-10-19T02:41:50+00:00",
-      "first_seen": "2026-10-19T15:04:01.634504+10:00",
-      "category": "breaking"
-    },
-    "d13fc3fc3702dec1": {
-      "source": "Al Jazeera",
-      "title": "Fast-moving grass fire caused Canada\u2019s military base tragedy",
-      "published": "2026-10-19T03:07:16+00:00",
-      "first_seen": "2026-10-19T15:04:01.634504+10:00",
-      "category": "breaking"
-    },
-    "76bdc565ae395043": {
-      "source": "Al Jazeera",
-      "title": "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
-      "published": "2026-10-19T03:10:05+00:00",
-      "first_seen": "2026-10-19T15:04:01.634504+10:00",
-      "category": "breaking"
-    },
-    "30ebf418d83cc716": {
-      "source": "Al Jazeera",
-      "title": "Anthropic says it will commit 5% of shares to \u2018public benefit\u2019 fund",
-      "published": "2026-10-19T03:23:54+00:00",
-      "first_seen": "2026-10-19T15:04:01.634504+10:00",
-      "category": "breaking"
-    },
-    "961bb1c80b069cb2": {
-      "source": "Al Jazeera",
-      "title": "\u2018It broke my heart\u2019: Limoges residents reel after town hall fire",
-      "published": "2026-10-19T03:40:52+00:00",
-      "first_seen": "2026-10-19T15:04:01.634504+10:00",
-      "category": "breaking"
-    },
-    "9e7f91d494f5be2f": {
-      "source": "BBC News",
-      "title": "France's government under pressure after weekend of widespread violence",
-      "published": "2026-10-19T04:16:46+00:00",
-      "first_seen": "2026-10-19T15:04:01.634504+10:00",
-      "category": "breaking"
-    },
-    "98e9f3ac55769e8b": {
-      "source": "Al Jazeera",
-      "title": "Lula and Bolsonaro spar in Brazil\u2019s fiery first presidential run-off debate",
-      "published": "2026-10-19T04:27:00+00:00",
-      "first_seen": "2026-10-19T15:04:01.634504+10:00",
-      "category": "breaking"
-    },
-    "a6ee3ba4023e7da0": {
-      "source": "BBC News",
-      "title": "'Postcode lottery' driving children's inequality in England, commissioner warns",
-      "published": "2026-10-19T04:37:06+00:00",
-      "first_seen": "2026-10-19T15:04:01.634504+10:00",
-      "category": "breaking"
-    },
-    "a77359da93118af7": {
-      "source": "Al Jazeera",
-      "title": "Pope greeted by crowds in first major appearance since lung cancer surgery",
-      "published": "2026-10-19T04:42:13+00:00",
-      "first_seen": "2026-10-19T15:04:01.634504+10:00",
-      "category": "breaking"
-    },
-    "61b4bcaaa4e39a0a": {
-      "source": "BBC News",
-      "title": "BBC visits wildfire front in haze-choked Indonesia",
-      "published": "2026-10-19T01:57:02+00:00",
-      "first_seen": "2026-10-19T15:31:29.685613+10:00",
-      "category": "breaking"
-    },
-    "fa576625ab744de0": {
-      "source": "BBC News",
-      "title": "Companies exploiting welfare system by using residents as 'cash cows,' BBC finds",
-      "published": "2026-10-19T04:59:47+00:00",
-      "first_seen": "2026-10-19T15:31:29.685613+10:00",
-      "category": "breaking"
-    },
-    "a9eaf5f84bc36f5b": {
-      "source": "BBC News",
-      "title": "NHS leaders say maternity care organisation is 'not fit for purpose'",
-      "published": "2026-10-19T05:00:08+00:00",
-      "first_seen": "2026-10-19T15:31:29.685613+10:00",
-      "category": "breaking"
-    },
     "8d46a29d996831d3": {
       "source": "Al Jazeera",
       "title": "US President Donald Trump endorses Netanyahu for Israeli election",
@@ -26871,6 +26385,118 @@
       "published": "2026-10-26T01:03:50+00:00",
       "first_seen": "2026-10-26T13:19:01.350618+10:00",
       "category": "football"
+    },
+    "d6de3135d4216143": {
+      "source": "BBC News",
+      "title": "Watch: How Lula turned it around to beat former president's son",
+      "published": "2026-10-26T02:53:00+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "2d9b57a6863ab998": {
+      "source": "Al Jazeera",
+      "title": "Seoul \u2018fabricated\u2019 landmine blast, North Korea tells UN in letter",
+      "published": "2026-10-26T02:55:15+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "7f0ec9420f0e1678": {
+      "source": "Al Jazeera",
+      "title": "Brazil election results 2026: Key takeaways from Lula\u2019s historic win",
+      "published": "2026-10-26T02:59:50+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "102ad4eba123e65d": {
+      "source": "Al Jazeera",
+      "title": "Lula thanks Brazil\u2019s youth for historic election win",
+      "published": "2026-10-26T03:14:26+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "5fba8bd71cc8f65a": {
+      "source": "Al Jazeera",
+      "title": "Ballon d\u2019Or 2026 predictions: Yamal, Mbappe and Kane \u2013 who will win?",
+      "published": "2026-10-26T03:34:59+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "d94d22f07e4c58b7": {
+      "source": "Al Jazeera",
+      "title": "World reacts to Lula\u2019s victory in Brazil\u2019s presidential election",
+      "published": "2026-10-26T03:50:12+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "4d0401ee1cc88833": {
+      "source": "Al Jazeera",
+      "title": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
+      "published": "2026-10-26T04:03:28+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "493310a3226fc8fe": {
+      "source": "BBC News",
+      "title": "Australian murderer loses bid to eat Vegemite in prison",
+      "published": "2026-10-26T04:05:28+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "f3d545b588bbde88": {
+      "source": "Al Jazeera",
+      "title": "US military says it helped Gulf states export 1.5 billion barrels of oil",
+      "published": "2026-10-26T04:05:44+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "72ecfb7751bd3f8b": {
+      "source": "Al Jazeera",
+      "title": "Attackers kill nurse, injure health worker responding to DRC Ebola case",
+      "published": "2026-10-26T04:21:26+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "d7e273d7e2082baa": {
+      "source": "Al Jazeera",
+      "title": "US appeals court sceptical of Trump\u2019s lawsuit over California voter rolls",
+      "published": "2026-10-26T04:32:48+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "a511023544653dac": {
+      "source": "Al Jazeera",
+      "title": "Bolsonaro calls for Brazil election result to be annulled",
+      "published": "2026-10-26T04:36:46+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "819718c17bd2230b": {
+      "source": "Al Jazeera",
+      "title": "Social video captures moment Brazil\u2019s election turned",
+      "published": "2026-10-26T05:01:59+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "0ca76d6b27bdf7c2": {
+      "source": "Al Jazeera",
+      "title": "Israel\u2019s election: Five key things to know",
+      "published": "2026-10-26T05:16:38+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "b7c906e674285537": {
+      "source": "Al Jazeera",
+      "title": "The Gambia\u2019s first blind magistrate tests a system built for the sighted",
+      "published": "2026-10-26T05:18:00+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
+    },
+    "a187897975e8b3a3": {
+      "source": "Al Jazeera",
+      "title": "Aleksandar Vucic, the Serbian leader brought down by students",
+      "published": "2026-10-26T05:24:59+00:00",
+      "first_seen": "2026-10-26T15:37:43.044573+10:00",
+      "category": "breaking"
     }
   }
 }

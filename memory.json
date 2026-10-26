@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-26T13:45:06.882428+00:00",
+  "last_gdelt_attempt": "2026-10-26T16:29:37.145014+00:00",
   "article_store": {
     "d33d4cadae61145b": {
       "source": "BBC News",
@@ -26530,6 +26530,571 @@
       "published": "2026-10-26T14:57:11+00:00",
       "first_seen": "2026-10-27T01:21:43.082306+10:00",
       "category": "breaking"
+    },
+    "e6380469cf8bc7b1": {
+      "source": "BBC News",
+      "title": "Will anyone end Spain's domination of women's Ballon d'Or?",
+      "published": "2026-10-26T09:21:17+00:00",
+      "first_seen": "2026-10-27T02:30:00.026878+10:00",
+      "category": "breaking"
+    },
+    "e85770f4e7c3f4aa": {
+      "source": "BBC News",
+      "title": "Part of Antarctica named after former BBC science correspondent",
+      "published": "2026-10-26T14:54:40+00:00",
+      "first_seen": "2026-10-27T02:30:00.026878+10:00",
+      "category": "breaking"
+    },
+    "9a8875ba6205141a": {
+      "source": "BBC News",
+      "title": "How 'Lula's Army' WhatsApp chat helped turn Brazil election around",
+      "published": "2026-10-26T15:37:33+00:00",
+      "first_seen": "2026-10-27T02:30:00.026878+10:00",
+      "category": "breaking"
+    },
+    "551f4b4163cdcb38": {
+      "source": "Al Jazeera",
+      "title": "What does the Israeli election mean for religious groups?",
+      "published": "2026-10-26T15:40:41+00:00",
+      "first_seen": "2026-10-27T02:30:00.026878+10:00",
+      "category": "breaking"
+    },
+    "0074f77cc1ee4ed8": {
+      "source": "Al Jazeera",
+      "title": "Egyptian parliament authorises military aid for Saudi Arabia",
+      "published": "2026-10-26T15:41:29+00:00",
+      "first_seen": "2026-10-27T02:30:00.026878+10:00",
+      "category": "breaking"
+    },
+    "e7633003d2aaf870": {
+      "source": "Al Jazeera",
+      "title": "Israel committing crimes against humanity in occupied West Bank: UN",
+      "published": "2026-10-26T15:44:59+00:00",
+      "first_seen": "2026-10-27T02:30:00.026878+10:00",
+      "category": "breaking"
+    },
+    "eee85e8a3fe605f5": {
+      "source": "Al Jazeera",
+      "title": "Saddam Haftar is eyeing the throne in Libya",
+      "published": "2026-10-26T16:01:19+00:00",
+      "first_seen": "2026-10-27T02:30:00.026878+10:00",
+      "category": "breaking"
+    },
+    "25a9bf87933b84f0": {
+      "source": "BBC News",
+      "title": "Independent review announced into murder of student Henry Nowak",
+      "published": "2026-10-26T16:15:16+00:00",
+      "first_seen": "2026-10-27T02:30:00.026878+10:00",
+      "category": "breaking"
+    },
+    "32d0fa80ff495fa1": {
+      "source": "ABC News",
+      "title": "Liberal candidate's husband allegedly assaulted over campaign sign",
+      "published": "2026-10-26T09:45:49+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "afcd8b53c368aaac": {
+      "source": "SMH",
+      "title": "What goes around, comes around",
+      "published": "2026-10-26T10:00:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "07e0cef10af27e21": {
+      "source": "The Age",
+      "title": "What goes around, comes around",
+      "published": "2026-10-26T10:00:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "afcd8b53c368aaac"
+    },
+    "9721f833c5864ed4": {
+      "source": "SMH",
+      "title": "Missing man found walking through Perth car park",
+      "published": "2026-10-26T10:39:45+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "9bfba436dc61def4": {
+      "source": "The Age",
+      "title": "Missing man found walking through Perth car park",
+      "published": "2026-10-26T10:39:45+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "9721f833c5864ed4"
+    },
+    "2363d66130b7d515": {
+      "source": "SMH",
+      "title": "Former councillor and One Nation candidate found dead in floodwater",
+      "published": "2026-10-26T10:39:54+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "0a881e04a065ddd8": {
+      "source": "The Age",
+      "title": "Former councillor and One Nation candidate found dead in floodwater",
+      "published": "2026-10-26T10:39:54+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "2363d66130b7d515"
+    },
+    "fc0dca7cca0c50ca": {
+      "source": "SMH",
+      "title": "Police officer jumps out of the path of oncoming car",
+      "published": "2026-10-26T10:42:01+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "13aaafa8b2fa84f2": {
+      "source": "The Age",
+      "title": "Police officer jumps out of the path of oncoming car",
+      "published": "2026-10-26T10:42:01+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "fc0dca7cca0c50ca"
+    },
+    "6e755a9e1866fdc5": {
+      "source": "SMH",
+      "title": "AI supercharges cyberattacks on Australia, with superannuation savings in the firing line",
+      "published": "2026-10-26T11:30:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "7fdd60734a5d44ad": {
+      "source": "The Age",
+      "title": "AI supercharges cyberattacks on Australia, with superannuation savings in the firing line",
+      "published": "2026-10-26T11:30:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "6e755a9e1866fdc5"
+    },
+    "b1812da8e2d2dd1b": {
+      "source": "SMH",
+      "title": "Maddinson dropped, Smith under fitness cloud for Cape Town showdown",
+      "published": "2026-10-26T12:04:19+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "d0f919ab7092c5b7": {
+      "source": "The Age",
+      "title": "Maddinson dropped, Smith under fitness cloud for Cape Town showdown",
+      "published": "2026-10-26T12:04:19+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "b1812da8e2d2dd1b"
+    },
+    "17969569baa6edb3": {
+      "source": "SMH",
+      "title": "Superquiz, Tuesday, October 27",
+      "published": "2026-10-26T12:59:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "a3feb41560ce808e": {
+      "source": "The Age",
+      "title": "Superquiz, Tuesday, October 27",
+      "published": "2026-10-26T12:59:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "17969569baa6edb3"
+    },
+    "0f8b43ebfa3dc8a9": {
+      "source": "SMH",
+      "title": "Three times the nerves, three times the support: The triplets sitting VCE exams",
+      "published": "2026-10-26T13:01:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "c9a2f829e2048753": {
+      "source": "SMH",
+      "title": "From prime minister to professor: Jacinda Ardern lands new gig at Sydney University",
+      "published": "2026-10-26T13:01:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "f38dd6f8e20ef9d1": {
+      "source": "The Age",
+      "title": "Three times the nerves, three times the support: The triplets sitting VCE exams",
+      "published": "2026-10-26T13:01:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "0f8b43ebfa3dc8a9"
+    },
+    "4e25d6bf9a3177b2": {
+      "source": "The Age",
+      "title": "From prime minister to professor: Jacinda Ardern lands new gig at Sydney University",
+      "published": "2026-10-26T13:01:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "c9a2f829e2048753"
+    },
+    "3fd03133a80509dd": {
+      "source": "ABC News",
+      "title": "Chris Brown avoids jail time over London nightclub brawl",
+      "published": "2026-10-26T13:40:19+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "43776110f030b7db": {
+      "source": "ABC News",
+      "title": "Jordan arrests three relatives over deadly church attack",
+      "published": "2026-10-26T13:46:23+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "1a9b218d2ce1fbd9": {
+      "source": "ABC News",
+      "title": "US marine charged over Japanese woman's murder",
+      "published": "2026-10-26T13:52:39+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "fc74dfefc527e7f6": {
+      "source": "SMH",
+      "title": "James Packer agrees to testify in Netanyahu\u2019s corruption case",
+      "published": "2026-10-26T14:14:31+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "ed6e3fda41af77bf": {
+      "source": "The Age",
+      "title": "James Packer agrees to testify in Netanyahu\u2019s corruption case",
+      "published": "2026-10-26T14:14:31+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "fc74dfefc527e7f6"
+    },
+    "7dbacb9ff568aa06": {
+      "source": "SMH",
+      "title": "Best of cartoons, October 27, 2026",
+      "published": "2026-10-26T14:59:18+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "0980894d44a5b4ff": {
+      "source": "The Age",
+      "title": "Best of cartoons, October 27, 2026",
+      "published": "2026-10-26T14:59:18+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "7dbacb9ff568aa06"
+    },
+    "23255195dc95a36d": {
+      "source": "ABC News",
+      "title": "Will Donald Trump or AI blow up financial markets first?",
+      "published": "2026-10-26T15:00:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "13cb109b2c294aa1": {
+      "source": "ABC News",
+      "title": "Economic pain collides with regulatory changes for small businesses",
+      "published": "2026-10-26T15:00:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "f60808ffacd4fbb0": {
+      "source": "ABC News",
+      "title": "Anthropic files to list on stock market in potential $US1.5tn float",
+      "published": "2026-10-26T15:49:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "a6141c1017b70b64": {
+      "source": "SMH",
+      "title": "Stuck in the slow lane: Paper applicants left waiting months for $100 fuel relief",
+      "published": "2026-10-26T16:00:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia"
+    },
+    "f7af30d82ce9d912": {
+      "source": "The Age",
+      "title": "Stuck in the slow lane: Paper applicants left waiting months for $100 fuel relief",
+      "published": "2026-10-26T16:00:00+00:00",
+      "first_seen": "2026-10-27T02:30:00.992282+10:00",
+      "category": "australia",
+      "duplicate_of": "a6141c1017b70b64"
+    },
+    "1907b327dea6bd29": {
+      "source": "Nature",
+      "title": "Women might have invented language \u2014 but not alone",
+      "published": "2026-10-26T00:00:00+00:00",
+      "first_seen": "2026-10-27T02:30:03.863356+10:00",
+      "category": "archaeology"
+    },
+    "ff9ec08707f47edf": {
+      "source": "Nature",
+      "title": "Are salaries getting worse? Many scientists think so",
+      "published": "2026-10-26T00:00:00+00:00",
+      "first_seen": "2026-10-27T02:30:03.863356+10:00",
+      "category": "archaeology"
+    },
+    "3bc4b732d3a3c468": {
+      "source": "Nature",
+      "title": "<i>The Selfish Gene</i>, 50 years on \u2014 it\u2019s time for an update",
+      "published": "2026-10-26T00:00:00+00:00",
+      "first_seen": "2026-10-27T02:30:03.863356+10:00",
+      "category": "archaeology"
+    },
+    "fc8003125b7e9503": {
+      "source": "PhysOrg",
+      "title": "Plants may switch between reproductive strategies more easily than thought",
+      "published": "2026-10-26T15:00:01+00:00",
+      "first_seen": "2026-10-27T02:30:03.863356+10:00",
+      "category": "archaeology"
+    },
+    "4725ddb5bfdf45cd": {
+      "source": "PhysOrg",
+      "title": "Armored amphibian lived entirely at sea 237 million years ago, fossils suggest",
+      "published": "2026-10-26T16:00:06+00:00",
+      "first_seen": "2026-10-27T02:30:03.863356+10:00",
+      "category": "archaeology"
+    },
+    "d0909beca4be5493": {
+      "source": "Marca",
+      "title": "Lista de candidatos al Bal\u00f3n de Oro 2026: todos los nominados al premio de France Football",
+      "published": "2026-10-26T10:21:12+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "8b1ec64186f5b031": {
+      "source": "Marca",
+      "title": "Semana para despegar",
+      "published": "2026-10-26T10:24:34+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "7fdab99284846573": {
+      "source": "Marca",
+      "title": "Larrubia se abre al malaguismo y promete su \"mejor versi\u00f3n\"",
+      "published": "2026-10-26T10:28:35+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "1e72fb9a66c09ee4": {
+      "source": "Marca",
+      "title": "\u00d3skarsson: Estoy feliz por mi buen momento, pero pude marcar m\u00e1s goles\u201d",
+      "published": "2026-10-26T10:39:21+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "5d9f73e6cfdbd527": {
+      "source": "Marca",
+      "title": "Odriozola cumple ocho meses de baja con la esperanza de volver pronto",
+      "published": "2026-10-26T10:53:10+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "312546180c3f1057": {
+      "source": "Marca",
+      "title": "Se apag\u00f3 la luz: 22 partidos despu\u00e9s, el Betis se queda a cero",
+      "published": "2026-10-26T11:06:12+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "26ad92c9d44bc97a": {
+      "source": "Marca",
+      "title": "Freeman ya causa sensaci\u00f3n en La Liga",
+      "published": "2026-10-26T11:41:58+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "5483f5e8128431f3": {
+      "source": "Marca",
+      "title": "Iv\u00e1n Romero se pone a 100",
+      "published": "2026-10-26T11:45:05+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "00ff6ad6ae26f079": {
+      "source": "Marca",
+      "title": "El Real Madrid desarm\u00f3 al Barcelona sin necesitar el bal\u00f3n",
+      "published": "2026-10-26T11:58:42+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "1deeba77a3e7abf6": {
+      "source": "Marca",
+      "title": "Los arranques 'di\u00e9sel' de Aguirre: cuesta ganar y en el Valencia se repite",
+      "published": "2026-10-26T12:07:51+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "5ed8fe6d89ad82e1": {
+      "source": "Marca",
+      "title": "El Sardinero se vuelca con el regreso del Real Madrid: entradas agotadas en menos de dos horas",
+      "published": "2026-10-26T12:27:51+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "c1c27342dbfb1794": {
+      "source": "Marca",
+      "title": "Otro rodillazo de Mou en el Camp Nou 20 a\u00f1os despu\u00e9s",
+      "published": "2026-10-26T13:07:37+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "7836cf70d69b7a15": {
+      "source": "Kicker",
+      "title": "Kovac gibt Update zu Karetsas: \"Er ist in den Anf\u00e4ngen, schmerzfrei geradeaus zu laufen\"",
+      "published": "2026-10-26T13:24:57+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "32207ff994a0aee4": {
+      "source": "Kicker",
+      "title": "Nach Rassismus gegen Bah: \"Herausragend, wie der Verein sich positioniert\"",
+      "published": "2026-10-26T13:27:30+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "389c5f511cfeca74": {
+      "source": "Marca",
+      "title": "La reacci\u00f3n del Alav\u00e9s tiene que llegar lejos de Vitoria",
+      "published": "2026-10-26T13:30:41+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "ceed7b6675f382be": {
+      "source": "Kicker",
+      "title": "Syndesmoseblessur: Xavi Espart fehlt Barca nach Clasico wochenlang",
+      "published": "2026-10-26T13:35:11+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "470d75851d7647c0": {
+      "source": "Kicker",
+      "title": "Kompany, Kimmich & Co.: So geht es bei den Bayern in dieser Woche weiter",
+      "published": "2026-10-26T13:51:37+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "035bbf88cae66e8a": {
+      "source": "Marca",
+      "title": "Carlos Esp\u00ed visita a \"su\" Levante",
+      "published": "2026-10-26T13:52:01+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "f74640d106239c28": {
+      "source": "Kicker",
+      "title": "Wagner nach Pfiffen: \"Hat einen pers\u00f6nlich getroffen\"",
+      "published": "2026-10-26T13:54:27+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "3a8221f8a921a483": {
+      "source": "Kicker",
+      "title": "Liveblog: Kranker Eberl verpasst Ballon-d'Or-Gala",
+      "published": "2026-10-26T13:57:22+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "8ce9b896e23f5fa4": {
+      "source": "Kicker",
+      "title": "HSV: Zwei neue Schocks und Pause bei Poulsen",
+      "published": "2026-10-26T14:10:56+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "9c72031f8e324b3d": {
+      "source": "Kicker",
+      "title": "Termine, Regeln, \u00dcbertragung: Alles zur Auslosung des Achtelfinals im DFB-Pokal",
+      "published": "2026-10-26T14:15:47+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "7cddf5a7b1268b16": {
+      "source": "Kicker",
+      "title": "Duell mit Juve auf der Kippe: Napoli geht gegen Allegri-Sperre vor",
+      "published": "2026-10-26T14:27:51+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "d8f268b8d7722904": {
+      "source": "Kicker",
+      "title": "Auch Torwartwechsel nicht ausgeschlossen: Blessin k\u00fcndigt Rotation an",
+      "published": "2026-10-26T14:40:31+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "b504867ee15c010d": {
+      "source": "Marca",
+      "title": "Cuatro de cada cinco solicitantes de entradas para el derbi no estar\u00e1n en San Mam\u00e9s",
+      "published": "2026-10-26T14:50:16+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "72ecae152aa069e7": {
+      "source": "Kicker",
+      "title": "Zuschauer-Teilausschluss auf Bew\u00e4hrung f\u00fcr FCK: \"Beispielloser Exzess\"",
+      "published": "2026-10-26T14:50:19+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "0f27c6a4fbea5a0e": {
+      "source": "Kicker",
+      "title": "L\u00e4ngst kein Zufall mehr: So ist Viktoria K\u00f6ln ein ernst zu nehmender Titelkandidat",
+      "published": "2026-10-26T14:53:58+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "c0b7cd6ed2e8ae2f": {
+      "source": "Kicker",
+      "title": "Neue Regionalliga-Struktur: Hessische Klubs lehnen Kompass-Modell ab",
+      "published": "2026-10-26T14:54:11+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "bb33546f9f9ee4b6": {
+      "source": "Kicker",
+      "title": "Nach grobem Foulspiel: Bah f\u00fcr zwei Spiele gesperrt",
+      "published": "2026-10-26T15:12:41+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "96f12a4d555ae199": {
+      "source": "Kicker",
+      "title": "Hinter dem einzigen Ballon d'Or f\u00fcr einen Torh\u00fcter m\u00fcsste wohl ein Sternchen stehen",
+      "published": "2026-10-26T15:13:21+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "ee03baa1620d17ad": {
+      "source": "Kicker",
+      "title": "Sander: \"Im Pokal hat man die M\u00f6glichkeit, es gegen jeden Gegner zu schaffen\"",
+      "published": "2026-10-26T15:14:17+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "d9c27706de8ab0c8": {
+      "source": "Kicker",
+      "title": "Union muss zwei Spiele auf Uduokhai verzichten",
+      "published": "2026-10-26T15:15:46+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "543341d7f457d6e0": {
+      "source": "Kicker",
+      "title": "Schuster \u00fcber Trainergesundheit: Selbstkritik, Selbstpflege und kurze Amtszeiten",
+      "published": "2026-10-26T15:27:32+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "3e5a91768046db98": {
+      "source": "Kicker",
+      "title": "Nkunku fehlt Leipzig auch in Essen",
+      "published": "2026-10-26T15:31:35+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
+    },
+    "67abe37dd2bffbe0": {
+      "source": "Kicker",
+      "title": "Raute \"gel\u00f6scht\" - aber Langenekes Fortuna-Start gelingt nur in Ans\u00e4tzen",
+      "published": "2026-10-26T15:40:02+00:00",
+      "first_seen": "2026-10-27T02:30:09.091523+10:00",
+      "category": "football"
     }
   }
 }

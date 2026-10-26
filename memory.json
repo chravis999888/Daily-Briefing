@@ -2091,247 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-26T13:45:06.882428+00:00",
   "article_store": {
-    "ef45599f5b7337df": {
-      "source": "BBC News",
-      "title": "Possible wreckage of Amelia Earhart's plane likely to be trees, say researchers",
-      "published": "2026-10-19T09:11:42+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "52600618ee27ada3": {
-      "source": "Al Jazeera",
-      "title": "Mexican protesters demanding clean water storm state congress",
-      "published": "2026-10-19T10:08:01+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "1c1e5c52ad80dacd": {
-      "source": "Al Jazeera",
-      "title": "WFP cuts aid to \u200c500,000 Palestinians in Gaza amid funding shortages",
-      "published": "2026-10-19T10:08:06+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "6c01052230a9794f": {
-      "source": "Al Jazeera",
-      "title": "What\u2019s wrong with schools in France?",
-      "published": "2026-10-19T10:33:38+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "1f40efdc34f2b405": {
-      "source": "Al Jazeera",
-      "title": "Australian MP Helen Haines critically injured in \u2018deliberate\u2019 car ramming",
-      "published": "2026-10-19T10:35:48+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "e54487b6db0beee8": {
-      "source": "Al Jazeera",
-      "title": "Israeli police arrest 10 after settler attacks on journalist, diplomats",
-      "published": "2026-10-19T10:43:55+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "6e884f22cd230409": {
-      "source": "Al Jazeera",
-      "title": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
-      "published": "2026-10-19T10:49:23+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "be6b405b8b45db6b": {
-      "source": "BBC News",
-      "title": "Four arrested after police officer injured in shooting",
-      "published": "2026-10-19T10:52:25+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "d2ffec3dc7cefab8": {
-      "source": "Al Jazeera",
-      "title": "Museum protesters in Colombia accuse gov\u2019t of erasing history",
-      "published": "2026-10-19T10:55:23+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "cc9b8d3dc292f5fc": {
-      "source": "Al Jazeera",
-      "title": "Indonesia battles worst forest fires and toxic haze in 11 years",
-      "published": "2026-10-19T11:05:57+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "f2414c3f56d7dbb7": {
-      "source": "BBC News",
-      "title": "Man accused of mass train stabbing admits wounding",
-      "published": "2026-10-19T11:22:26+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "7418f9061ef98650": {
-      "source": "Al Jazeera",
-      "title": "On Iran, Israel\u2019s opposition is even more hawkish than Netanyahu",
-      "published": "2026-10-19T11:35:52+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "eba31038d81ccd21": {
-      "source": "Al Jazeera",
-      "title": "Qatar to unveil regional defence partnership",
-      "published": "2026-10-19T11:51:01+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "8b911af5ba8ce915": {
-      "source": "BBC News",
-      "title": "What we know about apparent attack on Australian MP hit by car",
-      "published": "2026-10-19T11:59:26+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "0927d3bd568b3415": {
-      "source": "BBC News",
-      "title": "'It's messed with my family too much' - inside the US opioid drug crisis",
-      "published": "2026-10-19T12:12:02+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "ba6bc8b066577299": {
-      "source": "Al Jazeera",
-      "title": "Al Jazeera investigation challenges Israeli account of Heidi Levine attack",
-      "published": "2026-10-19T12:28:27+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "b758d4a0d4f69d97": {
-      "source": "Al Jazeera",
-      "title": "The night watch: Palestinians protecting their homes from settler pogroms",
-      "published": "2026-10-19T12:30:22+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "d9d6fa02c0fe7579": {
-      "source": "Al Jazeera",
-      "title": "At least 18 killed in Houthi attack on military camp in Yemen\u2019s Shabwa",
-      "published": "2026-10-19T12:51:46+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "ed9b87e2d0047c05": {
-      "source": "www.ckom.com",
-      "title": "Canadians step up to give blood after fire at Alberta military base kills four",
-      "published": "2026-10-19T13:00:00+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "0afcecd1e22e3557": {
-      "source": "www.prpeak.com",
-      "title": "Canadians step up to give blood after fire at Alberta military base kills four",
-      "published": "2026-10-19T13:00:00+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking",
-      "duplicate_of": "ed9b87e2d0047c05"
-    },
-    "3a24ed77b9e995bc": {
-      "source": "www.chroniclejournal.com",
-      "title": "Canadians step up to give blood after fire at Alberta military base kills four",
-      "published": "2026-10-19T13:00:00+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking",
-      "duplicate_of": "ed9b87e2d0047c05"
-    },
-    "a4803c8c31f08d77": {
-      "source": "lethbridgeherald.com",
-      "title": "Canadians step up to give blood after fire at Alberta military base kills four",
-      "published": "2026-10-19T13:00:00+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking",
-      "duplicate_of": "ed9b87e2d0047c05"
-    },
-    "24d7d264f31ecd25": {
-      "source": "BBC News",
-      "title": "Woman says she 'closed eyes and tried not to be there' during alleged Russell Brand rape",
-      "published": "2026-10-19T13:01:50+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "bf2617205225433e": {
-      "source": "BBC News",
-      "title": "Reform MSP quits party to sit as independent",
-      "published": "2026-10-19T13:16:35+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "1acf82f27c3ef2da": {
-      "source": "Al Jazeera",
-      "title": "\u2018Weight of responsibility\u2019: Promise and perils of covering Ethiopia\u2019s war",
-      "published": "2026-10-19T13:21:37+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "fa185c676bcb8f54": {
-      "source": "Al Jazeera",
-      "title": "Russia\u2019s Lavrov to discuss US war and regional security during Tehran visit",
-      "published": "2026-10-19T13:22:58+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "e8e03b311c6ca706": {
-      "source": "Al Jazeera",
-      "title": "Dozens killed after Houthi strike on military camp in Shabwa",
-      "published": "2026-10-19T13:26:01+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "2e00cb44b4b41833": {
-      "source": "BBC News",
-      "title": "Prime minister visits Aberfan ahead of 60th anniversary of 'horrifying tragedy'",
-      "published": "2026-10-19T13:45:37+00:00",
-      "first_seen": "2026-10-19T23:47:39.982276+10:00",
-      "category": "breaking"
-    },
-    "267507746b76a7bb": {
-      "source": "BBC News",
-      "title": "Kylie Jenner's debut at Victoria's Secret Fashion Show in $50m bra sparks mixed reaction",
-      "published": "2026-10-19T13:16:22+00:00",
-      "first_seen": "2026-10-20T00:11:43.094850+10:00",
-      "category": "breaking"
-    },
-    "2f84d20cfbd46ed6": {
-      "source": "BBC News",
-      "title": "Apu returns to The Simpsons with new voice after race row",
-      "published": "2026-10-19T13:22:24+00:00",
-      "first_seen": "2026-10-20T00:11:43.094850+10:00",
-      "category": "breaking"
-    },
-    "2b827680d9d15dde": {
-      "source": "Al Jazeera",
-      "title": "Doctors describe hospitals shattered by Israel\u2019s genocide in Gaza",
-      "published": "2026-10-19T13:36:09+00:00",
-      "first_seen": "2026-10-20T00:11:43.094850+10:00",
-      "category": "breaking"
-    },
-    "7773bfb319df452f": {
-      "source": "Al Jazeera",
-      "title": "French protest violence: A \u2018Christmas present\u2019 for Le Pen\u2019s far right?",
-      "published": "2026-10-19T13:41:23+00:00",
-      "first_seen": "2026-10-20T00:11:43.094850+10:00",
-      "category": "breaking"
-    },
-    "e5500a062beff6a4": {
-      "source": "BBC News",
-      "title": "Trial hears Robinson 'intimidated' Daily Mail reporters",
-      "published": "2026-10-19T13:42:45+00:00",
-      "first_seen": "2026-10-20T00:11:43.094850+10:00",
-      "category": "breaking"
-    },
-    "baf7702a83cd2b7a": {
-      "source": "Al Jazeera",
-      "title": "Australian Member of Parliament critically injured after being hit by a car",
-      "published": "2026-10-19T13:49:32+00:00",
-      "first_seen": "2026-10-20T00:11:43.094850+10:00",
-      "category": "breaking"
-    },
     "d33d4cadae61145b": {
       "source": "BBC News",
       "title": "Mission set to blast off for Mars to grab a piece of its moon",
@@ -26700,6 +26459,76 @@
       "title": "Anthropic unveils details of planned historic stock market debut",
       "published": "2026-10-26T13:27:43+00:00",
       "first_seen": "2026-10-26T23:45:28.338197+10:00",
+      "category": "breaking"
+    },
+    "6a65daa6186edfbd": {
+      "source": "BBC News",
+      "title": "How do Israel's elections work and who are the main contenders?",
+      "published": "2026-10-25T17:13:51+00:00",
+      "first_seen": "2026-10-27T01:21:43.082306+10:00",
+      "category": "breaking"
+    },
+    "009a30739b3f9670": {
+      "source": "BBC News",
+      "title": "Five ways Trump has changed immigration in the US",
+      "published": "2026-10-26T11:29:02+00:00",
+      "first_seen": "2026-10-27T01:21:43.082306+10:00",
+      "category": "breaking"
+    },
+    "fc61de1b17ceeaa0": {
+      "source": "Al Jazeera",
+      "title": "US foreign aid to Israel highlighted in campaign ad in support of El-Sayed",
+      "published": "2026-10-26T13:20:23+00:00",
+      "first_seen": "2026-10-27T01:21:43.082306+10:00",
+      "category": "breaking"
+    },
+    "e7197b08c0a149c3": {
+      "source": "Al Jazeera",
+      "title": "The Price of Protest",
+      "published": "2026-10-26T14:01:08+00:00",
+      "first_seen": "2026-10-27T01:21:43.082306+10:00",
+      "category": "breaking"
+    },
+    "50e0889864f6e5ac": {
+      "source": "BBC News",
+      "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+      "published": "2026-10-26T14:16:09+00:00",
+      "first_seen": "2026-10-27T01:21:43.082306+10:00",
+      "category": "breaking"
+    },
+    "1abe91f96471c999": {
+      "source": "Al Jazeera",
+      "title": "Iran\u2019s anti-negotiation hardliners turn against President Pezeshkian",
+      "published": "2026-10-26T14:27:33+00:00",
+      "first_seen": "2026-10-27T01:21:43.082306+10:00",
+      "category": "breaking"
+    },
+    "fbb47bbb644b2929": {
+      "source": "Al Jazeera",
+      "title": "Rohingya dismantle homes amid eviction threat in disputed Kashmir region",
+      "published": "2026-10-26T14:31:42+00:00",
+      "first_seen": "2026-10-27T01:21:43.082306+10:00",
+      "category": "breaking"
+    },
+    "0345596e462346e2": {
+      "source": "Al Jazeera",
+      "title": "Mecca defence alliance members in Tehran to defuse Iran-US, Yemen tensions",
+      "published": "2026-10-26T14:38:50+00:00",
+      "first_seen": "2026-10-27T01:21:43.082306+10:00",
+      "category": "breaking"
+    },
+    "b03ed14929feb3a4": {
+      "source": "BBC News",
+      "title": "Drivers who killed mum and girl while racing jailed",
+      "published": "2026-10-26T14:53:24+00:00",
+      "first_seen": "2026-10-27T01:21:43.082306+10:00",
+      "category": "breaking"
+    },
+    "5da67d61816de2de": {
+      "source": "BBC News",
+      "title": "Russell Brand asked assistant for female fan phone numbers, court hears",
+      "published": "2026-10-26T14:57:11+00:00",
+      "first_seen": "2026-10-27T01:21:43.082306+10:00",
       "category": "breaking"
     }
   }

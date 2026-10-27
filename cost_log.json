@@ -19225,5 +19225,24 @@
     "outcome": "skipped",
     "error": null,
     "cost_usd": 0.0
+  },
+  {
+    "timestamp": "2026-10-27T22:52:54.408629+10:00",
+    "run_id": "40507202428",
+    "run_type": "breaking_only",
+    "label": "breaking_selection",
+    "category": "breaking",
+    "model": "none",
+    "candidates": 30,
+    "reason": "claude_disabled",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "web_search_requests": 0,
+    "stop_reason": null,
+    "outcome": "skipped",
+    "error": null,
+    "cost_usd": 0.0
   }
 ]

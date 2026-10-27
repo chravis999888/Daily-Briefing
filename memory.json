@@ -2091,62 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-26T22:18:17.432080+00:00",
   "article_store": {
-    "11ee2d83322ea1e1": {
-      "source": "Al Jazeera",
-      "title": "Trump: \u2018Paris is going to be a Muslim city very soon\u2019",
-      "published": "2026-10-19T22:37:19+00:00",
-      "first_seen": "2026-10-20T09:51:12.691753+10:00",
-      "category": "breaking"
-    },
-    "d87f7d76224fcaab": {
-      "source": "BBC News",
-      "title": "The singles choosing in-person dating events over apps",
-      "published": "2026-10-19T23:00:21+00:00",
-      "first_seen": "2026-10-20T09:51:12.691753+10:00",
-      "category": "breaking"
-    },
-    "c6bdc024e78c84cf": {
-      "source": "BBC News",
-      "title": "Five ways El Ni\u00f1o is affecting the weather around the world",
-      "published": "2026-10-19T23:08:25+00:00",
-      "first_seen": "2026-10-20T09:51:12.691753+10:00",
-      "category": "breaking"
-    },
-    "706e614a453b3ac1": {
-      "source": "BBC News",
-      "title": "I have a condition people are too embarrassed to talk about",
-      "published": "2026-10-19T23:11:13+00:00",
-      "first_seen": "2026-10-20T09:51:12.691753+10:00",
-      "category": "breaking"
-    },
-    "f0109ee36bed2ce4": {
-      "source": "Al Jazeera",
-      "title": "Children among six killed in Russian drone strike on Ukraine park",
-      "published": "2026-10-19T23:12:42+00:00",
-      "first_seen": "2026-10-20T09:51:12.691753+10:00",
-      "category": "breaking"
-    },
-    "1de3ca9c8611d8ea": {
-      "source": "Al Jazeera",
-      "title": "Tehran rejects any role in plot to kill leaders of German Jewish groups",
-      "published": "2026-10-19T23:16:01+00:00",
-      "first_seen": "2026-10-20T09:51:12.691753+10:00",
-      "category": "breaking"
-    },
-    "a8b812af22e4bcae": {
-      "source": "BBC News",
-      "title": "Criminals detained in hospital set to lose benefits",
-      "published": "2026-10-19T23:21:38+00:00",
-      "first_seen": "2026-10-20T09:51:12.691753+10:00",
-      "category": "breaking"
-    },
-    "3d21ed774d92bf60": {
-      "source": "BBC News",
-      "title": "'The French correction' and 'Labour cuts \u00a32bn from Army'",
-      "published": "2026-10-19T23:35:32+00:00",
-      "first_seen": "2026-10-20T09:51:12.691753+10:00",
-      "category": "breaking"
-    },
     "15af795b92876c66": {
       "source": "Al Jazeera",
       "title": "Colombia illegal gold mine collapse kills 14 people",
@@ -26446,6 +26390,76 @@
       "published": "2026-10-26T21:49:34+00:00",
       "first_seen": "2026-10-27T08:18:48.506788+10:00",
       "category": "football"
+    },
+    "486c0ba2d79e57fd": {
+      "source": "BBC News",
+      "title": "Healey vows cheaper marmalade and gherkins in pre-Budget package of 'everyday fixes'",
+      "published": "2026-10-26T22:30:02+00:00",
+      "first_seen": "2026-10-27T10:08:54.002281+10:00",
+      "category": "breaking"
+    },
+    "c3ffa5829266f777": {
+      "source": "BBC News",
+      "title": "Chris Mason: The Budget is imminent as tricky things pile up for Burnham",
+      "published": "2026-10-26T23:03:14+00:00",
+      "first_seen": "2026-10-27T10:08:54.002281+10:00",
+      "category": "breaking"
+    },
+    "c4ebe7c4a6e67aea": {
+      "source": "BBC News",
+      "title": "Kane ends England\u2019s 25-year wait to win men\u2019s Ballon d\u2019Or award",
+      "published": "2026-10-26T23:10:59+00:00",
+      "first_seen": "2026-10-27T10:08:54.002281+10:00",
+      "category": "breaking"
+    },
+    "a176d95bb554ebbd": {
+      "source": "Al Jazeera",
+      "title": "Mass brawl between Galatasaray and Fenerbahce after Istanbul derby",
+      "published": "2026-10-26T23:18:31+00:00",
+      "first_seen": "2026-10-27T10:08:54.002281+10:00",
+      "category": "breaking"
+    },
+    "6d1dcfb1bd86ec91": {
+      "source": "Al Jazeera",
+      "title": "England\u2019s Harry Kane wins Ballon d\u2019Or, Alexia Putellas takes women\u2019s award",
+      "published": "2026-10-26T23:25:29+00:00",
+      "first_seen": "2026-10-27T10:08:54.002281+10:00",
+      "category": "breaking"
+    },
+    "7f5757504adab586": {
+      "source": "Al Jazeera",
+      "title": "Jordan attacks Syria in response to Karak church attack",
+      "published": "2026-10-26T23:48:51+00:00",
+      "first_seen": "2026-10-27T10:08:54.002281+10:00",
+      "category": "breaking"
+    },
+    "799c77eea71d750c": {
+      "source": "Al Jazeera",
+      "title": "Jordan launches air strikes in Syria in response to a fatal church shooting",
+      "published": "2026-10-26T23:50:11+00:00",
+      "first_seen": "2026-10-27T10:08:54.002281+10:00",
+      "category": "breaking"
+    },
+    "f35afa9bfcbf27bd": {
+      "source": "Al Jazeera",
+      "title": "Bolsonaro says police demand passports after Brazil election defeat",
+      "published": "2026-10-26T23:53:45+00:00",
+      "first_seen": "2026-10-27T10:08:54.002281+10:00",
+      "category": "breaking"
+    },
+    "61123858aec08e7f": {
+      "source": "BBC News",
+      "title": "India's largest share sale could end cheap mobile internet for millions",
+      "published": "2026-10-27T00:00:30+00:00",
+      "first_seen": "2026-10-27T10:08:54.002281+10:00",
+      "category": "breaking"
+    },
+    "cd07b92b37248d2b": {
+      "source": "BBC News",
+      "title": "'I'm a single mum on \u00a341,000 and limit my weekly shop to \u00a340.' What do you want from the Budget?",
+      "published": "2026-10-27T00:01:00+00:00",
+      "first_seen": "2026-10-27T10:08:54.002281+10:00",
+      "category": "breaking"
     }
   }
 }

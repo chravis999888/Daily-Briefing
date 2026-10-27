@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-27T12:52:32.741731+00:00",
+  "last_gdelt_attempt": "2026-10-27T15:43:25.835128+00:00",
   "article_store": {
     "b7864e2daabac02b": {
       "source": "BBC News",
@@ -26193,6 +26193,491 @@
       "published": "2026-10-27T14:28:16+00:00",
       "first_seen": "2026-10-28T00:47:40.408926+10:00",
       "category": "breaking"
+    },
+    "6f5f28f4e3c85f18": {
+      "source": "BBC News",
+      "title": "How Kane defied doubters to become world's best",
+      "published": "2026-10-27T12:46:39+00:00",
+      "first_seen": "2026-10-28T01:43:46.144500+10:00",
+      "category": "breaking"
+    },
+    "fae5e71f5e5c0857": {
+      "source": "Al Jazeera",
+      "title": "Sudan\u2019s war steals children\u2019s future with school closures and displacement",
+      "published": "2026-10-27T14:45:41+00:00",
+      "first_seen": "2026-10-28T01:43:46.144500+10:00",
+      "category": "breaking"
+    },
+    "85078e00612a62fd": {
+      "source": "Al Jazeera",
+      "title": "Carrick stays on as Manchester United manager for crucial Chelsea match",
+      "published": "2026-10-27T14:56:40+00:00",
+      "first_seen": "2026-10-28T01:43:46.144500+10:00",
+      "category": "breaking"
+    },
+    "cefe39b60d581ca6": {
+      "source": "Al Jazeera",
+      "title": "Hegseth heads to Manila to shore up US ties with Asia-Pacific partners",
+      "published": "2026-10-27T15:08:59+00:00",
+      "first_seen": "2026-10-28T01:43:46.144500+10:00",
+      "category": "breaking"
+    },
+    "cf2eeae66cc6d0fb": {
+      "source": "Al Jazeera",
+      "title": "Israeli military detains Egyptian national who crossed border",
+      "published": "2026-10-27T15:10:27+00:00",
+      "first_seen": "2026-10-28T01:43:46.144500+10:00",
+      "category": "breaking"
+    },
+    "99390ff6141c84eb": {
+      "source": "Al Jazeera",
+      "title": "Cyclone Arnab batters India\u2019s east coast",
+      "published": "2026-10-27T15:11:12+00:00",
+      "first_seen": "2026-10-28T01:43:46.144500+10:00",
+      "category": "breaking"
+    },
+    "ef27438a4f63dd02": {
+      "source": "Al Jazeera",
+      "title": "Israel election turnout highest in 50 years as voting continues",
+      "published": "2026-10-27T15:20:48+00:00",
+      "first_seen": "2026-10-28T01:43:46.144500+10:00",
+      "category": "breaking"
+    },
+    "af0bb83e09f091f7": {
+      "source": "SMH",
+      "title": "Best of cartoons, October 28, 2026",
+      "published": "2026-10-27T09:46:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "0014bed7910dafa7": {
+      "source": "The Age",
+      "title": "Best of cartoons, October 28, 2026",
+      "published": "2026-10-27T09:46:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia",
+      "duplicate_of": "af0bb83e09f091f7"
+    },
+    "7a2326e1eb18f5d0": {
+      "source": "SMH",
+      "title": "Greens promise tax cuts for all \u2013 but not the resource sector",
+      "published": "2026-10-27T10:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "3c5e2aa0545bc219": {
+      "source": "The Age",
+      "title": "Greens promise tax cuts for all \u2013 but not the resource sector",
+      "published": "2026-10-27T10:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia",
+      "duplicate_of": "7a2326e1eb18f5d0"
+    },
+    "243b80bb327234fd": {
+      "source": "ABC News",
+      "title": "Greens launch $21-a-week tax cut in bid to 'replace Labor'",
+      "published": "2026-10-27T10:00:07+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "fd13cb0d37f96db8": {
+      "source": "ABC News",
+      "title": "AFP boss warns boys as young as 12 being radicalised at home",
+      "published": "2026-10-27T10:13:56+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "a94bbbc5c6e5eb33": {
+      "source": "ABC News",
+      "title": "Two charged with helping Iran over RAF Fairford incident",
+      "published": "2026-10-27T10:23:15+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "eb74f176724d053b": {
+      "source": "SMH",
+      "title": "Knocked out and inked up: Why WA doctors are warning against Bali\u2019s pain-free tattoo fad",
+      "published": "2026-10-27T10:30:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "f4b7723709350a18": {
+      "source": "The Age",
+      "title": "Knocked out and inked up: Why WA doctors are warning against Bali\u2019s pain-free tattoo fad",
+      "published": "2026-10-27T10:30:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia",
+      "duplicate_of": "eb74f176724d053b"
+    },
+    "40e17875ed8b337b": {
+      "source": "ABC News",
+      "title": "Fighting paused in Ukrainian city under deal announced by Melania Trump",
+      "published": "2026-10-27T10:35:24+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "e50da595401e0e54": {
+      "source": "SMH",
+      "title": "The gift shop always wins",
+      "published": "2026-10-27T11:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "e3ad8aa21c37e4ab": {
+      "source": "The Age",
+      "title": "The gift shop always wins",
+      "published": "2026-10-27T11:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia",
+      "duplicate_of": "e50da595401e0e54"
+    },
+    "b7851441e4644d7a": {
+      "source": "SMH",
+      "title": "Netanyahu, Eisenkot cast votes as Israel\u2019s polls open in defining test",
+      "published": "2026-10-27T11:55:35+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "f5a2fdce71fdd486": {
+      "source": "The Age",
+      "title": "Netanyahu, Eisenkot cast votes as Israel\u2019s polls open in defining test",
+      "published": "2026-10-27T11:55:35+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia",
+      "duplicate_of": "b7851441e4644d7a"
+    },
+    "fa3314e52dce809a": {
+      "source": "SMH",
+      "title": "Superquiz, Wednesday, October 28",
+      "published": "2026-10-27T12:59:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "31ee798a17df8e23": {
+      "source": "The Age",
+      "title": "Superquiz, Wednesday, October 28",
+      "published": "2026-10-27T12:59:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia",
+      "duplicate_of": "fa3314e52dce809a"
+    },
+    "3047726f4ceac4d5": {
+      "source": "SMH",
+      "title": "Western Australia becomes first state to legalise plug-in \u2018balcony solar\u2019",
+      "published": "2026-10-27T13:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "01e6db45b56fb552": {
+      "source": "The Age",
+      "title": "Western Australia becomes first state to legalise plug-in \u2018balcony solar\u2019",
+      "published": "2026-10-27T13:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia",
+      "duplicate_of": "3047726f4ceac4d5"
+    },
+    "881bf09d2af5cbb7": {
+      "source": "SMH",
+      "title": "Uber faces Australian class action over sexual assaults, harassment by drivers",
+      "published": "2026-10-27T13:01:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "e01b1ee909c956ea": {
+      "source": "The Age",
+      "title": "Uber faces Australian class action over sexual assaults, harassment by drivers",
+      "published": "2026-10-27T13:01:00+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia",
+      "duplicate_of": "881bf09d2af5cbb7"
+    },
+    "e3291531948ede2a": {
+      "source": "SMH",
+      "title": "Australia versus South Africa LIVE: Proteas collapse, lose 5-29 in stunning momentum swing in Cape Town",
+      "published": "2026-10-27T14:21:43+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia"
+    },
+    "e4d264231962bdbd": {
+      "source": "The Age",
+      "title": "Australia versus South Africa LIVE: Proteas collapse, lose 5-29 in stunning momentum swing in Cape Town",
+      "published": "2026-10-27T14:21:43+00:00",
+      "first_seen": "2026-10-28T01:43:47.181671+10:00",
+      "category": "australia",
+      "duplicate_of": "e3291531948ede2a"
+    },
+    "60757d661fe11295": {
+      "source": "Nature",
+      "title": "Daily briefing: <i>The Selfish Gene</i>, 50 years on",
+      "published": "2026-10-26T00:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "18fed5382a5973ab": {
+      "source": "Nature",
+      "title": "The Nobel prize in economic science has a serious gender problem",
+      "published": "2026-10-27T00:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "1d7ab110e132df8a": {
+      "source": "Nature",
+      "title": "AI-hallucinated citations should be treated as research misconduct",
+      "published": "2026-10-27T00:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "767956770ca570c1": {
+      "source": "Nature",
+      "title": "Short-term academic visits to China could sustain ties",
+      "published": "2026-10-27T00:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "5213d310af6c9a88": {
+      "source": "Nature",
+      "title": "Making \u2018mind pictures\u2019 takes mental effort",
+      "published": "2026-10-27T00:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "13705e636b5eaf08": {
+      "source": "Nature",
+      "title": "AI watermarking efforts must encourage independent public scrutiny",
+      "published": "2026-10-27T00:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "6f8979acf45f0269": {
+      "source": "Nature",
+      "title": "How to keep tabs on the tools in your lab",
+      "published": "2026-10-27T00:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "a502de93056b0d27": {
+      "source": "Nature",
+      "title": "Why pharma firms are betting billions on psychedelic drugs despite setbacks",
+      "published": "2026-10-27T00:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "6808e980bc110f3a": {
+      "source": "Nature",
+      "title": "Could measuring immune health reshape medical care?",
+      "published": "2026-10-27T00:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "5232e16fe4fec305": {
+      "source": "Nature",
+      "title": "Can scientists reliably tell if a novel is written using AI?",
+      "published": "2026-10-27T00:00:00+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "a361e319dfad81ce": {
+      "source": "ScienceDaily",
+      "title": "1.9-million-year-old discovery rewrites the story of human evolution",
+      "published": "2026-10-27T01:35:08+00:00",
+      "first_seen": "2026-10-28T01:43:49.652143+10:00",
+      "category": "archaeology"
+    },
+    "d22de5d24df23d26": {
+      "source": "Marca",
+      "title": "El oro de Sim\u00f3n reconoce toda la historia de la porter\u00eda del Athletic",
+      "published": "2026-10-27T10:11:12+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "e035efc6b9e2cb1d": {
+      "source": "Marca",
+      "title": "Fofana, un regalo del cielo",
+      "published": "2026-10-27T10:44:44+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "c2fd32cc07827380": {
+      "source": "Marca",
+      "title": "Xabi ya se lo hab\u00eda imaginado",
+      "published": "2026-10-27T11:04:18+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "340ccba465411f96": {
+      "source": "Kicker",
+      "title": "Vor Leipzig-Spiel: Unbekannte betonieren G\u00e4ste-Eingang in Essen zu",
+      "published": "2026-10-27T11:40:39+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "8b6a113716f6b474": {
+      "source": "Kicker",
+      "title": "Warum Moerstedt in einem Dilemma steckt",
+      "published": "2026-10-27T11:52:27+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "c8f4c4f929c363b7": {
+      "source": "Kicker",
+      "title": "Marcel Wontorra wird erster Gesch\u00e4ftsf\u00fchrer der Frauen-Bundesliga",
+      "published": "2026-10-27T12:06:54+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "90fb8dd4ecf4481a": {
+      "source": "Kicker",
+      "title": "Steinbach-Aus und Rechtsstreit: Ex-Gesch\u00e4ftsf\u00fchrer Lepore bricht erstmals sein Schweigen",
+      "published": "2026-10-27T12:17:15+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "0ac01a4086102837": {
+      "source": "Kicker",
+      "title": "179 Zweitliga-Spiele im Gep\u00e4ck: Meppen holt vereinslosen Heyer",
+      "published": "2026-10-27T12:43:55+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "d1f397766b69db07": {
+      "source": "Kicker",
+      "title": "Lehrreiche Tage: Was Treu \"ankotzt\" und Freiburg lernen muss",
+      "published": "2026-10-27T12:54:50+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "7f93d5cc4c4c4483": {
+      "source": "Kicker",
+      "title": "Nach Notbremse gegen Duisburg: DFB sperrt Ingolstadts Dauerbrenner Antzoulas",
+      "published": "2026-10-27T12:54:51+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "5921cb0a3aa48144": {
+      "source": "Kicker",
+      "title": "H\u00fcrzeler vor Doppelspieltag gegen City: \"Morgen geht es um alles oder nichts\"",
+      "published": "2026-10-27T12:55:02+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "f7b5ba20dfe51628": {
+      "source": "Marca",
+      "title": "Otorbi renueva con el Valencia hasta 2031",
+      "published": "2026-10-27T12:58:59+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "dd89abf7318fe385": {
+      "source": "Kicker",
+      "title": "Nach Platzverweis in Leipzig: Milde Strafe f\u00fcr Bayern-Keeperin Mahmutovic",
+      "published": "2026-10-27T13:08:20+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "9b2b7c958c3c6415": {
+      "source": "Marca",
+      "title": "Galarreta se pierde la Copa y el derbi",
+      "published": "2026-10-27T13:22:29+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "4987f71eb6306fc9": {
+      "source": "Kicker",
+      "title": "Dresden-Profi Ezeh nach angedeutetem Kopfsto\u00df in der Oberliga f\u00fcr vier Spiele gesperrt",
+      "published": "2026-10-27T13:43:06+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "be297bb06b9b4a31": {
+      "source": "Kicker",
+      "title": "Iraola \"ziemlich optimistisch\": Wirtz wohl schon gegen Chelsea einsatzbereit",
+      "published": "2026-10-27T13:46:28+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "5d6322b4b7787437": {
+      "source": "Marca",
+      "title": "El Athletic no tarda ni 24 horas en monetizar el Yashin: l\u00ednea textil homenaje al legado de la porter\u00eda",
+      "published": "2026-10-27T13:51:48+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "cece531d5830d75d": {
+      "source": "Kicker",
+      "title": "\"Ist kein Vorteil, wenn ich es sage\": Kettemann l\u00e4sst Torwart-Frage offen",
+      "published": "2026-10-27T14:26:27+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "816fcb59ae9fd03b": {
+      "source": "Marca",
+      "title": "P\u00e9rez Llorca se\u00f1ala a Peter Lim: \"El problema del Valencia es Peter Lim, no que haya m\u00e1s o menos inversores\"",
+      "published": "2026-10-27T14:30:38+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "03285ac51180d399": {
+      "source": "Kicker",
+      "title": "Mbapp\u00e9 verliert Werbepartner - China setzt Real-Spiele im TV ab",
+      "published": "2026-10-27T14:33:31+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "2ed36e0c6cde00d6": {
+      "source": "Kicker",
+      "title": "Vorfreude auf Leverkusen? Klose: \"F\u00fcr uns ist das ein Highlight-Spiel\"",
+      "published": "2026-10-27T14:44:20+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "6c662dacf0ab0631": {
+      "source": "Kicker",
+      "title": "Boyds Hattrick gegen die Zweifel",
+      "published": "2026-10-27T14:44:28+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "99db465fd37cfa14": {
+      "source": "Kicker",
+      "title": "Der kicker-Adventskalender",
+      "published": "2026-10-27T14:44:55+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "6663d5132439505c": {
+      "source": "Marca",
+      "title": "Aguirre: \"Me encargar\u00e9 de reprender a quien se exceda, intente hacer un t\u00fanel por tonter\u00eda o se pase con una celebraci\u00f3n\"",
+      "published": "2026-10-27T14:46:09+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "0d29c982a4436539": {
+      "source": "Kicker",
+      "title": "Nach scharfer Kritik: Braunschweig zieht Bilanz und verteidigt sein Sicherheitskonzept",
+      "published": "2026-10-27T14:47:22+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "62d5d2768a553b12": {
+      "source": "Marca",
+      "title": "LaLiga denuncia 17 incidentes en el Cl\u00e1sico: de la agresi\u00f3n a Camavinga a los insultos a Cucurella y el Bar\u00e7a",
+      "published": "2026-10-27T15:22:32+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "9e651340866108d0": {
+      "source": "Kicker",
+      "title": "\"Werden ihn vermissen\": Joao Pedro fehlt Chelsea wochenlang",
+      "published": "2026-10-27T15:22:37+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
+    },
+    "4d119917f46758ca": {
+      "source": "Kicker",
+      "title": "1860 M\u00fcnchen: Ismaik zieht vor Gericht",
+      "published": "2026-10-27T15:31:17+00:00",
+      "first_seen": "2026-10-28T01:43:54.898241+10:00",
+      "category": "football"
     }
   }
 }

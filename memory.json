@@ -2091,76 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-29T06:11:40.775508+00:00",
   "article_store": {
-    "5309b3c7eec137b8": {
-      "source": "BBC News",
-      "title": "Meta fined $25bn for 'lies' over user data privacy",
-      "published": "2026-10-21T21:49:07+00:00",
-      "first_seen": "2026-10-22T16:17:17.721553+10:00",
-      "category": "breaking"
-    },
-    "76f6fa9eb0bdc2b4": {
-      "source": "BBC News",
-      "title": "Why is a peat fire so bad? BBC is in Indonesia to find out",
-      "published": "2026-10-21T22:02:18+00:00",
-      "first_seen": "2026-10-22T16:17:17.721553+10:00",
-      "category": "breaking"
-    },
-    "c4dce7827ae5af36": {
-      "source": "Al Jazeera",
-      "title": "El-Sayed in face-off against rival Rogers for Michigan Senate seat",
-      "published": "2026-10-22T05:00:56+00:00",
-      "first_seen": "2026-10-22T16:17:17.721553+10:00",
-      "category": "breaking"
-    },
-    "83f754316745d97f": {
-      "source": "BBC News",
-      "title": "How Arab parties could hold critical balance of power in Israeli election",
-      "published": "2026-10-22T05:30:22+00:00",
-      "first_seen": "2026-10-22T16:17:17.721553+10:00",
-      "category": "breaking"
-    },
-    "e9a52e7cd6e7e90b": {
-      "source": "Al Jazeera",
-      "title": "El Salvador\u2019s Bukele threatens Haitian gangs over abducted soldiers",
-      "published": "2026-10-22T05:36:33+00:00",
-      "first_seen": "2026-10-22T16:17:17.721553+10:00",
-      "category": "breaking"
-    },
-    "23f472790de0f051": {
-      "source": "Al Jazeera",
-      "title": "Ukraine\u2019s access to Starlink a decision for Elon Musk, Rubio says",
-      "published": "2026-10-22T05:54:12+00:00",
-      "first_seen": "2026-10-22T16:17:17.721553+10:00",
-      "category": "breaking"
-    },
-    "a2cd012e7229212a": {
-      "source": "Al Jazeera",
-      "title": "\u2018Stupid talk\u2019: France rejects Trump\u2019s attempt to blame unrest on migration",
-      "published": "2026-10-22T05:58:52+00:00",
-      "first_seen": "2026-10-22T16:17:17.721553+10:00",
-      "category": "breaking"
-    },
-    "39ae4cbaefe8b858": {
-      "source": "Al Jazeera",
-      "title": "The world is $365 trillion in debt, and the interest bill is climbing",
-      "published": "2026-10-22T05:59:52+00:00",
-      "first_seen": "2026-10-22T16:17:17.721553+10:00",
-      "category": "breaking"
-    },
-    "cd8bb3d8661860d0": {
-      "source": "Al Jazeera",
-      "title": "Man United\u2019s Carrick not worried about his job despite \u2018unacceptable\u2019 loss",
-      "published": "2026-10-22T06:01:48+00:00",
-      "first_seen": "2026-10-22T16:17:17.721553+10:00",
-      "category": "breaking"
-    },
-    "5d06bee1776d0d73": {
-      "source": "Al Jazeera",
-      "title": "Cookies and weapons: Women in Yemen\u2019s Taiz find ways to help the city\u2019s defence",
-      "published": "2026-10-22T06:06:28+00:00",
-      "first_seen": "2026-10-22T16:17:17.721553+10:00",
-      "category": "breaking"
-    },
     "ef726753f3a784fc": {
       "source": "BBC News",
       "title": "Is the UK set to green-light a huge untapped oil field in the North Atlantic?",
@@ -25775,6 +25705,41 @@
       "title": "Russia\u2019s alleged sabotage campaign in Europe raises fears of escalation",
       "published": "2026-10-29T06:01:29+00:00",
       "first_seen": "2026-10-29T16:12:05.887285+10:00",
+      "category": "breaking"
+    },
+    "ccca1ced628fb105": {
+      "source": "BBC News",
+      "title": "Take our Celebrity Traitors quiz to find out which star you would be in this year's show",
+      "published": "2026-10-29T00:29:39+00:00",
+      "first_seen": "2026-10-29T17:21:57.904736+10:00",
+      "category": "breaking"
+    },
+    "23cf94a1715f4436": {
+      "source": "Al Jazeera",
+      "title": "Liverpool beat Chelsea 6-5 on penalties to reach League Cup quarterfinals",
+      "published": "2026-10-29T06:13:51+00:00",
+      "first_seen": "2026-10-29T17:21:57.904736+10:00",
+      "category": "breaking"
+    },
+    "3fd55028484ec252": {
+      "source": "Al Jazeera",
+      "title": "Europe\u2019s wealth gap: Older households eight times richer than young ones",
+      "published": "2026-10-29T06:25:02+00:00",
+      "first_seen": "2026-10-29T17:21:57.904736+10:00",
+      "category": "breaking"
+    },
+    "21b6d1d59ee7ce15": {
+      "source": "Al Jazeera",
+      "title": "What European students can learn from their Serbian peers",
+      "published": "2026-10-29T06:39:24+00:00",
+      "first_seen": "2026-10-29T17:21:57.904736+10:00",
+      "category": "breaking"
+    },
+    "ec538b09b1376035": {
+      "source": "BBC News",
+      "title": "Watch: Chancellor says government has 'moral duty' to help young people out of work",
+      "published": "2026-10-29T06:56:58+00:00",
+      "first_seen": "2026-10-29T17:21:57.904736+10:00",
       "category": "breaking"
     }
   }

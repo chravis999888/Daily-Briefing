@@ -2089,660 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-30T12:09:48.072395+00:00",
+  "last_gdelt_attempt": "2026-10-30T18:59:02.996184+00:00",
   "article_store": {
-    "f60991a241b2f584": {
-      "source": "Al Jazeera",
-      "title": "Gunmen open fire at church in Jordan, killing several people",
-      "published": "2026-10-23T13:32:40+00:00",
-      "first_seen": "2026-10-24T00:40:20.457825+10:00",
-      "category": "breaking"
-    },
-    "84a3dfec5d3d1386": {
-      "source": "Al Jazeera",
-      "title": "Melania Trump \u2018secured ceasefire\u2019 in Ukrainian city Oleshky: White House",
-      "published": "2026-10-23T13:39:06+00:00",
-      "first_seen": "2026-10-24T00:40:20.457825+10:00",
-      "category": "breaking"
-    },
-    "d030dd1e1217cb42": {
-      "source": "Al Jazeera",
-      "title": "Kenya\u2019s marathon champion Peres Jepchirchir provisionally banned by AIU",
-      "published": "2026-10-23T13:45:21+00:00",
-      "first_seen": "2026-10-24T00:40:20.457825+10:00",
-      "category": "breaking"
-    },
-    "2abbd319d53e03c7": {
-      "source": "Al Jazeera",
-      "title": "Dembele to miss Ballon d\u2019Or event as PSG game moved amid protests in France",
-      "published": "2026-10-23T13:46:12+00:00",
-      "first_seen": "2026-10-24T00:40:20.457825+10:00",
-      "category": "breaking"
-    },
-    "fd97a861f017313a": {
-      "source": "Al Jazeera",
-      "title": "Finland nearing opening of world\u2019s first permanent nuclear waste repository",
-      "published": "2026-10-23T13:50:26+00:00",
-      "first_seen": "2026-10-24T00:40:20.457825+10:00",
-      "category": "breaking"
-    },
-    "0d9edb957254d58f": {
-      "source": "BBC News",
-      "title": "Woman at centre of Cornell University rape inquiry in 'constant fear', lawyer says",
-      "published": "2026-10-23T13:52:33+00:00",
-      "first_seen": "2026-10-24T00:40:20.457825+10:00",
-      "category": "breaking"
-    },
-    "a88d989228e7af23": {
-      "source": "BBC News",
-      "title": "Melania Trump brokers truce for Ukraine city 'on brink of disaster', White House says",
-      "published": "2026-10-23T14:13:33+00:00",
-      "first_seen": "2026-10-24T00:40:20.457825+10:00",
-      "category": "breaking"
-    },
-    "28c0e3f5252e4d03": {
-      "source": "SMH",
-      "title": "Sonny Bill reveals open heart surgery",
-      "published": "2026-10-23T09:48:08+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "7c689112d8fe440e": {
-      "source": "The Age",
-      "title": "Sonny Bill reveals open heart surgery",
-      "published": "2026-10-23T09:48:08+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia",
-      "duplicate_of": "28c0e3f5252e4d03"
-    },
-    "c62977771a8bd8ed": {
-      "source": "ABC News",
-      "title": "Donna Nelson returns to Perth on international prisoner transfer",
-      "published": "2026-10-23T10:03:51+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "2797264aa2fa6ab5": {
-      "source": "SMH",
-      "title": "Lightning Koula runs 95m to score",
-      "published": "2026-10-23T10:23:10+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "6fd66903fcb4eace": {
-      "source": "The Age",
-      "title": "Lightning Koula runs 95m to score",
-      "published": "2026-10-23T10:23:10+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia",
-      "duplicate_of": "2797264aa2fa6ab5"
-    },
-    "dd711bbb8cae2a8a": {
-      "source": "SMH",
-      "title": "Man attacked while having morning coffee in Perth",
-      "published": "2026-10-23T10:54:06+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "a338f93465f2a56c": {
-      "source": "The Age",
-      "title": "Man attacked while having morning coffee in Perth",
-      "published": "2026-10-23T10:54:06+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia",
-      "duplicate_of": "dd711bbb8cae2a8a"
-    },
-    "d7bfb9745cdd5480": {
-      "source": "SMH",
-      "title": "WA grandmother jailed in Japan returns home",
-      "published": "2026-10-23T10:54:21+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "ae63258e4732b730": {
-      "source": "The Age",
-      "title": "WA grandmother jailed in Japan returns home",
-      "published": "2026-10-23T10:54:21+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia",
-      "duplicate_of": "d7bfb9745cdd5480"
-    },
-    "9744ce66ccb3c09f": {
-      "source": "ABC News",
-      "title": "Meghan Markle says she was told of 'disturbing' allegations about father in 2018",
-      "published": "2026-10-23T11:02:49+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "5bd232b214c9e1ed": {
-      "source": "SMH",
-      "title": "AFLW round 11 LIVE: \u2018I don\u2019t know if it gets much lower than this\u2019: Magpies suffer goal-less loss to Power",
-      "published": "2026-10-23T12:07:40+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "7447bb93b97097fe": {
-      "source": "The Age",
-      "title": "AFLW round 11 LIVE: \u2018I don\u2019t know if it gets much lower than this\u2019: Magpies suffer goal-less loss to Power",
-      "published": "2026-10-23T12:07:40+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia",
-      "duplicate_of": "5bd232b214c9e1ed"
-    },
-    "6cc2881ce3ffe7bd": {
-      "source": "ABC News",
-      "title": "One dead, four injured in Paris shooting as police probe terror link",
-      "published": "2026-10-23T12:07:47+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "db1c3d2083258104": {
-      "source": "ABC News",
-      "title": "Gunmen open fire at church in Jordan, killing at least six",
-      "published": "2026-10-23T12:14:53+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "a6ed979ebc6a01b2": {
-      "source": "SMH",
-      "title": "Trump ordered to sit for deposition in defamation case against BBC",
-      "published": "2026-10-23T12:45:52+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "1fa80373f792b200": {
-      "source": "The Age",
-      "title": "Trump ordered to sit for deposition in defamation case against BBC",
-      "published": "2026-10-23T12:45:52+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia",
-      "duplicate_of": "a6ed979ebc6a01b2"
-    },
-    "dcded352a11fd229": {
-      "source": "SMH",
-      "title": "Meghan reveals allegations against her father were reported to police in 2018",
-      "published": "2026-10-23T12:53:06+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "b20918ee078f2500": {
-      "source": "The Age",
-      "title": "Meghan reveals allegations against her father were reported to police in 2018",
-      "published": "2026-10-23T12:53:06+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia",
-      "duplicate_of": "dcded352a11fd229"
-    },
-    "8fa5cc8b8bae7aa1": {
-      "source": "SMH",
-      "title": "Test your general knowledge with the Good Weekend quiz",
-      "published": "2026-10-23T12:59:00+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "ec018eab04043d3e": {
-      "source": "The Age",
-      "title": "Test your general knowledge with the Good Weekend quiz",
-      "published": "2026-10-23T12:59:00+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia",
-      "duplicate_of": "8fa5cc8b8bae7aa1"
-    },
-    "fccdd03c9ee95b17": {
-      "source": "ABC News",
-      "title": "Netanyahu orders major West Bank offensive after Hebron attack",
-      "published": "2026-10-23T14:07:47+00:00",
-      "first_seen": "2026-10-24T00:40:21.432434+10:00",
-      "category": "australia"
-    },
-    "714132d69e65109c": {
-      "source": "Nature",
-      "title": "Daily briefing: The tell-tale features of a Denisovan",
-      "published": "2026-10-22T00:00:00+00:00",
-      "first_seen": "2026-10-24T00:40:24.746241+10:00",
-      "category": "archaeology"
-    },
-    "be776e7f1fa68d35": {
-      "source": "Nature",
-      "title": "Elusive snow leopards and evasive particles: Books in brief",
-      "published": "2026-10-23T00:00:00+00:00",
-      "first_seen": "2026-10-24T00:40:24.746241+10:00",
-      "category": "archaeology"
-    },
-    "398ee8e18078fe81": {
-      "source": "Nature",
-      "title": "Sleep declines in rural communities after electricity arrives",
-      "published": "2026-10-23T00:00:00+00:00",
-      "first_seen": "2026-10-24T00:40:24.746241+10:00",
-      "category": "archaeology"
-    },
-    "a61983f8511a2720": {
-      "source": "Nature",
-      "title": "First human infected with rare livestock pathogen: what we know about Shamonda virus",
-      "published": "2026-10-23T00:00:00+00:00",
-      "first_seen": "2026-10-24T00:40:24.746241+10:00",
-      "category": "archaeology"
-    },
-    "b360501b3e07b70f": {
-      "source": "Nature",
-      "title": "Rebody",
-      "published": "2026-10-23T00:00:00+00:00",
-      "first_seen": "2026-10-24T00:40:24.746241+10:00",
-      "category": "archaeology"
-    },
-    "ddb9eb5bb03cc270": {
-      "source": "Nature",
-      "title": "Moderna mRNA vaccine almost halves the risk of skin cancer returning",
-      "published": "2026-10-23T00:00:00+00:00",
-      "first_seen": "2026-10-24T00:40:24.746241+10:00",
-      "category": "archaeology"
-    },
-    "e668a60a06548881": {
-      "source": "Marca",
-      "title": "Pablo Mart\u00ednez, baja de \u00faltima hora para el M\u00e1laga",
-      "published": "2026-10-23T09:10:23+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "7a0e9e25cefddb9b": {
-      "source": "Marca",
-      "title": "Etta Eyong: La \"pi\u00f1a\" del retorno",
-      "published": "2026-10-23T09:17:32+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "acfd7d6e186c3cae": {
-      "source": "Kicker",
-      "title": "Hertha: Rotation im Au\u00dfendienst",
-      "published": "2026-10-23T09:38:31+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "6e54eef60c8a9e3b": {
-      "source": "Kicker",
-      "title": "Zweistellige Ausfallliste: Auch Kapit\u00e4n Diks fehlt Gladbach in Stuttgart",
-      "published": "2026-10-23T09:43:28+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "7c21e98cbd852539": {
-      "source": "Marca",
-      "title": "Los aficionados del Rayo demandan a la RFEF por el cierre del fondo de Vallecas",
-      "published": "2026-10-23T09:45:47+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "0ae28b56991cb51b": {
-      "source": "Marca",
-      "title": "El Sevilla necesita cortar la hemorragia defensiva",
-      "published": "2026-10-23T10:01:22+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "0ae84ff8adb2aef8": {
-      "source": "Kicker",
-      "title": "So plant DFB-Boss Neuendorf die Regionalliga-Reform",
-      "published": "2026-10-23T10:10:21+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "ba6ce583b69f83f1": {
-      "source": "Kicker",
-      "title": "Kein Handyverbot f\u00fcr die Spieler bei Kovac - mit einer Ausnahme",
-      "published": "2026-10-23T10:28:57+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "7515f5418ebb2fc9": {
-      "source": "Kicker",
-      "title": "Kramarics Erl\u00f6sung nach \"schwierigen Monaten\": Ein TSG-Sieg gegen alle Zweifel",
-      "published": "2026-10-23T10:32:00+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "de72eb5e52e54e89": {
-      "source": "Kicker",
-      "title": "Wer gewinnt den ersten Clasico dieser Saison?",
-      "published": "2026-10-23T10:33:26+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "43b61b1fc0c4a34f": {
-      "source": "Kicker",
-      "title": "Nur einer vor Bayern: Die torhungrigsten Klubs in Europa",
-      "published": "2026-10-23T10:43:07+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "a096ea54a518e062": {
-      "source": "Kicker",
-      "title": "H\u00fctter \u00fcber Uzun: \"Dann wird er sich m\u00f6glicherweise selbst im Weg stehen\"",
-      "published": "2026-10-23T10:51:41+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "165859382806042d": {
-      "source": "Marca",
-      "title": "Anselmi, sobre el penalti anulado al Elche en Villarreal: \u201cLos errores de procedimiento son completamente evitables\u201d",
-      "published": "2026-10-23T10:54:57+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "278ec5c9f6ab673d": {
-      "source": "Marca",
-      "title": "El Betis descarta la v\u00eda cautelar para Facundo",
-      "published": "2026-10-23T11:01:56+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "9b0e3e332b963957": {
-      "source": "Marca",
-      "title": "Oyarzabal: \u201c\u00bfMi racha sin marcar? Si llegas a casa y tu hijo te dice que has metido gol y has ganado te olvidas\u201d",
-      "published": "2026-10-23T11:25:30+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "0b5023b584b49168": {
-      "source": "Kicker",
-      "title": "Ballon d'Or 2026: Wann, wo - und wer \u00fcbertr\u00e4gt im TV und Stream?",
-      "published": "2026-10-23T11:45:12+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "3ce8a220d882c093": {
-      "source": "Marca",
-      "title": "38 c\u00e1maras en el Cl\u00e1sico para que no se escape nada",
-      "published": "2026-10-23T11:50:58+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "94fdb901732f25b6": {
-      "source": "Kicker",
-      "title": "Kovac vor Duell mit dem Ex-Klub: \"Wo ich arbeite, lasse ich mein Herz\"",
-      "published": "2026-10-23T11:52:39+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "14fd970d5f506fb8": {
-      "source": "Marca",
-      "title": "Javier Aguirre: \"\u00bfCanteranos? He hecho debutar a m\u00e1s de treinta futbolistas; jugu\u00e9 un Mundial con un chico de diecisiete a\u00f1os...\"",
-      "published": "2026-10-23T11:52:53+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "de7f91e142faf431": {
-      "source": "Kicker",
-      "title": "Boykott offenbar beendet: Real Madrid wird zur Ballon-d'Or-Gala erwartet",
-      "published": "2026-10-23T11:55:19+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "c4dcc4a1ee1fcf79": {
-      "source": "Kicker",
-      "title": "\"H\u00fctter-Aus\": Versprecher l\u00e4sst SGE-Trainer schmunzeln",
-      "published": "2026-10-23T11:56:51+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "2d09bf9db4d9060f": {
-      "source": "Kicker",
-      "title": "TV oder Stream: Wer \u00fcbertr\u00e4gt FSV Zwickau gegen Erzgebirge Aue?",
-      "published": "2026-10-23T11:58:45+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "be7ee49ec553e10c": {
-      "source": "Kicker",
-      "title": "\u00c4lteste deutsche Doppelpacker: Hofmann auf den Spuren von Morlock und Co.",
-      "published": "2026-10-23T12:03:24+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "1d708b23f35b681b": {
-      "source": "Kicker",
-      "title": "\"Ich bin nur hier, um ihn zu unterst\u00fctzen, aber auch ihm die Augen zu \u00f6ffnen\"",
-      "published": "2026-10-23T12:11:28+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "82ac94730feedc5a": {
-      "source": "Kicker",
-      "title": "Huth erklimmt Platz 4: Die Rekordspielerinnen der Bundesliga",
-      "published": "2026-10-23T12:23:59+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "36a35696140c27e3": {
-      "source": "Marca",
-      "title": "Bardeli ser\u00e1 baja para Donostia",
-      "published": "2026-10-23T12:47:02+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "0b784aef9a21970c": {
-      "source": "Marca",
-      "title": "I\u00f1igo P\u00e9rez: \u201cSoy de Pamplona y Aguirre era una referencia para m\u00ed cuando era ni\u00f1o\u201d",
-      "published": "2026-10-23T13:06:13+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "7aef95998bf39507": {
-      "source": "Kicker",
-      "title": "Ligue 1 verschiebt PSG gegen Lyon auf Montag - Kollision mit Ballon d'Or",
-      "published": "2026-10-23T13:06:35+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "f551a8a29c42ff3b": {
-      "source": "Kicker",
-      "title": "Warum gibt es in der Frauen-Bundesliga so hohe Trikotnummern?",
-      "published": "2026-10-23T13:06:59+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "7c0ad15dbc762c8c": {
-      "source": "Kicker",
-      "title": "Zum 70. Mal Ballon d'Or: Alle nominierten Spieler, Trainer und Klubs",
-      "published": "2026-10-23T13:10:06+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "36f7e2df04f3d09a": {
-      "source": "Kicker",
-      "title": "Neuzugang mit Stallgeruch: \"Unterschiedsspieler\" Schr\u00f6ter kehrt nach Zwickau zur\u00fcck",
-      "published": "2026-10-23T13:45:11+00:00",
-      "first_seen": "2026-10-24T00:40:30.002640+10:00",
-      "category": "football"
-    },
-    "d643fd941c79faa8": {
-      "source": "BBC News",
-      "title": "A Ballon d'Or campaign as fierce off the pitch as on it",
-      "published": "2026-10-23T06:06:38+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "cf07240bd884e3e8": {
-      "source": "BBC News",
-      "title": "Watch: Moment part of Brighton's historic West Pier collapses",
-      "published": "2026-10-23T13:03:29+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "9b43333c4bdb67d4": {
-      "source": "Al Jazeera",
-      "title": "Mississippi releases video of 1-year-old\u2019s fatal police shooting",
-      "published": "2026-10-23T14:15:52+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "488ea35ea6ae8f2b": {
-      "source": "Al Jazeera",
-      "title": "Conte dismisses reports of Man United takeover with Carrick\u2019s job uncertain",
-      "published": "2026-10-23T14:16:14+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "0972bf7597942c76": {
-      "source": "Al Jazeera",
-      "title": "What to know as Brazil prepares for tense presidential run-off",
-      "published": "2026-10-23T14:56:05+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "1710e077e2a02fb1": {
-      "source": "Al Jazeera",
-      "title": "Carrick accepts blame for Man United slump, but \u2018confident\u2019 of a turnaround",
-      "published": "2026-10-23T15:04:44+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "d6daa60d6bfaa2fc": {
-      "source": "BBC News",
-      "title": "Oil spill washes up on UAE beaches after tanker strike",
-      "published": "2026-10-23T15:30:47+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "0aad64c51cf8068e": {
-      "source": "Al Jazeera",
-      "title": "\u2018Foreign policy is the economy\u2019: How Iran war is shaping US midterm vote",
-      "published": "2026-10-23T15:51:29+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "482769b4baaaf9cc": {
-      "source": "BBC News",
-      "title": "Watch: CCTV footage appears to show gunmen at site of Jordan shooting",
-      "published": "2026-10-23T15:59:36+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "ef423c5db3e01837": {
-      "source": "Al Jazeera",
-      "title": "One person killed in suspected \u2018Islamophobic\u2019 shooting near Paris",
-      "published": "2026-10-23T16:08:04+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "205c60f92e24e46e": {
-      "source": "Al Jazeera",
-      "title": "European, Middle East ministers urge US-Iran diplomacy, not new attacks",
-      "published": "2026-10-23T16:29:51+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "4f6c75c0c06fa03e": {
-      "source": "Al Jazeera",
-      "title": "Israeli roadblocks disrupt schools and medical care in West Bank village",
-      "published": "2026-10-23T16:37:59+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "3426302d79777233": {
-      "source": "BBC News",
-      "title": "Bayern Munich manager Kompany taken to hospital after collapsing at training",
-      "published": "2026-10-23T16:39:03+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "f07a457c5be5bb85": {
-      "source": "Al Jazeera",
-      "title": "Brazil\u2019s right has already changed the balance of power",
-      "published": "2026-10-23T16:41:09+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "821a7d4bee53c6ef": {
-      "source": "Al Jazeera",
-      "title": "Indonesia seizes more than a tonne of ketamine from tanker",
-      "published": "2026-10-23T17:00:22+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "6facbbfe7120b885": {
-      "source": "Al Jazeera",
-      "title": "Many feared trapped after Kenya building collapse",
-      "published": "2026-10-23T17:01:05+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "8d35f85a5cb2d956": {
-      "source": "BBC News",
-      "title": "Glasgow museums remove mummified remains from public view over ethical concerns",
-      "published": "2026-10-23T17:01:26+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "8ad74db3ac730ecc": {
-      "source": "Al Jazeera",
-      "title": "Why Chinese families are rushing to buy gold",
-      "published": "2026-10-23T17:20:22+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "b6eb5852986f8390": {
-      "source": "Al Jazeera",
-      "title": "Romania blames Russia after drone sinks ship in the Black Sea",
-      "published": "2026-10-23T17:26:13+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "890fc84d58e063a1": {
-      "source": "Al Jazeera",
-      "title": "US consumer sentiment hits a near-record low before midterm elections",
-      "published": "2026-10-23T17:26:21+00:00",
-      "first_seen": "2026-10-24T03:37:41.028966+10:00",
-      "category": "breaking"
-    },
-    "c6ee7f2067ba7df3": {
-      "source": "BBC News",
-      "title": "Trump says Burnham is 'getting it done' after Jackdaw decision",
-      "published": "2026-10-23T17:27:20+00:00",
-      "first_seen": "2026-10-24T04:36:19.273524+10:00",
-      "category": "breaking"
-    },
-    "1b27396304428154": {
-      "source": "BBC News",
-      "title": "Meghan statement offers answers after years of questions about her relationship with father",
-      "published": "2026-10-23T17:27:50+00:00",
-      "first_seen": "2026-10-24T04:36:19.273524+10:00",
-      "category": "breaking"
-    },
-    "f5f129983c01e29f": {
-      "source": "Al Jazeera",
-      "title": "Jerusalem Daily: Israel to \u2018lock down\u2019 occupied West Bank",
-      "published": "2026-10-23T17:30:51+00:00",
-      "first_seen": "2026-10-24T04:36:19.273524+10:00",
-      "category": "breaking"
-    },
-    "e6a0bdb10e7be505": {
-      "source": "Al Jazeera",
-      "title": "Bayern coach Kompany taken to hospital after collapsing during training",
-      "published": "2026-10-23T17:44:05+00:00",
-      "first_seen": "2026-10-24T04:36:19.273524+10:00",
-      "category": "breaking"
-    },
-    "ab5fa302e39c9cbd": {
-      "source": "Al Jazeera",
-      "title": "Yamal, Mbappe in El Clasico spotlight as 40 cameras dedicated to coverage",
-      "published": "2026-10-23T17:47:20+00:00",
-      "first_seen": "2026-10-24T04:36:19.273524+10:00",
-      "category": "breaking"
-    },
-    "e7d0d129fac92ad1": {
-      "source": "Al Jazeera",
-      "title": "Many feared trapped after multistorey building collapses in Kenya",
-      "published": "2026-10-23T17:49:04+00:00",
-      "first_seen": "2026-10-24T04:36:19.273524+10:00",
-      "category": "breaking"
-    },
-    "ba0c969b05cb6b8e": {
-      "source": "Al Jazeera",
-      "title": "Trump administration sues to block possible Democratic win in Alaska",
-      "published": "2026-10-23T17:57:54+00:00",
-      "first_seen": "2026-10-24T04:36:19.273524+10:00",
-      "category": "breaking"
-    },
     "d2f9047248737bc3": {
       "source": "Al Jazeera",
       "title": "Former FBI officials charged in connection with Hunter Biden laptop probe",
@@ -25500,6 +24848,848 @@
       "published": "2026-10-30T13:41:57+00:00",
       "first_seen": "2026-10-30T23:44:09.382526+10:00",
       "category": "breaking"
+    },
+    "c652d6218aeca708": {
+      "source": "Al Jazeera",
+      "title": "Chase sparks Bangladesh collapse as West Indies on top in Mirpur Test",
+      "published": "2026-10-30T13:56:22+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "b6a40924935fe90e": {
+      "source": "Al Jazeera",
+      "title": "MLB World Series: Why did baseball\u2019s biggest stage struggle for viewership?",
+      "published": "2026-10-30T13:58:04+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "59eb46cfbcebf98c": {
+      "source": "Al Jazeera",
+      "title": "Bhutan hot springs hit by flood from glacial lake burst",
+      "published": "2026-10-30T14:01:03+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "b71aa1fed472ca92": {
+      "source": "Al Jazeera",
+      "title": "Ethnic cleansing fears rise as Israel squeezes space in Gaza: UN",
+      "published": "2026-10-30T14:18:07+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "6bafb4c7e646f35d": {
+      "source": "Al Jazeera",
+      "title": "Russian, Ukrainian humanitarian officials enter Oleshky",
+      "published": "2026-10-30T14:19:49+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "b9128e2b803d2d26": {
+      "source": "BBC News",
+      "title": "Police watchdog to investigate Met over letter about Meghan's father",
+      "published": "2026-10-30T14:36:03+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "3c867dabbd11c01c": {
+      "source": "Al Jazeera",
+      "title": "Senators briefed on Trump\u2019s \u2018insane\u2019 plan to restart war on Iran",
+      "published": "2026-10-30T14:40:19+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking",
+      "duplicate_of": "0012ea7b7021c267"
+    },
+    "e19cf41dd441d2ff": {
+      "source": "Al Jazeera",
+      "title": "Israeli forces blow up homes of Palestinians accused of killing soldiers",
+      "published": "2026-10-30T15:06:00+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "e4e77d766e81a5b4": {
+      "source": "Al Jazeera",
+      "title": "\u2018Need a Plan B\u2019: Yemenis in Aden prepare for another war as missiles fall",
+      "published": "2026-10-30T15:26:00+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "f342fc6f96fb88f4": {
+      "source": "BBC News",
+      "title": "How a passenger's confession helped convict her cousin of murder",
+      "published": "2026-10-30T15:34:30+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "b341639223e12211": {
+      "source": "Al Jazeera",
+      "title": "Trump reverses course, reinstates cancelled campaign rallies",
+      "published": "2026-10-30T15:35:39+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "18db19d9d4fb0a8e": {
+      "source": "Al Jazeera",
+      "title": "Swiss foreign minister talks political ties on rare visit to North Korea",
+      "published": "2026-10-30T15:37:03+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "06ded4b1bc466446": {
+      "source": "BBC News",
+      "title": "Russell Brand accusers 'haunted' for years by alleged crimes, court hears",
+      "published": "2026-10-30T15:49:25+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "95c61155cae123bd": {
+      "source": "Al Jazeera",
+      "title": "Jerusalem Daily: Israel\u2019s siege on Hebron displaces thousands",
+      "published": "2026-10-30T15:50:23+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "9f25eb72deed63e5": {
+      "source": "Al Jazeera",
+      "title": "Arsenal boss Arteta fires \u2018Disneyland\u2019 warning at Dowman after red card",
+      "published": "2026-10-30T16:23:12+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "c243703143fe64e1": {
+      "source": "Al Jazeera",
+      "title": "Police in Scotland launch Andrew and Epstein royal castle investigation",
+      "published": "2026-10-30T16:27:39+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "c092c4c0aab66ef4": {
+      "source": "Al Jazeera",
+      "title": "Chelsea vs Manchester United: Premier League \u2013 teams, prediction, lineups",
+      "published": "2026-10-30T16:55:04+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "81bd978305e24dde": {
+      "source": "BBC News",
+      "title": "Canada stops using 'avalanche dogs' for rescues in Rocky Mountains, stirring outrage",
+      "published": "2026-10-30T17:00:32+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "be54519af9866f51": {
+      "source": "Al Jazeera",
+      "title": "Barcelona\u2019s Flick praises Yamal\u2019s \u2018mentality\u2019 after missing out on Ballon d\u2019Or",
+      "published": "2026-10-30T17:13:32+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "baf96ea0d60ad19e": {
+      "source": "Al Jazeera",
+      "title": "Report reveals campaign promoting racist, Islamophobic, anti-Qatar views",
+      "published": "2026-10-30T17:34:27+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "c2b0ab28af6912b4": {
+      "source": "BBC News",
+      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "published": "2026-10-30T17:39:43+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "9c29266d2dbd0302": {
+      "source": "Al Jazeera",
+      "title": "How cuts under Colombia\u2019s de la Espriella threaten a key human rights court",
+      "published": "2026-10-30T17:43:21+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "e0560c89dba7252f": {
+      "source": "BBC News",
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "published": "2026-10-30T17:47:01+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "6b0f38096c99f8c9": {
+      "source": "Al Jazeera",
+      "title": "Kim Jong Un calls for North Korea\u2019s drone technology superiority",
+      "published": "2026-10-30T18:03:45+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "f7a50b00bc156851": {
+      "source": "Al Jazeera",
+      "title": "Oman rescues 25 from burning oil tanker in Strait of Hormuz",
+      "published": "2026-10-30T18:33:29+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "e05917d40d80413e": {
+      "source": "Al Jazeera",
+      "title": "Israel demolishes homes of Palestinians blamed for attack on soldiers",
+      "published": "2026-10-30T18:35:44+00:00",
+      "first_seen": "2026-10-31T04:59:29.363937+10:00",
+      "category": "breaking"
+    },
+    "2b43e817c5d6fd3f": {
+      "source": "ABC News",
+      "title": "Mother whose son lost sight named WA's Australian of the Year",
+      "published": "2026-10-30T12:30:21+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "e52b1cda6d0ae036": {
+      "source": "ABC News",
+      "title": "Politics is an image game, and the government needs to find better visuals",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "904dbd241bc04f58": {
+      "source": "ABC News",
+      "title": "Students use 'rage bait' and AI bots to sway fictional election",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "42985a5e96333bdf": {
+      "source": "ABC News",
+      "title": "Snowy 2.0 still has a place in a world of batteries",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "a85c683246df53c3": {
+      "source": "ABC News",
+      "title": "How a 'kickstart' gift helped a Victorian man escape homelessness",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "dc85dd1eda27ba7e": {
+      "source": "ABC News",
+      "title": "Netanyahu's enemies could make unlikely friends in battle to defeat him",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "1e7d58361c38d15f": {
+      "source": "ABC News",
+      "title": "Why protests in Europe could bring change or completely backfire",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "8aa675b94b57d31e": {
+      "source": "SMH",
+      "title": "\u2018Someone needs to save the Florey\u2019: Famous institute at war with its scientists",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "fb367118bb166398": {
+      "source": "SMH",
+      "title": "Unforgettable town is a rising star of South American tourism",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "5566e27de444fdb7": {
+      "source": "SMH",
+      "title": "I\u2019ve found a cure for the internet \u2013 and I think I might have overdosed",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "2cf69e6c15fab466": {
+      "source": "SMH",
+      "title": "\u2018Your career choices were unemployed or Australian\u2019: Dara \u00d3 Briain",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "c8811c5dc8b89b28": {
+      "source": "SMH",
+      "title": "I couldn\u2019t hold my second son, but my obstetrician did",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "3a6c2322996749f6": {
+      "source": "SMH",
+      "title": "My teammates stood naked, surrounding two women. I didn\u2019t know what to say. I still don\u2019t",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "504e16e1eff2b6b2": {
+      "source": "SMH",
+      "title": "How to perform CPR: why compressions are vital",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "d87b9f2d7d6fa6c4": {
+      "source": "The Age",
+      "title": "\u2018Someone needs to save the Florey\u2019: Famous institute at war with its scientists",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "8aa675b94b57d31e"
+    },
+    "13c1aea99bc39bc0": {
+      "source": "The Age",
+      "title": "Unforgettable town is a rising star of South American tourism",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "fb367118bb166398"
+    },
+    "a89959fedbf4bb80": {
+      "source": "The Age",
+      "title": "I\u2019ve found a cure for the internet \u2013 and I think I might have overdosed",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "5566e27de444fdb7"
+    },
+    "1db3e51be8ad5dcc": {
+      "source": "The Age",
+      "title": "\u2018Your career choices were unemployed or Australian\u2019: Dara \u00d3 Briain",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "2cf69e6c15fab466"
+    },
+    "c1c7279bc870c056": {
+      "source": "The Age",
+      "title": "I couldn\u2019t hold my second son, but my obstetrician did",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "c8811c5dc8b89b28"
+    },
+    "ceff3b67378d7fec": {
+      "source": "The Age",
+      "title": "My teammates stood naked, surrounding two women. I didn\u2019t know what to say. I still don\u2019t",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "3a6c2322996749f6"
+    },
+    "669673a64ad8ef8a": {
+      "source": "The Age",
+      "title": "How to perform CPR: why compressions are vital",
+      "published": "2026-10-30T18:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "504e16e1eff2b6b2"
+    },
+    "b6e641453240fbca": {
+      "source": "SMH",
+      "title": "Forget property: Here\u2019s where Aussies are pouring $7 billion a month",
+      "published": "2026-10-30T18:01:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "c38885e80274befd": {
+      "source": "SMH",
+      "title": "Millions of retirees are paying super tax they could avoid",
+      "published": "2026-10-30T18:01:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "94127bdb5adfdb7a": {
+      "source": "The Age",
+      "title": "Forget property: Here\u2019s where Aussies are pouring $7 billion a month",
+      "published": "2026-10-30T18:01:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "b6e641453240fbca"
+    },
+    "9b1d9d7c3fb35b46": {
+      "source": "The Age",
+      "title": "Millions of retirees are paying super tax they could avoid",
+      "published": "2026-10-30T18:01:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "c38885e80274befd"
+    },
+    "5c1c7616f20cae2b": {
+      "source": "SMH",
+      "title": "No point selecting your seat if the airline gives it to someone else",
+      "published": "2026-10-30T18:06:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "74465920417b5996": {
+      "source": "The Age",
+      "title": "No point selecting your seat if the airline gives it to someone else",
+      "published": "2026-10-30T18:06:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "5c1c7616f20cae2b"
+    },
+    "a22847334223ae3a": {
+      "source": "SMH",
+      "title": "Delta Goodrem settles on Sydney mansion with pool, pays $10.9m",
+      "published": "2026-10-30T18:18:02+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "a007c517bad5c834": {
+      "source": "The Age",
+      "title": "Delta Goodrem settles on Sydney mansion with pool, pays $10.9m",
+      "published": "2026-10-30T18:18:02+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "a22847334223ae3a"
+    },
+    "326cc9e663dd1def": {
+      "source": "ABC News",
+      "title": "The eight books our critics couldn't put down this month",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "4b04bc34bfff5f6e": {
+      "source": "ABC News",
+      "title": "Misunderstood spooky women are at the heart of this new book",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "66d9bb21e6335f3a": {
+      "source": "ABC News",
+      "title": "ABC 50/50 quiz: Test your knowledge of Back to the Future, Marvin Gaye and Marmite vs Vegemite",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "86ec9a861bbcd642": {
+      "source": "ABC News",
+      "title": "This teen took over her family's budget and saved $2,000",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "603fcb2865e88650": {
+      "source": "SMH",
+      "title": "Death Cab for Cutie\u2019s Ben Gibbard made another divorce album. This time, he wanted to get it right",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "9c62d1f0f36a72b5": {
+      "source": "SMH",
+      "title": "The day that cost a Socceroo a spot in the Premier League and a trip to the World Cup",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "6b41866fb010d9d3": {
+      "source": "SMH",
+      "title": "What happens when Australia\u2019s angstiest alt-rockers find love? Great things",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "eeb9eac7a46a8082": {
+      "source": "SMH",
+      "title": "If you\u2019re going to celebrate Halloween, could you at least include some local colour?",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "d964136304e09bfb": {
+      "source": "The Age",
+      "title": "Death Cab for Cutie\u2019s Ben Gibbard made another divorce album. This time, he wanted to get it right",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "603fcb2865e88650"
+    },
+    "0948f2442b72e0c9": {
+      "source": "The Age",
+      "title": "The day that cost a Socceroo a spot in the Premier League and a trip to the World Cup",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "9c62d1f0f36a72b5"
+    },
+    "a982f1f7a58ff671": {
+      "source": "The Age",
+      "title": "What happens when Australia\u2019s angstiest alt-rockers find love? Great things",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "6b41866fb010d9d3"
+    },
+    "2f6d3563371f019a": {
+      "source": "The Age",
+      "title": "If you\u2019re going to celebrate Halloween, could you at least include some local colour?",
+      "published": "2026-10-30T18:30:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "eeb9eac7a46a8082"
+    },
+    "30d62ef219371836": {
+      "source": "SMH",
+      "title": "This single word will leave you breathless \u2013 literally",
+      "published": "2026-10-30T18:45:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "51971bf8df32456b": {
+      "source": "SMH",
+      "title": "As a reviewer, I believe star ratings are an insult to the public",
+      "published": "2026-10-30T18:45:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "1747cba0d30d6d3f": {
+      "source": "The Age",
+      "title": "This single word will leave you breathless \u2013 literally",
+      "published": "2026-10-30T18:45:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "30d62ef219371836"
+    },
+    "1f198921388d8e56": {
+      "source": "The Age",
+      "title": "As a reviewer, I believe star ratings are an insult to the public",
+      "published": "2026-10-30T18:45:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "51971bf8df32456b"
+    },
+    "a8c4748757c4536d": {
+      "source": "SMH",
+      "title": "Trump revives final midterm rallies after erupting over idea he was \u2018sick\u2019",
+      "published": "2026-10-30T18:45:28+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "266e91e9990a8c9d": {
+      "source": "The Age",
+      "title": "Trump revives final midterm rallies after erupting over idea he was \u2018sick\u2019",
+      "published": "2026-10-30T18:45:28+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "a8c4748757c4536d"
+    },
+    "9de84c8516d9c567": {
+      "source": "SMH",
+      "title": "Theatre is Michael Paynter\u2019s \u2018idea of hell\u2019 but he\u2019s making an exception for John Farnham",
+      "published": "2026-10-30T18:47:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "9ea7242f46621387": {
+      "source": "The Age",
+      "title": "Theatre is Michael Paynter\u2019s \u2018idea of hell\u2019 but he\u2019s making an exception for John Farnham",
+      "published": "2026-10-30T18:47:00+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "9de84c8516d9c567"
+    },
+    "412cb6026e5a930c": {
+      "source": "ABC News",
+      "title": "Christa Pike speaks of constant pain after botched execution",
+      "published": "2026-10-30T18:49:15+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "c22a25185199cb01": {
+      "source": "SMH",
+      "title": "US cancels G20 \u2018family photo\u2019 after Europeans, Australia object to Russia",
+      "published": "2026-10-30T18:50:19+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "ed4fec739d2b9649": {
+      "source": "The Age",
+      "title": "US cancels G20 \u2018family photo\u2019 after Europeans, Australia object to Russia",
+      "published": "2026-10-30T18:50:19+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia",
+      "duplicate_of": "c22a25185199cb01"
+    },
+    "64dd337dede36613": {
+      "source": "ABC News",
+      "title": "Mother's quest for change as dozens of inquests reveal mental health failures",
+      "published": "2026-10-30T18:50:51+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "da23bc3af72d40a1": {
+      "source": "ABC News",
+      "title": "Two Dan Sullivans are running in Alaska. Trump thinks one is a decoy",
+      "published": "2026-10-30T18:52:52+00:00",
+      "first_seen": "2026-10-31T04:59:31.062606+10:00",
+      "category": "australia"
+    },
+    "3867474a6970ee55": {
+      "source": "Nature",
+      "title": "Briefing Chat: <b>Dog years: could longevity science extend your pets' lives?</b>",
+      "published": "2026-10-30T00:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:34.030752+10:00",
+      "category": "archaeology"
+    },
+    "a59a462d603a10a8": {
+      "source": "Nature",
+      "title": "Author Correction: Rh<sup>3+</sup> stabilized in KRh@MFI catalyses regioselective hydroformylation",
+      "published": "2026-10-30T00:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:34.030752+10:00",
+      "category": "archaeology"
+    },
+    "86bbee8926ea1c56": {
+      "source": "Nature",
+      "title": "I built the UK government\u2019s metascience unit \u2014 here\u2019s what countries need to know",
+      "published": "2026-10-30T00:00:00+00:00",
+      "first_seen": "2026-10-31T04:59:34.030752+10:00",
+      "category": "archaeology"
+    },
+    "8cbc5e7f2766ed41": {
+      "source": "ScienceDaily",
+      "title": "The asteroid killed the dinosaurs. Why did crocodiles survive?",
+      "published": "2026-10-30T11:34:16+00:00",
+      "first_seen": "2026-10-31T04:59:34.030752+10:00",
+      "category": "archaeology"
+    },
+    "28bdc12b7fd6c131": {
+      "source": "PhysOrg",
+      "title": "Marine fossils in Colombia reveal possible evolutionary transition without mass extinction",
+      "published": "2026-10-30T14:00:05+00:00",
+      "first_seen": "2026-10-31T04:59:34.030752+10:00",
+      "category": "archaeology"
+    },
+    "f8eb2cffc08d4c6a": {
+      "source": "PhysOrg",
+      "title": "The genetic cost of being a lazy parent ... if you're a cuckoo finch",
+      "published": "2026-10-30T14:20:05+00:00",
+      "first_seen": "2026-10-31T04:59:34.030752+10:00",
+      "category": "archaeology"
+    },
+    "e1a85a230d5e627d": {
+      "source": "Marca",
+      "title": "El derbi recrear\u00e1 la m\u00edtica imagen de 1976",
+      "published": "2026-10-30T12:08:19+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "707e5eca2db86682": {
+      "source": "Marca",
+      "title": "El Bar\u00e7a, el rival que cambi\u00f3 la vida de Koski",
+      "published": "2026-10-30T12:17:50+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "58412aca16c94336": {
+      "source": "Marca",
+      "title": "Un virus complica la presencia de Recio en La Cartuja",
+      "published": "2026-10-30T12:40:30+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "ebfd17a869463ba3": {
+      "source": "Marca",
+      "title": "La Real se acerca al derbi sin bajas",
+      "published": "2026-10-30T12:43:07+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "60a08b618a42abcd": {
+      "source": "Marca",
+      "title": "Vargas quiere subirse al carro",
+      "published": "2026-10-30T13:06:10+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "d833ae776c7e4954": {
+      "source": "Marca",
+      "title": "Jos\u00e9 Alberto: 'Llevamos mucho tiempo esperando para jugar un partido como este'",
+      "published": "2026-10-30T13:30:24+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "8d59d2a583f038bb": {
+      "source": "Marca",
+      "title": "Pellegrini: \"En M\u00e1laga pasamos tres a\u00f1os inolvidables\"",
+      "published": "2026-10-30T13:41:53+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "b77d4e5b26e28629": {
+      "source": "Marca",
+      "title": "Matarazzo: \"Necesitamos una actuaci\u00f3n top para ganar en San Mam\u00e9s, pero este equipo ha rendido los d\u00edas se\u00f1alados\"",
+      "published": "2026-10-30T13:44:45+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "15b5baeeef29fa15": {
+      "source": "Marca",
+      "title": "Xavier Estrada Fern\u00e1ndez: \"No hay m\u00e1s \u00e1rbitros catalanes en Primera divisi\u00f3n por catalanofobia\"",
+      "published": "2026-10-30T15:06:09+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "4674f240988599e1": {
+      "source": "Kicker",
+      "title": "Fanszenen best\u00e4rken Forderungen zum Ende von 50+1-Ausnahmen",
+      "published": "2026-10-30T17:16:07+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "d9a07f07eef97919": {
+      "source": "Kicker",
+      "title": "LIVE! Altglienicke gastiert bei Lok Leipzig - Hat die Serie des BFC Dynamo gegen Stahnsdorf Bestand?",
+      "published": "2026-10-30T17:17:08+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "4a34057176cc0470": {
+      "source": "Marca",
+      "title": "Brian Fari\u00f1as, el joven medio al que Flick medita hacer debutar... de lateral",
+      "published": "2026-10-30T17:18:49+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "0f73412113c59fed": {
+      "source": "Kicker",
+      "title": "LIVE! Knifflige Ausw\u00e4rtsaufgabe: Oldenburg gastiert in Delmenhorst",
+      "published": "2026-10-30T17:19:59+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "27ec1424fd0f5bdc": {
+      "source": "Kicker",
+      "title": "Schuster \u00fcber Gregoritsch: \"Wahnsinnstyp und geradeheraus\"",
+      "published": "2026-10-30T17:21:34+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "a175570f64b631d7": {
+      "source": "Kicker",
+      "title": "LIVE! Zieht Homburg vorbei an Trier? - FSV Frankfurt k\u00e4mpft gegen die Krise",
+      "published": "2026-10-30T17:24:15+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "dcfa0ec1202cf334": {
+      "source": "Kicker",
+      "title": "LIVE! Doppelschlag: PSG dreht fr\u00fchen R\u00fcckstand in zwei Minuten",
+      "published": "2026-10-30T17:28:26+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "fde8826cbc9918aa": {
+      "source": "Kicker",
+      "title": "Nizza - Rennes: Tor zum 1:0 durch Wahi in der 12. Minute",
+      "published": "2026-10-30T18:17:13+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "ac7e081b31ae575b": {
+      "source": "Kicker",
+      "title": "Nizza - Rennes: Tor zum 1:0 durch Wahi in der 12. Minute",
+      "published": "2026-10-30T18:18:08+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football",
+      "duplicate_of": "fde8826cbc9918aa"
+    },
+    "0549b10d6961fddb": {
+      "source": "Kicker",
+      "title": "Nizza - Rennes: Tor zum 1:1 durch Szymanski in der 15. Minute",
+      "published": "2026-10-30T18:20:02+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "d262bb483c93a6e4": {
+      "source": "Kicker",
+      "title": "Nach Bandverletzung: Karetsas kehrt gegen den FC Bayern zur\u00fcck",
+      "published": "2026-10-30T18:23:49+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "a8492d45bab99652": {
+      "source": "Kicker",
+      "title": "Le Havre - Paris SG: Tor zum 1:0 durch Maja in der 18. Minute",
+      "published": "2026-10-30T18:24:28+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "846124dc317136ea": {
+      "source": "Marca",
+      "title": "Vallecas recupera su fondo: v\u00eda libre para el regreso de 'Bukaneros'",
+      "published": "2026-10-30T18:26:45+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "3a2fadb66a3a9f9c": {
+      "source": "Kicker",
+      "title": "LIVE! Onyeka zur\u00fcck in Elversberger Startelf - Zentner h\u00fctet Mainzer Tor",
+      "published": "2026-10-30T18:30:52+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "d03be17ce669d8a5": {
+      "source": "Kicker",
+      "title": "\"Brillanter Ball\" von Lucas Hernandez: PSG gleicht gegen Le Havre aus",
+      "published": "2026-10-30T18:31:27+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "e32c70c11a370121": {
+      "source": "Kicker",
+      "title": "LHA - Paris SG: Tor in der 30. Minute",
+      "published": "2026-10-30T18:35:54+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "7c7df4e5fc7ca0bd": {
+      "source": "Kicker",
+      "title": "Nizza - Rennes: Tor zum 2:1 durch Wahi in der 35. Minute",
+      "published": "2026-10-30T18:40:59+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "721d6927d9910c2c": {
+      "source": "Kicker",
+      "title": "Nizza - Rennes: Tor zum 2:1 durch Wahi in der 35. Minute",
+      "published": "2026-10-30T18:41:21+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football",
+      "duplicate_of": "7c7df4e5fc7ca0bd"
+    },
+    "cec7f0285498729f": {
+      "source": "Marca",
+      "title": "Mou se mira en la Liga de los R\u00e9cords",
+      "published": "2026-10-30T18:43:00+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "a5027373d41b3433": {
+      "source": "Kicker",
+      "title": "LIVE! Attraktiver Schlagabtausch zwischen 1860 M\u00fcnchen und Buchbach - Traditionsduell in Burghausen",
+      "published": "2026-10-30T18:43:10+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "5763440af088e7bf": {
+      "source": "Kicker",
+      "title": "LIVE! Opoku l\u00e4sst Braunschweig hoffen - Hofmanns und Butlers Treffer werden kassiert",
+      "published": "2026-10-30T18:49:18+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
+    },
+    "e2abc28f0dfd9e88": {
+      "source": "Kicker",
+      "title": "Nizza - Rennes: Tor zum 3:1 durch Clauss in der 45.+2 Minute",
+      "published": "2026-10-30T18:52:01+00:00",
+      "first_seen": "2026-10-31T04:59:39.122797+10:00",
+      "category": "football"
     }
   }
 }

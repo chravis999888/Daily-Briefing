@@ -2091,76 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-30T04:27:39.362594+00:00",
   "article_store": {
-    "51ebe5f1bba181d0": {
-      "source": "BBC News",
-      "title": "Weekly quiz: How long did Katie Zacharia last as White House press secretary?",
-      "published": "2026-10-22T18:28:17+00:00",
-      "first_seen": "2026-10-23T16:11:07.807338+10:00",
-      "category": "breaking"
-    },
-    "cbf4f16e2bbb6dca": {
-      "source": "Al Jazeera",
-      "title": "Israel arrests 36 Palestinians in the West Bank, attacks on farmers ramp up",
-      "published": "2026-10-23T04:09:28+00:00",
-      "first_seen": "2026-10-23T16:11:07.807338+10:00",
-      "category": "breaking"
-    },
-    "daa696ed635d81fc": {
-      "source": "Al Jazeera",
-      "title": "Keeping Madhubala alive: The fight for Karachi\u2019s captive elephants",
-      "published": "2026-10-23T04:27:55+00:00",
-      "first_seen": "2026-10-23T16:11:07.807338+10:00",
-      "category": "breaking"
-    },
-    "7cb0191ac575ac09": {
-      "source": "Al Jazeera",
-      "title": "Grenade exercise sparked deadly fire at Canada military base, army says",
-      "published": "2026-10-23T04:41:24+00:00",
-      "first_seen": "2026-10-23T16:11:07.807338+10:00",
-      "category": "breaking"
-    },
-    "9498417393cc7323": {
-      "source": "BBC News",
-      "title": "Detective raped by colleague says Met handling of case 'like being raped again'",
-      "published": "2026-10-23T05:00:05+00:00",
-      "first_seen": "2026-10-23T16:11:07.807338+10:00",
-      "category": "breaking"
-    },
-    "49d87b1278b70eee": {
-      "source": "BBC News",
-      "title": "Watch: Met chief Rowley not fit for job, says detective raped by colleague",
-      "published": "2026-10-23T05:00:12+00:00",
-      "first_seen": "2026-10-23T16:11:07.807338+10:00",
-      "category": "breaking"
-    },
-    "3a41447063cb9ee8": {
-      "source": "BBC News",
-      "title": "Chancellor plans to cut 'pointless paperwork' to save businesses up to \u00a3800m",
-      "published": "2026-10-23T05:00:32+00:00",
-      "first_seen": "2026-10-23T16:11:07.807338+10:00",
-      "category": "breaking"
-    },
-    "1c848f8df543b3c6": {
-      "source": "BBC News",
-      "title": "Don't leave AI to tech bros and oligarchs, UK's AI minister says",
-      "published": "2026-10-23T05:00:50+00:00",
-      "first_seen": "2026-10-23T16:11:07.807338+10:00",
-      "category": "breaking"
-    },
-    "9ab71c53943bb283": {
-      "source": "BBC News",
-      "title": "Blue Planet III: Moment octopus escapes death after hunt gone wrong",
-      "published": "2026-10-23T05:05:03+00:00",
-      "first_seen": "2026-10-23T16:11:07.807338+10:00",
-      "category": "breaking"
-    },
-    "aa705dbde2f486e6": {
-      "source": "Al Jazeera",
-      "title": "EU entering winter with lowest gas reserves on record, IEA boss warns",
-      "published": "2026-10-23T06:02:15+00:00",
-      "first_seen": "2026-10-23T16:11:07.807338+10:00",
-      "category": "breaking"
-    },
     "81d9a6d02239ae0e": {
       "source": "Al Jazeera",
       "title": "Manchester United labelled \u2018babies\u2019 by club legend Wayne Rooney",
@@ -25479,6 +25409,41 @@
       "published": "2026-10-29T22:41:29+00:00",
       "first_seen": "2026-10-30T14:28:11.259514+10:00",
       "category": "football"
+    },
+    "7d6a4441b39e979b": {
+      "source": "Al Jazeera",
+      "title": "Israeli actress slams occupation in accidental \u2018hot mic\u2019 moment",
+      "published": "2026-10-30T04:14:09+00:00",
+      "first_seen": "2026-10-30T16:11:22.054303+10:00",
+      "category": "breaking"
+    },
+    "c7f3736cb5e5fbe3": {
+      "source": "Al Jazeera",
+      "title": "\u2018You look like hell\u2019, Trump lashes out at reporter in tarmac tirade",
+      "published": "2026-10-30T04:31:16+00:00",
+      "first_seen": "2026-10-30T16:11:22.054303+10:00",
+      "category": "breaking"
+    },
+    "350cf3d11b284557": {
+      "source": "Al Jazeera",
+      "title": "US judge blocks Trump\u2019s Medicaid rule forcing ill to prove impairment",
+      "published": "2026-10-30T04:38:24+00:00",
+      "first_seen": "2026-10-30T16:11:22.054303+10:00",
+      "category": "breaking"
+    },
+    "399629179f460342": {
+      "source": "Al Jazeera",
+      "title": "Venezuela\u2019s Machado lauds Trump for \u2018freedom\u2019, urges 2027 elections",
+      "published": "2026-10-30T04:40:07+00:00",
+      "first_seen": "2026-10-30T16:11:22.054303+10:00",
+      "category": "breaking"
+    },
+    "f5d007b13020b3d9": {
+      "source": "BBC News",
+      "title": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
+      "published": "2026-10-30T06:02:23+00:00",
+      "first_seen": "2026-10-30T16:11:22.054303+10:00",
+      "category": "breaking"
     }
   }
 }

@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-29T22:26:45.582859+00:00",
+  "last_gdelt_attempt": "2026-10-30T00:30:38.509348+00:00",
   "article_store": {
     "318fd20356964976": {
       "source": "Al Jazeera",
@@ -25442,6 +25442,27 @@
       "title": "Bombshell confession in The Traitors as faithfuls finally turn the screw",
       "published": "2026-10-29T23:44:41+00:00",
       "first_seen": "2026-10-30T10:04:48.495069+10:00",
+      "category": "breaking"
+    },
+    "eb56856d2abccad0": {
+      "source": "BBC News",
+      "title": "Hyrox athlete who soiled herself in race tells BBC she put others at risk but says backlash was traumatic",
+      "published": "2026-10-29T23:03:39+00:00",
+      "first_seen": "2026-10-30T10:31:01.006977+10:00",
+      "category": "breaking"
+    },
+    "341dec501c5c4281": {
+      "source": "Al Jazeera",
+      "title": "France braces for \u2018very high risk\u2019 of disorder at Halloween protests",
+      "published": "2026-10-29T23:52:30+00:00",
+      "first_seen": "2026-10-30T10:31:01.006977+10:00",
+      "category": "breaking"
+    },
+    "797796247d0bae75": {
+      "source": "Al Jazeera",
+      "title": "Iran war live: IRGC says four tankers struck mines in Strait of Hormuz",
+      "published": "2026-10-30T00:00:00+00:00",
+      "first_seen": "2026-10-30T10:31:01.006977+10:00",
       "category": "breaking"
     }
   }

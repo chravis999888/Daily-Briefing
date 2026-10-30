@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-30T04:27:39.362594+00:00",
+  "last_gdelt_attempt": "2026-10-30T06:39:24.805090+00:00",
   "article_store": {
     "81d9a6d02239ae0e": {
       "source": "Al Jazeera",
@@ -25443,6 +25443,13 @@
       "title": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
       "published": "2026-10-30T06:02:23+00:00",
       "first_seen": "2026-10-30T16:11:22.054303+10:00",
+      "category": "breaking"
+    },
+    "726a69e6af10a241": {
+      "source": "BBC News",
+      "title": "Scottish police to target online gangs forcing children to self-harm",
+      "published": "2026-10-30T06:17:09+00:00",
+      "first_seen": "2026-10-30T16:39:46.156587+10:00",
       "category": "breaking"
     }
   }

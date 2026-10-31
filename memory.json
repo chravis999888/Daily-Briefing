@@ -2091,55 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-10-31T04:08:39.513989+00:00",
   "article_store": {
-    "d21f09187b44642c": {
-      "source": "BBC News",
-      "title": "Met investigates reports of letter detailing claims about Meghan's father",
-      "published": "2026-10-24T03:17:24+00:00",
-      "first_seen": "2026-10-24T14:53:23.033348+10:00",
-      "category": "breaking"
-    },
-    "bf6b582e3eb9fe75": {
-      "source": "Al Jazeera",
-      "title": "Pentagon designates Confucius Institutes a national security threat",
-      "published": "2026-10-24T03:38:20+00:00",
-      "first_seen": "2026-10-24T14:53:23.033348+10:00",
-      "category": "breaking"
-    },
-    "b2a5370cf0e1c994": {
-      "source": "Al Jazeera",
-      "title": "Israel raids towns, detains dozens of Palestinians in occupied West Bank",
-      "published": "2026-10-24T03:47:14+00:00",
-      "first_seen": "2026-10-24T14:53:23.033348+10:00",
-      "category": "breaking"
-    },
-    "23c756cf69c230cb": {
-      "source": "Al Jazeera",
-      "title": "Marco Rubio urges Cubans to collaborate with CIA to topple gov\u2019t",
-      "published": "2026-10-24T03:50:32+00:00",
-      "first_seen": "2026-10-24T14:53:23.033348+10:00",
-      "category": "breaking"
-    },
-    "19ea7c9dd3ac8acc": {
-      "source": "BBC News",
-      "title": "Arrest made after fire at Hitler's Eagle's Nest retreat",
-      "published": "2026-10-24T03:51:25+00:00",
-      "first_seen": "2026-10-24T14:53:23.033348+10:00",
-      "category": "breaking"
-    },
-    "cb9e130b00a2c49e": {
-      "source": "Al Jazeera",
-      "title": "Argentina identifies dozens of victims killed in its \u2018Dirty War\u2019",
-      "published": "2026-10-24T03:51:58+00:00",
-      "first_seen": "2026-10-24T14:53:23.033348+10:00",
-      "category": "breaking"
-    },
-    "42acb04601d0cfc4": {
-      "source": "BBC News",
-      "title": "France prepares for day of protest a week after nationwide riots",
-      "published": "2026-10-24T04:03:46+00:00",
-      "first_seen": "2026-10-24T14:53:23.033348+10:00",
-      "category": "breaking"
-    },
     "9d7bd278ec202a93": {
       "source": "BBC News",
       "title": "How does the UK state pension compare with other countries?",
@@ -25211,6 +25162,69 @@
       "published": "2026-10-31T00:12:35+00:00",
       "first_seen": "2026-10-31T14:09:10.403018+10:00",
       "category": "football"
+    },
+    "ec1b1bf12e37af27": {
+      "source": "Al Jazeera",
+      "title": "Iran says four tankers on fire after striking mines in Hormuz",
+      "published": "2026-10-31T03:55:48+00:00",
+      "first_seen": "2026-10-31T16:06:05.680600+10:00",
+      "category": "breaking"
+    },
+    "f24f35e04a4638c0": {
+      "source": "Al Jazeera",
+      "title": "US jails two Chinese nationals for spying",
+      "published": "2026-10-31T04:41:32+00:00",
+      "first_seen": "2026-10-31T16:06:05.680600+10:00",
+      "category": "breaking"
+    },
+    "c56781528fc98176": {
+      "source": "Al Jazeera",
+      "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
+      "published": "2026-10-31T04:51:25+00:00",
+      "first_seen": "2026-10-31T16:06:05.680600+10:00",
+      "category": "breaking"
+    },
+    "256f63b54d3ac73f": {
+      "source": "Al Jazeera",
+      "title": "Trump tells voters to send El-Sayed \u2018back to where he came from\u2019",
+      "published": "2026-10-31T05:07:25+00:00",
+      "first_seen": "2026-10-31T16:06:05.680600+10:00",
+      "category": "breaking"
+    },
+    "b9b6c90749fa9c91": {
+      "source": "Al Jazeera",
+      "title": "Mohammed Deif, rare footage and October 7 documents",
+      "published": "2026-10-31T05:07:34+00:00",
+      "first_seen": "2026-10-31T16:06:05.680600+10:00",
+      "category": "breaking"
+    },
+    "b1b7c7ad9cae43b7": {
+      "source": "BBC News",
+      "title": "Mahmood expected to announce changes to rules around indefinite leave to remain",
+      "published": "2026-10-31T05:16:01+00:00",
+      "first_seen": "2026-10-31T16:06:05.680600+10:00",
+      "category": "breaking"
+    },
+    "3ad8c8c166eccd77": {
+      "source": "Al Jazeera",
+      "title": "Why are US, Russia and China racing to put nuclear reactors on the moon?",
+      "published": "2026-10-31T05:37:51+00:00",
+      "first_seen": "2026-10-31T16:06:05.680600+10:00",
+      "category": "breaking"
+    },
+    "8ff28fac4a2675ee": {
+      "source": "BBC News",
+      "title": "Spain train disaster clouds S\u00e1nchez chances of re-election",
+      "published": "2026-10-31T05:44:21+00:00",
+      "first_seen": "2026-10-31T16:06:05.680600+10:00",
+      "category": "breaking"
+    },
+    "303dd919d4fbeeb2": {
+      "source": "Al Jazeera",
+      "title": "After the \u2018martyr\u2019s\u2019 funeral: The families left behind by Yemen\u2019s war",
+      "published": "2026-10-31T05:48:25+00:00",
+      "first_seen": "2026-10-31T16:06:05.680600+10:00",
+      "category": "breaking"
     }
   }
 }

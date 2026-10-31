@@ -2089,645 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-31T11:42:27.841298+00:00",
+  "last_gdelt_attempt": "2026-10-31T16:50:27.048287+00:00",
   "article_store": {
-    "13c4a5166f703a70": {
-      "source": "Al Jazeera",
-      "title": "Democracy by ZIP Code: Two Americas, one election",
-      "published": "2026-10-24T11:44:16+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "bfa721a00cc70753": {
-      "source": "Al Jazeera",
-      "title": "Czech Republic advances media funding overhaul despite criticism",
-      "published": "2026-10-24T11:50:32+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "4b7bd82bc092ed80": {
-      "source": "Al Jazeera",
-      "title": "Barcelona vs Real Madrid: Top 5 El Clasico matches between La Liga giants",
-      "published": "2026-10-24T12:05:40+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "4792afeafd666d2c": {
-      "source": "Al Jazeera",
-      "title": "Barcelona housing activists evicted by police from residential building",
-      "published": "2026-10-24T12:14:00+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "59bd3fc075da12cd": {
-      "source": "Al Jazeera",
-      "title": "Serbia elections test student movement demanding justice for 16 victims",
-      "published": "2026-10-24T12:18:06+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "cf91efcadfe843e2": {
-      "source": "Al Jazeera",
-      "title": "Malaysia considers complete ban on Israel-based navigation app Waze",
-      "published": "2026-10-24T12:30:42+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "b8133e4e69d10730": {
-      "source": "Al Jazeera",
-      "title": "Is Iran planning attacks on Americans; why is the US on alert?",
-      "published": "2026-10-24T12:51:21+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "9ce58a0e2586f2c4": {
-      "source": "Al Jazeera",
-      "title": "France protests live: 135 arrested as marches held under tight security",
-      "published": "2026-10-24T12:55:37+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "3048ded8868124b5": {
-      "source": "BBC News",
-      "title": "Met Police says letter with claims about Meghan's father not shared with other law enforcement",
-      "published": "2026-10-24T12:59:49+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "a7dd7230764684f6": {
-      "source": "Al Jazeera",
-      "title": "Jordan\u2019s King Abdullah orders firm response after deadly church attack",
-      "published": "2026-10-24T13:02:51+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "b031477879e3b702": {
-      "source": "Al Jazeera",
-      "title": "Iran says won\u2019t allow US warships to get close as Trump ponders new attacks",
-      "published": "2026-10-24T13:06:03+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "2b05c2266898a2e7": {
-      "source": "Al Jazeera",
-      "title": "FIFA\u2019s Infantino touts global re-election support amid resignation questions",
-      "published": "2026-10-24T13:12:03+00:00",
-      "first_seen": "2026-10-24T23:50:06.537751+10:00",
-      "category": "breaking"
-    },
-    "4334ea7114fafa5a": {
-      "source": "ABC News",
-      "title": "Daughters joyful to 'breathe same air' as Donna Nelson returns to Perth",
-      "published": "2026-10-24T08:43:00+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "ffd810f5722d1ba1": {
-      "source": "SMH",
-      "title": "Farnworth bags a hat-trick against France",
-      "published": "2026-10-24T08:43:23+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "a2ce9f4ee1ac0ef4": {
-      "source": "The Age",
-      "title": "Farnworth bags a hat-trick against France",
-      "published": "2026-10-24T08:43:23+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "ffd810f5722d1ba1"
-    },
-    "569b686473ec0c2a": {
-      "source": "SMH",
-      "title": "Powerful storms sweep across South Australia",
-      "published": "2026-10-24T08:43:46+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "5730ca6d16c42c95": {
-      "source": "The Age",
-      "title": "Powerful storms sweep across South Australia",
-      "published": "2026-10-24T08:43:46+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "569b686473ec0c2a"
-    },
-    "519b77753c2f103a": {
-      "source": "SMH",
-      "title": "Support worker charged with multiple child sex offences",
-      "published": "2026-10-24T08:48:53+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "bd6a28466a1a6075": {
-      "source": "The Age",
-      "title": "Support worker charged with multiple child sex offences",
-      "published": "2026-10-24T08:48:53+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "519b77753c2f103a"
-    },
-    "8e5e5f6e8cc7d200": {
-      "source": "SMH",
-      "title": "Young driver rescued in Queensland floodwaters",
-      "published": "2026-10-24T08:54:52+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "379e07675655c92e": {
-      "source": "The Age",
-      "title": "Young driver rescued in Queensland floodwaters",
-      "published": "2026-10-24T08:54:52+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "8e5e5f6e8cc7d200"
-    },
-    "19fd56663b46389b": {
-      "source": "SMH",
-      "title": "No October joy for Carlton stars on Cox Plate\u2019s sojourn to Flemington",
-      "published": "2026-10-24T08:56:34+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "9b2e23da33906327": {
-      "source": "The Age",
-      "title": "No October joy for Carlton stars on Cox Plate\u2019s sojourn to Flemington",
-      "published": "2026-10-24T08:56:34+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "19fd56663b46389b"
-    },
-    "c3c0956ac2aac0d3": {
-      "source": "The Age",
-      "title": "Models of behaviour start from the bottom up",
-      "published": "2026-10-24T09:00:00+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "bfc3b611fdb39f34": {
-      "source": "ABC News",
-      "title": "Fire breaks out at Hitler's mountain retreat, suspect arrested",
-      "published": "2026-10-24T09:16:03+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "b291a09216709de1": {
-      "source": "ABC News",
-      "title": "WA premier confronted by South Hedland community members",
-      "published": "2026-10-24T09:53:46+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "6b4453b1768e53ed": {
-      "source": "SMH",
-      "title": "Jillaroos star injures wrist in awful sight",
-      "published": "2026-10-24T12:13:56+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "0d4d047d6e60ab64": {
-      "source": "The Age",
-      "title": "Jillaroos star injures wrist in awful sight",
-      "published": "2026-10-24T12:13:56+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "6b4453b1768e53ed"
-    },
-    "63e4a23515d4763e": {
-      "source": "SMH",
-      "title": "Former Port Adelaide player Daniel Stewart dies, aged 37",
-      "published": "2026-10-24T12:14:00+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "a020520c8c5d81cd"
-    },
-    "3f169c8cbf461b8a": {
-      "source": "The Age",
-      "title": "Former Port Adelaide player Daniel Stewart dies, aged 37",
-      "published": "2026-10-24T12:14:00+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "a020520c8c5d81cd"
-    },
-    "1eac105cb2fe78ce": {
-      "source": "SMH",
-      "title": "Superquiz, Sunday, October 25",
-      "published": "2026-10-24T12:59:00+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "f1fbd12f48bffc6b": {
-      "source": "The Age",
-      "title": "Superquiz, Sunday, October 25",
-      "published": "2026-10-24T12:59:00+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "1eac105cb2fe78ce"
-    },
-    "71efdf4cf419f0a6": {
-      "source": "SMH",
-      "title": "\u2018Historic day for aviation\u2019: First flight from Western Sydney departs today",
-      "published": "2026-10-24T13:01:00+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "c484aa53cbcf04e5": {
-      "source": "The Age",
-      "title": "\u2018Historic day for aviation\u2019: First flight from Western Sydney departs today",
-      "published": "2026-10-24T13:01:00+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "71efdf4cf419f0a6"
-    },
-    "c31dcfc6672fcce6": {
-      "source": "SMH",
-      "title": "Villa punishes Guehi's awful error",
-      "published": "2026-10-24T13:09:20+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "e38f01046520d259": {
-      "source": "The Age",
-      "title": "Villa punishes Guehi's awful error",
-      "published": "2026-10-24T13:09:20+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "c31dcfc6672fcce6"
-    },
-    "13ca803c52701cf2": {
-      "source": "ABC News",
-      "title": "Ukraine says Starlink at normal speed after delays impede military",
-      "published": "2026-10-24T13:09:37+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "d6937ccb000ec253": {
-      "source": "SMH",
-      "title": "Multiple people shot in drive-by shooting south of Brisbane",
-      "published": "2026-10-24T13:18:22+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "8084d9c98e369cc5": {
-      "source": "The Age",
-      "title": "Multiple people shot in drive-by shooting south of Brisbane",
-      "published": "2026-10-24T13:18:22+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "d6937ccb000ec253"
-    },
-    "ff8092f45849c9d1": {
-      "source": "SMH",
-      "title": "\u2018Well, I\u2019m doomed\u2019: How this cancer treatment can help men live longer",
-      "published": "2026-10-24T13:30:00+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "ba54f62ce58f7994": {
-      "source": "The Age",
-      "title": "\u2018Well, I\u2019m doomed\u2019: How this cancer treatment can help men live longer",
-      "published": "2026-10-24T13:30:00+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia",
-      "duplicate_of": "ff8092f45849c9d1"
-    },
-    "fd6c0f1498da39ea": {
-      "source": "ABC News",
-      "title": "Met Police received letter about Meghan Markle's father in 2019",
-      "published": "2026-10-24T13:42:37+00:00",
-      "first_seen": "2026-10-24T23:50:08.088275+10:00",
-      "category": "australia"
-    },
-    "008172de301c2ba7": {
-      "source": "ScienceDaily",
-      "title": "This 150-million-year-old bird had dinosaur teeth and a strange secret",
-      "published": "2026-10-24T02:42:19+00:00",
-      "first_seen": "2026-10-24T23:50:12.362333+10:00",
-      "category": "archaeology"
-    },
-    "dbfe893e6cb48a58": {
-      "source": "Kicker",
-      "title": "LIVE! Jeddelohs DFB-Pokal-Generalprobe - Titelkampf am Abend",
-      "published": "2026-10-24T10:38:19+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "bc3260afad52cea0": {
-      "source": "Marca",
-      "title": "El Sevilla recupera a Stassin y Guridi",
-      "published": "2026-10-24T10:46:47+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "05611cbb431ee5b7": {
-      "source": "Kicker",
-      "title": "LIVE! Siegen reist selbstbewusst nach Lotte - Stoppt R\u00f6dinghausen die Gegentor-Flut?",
-      "published": "2026-10-24T10:49:47+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "7e036d6405fde197": {
-      "source": "Kicker",
-      "title": "Nach Sieg gegen Regensburg: RWE in Sorge um Cuber Potocnik",
-      "published": "2026-10-24T11:04:46+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "55d21da6f6d6c022": {
-      "source": "Kicker",
-      "title": "Pfiffe beim VfB: Hoene\u00df spricht von einem \"gro\u00dfen Warnschuss\"",
-      "published": "2026-10-24T11:05:41+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "2368fb26d885c77b": {
-      "source": "Marca",
-      "title": "Beller\u00edn, de vuelta para la cita en Vigo",
-      "published": "2026-10-24T11:14:31+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "4cedfa891b10c495": {
-      "source": "Kicker",
-      "title": "LIVE! SVWW-Treffer von der Mittellinie - Viktoria und FCI drehen ihre Spiele",
-      "published": "2026-10-24T11:19:53+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "e827167c1299bc86": {
-      "source": "Kicker",
-      "title": "Erst eiskalt, dann pr\u00e4zise: Peddemors' Doppelpack f\u00fchrt Wolfsburg zum Sieg \u00fcber K\u00f6ln",
-      "published": "2026-10-24T12:01:57+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "76482526da5085a1": {
-      "source": "Marca",
-      "title": "Aramburu y Herrera vuelven a la lista para recibir al Levante, veremos si tambi\u00e9n al once",
-      "published": "2026-10-24T12:11:09+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "4b7054954157dd0e": {
-      "source": "Marca",
-      "title": "Pellegrini: \"Antony tiene exceso de ansiedad, pero los goles llegar\u00e1n\"",
-      "published": "2026-10-24T12:12:25+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "a90fbcf2a5698d07": {
-      "source": "Kicker",
-      "title": "\"W\u00fcrde bedeuten, eigene Identit\u00e4t zu vergessen\": Mourinho \u00fcber Lamine Yamal",
-      "published": "2026-10-24T12:21:15+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "6cff25586d94054b": {
-      "source": "Kicker",
-      "title": "Traumfreisto\u00df unter die Latte: Peddemors schie\u00dft W\u00f6lfe gegen K\u00f6ln zum Sieg",
-      "published": "2026-10-24T12:25:09+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "0402e999fcb8317d": {
-      "source": "Kicker",
-      "title": "LIVE! F\u00fcllkrug vom Punkt - Fabio Vieira verletzt raus - Auch der FCA muss fr\u00fch wechseln",
-      "published": "2026-10-24T12:29:12+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "3c0e6a65da35774e": {
-      "source": "Kicker",
-      "title": "Rayo - Elche: Tor zum 0:1 durch Redondo in der 23. Minute",
-      "published": "2026-10-24T12:29:21+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "ddf7741a5e18f653": {
-      "source": "Kicker",
-      "title": "Rayo - Elche: Tor zum 0:1 durch Redondo in der 23. Minute",
-      "published": "2026-10-24T12:29:22+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football",
-      "duplicate_of": "3c0e6a65da35774e"
-    },
-    "d4c2a872b825ffcf": {
-      "source": "Marca",
-      "title": "Nervi\u00f3n reabre sus puertas ante un rival de grato recuerdo",
-      "published": "2026-10-24T12:36:13+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "082946d70efa98ba": {
-      "source": "Marca",
-      "title": "Valencia - Villarreal: horario, d\u00f3nde ver en TV y canal del partido de LaLiga EA Sports",
-      "published": "2026-10-24T12:38:51+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "ca814ea6638b41e8": {
-      "source": "Marca",
-      "title": "Un Redondo vuelve a marcar en LaLiga casi 30 a\u00f1os despu\u00e9s",
-      "published": "2026-10-24T12:38:54+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "fe8ed228075d288c": {
-      "source": "Kicker",
-      "title": "RAY - Elche: Tor in der 36. Minute",
-      "published": "2026-10-24T12:43:10+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "3e51a4f6105575bb": {
-      "source": "Kicker",
-      "title": "RAY - Elche: Elfmeter in der 36. Minute",
-      "published": "2026-10-24T12:43:33+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "3d0048f2db2b3ddf": {
-      "source": "Kicker",
-      "title": "RAY - Elche: Elfmeter in der 39. Minute",
-      "published": "2026-10-24T12:44:42+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "77520373e971c652": {
-      "source": "Marca",
-      "title": "Matarazzo: \"Estamos en buen momento y queremos alargarlo, pero el Levante ser\u00e1 complicado\"",
-      "published": "2026-10-24T12:45:07+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "b6eac5886bfaef60": {
-      "source": "Kicker",
-      "title": "N\u00e4chster Ausw\u00e4rtssieg f\u00fcr Frankfurt - Schalke vs. BVB am Sonntag",
-      "published": "2026-10-24T12:55:04+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "434ebef28c4d4a88": {
-      "source": "Marca",
-      "title": "Iker Losada vuelve a quedarse fuera",
-      "published": "2026-10-24T12:57:34+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "32d5f9028dd7cd68": {
-      "source": "Kicker",
-      "title": "Kurioses Gro\u00dfer-Handspiel in der Nachspielzeit: Brekalo erl\u00f6st Hertha sp\u00e4t",
-      "published": "2026-10-24T13:03:30+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "3a4522b2c9d736e0": {
-      "source": "Kicker",
-      "title": "LIVE! Havertz gegen Everton auf der Bank: Arsenal kann mit ManCity gleichziehen",
-      "published": "2026-10-24T13:09:25+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "0c2745f7b3119c9e": {
-      "source": "Kicker",
-      "title": "\"Das hat er bei jedem Verein gezeigt\": Flick mit gro\u00dfem Respekt vor Mourinho",
-      "published": "2026-10-24T13:25:18+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "a0c6c97cb14a06a4": {
-      "source": "Kicker",
-      "title": "Jackson sticht Haaland aus: Aston Villa beendet Citys Siegesserie",
-      "published": "2026-10-24T13:31:38+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "c56dc98c8ca85e26": {
-      "source": "Kicker",
-      "title": "Rayo - Elche: Tor zum 0:3 durch Valera in der 68. Minute",
-      "published": "2026-10-24T13:40:05+00:00",
-      "first_seen": "2026-10-24T23:50:17.547172+10:00",
-      "category": "football"
-    },
-    "eb834cd92644586f": {
-      "source": "BBC News",
-      "title": "My dream of being a paramedic helped me save a life at 15",
-      "published": "2026-10-19T05:02:15+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "3a7a5de0a3c9980c": {
-      "source": "BBC News",
-      "title": "Sam Fender calls out ticket prices ahead of tour",
-      "published": "2026-10-24T12:15:29+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "305d4953415f3861": {
-      "source": "Al Jazeera",
-      "title": "Armed Israeli settlers try to break into Palestinian grandfather\u2019s home",
-      "published": "2026-10-24T13:16:23+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "2580e8ace053b205": {
-      "source": "Al Jazeera",
-      "title": "Netanyahu floats Crypto to bypass sanctions",
-      "published": "2026-10-24T13:27:11+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "dd97a3b73a37cc20": {
-      "source": "Al Jazeera",
-      "title": "Who was behind the deadly church shooting in Jordan?",
-      "published": "2026-10-24T13:39:26+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "bde65e19fa800b5c": {
-      "source": "Al Jazeera",
-      "title": "Sudan\u2019s soaring fuel prices make getting by harder for workers",
-      "published": "2026-10-24T13:51:08+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "2b0b0e939bd83a3a": {
-      "source": "Al Jazeera",
-      "title": "Rybakina readies for title defence at Ningbo Open in final with Fernandez",
-      "published": "2026-10-24T13:52:08+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "f185701a972dd236": {
-      "source": "Al Jazeera",
-      "title": "Do abstaining voters hold the key to Brazil\u2019s 2026 presidential election?",
-      "published": "2026-10-24T13:58:14+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "7c28a0402996f927": {
-      "source": "Al Jazeera",
-      "title": "Man City beaten at Aston Villa as perfect Premier League start ends",
-      "published": "2026-10-24T14:04:27+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "5b8dce020baeb2f2": {
-      "source": "Al Jazeera",
-      "title": "Ballon d\u2019Or 2026: Can Kylian Mbappe\u2019s Real Madrid and France record win it?",
-      "published": "2026-10-24T14:21:34+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "94a22b6e7f4c10af": {
-      "source": "Al Jazeera",
-      "title": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
-      "published": "2026-10-24T14:23:40+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "5dec89aa3d7b0639": {
-      "source": "Al Jazeera",
-      "title": "Full lockdown of occupied West Bank begins",
-      "published": "2026-10-24T14:24:19+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "87acb7c8262a68a6": {
-      "source": "Al Jazeera",
-      "title": "Why Israeli tourists and investors are unsettling Cypriots",
-      "published": "2026-10-24T14:56:47+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "e445bb162dbf96d8": {
-      "source": "Al Jazeera",
-      "title": "Security forces deploy as Milan braces for another day of protests",
-      "published": "2026-10-24T15:05:58+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "341fd6dbc70b531f": {
-      "source": "Al Jazeera",
-      "title": "Brazil\u2019s Lula and Bolsonaro about even ahead of election run-off: Poll",
-      "published": "2026-10-24T15:36:38+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "61ef7d9240d751ab": {
-      "source": "Al Jazeera",
-      "title": "More than 2,000 forced from homes in Hebron amid Israel\u2019s West Bank raids",
-      "published": "2026-10-24T15:50:49+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
-    "96bc2d9204adb667": {
-      "source": "BBC News",
-      "title": "Watch: Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
-      "published": "2026-10-24T15:56:48+00:00",
-      "first_seen": "2026-10-25T02:09:51.656167+10:00",
-      "category": "breaking"
-    },
     "65f1e5b28fc93578": {
       "source": "BBC News",
       "title": "Watch: Moment fin whale swallows thousands of gallons of water during feeding",
@@ -25271,6 +24634,375 @@
       "published": "2026-10-31T12:58:28+00:00",
       "first_seen": "2026-10-31T23:13:21.320485+10:00",
       "category": "breaking"
+    },
+    "68dcc7574cceb555": {
+      "source": "Al Jazeera",
+      "title": "Burnham opens door to formal apology for Britain\u2019s slave trade",
+      "published": "2026-10-31T13:19:23+00:00",
+      "first_seen": "2026-11-01T02:50:51.875601+10:00",
+      "category": "breaking"
+    },
+    "b58f3faec0a5a08a": {
+      "source": "BBC News",
+      "title": "Europe can no longer rely on US to 'bankroll' its defence, Starmer says",
+      "published": "2026-10-31T13:20:39+00:00",
+      "first_seen": "2026-11-01T02:50:51.875601+10:00",
+      "category": "breaking"
+    },
+    "2666017495684ede": {
+      "source": "Al Jazeera",
+      "title": "Israel voted for Israel: Why Gaza wasn\u2019t on the ballot",
+      "published": "2026-10-31T13:35:51+00:00",
+      "first_seen": "2026-11-01T02:50:51.875601+10:00",
+      "category": "breaking"
+    },
+    "a87f03fcfb7d76bc": {
+      "source": "Al Jazeera",
+      "title": "Syria considering entry into Mecca defence pact, says foreign minister",
+      "published": "2026-10-31T14:20:23+00:00",
+      "first_seen": "2026-11-01T02:50:51.875601+10:00",
+      "category": "breaking"
+    },
+    "ea39b3dca31cf0d1": {
+      "source": "Al Jazeera",
+      "title": "Iran FM says US outreach a \u2018positive step\u2019 as delegation in Qatar for talks",
+      "published": "2026-10-31T14:31:37+00:00",
+      "first_seen": "2026-11-01T02:50:51.875601+10:00",
+      "category": "breaking"
+    },
+    "3436a298d7d445e9": {
+      "source": "Al Jazeera",
+      "title": "Chelsea beat Man United as Martinez sent off to pile pressure on Carrick",
+      "published": "2026-10-31T15:09:59+00:00",
+      "first_seen": "2026-11-01T02:50:51.875601+10:00",
+      "category": "breaking"
+    },
+    "5043acd4de6b175f": {
+      "source": "BBC News",
+      "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "published": "2026-10-31T15:16:20+00:00",
+      "first_seen": "2026-11-01T02:50:51.875601+10:00",
+      "category": "breaking"
+    },
+    "fa5e125220ca3b9a": {
+      "source": "Al Jazeera",
+      "title": "South Africa hammer Australia as Harmer takes career best bowling of 6-16",
+      "published": "2026-10-31T15:43:46+00:00",
+      "first_seen": "2026-11-01T02:50:51.875601+10:00",
+      "category": "breaking"
+    },
+    "3fcb4a6e7e857697": {
+      "source": "BBC News",
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "published": "2026-10-31T16:32:08+00:00",
+      "first_seen": "2026-11-01T02:50:51.875601+10:00",
+      "category": "breaking"
+    },
+    "0f8ed6beba3aa0c0": {
+      "source": "ABC News",
+      "title": "Canada hoping to become EU\u2019s first 'associate member' in deal",
+      "published": "2026-10-31T12:05:54+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia"
+    },
+    "5d09339347b5c8e5": {
+      "source": "SMH",
+      "title": "One Nation candidate for Melbourne resigns over offensive tweets",
+      "published": "2026-10-31T12:35:11+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia"
+    },
+    "7f151b0806a7684b": {
+      "source": "The Age",
+      "title": "One Nation candidate for Melbourne resigns over offensive tweets",
+      "published": "2026-10-31T12:35:11+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia",
+      "duplicate_of": "5d09339347b5c8e5"
+    },
+    "ccc30818686e774f": {
+      "source": "ABC News",
+      "title": "Iranian military ordered to counter any attack swiftly and without restraint",
+      "published": "2026-10-31T12:37:33+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia"
+    },
+    "11f6fe60826a82a4": {
+      "source": "SMH",
+      "title": "Superquiz, Sunday, November 1",
+      "published": "2026-10-31T12:59:00+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia"
+    },
+    "cd11de8fef43fd52": {
+      "source": "The Age",
+      "title": "Superquiz, Sunday, November 1",
+      "published": "2026-10-31T12:59:00+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia",
+      "duplicate_of": "11f6fe60826a82a4"
+    },
+    "a5e9d6fd774869df": {
+      "source": "SMH",
+      "title": "Brisbane portrait prize now among Australia\u2019s richest art awards thanks to funding boost",
+      "published": "2026-10-31T14:01:00+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia"
+    },
+    "e52ecdb1953aa90b": {
+      "source": "The Age",
+      "title": "Brisbane portrait prize now among Australia\u2019s richest art awards thanks to funding boost",
+      "published": "2026-10-31T14:01:00+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia",
+      "duplicate_of": "a5e9d6fd774869df"
+    },
+    "db963e3eaf2ecccd": {
+      "source": "ABC News",
+      "title": "Evacuees from Russian-occupied Oleshky reach Ukraine amid ceasefire",
+      "published": "2026-10-31T14:41:01+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia"
+    },
+    "cd8b05430b0e7a9a": {
+      "source": "SMH",
+      "title": "In pictures: CMEWA returns to where it all began for 125th anniversary",
+      "published": "2026-10-31T16:00:00+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia"
+    },
+    "f267f888e27e507e": {
+      "source": "SMH",
+      "title": "Six decades on the dance floor: Inside Perth\u2019s 10 oldest nightspots",
+      "published": "2026-10-31T16:00:00+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia"
+    },
+    "1c1defbfbcfd4ecd": {
+      "source": "The Age",
+      "title": "In pictures: CMEWA returns to where it all began for 125th anniversary",
+      "published": "2026-10-31T16:00:00+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia",
+      "duplicate_of": "cd8b05430b0e7a9a"
+    },
+    "ae1793c18e5c5cac": {
+      "source": "The Age",
+      "title": "Six decades on the dance floor: Inside Perth\u2019s 10 oldest nightspots",
+      "published": "2026-10-31T16:00:00+00:00",
+      "first_seen": "2026-11-01T02:50:52.726572+10:00",
+      "category": "australia",
+      "duplicate_of": "f267f888e27e507e"
+    },
+    "008172de301c2ba7": {
+      "source": "ScienceDaily",
+      "title": "This 150-million-year-old bird had dinosaur teeth and a strange secret",
+      "published": "2026-10-24T02:42:19+00:00",
+      "first_seen": "2026-11-01T02:50:55.071851+10:00",
+      "category": "archaeology"
+    },
+    "6421a9c00a5acf3f": {
+      "source": "ScienceDaily",
+      "title": "75,000-year-old Neanderthal may have been killed by a spear aimed at the heart",
+      "published": "2026-10-31T11:05:20+00:00",
+      "first_seen": "2026-11-01T02:50:55.071851+10:00",
+      "category": "archaeology"
+    },
+    "a24c79c990baf892": {
+      "source": "PhysOrg",
+      "title": "Rare fossil discovery reveals new dinosaur species that specialized in eating fruit",
+      "published": "2026-10-31T13:00:02+00:00",
+      "first_seen": "2026-11-01T02:50:55.071851+10:00",
+      "category": "archaeology"
+    },
+    "db71ea1eff7a66a6": {
+      "source": "Marca",
+      "title": "Zakharyan no est\u00e1 en una lista para el derbi con todos los importantes para Matarazzo",
+      "published": "2026-10-31T12:59:19+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "845aa73c1c5f7d38": {
+      "source": "Marca",
+      "title": "Pitchwise toma posiciones en el Valencia",
+      "published": "2026-10-31T13:35:23+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "8d9311d909a93211": {
+      "source": "Kicker",
+      "title": "Duell der Gebeutelten: Chelsea versch\u00e4rft Manchesters Krise",
+      "published": "2026-10-31T14:31:31+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "529d1ce23fb43d97": {
+      "source": "Kicker",
+      "title": "Bologna - Monza: Tor zum 1:1 durch Pobega in der 33. Minute",
+      "published": "2026-10-31T14:36:58+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "b768b98b9db95337": {
+      "source": "Kicker",
+      "title": "Die elf legend\u00e4rsten Duelle zwischen Dortmund und Bayern",
+      "published": "2026-10-31T14:42:05+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "d9a94806d69b0309": {
+      "source": "Marca",
+      "title": "Edin Terzic: \"En un derbi hay que ganar, eso es lo importante ahora\"",
+      "published": "2026-10-31T14:47:51+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "0c36810d696605fe": {
+      "source": "Kicker",
+      "title": "LIVE! Zwei Elfmeter kurz vor Pausenpfiff: Al Ghaddioui l\u00e4sst Pausenf\u00fchrung liegen",
+      "published": "2026-10-31T14:57:11+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "8aaee35f054b6b33": {
+      "source": "Kicker",
+      "title": "4:3 nach 0:2: Union-Frauen drehen auch Pokalspiel beim HSV",
+      "published": "2026-10-31T15:03:07+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "456ba329b0d4f2d5": {
+      "source": "Marca",
+      "title": "Aramburu es nombre de derbi",
+      "published": "2026-10-31T15:04:24+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "0e5bdd04608aa84d": {
+      "source": "Kicker",
+      "title": "1:0-Erfolg in Stuttgart: Meien k\u00f6pft Aalen bei seinem Ex-Klub an die Spitze",
+      "published": "2026-10-31T15:04:51+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "d184cddbcd7ddfa5": {
+      "source": "Kicker",
+      "title": "Vega Zambrano erl\u00f6st Oberhausen in Wiedenbr\u00fcck",
+      "published": "2026-10-31T15:14:26+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "3af76c54b7284d9b": {
+      "source": "Kicker",
+      "title": "Blitzstart reicht nicht: Dezimiertes Duisburg verliert gegen VfB II die Tabellenf\u00fchrung",
+      "published": "2026-10-31T15:22:15+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "cfbc6b8b8a55d04e": {
+      "source": "Kicker",
+      "title": "BOL - Monza: Tor in der 59. Minute",
+      "published": "2026-10-31T15:22:59+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "1f8163004bd7a1e3": {
+      "source": "Kicker",
+      "title": "BOL - Monza: Elfmeter in der 59. Minute",
+      "published": "2026-10-31T15:23:49+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "ee1e4426fdd66f68": {
+      "source": "Marca",
+      "title": "De Burgos: \"Rectificamos en el gol porque nos lo se\u00f1alan desde el VAR\"",
+      "published": "2026-10-31T15:27:16+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "6e9207554a15163a": {
+      "source": "Kicker",
+      "title": "Kresins Treffer reicht: Memmingen schl\u00e4gt Schweinfurt und baut die Tabellenf\u00fchrung aus",
+      "published": "2026-10-31T15:37:11+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "d511903b9713a49d": {
+      "source": "Kicker",
+      "title": "Volle Wucht ins kurze Eck: Grimaldo leitet Atletico-Sieg ein",
+      "published": "2026-10-31T15:47:27+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "e0a4ae578646d0be": {
+      "source": "Kicker",
+      "title": "Kaiserslautern erh\u00e4lt \"Lehrstunde, wie man sich als Spitzenteam pr\u00e4sentiert\"",
+      "published": "2026-10-31T15:48:43+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "e1058ae26bc85de5": {
+      "source": "Kicker",
+      "title": "BOL - Monza: Elfmeter in der 81. Minute",
+      "published": "2026-10-31T15:50:32+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "727e6379d7d71181": {
+      "source": "Kicker",
+      "title": "Rayo - Vigo: Tor zum 1:0 durch de Frutos in der 36. Minute",
+      "published": "2026-10-31T15:58:19+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "b1cdb5a950db115f": {
+      "source": "Marca",
+      "title": "El Atl\u00e9tico moja la p\u00f3lvora del Levante",
+      "published": "2026-10-31T16:03:26+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "35767d139613d03c": {
+      "source": "Kicker",
+      "title": "Leitl beeindruckt: \"Riesenkompliment an meine Mannschaft\"",
+      "published": "2026-10-31T16:05:49+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "0105a3ac3e7e2616": {
+      "source": "Kicker",
+      "title": "B\u00e4r bestraft H\u00e4rting-Fehler: Aue steigert sich und \u00fcberholt Jena",
+      "published": "2026-10-31T16:09:21+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "0fa0064c954d6b10": {
+      "source": "Marca",
+      "title": "El detallazo de la jornada: Hugo Gonz\u00e1lez se lesiona... y firma una camiseta para un ni\u00f1o antes de irse",
+      "published": "2026-10-31T16:16:49+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "63877a20cd1386b3": {
+      "source": "Kicker",
+      "title": "Demirovics Doppelpack bringt VfB in Leverkusen auf Siegkurs",
+      "published": "2026-10-31T16:26:07+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "f998b7c59b8f375d": {
+      "source": "Kicker",
+      "title": "LIVE! Bayern mit Kimmich, BVB mit Beier: Die Aufstellungen im Topspiel",
+      "published": "2026-10-31T16:32:57+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
+    },
+    "049897c9293a4794": {
+      "source": "Kicker",
+      "title": "Rayo - Vigo: Tor zum 2:0 durch de Frutos in der 55. Minute",
+      "published": "2026-10-31T16:37:58+00:00",
+      "first_seen": "2026-11-01T02:51:00.175729+10:00",
+      "category": "football"
     }
   }
 }

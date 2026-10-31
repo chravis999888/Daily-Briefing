@@ -1,35 +1,6 @@
 {
   "runs": [
     {
-      "timestamp": "2026-10-27T22:52:54.448489+10:00",
-      "run_type": "breaking_only",
-      "outcome": "ok",
-      "data_good": true,
-      "claude_calls": 0,
-      "claude_calls_errored": 0,
-      "reasons": [],
-      "reason": "claude_off",
-      "categories": {
-        "breaking": {
-          "fetched": 40,
-          "new": 17,
-          "duplicates": 0,
-          "has_new": true,
-          "new_by_source": {
-            "Al Jazeera": 15,
-            "BBC News": 2
-          },
-          "blocked": "claude_disabled",
-          "claude_off": true
-        }
-      },
-      "errors": [
-        "GDELT fetch failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the; RSS fallback failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the"
-      ],
-      "banner_deploy": false,
-      "alerted": false
-    },
-    {
       "timestamp": "2026-10-28T00:47:40.454503+10:00",
       "run_type": "breaking_only",
       "outcome": "ok",
@@ -1941,88 +1912,75 @@
       "errors": [],
       "banner_deploy": false,
       "alerted": false
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "outcome": "ok",
+      "data_good": true,
+      "claude_calls": 0,
+      "claude_calls_errored": 0,
+      "reasons": [],
+      "reason": "claude_off",
+      "categories": {
+        "breaking": {
+          "fetched": 40,
+          "new": 9,
+          "duplicates": 0,
+          "has_new": true,
+          "new_by_source": {
+            "Al Jazeera": 6,
+            "BBC News": 3
+          },
+          "blocked": "claude_disabled",
+          "claude_off": true
+        },
+        "australia": {
+          "fetched": 60,
+          "new": 8,
+          "duplicates": 5,
+          "has_new": true,
+          "new_by_source": {
+            "SMH": 5,
+            "ABC News": 3
+          },
+          "blocked": "claude_disabled",
+          "claude_off": true
+        },
+        "archaeology": {
+          "fetched": 90,
+          "new": 3,
+          "duplicates": 0,
+          "has_new": true,
+          "new_by_source": {
+            "ScienceDaily": 2,
+            "PhysOrg": 1
+          },
+          "blocked": "claude_disabled",
+          "claude_off": true
+        },
+        "football": {
+          "fetched": 40,
+          "new": 27,
+          "duplicates": 0,
+          "has_new": true,
+          "new_by_source": {
+            "Kicker": 20,
+            "Marca": 7
+          },
+          "blocked": "claude_disabled",
+          "claude_off": true
+        }
+      },
+      "errors": [
+        "GDELT fetch failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the; RSS fallback failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the"
+      ],
+      "banner_deploy": false,
+      "alerted": false
     }
   ],
   "errors": [
     {
-      "timestamp": "2026-10-31T09:28:10.814620+10:00",
-      "run_type": "full",
-      "source": "Guardian",
-      "message": "0 articles returned"
-    },
-    {
-      "timestamp": "2026-10-31T09:28:10.814620+10:00",
-      "run_type": "full",
-      "source": "L'Equipe",
-      "message": "HTTP 403 \u2014 <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;lequipe&#46;fr&#47;rss&#47;actu&#95;rss&#95;Football&#4"
-    },
-    {
-      "timestamp": "2026-10-31T09:28:10.814620+10:00",
-      "run_type": "full",
-      "source": "ESPN FC",
-      "message": "0 articles returned"
-    },
-    {
-      "timestamp": "2026-10-31T09:28:10.814620+10:00",
-      "run_type": "full",
-      "source": "UEFA",
-      "message": "HTTP 404 \u2014 \n\n\n\n\n\n\n\n\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" data-lang=\"en\" data-culture=\"en-GB\">\n\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website# \">\n  <title>Err"
-    },
-    {
-      "timestamp": "2026-10-31T09:28:10.814620+10:00",
-      "run_type": "full",
-      "source": "Goal.com",
-      "message": "HTTP 404 \u2014 Not Found"
-    },
-    {
-      "timestamp": "2026-10-31T09:57:00.478693+10:00",
-      "run_type": "breaking_only",
-      "source": "Guardian",
-      "message": "0 articles returned"
-    },
-    {
-      "timestamp": "2026-10-31T09:57:00.478693+10:00",
-      "run_type": "breaking_only",
-      "source": "Reuters",
-      "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "timestamp": "2026-10-31T09:57:00.478693+10:00",
-      "run_type": "breaking_only",
-      "source": "AP News",
-      "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
-    },
-    {
-      "timestamp": "2026-10-31T10:15:41.118304+10:00",
-      "run_type": "breaking_only",
-      "source": "Guardian",
-      "message": "0 articles returned"
-    },
-    {
-      "timestamp": "2026-10-31T10:15:41.118304+10:00",
-      "run_type": "breaking_only",
-      "source": "Reuters",
-      "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
-    },
-    {
-      "timestamp": "2026-10-31T10:15:41.118304+10:00",
-      "run_type": "breaking_only",
-      "source": "AP News",
-      "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
-    },
-    {
-      "timestamp": "2026-10-31T14:09:10.449387+10:00",
-      "run_type": "full",
-      "source": "GDELT",
-      "message": "GDELT fetch failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the; RSS fallback failed: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=10)"
-    },
-    {
-      "timestamp": "2026-10-31T14:09:10.449387+10:00",
-      "run_type": "full",
-      "source": "Guardian",
-      "message": "0 articles returned"
-    },
-    {
       "timestamp": "2026-10-31T14:09:10.449387+10:00",
       "run_type": "full",
       "source": "Reuters",
@@ -2243,36 +2201,114 @@
       "run_type": "breaking_only",
       "source": "AP News",
       "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "GDELT",
+      "message": "GDELT fetch failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the; RSS fallback failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "Guardian",
+      "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "Reuters",
+      "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "AP News",
+      "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "NewsData",
+      "message": "unexpected response (no results list)"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "NewsData",
+      "message": "unexpected response (no results list)"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "EurekAlert",
+      "message": "HTTP 404 \u2014 <h1 style=\"font-family: sans-serif; font-size: 34px;\">Content not found</h1>\n<p style=\"font-family: sans-serif; font-size: 14px;\">The content you're trying to access no longer exists or you've tried t"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "The Conversation",
+      "message": "HTTP 404 \u2014 "
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "Guardian",
+      "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "L'Equipe",
+      "message": "HTTP 403 \u2014 <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;lequipe&#46;fr&#47;rss&#47;actu&#95;rss&#95;Football&#4"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "ESPN FC",
+      "message": "0 articles returned"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "UEFA",
+      "message": "HTTP 404 \u2014 \n\n\n\n\n\n\n\n\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" data-lang=\"en\" data-culture=\"en-GB\">\n\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website# \">\n  <title>Err"
+    },
+    {
+      "timestamp": "2026-11-01T02:51:00.252945+10:00",
+      "run_type": "full",
+      "source": "Goal.com",
+      "message": "HTTP 404 \u2014 Not Found"
     }
   ],
   "api_cost_ledger": {
-    "as_of": "2026-10-31T23:13:21.370245+10:00",
+    "as_of": "2026-11-01T02:51:00.253069+10:00",
     "aud_rate_display_only": 1.55,
     "legacy_rows_excluded": 314,
     "today": {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "calls": 0,
-      "calls_skipped": 21,
+      "calls_skipped": 4,
       "skipped_by_step": {
         "archaeology_selection": {
-          "calls": 2,
+          "calls": 1,
           "usd": 0.0
         },
         "australia_selection": {
-          "calls": 4,
+          "calls": 1,
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 11,
+          "calls": 1,
           "usd": 0.0
         },
         "football_selection": {
-          "calls": 4,
+          "calls": 1,
           "usd": 0.0
         }
       },
       "skipped_by_reason": {
-        "claude_disabled": 21
+        "claude_disabled": 4
       },
       "total_usd": 0,
       "total_aud": 0.0,
@@ -2284,155 +2320,43 @@
       "by_outcome": {}
     },
     "month_to_date": {
-      "month": "2026-10",
-      "calls": 511,
-      "calls_skipped": 498,
+      "month": "2026-11",
+      "calls": 0,
+      "calls_skipped": 4,
       "skipped_by_step": {
         "archaeology_selection": {
-          "calls": 58,
+          "calls": 1,
           "usd": 0.0
         },
         "australia_selection": {
-          "calls": 92,
+          "calls": 1,
           "usd": 0.0
         },
         "breaking_selection": {
-          "calls": 260,
+          "calls": 1,
           "usd": 0.0
         },
         "football_selection": {
-          "calls": 88,
+          "calls": 1,
           "usd": 0.0
         }
       },
       "skipped_by_reason": {
-        "claude_disabled": 498
+        "claude_disabled": 4
       },
-      "total_usd": 1.541755,
-      "total_aud": 2.38972,
-      "wasted_usd": 0.181689,
-      "wasted_aud": 0.281618,
-      "by_step": {
-        "archaeology_selection": {
-          "calls": 32,
-          "usd": 0.064725
-        },
-        "archaeology_selection:haiku_fallback": {
-          "calls": 28,
-          "usd": 0.0
-        },
-        "australia_selection": {
-          "calls": 32,
-          "usd": 0.09915
-        },
-        "australia_selection:haiku_fallback": {
-          "calls": 28,
-          "usd": 0.0
-        },
-        "breaking_context_search": {
-          "calls": 10,
-          "usd": 0.760002
-        },
-        "breaking_selection": {
-          "calls": 68,
-          "usd": 0.124701
-        },
-        "breaking_selection:haiku_fallback": {
-          "calls": 59,
-          "usd": 0.0
-        },
-        "developing_situations": {
-          "calls": 68,
-          "usd": 0.043736
-        },
-        "football_context_search": {
-          "calls": 8,
-          "usd": 0.184768
-        },
-        "football_selection": {
-          "calls": 32,
-          "usd": 0.109428
-        },
-        "football_selection:haiku_fallback": {
-          "calls": 28,
-          "usd": 0.0
-        },
-        "story_summary": {
-          "calls": 28,
-          "usd": 0.097125
-        },
-        "world_topics_month": {
-          "calls": 30,
-          "usd": 0.038067
-        },
-        "world_topics_today": {
-          "calls": 30,
-          "usd": 0.006618
-        },
-        "world_topics_week": {
-          "calls": 30,
-          "usd": 0.013435
-        }
-      },
-      "by_category": {
-        "archaeology": {
-          "calls": 60,
-          "usd": 0.064725
-        },
-        "australia": {
-          "calls": 60,
-          "usd": 0.09915
-        },
-        "breaking": {
-          "calls": 137,
-          "usd": 0.884703
-        },
-        "developing": {
-          "calls": 68,
-          "usd": 0.043736
-        },
-        "football": {
-          "calls": 68,
-          "usd": 0.294196
-        },
-        "summary": {
-          "calls": 28,
-          "usd": 0.097125
-        },
-        "world_topics": {
-          "calls": 90,
-          "usd": 0.05812
-        }
-      },
-      "by_model": {
-        "claude-haiku-4-5-20251001": {
-          "calls": 309,
-          "usd": 0.286624
-        },
-        "claude-sonnet-4-6": {
-          "calls": 202,
-          "usd": 1.255131
-        }
-      },
-      "by_outcome": {
-        "error": {
-          "calls": 429,
-          "usd": 0.0
-        },
-        "ok": {
-          "calls": 75,
-          "usd": 1.360066
-        },
-        "truncated": {
-          "calls": 7,
-          "usd": 0.181689
-        }
-      }
+      "total_usd": 0,
+      "total_aud": 0.0,
+      "wasted_usd": 0,
+      "wasted_aud": 0.0,
+      "by_step": {},
+      "by_category": {},
+      "by_model": {},
+      "by_outcome": {}
     },
     "cap": {
-      "month_to_date_aud": 2.3897,
+      "month_to_date_aud": 0.0,
       "monthly_cap_aud": 15.0,
-      "percent_used": 15.9,
+      "percent_used": 0.0,
       "state": "ok"
     }
   },
@@ -2440,347 +2364,347 @@
     "GDELT": {
       "last_success": "2026-10-27T15:49:46.447811+10:00",
       "last_error": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "message": "GDELT fetch failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the; RSS fallback failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the"
       },
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 21.22,
+        "seconds": 23.28,
         "error": "GDELT fetch failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the; RSS fallback failed: HTTP 429 \u2014 Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the"
       }
     },
     "Guardian": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-31T23:13:21.370192+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "message": "0 articles returned"
       },
       "last_run": {
-        "time": "2026-10-31T23:13:21.370192+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.6,
+        "seconds": 0.91,
         "error": "0 articles returned"
       }
     },
     "Reuters": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-31T23:13:21.370192+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "message": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
       },
       "last_run": {
-        "time": "2026-10-31T23:13:21.370192+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.03,
+        "seconds": 0.1,
         "error": "ConnectionError: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/topNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
       }
     },
     "AP News": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-31T23:13:21.370192+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "message": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
       },
       "last_run": {
-        "time": "2026-10-31T23:13:21.370192+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.11,
+        "seconds": 0.12,
         "error": "HTTP 403 \u2014 Due to cost considerations, we will gradually restrict access to rsshub.app for some feed readers.\n\nPlease note that rsshub.app is intended for testing purposes only and should not be used as a produc"
       }
     },
     "BBC News": {
-      "last_success": "2026-10-31T23:13:21.370192+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T23:13:21.370192+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.12,
+        "seconds": 0.56,
         "error": ""
       }
     },
     "Al Jazeera": {
-      "last_success": "2026-10-31T23:13:21.370192+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T23:13:21.370192+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.07,
+        "seconds": 0.22,
         "error": ""
       }
     },
     "ABC News": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.13,
+        "seconds": 0.32,
         "error": ""
       }
     },
     "SMH": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.06,
+        "seconds": 0.09,
         "error": ""
       }
     },
     "The Age": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.2,
+        "seconds": 0.29,
         "error": ""
       }
     },
     "NewsData": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "message": "unexpected response (no results list)"
       },
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.52,
+        "seconds": 0.3,
         "error": "unexpected response (no results list)"
       }
     },
     "Nature": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": {
         "time": "2026-10-11T10:46:31.919721+10:00",
         "message": "0 articles returned"
       },
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 1.16,
+        "seconds": 0.19,
         "error": ""
       }
     },
     "New Scientist": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 10,
-        "seconds": 0.71,
+        "seconds": 0.7,
         "error": ""
       }
     },
     "Science": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.54,
+        "seconds": 0.21,
         "error": ""
       }
     },
     "PhysOrg": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
-        "ok": true,
-        "count": 20,
-        "seconds": 0.3,
-        "error": ""
-      }
-    },
-    "EurekAlert": {
-      "last_success": null,
-      "last_error": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
-        "message": "HTTP 404 \u2014 <h1 style=\"font-family: sans-serif; font-size: 34px;\">Content not found</h1>\n<p style=\"font-family: sans-serif; font-size: 14px;\">The content you're trying to access no longer exists or you've tried t"
-      },
-      "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
-        "ok": false,
-        "count": 0,
-        "seconds": 0.14,
-        "error": "HTTP 404 \u2014 <h1 style=\"font-family: sans-serif; font-size: 34px;\">Content not found</h1>\n<p style=\"font-family: sans-serif; font-size: 14px;\">The content you're trying to access no longer exists or you've tried t"
-      }
-    },
-    "ScienceDaily": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
-      "last_error": null,
-      "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
-        "ok": true,
-        "count": 20,
-        "seconds": 0.33,
-        "error": ""
-      }
-    },
-    "The Conversation": {
-      "last_success": null,
-      "last_error": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
-        "message": "HTTP 404 \u2014 "
-      },
-      "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
-        "ok": false,
-        "count": 0,
-        "seconds": 0.18,
-        "error": "HTTP 404 \u2014 "
-      }
-    },
-    "Marca": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
-      "last_error": null,
-      "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
-        "ok": true,
-        "count": 20,
-        "seconds": 0.09,
-        "error": ""
-      }
-    },
-    "Kicker": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
-      "last_error": null,
-      "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
         "seconds": 0.13,
         "error": ""
       }
     },
+    "EurekAlert": {
+      "last_success": null,
+      "last_error": {
+        "time": "2026-11-01T02:51:00.252945+10:00",
+        "message": "HTTP 404 \u2014 <h1 style=\"font-family: sans-serif; font-size: 34px;\">Content not found</h1>\n<p style=\"font-family: sans-serif; font-size: 14px;\">The content you're trying to access no longer exists or you've tried t"
+      },
+      "last_run": {
+        "time": "2026-11-01T02:51:00.252945+10:00",
+        "ok": false,
+        "count": 0,
+        "seconds": 0.47,
+        "error": "HTTP 404 \u2014 <h1 style=\"font-family: sans-serif; font-size: 34px;\">Content not found</h1>\n<p style=\"font-family: sans-serif; font-size: 14px;\">The content you're trying to access no longer exists or you've tried t"
+      }
+    },
+    "ScienceDaily": {
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
+      "last_error": null,
+      "last_run": {
+        "time": "2026-11-01T02:51:00.252945+10:00",
+        "ok": true,
+        "count": 20,
+        "seconds": 0.17,
+        "error": ""
+      }
+    },
+    "The Conversation": {
+      "last_success": null,
+      "last_error": {
+        "time": "2026-11-01T02:51:00.252945+10:00",
+        "message": "HTTP 404 \u2014 "
+      },
+      "last_run": {
+        "time": "2026-11-01T02:51:00.252945+10:00",
+        "ok": false,
+        "count": 0,
+        "seconds": 0.23,
+        "error": "HTTP 404 \u2014 "
+      }
+    },
+    "Marca": {
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
+      "last_error": null,
+      "last_run": {
+        "time": "2026-11-01T02:51:00.252945+10:00",
+        "ok": true,
+        "count": 20,
+        "seconds": 0.16,
+        "error": ""
+      }
+    },
+    "Kicker": {
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
+      "last_error": null,
+      "last_run": {
+        "time": "2026-11-01T02:51:00.252945+10:00",
+        "ok": true,
+        "count": 20,
+        "seconds": 0.3,
+        "error": ""
+      }
+    },
     "L'Equipe": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "message": "HTTP 403 \u2014 <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;lequipe&#46;fr&#47;rss&#47;actu&#95;rss&#95;Football&#4"
       },
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.09,
+        "seconds": 0.43,
         "error": "HTTP 403 \u2014 <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;lequipe&#46;fr&#47;rss&#47;actu&#95;rss&#95;Football&#4"
       }
     },
     "Gazzetta dello Sport": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 1.23,
+        "seconds": 0.87,
         "error": ""
       }
     },
     "Sky Sports": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.14,
+        "seconds": 0.24,
         "error": ""
       }
     },
     "ESPN FC": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "message": "0 articles returned"
       },
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.03,
+        "seconds": 0.07,
         "error": "0 articles returned"
       }
     },
     "BBC Sport": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 0.23,
+        "seconds": 0.33,
         "error": ""
       }
     },
     "Football Italia": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": {
         "time": "2026-10-20T23:20:50.362360+10:00",
         "message": "HTTP 503 \u2014 <!DOCTYPE html>\n<html>\n  <head>\n    <title>503 Backend fetch failed</title>\n  </head>\n  <body>\n    <h1>Error 503 Backend fetch failed</h1>\n    <p>Backend fetch failed</p>\n    <h3>Guru Meditation:</h3>"
       },
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
         "count": 20,
-        "seconds": 1.52,
+        "seconds": 1.12,
         "error": ""
       }
     },
     "Bundesliga": {
-      "last_success": "2026-10-31T21:43:00.089080+10:00",
+      "last_success": "2026-11-01T02:51:00.252945+10:00",
       "last_error": null,
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": true,
-        "count": 17,
-        "seconds": 0.81,
+        "count": 20,
+        "seconds": 0.65,
         "error": ""
       }
     },
     "UEFA": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "message": "HTTP 404 \u2014 \n\n\n\n\n\n\n\n\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" data-lang=\"en\" data-culture=\"en-GB\">\n\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website# \">\n  <title>Err"
       },
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.28,
+        "seconds": 0.39,
         "error": "HTTP 404 \u2014 \n\n\n\n\n\n\n\n\n<!DOCTYPE html>\n<html lang=\"en\" dir=\"ltr\" data-lang=\"en\" data-culture=\"en-GB\">\n\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website# \">\n  <title>Err"
       }
     },
     "Goal.com": {
       "last_success": null,
       "last_error": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "message": "HTTP 404 \u2014 Not Found"
       },
       "last_run": {
-        "time": "2026-10-31T21:43:00.089080+10:00",
+        "time": "2026-11-01T02:51:00.252945+10:00",
         "ok": false,
         "count": 0,
-        "seconds": 0.05,
+        "seconds": 0.17,
         "error": "HTTP 404 \u2014 Not Found"
       }
     },
@@ -2792,16 +2716,16 @@
       }
     }
   },
-  "last_successful_run": "2026-10-31T23:13:21.370192+10:00",
+  "last_successful_run": "2026-11-01T02:51:00.252945+10:00",
   "last_successful_data_update": "2026-10-11T19:09:54.686274+10:00",
   "consecutive_failures": 0,
   "stale_alerted": false,
   "stale_deployed": false,
-  "month_to_date_aud": 2.3897,
+  "month_to_date_aud": 0.0,
   "monthly_cap_aud": 15.0,
   "cap_state": "ok",
-  "cap_month": "2026-10",
+  "cap_month": "2026-11",
   "cap_alerted_80": false,
   "cap_alerted_100": false,
-  "last_successful_check": "2026-10-31T21:43:00.089080+10:00"
+  "last_successful_check": "2026-11-01T02:51:00.252945+10:00"
 }

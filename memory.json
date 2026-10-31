@@ -2089,36 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-10-31T20:59:27.187942+00:00",
+  "last_gdelt_attempt": "2026-10-31T23:31:31.418776+00:00",
   "article_store": {
-    "fd7dab0cce59f457": {
-      "source": "Al Jazeera",
-      "title": "Brazil\u2019s candidates hold final rallies before knife-edge run off",
-      "published": "2026-10-24T21:36:23+00:00",
-      "first_seen": "2026-10-25T08:37:40.961452+10:00",
-      "category": "breaking"
-    },
-    "1658cc6f4dd2dc07": {
-      "source": "Al Jazeera",
-      "title": "Brazil\u2019s Lula, Bolsonaro draw thousands to election-eve rallies",
-      "published": "2026-10-24T21:39:29+00:00",
-      "first_seen": "2026-10-25T08:37:40.961452+10:00",
-      "category": "breaking"
-    },
-    "dbf108630aaa5f0e": {
-      "source": "BBC News",
-      "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
-      "published": "2026-10-24T21:58:08+00:00",
-      "first_seen": "2026-10-25T08:37:40.961452+10:00",
-      "category": "breaking"
-    },
-    "b1a0104ed8c1dd48": {
-      "source": "BBC News",
-      "title": "The Papers: 'Cops didn't share letter' and 'Burnham open to EU free movement'",
-      "published": "2026-10-24T22:31:41+00:00",
-      "first_seen": "2026-10-25T08:37:40.961452+10:00",
-      "category": "breaking"
-    },
     "26315826209faa6b": {
       "source": "Al Jazeera",
       "title": "How have Democrats\u2019 policies shifted since the last major US election?",
@@ -24892,6 +24864,48 @@
       "title": "Fiery confrontations between protestors and police in Albania",
       "published": "2026-10-31T21:12:46+00:00",
       "first_seen": "2026-11-01T08:04:28.816770+10:00",
+      "category": "breaking"
+    },
+    "c50c32d089413191": {
+      "source": "Al Jazeera",
+      "title": "Legal filing questions Trump\u2019s claims of non-citizen voting in California",
+      "published": "2026-10-31T21:38:54+00:00",
+      "first_seen": "2026-11-01T09:31:53.154821+10:00",
+      "category": "breaking"
+    },
+    "6deb9477e3c1968c": {
+      "source": "BBC News",
+      "title": "Why did this Korean content creator throw a divorce ceremony?",
+      "published": "2026-10-31T22:01:39+00:00",
+      "first_seen": "2026-11-01T09:31:53.154821+10:00",
+      "category": "breaking"
+    },
+    "bef31fa2ba2cd6a8": {
+      "source": "Al Jazeera",
+      "title": "Palestine Action supporters arrested outside US embassy in London",
+      "published": "2026-10-31T22:10:53+00:00",
+      "first_seen": "2026-11-01T09:31:53.154821+10:00",
+      "category": "breaking"
+    },
+    "6d02390d07491873": {
+      "source": "Al Jazeera",
+      "title": "Trump loses legal battle over Epstein-linked Wall Street Journal case",
+      "published": "2026-10-31T22:36:41+00:00",
+      "first_seen": "2026-11-01T09:31:53.154821+10:00",
+      "category": "breaking"
+    },
+    "4756fc59b3352f0a": {
+      "source": "Al Jazeera",
+      "title": "Dutch authorities rescue 38 people adrift in rubber boat",
+      "published": "2026-10-31T22:38:03+00:00",
+      "first_seen": "2026-11-01T09:31:53.154821+10:00",
+      "category": "breaking"
+    },
+    "f95b11ec132a2b3b": {
+      "source": "BBC News",
+      "title": "King to address slavery during Commonwealth speech in Antigua on final leg of Caribbean tour",
+      "published": "2026-10-31T22:56:15+00:00",
+      "first_seen": "2026-11-01T09:31:53.154821+10:00",
       "category": "breaking"
     }
   }

@@ -2091,83 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-11-01T15:23:09.865217+00:00",
   "article_store": {
-    "1cc15881eea0f528": {
-      "source": "Al Jazeera",
-      "title": "Thousands mourn victims of deadly Jordan church attack",
-      "published": "2026-10-25T15:21:26+00:00",
-      "first_seen": "2026-10-26T02:40:32.558234+10:00",
-      "category": "breaking"
-    },
-    "929a60962dc87402": {
-      "source": "BBC News",
-      "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-      "published": "2026-10-25T15:32:51+00:00",
-      "first_seen": "2026-10-26T02:40:32.558234+10:00",
-      "category": "breaking"
-    },
-    "f3aaac77f2002d4d": {
-      "source": "Al Jazeera",
-      "title": "UN official warns AI could \u2018deepen\u2019 global inequality",
-      "published": "2026-10-25T15:38:52+00:00",
-      "first_seen": "2026-10-26T02:40:32.558234+10:00",
-      "category": "breaking"
-    },
-    "90fd25d5e400c10f": {
-      "source": "Al Jazeera",
-      "title": "Seven killed in Gaza as Israel targets university campus and other sites",
-      "published": "2026-10-25T15:40:25+00:00",
-      "first_seen": "2026-10-26T02:40:32.558234+10:00",
-      "category": "breaking"
-    },
-    "3e7176795d4b3960": {
-      "source": "Al Jazeera",
-      "title": "Israeli soldiers beat elderly Palestinian in Hebron",
-      "published": "2026-10-25T16:11:37+00:00",
-      "first_seen": "2026-10-26T02:40:32.558234+10:00",
-      "category": "breaking"
-    },
-    "76dcebc49a6819fe": {
-      "source": "Al Jazeera",
-      "title": "Jordanians mourn victims of deadly church attack",
-      "published": "2026-10-25T16:16:48+00:00",
-      "first_seen": "2026-10-26T02:40:32.558234+10:00",
-      "category": "breaking"
-    },
-    "4d9c7fe6a4645430": {
-      "source": "BBC News",
-      "title": "Venezuelan opposition leader Mar\u00eda Machado returns after months in exile",
-      "published": "2026-10-25T16:21:40+00:00",
-      "first_seen": "2026-10-26T02:40:32.558234+10:00",
-      "category": "breaking"
-    },
-    "c33084738f32e4bb": {
-      "source": "Al Jazeera",
-      "title": "Barcelona vs Real Madrid LIVE: La Liga El Clasico",
-      "published": "2026-10-25T16:30:00+00:00",
-      "first_seen": "2026-10-26T02:40:32.558234+10:00",
-      "category": "breaking"
-    },
-    "dd93e08f862d9c4b": {
-      "source": "Al Jazeera",
-      "title": "Israel\u2019s \u2018Generation Right\u2019 could shape Netanyahu\u2019s future",
-      "published": "2026-10-25T16:30:51+00:00",
-      "first_seen": "2026-10-26T02:40:32.558234+10:00",
-      "category": "breaking"
-    },
-    "c56fa7a66e40cd1f": {
-      "source": "BBC News",
-      "title": "Coming soon: Sir David Attenborough's next great ocean journey",
-      "published": "2026-05-08T21:02:30+00:00",
-      "first_seen": "2026-10-26T02:54:56.251517+10:00",
-      "category": "breaking"
-    },
-    "095c0638534483b4": {
-      "source": "BBC News",
-      "title": "The Secrets Of Creating A Budget",
-      "published": "2026-10-24T00:00:00+00:00",
-      "first_seen": "2026-10-26T02:54:56.251517+10:00",
-      "category": "breaking"
-    },
     "d530e4d3301aaadd": {
       "source": "BBC News",
       "title": "Murder probe after man dies in 'targeted' attack",
@@ -24884,6 +24807,20 @@
       "published": "2026-11-01T16:28:24+00:00",
       "first_seen": "2026-11-02T02:34:43.772153+10:00",
       "category": "football"
+    },
+    "8e440b3c51cb3fc4": {
+      "source": "Al Jazeera",
+      "title": "Russia detains minor over alleged Moscow attack plot after US warning",
+      "published": "2026-11-01T16:24:16+00:00",
+      "first_seen": "2026-11-02T02:57:42.794628+10:00",
+      "category": "breaking"
+    },
+    "5954541ac1d0a54e": {
+      "source": "Al Jazeera",
+      "title": "India protesters march with 1km banner of deleted voters\u2019 names",
+      "published": "2026-11-01T16:42:18+00:00",
+      "first_seen": "2026-11-02T02:57:42.794628+10:00",
+      "category": "breaking"
     }
   }
 }

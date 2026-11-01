@@ -2091,62 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-11-01T20:41:39.826149+00:00",
   "article_store": {
-    "a65ce3c0212041bd": {
-      "source": "BBC News",
-      "title": "England lose to Pakistan after stunning Shadab ton",
-      "published": "2026-10-25T16:34:17+00:00",
-      "first_seen": "2026-10-26T07:04:04.867294+10:00",
-      "category": "breaking"
-    },
-    "4309a47fc6e99286": {
-      "source": "Al Jazeera",
-      "title": "Serbia voter turnout highest in decades as students oppose longtime leader",
-      "published": "2026-10-25T19:19:54+00:00",
-      "first_seen": "2026-10-26T07:04:04.867294+10:00",
-      "category": "breaking"
-    },
-    "9c2f4bea9633690b": {
-      "source": "Al Jazeera",
-      "title": "Iraqis mark seven years since Tishreen protests with reform demands",
-      "published": "2026-10-25T19:36:05+00:00",
-      "first_seen": "2026-10-26T07:04:04.867294+10:00",
-      "category": "breaking"
-    },
-    "cb6c53e1edd5f7b4": {
-      "source": "Al Jazeera",
-      "title": "The narrative battle over France\u2019s unrest",
-      "published": "2026-10-25T19:36:14+00:00",
-      "first_seen": "2026-10-26T07:04:04.867294+10:00",
-      "category": "breaking"
-    },
-    "58dd76d6c952bad2": {
-      "source": "Al Jazeera",
-      "title": "Brazil election results 2026 live: Top court extends voting for two hours",
-      "published": "2026-10-25T20:00:04+00:00",
-      "first_seen": "2026-10-26T07:04:04.867294+10:00",
-      "category": "breaking"
-    },
-    "439f16a5356f1098": {
-      "source": "Al Jazeera",
-      "title": "Can Carrick survive Man United\u2019s slump and Fernandes fallout?",
-      "published": "2026-10-25T20:01:00+00:00",
-      "first_seen": "2026-10-26T07:04:04.867294+10:00",
-      "category": "breaking"
-    },
-    "cc2a6a452af1d169": {
-      "source": "BBC News",
-      "title": "Man killed by falling tree as Storm Boelo leaves 160,000 properties without power",
-      "published": "2026-10-25T20:32:27+00:00",
-      "first_seen": "2026-10-26T07:04:04.867294+10:00",
-      "category": "breaking"
-    },
-    "c15e9b1a31d6cda9": {
-      "source": "BBC News",
-      "title": "Serbia's Vu\u010di\u0107 concedes election defeat to student-led protest movement",
-      "published": "2026-10-25T21:01:59+00:00",
-      "first_seen": "2026-10-26T07:04:04.867294+10:00",
-      "category": "breaking"
-    },
     "15d780e25c4f5e90": {
       "source": "Al Jazeera",
       "title": "Kenya bus crash kills at least 24 as government vows road safety crackdown",
@@ -24115,6 +24059,803 @@
       "published": "2026-11-01T20:31:17+00:00",
       "first_seen": "2026-11-02T06:57:24.674360+10:00",
       "category": "breaking"
+    },
+    "281873d63e96c3d3": {
+      "source": "Al Jazeera",
+      "title": "Bulgaria\u2019s acting President Iotova leads in run-off exit polls",
+      "published": "2026-11-01T20:43:33+00:00",
+      "first_seen": "2026-11-02T07:42:38.651970+10:00",
+      "category": "breaking"
+    },
+    "c399e0db8aad7c14": {
+      "source": "Al Jazeera",
+      "title": "Al Jazeera Director General hails 30 years of groundbreaking news",
+      "published": "2026-11-01T20:48:00+00:00",
+      "first_seen": "2026-11-02T07:42:38.651970+10:00",
+      "category": "breaking"
+    },
+    "83b9fc92b68c2cb6": {
+      "source": "Al Jazeera",
+      "title": "Why did Democrat Haley Stevens just endorse a Republican for US Senate?",
+      "published": "2026-11-01T21:00:52+00:00",
+      "first_seen": "2026-11-02T07:42:38.651970+10:00",
+      "category": "breaking"
+    },
+    "7848f34b42e396a0": {
+      "source": "Al Jazeera",
+      "title": "Carney signals progress on Canada-US trade deal talks as midterms loom",
+      "published": "2026-11-01T21:01:33+00:00",
+      "first_seen": "2026-11-02T07:42:38.651970+10:00",
+      "category": "breaking"
+    },
+    "2114e0fe386a6187": {
+      "source": "Al Jazeera",
+      "title": "Thousands displaced from Hebron as Israel carries on siege",
+      "published": "2026-11-01T21:28:47+00:00",
+      "first_seen": "2026-11-02T07:42:38.651970+10:00",
+      "category": "breaking"
+    },
+    "4ce20a727931e17c": {
+      "source": "Al Jazeera",
+      "title": "Democrat Haley Stevens heckled as she backs El-Sayed rival",
+      "published": "2026-11-01T21:29:43+00:00",
+      "first_seen": "2026-11-02T07:42:38.651970+10:00",
+      "category": "breaking"
+    },
+    "d093696fe66813a7": {
+      "source": "SMH",
+      "title": "My suburb is split between grotty sharehouses and ritzy family homes. That\u2019s its charm",
+      "published": "2026-11-01T19:00:00+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "d3fddddb8ba60628": {
+      "source": "The Age",
+      "title": "My suburb is split between grotty sharehouses and ritzy family homes. That\u2019s its charm",
+      "published": "2026-11-01T19:00:00+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "d093696fe66813a7"
+    },
+    "c91ae22929f7ec57": {
+      "source": "SMH",
+      "title": "Two men killed in Melbourne road crash",
+      "published": "2026-11-01T19:03:08+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "a1d95a542144fb4f": {
+      "source": "The Age",
+      "title": "Two men killed in Melbourne road crash",
+      "published": "2026-11-01T19:03:08+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "c91ae22929f7ec57"
+    },
+    "3821761462c397a4": {
+      "source": "SMH",
+      "title": "Man charged over allegedly giving Nazi salute",
+      "published": "2026-11-01T19:03:22+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "d282bdb5cb59c326": {
+      "source": "The Age",
+      "title": "Man charged over allegedly giving Nazi salute",
+      "published": "2026-11-01T19:03:22+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "3821761462c397a4"
+    },
+    "85cef2bbe674f31b": {
+      "source": "SMH",
+      "title": "House prices fall for seventh month",
+      "published": "2026-11-01T19:13:58+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "f67d30cb85dd2939": {
+      "source": "The Age",
+      "title": "House prices fall for seventh month",
+      "published": "2026-11-01T19:13:58+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "85cef2bbe674f31b"
+    },
+    "79fe4648309d0df2": {
+      "source": "SMH",
+      "title": "NSW gun buyback begins",
+      "published": "2026-11-01T19:15:53+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "c7dfff05a4f8b3b3": {
+      "source": "The Age",
+      "title": "NSW gun buyback begins",
+      "published": "2026-11-01T19:15:53+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "79fe4648309d0df2"
+    },
+    "66863def2f099d6a": {
+      "source": "SMH",
+      "title": "Mexican F1 GP LIVE: Kimi Antonelli set to clinch championship; Ocon denies violence allegations",
+      "published": "2026-11-01T19:17:26+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "f5211127aad5a283": {
+      "source": "The Age",
+      "title": "Mexican F1 GP LIVE: Kimi Antonelli set to clinch championship; Ocon denies violence allegations",
+      "published": "2026-11-01T19:17:26+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "66863def2f099d6a"
+    },
+    "832c3d5cbe95bc9d": {
+      "source": "ABC News",
+      "title": "'Largest mass mortality' of sharks and rays recorded, expert says",
+      "published": "2026-11-01T19:23:37+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "7c156b66b32aa138": {
+      "source": "SMH",
+      "title": "Countdown to US midterm elections",
+      "published": "2026-11-01T19:25:34+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "6c7ded8b7967584c": {
+      "source": "The Age",
+      "title": "Countdown to US midterm elections",
+      "published": "2026-11-01T19:25:34+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "7c156b66b32aa138"
+    },
+    "aaf32c4765f02ed0": {
+      "source": "ABC News",
+      "title": "Gun owners can return weapons at six NSW police stations but bookings are full",
+      "published": "2026-11-01T19:27:22+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "0cbd371354281b29": {
+      "source": "SMH",
+      "title": "Germany blames migrants and leftists as \u2018Gen Z\u2019 protests turn violent",
+      "published": "2026-11-01T19:28:20+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "5ab61583379acf20": {
+      "source": "The Age",
+      "title": "Germany blames migrants and leftists as \u2018Gen Z\u2019 protests turn violent",
+      "published": "2026-11-01T19:28:20+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "0cbd371354281b29"
+    },
+    "b69432cf341df76f": {
+      "source": "ABC News",
+      "title": "Protesters loot shops, 100 officers injured as riots spread to Germany",
+      "published": "2026-11-01T19:31:10+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "9b2089fc1561ed6e": {
+      "source": "SMH",
+      "title": "Germany vows to crackdown on protesters",
+      "published": "2026-11-01T19:42:14+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "ee38eddb088f55e6": {
+      "source": "The Age",
+      "title": "Germany vows to crackdown on protesters",
+      "published": "2026-11-01T19:42:14+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "9b2089fc1561ed6e"
+    },
+    "7783119585df9af3": {
+      "source": "ABC News",
+      "title": "DV survivor told to pay child support to abuser she says earns $300k",
+      "published": "2026-11-01T19:43:33+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "d61f021af0798253": {
+      "source": "ABC News",
+      "title": "'Annoying' Alcaraz denies de Minaur Vienna Open title in final",
+      "published": "2026-11-01T19:47:48+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "09f7678e1efd6e89": {
+      "source": "ABC News",
+      "title": "Gold Coast mayor took controversial Trump invoice out of office",
+      "published": "2026-11-01T19:48:27+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "276c45ef5d57fc1b": {
+      "source": "SMH",
+      "title": "Tonga 'daring to dream' after thrilling victory",
+      "published": "2026-11-01T19:54:39+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "0034372e317587c9": {
+      "source": "The Age",
+      "title": "Tonga 'daring to dream' after thrilling victory",
+      "published": "2026-11-01T19:54:39+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "276c45ef5d57fc1b"
+    },
+    "4674453a0277349e": {
+      "source": "ABC News",
+      "title": "Live:",
+      "published": "2026-11-01T19:59:19+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "c2d54d68faf050e0": {
+      "source": "ABC News",
+      "title": "Live:",
+      "published": "2026-11-01T19:59:19+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "8a703367d6e8761a": {
+      "source": "ABC News",
+      "title": "'Despicable betrayal': Democrat backs GOP candidate in key midterms race",
+      "published": "2026-11-01T19:59:19+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "d74c844364476ff5": {
+      "source": "ABC News",
+      "title": "'Thinking with a pencil critical': Experts back NAPLAN test change",
+      "published": "2026-11-01T20:01:02+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "dcfd753198e6a367": {
+      "source": "ABC News",
+      "title": "Live: Westpac reports $6.8b profit, ASX on edge ahead of RBA meeting",
+      "published": "2026-11-01T20:01:08+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "ec5e4dcf51191ed1": {
+      "source": "ABC News",
+      "title": "Live: Albanese to seek tighter rules for British backpackers in meeting with UK PM",
+      "published": "2026-11-01T20:04:08+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "46aa3567ee9f7b51": {
+      "source": "ABC News",
+      "title": "More storms looming for SEQ as 'extreme' heatwave hits Gulf country",
+      "published": "2026-11-01T20:12:18+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "73d44b0520d1dc60": {
+      "source": "SMH",
+      "title": "Alcaraz cruises past Aussie de Minaur",
+      "published": "2026-11-01T20:24:25+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "a91c5f05abc47b90": {
+      "source": "The Age",
+      "title": "Alcaraz cruises past Aussie de Minaur",
+      "published": "2026-11-01T20:24:25+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "73d44b0520d1dc60"
+    },
+    "bf8ab1fb6f9515e4": {
+      "source": "SMH",
+      "title": "Heavy storms hit south-east Queensland",
+      "published": "2026-11-01T20:24:39+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "c3e12d84b9e46c31": {
+      "source": "The Age",
+      "title": "Heavy storms hit south-east Queensland",
+      "published": "2026-11-01T20:24:39+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "bf8ab1fb6f9515e4"
+    },
+    "8d8f39d12ec45da5": {
+      "source": "ABC News",
+      "title": "Sports journalist with gambling addiction shown sympathy by ex-boss",
+      "published": "2026-11-01T20:25:16+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "70e7639c8d60ed52": {
+      "source": "ABC News",
+      "title": "Trump rallies for embattled Senate seats after Halloween bash detour",
+      "published": "2026-11-01T20:35:48+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "a07b98b9e1c482a4": {
+      "source": "ABC News",
+      "title": "'We have 50 cameras': Arsenal's drought-breaking win marred by VAR drama",
+      "published": "2026-11-01T20:35:50+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "2b92db9ee62973c5": {
+      "source": "SMH",
+      "title": "Australia news live: Qantas seeks answers on data breach, storm prompts asthma warning, property values fall further",
+      "published": "2026-11-01T20:48:40+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "fdc439037f092c97": {
+      "source": "The Age",
+      "title": "Australia news live: Qantas seeks answers on data breach, storm prompts asthma warning, property values fall further",
+      "published": "2026-11-01T20:48:40+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "2b92db9ee62973c5"
+    },
+    "229119cb0ec72cc4": {
+      "source": "ABC News",
+      "title": "Insurance unaffordable for flooded homes almost two years on from disaster",
+      "published": "2026-11-01T20:57:34+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "dceb87f9fb643539": {
+      "source": "SMH",
+      "title": "Havertz fires Arsenal clear of City",
+      "published": "2026-11-01T21:00:21+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "9fad85c2f7bf5161": {
+      "source": "The Age",
+      "title": "Havertz fires Arsenal clear of City",
+      "published": "2026-11-01T21:00:21+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "dceb87f9fb643539"
+    },
+    "0813f6bc069bd139": {
+      "source": "SMH",
+      "title": "Two dead, child injured in Brighton East as Cup weekend\u2019s horror road toll mounts",
+      "published": "2026-11-01T21:05:28+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "f55f99cf98653e94": {
+      "source": "The Age",
+      "title": "Two dead, child injured in Brighton East as Cup weekend\u2019s horror road toll mounts",
+      "published": "2026-11-01T21:05:28+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "0813f6bc069bd139"
+    },
+    "a9f25115e140f551": {
+      "source": "ABC News",
+      "title": "Israeli strikes kill eight people in Gaza, medics say",
+      "published": "2026-11-01T21:07:42+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "fd30da6be9fe36cc": {
+      "source": "SMH",
+      "title": "Business jet with nine people on board crashes in Florida",
+      "published": "2026-11-01T21:14:08+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "95fe1be85f41e364": {
+      "source": "The Age",
+      "title": "Business jet with nine people on board crashes in Florida",
+      "published": "2026-11-01T21:14:08+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "fd30da6be9fe36cc"
+    },
+    "045f70a4c55320ba": {
+      "source": "SMH",
+      "title": "Trump questioned about new Iran strikes: \u2018Would I tell you?\u2019",
+      "published": "2026-11-01T21:15:09+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "724b814ec793575f": {
+      "source": "The Age",
+      "title": "Trump questioned about new Iran strikes: \u2018Would I tell you?\u2019",
+      "published": "2026-11-01T21:15:09+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "045f70a4c55320ba"
+    },
+    "4f0dda6c01b23c31": {
+      "source": "SMH",
+      "title": "Private jet crashes in Florida",
+      "published": "2026-11-01T21:23:52+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "30d9aa1f5055f932": {
+      "source": "The Age",
+      "title": "Private jet crashes in Florida",
+      "published": "2026-11-01T21:23:52+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "4f0dda6c01b23c31"
+    },
+    "033103f8b3d32393": {
+      "source": "ABC News",
+      "title": "Crocodile climbs onto NT fisherman's boat",
+      "published": "2026-11-01T21:24:59+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "c94589e516db72b6": {
+      "source": "SMH",
+      "title": "Ferrari teammates clash on lap one",
+      "published": "2026-11-01T21:30:00+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "c61c12b50bfb5063": {
+      "source": "The Age",
+      "title": "Ferrari teammates clash on lap one",
+      "published": "2026-11-01T21:30:00+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "c94589e516db72b6"
+    },
+    "5ff7d3507ff33677": {
+      "source": "ABC News",
+      "title": "Phar Lap's little-known pre-cup trip to the country",
+      "published": "2026-11-01T21:31:52+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "62c2f5fb1c3537d2": {
+      "source": "SMH",
+      "title": "Westpac expects 11 per cent house price fall, posts $6.8 billion profit",
+      "published": "2026-11-01T21:40:09+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia"
+    },
+    "3fc0b7347fdd568c": {
+      "source": "The Age",
+      "title": "Westpac expects 11 per cent house price fall, posts $6.8 billion profit",
+      "published": "2026-11-01T21:40:09+00:00",
+      "first_seen": "2026-11-02T07:42:39.546495+10:00",
+      "category": "australia",
+      "duplicate_of": "62c2f5fb1c3537d2"
+    },
+    "0ccdf46b1fc287dc": {
+      "source": "ScienceDaily",
+      "title": "324-million-year-old fossil reveals how insects conquered land",
+      "published": "2026-08-27T07:22:34+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "ebe51032de0c40a2": {
+      "source": "ScienceDaily",
+      "title": "1.4-million-year-old footprints reveal a surprisingly large human relative",
+      "published": "2026-08-30T15:17:06+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "f163127a5debbb3a": {
+      "source": "ScienceDaily",
+      "title": "Fossil feet may be misleading scientists about human evolution",
+      "published": "2026-08-31T12:38:26+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "8652d11593d2c2b5": {
+      "source": "ScienceDaily",
+      "title": "80,000-year-old \u201carrowheads\u201d rewrite human history",
+      "published": "2026-09-06T00:46:25+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "82f4743878a9c108": {
+      "source": "ScienceDaily",
+      "title": "400,000-year-old teeth reveal a hidden link in human evolution",
+      "published": "2026-09-10T02:18:08+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "c665126f5d1b8851": {
+      "source": "ScienceDaily",
+      "title": "DNA solves the mystery of a body found in the Arctic in 1859",
+      "published": "2026-09-10T12:46:43+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "0880172dc28fbd22": {
+      "source": "ScienceDaily",
+      "title": "160-million-year-old proteins show surprising power against superbugs",
+      "published": "2026-09-28T09:59:57+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "d7596a6ac55e45d1": {
+      "source": "ScienceDaily",
+      "title": "This 245-million-year-old fossil still has its stomach and intestines",
+      "published": "2026-09-29T11:39:27+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "5558d81bf964be9b": {
+      "source": "ScienceDaily",
+      "title": "Bats may have first evolved in Europe 65 million years ago",
+      "published": "2026-09-30T05:12:36+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "606fc6764543b96d": {
+      "source": "New Scientist",
+      "title": "Turi King: Solving criminal cold cases and archaeological mysteries with DNA",
+      "published": "2026-09-30T17:00:00+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "2d88a5197156acfd": {
+      "source": "New Scientist",
+      "title": "Anglo-Saxons got special treatment in medieval Rome",
+      "published": "2026-09-30T23:01:00+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "ee132844f44c10db": {
+      "source": "New Scientist",
+      "title": "Shoes may change the structure of our ankle bones",
+      "published": "2026-10-06T17:00:00+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "e6594091739e7951": {
+      "source": "New Scientist",
+      "title": "Neanderthal Europe was as much a wooden age as a stone age",
+      "published": "2026-10-07T18:00:00+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "d12a24b9d6204e97": {
+      "source": "ScienceDaily",
+      "title": "Scientists found Homo erectus 200,000 years earlier than expected",
+      "published": "2026-10-08T12:47:46+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "c0c9aa43c599ddb0": {
+      "source": "ScienceDaily",
+      "title": "Neanderthals may have used prehistoric glue as an ancient antibiotic",
+      "published": "2026-10-11T00:45:37+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "a3181a160621e1bb": {
+      "source": "ScienceDaily",
+      "title": "Archaeologists discover 1,200-year-old mummified hairless dog in Peru",
+      "published": "2026-10-18T02:32:58+00:00",
+      "first_seen": "2026-11-02T07:42:42.021846+10:00",
+      "category": "archaeology"
+    },
+    "1746c894f82130ef": {
+      "source": "Marca",
+      "title": "Garc\u00eda Plaza: \"La diferencia del partido es la pegada\"",
+      "published": "2026-11-01T16:37:54+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "f99d9eff57ca920d": {
+      "source": "Marca",
+      "title": "Braulio V\u00e1zquez, director deportivo del Valencia: \"Que nadie piense que el mercado de invierno va a arreglar esto\"",
+      "published": "2026-11-01T17:36:54+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "3dc34a64348d48b7": {
+      "source": "Marca",
+      "title": "Pablo Fornals recupera el coraz\u00f3n del malaguismo",
+      "published": "2026-11-01T17:51:07+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "940513345e91bb5c": {
+      "source": "Marca",
+      "title": "Deportivo - Osasuna | Sumar de tres para curar las heridas: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
+      "published": "2026-11-01T18:13:15+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "90c463c04637acea": {
+      "source": "Kicker",
+      "title": "Marseille - Toulouse: Tor zum 1:0 durch Harit in der 1. Minute",
+      "published": "2026-11-01T19:50:50+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "f1078eb4f5bebfc1": {
+      "source": "Marca",
+      "title": "Javi Guerra: \"En la \u00faltima jugada estaba cagado\"",
+      "published": "2026-11-01T19:53:10+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "3b129f96b6646b40": {
+      "source": "Kicker",
+      "title": "Arteta lobt: \"Man muss dieses Leiden genie\u00dfen\"",
+      "published": "2026-11-01T19:55:16+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "4ca24d488f6388b2": {
+      "source": "Marca",
+      "title": "El mensaje de Javier Aguirre en el descanso: \"Demos tres pases que no parecemos un equipo de Primera divisi\u00f3n\"",
+      "published": "2026-11-01T19:59:09+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "d2c86617717fd84f": {
+      "source": "Marca",
+      "title": "Elche alarga su p\u00e9simo inicio como local",
+      "published": "2026-11-01T20:02:07+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "84aa0a53dc244134": {
+      "source": "Kicker",
+      "title": "Die Nusa-Hausse - endlich auch in der Champions League?",
+      "published": "2026-11-01T20:06:39+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "e1fe9053f2a8e855": {
+      "source": "Kicker",
+      "title": "\"Er will mich nur besser machen\": Uzun sieht H\u00fctter-Kritik gelassen",
+      "published": "2026-11-01T20:09:47+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "d68518792e92fd56": {
+      "source": "Kicker",
+      "title": "Elfmeter oder nicht? Harder verwandelt und M\u00fcnchen jubelt",
+      "published": "2026-11-01T20:11:03+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "c71b8d31741e8682": {
+      "source": "Kicker",
+      "title": "Marseille - Toulouse: Tor zum 2:0 durch Gouiri in der 25. Minute",
+      "published": "2026-11-01T20:14:36+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "51e146284219ad67": {
+      "source": "Kicker",
+      "title": "Mourinho: \"Spieler verstehen meinen Ansatz als Trainer besser\"",
+      "published": "2026-11-01T20:17:39+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "2ade25b2922eecff": {
+      "source": "Marca",
+      "title": "Anselmi: \u201cLos rivales se encierran en el Mart\u00ednez Valero y hay que concretar las que tenemos\u201d",
+      "published": "2026-11-01T20:17:48+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "7b847dfe2025568b": {
+      "source": "Kicker",
+      "title": "Hertha: Danish Dynamite als Erfolgsgarant",
+      "published": "2026-11-01T20:19:57+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "75b70c49a3911c35": {
+      "source": "Kicker",
+      "title": "Bilbao - San Sebastian: Tor zum 1:0 durch Williams in der 14. Minute",
+      "published": "2026-11-01T20:23:45+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "25fb70060115152e": {
+      "source": "Kicker",
+      "title": "Traum-Solo inklusive: Aachen bezwingt M\u00fcnster",
+      "published": "2026-11-01T20:31:40+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "3840a53a9a3c31ce": {
+      "source": "Kicker",
+      "title": "Bilbao - San Sebastian: Tor zum 1:1 durch Sucic in der 30. Minute",
+      "published": "2026-11-01T20:40:24+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "7bae0744adc78255": {
+      "source": "Kicker",
+      "title": "In Zukunft fallen lassen? Iraola kritisiert: Isak-Szene war ein klarer Elfmeter",
+      "published": "2026-11-01T20:47:51+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "dca587fba365aace": {
+      "source": "Kicker",
+      "title": "Bilbao - San Sebastian: Tor zum 2:1 durch Alex Berenguer in der 45.+2 Minute",
+      "published": "2026-11-01T20:57:14+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "572ed8bc6ed85fdf": {
+      "source": "Kicker",
+      "title": "Ungl\u00fccklich, aber doch gl\u00fccklich: Berenguer-Elfer zum 2:1",
+      "published": "2026-11-01T20:57:48+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "d415982c5746623a": {
+      "source": "Marca",
+      "title": "Pepelu: \"Sadiq es el caos en persona, una caja de sorpresas, como el gol que ha marcado\"",
+      "published": "2026-11-01T21:13:19+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "662dd6fa680a0446": {
+      "source": "Kicker",
+      "title": "MAR - TOU: Tor in der 68. Minute",
+      "published": "2026-11-01T21:18:42+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "dfd09d251dd9c3d9": {
+      "source": "Kicker",
+      "title": "Erst der Blick, dann der Hammer: Alajbegovic mit dem 1:0",
+      "published": "2026-11-01T21:19:38+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "3a50f7579d78af10": {
+      "source": "Kicker",
+      "title": "LIVE! Alajbegovic haut einen raus und zieht sich das Trikot aus: Juve f\u00fchrt nach Traumtor",
+      "published": "2026-11-01T21:22:00+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "55e53685d217f29f": {
+      "source": "Kicker",
+      "title": "Juventus - Neapel: Gelb-Rote Karte f\u00fcr Marianucci in der 75. Minute",
+      "published": "2026-11-01T21:22:12+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "5c74dbe07cc29bc9": {
+      "source": "Kicker",
+      "title": "FCN: Beste Chancen f\u00fcr Frey als Chatzialexiou-Nachfolger",
+      "published": "2026-11-01T21:29:13+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
+    },
+    "5dc0b5996499773a": {
+      "source": "Kicker",
+      "title": "Juventus - Neapel: Tor zum 2:0 durch Boga in der 87. Minute",
+      "published": "2026-11-01T21:36:12+00:00",
+      "first_seen": "2026-11-02T07:42:47.403186+10:00",
+      "category": "football"
     }
   }
 }

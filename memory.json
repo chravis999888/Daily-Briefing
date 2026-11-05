@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-05T20:59:58.366796+00:00",
+  "last_gdelt_attempt": "2026-11-05T23:46:26.079563+00:00",
   "article_store": {
     "618ad83c633a1e18": {
       "source": "BBC News",
@@ -22588,6 +22588,13 @@
       "title": "King relishes 'politically charged' deployments, Palace aide says",
       "published": "2026-11-05T22:04:44+00:00",
       "first_seen": "2026-11-06T08:32:35.148301+10:00",
+      "category": "breaking"
+    },
+    "1a84884e99c7b143": {
+      "source": "BBC News",
+      "title": "Police car set alight in Glasgow amid Bonfire Night trouble",
+      "published": "2026-11-05T23:15:08+00:00",
+      "first_seen": "2026-11-06T09:46:47.842645+10:00",
       "category": "breaking"
     }
   }

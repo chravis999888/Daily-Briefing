@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-06T07:09:13.397515+00:00",
+  "last_gdelt_attempt": "2026-11-06T09:13:21.379715+00:00",
   "article_store": {
     "9a89728ea3dfd6b8": {
       "source": "BBC News",
@@ -22630,6 +22630,591 @@
       "published": "2026-11-06T06:43:42+00:00",
       "first_seen": "2026-11-06T17:09:37.089919+10:00",
       "category": "breaking"
+    },
+    "d9339e2922b1db67": {
+      "source": "Al Jazeera",
+      "title": "Australia appoint Mike Hussey as consultant for Ashes and Cricket World Cup",
+      "published": "2026-11-06T06:52:30+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "5248563254d58543": {
+      "source": "Al Jazeera",
+      "title": "Israel\u2019s President Herzog to name candidate to form government on Sunday",
+      "published": "2026-11-06T07:09:42+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "c807175afc4174cd": {
+      "source": "Al Jazeera",
+      "title": "Global tech stocks plunge over fears of AI curbs in US",
+      "published": "2026-11-06T07:24:20+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "989836776b9f9277": {
+      "source": "Al Jazeera",
+      "title": "Indonesia names fourth wiretapping suspect as political intrigue deepens",
+      "published": "2026-11-06T07:24:26+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "57d71f238b6ed1bd": {
+      "source": "Al Jazeera",
+      "title": "How Israel is tightening its grip on Palestinian schools in East Jerusalem",
+      "published": "2026-11-06T07:28:53+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "586ac5b20bc56712": {
+      "source": "Al Jazeera",
+      "title": "Lebanese pack bags and stock up amid fears of new Israeli escalation",
+      "published": "2026-11-06T07:30:04+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "ecd3dc8faa60e1ab": {
+      "source": "Al Jazeera",
+      "title": "US judge halts construction of Trump\u2019s triumphal arch in Washington, DC",
+      "published": "2026-11-06T07:32:08+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "106be822f2849f4d": {
+      "source": "BBC News",
+      "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
+      "published": "2026-11-06T07:33:41+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "cca1668580310ae9": {
+      "source": "Al Jazeera",
+      "title": "Can America ever return to pre-Trump politics?",
+      "published": "2026-11-06T07:51:09+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "53af5e2699d8dcb1": {
+      "source": "Al Jazeera",
+      "title": "Abdul El-Sayed did not have to become less Muslim to win",
+      "published": "2026-11-06T07:53:32+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "f49b9ebbcf328255": {
+      "source": "Al Jazeera",
+      "title": "UK jailing of Indian sailor over Russia sanctions sets off \u2018perfect storm\u2019",
+      "published": "2026-11-06T08:32:57+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "ce724a95edfb18ee": {
+      "source": "Al Jazeera",
+      "title": "Tech stock rout, driven by US AI fears, continues in Asian trading",
+      "published": "2026-11-06T08:41:05+00:00",
+      "first_seen": "2026-11-06T19:13:43.357416+10:00",
+      "category": "breaking"
+    },
+    "7a287f8e280b1ff5": {
+      "source": "ABC News",
+      "title": "Baseballer loses sight in one eye in 'horrific freak accident'",
+      "published": "2026-11-06T05:05:35+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "9668ce7e505ece6a": {
+      "source": "ABC News",
+      "title": "'Not a waste of money': Authority to be dissolved after years of issues",
+      "published": "2026-11-06T05:07:13+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "cd2bd760b97147ca": {
+      "source": "ABC News",
+      "title": "Outrage from tiny town results in electoral commission backflip",
+      "published": "2026-11-06T05:16:11+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "313fbd3477ddde93": {
+      "source": "ABC News",
+      "title": "Teen who allegedly attacked boy in filmed assault refused bail",
+      "published": "2026-11-06T05:36:49+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "e95f4004e47bc7a4": {
+      "source": "ABC News",
+      "title": "Paraguay's president tangled up in Ueno banking crisis",
+      "published": "2026-11-06T05:39:34+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "5eb49e86298d8342": {
+      "source": "ABC News",
+      "title": "Ex-CFMEU boss admits to illegal tirade against AFL umpiring boss",
+      "published": "2026-11-06T05:43:01+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "72605983258e0099": {
+      "source": "ABC News",
+      "title": "Multimillionaire friend of Sam Wood offered surety in his bail application",
+      "published": "2026-11-06T06:00:56+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "60996f9ccbd91d26": {
+      "source": "ABC News",
+      "title": "Data centre plan could bring water into Queensland, minister says",
+      "published": "2026-11-06T06:04:05+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "29ea67c77a40273a": {
+      "source": "ABC News",
+      "title": "Young victim of hotel fall died in 'tragic' accident, parents say",
+      "published": "2026-11-06T06:13:52+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "be6d0cb5b1fff803": {
+      "source": "ABC News",
+      "title": "'Multitude of factors' behind firing of chef who refused pineapple on pizza",
+      "published": "2026-11-06T06:14:35+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "e5a29234a9e021f1": {
+      "source": "ABC News",
+      "title": "Alleged murderer denied bail after revealing self-defence argument",
+      "published": "2026-11-06T06:34:04+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "253d5f5f5eb4b34b": {
+      "source": "ABC News",
+      "title": "Drug driver jailed for crash that resulted in premature baby death",
+      "published": "2026-11-06T06:36:41+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "8de8827c5cce8ef1": {
+      "source": "ABC News",
+      "title": "Australians urged to reconsider fast fashion as workers fight for better pay",
+      "published": "2026-11-06T07:26:07+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "1b3f1cdfe317ca2a": {
+      "source": "ABC News",
+      "title": "Kumanjayi Little Baby's father jailed for more than three years for DV",
+      "published": "2026-11-06T07:37:04+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "52a4be71fefae43a": {
+      "source": "SMH",
+      "title": "Last time David Jones collapsed there was a rescuer. Who will save it this time",
+      "published": "2026-11-06T07:39:02+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "693b338d815ff8f2": {
+      "source": "ABC News",
+      "title": "18yo, teenagers arrested over Calder Highway pursuit",
+      "published": "2026-11-06T07:42:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "d4024d4b6754c7ca": {
+      "source": "SMH",
+      "title": "Sunbury level crossing removal will kick off probe into Big Build corruption",
+      "published": "2026-11-06T07:42:41+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "8cc3e7796fad27d9": {
+      "source": "The Age",
+      "title": "Sunbury level crossing removal will kick off probe into Big Build corruption",
+      "published": "2026-11-06T07:42:41+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "d4024d4b6754c7ca"
+    },
+    "0ce4f913c655dd15": {
+      "source": "SMH",
+      "title": "\u2018We will get you\u2019: Adelaide MP targeted with powder-filled balloons",
+      "published": "2026-11-06T07:49:01+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "99df35cf66db5035": {
+      "source": "The Age",
+      "title": "\u2018We will get you\u2019: Adelaide MP targeted with powder-filled balloons",
+      "published": "2026-11-06T07:49:01+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "0ce4f913c655dd15"
+    },
+    "0b290e72c6dc3c20": {
+      "source": "SMH",
+      "title": "Crow evades capture at Coles North Lakes",
+      "published": "2026-11-06T07:49:25+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "767ec8809f2f454d": {
+      "source": "The Age",
+      "title": "Crow evades capture at Coles North Lakes",
+      "published": "2026-11-06T07:49:25+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "0b290e72c6dc3c20"
+    },
+    "2b91a263fd84b388": {
+      "source": "SMH",
+      "title": "\u2018I don\u2019t understand\u2019: Questions over plight of crow stuck in supermarket for 10 days",
+      "published": "2026-11-06T07:52:09+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "3f068cbf12e20688": {
+      "source": "The Age",
+      "title": "\u2018I don\u2019t understand\u2019: Questions over plight of crow stuck in supermarket for 10 days",
+      "published": "2026-11-06T07:52:09+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "2b91a263fd84b388"
+    },
+    "5d361ac8cb18aea6": {
+      "source": "ABC News",
+      "title": "Live: Paul Gallen takes on Nelson Asofa-Solomona in boxing grudge match",
+      "published": "2026-11-06T07:57:37+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "6783bf7e596494c7": {
+      "source": "ABC News",
+      "title": "Woman rescues baby koala from grips of python in Brisbane",
+      "published": "2026-11-06T07:57:59+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "591ef23156459547": {
+      "source": "SMH",
+      "title": "Godzilla Minus One was a surprise Oscar hit. Now it\u2019s back \u2013 with double the monsters",
+      "published": "2026-11-06T08:00:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "f4dde879d698d13b": {
+      "source": "SMH",
+      "title": "After Maddie lost her mum at 15, she experienced \u2018post-traumatic growth\u2019",
+      "published": "2026-11-06T08:00:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "452ebc9ff4c37bff": {
+      "source": "SMH",
+      "title": "We asked about suburban power poles. Now a data centre behemoth is facing two class actions \u2013 and a potential takeover",
+      "published": "2026-11-06T08:00:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "4c1197b422bbb7e6": {
+      "source": "The Age",
+      "title": "Godzilla Minus One was a surprise Oscar hit. Now it\u2019s back \u2013 with double the monsters",
+      "published": "2026-11-06T08:00:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "591ef23156459547"
+    },
+    "17dafdb4a59fbc86": {
+      "source": "The Age",
+      "title": "After Maddie lost her mum at 15, she experienced \u2018post-traumatic growth\u2019",
+      "published": "2026-11-06T08:00:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "f4dde879d698d13b"
+    },
+    "376a02204e8f7d9d": {
+      "source": "The Age",
+      "title": "We asked about suburban power poles. Now a data centre behemoth is facing two class actions \u2013 and a potential takeover",
+      "published": "2026-11-06T08:00:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "452ebc9ff4c37bff"
+    },
+    "675e02062af018ad": {
+      "source": "SMH",
+      "title": "Qantas to raise prices and cut flights amid soaring fuel costs",
+      "published": "2026-11-06T08:02:40+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "4ca506e6fd2419c6": {
+      "source": "The Age",
+      "title": "Qantas to raise prices and cut flights amid soaring fuel costs",
+      "published": "2026-11-06T08:02:40+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "675e02062af018ad"
+    },
+    "1acbf69fd52a0558": {
+      "source": "SMH",
+      "title": "John Setka admits to campaign against AFL umpiring chief, but says his future is too uncertain to pay financial penalty",
+      "published": "2026-11-06T08:07:08+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "a427a88332f0c263": {
+      "source": "The Age",
+      "title": "John Setka admits to campaign against AFL umpiring chief, but says his future is too uncertain to pay financial penalty",
+      "published": "2026-11-06T08:07:08+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "1acbf69fd52a0558"
+    },
+    "e108b86e9be111fa": {
+      "source": "ABC News",
+      "title": "Ex-partner of disgraced author Craig Silvey speaks of 'great betrayal'",
+      "published": "2026-11-06T08:08:08+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "028cc941ffcafdfd": {
+      "source": "ABC News",
+      "title": "Alleged stalker who threatened to kill jockey Michelle Payne denied bail",
+      "published": "2026-11-06T08:12:33+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "90c134e7047d4967": {
+      "source": "SMH",
+      "title": "It\u2019s a New Zealand election with a twist. What\u2019s at stake?",
+      "published": "2026-11-06T08:30:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "d94657e38703f842": {
+      "source": "SMH",
+      "title": "Another suspect named as wiretap scandal rocks Indonesia",
+      "published": "2026-11-06T08:30:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "d2c14ccf3cf9524a": {
+      "source": "SMH",
+      "title": "NRL could strip licence from Wests Tigers\u2019 owners after fresh board ructions",
+      "published": "2026-11-06T08:30:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "0b815d74194e65f0": {
+      "source": "SMH",
+      "title": "\u2018Pretty flash\u2019: Meet the students having the first night at the museum",
+      "published": "2026-11-06T08:30:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "03185830736ffac1": {
+      "source": "SMH",
+      "title": "Five of the best period homes for sale in Melbourne now",
+      "published": "2026-11-06T08:30:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "ef5b577c95c7875f": {
+      "source": "The Age",
+      "title": "It\u2019s a New Zealand election with a twist. What\u2019s at stake?",
+      "published": "2026-11-06T08:30:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "90c134e7047d4967"
+    },
+    "4a17cef25a7d4c05": {
+      "source": "The Age",
+      "title": "Another suspect named as wiretap scandal rocks Indonesia",
+      "published": "2026-11-06T08:30:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "d94657e38703f842"
+    },
+    "e89e5e9d5c95e145": {
+      "source": "The Age",
+      "title": "NRL could strip licence from Wests Tigers\u2019 owners after fresh board ructions",
+      "published": "2026-11-06T08:30:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "d2c14ccf3cf9524a"
+    },
+    "c80a575bda18817b": {
+      "source": "The Age",
+      "title": "\u2018Pretty flash\u2019: Meet the students having the first night at the museum",
+      "published": "2026-11-06T08:30:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "0b815d74194e65f0"
+    },
+    "e09eb9267fe67fec": {
+      "source": "The Age",
+      "title": "Five of the best period homes for sale in Melbourne now",
+      "published": "2026-11-06T08:30:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "03185830736ffac1"
+    },
+    "bf7b49adefd748c9": {
+      "source": "SMH",
+      "title": "Fight stopped for bizarre reason",
+      "published": "2026-11-06T08:31:18+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "507c3d7c5452d018": {
+      "source": "The Age",
+      "title": "Fight stopped for bizarre reason",
+      "published": "2026-11-06T08:31:18+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "bf7b49adefd748c9"
+    },
+    "43cb7a16524d4368": {
+      "source": "SMH",
+      "title": "Labor flags corruption risks for widening police DV powers",
+      "published": "2026-11-06T08:39:19+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "39c52a6612c779a0": {
+      "source": "The Age",
+      "title": "Labor flags corruption risks for widening police DV powers",
+      "published": "2026-11-06T08:39:19+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "43cb7a16524d4368"
+    },
+    "fa792ad822d54ff1": {
+      "source": "SMH",
+      "title": "Five of the best period homes for sale in Sydney",
+      "published": "2026-11-06T08:45:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "eb279aaab1200564": {
+      "source": "SMH",
+      "title": "As one Sydney icon faces an uncertain future, another is born",
+      "published": "2026-11-06T08:45:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "174f9f207960b0cd": {
+      "source": "The Age",
+      "title": "Hot seats in spotlight as Victorian voters eye burning issues",
+      "published": "2026-11-06T08:45:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "7d48a525d74d1d8a": {
+      "source": "The Age",
+      "title": "Five of the best period homes for sale in Sydney",
+      "published": "2026-11-06T08:45:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "fa792ad822d54ff1"
+    },
+    "d516c4d0bfc0f794": {
+      "source": "ABC News",
+      "title": "Threatening, sexist messages scrawled on balloons left at MP's office",
+      "published": "2026-11-06T08:48:08+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "04961a4fea01e213": {
+      "source": "SMH",
+      "title": "Paul Gallen v Nelson Asofa-Solomona LIVE updates: Former NRL stars face off at Sydney\u2019s TikTok Entertainment Centre",
+      "published": "2026-11-06T08:57:21+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "f98c630b562a108c": {
+      "source": "The Age",
+      "title": "Paul Gallen v Nelson Asofa-Solomona LIVE updates: Former NRL stars face off at Sydney\u2019s TikTok Entertainment Centre",
+      "published": "2026-11-06T08:57:21+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia",
+      "duplicate_of": "04961a4fea01e213"
+    },
+    "0334e1aa91c1875e": {
+      "source": "The Age",
+      "title": "Don\u2019t blame Chalmers, some things are beyond his control",
+      "published": "2026-11-06T09:00:00+00:00",
+      "first_seen": "2026-11-06T19:13:44.336224+10:00",
+      "category": "australia"
+    },
+    "de55be2571b30229": {
+      "source": "Kicker",
+      "title": "Prass: \"Das ist am Ende des Tages unsere Schuld\"",
+      "published": "2026-11-05T21:02:10+00:00",
+      "first_seen": "2026-11-06T19:13:52.248447+10:00",
+      "category": "football"
+    },
+    "2ab9e83d9c00c089": {
+      "source": "Kicker",
+      "title": "Wer \u00fcbertr\u00e4gt HSV gegen Borussia M\u00f6nchengladbach heute live im TV & Stream?",
+      "published": "2026-11-06T05:00:00+00:00",
+      "first_seen": "2026-11-06T19:13:52.248447+10:00",
+      "category": "football"
+    },
+    "9fafb406bbeb9029": {
+      "source": "Kicker",
+      "title": "\"Sehen wir kritisch\": Schalker \u00c4rger \u00fcber hohe Ticketpreise in Hoffenheim",
+      "published": "2026-11-06T05:39:45+00:00",
+      "first_seen": "2026-11-06T19:13:52.248447+10:00",
+      "category": "football"
+    },
+    "e2518dfd5a4a16f9": {
+      "source": "Kicker",
+      "title": "UEFA-Ranking: Bundesliga f\u00e4llt hinter Portugal und Belgien zur\u00fcck",
+      "published": "2026-11-06T06:53:32+00:00",
+      "first_seen": "2026-11-06T19:13:52.248447+10:00",
+      "category": "football"
+    },
+    "7ccfa2c539ffd6cc": {
+      "source": "Marca",
+      "title": "Qu\u00e9 pas\u00f3 con Mestalla... un 6 de noviembre de 1994: La petici\u00f3n de Luis Casanova para el cambio de nombre al estadio",
+      "published": "2026-11-06T07:19:49+00:00",
+      "first_seen": "2026-11-06T19:13:52.248447+10:00",
+      "category": "football"
+    },
+    "c51d9575cb471a08": {
+      "source": "Marca",
+      "title": "A qu\u00e9 hora es el Sevilla - Alav\u00e9s: horario, d\u00f3nde ver hoy en TV y canal del partido de LaLiga EA Sports",
+      "published": "2026-11-06T07:30:24+00:00",
+      "first_seen": "2026-11-06T19:13:52.248447+10:00",
+      "category": "football"
+    },
+    "1814e8f5f38b4924": {
+      "source": "Kicker",
+      "title": "Ein besonderer Karriereweg: Madsen hat, was Kiel braucht",
+      "published": "2026-11-06T07:35:02+00:00",
+      "first_seen": "2026-11-06T19:13:52.248447+10:00",
+      "category": "football"
+    },
+    "faa8524cbfc28df2": {
+      "source": "Kicker",
+      "title": "Cristiano Ronaldos Nationalmannschaftskarriere wird noch besser sein, als sie war",
+      "published": "2026-11-06T07:49:54+00:00",
+      "first_seen": "2026-11-06T19:13:52.248447+10:00",
+      "category": "football"
+    },
+    "eb41721811d507d2": {
+      "source": "Kicker",
+      "title": "\"Gott sei Dank ist es kein Riss\": Michel fehlt Mannheim bis Januar",
+      "published": "2026-11-06T08:56:17+00:00",
+      "first_seen": "2026-11-06T19:13:52.248447+10:00",
+      "category": "football"
     }
   }
 }

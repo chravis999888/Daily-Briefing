@@ -2091,69 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-11-07T04:43:56.697414+00:00",
   "article_store": {
-    "ec1b1bf12e37af27": {
-      "source": "Al Jazeera",
-      "title": "Iran says four tankers on fire after striking mines in Hormuz",
-      "published": "2026-10-31T03:55:48+00:00",
-      "first_seen": "2026-10-31T16:06:05.680600+10:00",
-      "category": "breaking"
-    },
-    "f24f35e04a4638c0": {
-      "source": "Al Jazeera",
-      "title": "US jails two Chinese nationals for spying",
-      "published": "2026-10-31T04:41:32+00:00",
-      "first_seen": "2026-10-31T16:06:05.680600+10:00",
-      "category": "breaking"
-    },
-    "c56781528fc98176": {
-      "source": "Al Jazeera",
-      "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
-      "published": "2026-10-31T04:51:25+00:00",
-      "first_seen": "2026-10-31T16:06:05.680600+10:00",
-      "category": "breaking"
-    },
-    "256f63b54d3ac73f": {
-      "source": "Al Jazeera",
-      "title": "Trump tells voters to send El-Sayed \u2018back to where he came from\u2019",
-      "published": "2026-10-31T05:07:25+00:00",
-      "first_seen": "2026-10-31T16:06:05.680600+10:00",
-      "category": "breaking"
-    },
-    "b9b6c90749fa9c91": {
-      "source": "Al Jazeera",
-      "title": "Mohammed Deif, rare footage and October 7 documents",
-      "published": "2026-10-31T05:07:34+00:00",
-      "first_seen": "2026-10-31T16:06:05.680600+10:00",
-      "category": "breaking"
-    },
-    "b1b7c7ad9cae43b7": {
-      "source": "BBC News",
-      "title": "Mahmood expected to announce changes to rules around indefinite leave to remain",
-      "published": "2026-10-31T05:16:01+00:00",
-      "first_seen": "2026-10-31T16:06:05.680600+10:00",
-      "category": "breaking"
-    },
-    "3ad8c8c166eccd77": {
-      "source": "Al Jazeera",
-      "title": "Why are US, Russia and China racing to put nuclear reactors on the moon?",
-      "published": "2026-10-31T05:37:51+00:00",
-      "first_seen": "2026-10-31T16:06:05.680600+10:00",
-      "category": "breaking"
-    },
-    "8ff28fac4a2675ee": {
-      "source": "BBC News",
-      "title": "Spain train disaster clouds S\u00e1nchez chances of re-election",
-      "published": "2026-10-31T05:44:21+00:00",
-      "first_seen": "2026-10-31T16:06:05.680600+10:00",
-      "category": "breaking"
-    },
-    "303dd919d4fbeeb2": {
-      "source": "Al Jazeera",
-      "title": "After the \u2018martyr\u2019s\u2019 funeral: The families left behind by Yemen\u2019s war",
-      "published": "2026-10-31T05:48:25+00:00",
-      "first_seen": "2026-10-31T16:06:05.680600+10:00",
-      "category": "breaking"
-    },
     "3ca023e5ed69df40": {
       "source": "BBC News",
       "title": "'They don't bother me at all': The man who chooses to sleep with bedbugs for science",
@@ -22372,6 +22309,111 @@
       "published": "2026-11-06T23:30:20+00:00",
       "first_seen": "2026-11-07T14:44:26.561879+10:00",
       "category": "football"
+    },
+    "fde964ba0538eeda": {
+      "source": "BBC News",
+      "title": "Whole Australia team knew of sandpaper use, Khawaja says",
+      "published": "2026-11-06T23:11:56+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "7af1d6929c51e855": {
+      "source": "BBC News",
+      "title": "Texas mayor instructs police to limit cooperation with ICE",
+      "published": "2026-11-07T03:31:54+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "c877207cef6b7eba": {
+      "source": "Al Jazeera",
+      "title": "US Treasury sanctions eight Canadian money exchange firms over Iran ties",
+      "published": "2026-11-07T04:50:46+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "04248c96d078c586": {
+      "source": "Al Jazeera",
+      "title": "\u2018One less gang leader\u2019: Haiti\u2019s prime minister celebrates police operation",
+      "published": "2026-11-07T05:02:49+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "0675e4b6803593d4": {
+      "source": "Al Jazeera",
+      "title": "Russia launches missile attack on Kyiv, injuring residents",
+      "published": "2026-11-07T05:11:03+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "63789146795c0e00": {
+      "source": "BBC News",
+      "title": "Relief, tears and sadness: Married at First Sight UK cast react to show being axed",
+      "published": "2026-11-07T05:12:52+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "caf64beb6a9b1083": {
+      "source": "Al Jazeera",
+      "title": "President Herzog faces key choice as Israel struggles to form government",
+      "published": "2026-11-07T05:16:18+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "e5fe587206dc88be": {
+      "source": "Al Jazeera",
+      "title": "Khawaja claims entire Australia team knew about 2018 ball-tampering scandal",
+      "published": "2026-11-07T05:46:54+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "5eb109c8ec7c8ab7": {
+      "source": "Al Jazeera",
+      "title": "Paraguay\u2019s Pena under military protection in bank collapse chaos",
+      "published": "2026-11-07T05:51:23+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "a1d239f13d68128b": {
+      "source": "Al Jazeera",
+      "title": "\u2018Alien-cortical\u2019 mice: Can human brain cells grow inside animals?",
+      "published": "2026-11-07T05:57:25+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "49a6a913ecaf5f64": {
+      "source": "BBC News",
+      "title": "Parliament restoration delays 'frustrating', says Commons Speaker",
+      "published": "2026-11-07T06:04:32+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "89cb88a960599d33": {
+      "source": "Al Jazeera",
+      "title": "Governing party ahead in early results of New Zealand\u2019s knife-edge vote",
+      "published": "2026-11-07T06:20:27+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "23539ea2984cd7f1": {
+      "source": "Al Jazeera",
+      "title": "Carlos Alcaraz saves match points to reach Paris Masters semifinals",
+      "published": "2026-11-07T06:21:04+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "f148efdc2489bc1b": {
+      "source": "Al Jazeera",
+      "title": "How the Iran war helped Democrats win the midterms",
+      "published": "2026-11-07T06:26:58+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
+    },
+    "841577448b09704b": {
+      "source": "Al Jazeera",
+      "title": "Do not investigate Trump\u2019s corporate allies until he leaves office",
+      "published": "2026-11-07T06:38:27+00:00",
+      "first_seen": "2026-11-07T16:43:18.777150+10:00",
+      "category": "breaking"
     }
   }
 }

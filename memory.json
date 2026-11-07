@@ -22140,6 +22140,592 @@
       "published": "2026-11-07T22:21:58+00:00",
       "first_seen": "2026-11-08T08:51:27.505397+10:00",
       "category": "breaking"
+    },
+    "e71666c1510da298": {
+      "source": "BBC News",
+      "title": "Briton among six killed in 'far-right' shooting in Krakow",
+      "published": "2026-11-07T22:57:12+00:00",
+      "first_seen": "2026-11-08T09:25:23.436526+10:00",
+      "category": "breaking"
+    },
+    "b98435820d5e2185": {
+      "source": "BBC News",
+      "title": "Thousands watch elaborate carnival cart procession",
+      "published": "2026-11-07T23:05:17+00:00",
+      "first_seen": "2026-11-08T09:25:23.436526+10:00",
+      "category": "breaking"
+    },
+    "c379a1bd1763dcf2": {
+      "source": "ABC News",
+      "title": "Coach says Bancroft will 'let bat do the talking' after Khawaja bombshell",
+      "published": "2026-11-07T20:10:51+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "faba27c7b438af85": {
+      "source": "ABC News",
+      "title": "Church abuse survivors to be honoured in memorial",
+      "published": "2026-11-07T20:18:17+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "a7e0626a8e178eb9": {
+      "source": "ABC News",
+      "title": "Residents demand traffic fix for 'horrendous' SA road",
+      "published": "2026-11-07T20:21:52+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "d7391f7c609a31db": {
+      "source": "ABC News",
+      "title": "Victoria's royal commission likely to be very uncomfortable for Labor",
+      "published": "2026-11-07T20:24:02+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "d27d5bfb34a6b278": {
+      "source": "SMH",
+      "title": "Cold front smashes NSW",
+      "published": "2026-11-07T20:26:41+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "c625edd81f95a1c8": {
+      "source": "The Age",
+      "title": "Take The Age quiz",
+      "published": "2026-11-07T20:29:53+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "d7fbbc5e6fe928de": {
+      "source": "SMH",
+      "title": "Israeli president asks Netanyahu rival Gadi Eisenkot to try to form government",
+      "published": "2026-11-07T20:36:18+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "6825abe97a6eb4ec": {
+      "source": "The Age",
+      "title": "Israeli president asks Netanyahu rival Gadi Eisenkot to try to form government",
+      "published": "2026-11-07T20:36:18+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "d7fbbc5e6fe928de"
+    },
+    "781adbb34ffcc8bf": {
+      "source": "ABC News",
+      "title": "Wilson backs Wallabies to overpower mutinous England",
+      "published": "2026-11-07T20:36:34+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "00f6dac4b9a17369": {
+      "source": "SMH",
+      "title": "Trump offers UFC boss role of White House press secretary",
+      "published": "2026-11-07T20:37:44+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "a4af8f1fbdbb51af": {
+      "source": "The Age",
+      "title": "Trump offers UFC boss role of White House press secretary",
+      "published": "2026-11-07T20:37:44+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "00f6dac4b9a17369"
+    },
+    "f75f40dc9a959a29": {
+      "source": "SMH",
+      "title": "The moment a gunman opened fire in Krakow, Poland.",
+      "published": "2026-11-07T20:38:40+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "64a6ceb460a96403": {
+      "source": "The Age",
+      "title": "The moment a gunman opened fire in Krakow, Poland.",
+      "published": "2026-11-07T20:38:40+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "f75f40dc9a959a29"
+    },
+    "ccd24fb8b7245aa3": {
+      "source": "ABC News",
+      "title": "94yo poet who can't read or write celebrated in Stockman's Hall of Fame",
+      "published": "2026-11-07T20:38:49+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "d2feb6d24df76482": {
+      "source": "SMH",
+      "title": "Red flag duds Piastri's qualifying chance",
+      "published": "2026-11-07T20:56:46+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "8e1bd6c70d645484": {
+      "source": "The Age",
+      "title": "Red flag duds Piastri's qualifying chance",
+      "published": "2026-11-07T20:56:46+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "d2feb6d24df76482"
+    },
+    "5b1b6a25577053a1": {
+      "source": "ABC News",
+      "title": "The world's longest running science experiment is about to turn 100",
+      "published": "2026-11-07T21:05:13+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "60d9e01e58b63bc7": {
+      "source": "ABC News",
+      "title": "Wet-weather chaos in qualifying for Brazilian Grand Prix",
+      "published": "2026-11-07T21:06:05+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "661b5b9085e77486": {
+      "source": "SMH",
+      "title": "Victoria Barracks sale abandoned following backlash",
+      "published": "2026-11-07T21:07:30+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "69fe9470de158bfb": {
+      "source": "The Age",
+      "title": "Victoria Barracks sale abandoned following backlash",
+      "published": "2026-11-07T21:07:30+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "661b5b9085e77486"
+    },
+    "966b3ba61cfd125e": {
+      "source": "ABC News",
+      "title": "Warning famed Tasmanian lagoon may not recover without tighter controls",
+      "published": "2026-11-07T21:18:50+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "84043c1e4e8f39b6": {
+      "source": "SMH",
+      "title": "At least six dead after gunman opens fire in tourist hotspot",
+      "published": "2026-11-07T21:21:16+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "5751b5d852fe88ca": {
+      "source": "The Age",
+      "title": "At least six dead after gunman opens fire in tourist hotspot",
+      "published": "2026-11-07T21:21:16+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "84043c1e4e8f39b6"
+    },
+    "55a9a80c1ae18864": {
+      "source": "SMH",
+      "title": "New Zealand soars to World Cup finals",
+      "published": "2026-11-07T21:22:16+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "40fae355703e3d00": {
+      "source": "The Age",
+      "title": "New Zealand soars to World Cup finals",
+      "published": "2026-11-07T21:22:16+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "55a9a80c1ae18864"
+    },
+    "38b5a8720155d277": {
+      "source": "ABC News",
+      "title": "Guns, traps and baits to target 'ballistic' NSW feral pig problem",
+      "published": "2026-11-07T21:25:51+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "558798ff1381533a": {
+      "source": "SMH",
+      "title": "Polish gunman opens fire in Krakow's main square",
+      "published": "2026-11-07T21:27:09+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "a814ebfa3c3085f7": {
+      "source": "The Age",
+      "title": "Polish gunman opens fire in Krakow's main square",
+      "published": "2026-11-07T21:27:09+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "558798ff1381533a"
+    },
+    "485acad840eee0c6": {
+      "source": "ABC News",
+      "title": "Youth crime policy rejig, UFC return among Victorian party pledges",
+      "published": "2026-11-07T21:28:04+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "3ac48ea1b25cfd95": {
+      "source": "ABC News",
+      "title": "Moesha Johnson's Open Water World Cup winning streak continues",
+      "published": "2026-11-07T21:50:21+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "ebcd213c0b43d3c2": {
+      "source": "ABC News",
+      "title": "The artist keeping Indigenous language alive on Aussie coins",
+      "published": "2026-11-07T21:52:08+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "f2fb9d80f5a64483": {
+      "source": "SMH",
+      "title": "Piastri\u2019s teammate snatches pole in weather-delayed qualifying",
+      "published": "2026-11-07T21:52:11+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "42e80652c3b13e16": {
+      "source": "The Age",
+      "title": "Piastri\u2019s teammate snatches pole in weather-delayed qualifying",
+      "published": "2026-11-07T21:52:11+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "f2fb9d80f5a64483"
+    },
+    "9dfbedf1e8675a46": {
+      "source": "SMH",
+      "title": "The real-life couple behind the movie everyone is talking about",
+      "published": "2026-11-07T22:00:00+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "38e9559a2998c85b": {
+      "source": "The Age",
+      "title": "The real-life couple behind the movie everyone is talking about",
+      "published": "2026-11-07T22:00:00+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "9dfbedf1e8675a46"
+    },
+    "5c0371dd25675922": {
+      "source": "ABC News",
+      "title": "Council wants government to reject 'ugly, out-of-date' town centre plan",
+      "published": "2026-11-07T22:04:34+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "9706e6a47bae21c8": {
+      "source": "SMH",
+      "title": "Melboune student caught up in Poland shooting",
+      "published": "2026-11-07T22:08:09+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "ad808b20ccb9a775": {
+      "source": "The Age",
+      "title": "Melboune student caught up in Poland shooting",
+      "published": "2026-11-07T22:08:09+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "9706e6a47bae21c8"
+    },
+    "d007b829e5351a08": {
+      "source": "SMH",
+      "title": "Australia's worth plane habits",
+      "published": "2026-11-07T22:08:51+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "9cc1d2421ec0ff9e": {
+      "source": "The Age",
+      "title": "Australia's worth plane habits",
+      "published": "2026-11-07T22:08:51+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "d007b829e5351a08"
+    },
+    "1bbbb9ad10bed245": {
+      "source": "ABC News",
+      "title": "Controversial sale of Sydney's Victoria Barracks scrapped",
+      "published": "2026-11-07T22:16:05+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "4f151c24426a155e": {
+      "source": "SMH",
+      "title": "PM backtracks on historic Defence properties sale",
+      "published": "2026-11-07T22:27:53+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "a7c9711abd75c2e2": {
+      "source": "The Age",
+      "title": "PM backtracks on historic Defence properties sale",
+      "published": "2026-11-07T22:27:53+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "4f151c24426a155e"
+    },
+    "73ffe62c50a7d228": {
+      "source": "SMH",
+      "title": "Fresh Sandpapergate claims cast shadow over summer of cricket",
+      "published": "2026-11-07T22:28:08+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "d954c13f64f7475f": {
+      "source": "The Age",
+      "title": "Fresh Sandpapergate claims cast shadow over summer of cricket",
+      "published": "2026-11-07T22:28:08+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "73ffe62c50a7d228"
+    },
+    "934786896b7a2416": {
+      "source": "ABC News",
+      "title": "Critically endangered frogs returned six years after Black Summer",
+      "published": "2026-11-07T22:33:33+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "5a653441de2ce381": {
+      "source": "ABC News",
+      "title": "Remote NT broadcast 'hero' raises concerns about gaps in radio coverage",
+      "published": "2026-11-07T22:34:29+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "a4ea043415cf85f3": {
+      "source": "ABC News",
+      "title": "Socceroos wary of Jordan friendly due to security threats",
+      "published": "2026-11-07T22:39:38+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "4309299f0523bd11": {
+      "source": "ABC News",
+      "title": "'I'm going to marry that guy': Meeting the love of your life at school pick-up",
+      "published": "2026-11-07T23:00:00+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "10ce52f377908891": {
+      "source": "SMH",
+      "title": "It was the email of my dreams! From Sally Sara. Or so I thought",
+      "published": "2026-11-07T23:00:00+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "a3d5bc132e54dbbd": {
+      "source": "The Age",
+      "title": "It was the email of my dreams! From Sally Sara. Or so I thought",
+      "published": "2026-11-07T23:00:00+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "10ce52f377908891"
+    },
+    "4ef1c436d0fd9115": {
+      "source": "ABC News",
+      "title": "Riding school to close after teaching thousands of students over 50 years",
+      "published": "2026-11-07T23:00:23+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "ad631ae638be7421": {
+      "source": "SMH",
+      "title": "Wallabies' cheeky jab at England",
+      "published": "2026-11-07T23:01:55+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "fc11acd6571d2728": {
+      "source": "The Age",
+      "title": "Wallabies' cheeky jab at England",
+      "published": "2026-11-07T23:01:55+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "ad631ae638be7421"
+    },
+    "901aa2b30ced95b9": {
+      "source": "SMH",
+      "title": "6G phones arrive in 2030. The fight over the airwaves has already begun",
+      "published": "2026-11-07T23:06:08+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "9f09635175a0cce3": {
+      "source": "The Age",
+      "title": "6G phones arrive in 2030. The fight over the airwaves has already begun",
+      "published": "2026-11-07T23:06:08+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "901aa2b30ced95b9"
+    },
+    "f19ef4938f607fe5": {
+      "source": "SMH",
+      "title": "Nine killed after gunman opens fire on tourist hotspot in Krakow",
+      "published": "2026-11-07T23:08:11+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "1c6e4e63b69cd2f9": {
+      "source": "The Age",
+      "title": "Nine killed after gunman opens fire on tourist hotspot in Krakow",
+      "published": "2026-11-07T23:08:11+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "f19ef4938f607fe5"
+    },
+    "83f38983ad2e6bde": {
+      "source": "SMH",
+      "title": "Khawaja: 'I haven't thrown anyone under the bus'",
+      "published": "2026-11-07T23:18:16+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia"
+    },
+    "13fb342be78b4d57": {
+      "source": "The Age",
+      "title": "Khawaja: 'I haven't thrown anyone under the bus'",
+      "published": "2026-11-07T23:18:16+00:00",
+      "first_seen": "2026-11-08T09:25:24.437171+10:00",
+      "category": "australia",
+      "duplicate_of": "83f38983ad2e6bde"
+    },
+    "6e52582ebda205da": {
+      "source": "Kicker",
+      "title": "Volley-Tor von Arda G\u00fcler: Real legt in Valencia nach",
+      "published": "2026-11-07T20:43:15+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "bd9c8a77488e4c77": {
+      "source": "Kicker",
+      "title": "\"Das war ziemlich billig\": Troyes schenkt PSG die F\u00fchrung",
+      "published": "2026-11-07T20:48:41+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "2159ba5e3b14d402": {
+      "source": "Kicker",
+      "title": "\"Ich musste sofort an ihn denken\": Kimmich \u00fcber seinen emotionalen Jubel",
+      "published": "2026-11-07T20:51:29+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "e284c1c4a9d1ce21": {
+      "source": "Kicker",
+      "title": "Arteta lacht: \"Nicht angeschaut, um euch nicht anl\u00fcgen zu m\u00fcssen\"",
+      "published": "2026-11-07T20:54:47+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "ee0c33f7d354cfdd": {
+      "source": "Kicker",
+      "title": "Stuttgarts \"Sieg f\u00fcr die Nerven\" und jetzt \"die Beine hoch\"",
+      "published": "2026-11-07T20:56:04+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "551476d8457fc4a8": {
+      "source": "Kicker",
+      "title": "Roma - Sassuolo: Tor zum 3:0 durch Rodrigo Mora in der 58. Minute",
+      "published": "2026-11-07T21:05:04+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "06d62dad9f491d79": {
+      "source": "Kicker",
+      "title": "Nach \"Boxkampf\" mit Chabot: Ball-Saugnapf F\u00fcllkrug ist stolz auf seine \"geile Truppe\"",
+      "published": "2026-11-07T21:15:00+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "11ae17f9b59d4078": {
+      "source": "Kicker",
+      "title": "Stadion erhebt sich: Emotionale Gedenkminute f\u00fcr de Miguel bei Real-Spiel",
+      "published": "2026-11-07T21:22:40+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "5c3dfb087927f4c8": {
+      "source": "Kicker",
+      "title": "3:0 f\u00fcr Real: Mbapp\u00e9 trifft nach Traumpass von Arda G\u00fcler",
+      "published": "2026-11-07T21:44:29+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "58b87ff14c6c95a8": {
+      "source": "Kicker",
+      "title": "VAL - Real Madrid: Rote Karte f\u00fcr in der 80. Minute",
+      "published": "2026-11-07T21:46:45+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "8a973e39c3b4dd1a": {
+      "source": "Kicker",
+      "title": "\"Was f\u00fcr ein Spieler\": RB-Coach Demichelis von Gruda begeistert",
+      "published": "2026-11-07T22:25:31+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "5e48f6177070c07d": {
+      "source": "Kicker",
+      "title": "Malen erzwingt Eigentor: Roma feiert souver\u00e4nes 3:0",
+      "published": "2026-11-07T22:40:07+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "da420a37cb2f3391": {
+      "source": "Kicker",
+      "title": "Volley-Tor und Traum-Vorlage: Arda G\u00fcler f\u00fchrt Real zum 3:0-Sieg",
+      "published": "2026-11-07T22:40:38+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "18db839c18eb8c93": {
+      "source": "Kicker",
+      "title": "Zabarnyi steigt hoch und nickt ein: PSG nutzt Tiefschlaf von Troyes",
+      "published": "2026-11-07T22:45:05+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "aca97ba5aad4b191": {
+      "source": "Kicker",
+      "title": "VfB-Coach Hoene\u00df beeindruckt: \"Spieler konnten eigentlich nicht mehr\"",
+      "published": "2026-11-07T22:45:19+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "17629a214de295d9": {
+      "source": "Kicker",
+      "title": "Thioune trotz Pleite zufrieden: \"Haben uns entwickelt\"",
+      "published": "2026-11-07T23:05:31+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "497a161e115819f3": {
+      "source": "Kicker",
+      "title": "Spektakel im Spitzenspiel: Hertha \"setzt das n\u00e4chste Statement\"",
+      "published": "2026-11-07T23:15:12+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "dfdb3ebcd66b4785": {
+      "source": "Kicker",
+      "title": "Wolfsburgs Schiedsrichter-\u00c4rger: \"Wollte sich der Kommunikation nicht stellen\"",
+      "published": "2026-11-07T23:16:45+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
+    },
+    "f7d473688c2665e1": {
+      "source": "Kicker",
+      "title": "Gersbeck: \"Sch\u00f6n zu sehen, dass die ganze Stadt wieder strahlt\"",
+      "published": "2026-11-07T23:21:16+00:00",
+      "first_seen": "2026-11-08T09:25:31.749835+10:00",
+      "category": "football"
     }
   }
 }

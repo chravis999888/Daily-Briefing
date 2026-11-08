@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-08T01:41:52.146653+00:00",
+  "last_gdelt_attempt": "2026-11-08T04:31:50.225113+00:00",
   "article_store": {
     "54b48fe33b333a55": {
       "source": "BBC News",
@@ -22248,6 +22248,451 @@
       "published": "2026-11-08T01:37:55+00:00",
       "first_seen": "2026-11-08T11:57:07.347956+10:00",
       "category": "breaking"
+    },
+    "0b44e4b9f67b0e5b": {
+      "source": "Al Jazeera",
+      "title": "US launches task force to disrupt Iran\u2019s land-based supply routes",
+      "published": "2026-11-08T02:34:04+00:00",
+      "first_seen": "2026-11-08T14:32:11.948530+10:00",
+      "category": "breaking"
+    },
+    "a05ef39c2db4fcb2": {
+      "source": "Al Jazeera",
+      "title": "Egypt sacks winning football coach after wives\u2019 scandal",
+      "published": "2026-11-08T03:04:28+00:00",
+      "first_seen": "2026-11-08T14:32:11.948530+10:00",
+      "category": "breaking"
+    },
+    "c8188d00997864bf": {
+      "source": "Al Jazeera",
+      "title": "Trump asks UFC chief Dana White to be White House press secretary",
+      "published": "2026-11-08T03:12:44+00:00",
+      "first_seen": "2026-11-08T14:32:11.948530+10:00",
+      "category": "breaking"
+    },
+    "cf61fc9f5449675a": {
+      "source": "BBC News",
+      "title": "Two seriously injured after M20 crash involving more than 30 vehicles in Kent",
+      "published": "2026-11-08T04:09:21+00:00",
+      "first_seen": "2026-11-08T14:32:11.948530+10:00",
+      "category": "breaking"
+    },
+    "a4a459cf55286f47": {
+      "source": "ABC News",
+      "title": "Calls for more funding as Victorian JP numbers dwindle",
+      "published": "2026-11-07T23:32:54+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "a6ae05ac183f8413": {
+      "source": "ABC News",
+      "title": "Spectacular cave site 'neglected' after five years closed to tourists",
+      "published": "2026-11-07T23:42:13+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "10ae5eebf6b511d9": {
+      "source": "ABC News",
+      "title": "Extraordinary scenes as fog descends on 'farcical' FA Cup tie",
+      "published": "2026-11-07T23:57:15+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "f490fa0e41fa0aa5": {
+      "source": "ABC News",
+      "title": "Serial child rapist's court-enforced exile a potential legal first for WA",
+      "published": "2026-11-08T00:04:19+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "323c8b4ab89c5b90": {
+      "source": "ABC News",
+      "title": "Cyclist records dangerously close calls with drivers after six deaths",
+      "published": "2026-11-08T00:32:39+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "728e07ab06f2ccfc": {
+      "source": "SMH",
+      "title": "Khawaja\u2019s explosive confession puts Australian bowlers in the firing line",
+      "published": "2026-11-08T00:38:26+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "2a391b8104b47e7f": {
+      "source": "The Age",
+      "title": "Khawaja\u2019s explosive confession puts Australian bowlers in the firing line",
+      "published": "2026-11-08T00:38:26+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "728e07ab06f2ccfc"
+    },
+    "03eda05ff33108c1": {
+      "source": "SMH",
+      "title": "Superlative: This Fiddler on the Roof rises to and exceeds expectation",
+      "published": "2026-11-08T00:47:23+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "d87223e3b62b211d": {
+      "source": "The Age",
+      "title": "Superlative: This Fiddler on the Roof rises to and exceeds expectation",
+      "published": "2026-11-08T00:47:23+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "03eda05ff33108c1"
+    },
+    "c991eba69844514a": {
+      "source": "SMH",
+      "title": "Dana White responds to Trump's job offer",
+      "published": "2026-11-08T00:54:15+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "5cb14e324ff6e21f": {
+      "source": "The Age",
+      "title": "Dana White responds to Trump's job offer",
+      "published": "2026-11-08T00:54:15+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "c991eba69844514a"
+    },
+    "6ff80cbb9b50e8a1": {
+      "source": "ABC News",
+      "title": "Khawaja says he has thrown nobody 'under the bus'",
+      "published": "2026-11-08T01:00:21+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "f879db8c73d991e4": {
+      "source": "ABC News",
+      "title": "Explosions in Strait of Hormuz as Iran reviews de-escalation proposals",
+      "published": "2026-11-08T01:07:51+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "594435c3180a4f4b": {
+      "source": "SMH",
+      "title": "\u2018On to the next chapter\u2019: UFC boss Dana White says he\u2019ll meet with Trump over press secretary job",
+      "published": "2026-11-08T01:19:02+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "4e5b778fe667a697": {
+      "source": "The Age",
+      "title": "\u2018On to the next chapter\u2019: UFC boss Dana White says he\u2019ll meet with Trump over press secretary job",
+      "published": "2026-11-08T01:19:02+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "594435c3180a4f4b"
+    },
+    "877b66b57a6d6860": {
+      "source": "ABC News",
+      "title": "Meet the surgeon saving the careers of cricket's best fast bowlers",
+      "published": "2026-11-08T01:24:37+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "2ce421dfcdf28e07": {
+      "source": "SMH",
+      "title": "It only takes three songs before every seat in the Palais is hastily abandoned",
+      "published": "2026-11-08T01:28:52+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "a14ff74fab8bba52": {
+      "source": "The Age",
+      "title": "It only takes three songs before every seat in the Palais is hastily abandoned",
+      "published": "2026-11-08T01:28:52+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "2ce421dfcdf28e07"
+    },
+    "68df3b29716021ae": {
+      "source": "SMH",
+      "title": "Socceroos name under-strength squad for Jordan friendly amid player safety fears",
+      "published": "2026-11-08T01:35:20+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "50fe6372ad8dc3ed": {
+      "source": "The Age",
+      "title": "Socceroos name under-strength squad for Jordan friendly amid player safety fears",
+      "published": "2026-11-08T01:35:20+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "68df3b29716021ae"
+    },
+    "ce6bbe2743fd5138": {
+      "source": "ABC News",
+      "title": "Canavan supports Paris Agreement but says EU trade deal goes too far",
+      "published": "2026-11-08T01:35:27+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "3a65049b6150b4d9": {
+      "source": "SMH",
+      "title": "Tubby 'disappointed' in fresh 2018 saga claims",
+      "published": "2026-11-08T01:42:10+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "edfeb8a65ffd3cde": {
+      "source": "The Age",
+      "title": "Tubby 'disappointed' in fresh 2018 saga claims",
+      "published": "2026-11-08T01:42:10+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "3a65049b6150b4d9"
+    },
+    "be235e3b29dfb517": {
+      "source": "ABC News",
+      "title": "Rising female footy star dreams of playing NRLW",
+      "published": "2026-11-08T02:01:34+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "1cb1a7ac99e61ad2": {
+      "source": "ABC News",
+      "title": "Safety a top priority for Vic premier after food delivery driver stabbing",
+      "published": "2026-11-08T02:03:22+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "979150fd732fb9b9": {
+      "source": "SMH",
+      "title": "From NDIS expos\u00e9 to Giuffre report: WAtoday journalist scores double win at WA Media Awards",
+      "published": "2026-11-08T02:11:02+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "758c10f06ad335fc": {
+      "source": "The Age",
+      "title": "From NDIS expos\u00e9 to Giuffre report: WAtoday journalist scores double win at WA Media Awards",
+      "published": "2026-11-08T02:11:02+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "979150fd732fb9b9"
+    },
+    "b6acd0efd8d9e937": {
+      "source": "SMH",
+      "title": "\u2018A matter for the party\u2019: Crisafulli defends $100k developer donation",
+      "published": "2026-11-08T02:12:06+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "f34b418136576e84": {
+      "source": "The Age",
+      "title": "\u2018A matter for the party\u2019: Crisafulli defends $100k developer donation",
+      "published": "2026-11-08T02:12:06+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "b6acd0efd8d9e937"
+    },
+    "9e2e2bbf280835c4": {
+      "source": "ABC News",
+      "title": "Ukrainians 'suffered forced starvation' in Oleshky before escape",
+      "published": "2026-11-08T02:17:44+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "13b7c416b704d7f2": {
+      "source": "ABC News",
+      "title": "The father and son farmers who sent a message to Donald Trump",
+      "published": "2026-11-08T02:17:59+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "7680ce23d98dc240": {
+      "source": "ABC News",
+      "title": "Chronic pain affects one in two women in midlife, report finds",
+      "published": "2026-11-08T02:18:32+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "a4f6f95370354a4c": {
+      "source": "SMH",
+      "title": "Byron Bay is an idyllic beach town. Just don\u2019t mention the high rates of drink-driving",
+      "published": "2026-11-08T02:30:00+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "24b37ef4ec0b8a49": {
+      "source": "The Age",
+      "title": "Byron Bay is an idyllic beach town. Just don\u2019t mention the high rates of drink-driving",
+      "published": "2026-11-08T02:30:00+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "a4f6f95370354a4c"
+    },
+    "3326a0ebdc37c92b": {
+      "source": "SMH",
+      "title": "Big in Japan: Nawaqanitawase impressing new teammates in first week",
+      "published": "2026-11-08T02:35:14+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "67d43a16319eb59c": {
+      "source": "The Age",
+      "title": "Big in Japan: Nawaqanitawase impressing new teammates in first week",
+      "published": "2026-11-08T02:35:14+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "3326a0ebdc37c92b"
+    },
+    "b57c291c79b70c02": {
+      "source": "ABC News",
+      "title": "NT Catholic school parents warned of police presence amid terror probe",
+      "published": "2026-11-08T02:42:50+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "e31a92c589f30d24": {
+      "source": "SMH",
+      "title": "Cooks River AI data centre scrapped after local outcry",
+      "published": "2026-11-08T02:52:20+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "b4a6a9941840dd0a": {
+      "source": "The Age",
+      "title": "Cooks River AI data centre scrapped after local outcry",
+      "published": "2026-11-08T02:52:20+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "e31a92c589f30d24"
+    },
+    "9c778eee977a63cb": {
+      "source": "SMH",
+      "title": "This ADHD program was supposed to improve access. Instead, it\u2019s heightened confusion",
+      "published": "2026-11-08T02:56:51+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "66b450e73517b8b6": {
+      "source": "The Age",
+      "title": "This ADHD program was supposed to improve access. Instead, it\u2019s heightened confusion",
+      "published": "2026-11-08T02:56:51+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "9c778eee977a63cb"
+    },
+    "2cae7bce22564f6c": {
+      "source": "SMH",
+      "title": "The American people have finally turned on Trump",
+      "published": "2026-11-08T02:58:52+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "deffce1906551bef": {
+      "source": "The Age",
+      "title": "The American people have finally turned on Trump",
+      "published": "2026-11-08T02:58:52+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "2cae7bce22564f6c"
+    },
+    "733b5c0fcc3b32ac": {
+      "source": "ABC News",
+      "title": "Palestinians return to destroyed West Bank homes after IDF siege",
+      "published": "2026-11-08T03:01:31+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "5fe5a58b15511ec4": {
+      "source": "ABC News",
+      "title": "Final Garage Sale Trail after 16 years of re-homing second-hand goods",
+      "published": "2026-11-08T03:06:00+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "92dda1ee039ccff5": {
+      "source": "SMH",
+      "title": "Senior police officer charged with sexual assault",
+      "published": "2026-11-08T03:26:17+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "bfbaf311904210a6": {
+      "source": "The Age",
+      "title": "Senior police officer charged with sexual assault",
+      "published": "2026-11-08T03:26:17+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "92dda1ee039ccff5"
+    },
+    "1bf529b54e1fad1e": {
+      "source": "ABC News",
+      "title": "Cancelled AI data centre 'victory for people power' after backlash",
+      "published": "2026-11-08T03:26:43+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "41f185f469a4ef2a": {
+      "source": "SMH",
+      "title": "$2b and plenty of new seats: Inside airlines\u2019 battle for first-class supremacy",
+      "published": "2026-11-08T03:29:27+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "451271190d6f3cab": {
+      "source": "The Age",
+      "title": "$2b and plenty of new seats: Inside airlines\u2019 battle for first-class supremacy",
+      "published": "2026-11-08T03:29:27+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "41f185f469a4ef2a"
+    },
+    "2b96ce0aeda1cf39": {
+      "source": "ABC News",
+      "title": "Residents bought into communities but may end up living in 'wastelands'",
+      "published": "2026-11-08T03:49:40+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "bee8364ed2819621": {
+      "source": "SMH",
+      "title": "Sydney Swans secure AFLW semi-final spot with dominant win over Western Bulldogs",
+      "published": "2026-11-08T04:08:13+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "5e6b938841c6132b": {
+      "source": "The Age",
+      "title": "Sydney Swans secure AFLW semi-final spot with dominant win over Western Bulldogs",
+      "published": "2026-11-08T04:08:13+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "bee8364ed2819621"
+    },
+    "6b2772691ba0c3b7": {
+      "source": "SMH",
+      "title": "REIWA highlights stamp duty and rental relief in state budget wishlist",
+      "published": "2026-11-08T04:17:28+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "ae55ddd495e24b46": {
+      "source": "The Age",
+      "title": "REIWA highlights stamp duty and rental relief in state budget wishlist",
+      "published": "2026-11-08T04:17:28+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia",
+      "duplicate_of": "6b2772691ba0c3b7"
+    },
+    "24dfbfe7d6ab0018": {
+      "source": "ABC News",
+      "title": "NZ election figures tell story of disenchantment and fracturing",
+      "published": "2026-11-08T04:28:39+00:00",
+      "first_seen": "2026-11-08T14:32:13.209464+10:00",
+      "category": "australia"
+    },
+    "303ddd16449cdde4": {
+      "source": "PhysOrg",
+      "title": "Giant virus yields potassium channel gene that illuminates complex protein evolution",
+      "published": "2026-10-31T21:00:05+00:00",
+      "first_seen": "2026-11-08T14:32:16.964795+10:00",
+      "category": "archaeology"
     }
   }
 }

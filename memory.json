@@ -2089,542 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-08T23:25:44.168251+00:00",
+  "last_gdelt_attempt": "2026-11-09T01:49:55.940151+00:00",
   "article_store": {
-    "c6552bcc9127ee78": {
-      "source": "Al Jazeera",
-      "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
-      "published": "2026-11-02T00:00:00+00:00",
-      "first_seen": "2026-11-02T11:16:06.260025+10:00",
-      "category": "breaking"
-    },
-    "d8f8bafbc4cb240d": {
-      "source": "Al Jazeera",
-      "title": "Bollywood star greets fans in bulletproof glass after bomb threat",
-      "published": "2026-11-02T00:14:22+00:00",
-      "first_seen": "2026-11-02T11:16:06.260025+10:00",
-      "category": "breaking"
-    },
-    "7f103b13f262cd44": {
-      "source": "BBC News",
-      "title": "Democrats have high hopes for midterms, but polls have let them down before",
-      "published": "2026-11-02T00:25:12+00:00",
-      "first_seen": "2026-11-02T11:16:06.260025+10:00",
-      "category": "breaking"
-    },
-    "a88e56e49a7ff20a": {
-      "source": "Al Jazeera",
-      "title": "Israeli officials say results stand as Netanyahu claims election \u2018stolen\u2019",
-      "published": "2026-11-02T00:29:16+00:00",
-      "first_seen": "2026-11-02T11:16:06.260025+10:00",
-      "category": "breaking"
-    },
-    "f89a86215168f3a7": {
-      "source": "Al Jazeera",
-      "title": "Nine die in \u2018cataclysmic\u2019 Florida business jet crash",
-      "published": "2026-11-02T00:34:22+00:00",
-      "first_seen": "2026-11-02T11:16:06.260025+10:00",
-      "category": "breaking"
-    },
-    "70c743d3857e4f57": {
-      "source": "BBC News",
-      "title": "A&E warning system to flag sick children deteriorating quickly",
-      "published": "2026-11-02T00:51:24+00:00",
-      "first_seen": "2026-11-02T11:16:06.260025+10:00",
-      "category": "breaking"
-    },
-    "21e0fdc0ffe2e76e": {
-      "source": "BBC News",
-      "title": "Binance users withdraw $3.6bn after record crypto hack",
-      "published": "2026-11-02T01:15:25+00:00",
-      "first_seen": "2026-11-02T11:16:06.260025+10:00",
-      "category": "breaking"
-    },
-    "0251258a8a78d527": {
-      "source": "ABC News",
-      "title": "Melbourne Cup weekend crashes on Victorian roads leave eight people dead",
-      "published": "2026-11-01T21:50:05+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "0acfeb9a411f20a8": {
-      "source": "ABC News",
-      "title": "Western Australia experienced a roller-coaster of weather in October",
-      "published": "2026-11-01T21:53:11+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "dfd88a02e9e9682c": {
-      "source": "ABC News",
-      "title": "Nine die as business jet crashes on Florida roadside",
-      "published": "2026-11-01T21:56:40+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "43bfea5a2ad1f981": {
-      "source": "ABC News",
-      "title": "Matildas star continues remarkable WSL goalscoring run in huge win",
-      "published": "2026-11-01T21:59:55+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "6b9871133d1ebf5c": {
-      "source": "ABC News",
-      "title": "Australia's first Indigenous-owned water testing lab opens in regional Qld",
-      "published": "2026-11-01T22:06:08+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "3b47d34dd59cbb07": {
-      "source": "ABC News",
-      "title": "Matt Canavan to run in Capricornia as One Nation's James Ashby withdraws",
-      "published": "2026-11-01T22:43:35+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "5ca8e4b49bbbb720": {
-      "source": "ABC News",
-      "title": "'Lasting legacy': Olympian remembered as inspiration after death at 34",
-      "published": "2026-11-01T22:48:58+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "8225957078248e0f": {
-      "source": "ABC News",
-      "title": "Serial rapist to be released despite 'high risk' to WA community",
-      "published": "2026-11-01T23:05:19+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "36e46128d7c8d3e4": {
-      "source": "ABC News",
-      "title": "Indigenous women connect to culture through traditional crafts",
-      "published": "2026-11-01T23:31:52+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "0f8bc5b6b03ceb46": {
-      "source": "SMH",
-      "title": "Desperate Lomax prevents USA try",
-      "published": "2026-11-01T23:45:03+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "818db93120a86ab0": {
-      "source": "The Age",
-      "title": "Desperate Lomax prevents USA try",
-      "published": "2026-11-01T23:45:03+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "0f8bc5b6b03ceb46"
-    },
-    "94ab4004d269d4f4": {
-      "source": "ABC News",
-      "title": "Five people rescued off Kiribati after three months at sea",
-      "published": "2026-11-01T23:45:15+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "29358d123f398d47": {
-      "source": "ABC News",
-      "title": "Coalition pledges hundreds of new fire trucks ahead of Victorian state election",
-      "published": "2026-11-01T23:49:12+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "f0522139f49bc963": {
-      "source": "SMH",
-      "title": "ASX slides lower, banks jump; Rip Curl owner in takeover talks with US giant",
-      "published": "2026-11-01T23:57:07+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "b870e0399211b115": {
-      "source": "The Age",
-      "title": "ASX slides lower, banks jump; Rip Curl owner in takeover talks with US giant",
-      "published": "2026-11-01T23:57:07+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "f0522139f49bc963"
-    },
-    "d6b2f2d5b33dba3a": {
-      "source": "SMH",
-      "title": "WA news LIVE: Perth feels bite of house value slump; Greek favourites confirmed for United Cup return",
-      "published": "2026-11-01T23:58:58+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "c3537257a4add0f4": {
-      "source": "The Age",
-      "title": "WA news LIVE: Perth feels bite of house value slump; Greek favourites confirmed for United Cup return",
-      "published": "2026-11-01T23:58:58+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "d6b2f2d5b33dba3a"
-    },
-    "ba3c324725428889": {
-      "source": "SMH",
-      "title": "What this woman saw in 27 years of policing completely broke her",
-      "published": "2026-11-02T00:00:00+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "2b56a61c36c54fd1": {
-      "source": "The Age",
-      "title": "What this woman saw in 27 years of policing completely broke her",
-      "published": "2026-11-02T00:00:00+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "ba3c324725428889"
-    },
-    "f919e501b4065051": {
-      "source": "ABC News",
-      "title": "The F1 records Antonelli broke to become world champion",
-      "published": "2026-11-02T00:02:53+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "0e8b76f97c5bc9de": {
-      "source": "ABC News",
-      "title": "Homeowners facing thousands in costs to upgrade from gas to electric",
-      "published": "2026-11-02T00:06:11+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "21544e3d0db07dd7": {
-      "source": "SMH",
-      "title": "Bidders furious after data breach bungle blows up $50 million hospital tender",
-      "published": "2026-11-02T00:19:32+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "dfc69759c83631a0": {
-      "source": "The Age",
-      "title": "Bidders furious after data breach bungle blows up $50 million hospital tender",
-      "published": "2026-11-02T00:19:32+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "21544e3d0db07dd7"
-    },
-    "fb167907cfc2556d": {
-      "source": "SMH",
-      "title": "He\u2019d just ridden his first group 1 race. Then came the death threats",
-      "published": "2026-11-02T00:27:34+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "56799fd10759dba0": {
-      "source": "The Age",
-      "title": "He\u2019d just ridden his first group 1 race. Then came the death threats",
-      "published": "2026-11-02T00:27:34+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "fb167907cfc2556d"
-    },
-    "f95a960295926fed": {
-      "source": "SMH",
-      "title": "I gave Sydney\u2019s new metro its toughest test yet \u2013 a pub crawl",
-      "published": "2026-11-02T00:27:55+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "4b0ec111ec7a6044": {
-      "source": "The Age",
-      "title": "I gave Sydney\u2019s new metro its toughest test yet \u2013 a pub crawl",
-      "published": "2026-11-02T00:27:55+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "f95a960295926fed"
-    },
-    "03a94b35961442ce": {
-      "source": "SMH",
-      "title": "The Sydney pub and the stoush over dance-floor caps and surveillance",
-      "published": "2026-11-02T00:30:00+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "c0773f2b62bd1364": {
-      "source": "The Age",
-      "title": "The Sydney pub and the stoush over dance-floor caps and surveillance",
-      "published": "2026-11-02T00:30:00+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "03a94b35961442ce"
-    },
-    "1ffa6e25d99a4ddb": {
-      "source": "SMH",
-      "title": "How to pick a Melbourne Cup winner: A bluffer\u2019s guide to punting (and the coveted trifecta)",
-      "published": "2026-11-02T00:36:40+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "69a0d49832a73934": {
-      "source": "The Age",
-      "title": "How to pick a Melbourne Cup winner: A bluffer\u2019s guide to punting (and the coveted trifecta)",
-      "published": "2026-11-02T00:36:40+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "1ffa6e25d99a4ddb"
-    },
-    "8390fe049425b2ff": {
-      "source": "SMH",
-      "title": "Leggatt Street",
-      "published": "2026-11-02T00:42:01+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "38c603d612336f7d": {
-      "source": "The Age",
-      "title": "Leggatt Street",
-      "published": "2026-11-02T00:42:01+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "a31f30e036738ca3": {
-      "source": "SMH",
-      "title": "First home buyer beats three others for $1.72m renovated Richmond house",
-      "published": "2026-11-02T00:42:45+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "30115d0ec55f2e33": {
-      "source": "The Age",
-      "title": "First home buyer beats three others for $1.72m renovated Richmond house",
-      "published": "2026-11-02T00:42:45+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "a31f30e036738ca3"
-    },
-    "311eda84f68c7141": {
-      "source": "SMH",
-      "title": "Iconic \u2018smallest home\u2019 on the Bay Run passes in on a $3.71 million bid",
-      "published": "2026-11-02T00:48:49+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "4648ca7e400073e7": {
-      "source": "The Age",
-      "title": "Iconic \u2018smallest home\u2019 on the Bay Run passes in on a $3.71 million bid",
-      "published": "2026-11-02T00:48:49+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "311eda84f68c7141"
-    },
-    "ac944b6554ac8185": {
-      "source": "ABC News",
-      "title": "Strintzos eyes Olympic berth after fifth finish in New York Marathon",
-      "published": "2026-11-02T00:59:22+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "e3e2c0ad2aa158fc": {
-      "source": "SMH",
-      "title": "Wall Street on edge after $1.4 trillion wipeout",
-      "published": "2026-11-02T00:59:24+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "21dad602e836c630": {
-      "source": "The Age",
-      "title": "Wall Street on edge after $1.4 trillion wipeout",
-      "published": "2026-11-02T00:59:24+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "e3e2c0ad2aa158fc"
-    },
-    "3a2929d195eb13cd": {
-      "source": "SMH",
-      "title": "Bar Gabi",
-      "published": "2026-11-02T00:59:55+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "848c0696877df39a": {
-      "source": "The Age",
-      "title": "Bar Gabi",
-      "published": "2026-11-02T00:59:55+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "8eb198728b3db7cb": {
-      "source": "SMH",
-      "title": "Coach calls for calm, keeps door ajar for Labuschagne, as Healy turns torch on selectors",
-      "published": "2026-11-02T01:00:00+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "ee3d2cfd1ea5bcfd": {
-      "source": "The Age",
-      "title": "Coach calls for calm, keeps door ajar for Labuschagne, as Healy turns torch on selectors",
-      "published": "2026-11-02T01:00:00+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "8eb198728b3db7cb"
-    },
-    "abbe5355329050b5": {
-      "source": "ABC News",
-      "title": "They voted for Trump last time. Now some are having second thoughts",
-      "published": "2026-11-02T01:00:26+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "432b3a0e8eaab7a8": {
-      "source": "ABC News",
-      "title": "Bancroft reaches acceptance over Test recall chances after 'dejection'",
-      "published": "2026-11-02T01:03:09+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "afcd540d3d91df3e": {
-      "source": "SMH",
-      "title": "Upsizers shell out $6m for prestige estate in mountain\u2019s foothills",
-      "published": "2026-11-02T01:05:22+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "e3085f6f225c3196": {
-      "source": "The Age",
-      "title": "Upsizers shell out $6m for prestige estate in mountain\u2019s foothills",
-      "published": "2026-11-02T01:05:22+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "afcd540d3d91df3e"
-    },
-    "d45bd11f42d5eab0": {
-      "source": "SMH",
-      "title": "KPMG set to slash hundreds more jobs before Christmas",
-      "published": "2026-11-02T01:05:32+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "25309af9b94feae5": {
-      "source": "The Age",
-      "title": "KPMG set to slash hundreds more jobs before Christmas",
-      "published": "2026-11-02T01:05:32+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "d45bd11f42d5eab0"
-    },
-    "2a918f60ae59f4b3": {
-      "source": "SMH",
-      "title": "\u2018I may politically die in this endeavour\u2019: Canavan confirms battleground contest",
-      "published": "2026-11-02T01:11:09+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia"
-    },
-    "18021444ef356bbf": {
-      "source": "The Age",
-      "title": "\u2018I may politically die in this endeavour\u2019: Canavan confirms battleground contest",
-      "published": "2026-11-02T01:11:09+00:00",
-      "first_seen": "2026-11-02T11:16:06.749911+10:00",
-      "category": "australia",
-      "duplicate_of": "2a918f60ae59f4b3"
-    },
-    "76c0662e53036798": {
-      "source": "Kicker",
-      "title": "Stuttgarter, M\u00fcnchner und Leipziger \u00dcbergewicht: Die kicker-Elf des 8. Spieltags",
-      "published": "2026-11-01T21:47:27+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "599f15f6d1d451f4": {
-      "source": "Marca",
-      "title": "Aramburu: \"Me parece incre\u00edble que pite penalti, toco el bal\u00f3n, hasta Nico me dice que no es\"",
-      "published": "2026-11-01T22:23:28+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "0ec439add367a41b": {
-      "source": "Kicker",
-      "title": "\"War ich aufgebracht?\": Polzin hadert mit Schiri-Entscheidung",
-      "published": "2026-11-01T22:26:17+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "db1193a893cf3f93": {
-      "source": "Kicker",
-      "title": "Da Silva Kiala veredelt sein Solo: Aachen schl\u00e4gt M\u00fcnster mit 2:1",
-      "published": "2026-11-01T22:29:13+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "1835907266fb9247": {
-      "source": "Marca",
-      "title": "El gesto de Diomande con el que se gan\u00f3 a El Sardinero",
-      "published": "2026-11-01T22:31:30+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "122f16d526b7cfc3": {
-      "source": "Kicker",
-      "title": "\"Weit mehr gezeigt, als man erwarten kann\": H\u00fctter schw\u00e4rmt von Ilicevic",
-      "published": "2026-11-01T22:33:34+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "31f0be6405345ca9": {
-      "source": "Marca",
-      "title": "Terzic: \"Estamos en el buen camino\"",
-      "published": "2026-11-01T22:45:46+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "2b66e435e1389b5e": {
-      "source": "Kicker",
-      "title": "Boga kopiert Alajbegovic-Knaller: Juve schl\u00e4gt Neapel mit 2:0",
-      "published": "2026-11-01T22:47:07+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "360801fa81ddf730": {
-      "source": "Marca",
-      "title": "Hern\u00e1ndez Hern\u00e1ndez: \"Yo veo penalti claro y el VAR confirma la decisi\u00f3n\"",
-      "published": "2026-11-01T22:53:16+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "19b57ec630496a46": {
-      "source": "Marca",
-      "title": "Matarazzo: \"No es penalti, Jon toca el bal\u00f3n, no entiendo porque el VAR no lo anul\u00f3\"",
-      "published": "2026-11-01T22:59:17+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "3ba8d5f08508e221": {
-      "source": "Marca",
-      "title": "Sim\u00f3n es el padre de la normalidad",
-      "published": "2026-11-01T23:01:50+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "09f7abb5f0937fc1": {
-      "source": "Marca",
-      "title": "Oyarzabal: \"Me resulta extra\u00f1o que el \u00e1rbitro diga de manera tan clara que 'Jonmi' no toca bal\u00f3n, cuando en alguna imagen se ve que s\u00ed\"",
-      "published": "2026-11-01T23:13:07+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "e8bda77b84c82b57": {
-      "source": "Marca",
-      "title": "La Real denuncia en su web a Hern\u00e1ndez Hern\u00e1ndez: \"Ha visto lo que no ha sucedido\"",
-      "published": "2026-11-01T23:31:14+00:00",
-      "first_seen": "2026-11-02T11:16:13.266228+10:00",
-      "category": "football"
-    },
-    "d8ad03f8a0c710aa": {
-      "source": "Al Jazeera",
-      "title": "Trump invites Michigan Democrat Stevens to join the Republican Party",
-      "published": "2026-11-02T01:25:00+00:00",
-      "first_seen": "2026-11-02T11:41:59.805254+10:00",
-      "category": "breaking"
-    },
-    "549c85b78fdcc2a7": {
-      "source": "Al Jazeera",
-      "title": "Tens of thousands build 108 Buddhist stupas for Bhutan \u2018mindfulness\u2019 city",
-      "published": "2026-11-02T01:31:21+00:00",
-      "first_seen": "2026-11-02T11:41:59.805254+10:00",
-      "category": "breaking"
-    },
     "8dff7a47d4a002f4": {
       "source": "BBC News",
       "title": "What's at stake for Trump in the US midterms?",
@@ -22421,6 +21887,55 @@
       "title": "Iran war live: Trump says land blockade in effect; drone cuts power in Iraq",
       "published": "2026-11-09T00:00:34+00:00",
       "first_seen": "2026-11-09T10:21:34.483488+10:00",
+      "category": "breaking"
+    },
+    "3c00a636e87ecad3": {
+      "source": "BBC News",
+      "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
+      "published": "2026-11-08T22:05:12+00:00",
+      "first_seen": "2026-11-09T11:50:17.436166+10:00",
+      "category": "breaking"
+    },
+    "3ab4733d7cb58607": {
+      "source": "Al Jazeera",
+      "title": "Jeffries backs Hegseth impeachment as Democrats vow probes of Trump allies",
+      "published": "2026-11-09T00:07:02+00:00",
+      "first_seen": "2026-11-09T11:50:17.436166+10:00",
+      "category": "breaking"
+    },
+    "79b1dea7b3b01211": {
+      "source": "Al Jazeera",
+      "title": "India\u2019s night lights up for Diwali",
+      "published": "2026-11-09T00:24:04+00:00",
+      "first_seen": "2026-11-09T11:50:17.436166+10:00",
+      "category": "breaking"
+    },
+    "d4ce61210e349df0": {
+      "source": "BBC News",
+      "title": "The Papers:  'There are more like Brand' and 'Steep cuts to EV targets'",
+      "published": "2026-11-09T00:31:03+00:00",
+      "first_seen": "2026-11-09T11:50:17.436166+10:00",
+      "category": "breaking"
+    },
+    "1bdfbc4618c214a7": {
+      "source": "BBC News",
+      "title": "A glimmer of good news for Britain's sleepy dormouse",
+      "published": "2026-11-09T00:56:43+00:00",
+      "first_seen": "2026-11-09T11:50:17.436166+10:00",
+      "category": "breaking"
+    },
+    "40967c464f815b8e": {
+      "source": "BBC News",
+      "title": "Woman says Al Fayed's brother drugged and sexually abused her at Highland estate",
+      "published": "2026-11-09T00:57:05+00:00",
+      "first_seen": "2026-11-09T11:50:17.436166+10:00",
+      "category": "breaking"
+    },
+    "e2419bfe1cbe53de": {
+      "source": "Al Jazeera",
+      "title": "Drone attack suspends production at Iraq\u2019s Khor Mor gasfield",
+      "published": "2026-11-09T01:19:09+00:00",
+      "first_seen": "2026-11-09T11:50:17.436166+10:00",
       "category": "breaking"
     }
   }

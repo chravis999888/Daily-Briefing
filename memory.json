@@ -2089,162 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-10T06:43:18.389167+00:00",
+  "last_gdelt_attempt": "2026-11-10T10:37:47.297917+00:00",
   "article_store": {
-    "ae593b04f6d78f5f": {
-      "source": "Al Jazeera",
-      "title": "Thousands displaced as homes are bulldozed in India\u2019s Assam state",
-      "published": "2026-11-03T02:15:39+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "bc4185164ec4f28b": {
-      "source": "Al Jazeera",
-      "title": "Explosions hit Iran\u2019s Qeshm Island as US media report US strikes in Hormuz",
-      "published": "2026-11-03T02:25:02+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "8225ecad299410b4": {
-      "source": "Al Jazeera",
-      "title": "US urges Venezuela to follow phased plan for democratic transition",
-      "published": "2026-11-03T02:27:51+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "c58d85bb8a405fa9": {
-      "source": "BBC News",
-      "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
-      "published": "2026-11-03T03:32:36+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "bbb9adae9a48a69a": {
-      "source": "BBC News",
-      "title": "US strikes Iran ahead of midterm elections",
-      "published": "2026-11-03T03:39:08+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "56eea7f414d59d3a": {
-      "source": "Al Jazeera",
-      "title": "Israeli soldiers arrest Al Jazeera journalist in Hebron raids",
-      "published": "2026-11-03T03:53:09+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "1f976560761faf0f": {
-      "source": "Al Jazeera",
-      "title": "El-Sayed, Rogers hold dueling rallies as bitter campaign comes to a close",
-      "published": "2026-11-03T04:15:08+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "84c7bd5c37cc53c8": {
-      "source": "Al Jazeera",
-      "title": "Israeli forces release Al Jazeera journalist in occupied West Bank",
-      "published": "2026-11-03T04:25:16+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "0a0cde9bce0745ab": {
-      "source": "Al Jazeera",
-      "title": "US midterms present a test for Republican redistricting in Texas and beyond",
-      "published": "2026-11-03T04:39:59+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "358a5f266e3f43f1": {
-      "source": "Al Jazeera",
-      "title": "UK to double wait for permanent residency, with exemptions for care workers",
-      "published": "2026-11-03T04:48:45+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "651b65548c9eeabf": {
-      "source": "Al Jazeera",
-      "title": "What time do polls open and close in the US midterm elections 2026?",
-      "published": "2026-11-03T04:52:08+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "578807107f8e105c": {
-      "source": "BBC News",
-      "title": "Americans head to the polls for elections that could define Trump's closing chapter",
-      "published": "2026-11-03T05:00:43+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "267f79ea9a825877": {
-      "source": "Al Jazeera",
-      "title": "Israeli forces kill four in Gaza as fifth Palestinian dies of wounds",
-      "published": "2026-11-03T05:02:34+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "8ec10d59db0cef6a": {
-      "source": "Al Jazeera",
-      "title": "Texas Senate candidates Paxton and Talarico make final appeals",
-      "published": "2026-11-03T05:12:40+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "376af7e3507fa860": {
-      "source": "Al Jazeera",
-      "title": "California\u2019s Bay Area debates data centres ahead of US midterm elections",
-      "published": "2026-11-03T05:13:42+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "4a432de4952e6f99": {
-      "source": "Al Jazeera",
-      "title": "\u2018Going hungry\u2019: Garment workers in Bangladesh say wages barely cover needs",
-      "published": "2026-11-03T05:27:56+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "b55b4fab42300aa4": {
-      "source": "Al Jazeera",
-      "title": "How a Harvard dream ended in tragedy for a Pakistani family",
-      "published": "2026-11-03T05:51:29+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "ec7dda0931a2f12c": {
-      "source": "BBC News",
-      "title": "Scientists detect signals at the smallest scale ever explored",
-      "published": "2026-11-03T06:01:23+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "2030bce98493fdb1": {
-      "source": "BBC News",
-      "title": "AI data centres could undermine UK's emissions goals, BBC finds",
-      "published": "2026-11-03T06:27:17+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "cb699723cf493037": {
-      "source": "BBC News",
-      "title": "James Blunt on Traitors: I tried - and failed - to get banished",
-      "published": "2026-11-03T06:33:25+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "f218bc57c028eb50": {
-      "source": "Al Jazeera",
-      "title": "Palestine weekly: Election deadlock meets West Bank sieges, Gaza killings",
-      "published": "2026-11-03T06:46:27+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
-    "5ea652cf64b2041c": {
-      "source": "Al Jazeera",
-      "title": "AFC reschedules Asian Cup 2027 in Saudi Arabia amid regional conflict",
-      "published": "2026-11-03T06:55:39+00:00",
-      "first_seen": "2026-11-03T17:25:12.940333+10:00",
-      "category": "breaking"
-    },
     "5dade5dfa41ac60f": {
       "source": "BBC News",
       "title": "I was told I was too young to have cancer - it had spread by the time I was diagnosed",
@@ -22395,6 +22241,139 @@
       "published": "2026-11-03T00:01:00+00:00",
       "first_seen": "2026-11-10T16:43:52.821144+10:00",
       "category": "archaeology"
+    },
+    "63d295a0453110ab": {
+      "source": "BBC News",
+      "title": "Divorced after five days: 'My sham husband made me believe he loved me'",
+      "published": "2026-11-10T06:13:46+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "c1f7912eaae49529": {
+      "source": "BBC News",
+      "title": "Meet Stephanie Case - the first woman to run 100 miles in Antarctica",
+      "published": "2026-11-10T06:20:04+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "6cfcda2fdd3473f1": {
+      "source": "Al Jazeera",
+      "title": "Palestine Weekly: West Bank on fire \u2013 and Gaza\u2019s tents under water",
+      "published": "2026-11-10T06:37:13+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "8b3a7be30b028255": {
+      "source": "Al Jazeera",
+      "title": "Why adults are buying toys",
+      "published": "2026-11-10T06:38:57+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "d82da17630bffac3": {
+      "source": "Al Jazeera",
+      "title": "Australia tightens AI oversight rules after OpenAI government breach",
+      "published": "2026-11-10T07:05:11+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "47dc68f80d75a7f0": {
+      "source": "Al Jazeera",
+      "title": "US moves aircraft from second UK base over \u2018threat from Iran\u2019",
+      "published": "2026-11-10T08:08:24+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "3869a4605ef44664": {
+      "source": "Al Jazeera",
+      "title": "What powers does Netanyahu have as Israel\u2019s interim PM?",
+      "published": "2026-11-10T08:38:11+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "30b45508b039ec64": {
+      "source": "Al Jazeera",
+      "title": "California voters reject billionaire tax",
+      "published": "2026-11-10T08:38:26+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "6a37241f389f29bd": {
+      "source": "Al Jazeera",
+      "title": "UFC CEO Dana White takes the White House podium during Washington visit",
+      "published": "2026-11-10T08:49:25+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "1c097c9713d9b161": {
+      "source": "Al Jazeera",
+      "title": "Are your supplements fake?",
+      "published": "2026-11-10T09:09:09+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "c95056dc4dbc835c": {
+      "source": "BBC News",
+      "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
+      "published": "2026-11-10T09:23:55+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "23666c3ce4f7a7f8": {
+      "source": "Al Jazeera",
+      "title": "Three workers die at Tata\u2019s iPhone parts plant in India\u2019s Tamil Nadu",
+      "published": "2026-11-10T09:29:54+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "c9d81694cf22662a": {
+      "source": "Al Jazeera",
+      "title": "Nvidia spy scandal fuels debate over chip exports to China",
+      "published": "2026-11-10T09:42:04+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "daa665d3dc906766": {
+      "source": "Al Jazeera",
+      "title": "What is Hasina\u2019s game plan as she seeks a passport to return to Bangladesh?",
+      "published": "2026-11-10T09:46:43+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "729ac217b1eedcd3": {
+      "source": "BBC News",
+      "title": "Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash",
+      "published": "2026-11-10T09:57:49+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "0e65a026eb0b8639": {
+      "source": "Al Jazeera",
+      "title": "Pakistan TV anchor allegedly shot dead at home by her husband",
+      "published": "2026-11-10T10:10:32+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "2e10c66b71fed0fe": {
+      "source": "BBC News",
+      "title": "Meghan joins Harry in Brussels in first public appearance since father's arrest",
+      "published": "2026-11-10T10:30:32+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "966524862c93344b": {
+      "source": "BBC News",
+      "title": "Edinburgh Academy pupils suffered decades of 'dreadful abuse'",
+      "published": "2026-11-10T10:33:31+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
+    },
+    "153204975daea1bf": {
+      "source": "BBC News",
+      "title": "US military aircraft leave second UK base",
+      "published": "2026-11-10T10:37:35+00:00",
+      "first_seen": "2026-11-10T20:38:17.531161+10:00",
+      "category": "breaking"
     }
   }
 }

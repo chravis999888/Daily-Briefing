@@ -2089,169 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-10T12:52:40.800476+00:00",
+  "last_gdelt_attempt": "2026-11-10T16:05:52.163785+00:00",
   "article_store": {
-    "539efef896c137ca": {
-      "source": "BBC News",
-      "title": "The people saving hundreds of pounds by dumpster diving",
-      "published": "2026-11-03T07:50:14+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "b4d7afbd45254911": {
-      "source": "BBC News",
-      "title": "'Quiet quitting' could be hitting the economy - here's why",
-      "published": "2026-11-03T11:15:51+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "7b3777cbff7fca5a": {
-      "source": "Al Jazeera",
-      "title": "Grain under fire: Russian, Ukrainian Black Sea attacks threaten food supply",
-      "published": "2026-11-03T12:10:47+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "3e69394feb901e57": {
-      "source": "Al Jazeera",
-      "title": "Al Jazeera journalist recounts arrest during Israeli raid on his home",
-      "published": "2026-11-03T12:14:19+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "9ea78391cb53d2cc": {
-      "source": "Al Jazeera",
-      "title": "Two police officers protecting polio workers in Pakistan shot dead",
-      "published": "2026-11-03T12:33:03+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "41df29302266c1ff": {
-      "source": "Al Jazeera",
-      "title": "Cyberattack disrupts supermarkets across Europe",
-      "published": "2026-11-03T12:38:21+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "2463bb576af8e4d8": {
-      "source": "Al Jazeera",
-      "title": "How Florida Governor Ron DeSantis will shape his state\u2019s 2026 midterm race",
-      "published": "2026-11-03T13:05:03+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "4d0436709aedaeaf": {
-      "source": "Al Jazeera",
-      "title": "Qatar remains hopeful the US and Iran can reach a deal",
-      "published": "2026-11-03T13:05:39+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "cb6b474e759032f4": {
-      "source": "Al Jazeera",
-      "title": "New bodycam video shows aftermath of fatal National Guard shooting",
-      "published": "2026-11-03T13:13:38+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "4fc83eb81e2ff001": {
-      "source": "Al Jazeera",
-      "title": "Saudi Pro League postpones matches after Asian Cup rescheduling",
-      "published": "2026-11-03T13:14:52+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "cbe27dcb083a4119": {
-      "source": "Al Jazeera",
-      "title": "Iran commander sets out five conditions for regional security",
-      "published": "2026-11-03T13:21:57+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "9344263a36cde4e9": {
-      "source": "Al Jazeera",
-      "title": "Trump says US will stop giving Israel aid after year-end",
-      "published": "2026-11-03T13:42:05+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "aade7b16245a6092": {
-      "source": "Al Jazeera",
-      "title": "Who is goalkeeper Owono and will he be punished after De Miguel\u2019s death?",
-      "published": "2026-11-03T14:02:00+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "5de47d0fc95ba7d0": {
-      "source": "BBC News",
-      "title": "Watch: Why is 'Mogging' the word of the year?",
-      "published": "2026-11-03T14:03:57+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "19679aa028e694a0": {
-      "source": "Al Jazeera",
-      "title": "Very cold war: Who\u2019s attacking Europe\u2019s supermarket freezers?",
-      "published": "2026-11-03T14:17:29+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "efbbc29be821d933": {
-      "source": "Al Jazeera",
-      "title": "From Italy to Canada, how the UK\u2019s Palestine Action group went global",
-      "published": "2026-11-03T14:30:24+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "1e0fee29f98a4a25": {
-      "source": "BBC News",
-      "title": "Celebrity loses injunction bid but will stay anonymous pending appeal",
-      "published": "2026-11-03T14:33:14+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "9bfda2de759e1a78": {
-      "source": "BBC News",
-      "title": "Third teen arrested after Halloween party stabbings",
-      "published": "2026-11-03T14:40:00+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "cf7a93c8aa846a3c": {
-      "source": "Al Jazeera",
-      "title": "US midterm voting begins in high-stakes test of Trump\u2019s presidency",
-      "published": "2026-11-03T14:42:41+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "4b0e5c3fac5f373b": {
-      "source": "BBC News",
-      "title": "Jury in Russell Brand rape trial begins considering verdicts",
-      "published": "2026-11-03T14:50:06+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "5821a7fa8f0351cc": {
-      "source": "Al Jazeera",
-      "title": "Global food security is under threat",
-      "published": "2026-11-03T14:58:10+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "9ecc5b03387680dd": {
-      "source": "Al Jazeera",
-      "title": "Israel\u2019s opposition leaders back Eisenkot to oust Netanyahu",
-      "published": "2026-11-03T15:00:10+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
-    "149319a6cd6d1e86": {
-      "source": "BBC News",
-      "title": "Reform UK councillor charged with rape and sexual assault",
-      "published": "2026-11-03T15:16:53+00:00",
-      "first_seen": "2026-11-04T01:23:56.185636+10:00",
-      "category": "breaking"
-    },
     "c7c62122085b2ace": {
       "source": "Al Jazeera",
       "title": "Nordic nations refuse to face Russia in ice hockey World Championship",
@@ -21565,6 +21404,822 @@
       "published": "2026-11-10T12:44:12+00:00",
       "first_seen": "2026-11-10T22:53:02.269426+10:00",
       "category": "breaking"
+    },
+    "dde46fb18363f2e6": {
+      "source": "BBC News",
+      "title": "Football Manager introduces wheelchair-using boss in boost to video game representation",
+      "published": "2026-11-10T10:55:50+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "46c67cf7ae8c67e7": {
+      "source": "Al Jazeera",
+      "title": "Pentagon chief Pete Hegseth calls US House impeachment effort a \u2018farce\u2019",
+      "published": "2026-11-10T13:23:41+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "29ed1d96e93fbac1": {
+      "source": "Al Jazeera",
+      "title": "Spain mulls TikTok suspension after investigation into child sex abuse videos",
+      "published": "2026-11-10T13:33:55+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "750ab91261c0b9dd": {
+      "source": "Al Jazeera",
+      "title": "Israeli soldiers are also settlers in West Bank: Al Jazeera investigation",
+      "published": "2026-11-10T13:34:33+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "f2be0acdd537e2e9": {
+      "source": "BBC News",
+      "title": "Tories pledge to cut benefits for children with 'milder cases' of ADHD",
+      "published": "2026-11-10T13:37:16+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "24d7a046d70452a9": {
+      "source": "Al Jazeera",
+      "title": "Attacks escalate between Saudi-led forces and Yemen\u2019s Iran-backed Houthis",
+      "published": "2026-11-10T13:39:22+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "2be1cd829eb631e8": {
+      "source": "Al Jazeera",
+      "title": "Who is Jean Leonard Teganya, deported by US over Rwanda genocide claims?",
+      "published": "2026-11-10T13:54:35+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "017473e083956774": {
+      "source": "Al Jazeera",
+      "title": "Meta\u2019s AI age-check goes global: Can it protect teens?",
+      "published": "2026-11-10T13:58:37+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "c9cbec3705a59825": {
+      "source": "Al Jazeera",
+      "title": "FIA chief says Qatar and Abu Dhabi Grand Prix to go ahead despite tensions",
+      "published": "2026-11-10T14:01:09+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "697663203775f480": {
+      "source": "Al Jazeera",
+      "title": "Hegseth promises to defend \u2018warriors\u2019 as he faces impeachment",
+      "published": "2026-11-10T14:02:25+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "92c59da2bce3f3ec": {
+      "source": "Al Jazeera",
+      "title": "Iraq bars Iranian football team\u2019s plane from landing in Basra: Report",
+      "published": "2026-11-10T14:03:31+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "650bc6845e578bfa": {
+      "source": "BBC News",
+      "title": "York man, 19, shot and injured in Krakow attack",
+      "published": "2026-11-10T14:07:33+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "f72641ccabefe80b": {
+      "source": "Al Jazeera",
+      "title": "What is Shahid Kaveh, \u2060\u2060the Iran cyberunit tied to France\u2019s fridge hacking?",
+      "published": "2026-11-10T14:27:45+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "76544af49f24d38c": {
+      "source": "Al Jazeera",
+      "title": "How a Nigerian street food vendor built a life for herself and her family",
+      "published": "2026-11-10T14:28:17+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "02ac0d5dc1435400": {
+      "source": "BBC News",
+      "title": "Arrests made in Mohamed Al Fayed probe in France, police say",
+      "published": "2026-11-10T14:29:00+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "f4f39662a5c91b2b": {
+      "source": "Al Jazeera",
+      "title": "Did humanity learn the right lessons from WWII?",
+      "published": "2026-11-10T14:36:03+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "42ec33a835df88b1": {
+      "source": "Al Jazeera",
+      "title": "Mongolia\u2019s Iron Winter: A Race to Save an Ancient Tradition",
+      "published": "2026-11-10T14:40:00+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "058918c6f6f2aded": {
+      "source": "Al Jazeera",
+      "title": "Hegseth impeachment: What is he accused of, and could he be removed?",
+      "published": "2026-11-10T14:45:22+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "09c95ffbdb049ce2": {
+      "source": "BBC News",
+      "title": "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut",
+      "published": "2026-11-10T14:46:50+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "47be9ed8cf95bf11": {
+      "source": "BBC News",
+      "title": "David Walliams' career and controversies including Britain's Got Talent and Little Britain",
+      "published": "2026-11-10T14:53:28+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "b48d3bc594525813": {
+      "source": "Al Jazeera",
+      "title": "Why is India trying to broker a Russia-Ukraine Black Sea food corridor?",
+      "published": "2026-11-10T15:04:30+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "ac3b79e8ab94ac1a": {
+      "source": "Al Jazeera",
+      "title": "\u2018Positive momentum\u2019: Is the US war on Iran about to end?",
+      "published": "2026-11-10T15:18:32+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "2776ff231bc71296": {
+      "source": "Al Jazeera",
+      "title": "Lewis Hamilton visits Rafah crossing to witness Gaza aid efforts",
+      "published": "2026-11-10T15:21:11+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "fbfe7f1757798aaf": {
+      "source": "Al Jazeera",
+      "title": "Deadly Egypt train crash prompts calls for political accountability",
+      "published": "2026-11-10T15:22:17+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "33aaacfb2858c67f": {
+      "source": "Al Jazeera",
+      "title": "Poland gunman fascinated by Norway\u2019s neo-Nazi mass killer Breivik",
+      "published": "2026-11-10T15:36:49+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "c23236cddcf42a7c": {
+      "source": "Al Jazeera",
+      "title": "Father, child among six Palestinians killed in Israeli attacks on Gaza",
+      "published": "2026-11-10T15:49:36+00:00",
+      "first_seen": "2026-11-11T02:06:13.605679+10:00",
+      "category": "breaking"
+    },
+    "53f3796002d7ceae": {
+      "source": "ABC News",
+      "title": "Preschooler hospitalised with suspected snakebite in northern Victoria",
+      "published": "2026-11-10T07:02:32+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "c3a370c043826cfe": {
+      "source": "ABC News",
+      "title": "Night surfing trial gets green light despite concerns about sharks",
+      "published": "2026-11-10T07:04:11+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "93d2f65531eed7a2": {
+      "source": "ABC News",
+      "title": "Lifeguard in tears as she recalls drowning of nine-year-old boy",
+      "published": "2026-11-10T07:05:08+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "4c094f288286359d": {
+      "source": "ABC News",
+      "title": "Man jailed for performing Nazi salute during court hearing",
+      "published": "2026-11-10T07:13:08+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "f173f002f70f76c7": {
+      "source": "ABC News",
+      "title": "Wind farm approval will see 300-metre-high turbines erected in southern NSW",
+      "published": "2026-11-10T07:22:32+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "a06e450ecd923ef2": {
+      "source": "ABC News",
+      "title": "Surf Lakes to sell dormant Yeppoon prototype site",
+      "published": "2026-11-10T07:50:38+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "c3c23bd8e96b87a7": {
+      "source": "ABC News",
+      "title": "Jillaroos spring a surprise as teams are named for World Cup finals",
+      "published": "2026-11-10T07:55:26+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "b7272ba999e8db41": {
+      "source": "SMH",
+      "title": "The sculptor, the architect and a cup of tea: How a dream house was made",
+      "published": "2026-11-10T08:30:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "723a399744ab6e86": {
+      "source": "SMH",
+      "title": "\u2018We are on our own\u2019: Builder abandoned by police and watchdogs during CFMEU dispute",
+      "published": "2026-11-10T08:32:59+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "594d473ee0a6341c": {
+      "source": "The Age",
+      "title": "\u2018We are on our own\u2019: Builder abandoned by police and watchdogs during CFMEU dispute",
+      "published": "2026-11-10T08:32:59+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "723a399744ab6e86"
+    },
+    "e528f7ab16016a73": {
+      "source": "ABC News",
+      "title": "Firm embroiled in Nvidia scandal linked to Australian newsagent worker",
+      "published": "2026-11-10T08:46:26+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "03d0aa93bcc088ba": {
+      "source": "SMH",
+      "title": "This film was supposed to expose the truth. Instead, it leaves us in a hall of mirrors",
+      "published": "2026-11-10T08:59:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "f1599cafe9310a16": {
+      "source": "The Age",
+      "title": "This film was supposed to expose the truth. Instead, it leaves us in a hall of mirrors",
+      "published": "2026-11-10T08:59:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "03d0aa93bcc088ba"
+    },
+    "94ad676ddefee8e3": {
+      "source": "SMH",
+      "title": "Teals launch donations rush to get ahead of controversial new rules",
+      "published": "2026-11-10T09:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "2bc241e411bfb8d5": {
+      "source": "The Age",
+      "title": "Teals launch donations rush to get ahead of controversial new rules",
+      "published": "2026-11-10T09:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "94ad676ddefee8e3"
+    },
+    "11ad95f13b2bf119": {
+      "source": "The Age",
+      "title": "Pointed questions for Ben, Jess and Warren",
+      "published": "2026-11-10T09:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "905064bc95039c5a": {
+      "source": "SMH",
+      "title": "Two killed in collision between car and motorcycle in Narre Warren",
+      "published": "2026-11-10T09:05:37+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "af061faf4c21bd4f": {
+      "source": "The Age",
+      "title": "Two killed in collision between car and motorcycle in Narre Warren",
+      "published": "2026-11-10T09:05:37+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "905064bc95039c5a"
+    },
+    "005d3181cf1dd1b8": {
+      "source": "SMH",
+      "title": "\u2018Forever in our hearts\u2019: Apprentice jockey Izzy Neale dies after race fall",
+      "published": "2026-11-10T09:06:23+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "91eab35e434cb121": {
+      "source": "The Age",
+      "title": "\u2018Forever in our hearts\u2019: Apprentice jockey Izzy Neale dies after race fall",
+      "published": "2026-11-10T09:06:23+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "005d3181cf1dd1b8"
+    },
+    "9a75ea6e8bef5124": {
+      "source": "SMH",
+      "title": "Best of cartoons, November 11, 2026",
+      "published": "2026-11-10T09:21:04+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "191d57d5411ebb4a": {
+      "source": "The Age",
+      "title": "Best of cartoons, November 11, 2026",
+      "published": "2026-11-10T09:21:04+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "9a75ea6e8bef5124"
+    },
+    "3f4dd39452e02fc1": {
+      "source": "ABC News",
+      "title": "Truck driver sentenced to community service over 2023 NT train derailment",
+      "published": "2026-11-10T09:23:57+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "8828cb962e0d93fe": {
+      "source": "SMH",
+      "title": "Howard\u2019s Port Arthur gun reforms to take centre stage in new Brisbane play",
+      "published": "2026-11-10T09:26:28+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "01e573c6e18f2ad1": {
+      "source": "The Age",
+      "title": "Howard\u2019s Port Arthur gun reforms to take centre stage in new Brisbane play",
+      "published": "2026-11-10T09:26:28+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "8828cb962e0d93fe"
+    },
+    "20237fc112dd66da": {
+      "source": "SMH",
+      "title": "Stressed and out of pocket: David Jones\u2019 great-great-great grandson is owed money, too",
+      "published": "2026-11-10T09:30:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "c539491af05ab115": {
+      "source": "The Age",
+      "title": "Stressed and out of pocket: David Jones\u2019 great-great-great grandson is owed money, too",
+      "published": "2026-11-10T09:30:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "20237fc112dd66da"
+    },
+    "aae822bd6d5849e4": {
+      "source": "ABC News",
+      "title": "22yo jockey dies from injuries sustained in race fall",
+      "published": "2026-11-10T09:32:40+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "86b7342d6aeb5cc2": {
+      "source": "ABC News",
+      "title": "South32 refinery workers strike as $8b Alcoa takeover looms",
+      "published": "2026-11-10T09:35:04+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "a61617214acc79ca": {
+      "source": "ABC News",
+      "title": "Khawaja denies starting 'witch hunt' over Sandpapergate claims",
+      "published": "2026-11-10T09:59:31+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "9b11f1461604b4ac": {
+      "source": "SMH",
+      "title": "Best biscuits, bar none",
+      "published": "2026-11-10T10:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "48b5cf809ae96943": {
+      "source": "The Age",
+      "title": "Best biscuits, bar none",
+      "published": "2026-11-10T10:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "9b11f1461604b4ac"
+    },
+    "54a87e94abecc06c": {
+      "source": "SMH",
+      "title": "\u2018Definitely in the equation\u2019: Kangaroos stars reveal contract stances",
+      "published": "2026-11-10T10:00:25+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "bedaecb3d4f4c162": {
+      "source": "The Age",
+      "title": "\u2018Definitely in the equation\u2019: Kangaroos stars reveal contract stances",
+      "published": "2026-11-10T10:00:25+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "54a87e94abecc06c"
+    },
+    "aff4a2e451ba0430": {
+      "source": "SMH",
+      "title": "Down, down: Hapless Coles crow finally checks out after weeks-long ordeal",
+      "published": "2026-11-10T10:06:01+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "8c6b007d8b552241": {
+      "source": "The Age",
+      "title": "Down, down: Hapless Coles crow finally checks out after weeks-long ordeal",
+      "published": "2026-11-10T10:06:01+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "aff4a2e451ba0430"
+    },
+    "1a789a7c8ffe489d": {
+      "source": "ABC News",
+      "title": "Trailblazing diabetes educator named 2027 NT Australian of the Year",
+      "published": "2026-11-10T10:08:27+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "633873cd28cfe0dc": {
+      "source": "SMH",
+      "title": "Killer\u2019s GP saw no \u2018red flags\u2019 in mental health review",
+      "published": "2026-11-10T10:16:28+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "4a5dd2270f079c0c": {
+      "source": "The Age",
+      "title": "Killer\u2019s GP saw no \u2018red flags\u2019 in mental health review",
+      "published": "2026-11-10T10:16:28+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "633873cd28cfe0dc"
+    },
+    "8c35a269ffdc5496": {
+      "source": "ABC News",
+      "title": "Adelaide council backflips on fossil fuel ad ban amid Tour Down Under fears",
+      "published": "2026-11-10T10:49:39+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "1cbb4bdff91bcbef": {
+      "source": "ABC News",
+      "title": "'Please don't taser me': Canberra woman sues police over use of force",
+      "published": "2026-11-10T11:09:50+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "39be1741cc5a76f2": {
+      "source": "SMH",
+      "title": "Harry and Meghan arrive at EU parliament in Brussels holding hands",
+      "published": "2026-11-10T11:11:42+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "ddd866b3f2b680cc": {
+      "source": "The Age",
+      "title": "Harry and Meghan arrive at EU parliament in Brussels holding hands",
+      "published": "2026-11-10T11:11:42+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "39be1741cc5a76f2"
+    },
+    "eb73ac97c8242d3b": {
+      "source": "ABC News",
+      "title": "Eleven unknown Australian soldiers killed in WWI formally identified",
+      "published": "2026-11-10T11:30:13+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "6dd1d917f80f9ad3": {
+      "source": "SMH",
+      "title": "Superquiz, Wednesday, November 11",
+      "published": "2026-11-10T12:59:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "cbe3586976a7b2cc": {
+      "source": "The Age",
+      "title": "Superquiz, Wednesday, November 11",
+      "published": "2026-11-10T12:59:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "6dd1d917f80f9ad3"
+    },
+    "63bba7377ccc93d7": {
+      "source": "SMH",
+      "title": "'This is medical misogyny': Sara's was having a terrifying reaction to a medication",
+      "published": "2026-11-10T13:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "7435f3e94e942bbb": {
+      "source": "The Age",
+      "title": "'This is medical misogyny': Sara's was having a terrifying reaction to a medication",
+      "published": "2026-11-10T13:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "63bba7377ccc93d7"
+    },
+    "eb20e4464288a6be": {
+      "source": "SMH",
+      "title": "Lowest paid to suffer the most from bracket creep",
+      "published": "2026-11-10T13:01:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "c95d48463d15c51c": {
+      "source": "SMH",
+      "title": "Perth records fastest property downturn in four decades",
+      "published": "2026-11-10T13:01:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "1257683211197a75": {
+      "source": "The Age",
+      "title": "Lowest paid to suffer the most from bracket creep",
+      "published": "2026-11-10T13:01:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "eb20e4464288a6be"
+    },
+    "58497f170c970a0a": {
+      "source": "The Age",
+      "title": "Perth records fastest property downturn in four decades",
+      "published": "2026-11-10T13:01:00+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "c95d48463d15c51c"
+    },
+    "c5739a28727edf60": {
+      "source": "ABC News",
+      "title": "US moves aircraft from UK base amid reported Iran threat",
+      "published": "2026-11-10T14:15:32+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "87a933941bebc25a": {
+      "source": "ABC News",
+      "title": "Fresh round of Ukraine-Russia talks held as Trump insists peace close",
+      "published": "2026-11-10T14:21:50+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "48631080e5f69418": {
+      "source": "SMH",
+      "title": "British children\u2019s author David Walliams accused of sexual misconduct",
+      "published": "2026-11-10T14:21:57+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "b971b266833997a3": {
+      "source": "The Age",
+      "title": "British children\u2019s author David Walliams accused of sexual misconduct",
+      "published": "2026-11-10T14:21:57+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia",
+      "duplicate_of": "48631080e5f69418"
+    },
+    "79e81c2edc45d992": {
+      "source": "ABC News",
+      "title": "Pete Hegseth vows to fight 'farce' impeachment push",
+      "published": "2026-11-10T14:44:03+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "581ae659446e9fa8": {
+      "source": "ABC News",
+      "title": "Twelve dead, 50 injured in Bulgarian motorway pile-up in heavy fog",
+      "published": "2026-11-10T15:56:26+00:00",
+      "first_seen": "2026-11-11T02:06:15.032757+10:00",
+      "category": "australia"
+    },
+    "d613b5e836ef86bb": {
+      "source": "Nature",
+      "title": "PhD funding mechanisms should protect the right to disagree with supervisors",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "4a05fdd6985b810a": {
+      "source": "Nature",
+      "title": "A practically perfect plesiosaur",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "18a9ea9a3e2c3bcd": {
+      "source": "Nature",
+      "title": "Chile\u2019s postdoc rules risk driving talent away",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "e64d6a218724965f": {
+      "source": "Nature",
+      "title": "Students need AI-free spaces to learn core skills",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "46ff797a028a00d7": {
+      "source": "Nature",
+      "title": "Why your physics project needs an anthropologist",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "9b8bb9d315c94ef2": {
+      "source": "Nature",
+      "title": "California votes to give record $8.4 billion to medical research",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "6a1904a736636722": {
+      "source": "Nature",
+      "title": "How microbes can secure the critical minerals the world needs",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "e2cd939d0dbc3317": {
+      "source": "Nature",
+      "title": "Mongolia\u2019s iconic grasslands are in crisis \u2014 invisible fungi could help save them",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "7a0a9032f2c397cf": {
+      "source": "Nature",
+      "title": "PhDs worldwide are having a shake up \u2014 why now?",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "a75c4294249e412c": {
+      "source": "Nature",
+      "title": "The public trusts scientists with AI \u2014 more than it does anyone else",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "ca4785e98b757312": {
+      "source": "Nature",
+      "title": "Some people are resistant to dementia \u2014 here\u2019s what their genes can teach us",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T02:06:17.560679+10:00",
+      "category": "archaeology"
+    },
+    "95685638c379303f": {
+      "source": "Kicker",
+      "title": "DFB sperrt Wolfsburgs Cleiton f\u00fcr zwei Spiele",
+      "published": "2026-11-10T11:19:48+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "aaa6ce602929149e": {
+      "source": "Kicker",
+      "title": "Bleibt Dahmen? Und wer kommt, wenn nicht?",
+      "published": "2026-11-10T11:19:53+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "e0f309e770eebdcb": {
+      "source": "Kicker",
+      "title": "\"Passt langfristig zu unserer Holstein-DNA\": Kniat wird Trainer in Kiel",
+      "published": "2026-11-10T11:36:42+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "1d57e1a7aad1fc53": {
+      "source": "Kicker",
+      "title": "Kumbedi bei Zidane: Misst\u00f6ne, Millionen und Heckings Forderung",
+      "published": "2026-11-10T11:43:19+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "fa242b80e39eb654": {
+      "source": "Kicker",
+      "title": "Wie bekommt Viktoria K\u00f6ln das Stadion zweitligatauglich?",
+      "published": "2026-11-10T12:24:25+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "d3531a57e074f992": {
+      "source": "Kicker",
+      "title": "Warum die Eintracht bis Weihnachten \"im Nebel stochern muss\"",
+      "published": "2026-11-10T12:58:48+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "2045412d1686672e": {
+      "source": "Kicker",
+      "title": "Vilzing: Beller beendet Trainert\u00e4tigkeit mit sofortiger Wirkung",
+      "published": "2026-11-10T13:14:42+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "e7d2529d685e324d": {
+      "source": "Kicker",
+      "title": "Kompany ist zur\u00fcck an der S\u00e4bener Stra\u00dfe",
+      "published": "2026-11-10T13:20:00+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "65939f07a33809d2": {
+      "source": "Kicker",
+      "title": "Teilausschluss und maximale Geldstrafe: Sportgericht bestraft Oldenburg hart",
+      "published": "2026-11-10T13:26:47+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "4acea88c423f069b": {
+      "source": "Kicker",
+      "title": "Pfiffe, ver\u00e4nderter Ton, fragiles Nervenkost\u00fcm: Kippt die Stimmung in Braunschweig?",
+      "published": "2026-11-10T13:44:59+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "57eec18fdb461ef0": {
+      "source": "Kicker",
+      "title": "F\u00fcllkrug lacht \u00fcber Alter: \"So schlimm kann's doch gar nicht sein\"",
+      "published": "2026-11-10T14:09:50+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "7e21f3a980e180d2": {
+      "source": "Kicker",
+      "title": "F\u00fcllkrug: Tiefe Einblicke in sein Innenleben",
+      "published": "2026-11-10T14:21:57+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "804fb02ef9eeb30c": {
+      "source": "Kicker",
+      "title": "F\u00fcllkrug fordert mehr Anerkennung f\u00fcr Havertz",
+      "published": "2026-11-10T14:23:32+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "f3196beef96f15d7": {
+      "source": "Kicker",
+      "title": "F\u00fcllkrug erkl\u00e4rt Kontakt mit Klopp: \"War ein guter Move\"",
+      "published": "2026-11-10T14:26:31+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "b276353395554f13": {
+      "source": "Kicker",
+      "title": "Bayer befasst sich konkret mit Gladbachs Top-Talent Mohya",
+      "published": "2026-11-10T14:44:23+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "560e3534ab86bdd0": {
+      "source": "Kicker",
+      "title": "\"Uns wurde ja angst und bange\": Arnautis \u00fcbt gen\u00fcsslich Medienkritik",
+      "published": "2026-11-10T14:50:35+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "b5cb483b8d72dadc": {
+      "source": "Kicker",
+      "title": "Mehr als ein neues Gesicht im Eintracht-Aufsichtsrat?",
+      "published": "2026-11-10T15:22:34+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "eb62a1948661e8bc": {
+      "source": "Kicker",
+      "title": "\"Das konnte Toni nicht ignorieren\": Damar startet auch bei der U 21 wieder durch",
+      "published": "2026-11-10T15:30:40+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
+    },
+    "df9b312d6f40e4b5": {
+      "source": "Kicker",
+      "title": "Rassismus im Bochumer Derby? Wattenscheid reagiert auf \"befremdliche\" VfL-Stellungnahme",
+      "published": "2026-11-10T15:32:19+00:00",
+      "first_seen": "2026-11-11T02:06:22.591237+10:00",
+      "category": "football"
     }
   }
 }

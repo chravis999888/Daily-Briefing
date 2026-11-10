@@ -2091,41 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-11-10T20:57:06.727408+00:00",
   "article_store": {
-    "1a9b67e793ca3d82": {
-      "source": "BBC News",
-      "title": "How sporting events are being impacted by Middle East conflict",
-      "published": "2026-11-03T16:01:24+00:00",
-      "first_seen": "2026-11-04T07:10:58.520064+10:00",
-      "category": "breaking"
-    },
-    "cd47b38a10684925": {
-      "source": "Al Jazeera",
-      "title": "Michigan voters face crucial choice as Trump\u2019s grip on Congress is tested",
-      "published": "2026-11-03T20:00:30+00:00",
-      "first_seen": "2026-11-04T07:10:58.520064+10:00",
-      "category": "breaking"
-    },
-    "cc6af61cfb72da1c": {
-      "source": "BBC News",
-      "title": "Andrew Mountbatten-Windsor called to give evidence in fraud trial in December",
-      "published": "2026-11-03T20:05:21+00:00",
-      "first_seen": "2026-11-04T07:10:58.520064+10:00",
-      "category": "breaking"
-    },
-    "607728c4c21f7a8d": {
-      "source": "Al Jazeera",
-      "title": "Kyiv protest raises suspicions of possible Russian orchestration",
-      "published": "2026-11-03T20:54:44+00:00",
-      "first_seen": "2026-11-04T07:10:58.520064+10:00",
-      "category": "breaking"
-    },
-    "968580948772fb68": {
-      "source": "BBC News",
-      "title": "Spanish transport minister resigns days after deadly train crash",
-      "published": "2026-11-03T20:56:32+00:00",
-      "first_seen": "2026-11-04T07:10:58.520064+10:00",
-      "category": "breaking"
-    },
     "ae7619420bba99c7": {
       "source": "BBC News",
       "title": "Queues, smiles and Uncle Sam: The US midterms in pictures",
@@ -21661,6 +21626,649 @@
       "published": "2026-11-10T20:53:33+00:00",
       "first_seen": "2026-11-11T06:57:27.785575+10:00",
       "category": "breaking"
+    },
+    "1b7b2e82a24dc304": {
+      "source": "BBC News",
+      "title": "Watch: E-bike battery explodes into massive fireball inside Oregon home",
+      "published": "2026-11-10T20:31:17+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "a780d52c1c109bb5": {
+      "source": "Al Jazeera",
+      "title": "White House announces funds for law enforcement programme in several cities",
+      "published": "2026-11-10T21:00:01+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "1423948b2509889c": {
+      "source": "Al Jazeera",
+      "title": "2026 Midterms: Blue wave or anti-establishment backlash?",
+      "published": "2026-11-10T21:00:55+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "bca3c92c2e745942": {
+      "source": "BBC News",
+      "title": "Why does Australia want Brits to swap Sydney for the outback?",
+      "published": "2026-11-10T21:17:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "34398fbf1a9ffa54": {
+      "source": "Al Jazeera",
+      "title": "IBM\u2019s biggest division ends most US foreign worker sponsorships",
+      "published": "2026-11-10T21:55:49+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "ca03446c24203e42": {
+      "source": "Al Jazeera",
+      "title": "US poll shows death penalty lost majority support for first time since 1971",
+      "published": "2026-11-10T22:03:20+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "9d92cf480c898e2a": {
+      "source": "Al Jazeera",
+      "title": "UNIFIL patrol comes under fire in southern Lebanon",
+      "published": "2026-11-10T22:03:50+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "841b3c6afba0a7c8": {
+      "source": "BBC News",
+      "title": "Census should include black English and Asian English options, says MP",
+      "published": "2026-11-10T22:04:54+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "464e1b84ffe5a3a6": {
+      "source": "Al Jazeera",
+      "title": "US House begins vote on motion to advance impeachment of Pete Hegseth",
+      "published": "2026-11-10T22:36:14+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "fe5487ed314a61e0": {
+      "source": "BBC News",
+      "title": "Why Walliams' unprecedented legal battle to stay anonymous failed",
+      "published": "2026-11-10T22:41:01+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "2e670bfef37b951a": {
+      "source": "Al Jazeera",
+      "title": "Russia expels Moldovan diplomat in tit-for-tat move",
+      "published": "2026-11-10T22:41:07+00:00",
+      "first_seen": "2026-11-11T08:51:31.421376+10:00",
+      "category": "breaking"
+    },
+    "e063e19c7a4ba10e": {
+      "source": "SMH",
+      "title": "I overheard two execs making fun of employees\u2019 accents and weight. What do I do?",
+      "published": "2026-11-10T18:00:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "95f0de77d46710a9": {
+      "source": "SMH",
+      "title": "The best amenity at this $2000-a-night Fiji resort isn\u2019t the private pool",
+      "published": "2026-11-10T18:00:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "44e0b02056263ec1": {
+      "source": "SMH",
+      "title": "I\u2019ve been a principal for decades. Here\u2019s how to choose a school for your child (it\u2019s not the one you think)",
+      "published": "2026-11-10T18:00:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "99d1071984c9ce27": {
+      "source": "The Age",
+      "title": "I overheard two execs making fun of employees\u2019 accents and weight. What do I do?",
+      "published": "2026-11-10T18:00:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "e063e19c7a4ba10e"
+    },
+    "3f3460a1f2300ccf": {
+      "source": "The Age",
+      "title": "The best amenity at this $2000-a-night Fiji resort isn\u2019t the private pool",
+      "published": "2026-11-10T18:00:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "95f0de77d46710a9"
+    },
+    "bc5db74056340dab": {
+      "source": "The Age",
+      "title": "I\u2019ve been a principal for decades. Here\u2019s how to choose a school for your child (it\u2019s not the one you think)",
+      "published": "2026-11-10T18:00:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "44e0b02056263ec1"
+    },
+    "a821d7672d225fc8": {
+      "source": "SMH",
+      "title": "I\u2019ve been renting my house for two years. Will I have to pay tax when I sell?",
+      "published": "2026-11-10T18:01:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "b834999e26b7f5c7": {
+      "source": "The Age",
+      "title": "I\u2019ve been renting my house for two years. Will I have to pay tax when I sell?",
+      "published": "2026-11-10T18:01:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "a821d7672d225fc8"
+    },
+    "e9bcd91d5eb22786": {
+      "source": "SMH",
+      "title": "The untouched block of land that is key to a $100 million arm wrestle with the Victorian government",
+      "published": "2026-11-10T18:01:05+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "3fca3a3c4fe2e9a0": {
+      "source": "The Age",
+      "title": "The untouched block of land that is key to a $100 million arm wrestle with the Victorian government",
+      "published": "2026-11-10T18:01:05+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "e9bcd91d5eb22786"
+    },
+    "cea45eacdb4e2c9f": {
+      "source": "SMH",
+      "title": "British actor David Walliams grooming allegations",
+      "published": "2026-11-10T18:52:10+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "278009ead47e91b2": {
+      "source": "The Age",
+      "title": "British actor David Walliams grooming allegations",
+      "published": "2026-11-10T18:52:10+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "cea45eacdb4e2c9f"
+    },
+    "15b93ea06d27668d": {
+      "source": "SMH",
+      "title": "The boss says it\u2019s \u2018a wonderful place to be\u2019. Staff call it an embarrassing place to work",
+      "published": "2026-11-10T19:00:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "aca8e0ec602b5485": {
+      "source": "The Age",
+      "title": "The boss says it\u2019s \u2018a wonderful place to be\u2019. Staff call it an embarrassing place to work",
+      "published": "2026-11-10T19:00:00+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "15b93ea06d27668d"
+    },
+    "1b79570d8ae59ffa": {
+      "source": "SMH",
+      "title": "Two killed in Melbourne crash",
+      "published": "2026-11-10T19:17:12+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "165c27d64b1515e0": {
+      "source": "The Age",
+      "title": "Two killed in Melbourne crash",
+      "published": "2026-11-10T19:17:12+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "1b79570d8ae59ffa"
+    },
+    "5af8671916fb3f11": {
+      "source": "ABC News",
+      "title": "IVF patient fears Catholic takeover will affect quest to become a mum",
+      "published": "2026-11-10T19:29:56+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "c52e8dfe4cb79eaf": {
+      "source": "ABC News",
+      "title": "Victorian polling centre closures a 'kick in the teeth', say voters",
+      "published": "2026-11-10T19:36:15+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "678d757f9b408b1a": {
+      "source": "SMH",
+      "title": "At least 12 dead in Bulgarian motorway crash",
+      "published": "2026-11-10T19:36:57+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "1b9ad797fcc9c7a9": {
+      "source": "The Age",
+      "title": "At least 12 dead in Bulgarian motorway crash",
+      "published": "2026-11-10T19:36:57+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "678d757f9b408b1a"
+    },
+    "41c9f79981d382be": {
+      "source": "SMH",
+      "title": "AFP warns of teenagers turning to extremism",
+      "published": "2026-11-10T19:37:04+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "67c53b29fb980f40": {
+      "source": "The Age",
+      "title": "AFP warns of teenagers turning to extremism",
+      "published": "2026-11-10T19:37:04+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "41c9f79981d382be"
+    },
+    "9dd3352fbccc3273": {
+      "source": "ABC News",
+      "title": "Experts urge people not to drink unpasteurised milk as products pushed online",
+      "published": "2026-11-10T19:45:28+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "a529c6c43a968223": {
+      "source": "SMH",
+      "title": "Hegseth impeachment battle",
+      "published": "2026-11-10T19:47:41+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "c47bc3a7ab655aa4": {
+      "source": "The Age",
+      "title": "Hegseth impeachment battle",
+      "published": "2026-11-10T19:47:41+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "e6b4331c77bde04a": {
+      "source": "ABC News",
+      "title": "100yo soldier corrects service records, receives medals 80 years later",
+      "published": "2026-11-10T19:58:53+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "c2a3c3c4f244f00c": {
+      "source": "ABC News",
+      "title": "Live: Transport minister says Qantas job cut decision 'extremely disappointing'",
+      "published": "2026-11-10T20:02:30+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "e9bf40f9b685c946": {
+      "source": "ABC News",
+      "title": "South Road scandal to become subject of parliamentary inquiry",
+      "published": "2026-11-10T20:05:02+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "707dbdb685d8f4f2": {
+      "source": "ABC News",
+      "title": "Live: Wall Street retreats as hot inflation shortens odds of a rate hike, ASX set to slide",
+      "published": "2026-11-10T20:11:41+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "3b3e874c7eeccbbc": {
+      "source": "ABC News",
+      "title": "Lifesavers to trial AI tool to detect rip currents",
+      "published": "2026-11-10T20:24:44+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "7ff53feb441d72f0": {
+      "source": "ABC News",
+      "title": "Damning report urges new investigations into Epstein associates",
+      "published": "2026-11-10T20:32:44+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "b46df45c352a4d87": {
+      "source": "ABC News",
+      "title": "Sinner targeting Australian Open return after earlier 'impossible goal'",
+      "published": "2026-11-10T20:34:09+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "1edb696d25e5e33e": {
+      "source": "ABC News",
+      "title": "Missing father in dispute with criminal rivals before disappearing, police say",
+      "published": "2026-11-10T20:47:16+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "00d8abfb1c45cebc": {
+      "source": "ABC News",
+      "title": "Review finds Bendigo hospital did not follow procedure for brain deaths",
+      "published": "2026-11-10T20:55:57+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "4abb2d423fa77887": {
+      "source": "SMH",
+      "title": "Harry and Meghan want to protect children. They can\u2019t escape her father\u2019s shadow",
+      "published": "2026-11-10T21:01:19+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "c428db2ef6acee04": {
+      "source": "The Age",
+      "title": "Harry and Meghan want to protect children. They can\u2019t escape her father\u2019s shadow",
+      "published": "2026-11-10T21:01:19+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "4abb2d423fa77887"
+    },
+    "671a1d1e850c3021": {
+      "source": "ABC News",
+      "title": "Meghan Markle's father jailed for cutting off ankle monitor",
+      "published": "2026-11-10T21:02:41+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "6ba3140e5788b38f": {
+      "source": "ABC News",
+      "title": "US charges three men over terror plots, including planned assault on UK airbase",
+      "published": "2026-11-10T21:10:35+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "45a7db80a426b5bd": {
+      "source": "SMH",
+      "title": "Fellow Beaconsfield survivor pays tribute to Todd Russell",
+      "published": "2026-11-10T21:18:54+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "e64661e3dba09ec7": {
+      "source": "The Age",
+      "title": "Fellow Beaconsfield survivor pays tribute to Todd Russell",
+      "published": "2026-11-10T21:18:54+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "45a7db80a426b5bd"
+    },
+    "59d2e9ce047d0eec": {
+      "source": "ABC News",
+      "title": "Legends urge Australia to 'move on' from Sandpapergate amid opposing claims",
+      "published": "2026-11-10T21:21:50+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "f95d720108c2a733": {
+      "source": "SMH",
+      "title": "ASX set to fall as Wall Street slumps on inflation report; Nvidia dives again; Anthropic targets $2 trillion valuation",
+      "published": "2026-11-10T21:47:10+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "ffafbdb045312832": {
+      "source": "The Age",
+      "title": "ASX set to fall as Wall Street slumps on inflation report; Nvidia dives again; Anthropic targets $2 trillion valuation",
+      "published": "2026-11-10T21:47:10+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "f95d720108c2a733"
+    },
+    "a66b050acd5959b7": {
+      "source": "ABC News",
+      "title": "Gold Coast AFLW player delisted just weeks out from giving birth",
+      "published": "2026-11-10T21:58:15+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "9e8f305fbb71189c": {
+      "source": "ABC News",
+      "title": "Coral colony the size of three MCGs thriving off remote Australian island",
+      "published": "2026-11-10T22:04:36+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "ec762268a1e23cc1": {
+      "source": "ABC News",
+      "title": "Breaking: Macquarie faces $14m fine for savings rate failures",
+      "published": "2026-11-10T22:16:06+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "bee9bef1d573d671": {
+      "source": "SMH",
+      "title": "Warning of thunderstorms to roll in over Brisbane for days",
+      "published": "2026-11-10T22:25:05+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "f706e0684554d85c": {
+      "source": "The Age",
+      "title": "Warning of thunderstorms to roll in over Brisbane for days",
+      "published": "2026-11-10T22:25:05+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "bee9bef1d573d671"
+    },
+    "94bf0588fa3e0473": {
+      "source": "ABC News",
+      "title": "Breaking: Townsville hospital could have been mitigated urology failings years earlier",
+      "published": "2026-11-10T22:28:54+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "c80f4813ef063dd4": {
+      "source": "SMH",
+      "title": "Harry and Meghan arrive at EU parliament in Brussels holding hands",
+      "published": "2026-11-10T22:29:44+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "39be1741cc5a76f2"
+    },
+    "21af09e1e593f595": {
+      "source": "The Age",
+      "title": "Harry and Meghan arrive at EU parliament in Brussels holding hands",
+      "published": "2026-11-10T22:29:44+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "39be1741cc5a76f2"
+    },
+    "acf5b382704bc2c9": {
+      "source": "ABC News",
+      "title": "Half of Australia's windfarm pipeline is in slowest-building state",
+      "published": "2026-11-10T22:30:51+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "7f4764afb61be111": {
+      "source": "SMH",
+      "title": "Big Build royal commission LIVE updates: Gap Road project probe continues after John Holland managers discuss secret CFMEU meetings",
+      "published": "2026-11-10T22:31:03+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "678af1d692c4f6ef": {
+      "source": "The Age",
+      "title": "Big Build royal commission LIVE updates: Gap Road project probe continues after John Holland managers discuss secret CFMEU meetings",
+      "published": "2026-11-10T22:31:03+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "7f4764afb61be111"
+    },
+    "eacae7cf6002dd88": {
+      "source": "SMH",
+      "title": "Ulu\u1e5fu: remote, not complicated",
+      "published": "2026-11-10T22:42:03+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "7797b188dcf73e46": {
+      "source": "The Age",
+      "title": "Ulu\u1e5fu: remote, not complicated",
+      "published": "2026-11-10T22:42:03+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "eacae7cf6002dd88"
+    },
+    "959bed6b9f169da2": {
+      "source": "SMH",
+      "title": "More Australians failing to make mortgage payments as interest rate rises bite",
+      "published": "2026-11-10T22:49:09+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "6da91e42d737c59a": {
+      "source": "The Age",
+      "title": "More Australians failing to make mortgage payments as interest rate rises bite",
+      "published": "2026-11-10T22:49:09+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "959bed6b9f169da2"
+    },
+    "f1a54ce10e809dab": {
+      "source": "SMH",
+      "title": "Australia news LIVE: Albanese joins Bowen at UN climate talks; Teals launch donation rush ahead of controversial new rules; Meghan\u2019s father removes ankle monitor after arrest",
+      "published": "2026-11-10T22:50:11+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia"
+    },
+    "3cfff27c48586f19": {
+      "source": "The Age",
+      "title": "Australia news LIVE: Albanese joins Bowen at UN climate talks; Teals launch donation rush ahead of controversial new rules; Meghan\u2019s father removes ankle monitor after arrest",
+      "published": "2026-11-10T22:50:11+00:00",
+      "first_seen": "2026-11-11T08:51:31.810788+10:00",
+      "category": "australia",
+      "duplicate_of": "f1a54ce10e809dab"
+    },
+    "a361e319dfad81ce": {
+      "source": "ScienceDaily",
+      "title": "1.9-million-year-old discovery rewrites the story of human evolution",
+      "published": "2026-10-27T01:35:08+00:00",
+      "first_seen": "2026-11-11T08:51:34.340545+10:00",
+      "category": "archaeology"
+    },
+    "ac9433684ea8d237": {
+      "source": "Nature",
+      "title": "Metascience should be a source of evidence, not a means of control",
+      "published": "2026-11-10T00:00:00+00:00",
+      "first_seen": "2026-11-11T08:51:34.340545+10:00",
+      "category": "archaeology"
+    },
+    "8176f9e7e75aa142": {
+      "source": "PhysOrg",
+      "title": "Cool adaptations: How fish survive in the Antarctic Ocean",
+      "published": "2026-11-10T17:20:13+00:00",
+      "first_seen": "2026-11-11T08:51:34.340545+10:00",
+      "category": "archaeology"
+    },
+    "fbbfc247304f9cb8": {
+      "source": "PhysOrg",
+      "title": "What a 99-million-year-old feather is telling us about the evolution of flight",
+      "published": "2026-11-10T17:30:01+00:00",
+      "first_seen": "2026-11-11T08:51:34.340545+10:00",
+      "category": "archaeology"
+    },
+    "aceea71dd729acf5": {
+      "source": "PhysOrg",
+      "title": "Two new howler monkey species discovered in the Amazon after 85 years",
+      "published": "2026-11-10T20:30:01+00:00",
+      "first_seen": "2026-11-11T08:51:34.340545+10:00",
+      "category": "archaeology"
+    },
+    "dac730860186c4eb": {
+      "source": "PhysOrg",
+      "title": "Protein-building RNA molecules reveal possible remnants of an ancestral genetic code",
+      "published": "2026-11-10T20:50:01+00:00",
+      "first_seen": "2026-11-11T08:51:34.340545+10:00",
+      "category": "archaeology"
+    },
+    "7226699527de7e67": {
+      "source": "Kicker",
+      "title": "Die Fans stehen Schlange: El Mala und Gruda geben Autogramme",
+      "published": "2026-11-10T16:09:53+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "1209c85e045ebf8f": {
+      "source": "Kicker",
+      "title": "Neuer Co-Trainer: Hecking holt Bremser nach Wolfsburg",
+      "published": "2026-11-10T16:25:27+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "b1168c4b0d7d5dab": {
+      "source": "Kicker",
+      "title": "DFB-Team startet mit Trainings-Doppelschicht - aber ohne El Mala",
+      "published": "2026-11-10T16:37:04+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "74a48de6e2991064": {
+      "source": "Kicker",
+      "title": "\"Soll auch sportlich wertvoll werden\": DFB-Elf zwischen Aufbruch und Abschied",
+      "published": "2026-11-10T17:00:10+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "fdb1f8ea8473f204": {
+      "source": "Kicker",
+      "title": "\"Kenne das alles ohne ihn nicht\": Mainkas besondere Worte f\u00fcr Schmidt",
+      "published": "2026-11-10T18:28:45+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "00fe130d3453fdf8": {
+      "source": "Kicker",
+      "title": "Stabil, effizient, hungrig: Magdeburg mausert sich zum Spitzenteam",
+      "published": "2026-11-10T18:35:09+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "d2027eb8959c93d4": {
+      "source": "Kicker",
+      "title": "Damar \u00fcber H\u00fclsmann: \"Was ist das denn, ein Fernsehturm?\"",
+      "published": "2026-11-10T18:35:09+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "a08c6560abef75a5": {
+      "source": "Kicker",
+      "title": "Das Quiz zum Nations-League-Spiel von Deutschland in Serbien",
+      "published": "2026-11-10T18:42:09+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "80e810b5dc497770": {
+      "source": "Kicker",
+      "title": "Piljic bricht den Bann: Wolfsburg souver\u00e4n im Viertelfinale",
+      "published": "2026-11-10T19:49:46+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "829357277c0eac1b": {
+      "source": "Kicker",
+      "title": "Luthe: Gemeinsames Ziel und Freude \u00fcber den \"CR7 der Castroper Stra\u00dfe\"",
+      "published": "2026-11-10T20:00:59+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "05417785e53adf45": {
+      "source": "Kicker",
+      "title": "Paunovic trotz gro\u00dfer Personalsorgen: \"Das Fu\u00dfballmonster in uns entfesseln\"",
+      "published": "2026-11-10T21:26:58+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
+    },
+    "28d36334dd1cfa17": {
+      "source": "Kicker",
+      "title": "Harder legt doppelt vor: Bayern-Frauen siegen auch in Paris",
+      "published": "2026-11-10T21:59:07+00:00",
+      "first_seen": "2026-11-11T08:51:37.964346+10:00",
+      "category": "football"
     }
   }
 }

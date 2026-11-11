@@ -1,10 +1,10 @@
 # API Cost Summary
-_Updated 2026-11-12T01:29:24.393638+10:00 (AEST). USD is exact; AUD = USD x 1.55 (conversion only)._
+_Updated 2026-11-12T03:58:46.532080+10:00 (AEST). USD is exact; AUD = USD x 1.55 (conversion only)._
 
 - **Today (2026-11-12):** $0.0000 USD (A$0.0000) over 0 calls
 - **Month to date (2026-11):** $0.0000 USD (A$0.0000) over 0 calls
 - **Spend cap:** A$0.00 of A$15.00 used this month (0.0%), state: ok
-- **Calls skipped today:** 1 (category_off 0, cap 0, claude_disabled 1); month to date: 220 (category_off 0, cap 0, claude_disabled 220)
+- **Calls skipped today:** 2 (category_off 0, cap 0, claude_disabled 2); month to date: 221 (category_off 0, cap 0, claude_disabled 221)
 - **Wasted spend (truncated/empty) today:** $0.0000 USD (A$0.0000)
 - **Wasted spend month to date:** $0.0000 USD (A$0.0000)
 

@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-11T04:47:11.087470+00:00",
+  "last_gdelt_attempt": "2026-11-11T07:23:01.722011+00:00",
   "article_store": {
     "a8fcd3d2edf70fcc": {
       "source": "BBC News",
@@ -22103,6 +22103,83 @@
       "published": "2026-10-13T10:44:22+00:00",
       "first_seen": "2026-11-11T14:47:38.407755+10:00",
       "category": "archaeology"
+    },
+    "a2d941d5344f2fb7": {
+      "source": "BBC News",
+      "title": "Poundland hopeful for last-minute rescue deal to stave off collapse",
+      "published": "2026-11-11T00:02:07+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
+    },
+    "c0a49f5ecd09f545": {
+      "source": "Al Jazeera",
+      "title": "Russia claims interception of 146 drones in Leningrad region",
+      "published": "2026-11-11T04:34:47+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
+    },
+    "2d63fd8c5fc2c3df": {
+      "source": "Al Jazeera",
+      "title": "Ebola cases in DR Congo pass 11,000, with 5,387 deaths",
+      "published": "2026-11-11T04:44:18+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
+    },
+    "d431b0f058c5f7ec": {
+      "source": "Al Jazeera",
+      "title": "Malaysia\u2019s ex-PM transferred to house arrest for 1MDB graft sentence",
+      "published": "2026-11-11T04:56:22+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
+    },
+    "c421678398492a1e": {
+      "source": "Al Jazeera",
+      "title": "US charges three men for allegedly plotting attack on UK base",
+      "published": "2026-11-11T05:01:47+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
+    },
+    "ebe1ed40173fb55d": {
+      "source": "Al Jazeera",
+      "title": "\u2018I pay $500 for 5 square metres\u2019: Spain\u2019s protesters, in their own words",
+      "published": "2026-11-11T05:16:57+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
+    },
+    "4261858ab9bbd16f": {
+      "source": "Al Jazeera",
+      "title": "Yemeni forces, Houthis exchange attacks, claim to inflict heavy losses",
+      "published": "2026-11-11T05:39:26+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
+    },
+    "a9b7591e30de5582": {
+      "source": "Al Jazeera",
+      "title": "South African swimmer Tatjana Smith switches allegiance to Netherlands",
+      "published": "2026-11-11T05:52:28+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
+    },
+    "9c171df9b0aa78d5": {
+      "source": "BBC News",
+      "title": "Acquitted 'China spy': I was fall guy for security services",
+      "published": "2026-11-11T06:00:21+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
+    },
+    "27376802bd2b48f9": {
+      "source": "Al Jazeera",
+      "title": "Netanyahu fights to stay relevant as Israel\u2019s opposition closes in",
+      "published": "2026-11-11T06:23:04+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
+    },
+    "d09ad945d36fe9f4": {
+      "source": "BBC News",
+      "title": "Temperatures to dip to -5C as first cold health alerts of season issued",
+      "published": "2026-11-11T07:08:32+00:00",
+      "first_seen": "2026-11-11T17:23:24.848881+10:00",
+      "category": "breaking"
     }
   }
 }

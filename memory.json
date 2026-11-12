@@ -2089,894 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-11T21:02:56.949781+00:00",
+  "last_gdelt_attempt": "2026-11-12T00:55:10.261586+00:00",
   "article_store": {
-    "8c5d357d894548ed": {
-      "source": "BBC News",
-      "title": "UK government to outlaw new North Sea drilling",
-      "published": "2026-11-04T16:28:03+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "a5025b249020fa9c": {
-      "source": "BBC News",
-      "title": "Bowen: Trump's loss limits powers at home, but it will likely be different abroad",
-      "published": "2026-11-04T18:35:07+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "f125950aafd1456d": {
-      "source": "BBC News",
-      "title": "An island in mourning: Tenerife processes death of De Miguel",
-      "published": "2026-11-04T18:51:21+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "bc84531bd1fd0ff2": {
-      "source": "Al Jazeera",
-      "title": "The biggest winners and losers of the 2026 US midterms",
-      "published": "2026-11-04T18:52:25+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "da344f8650578245": {
-      "source": "BBC News",
-      "title": "Fewer mothers to appear in court days after giving birth under new guidance",
-      "published": "2026-11-04T19:02:38+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "2fae946d3cbb5d62": {
-      "source": "Al Jazeera",
-      "title": "How US midterm results could reshape Trump\u2019s foreign policy",
-      "published": "2026-11-04T19:15:50+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "0218fb985c639493": {
-      "source": "Al Jazeera",
-      "title": "US midterms 2026: What key races remain undecided?",
-      "published": "2026-11-04T19:18:47+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "fb84f6b5973c4d99": {
-      "source": "Al Jazeera",
-      "title": "WHO approves trials for two new Ebola vaccines",
-      "published": "2026-11-04T19:22:09+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "8ac51c2467da75b5": {
-      "source": "Al Jazeera",
-      "title": "Hakeem Jeffries promises \u2018affordability\u2019 focus after Democratic midterm win",
-      "published": "2026-11-04T19:30:41+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "1f63b40e332abbe6": {
-      "source": "Al Jazeera",
-      "title": "Democratic progressive wing notches win in California Central Valley",
-      "published": "2026-11-04T19:50:37+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "7b37bfee1566881b": {
-      "source": "Al Jazeera",
-      "title": "Iranians celebrate Democrat victory in US midterms",
-      "published": "2026-11-04T19:59:14+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "68e80ffd54652e5c": {
-      "source": "BBC News",
-      "title": "How voter shifts in Texas helped elect a Democratic senator and governor",
-      "published": "2026-11-04T20:21:14+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "15e76698d7418e30": {
-      "source": "Al Jazeera",
-      "title": "Will the US resume its attacks on Iran?",
-      "published": "2026-11-04T20:25:50+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "6ee9970f1e39b9cd": {
-      "source": "Al Jazeera",
-      "title": "Ukraine raises death toll from Russian strike on Zaporizhia to 40 people",
-      "published": "2026-11-04T20:31:56+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "38763dd48d7e72dc": {
-      "source": "Al Jazeera",
-      "title": "Democrat leaders hail midterm election success",
-      "published": "2026-11-04T20:50:31+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "cb34e8477dd9a23e": {
-      "source": "Al Jazeera",
-      "title": "US midterm election results live: Trump blames Iran war after losses",
-      "published": "2026-11-04T21:00:00+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "5a224b47ab3af0d8": {
-      "source": "BBC News",
-      "title": "Chris Mason: The US elections will change Trump \u2013 how will Burnham react?",
-      "published": "2026-11-04T21:02:58+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "f665f9d8505cdf02": {
-      "source": "Al Jazeera",
-      "title": "Israel restricting treatment for 1,100 child amputees in Gaza: NGO",
-      "published": "2026-11-04T21:13:56+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "a160be549fa35207": {
-      "source": "Al Jazeera",
-      "title": "Social media reacts to Democrats\u2019 takeover of US Congress",
-      "published": "2026-11-04T21:21:58+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "42ef1d46d3bae9f9": {
-      "source": "Al Jazeera",
-      "title": "Palestinians, Israelis react after Democrats sweep US midterms",
-      "published": "2026-11-04T22:06:24+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "d5e3bfd67b5199a9": {
-      "source": "Al Jazeera",
-      "title": "Sudan factories struggle to restart after devastating wartime losses",
-      "published": "2026-11-04T22:31:09+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "b15a7f5432bcae42": {
-      "source": "BBC News",
-      "title": "Police in Scotland to escort fire crews in latest crackdown on Bonfire Night disorder",
-      "published": "2026-11-04T22:53:26+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "fcee2a9e058a2941": {
-      "source": "BBC News",
-      "title": "Pound rises to its highest level since the Brexit referendum",
-      "published": "2026-11-04T23:02:24+00:00",
-      "first_seen": "2026-11-05T09:13:37.126203+10:00",
-      "category": "breaking"
-    },
-    "719d9267c44bd21c": {
-      "source": "SMH",
-      "title": "Missed calls puzzle Telstra customers",
-      "published": "2026-11-04T19:22:38+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "2f9b913e5677ecd0": {
-      "source": "SMH",
-      "title": "Texas Democrats celebrate stunning electoral win",
-      "published": "2026-11-04T19:23:04+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "c43a1dfde821693c": {
-      "source": "The Age",
-      "title": "Texas Democrats celebrate stunning electoral win",
-      "published": "2026-11-04T19:23:04+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "2f9b913e5677ecd0"
-    },
-    "c942412d936ba6de": {
-      "source": "SMH",
-      "title": "D-day for David Jones",
-      "published": "2026-11-04T19:23:05+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "5213d5eeefb69ffa": {
-      "source": "The Age",
-      "title": "D-day for David Jones",
-      "published": "2026-11-04T19:23:05+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "c942412d936ba6de"
-    },
-    "81c090486c718438": {
-      "source": "SMH",
-      "title": "US Democrats claim historic midterms victory",
-      "published": "2026-11-04T19:23:40+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "1603b49bd0afdfae": {
-      "source": "The Age",
-      "title": "US Democrats claim historic midterms victory",
-      "published": "2026-11-04T19:23:40+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "81c090486c718438"
-    },
-    "a4eeacf90b904d4f": {
-      "source": "SMH",
-      "title": "Australian news live: High court expected to publish decision on Hanson\u2019s tweets; Republicans react as Democrats \u2018blue tsunami\u2019 continues",
-      "published": "2026-11-04T19:53:29+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "e00432b30f83b2c4": {
-      "source": "The Age",
-      "title": "Australian news live: High court expected to publish decision on Hanson\u2019s tweets; Republicans react as Democrats \u2018blue tsunami\u2019 continues",
-      "published": "2026-11-04T19:53:29+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "a4eeacf90b904d4f"
-    },
-    "eb6f210a5abebc23": {
-      "source": "ABC News",
-      "title": "Opetaia moves up to heavyweight to fight former world champ Wilder",
-      "published": "2026-11-04T20:00:17+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "b51495ce5b9495fd": {
-      "source": "ABC News",
-      "title": "Keeper breaks silence after collision that led to Spanish player's death",
-      "published": "2026-11-04T20:15:08+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "efcc5b667e2a4d13": {
-      "source": "ABC News",
-      "title": "Live: 'Not inconceivable' David Jones could disappear as retailer collapses",
-      "published": "2026-11-04T20:22:37+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "b584b11dcb463602": {
-      "source": "ABC News",
-      "title": "Disgraced businessman Salim Mehajer charged with domestic violence offences",
-      "published": "2026-11-04T20:28:24+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "99425b2d56e9c77d": {
-      "source": "ABC News",
-      "title": "Japanese consumers build appetite for Australian 'red-tipped' bananas",
-      "published": "2026-11-04T20:31:00+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "0cc70b7f2857e4ae": {
-      "source": "ABC News",
-      "title": "Trump and Vance lead GOP blame game as fingers point at Iran war",
-      "published": "2026-11-04T20:37:23+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "7cd6453af2bd4b5e": {
-      "source": "SMH",
-      "title": "Kanga\u2019s bold racing comeback bid: Controversial figure nominates for Flemington board",
-      "published": "2026-11-04T20:59:14+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "1b773645295b3426": {
-      "source": "The Age",
-      "title": "Kanga\u2019s bold racing comeback bid: Controversial figure nominates for Flemington board",
-      "published": "2026-11-04T20:59:14+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "7cd6453af2bd4b5e"
-    },
-    "914b3015349c9d01": {
-      "source": "ABC News",
-      "title": "'It would be a scandal': NT government accused of hiding youth prison from UN",
-      "published": "2026-11-04T21:00:02+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "412172c699260f94": {
-      "source": "ABC News",
-      "title": "Rarely used rule sees Renegades claim final ball win in WBBL thriller",
-      "published": "2026-11-04T21:01:31+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "2de7866d0cc7ef6f": {
-      "source": "SMH",
-      "title": "Landmark study shows clears one in three babies with suspected peanut allergy",
-      "published": "2026-11-04T21:09:52+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "c2da4b40651057b5": {
-      "source": "The Age",
-      "title": "Landmark study shows clears one in three babies with suspected peanut allergy",
-      "published": "2026-11-04T21:09:52+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "2de7866d0cc7ef6f"
-    },
-    "9a9d19e30a345571": {
-      "source": "ABC News",
-      "title": "Menindee Lakes locals fear more fish kills as hot summer forecast",
-      "published": "2026-11-04T21:09:53+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "8d4253730f49a664": {
-      "source": "ABC News",
-      "title": "Education ministers agree to biggest school system shake-up in years",
-      "published": "2026-11-04T21:16:07+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "4a3fa898c9cdc265": {
-      "source": "SMH",
-      "title": "Bellingham's brilliant backheel goal",
-      "published": "2026-11-04T21:16:48+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "fdc77725830616ea": {
-      "source": "The Age",
-      "title": "Bellingham's brilliant backheel goal",
-      "published": "2026-11-04T21:16:48+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "4a3fa898c9cdc265"
-    },
-    "bdf6cee7ce86554f": {
-      "source": "SMH",
-      "title": "Little-known Aussie stuns Djokovic in Paris",
-      "published": "2026-11-04T21:26:50+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "6d12ea462a2b050b": {
-      "source": "The Age",
-      "title": "Little-known Aussie stuns Djokovic in Paris",
-      "published": "2026-11-04T21:26:50+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "bdf6cee7ce86554f"
-    },
-    "9d3782ecc4387fcd": {
-      "source": "ABC News",
-      "title": "How a moth 'maelstrom' gave scientists hope for an endangered species",
-      "published": "2026-11-04T21:28:39+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "c8b946aa022a4f02": {
-      "source": "SMH",
-      "title": "ASX set to soar as Wall Street rallies; Trump Media dives, Tesla, SpaceX fall; Oil prices tumble",
-      "published": "2026-11-04T21:37:05+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "38cd7567eef87fbe": {
-      "source": "The Age",
-      "title": "ASX set to soar as Wall Street rallies; Trump Media dives, Tesla, SpaceX fall; Oil prices tumble",
-      "published": "2026-11-04T21:37:05+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "c8b946aa022a4f02"
-    },
-    "02f3908aedb17aaa": {
-      "source": "SMH",
-      "title": "Harry and Meghan to make first public appearance since Thomas Markle allegations",
-      "published": "2026-11-04T21:46:43+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "4294a5db66fb41a6": {
-      "source": "The Age",
-      "title": "Harry and Meghan to make first public appearance since Thomas Markle allegations",
-      "published": "2026-11-04T21:46:43+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "02f3908aedb17aaa"
-    },
-    "5be410624a4b0239": {
-      "source": "SMH",
-      "title": "NAB profit falls to $6.1 billion, overdue home loan repayments tick up",
-      "published": "2026-11-04T21:50:11+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "14edf2b82a899389": {
-      "source": "The Age",
-      "title": "NAB profit falls to $6.1 billion, overdue home loan repayments tick up",
-      "published": "2026-11-04T21:50:11+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "5be410624a4b0239"
-    },
-    "30253a99dbb1cea2": {
-      "source": "ABC News",
-      "title": "Victorian election candidate finds bullet hole in campaign sign",
-      "published": "2026-11-04T22:02:33+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "3e48476678765aba": {
-      "source": "ABC News",
-      "title": "Stricter rules for WA government to protect endangered birds",
-      "published": "2026-11-04T22:02:46+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "92ce946354a82dec": {
-      "source": "ABC News",
-      "title": "LIV Golf future in doubt as premier says Australia event likely cancelled",
-      "published": "2026-11-04T22:14:00+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "2effc92489110f32": {
-      "source": "ABC News",
-      "title": "'Australia's loneliest echidna' no longer solo after trail-cam discoveries",
-      "published": "2026-11-04T22:20:23+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "57bae6c0b4af7a44": {
-      "source": "SMH",
-      "title": "Marooned in paradise: Albanese and the summit that could not have come at a worse time",
-      "published": "2026-11-04T22:20:37+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "1d2871736cadfa85": {
-      "source": "The Age",
-      "title": "Marooned in paradise: Albanese and the summit that could not have come at a worse time",
-      "published": "2026-11-04T22:20:37+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "57bae6c0b4af7a44"
-    },
-    "1933ccba21f86dbb": {
-      "source": "SMH",
-      "title": "David Jones collapses, store closures expected before Christmas",
-      "published": "2026-11-04T22:22:50+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "8d4f393495acf783": {
-      "source": "The Age",
-      "title": "David Jones collapses, store closures expected before Christmas",
-      "published": "2026-11-04T22:22:50+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "1933ccba21f86dbb"
-    },
-    "708c9cf7645b33ab": {
-      "source": "SMH",
-      "title": "LIV Golf thought it had a financial saviour. It\u2019s just walked away",
-      "published": "2026-11-04T22:26:43+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "9eaefef8b309ab81": {
-      "source": "The Age",
-      "title": "LIV Golf thought it had a financial saviour. It\u2019s just walked away",
-      "published": "2026-11-04T22:26:43+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "708c9cf7645b33ab"
-    },
-    "d56de759f487d49f": {
-      "source": "The Age",
-      "title": "118 years of history: Inside Victoria\u2019s newest over-50s community",
-      "published": "2026-11-04T22:32:51+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "9766e3c0c7a81a4b": {
-      "source": "ABC News",
-      "title": "Outback town abandoned after council 'drops the ball'",
-      "published": "2026-11-04T22:34:38+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "7499fbe70b8ff15f": {
-      "source": "ABC News",
-      "title": "Crocodile's day trip to popular resort island sparks commotion",
-      "published": "2026-11-04T22:36:09+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "aad4e0087ce5c1dc": {
-      "source": "SMH",
-      "title": "Lifeline collapses for LIV Golf",
-      "published": "2026-11-04T22:36:39+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "c79cd63f3c44f22f": {
-      "source": "The Age",
-      "title": "Lifeline collapses for LIV Golf",
-      "published": "2026-11-04T22:36:39+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "aad4e0087ce5c1dc"
-    },
-    "3078d341125ac4df": {
-      "source": "ABC News",
-      "title": "Cyber attack hits French blood banks but no blood products compromised",
-      "published": "2026-11-04T22:41:45+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "b0725482d85f76c0": {
-      "source": "SMH",
-      "title": "Devastating 'pick another protein' ad",
-      "published": "2026-11-04T22:43:32+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "e40c9ad849bdb1f5": {
-      "source": "The Age",
-      "title": "Devastating 'pick another protein' ad",
-      "published": "2026-11-04T22:43:32+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "b0725482d85f76c0"
-    },
-    "ae2f8c54433fe3ec": {
-      "source": "ABC News",
-      "title": "Breaking: Retailer's future in doubt as David Jones calls in administrators",
-      "published": "2026-11-04T22:44:29+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "5ab51c764febb278": {
-      "source": "SMH",
-      "title": "Rugby league legend Paul Langmack dies at 61",
-      "published": "2026-11-04T22:45:03+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "e6ca6765cd179900": {
-      "source": "The Age",
-      "title": "Rugby league legend Paul Langmack dies at 61",
-      "published": "2026-11-04T22:45:03+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "5ab51c764febb278"
-    },
-    "cb89cb2493eefd2c": {
-      "source": "SMH",
-      "title": "Rare rule gives Renegades thrilling win",
-      "published": "2026-11-04T22:52:51+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "dea070b20f9bccec": {
-      "source": "The Age",
-      "title": "Rare rule gives Renegades thrilling win",
-      "published": "2026-11-04T22:52:51+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia",
-      "duplicate_of": "cb89cb2493eefd2c"
-    },
-    "3bc5b774055747be": {
-      "source": "ABC News",
-      "title": "Mount Morgan residents welcome new water pipeline after drought",
-      "published": "2026-11-04T22:58:29+00:00",
-      "first_seen": "2026-11-05T09:13:38.172399+10:00",
-      "category": "australia"
-    },
-    "7642a45460997512": {
-      "source": "New Scientist",
-      "title": "Why are Homo sapiens the only human species left?",
-      "published": "2026-10-21T17:00:00+00:00",
-      "first_seen": "2026-11-05T09:13:41.961268+10:00",
-      "category": "archaeology"
-    },
-    "ce81d2df8b2bfc87": {
-      "source": "New Scientist",
-      "title": "Access to stone as well as water governed where early humans lived",
-      "published": "2026-10-28T16:00:00+00:00",
-      "first_seen": "2026-11-05T09:13:41.961268+10:00",
-      "category": "archaeology"
-    },
-    "3785e700c95a22e7": {
-      "source": "Nature",
-      "title": "Why not to wait even a few minutes before fleeing a tsunami",
-      "published": "2026-11-04T00:00:00+00:00",
-      "first_seen": "2026-11-05T09:13:41.961268+10:00",
-      "category": "archaeology"
-    },
-    "bd7c9d4009a5c8e9": {
-      "source": "Nature",
-      "title": "Toothbrush zaps bacteria with electricity made when bristles move",
-      "published": "2026-11-04T00:00:00+00:00",
-      "first_seen": "2026-11-05T09:13:41.961268+10:00",
-      "category": "archaeology"
-    },
-    "0b6c2eccba206bca": {
-      "source": "Nature",
-      "title": "First-of-its-kind planetary wreckage holds clues to our Solar System\u2019s fate",
-      "published": "2026-11-04T00:00:00+00:00",
-      "first_seen": "2026-11-05T09:13:41.961268+10:00",
-      "category": "archaeology"
-    },
-    "211411fb168ccbdf": {
-      "source": "Nature",
-      "title": "\u2018Historic change\u2019: what the 2026 US mid-term election results mean for science",
-      "published": "2026-11-04T00:00:00+00:00",
-      "first_seen": "2026-11-05T09:13:41.961268+10:00",
-      "category": "archaeology"
-    },
-    "818bb74a6a32f550": {
-      "source": "Nature",
-      "title": "Rise of Germanic and Celtic languages is written in ancient DNA",
-      "published": "2026-11-04T00:00:00+00:00",
-      "first_seen": "2026-11-05T09:13:41.961268+10:00",
-      "category": "archaeology"
-    },
-    "a1cb7a6dbfa72f94": {
-      "source": "PhysOrg",
-      "title": "Evolution has repeatedly turned hawkmoth genitals into defensive tools",
-      "published": "2026-11-04T20:20:07+00:00",
-      "first_seen": "2026-11-05T09:13:41.961268+10:00",
-      "category": "archaeology"
-    },
-    "533c5f78cff962ea": {
-      "source": "PhysOrg",
-      "title": "Feejee Mermaid on display in Colorado may shock and intrigue\u2014but no longer considered a 'missing link'",
-      "published": "2026-11-04T22:20:06+00:00",
-      "first_seen": "2026-11-05T09:13:41.961268+10:00",
-      "category": "archaeology"
-    },
-    "6816be820020f84b": {
-      "source": "PhysOrg",
-      "title": "Flat feet may have helped Neanderthals stay stable while carrying heavy loads",
-      "published": "2026-11-04T23:10:01+00:00",
-      "first_seen": "2026-11-05T09:13:41.961268+10:00",
-      "category": "archaeology"
-    },
-    "81a83000969f23e2": {
-      "source": "Marca",
-      "title": "La Real se\u00f1ala a la sala VOR y su revisi\u00f3n por el error del penalti de San Mam\u00e9s",
-      "published": "2026-11-04T18:16:08+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "cb4f79f53008e954": {
-      "source": "Marca",
-      "title": "Comunicado del Athletic: \"Cuidar a los \u00e1rbitros es cuidar el f\u00fatbol\"",
-      "published": "2026-11-04T19:15:54+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "db120d65aa3029c9": {
-      "source": "Kicker",
-      "title": "51 Rote Karten in einem Spiel: Neuer Weltrekord in Brasilien aufgestellt",
-      "published": "2026-11-04T20:19:20+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "a2fcba6278748bbe": {
-      "source": "Kicker",
-      "title": "Perfektes Timing: Tresoldi bringt Br\u00fcgge per Kopf in F\u00fchrung",
-      "published": "2026-11-04T20:34:26+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "7c7ac5d22789f1f1": {
-      "source": "Kicker",
-      "title": "Kind: \"Ich kann mit Krisen konsequent umgehen\"",
-      "published": "2026-11-04T20:34:33+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "d6db56589200ce2f": {
-      "source": "Kicker",
-      "title": "Comeback-K\u00f6nige aus Madrid: \"Das ist die DNA des Vereins\"",
-      "published": "2026-11-04T20:45:18+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "3dee9ca1dd8e5002": {
-      "source": "Kicker",
-      "title": "Bournemouth-Coach Rose: \"Haben die Spieler entwickelt, nicht gekauft\"",
-      "published": "2026-11-04T20:58:09+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "7b2e0744ea68be8c": {
-      "source": "Kicker",
-      "title": "Afrikas Fu\u00dfballer des Jahres: Bayerns Saibari auf der Shortlist",
-      "published": "2026-11-04T21:20:37+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "ec86535ac7876747": {
-      "source": "Kicker",
-      "title": "Haaland hat das letzte Wort: Leipzig kommt zweimal zur\u00fcck und verliert doch",
-      "published": "2026-11-04T22:10:18+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "3ab508a0ac26dfa5": {
-      "source": "Kicker",
-      "title": "Erst unsichtbar, dann der Held: Haaland und der volle Fokus",
-      "published": "2026-11-04T22:32:44+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "63277291863c1f94": {
-      "source": "Kicker",
-      "title": "Schneller Haken, starker Abschluss: Karetsas-Premiere l\u00e4sst den BVB jubeln",
-      "published": "2026-11-04T22:34:13+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "72e4b8e309117f06": {
-      "source": "Kicker",
-      "title": "Tresoldis Kopfball leitet Sieg ein: Br\u00fcgge belohnt sich gegen Eindhoven",
-      "published": "2026-11-04T22:35:10+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "69c5450dd8f27803": {
-      "source": "Kicker",
-      "title": "Baumgartner entt\u00e4uscht: \"Nicht alles rosarot sehen\"",
-      "published": "2026-11-04T22:36:06+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "6599f5f6067552cc": {
-      "source": "Kicker",
-      "title": "Napoli bricht sp\u00e4t ein: Porto feiert deutlichen Sieg",
-      "published": "2026-11-04T22:37:47+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "9c0e72dc6bc6e5ff": {
-      "source": "Kicker",
-      "title": "Bitteres Eigentor und K. o. durch Haaland: RB verliert 2:3 gegen City",
-      "published": "2026-11-04T22:39:26+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "95aa666cd2d5d821": {
-      "source": "Kicker",
-      "title": "Botheim-Doppelpack macht alles klar: Stavanger feiert ersten CL-Sieg",
-      "published": "2026-11-04T22:42:12+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "60c9d3f0aa5ceed2": {
-      "source": "Kicker",
-      "title": "Spektakul\u00e4re Doppel-Rettung auf der Linie: Arsenal besteht in Prag",
-      "published": "2026-11-04T22:43:35+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "5085db3e1e283a38": {
-      "source": "Kicker",
-      "title": "Comos Rekordsieg im Video: Auch Kempf trifft beim 9:1",
-      "published": "2026-11-04T22:48:11+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "470afa5e7d154e34": {
-      "source": "Kicker",
-      "title": "\"Wendepunkt f\u00fcr den Edeltechniker\": Karetsas und die BVB-Premiere",
-      "published": "2026-11-04T22:53:17+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "09c4d9e79e00a14d": {
-      "source": "Kicker",
-      "title": "XXL-Kader muss schrumpfen: Klopp legt sich heute fest",
-      "published": "2026-11-04T23:01:00+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "1407b3fcd8372341": {
-      "source": "Kicker",
-      "title": "\"Flanke oder Torschuss?\": Baku grinst \u00fcber freches Tor gegen City",
-      "published": "2026-11-04T23:03:49+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "86e55ac4bf63697a": {
-      "source": "Kicker",
-      "title": "Karetsas: Von der Toilette zum entscheidenden Tor gegen Betis",
-      "published": "2026-11-04T23:05:07+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "863b144d7874e022": {
-      "source": "Marca",
-      "title": "Los 26 d\u00edas de oro del Madrid",
-      "published": "2026-11-04T23:10:55+00:00",
-      "first_seen": "2026-11-05T09:13:49.188490+10:00",
-      "category": "football"
-    },
-    "a319c8008799bd67": {
-      "source": "BBC News",
-      "title": "LIV Golf to wind down after backers withdraw support",
-      "published": "2026-11-04T22:33:17+00:00",
-      "first_seen": "2026-11-05T09:51:14.330880+10:00",
-      "category": "breaking"
-    },
-    "7f9161243dd6b7b6": {
-      "source": "Al Jazeera",
-      "title": "Democratic Socialists of America see record wins in US midterm elections",
-      "published": "2026-11-04T22:45:24+00:00",
-      "first_seen": "2026-11-05T09:51:14.330880+10:00",
-      "category": "breaking"
-    },
-    "12d99d096e3105b9": {
-      "source": "BBC News",
-      "title": "\u00a3200m taxpayer-funded trains sit barely used for three years",
-      "published": "2026-11-04T22:59:28+00:00",
-      "first_seen": "2026-11-05T09:51:14.330880+10:00",
-      "category": "breaking"
-    },
-    "617a2eb5aa34fa9d": {
-      "source": "BBC News",
-      "title": "Surreal moment Tarantino and Kylie Minogue came to my hometown to star in my new film",
-      "published": "2026-11-04T23:01:45+00:00",
-      "first_seen": "2026-11-05T09:51:14.330880+10:00",
-      "category": "breaking"
-    },
-    "50a3a5fe175ef4d1": {
-      "source": "BBC News",
-      "title": "Typhoons batter East Asia as El Ni\u00f1o makes Pacific 'burn with fever'",
-      "published": "2026-11-04T23:12:47+00:00",
-      "first_seen": "2026-11-05T09:51:14.330880+10:00",
-      "category": "breaking"
-    },
-    "7f5546a6d5b24a9b": {
-      "source": "BBC News",
-      "title": "World record 51 red cards shown in Brazilian youth game",
-      "published": "2026-11-04T23:22:27+00:00",
-      "first_seen": "2026-11-05T09:51:14.330880+10:00",
-      "category": "breaking"
-    },
-    "b41af73736c40b99": {
-      "source": "Al Jazeera",
-      "title": "Trump blames Iran war for midterms losses",
-      "published": "2026-11-04T23:30:01+00:00",
-      "first_seen": "2026-11-05T09:51:14.330880+10:00",
-      "category": "breaking"
-    },
-    "2aab318787859c7c": {
-      "source": "Al Jazeera",
-      "title": "Giant banner of Trump, Vance and Netanyahu burnt at Tehran rally",
-      "published": "2026-11-04T23:34:47+00:00",
-      "first_seen": "2026-11-05T09:51:14.330880+10:00",
-      "category": "breaking"
-    },
-    "2110a83279b2d505": {
-      "source": "Al Jazeera",
-      "title": "Sudan, Ethiopia order tit-for-tat diplomatic expulsions",
-      "published": "2026-11-04T23:43:26+00:00",
-      "first_seen": "2026-11-05T10:02:49.769322+10:00",
-      "category": "breaking"
-    },
-    "19c8aae668f9b3ba": {
-      "source": "Al Jazeera",
-      "title": "Who gets to vote in the US?",
-      "published": "2026-11-04T23:50:34+00:00",
-      "first_seen": "2026-11-05T10:02:49.769322+10:00",
-      "category": "breaking"
-    },
     "04f045396f1fb6d9": {
       "source": "BBC News",
       "title": "Anthony Zurcher: Midterm carnage weakens Trump but he still wields power for now",
@@ -22388,6 +21502,125 @@
       "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
       "published": "2026-11-11T21:43:35+00:00",
       "first_seen": "2026-11-12T08:08:25.018001+10:00",
+      "category": "breaking"
+    },
+    "2cf8f7308cb83ca3": {
+      "source": "Al Jazeera",
+      "title": "Judge rules Trump\u2019s $10bn BBC defamation suit can proceed",
+      "published": "2026-11-11T22:10:12+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "e4075e54b68c42f1": {
+      "source": "BBC News",
+      "title": "Lego marketplace BrickLink offline after 'unusual activity' detected",
+      "published": "2026-11-11T22:26:18+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "d3877b5b706e2fc5": {
+      "source": "BBC News",
+      "title": "British soldier charged with rape of woman serving in Cyprus",
+      "published": "2026-11-11T22:34:37+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "d71ee393783e44f8": {
+      "source": "Al Jazeera",
+      "title": "Iran designates Argentinian navy, air force as \u2018terrorist organisations\u2019",
+      "published": "2026-11-11T22:34:43+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "5255560da8334c50": {
+      "source": "Al Jazeera",
+      "title": "Israeli strikes hit medical complex as nine killed across Gaza",
+      "published": "2026-11-11T22:55:37+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "570b16b02b192cd2": {
+      "source": "Al Jazeera",
+      "title": "Democrat Scott Colom wins closely watched US Senate race in Mississippi",
+      "published": "2026-11-11T23:05:34+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "fd8dc61a1e0c72c6": {
+      "source": "BBC News",
+      "title": "Some under-25s should get less benefits, Milburn review to say",
+      "published": "2026-11-11T23:22:04+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "7936d9280113a7f2": {
+      "source": "Al Jazeera",
+      "title": "Barcelona erupts in violence after general strike",
+      "published": "2026-11-11T23:50:01+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "caabc3985a60607a": {
+      "source": "Al Jazeera",
+      "title": "Iran war live: Tehran warns of wider retaliation; Israel kills in Gaza",
+      "published": "2026-11-12T00:00:44+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "919799f40ad9896c": {
+      "source": "Al Jazeera",
+      "title": "US election results could be positive for Lebanon, Hezbollah chief says",
+      "published": "2026-11-12T00:06:50+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "ccb3505c782444df": {
+      "source": "BBC News",
+      "title": "Are max strength cold and flu pills worth the money?",
+      "published": "2026-11-12T00:12:28+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "3ee2928070dba61a": {
+      "source": "BBC News",
+      "title": "Significant drop in levels of toxic 'forever' chemicals in England's rivers",
+      "published": "2026-11-12T00:12:59+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "ea16c135c25fce52": {
+      "source": "BBC News",
+      "title": "Sunbed firms must not downplay cancer risk, says watchdog",
+      "published": "2026-11-12T00:13:27+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "0349f75668a28880": {
+      "source": "Al Jazeera",
+      "title": "Hegseth scolded by security at Tomb of the Unknown Soldier",
+      "published": "2026-11-12T00:18:46+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "7981a31bcadaf0ad": {
+      "source": "Al Jazeera",
+      "title": "Cameroon: Who is really calling the shots?",
+      "published": "2026-11-12T00:29:33+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "f7f8bf50627d90ae": {
+      "source": "BBC News",
+      "title": "Burnham's push for closer EU ties causes ripples in his party and others",
+      "published": "2026-11-12T00:30:48+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
+      "category": "breaking"
+    },
+    "ab06304e4a71555f": {
+      "source": "Al Jazeera",
+      "title": "Why the US, Mexico and Guatemala may lose their measles-free status",
+      "published": "2026-11-12T00:33:44+00:00",
+      "first_seen": "2026-11-12T10:55:35.109784+10:00",
       "category": "breaking"
     }
   }

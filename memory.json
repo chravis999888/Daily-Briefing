@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-12T10:03:43.658218+00:00",
+  "last_gdelt_attempt": "2026-11-12T12:11:20.277735+00:00",
   "article_store": {
     "88afa50fe50c251d": {
       "source": "BBC News",
@@ -21757,6 +21757,611 @@
       "published": "2026-11-12T11:31:16+00:00",
       "first_seen": "2026-11-12T21:43:27.092845+10:00",
       "category": "breaking"
+    },
+    "9ecbaa6a87b84595": {
+      "source": "BBC News",
+      "title": "King Charles appears on Elton John's radio show in secretly-recorded birthday episode",
+      "published": "2026-11-12T11:30:31+00:00",
+      "first_seen": "2026-11-12T22:11:42.373952+10:00",
+      "category": "breaking"
+    },
+    "989ec6f83c0ea0b9": {
+      "source": "Al Jazeera",
+      "title": "Nvidia board weighs Jensen Huang\u2019s future: Can it remove its founder?",
+      "published": "2026-11-12T11:43:19+00:00",
+      "first_seen": "2026-11-12T22:11:42.373952+10:00",
+      "category": "breaking"
+    },
+    "0378a39018f3a0f3": {
+      "source": "Al Jazeera",
+      "title": "Xi Jinping says Taiwan\u2019s \u2018complete reunification\u2019 with China will happen",
+      "published": "2026-11-12T11:59:28+00:00",
+      "first_seen": "2026-11-12T22:11:42.373952+10:00",
+      "category": "breaking"
+    },
+    "0afbc761e9c34206": {
+      "source": "BBC News",
+      "title": "Two men found guilty of spying for Iran over plan to target UK-based journalists",
+      "published": "2026-11-12T12:00:17+00:00",
+      "first_seen": "2026-11-12T22:11:42.373952+10:00",
+      "category": "breaking"
+    },
+    "4dbc3268e51eaad0": {
+      "source": "ABC News",
+      "title": "Absence of high school diploma brings down Indonesia's vice-president",
+      "published": "2026-11-12T05:14:13+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "2532d98d3ef27676": {
+      "source": "ABC News",
+      "title": "Lamarre-Condon told Baird he 'won't exist' after break-up, trial hears",
+      "published": "2026-11-12T05:17:03+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "62b7872ab4b41137": {
+      "source": "ABC News",
+      "title": "Police investigating sudden death of man in Kuranda",
+      "published": "2026-11-12T05:22:40+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "b15c6c56f8236027": {
+      "source": "ABC News",
+      "title": "Hunt is on for heir to strange block of land",
+      "published": "2026-11-12T05:41:02+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "ee7bbe37d7f22b3b": {
+      "source": "ABC News",
+      "title": "A coffee cart and the Finnish embassy gain more traction than Albanese",
+      "published": "2026-11-12T05:41:42+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "ebded759e85b321d": {
+      "source": "ABC News",
+      "title": "NSW teacher banned from schools but avoids jail over intimate images",
+      "published": "2026-11-12T05:43:41+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "e3023133a02f734a": {
+      "source": "ABC News",
+      "title": "What went wrong for Indonesia's VP Gibran Rakabuming Raka?",
+      "published": "2026-11-12T05:45:14+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "d851bac5b05c7ab1": {
+      "source": "ABC News",
+      "title": "Pool's defibrillator not working when nine-year-old boy drowned",
+      "published": "2026-11-12T06:42:58+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "10468e0a58ef2b96": {
+      "source": "ABC News",
+      "title": "Victorian Big Build inquiry rebukes agency on redactions",
+      "published": "2026-11-12T06:48:11+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "a01179c197c4f4e5": {
+      "source": "ABC News",
+      "title": "Coalmine reopens despite previous owners saying royalties made it unprofitable",
+      "published": "2026-11-12T06:52:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "a94b6d8e4198ba79": {
+      "source": "ABC News",
+      "title": "With Jensen Huang under pressure, Nvidia finds itself with no succession plan",
+      "published": "2026-11-12T07:01:07+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "40ccf4bbe3c12f81": {
+      "source": "ABC News",
+      "title": "Ex-wife of police prosecutor tells court of assault just after C-section",
+      "published": "2026-11-12T07:20:08+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "2bcebf1ac62805b6": {
+      "source": "ABC News",
+      "title": "Data centre industry butts up against community challenges",
+      "published": "2026-11-12T07:29:48+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "62ed5a9496989373": {
+      "source": "ABC News",
+      "title": "Kiwi duo Ponga and Waaka claim Golden Boot awards after stunning seasons",
+      "published": "2026-11-12T07:31:06+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "645404fe1cc198d7": {
+      "source": "ABC News",
+      "title": "FA scrambles for Jordan alternative with Socceroos reluctant to travel",
+      "published": "2026-11-12T07:41:24+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "b3eaac1afd0d5cdb": {
+      "source": "ABC News",
+      "title": "Surgeon among six killed in Israeli air strike on Gaza hospital",
+      "published": "2026-11-12T08:12:38+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "68cb81f07c73aa4e": {
+      "source": "ABC News",
+      "title": "Marsh dodges Sandpapergate questions in testy press conference exchange",
+      "published": "2026-11-12T08:33:12+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "72c63a6549c080ed": {
+      "source": "ABC News",
+      "title": "Putin kills many enemies, one convicted of espionage has a different story",
+      "published": "2026-11-12T08:35:59+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "e850f8daea74c163": {
+      "source": "SMH",
+      "title": "Pat Cummins\u2019 captaincy is about to face its biggest moment of truth",
+      "published": "2026-11-12T08:43:56+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "beeec44753368b12": {
+      "source": "The Age",
+      "title": "Pat Cummins\u2019 captaincy is about to face its biggest moment of truth",
+      "published": "2026-11-12T08:43:56+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "e850f8daea74c163"
+    },
+    "53fad73b6ef0cba4": {
+      "source": "SMH",
+      "title": "\u2018Stop the slop\u2019: Meet the young people fighting western Sydney\u2019s data centre rush",
+      "published": "2026-11-12T08:45:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "8dbcb5d366dab1fa": {
+      "source": "The Age",
+      "title": "\u2018Stop the slop\u2019: Meet the young people fighting western Sydney\u2019s data centre rush",
+      "published": "2026-11-12T08:45:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "53fad73b6ef0cba4"
+    },
+    "6782e95dc3602c52": {
+      "source": "SMH",
+      "title": "Queensland woman breaks Guinness World Record with massive turtle collection",
+      "published": "2026-11-12T08:47:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "58863958ec92c781": {
+      "source": "The Age",
+      "title": "Queensland woman breaks Guinness World Record with massive turtle collection",
+      "published": "2026-11-12T08:47:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "6782e95dc3602c52"
+    },
+    "09e50bb787f21b4c": {
+      "source": "SMH",
+      "title": "Has the Christmas beetle really returned to Brisbane?",
+      "published": "2026-11-12T08:50:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "06fd16de83e096b8": {
+      "source": "The Age",
+      "title": "Has the Christmas beetle really returned to Brisbane?",
+      "published": "2026-11-12T08:50:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "09e50bb787f21b4c"
+    },
+    "b57bff6af15e5b05": {
+      "source": "SMH",
+      "title": "More wet weather on the way after storms lash Brisbane",
+      "published": "2026-11-12T08:50:17+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "b3a08f24943265e0": {
+      "source": "The Age",
+      "title": "More wet weather on the way after storms lash Brisbane",
+      "published": "2026-11-12T08:50:17+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "b57bff6af15e5b05"
+    },
+    "e2482211865b3272": {
+      "source": "SMH",
+      "title": "Shootings, brutal beatings and arson attacks: Brighton developer in crosshairs of violent bikie gang",
+      "published": "2026-11-12T08:52:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "2c00c6fdaf637f77": {
+      "source": "The Age",
+      "title": "Shootings, brutal beatings and arson attacks: Brighton developer in crosshairs of violent bikie gang",
+      "published": "2026-11-12T08:52:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "e2482211865b3272"
+    },
+    "0fe822ab9323c09e": {
+      "source": "SMH",
+      "title": "Sam Konstas pushes Test selectors with century",
+      "published": "2026-11-12T08:56:44+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "f0a070d961a43f4d": {
+      "source": "The Age",
+      "title": "Sam Konstas pushes Test selectors with century",
+      "published": "2026-11-12T08:56:44+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "0fe822ab9323c09e"
+    },
+    "ce757bfc76f4f0f2": {
+      "source": "SMH",
+      "title": "The pushback on data centres is democracy at work",
+      "published": "2026-11-12T09:00:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "ccb7516cf2c116fc": {
+      "source": "The Age",
+      "title": "People, you can go your own way in voting",
+      "published": "2026-11-12T09:00:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "87e97f3d883b27d9": {
+      "source": "SMH",
+      "title": "Webster\u2019s case for a recall was building. Then Labuschagne stepped up",
+      "published": "2026-11-12T09:31:30+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "32c0929a1754ceee": {
+      "source": "The Age",
+      "title": "Webster\u2019s case for a recall was building. Then Labuschagne stepped up",
+      "published": "2026-11-12T09:31:30+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "87e97f3d883b27d9"
+    },
+    "49bb279e204a44e0": {
+      "source": "SMH",
+      "title": "Minister likely struck deal with CFMEU on complaint line: ex-bureaucrat",
+      "published": "2026-11-12T09:34:12+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "d0d1e787c8ad0852": {
+      "source": "The Age",
+      "title": "Minister likely struck deal with CFMEU on complaint line: ex-bureaucrat",
+      "published": "2026-11-12T09:34:12+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "49bb279e204a44e0"
+    },
+    "ba930813934282b3": {
+      "source": "SMH",
+      "title": "Cataloguing the core issues",
+      "published": "2026-11-12T10:00:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "e6d698cbb18d02f3": {
+      "source": "The Age",
+      "title": "Cataloguing the core issues",
+      "published": "2026-11-12T10:00:00+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "cfa859a0d4778448": {
+      "source": "SMH",
+      "title": "Mayoral hopefuls call for culture fixes after claims of toxicity, bullying",
+      "published": "2026-11-12T10:10:06+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "5e836bb4c996c27f": {
+      "source": "The Age",
+      "title": "Mayoral hopefuls call for culture fixes after claims of toxicity, bullying",
+      "published": "2026-11-12T10:10:06+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "cfa859a0d4778448"
+    },
+    "c0b3182339dbd49e": {
+      "source": "SMH",
+      "title": "Personal information may have been accessed in data breach at government provider",
+      "published": "2026-11-12T10:23:16+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "56f9c6f3a9180bb7": {
+      "source": "The Age",
+      "title": "Personal information may have been accessed in data breach at government provider",
+      "published": "2026-11-12T10:23:16+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "c0b3182339dbd49e"
+    },
+    "a26c1cc5da225215": {
+      "source": "SMH",
+      "title": "Double murder inquest hears killer groomed police officers",
+      "published": "2026-11-12T10:26:56+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "1a74d229f86d0f6a": {
+      "source": "The Age",
+      "title": "Double murder inquest hears killer groomed police officers",
+      "published": "2026-11-12T10:26:56+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "a26c1cc5da225215"
+    },
+    "1c18da449c007c75": {
+      "source": "SMH",
+      "title": "Mum and son praised for alleged ambush bravery",
+      "published": "2026-11-12T10:27:08+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "1d688dccf77a549a": {
+      "source": "The Age",
+      "title": "Mum and son praised for alleged ambush bravery",
+      "published": "2026-11-12T10:27:08+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "1c18da449c007c75"
+    },
+    "7419027980100410": {
+      "source": "SMH",
+      "title": "Over 80 million to be spent on growing Australia's workforce to deliver AUKUS",
+      "published": "2026-11-12T10:31:56+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "ee633473b57f1b1f": {
+      "source": "The Age",
+      "title": "Over 80 million to be spent on growing Australia's workforce to deliver AUKUS",
+      "published": "2026-11-12T10:31:56+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "7419027980100410"
+    },
+    "9b5db1de563edf08": {
+      "source": "ABC News",
+      "title": "Floreat gunman inadvertently recorded himself during shooting, inquest hears",
+      "published": "2026-11-12T10:32:49+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "84660ca211305c7d": {
+      "source": "SMH",
+      "title": "\u2018Even a snail would agree\u2019: Greta Thunberg slams Australia\u2019s net zero pace",
+      "published": "2026-11-12T10:40:31+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "ecd2506514b5fb50": {
+      "source": "The Age",
+      "title": "\u2018Even a snail would agree\u2019: Greta Thunberg slams Australia\u2019s net zero pace",
+      "published": "2026-11-12T10:40:31+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "84660ca211305c7d"
+    },
+    "9d7abfc9d3b08891": {
+      "source": "SMH",
+      "title": "Best of cartoons, November 13, 2026",
+      "published": "2026-11-12T10:54:52+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "acde13a0ecaeda75": {
+      "source": "The Age",
+      "title": "Best of cartoons, November 13, 2026",
+      "published": "2026-11-12T10:54:52+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "9d7abfc9d3b08891"
+    },
+    "86c04ff413aa32b5": {
+      "source": "ABC News",
+      "title": "Carrick sacked as Manchester United manager after horror run",
+      "published": "2026-11-12T11:38:20+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "f0e26c5053613ecd": {
+      "source": "SMH",
+      "title": "Death toll rises to five after New York apartment block collapse",
+      "published": "2026-11-12T11:52:49+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia"
+    },
+    "069055a6dd357c30": {
+      "source": "The Age",
+      "title": "Death toll rises to five after New York apartment block collapse",
+      "published": "2026-11-12T11:52:49+00:00",
+      "first_seen": "2026-11-12T22:11:42.837702+10:00",
+      "category": "australia",
+      "duplicate_of": "f0e26c5053613ecd"
+    },
+    "abb676dd9776cd3a": {
+      "source": "New Scientist",
+      "title": "British Iron Age \u2018king\u2019 who prompted Roman invasion was probably a woman",
+      "published": "2026-11-05T00:00:00+00:00",
+      "first_seen": "2026-11-12T22:11:44.899523+10:00",
+      "category": "archaeology"
+    },
+    "63cf13d61d581050": {
+      "source": "New Scientist",
+      "title": "Stunning collection of prehistoric engravings found in Spanish cave",
+      "published": "2026-11-05T00:01:00+00:00",
+      "first_seen": "2026-11-12T22:11:44.899523+10:00",
+      "category": "archaeology"
+    },
+    "c79ff241da5956a6": {
+      "source": "Nature",
+      "title": "Daily briefing: Should old, bad science be culled from the literature?",
+      "published": "2026-11-11T00:00:00+00:00",
+      "first_seen": "2026-11-12T22:11:44.899523+10:00",
+      "category": "archaeology"
+    },
+    "cc82c3e6a2628bbe": {
+      "source": "Kicker",
+      "title": "Wer \u00fcbertr\u00e4gt Italien gegen Frankreich heute live im TV & Stream?",
+      "published": "2026-11-12T05:30:00+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "352edbb316eea9fb": {
+      "source": "Kicker",
+      "title": "Mit 59:1 Toren und \"kleinem R\u00fcffel\": Popp vor erstem Revierderby",
+      "published": "2026-11-12T05:33:07+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "03080df985516007": {
+      "source": "Kicker",
+      "title": "Deshalb ist ter Stegen Klopps Nummer 1",
+      "published": "2026-11-12T05:44:13+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "064fac232b11f9c8": {
+      "source": "Kicker",
+      "title": "Sonderlob vom \"Special One\": Jovic bl\u00fcht wieder auf - auch gegen den DFB?",
+      "published": "2026-11-12T06:47:43+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "20e91494d42b8ebf": {
+      "source": "Kicker",
+      "title": "\"Wir sind J\u00e4ger\": Siegen wittert die F\u00e4hrte zur Spitze",
+      "published": "2026-11-12T08:21:26+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "b163703a1fe2504b": {
+      "source": "Kicker",
+      "title": "Beste Abwehr der Liga hat ihren Preis: K\u00f6rner sieht den BFC noch nicht als Titelkandidaten",
+      "published": "2026-11-12T08:22:34+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "b32c79bbc14ec446": {
+      "source": "Kicker",
+      "title": "Besonderes Wiedersehen: Esswein warnt den VfR vor Sandhausens \"individueller Klasse\"",
+      "published": "2026-11-12T08:23:17+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "fd6a429adb2856ab": {
+      "source": "Kicker",
+      "title": "Oldenburg muss im Topspiel umbauen: Wer ersetzt Otto auf der 6?",
+      "published": "2026-11-12T08:45:45+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "74151532a22fdc85": {
+      "source": "Kicker",
+      "title": "Nachholspiel zwischen SCP II und Bochum II: Wer distanziert sich vom Keller?",
+      "published": "2026-11-12T08:54:57+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "590010068e6ed171": {
+      "source": "Kicker",
+      "title": "Klopp streicht Mohya aus Aufgebot gegen Serbien",
+      "published": "2026-11-12T09:13:57+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "46cd59b1c0c02f0e": {
+      "source": "Kicker",
+      "title": "V\u00f6ller st\u00e4rkt Musiala: \"Kein Grund, skeptisch zu sein\"",
+      "published": "2026-11-12T09:27:13+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "91666079118cb0cf": {
+      "source": "Kicker",
+      "title": "Gegen den HSV: Pantelic und das Meisterwerk der Provokation",
+      "published": "2026-11-12T09:49:00+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "7c285a7e021608ee": {
+      "source": "Kicker",
+      "title": "F\u00fcrths Fahrplan f\u00fcr die Umbenennung",
+      "published": "2026-11-12T10:32:14+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "fcc2967bceeae667": {
+      "source": "Kicker",
+      "title": "Talfahrt mit Folgen: ManUnited trennt sich von Trainer Carrick",
+      "published": "2026-11-12T10:37:59+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "87472c210bb28a13": {
+      "source": "Kicker",
+      "title": "Nach Kreuzbandriss: Scherder feiert umjubeltes Comeback",
+      "published": "2026-11-12T10:47:56+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "ef9e57ab7a52d4d0": {
+      "source": "Kicker",
+      "title": "\"Das ist ein Novum\": Lauterns Rekordj\u00e4ger und das gute Omen von 1997",
+      "published": "2026-11-12T10:57:21+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "2fcb312f32c3f3ea": {
+      "source": "Kicker",
+      "title": "Brisante Olympia-Auslosung: Nordkorea trifft auf S\u00fcdkorea",
+      "published": "2026-11-12T11:15:00+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "0c452c523c991f6e": {
+      "source": "Kicker",
+      "title": "Kade, K\u00f6m\u00fcr und Co.: Die Jugend im FCA-Kader entwickelt sich international",
+      "published": "2026-11-12T11:42:16+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
+    },
+    "53c717259b79632c": {
+      "source": "Kicker",
+      "title": "Coup f\u00fcr Gro\u00dfaspach: \u00d6ztunali wechselt in die 3. Liga",
+      "published": "2026-11-12T11:53:00+00:00",
+      "first_seen": "2026-11-12T22:11:48.471607+10:00",
+      "category": "football"
     }
   }
 }

@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-12T18:29:39.548505+00:00",
+  "last_gdelt_attempt": "2026-11-12T20:33:51.906420+00:00",
   "article_store": {
     "3322d22b56a2991a": {
       "source": "Al Jazeera",
@@ -21532,6 +21532,132 @@
       "title": "Al Jazeera reports from Gaza hospital attacked by Israel",
       "published": "2026-11-12T18:03:02+00:00",
       "first_seen": "2026-11-13T04:30:00.806006+10:00",
+      "category": "breaking"
+    },
+    "9a6e536266b704a0": {
+      "source": "BBC News",
+      "title": "Can Burnham avoid another Labour welfare rebellion?",
+      "published": "2026-11-12T18:21:38+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "b9cf61e1d4af4f82": {
+      "source": "Al Jazeera",
+      "title": "What to know about the Logan Circle shooting in Washington, DC",
+      "published": "2026-11-12T18:22:04+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "e4f29631440095ce": {
+      "source": "Al Jazeera",
+      "title": "Home sales in the US are at their lowest level since 2016",
+      "published": "2026-11-12T18:26:28+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "dd851460b4fa4b4d": {
+      "source": "BBC News",
+      "title": "'How does a building just fall?' Neighbours grieve after deadly Brooklyn building collapse",
+      "published": "2026-11-12T18:36:15+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "21003e8750d67905": {
+      "source": "Al Jazeera",
+      "title": "Pro-Palestine philanthropist faces US extradition hearing in Spain",
+      "published": "2026-11-12T18:41:40+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "567332351478c61f": {
+      "source": "Al Jazeera",
+      "title": "UK mosque rebukes comission\u2019s \u2018warning\u2019 following Palestine comments",
+      "published": "2026-11-12T18:58:49+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "d936307ba6df0336": {
+      "source": "BBC News",
+      "title": "Duran Duran drummer quits band due to tinnitus",
+      "published": "2026-11-12T19:00:15+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "84f9571cde60ac2f": {
+      "source": "BBC News",
+      "title": "What we know about Brooklyn building collapse that killed eight people",
+      "published": "2026-11-12T19:09:25+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "77047370de9e8a84": {
+      "source": "Al Jazeera",
+      "title": "Senegal\u2019s wrestlers turn tradition into gold at Dakar Youth Olympics",
+      "published": "2026-11-12T19:32:25+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "f7452bab6a474c61": {
+      "source": "Al Jazeera",
+      "title": "Iranian men guilty of spying on British journalists",
+      "published": "2026-11-12T19:38:33+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "97238466f698afcc": {
+      "source": "Al Jazeera",
+      "title": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
+      "published": "2026-11-12T19:45:40+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "11e737a632117024": {
+      "source": "Al Jazeera",
+      "title": "US nonprofits sue tech giants to halt AI development",
+      "published": "2026-11-12T19:55:02+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "e6b794c851501aa0": {
+      "source": "Al Jazeera",
+      "title": "Palestinian baby dies from cold in Gaza amid Israeli restrictions on aid",
+      "published": "2026-11-12T19:56:26+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "8e8be77758f1ce4e": {
+      "source": "BBC News",
+      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+      "published": "2026-11-12T20:09:16+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "37d928bb1cefc126": {
+      "source": "Al Jazeera",
+      "title": "Democrats gather in Denver to debate party\u2019s future after US midterm wins",
+      "published": "2026-11-12T20:10:31+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "cd8a483f7a0bf5e1": {
+      "source": "Al Jazeera",
+      "title": "Regional security dominates European talks in Dublin amid hybrid attacks",
+      "published": "2026-11-12T20:12:21+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "55d67f563b5e8eb6": {
+      "source": "Al Jazeera",
+      "title": "Qatar Under-17 World Cup is on despite US pull out",
+      "published": "2026-11-12T20:15:47+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
+      "category": "breaking"
+    },
+    "84134bf97cb95663": {
+      "source": "BBC News",
+      "title": "Microsoft users report outages amid tech giant 'connectivity issues'",
+      "published": "2026-11-12T20:25:29+00:00",
+      "first_seen": "2026-11-13T06:34:16.751644+10:00",
       "category": "breaking"
     }
   }

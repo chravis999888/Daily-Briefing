@@ -2089,57 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-12T20:33:51.906420+00:00",
+  "last_gdelt_attempt": "2026-11-12T23:49:27.211529+00:00",
   "article_store": {
-    "c7d2b9b9116e42f3": {
-      "source": "Al Jazeera",
-      "title": "Hoax bomb threats force emergency landings, evacuations across Europe",
-      "published": "2026-11-05T21:26:21+00:00",
-      "first_seen": "2026-11-06T08:32:35.148301+10:00",
-      "category": "breaking"
-    },
-    "0de762b0b4572a23": {
-      "source": "Al Jazeera",
-      "title": "Israeli demolitions displace more than 100 Palestinians in Biddu",
-      "published": "2026-11-05T21:33:40+00:00",
-      "first_seen": "2026-11-06T08:32:35.148301+10:00",
-      "category": "breaking"
-    },
-    "60b96da2bd9fa165": {
-      "source": "Al Jazeera",
-      "title": "Spanish footballer Jesus de Miguel mourned by family and friends",
-      "published": "2026-11-05T21:42:30+00:00",
-      "first_seen": "2026-11-06T08:32:35.148301+10:00",
-      "category": "breaking"
-    },
-    "30dc79f7cea16241": {
-      "source": "Al Jazeera",
-      "title": "South Africa\u2019s ANC on track for new lows in local polls",
-      "published": "2026-11-05T21:48:16+00:00",
-      "first_seen": "2026-11-06T08:32:35.148301+10:00",
-      "category": "breaking"
-    },
-    "8d135c45d30ce6c4": {
-      "source": "Al Jazeera",
-      "title": "Generation Z and diversity redefine US politics in groundbreaking election",
-      "published": "2026-11-05T21:49:31+00:00",
-      "first_seen": "2026-11-06T08:32:35.148301+10:00",
-      "category": "breaking"
-    },
-    "66ef1034f0a57506": {
-      "source": "BBC News",
-      "title": "King relishes 'politically charged' deployments, Palace aide says",
-      "published": "2026-11-05T22:04:44+00:00",
-      "first_seen": "2026-11-06T08:32:35.148301+10:00",
-      "category": "breaking"
-    },
-    "1a84884e99c7b143": {
-      "source": "BBC News",
-      "title": "Police car set alight in Glasgow amid Bonfire Night trouble",
-      "published": "2026-11-05T23:15:08+00:00",
-      "first_seen": "2026-11-06T09:46:47.842645+10:00",
-      "category": "breaking"
-    },
     "ca5a231c35bd07c9": {
       "source": "BBC News",
       "title": "Firms told to publish salaries in job adverts ahead of new law",
@@ -21517,6 +21468,34 @@
       "published": "2026-11-12T21:17:06+00:00",
       "first_seen": "2026-11-13T07:18:23.966737+10:00",
       "category": "football"
+    },
+    "c31db7c0acefaff5": {
+      "source": "Al Jazeera",
+      "title": "Deadly shooting in Washington DC",
+      "published": "2026-11-12T21:18:24+00:00",
+      "first_seen": "2026-11-13T09:49:51.199922+10:00",
+      "category": "breaking"
+    },
+    "3d1085d6710890b3": {
+      "source": "Al Jazeera",
+      "title": "Italy fight back to beat France 3-1 and move top of Nations League group",
+      "published": "2026-11-12T22:12:32+00:00",
+      "first_seen": "2026-11-13T09:49:51.199922+10:00",
+      "category": "breaking"
+    },
+    "b971924ad343ed66": {
+      "source": "Al Jazeera",
+      "title": "Russian court jails rights lawyer for 12 years on treason charge",
+      "published": "2026-11-12T23:18:50+00:00",
+      "first_seen": "2026-11-13T09:49:51.199922+10:00",
+      "category": "breaking"
+    },
+    "ca3a29db9a37ffb1": {
+      "source": "BBC News",
+      "title": "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+      "published": "2026-11-12T23:34:05+00:00",
+      "first_seen": "2026-11-13T09:49:51.199922+10:00",
+      "category": "breaking"
     }
   }
 }

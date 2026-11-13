@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-13T16:39:31.487285+00:00",
+  "last_gdelt_attempt": "2026-11-13T19:13:27.825190+00:00",
   "article_store": {
     "1d2f4ee0d1050f42": {
       "source": "BBC News",
@@ -21117,6 +21117,635 @@
       "published": "2026-11-13T17:55:05+00:00",
       "first_seen": "2026-11-14T04:18:10.185230+10:00",
       "category": "breaking"
+    },
+    "5c72f80bff0030af": {
+      "source": "Al Jazeera",
+      "title": "Eisenkot slams Netanyahu\u2019s \u2018racist\u2019 campaign against Palestinian Israelis",
+      "published": "2026-11-13T18:04:22+00:00",
+      "first_seen": "2026-11-14T05:13:49.885176+10:00",
+      "category": "breaking"
+    },
+    "71c7be67a1fe0eec": {
+      "source": "Al Jazeera",
+      "title": "Iran honours fallen soldiers in Iran-Iraq war with missile display",
+      "published": "2026-11-13T18:09:05+00:00",
+      "first_seen": "2026-11-14T05:13:49.885176+10:00",
+      "category": "breaking"
+    },
+    "f79accd039f4cb9c": {
+      "source": "Al Jazeera",
+      "title": "Israel bars supplies needed to treat six-year-old Gaza burn victim",
+      "published": "2026-11-13T18:28:03+00:00",
+      "first_seen": "2026-11-14T05:13:49.885176+10:00",
+      "category": "breaking"
+    },
+    "841377b7806ac5ec": {
+      "source": "BBC News",
+      "title": "The Peruvian city that has embraced Pope Leo as one of its own",
+      "published": "2026-11-13T18:34:45+00:00",
+      "first_seen": "2026-11-14T05:13:49.885176+10:00",
+      "category": "breaking"
+    },
+    "1f3f767446b0f956": {
+      "source": "Al Jazeera",
+      "title": "At least 10 killed in Guinea in crackdown on gold mining",
+      "published": "2026-11-13T18:44:45+00:00",
+      "first_seen": "2026-11-14T05:13:49.885176+10:00",
+      "category": "breaking"
+    },
+    "1eb0eaa2c64979d1": {
+      "source": "Al Jazeera",
+      "title": "How will the US deal with Nvidia scandal?",
+      "published": "2026-11-13T18:57:43+00:00",
+      "first_seen": "2026-11-14T05:13:49.885176+10:00",
+      "category": "breaking"
+    },
+    "ea103ecfec5a243e": {
+      "source": "BBC News",
+      "title": "Eurovision is finally coming to Asia - meet the stars gearing up to take the stage",
+      "published": "2026-11-13T19:01:36+00:00",
+      "first_seen": "2026-11-14T05:13:49.885176+10:00",
+      "category": "breaking"
+    },
+    "3c408bc401cff8b6": {
+      "source": "ABC News",
+      "title": "UK police launch investigation into children's author David Walliams",
+      "published": "2026-11-13T16:20:15+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "cc6bada3596a9b47": {
+      "source": "ABC News",
+      "title": "Six more women accuse Russell Brand of sexual offences",
+      "published": "2026-11-13T16:59:33+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "870439eea12eb9e2": {
+      "source": "ABC News",
+      "title": "Registered psychologist accused of recruiting for Universal Medicine cult",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "9932b4db38502a79": {
+      "source": "ABC News",
+      "title": "Albanese's salad days have wilted into a long list of woe",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "725f5e7f87770a0b": {
+      "source": "ABC News",
+      "title": "As the world's calamities converge climate talks tread water",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "a346d6df90bde4fa": {
+      "source": "ABC News",
+      "title": "Why you will pay for Jensen Huang's indiscretions",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "8dcc69b65f86e1d4": {
+      "source": "ABC News",
+      "title": "Australia must develop digital resilience, experts warn, but it will cost",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "216bb2a9a831cb5a": {
+      "source": "SMH",
+      "title": "Too many boundaries are behind the \u2018sex recession\u2019, warns Esther Perel",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "b9f8c00f982dc2a3": {
+      "source": "SMH",
+      "title": "\u2018No, no, no, no, no!\u2019: Teeks answers the question I couldn\u2019t resist asking",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "fbb31726ae5bbd71": {
+      "source": "SMH",
+      "title": "I spotted head lice crawling on a fellow train passenger. Should I have said something?",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "1f68eaafcef65e15": {
+      "source": "SMH",
+      "title": "Matt dug in Patagonia. He made a priceless discovery about Earth\u2019s biggest creatures",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "d3e4adca94fcead3": {
+      "source": "SMH",
+      "title": "World\u2019s best airline? Not in the economy cabin",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "9c9a27fd84ddc43f": {
+      "source": "SMH",
+      "title": "Angkor Wat may be Cambodia\u2019s greatest drawcard, but these unexpected corners charmed me more",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "3578cf615fb2b9b1": {
+      "source": "SMH",
+      "title": "The Aussies taking NYC\u2019s coolest bar to London\u2019s most glam hotel",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "d1673c031fbab164": {
+      "source": "SMH",
+      "title": "Surveilled, scared and broke: How Emily\u2019s ex is ruining her life through the Family Court",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "0f6b5c9fea4e4fd1": {
+      "source": "SMH",
+      "title": "Lies, secrets and shattered friendships: Inside cricket\u2019s darkest scandal",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "7f05804d12377abb": {
+      "source": "SMH",
+      "title": "Everything I ate over three days in Malta",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "50e09ddc67ded110": {
+      "source": "SMH",
+      "title": "Affordable housing boss sells clifftop mansion \u2018in the high $20 millions\u2019",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "7a6ce7da3afa48d3": {
+      "source": "SMH",
+      "title": "\u2018It\u2019s pretty scary\u2019: This 23-year-old is one of the game\u2019s best, but we haven\u2019t seen anything yet",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "30a5bd64de55d4cb": {
+      "source": "SMH",
+      "title": "Who is Stephen Miller? The \u2018wartime consigliere\u2019 now running Trump\u2019s White House",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "d742fd95db38ea3f": {
+      "source": "SMH",
+      "title": "How many Victorian home sellers hope for more money than the price guide",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "35183ddd411a2ced": {
+      "source": "The Age",
+      "title": "Too many boundaries are behind the \u2018sex recession\u2019, warns Esther Perel",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "216bb2a9a831cb5a"
+    },
+    "a6f56314029aeb15": {
+      "source": "The Age",
+      "title": "\u2018No, no, no, no, no!\u2019: Teeks answers the question I couldn\u2019t resist asking",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "b9f8c00f982dc2a3"
+    },
+    "00414176fa2da2e0": {
+      "source": "The Age",
+      "title": "I spotted head lice crawling on a fellow train passenger. Should I have said something?",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "fbb31726ae5bbd71"
+    },
+    "b800b192d2b5b32f": {
+      "source": "The Age",
+      "title": "Matt dug in Patagonia. He made a priceless discovery about Earth\u2019s biggest creatures",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "1f68eaafcef65e15"
+    },
+    "03772a865eaffb16": {
+      "source": "The Age",
+      "title": "World\u2019s best airline? Not in the economy cabin",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "d3e4adca94fcead3"
+    },
+    "b4210989f43e1819": {
+      "source": "The Age",
+      "title": "Angkor Wat may be Cambodia\u2019s greatest drawcard, but these unexpected corners charmed me more",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "9c9a27fd84ddc43f"
+    },
+    "5b7ac6e8b2c025e2": {
+      "source": "The Age",
+      "title": "The Aussies taking NYC\u2019s coolest bar to London\u2019s most glam hotel",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "3578cf615fb2b9b1"
+    },
+    "c55350e8e9b7d0ec": {
+      "source": "The Age",
+      "title": "Surveilled, scared and broke: How Emily\u2019s ex is ruining her life through the Family Court",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "d1673c031fbab164"
+    },
+    "c64fffc65624b59b": {
+      "source": "The Age",
+      "title": "Lies, secrets and shattered friendships: Inside cricket\u2019s darkest scandal",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "0f6b5c9fea4e4fd1"
+    },
+    "119ec8aeefc8dc44": {
+      "source": "The Age",
+      "title": "Everything I ate over three days in Malta",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "7f05804d12377abb"
+    },
+    "7f2aaf81098e1e4b": {
+      "source": "The Age",
+      "title": "Affordable housing boss sells clifftop mansion \u2018in the high $20 millions\u2019",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "50e09ddc67ded110"
+    },
+    "b4a3366f3551af6a": {
+      "source": "The Age",
+      "title": "\u2018It\u2019s pretty scary\u2019: This 23-year-old is one of the game\u2019s best, but we haven\u2019t seen anything yet",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "7a6ce7da3afa48d3"
+    },
+    "c07fca539c9d228f": {
+      "source": "The Age",
+      "title": "Who is Stephen Miller? The \u2018wartime consigliere\u2019 now running Trump\u2019s White House",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "30a5bd64de55d4cb"
+    },
+    "a865802e73e7ca92": {
+      "source": "The Age",
+      "title": "How many Victorian home sellers hope for more money than the price guide",
+      "published": "2026-11-13T18:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "d742fd95db38ea3f"
+    },
+    "5e5c0b20fc5aa71d": {
+      "source": "SMH",
+      "title": "The two debt traps to avoid this Christmas \u2013 and what to do instead",
+      "published": "2026-11-13T18:01:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "cdd0538ef7b95470": {
+      "source": "The Age",
+      "title": "The two debt traps to avoid this Christmas \u2013 and what to do instead",
+      "published": "2026-11-13T18:01:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "5e5c0b20fc5aa71d"
+    },
+    "0856c5342510ab06": {
+      "source": "SMH",
+      "title": "Your retirement savings shouldn\u2019t be someone else\u2019s sales target",
+      "published": "2026-11-13T18:05:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "1f5b1d757ff6f411": {
+      "source": "The Age",
+      "title": "Your retirement savings shouldn\u2019t be someone else\u2019s sales target",
+      "published": "2026-11-13T18:05:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "0856c5342510ab06"
+    },
+    "a4c325cf2d1d02fe": {
+      "source": "ABC News",
+      "title": "The must-see artworks at the Clarice Beckett exhibition",
+      "published": "2026-11-13T18:30:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "25674f039761cb1d": {
+      "source": "ABC News",
+      "title": "Boots Riley is ready for the working class to rise up",
+      "published": "2026-11-13T18:30:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "45144c77530554aa": {
+      "source": "ABC News",
+      "title": "ABC 50/50 quiz: Testing your knowledge of 90s Aussie bands and cat people vs dog people",
+      "published": "2026-11-13T18:30:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "8415fd4b1c73cd1d": {
+      "source": "SMH",
+      "title": "Kate Atkinson\u2019s new novel shouldn\u2019t work. Somehow it does",
+      "published": "2026-11-13T18:30:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "c685453f8f10e685": {
+      "source": "SMH",
+      "title": "I worked part-time at David Jones. I know exactly why the business failed",
+      "published": "2026-11-13T18:30:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "cde795c00433cff2": {
+      "source": "The Age",
+      "title": "Kate Atkinson\u2019s new novel shouldn\u2019t work. Somehow it does",
+      "published": "2026-11-13T18:30:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "8415fd4b1c73cd1d"
+    },
+    "d3962b4ca0c4f81c": {
+      "source": "The Age",
+      "title": "I worked part-time at David Jones. I know exactly why the business failed",
+      "published": "2026-11-13T18:30:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "c685453f8f10e685"
+    },
+    "1ec5c9a56e43de7d": {
+      "source": "SMH",
+      "title": "Socceroos take another positive step with 3-0 rout of defending Asian champions",
+      "published": "2026-11-13T18:39:49+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "683c3cf9fa582e75": {
+      "source": "The Age",
+      "title": "Socceroos take another positive step with 3-0 rout of defending Asian champions",
+      "published": "2026-11-13T18:39:49+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "1ec5c9a56e43de7d"
+    },
+    "384cc022b356371d": {
+      "source": "SMH",
+      "title": "The bikie boss, the $800,000 Ferrari and an $18 million Brighton mansion",
+      "published": "2026-11-13T18:50:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "f40789eb29def673": {
+      "source": "The Age",
+      "title": "The bikie boss, the $800,000 Ferrari and an $18 million Brighton mansion",
+      "published": "2026-11-13T18:50:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia",
+      "duplicate_of": "384cc022b356371d"
+    },
+    "49dcf11ee3b92169": {
+      "source": "ABC News",
+      "title": "Homes with architectural designs that cost just $1 near completion",
+      "published": "2026-11-13T19:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:50.736949+10:00",
+      "category": "australia"
+    },
+    "564512d7c71f6d52": {
+      "source": "PhysOrg",
+      "title": "Evolutionary history and genetic basis of spruce diversification revealed",
+      "published": "2026-11-06T17:00:01+00:00",
+      "first_seen": "2026-11-14T05:13:53.781533+10:00",
+      "category": "archaeology"
+    },
+    "4269570b5b222d14": {
+      "source": "Nature",
+      "title": "Chinese graduate students are now choosing to stay closer to home",
+      "published": "2026-11-13T00:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:53.781533+10:00",
+      "category": "archaeology"
+    },
+    "c14501f812e6f2f2": {
+      "source": "Nature",
+      "title": "This AI \u2018mechanic\u2019 can peer inside the black box of other neural networks",
+      "published": "2026-11-13T00:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:53.781533+10:00",
+      "category": "archaeology"
+    },
+    "02790cf29dbe4c52": {
+      "source": "Nature",
+      "title": "Is the climate totally cooked? What the data say",
+      "published": "2026-11-13T00:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:53.781533+10:00",
+      "category": "archaeology"
+    },
+    "b88246a6cc6758f5": {
+      "source": "PhysOrg",
+      "title": "Fish prove every pregnancy is a battle: Unexpected evidence for the food fight between mothers and babies",
+      "published": "2026-11-13T15:40:05+00:00",
+      "first_seen": "2026-11-14T05:13:53.781533+10:00",
+      "category": "archaeology"
+    },
+    "542c3ca378b2dcc6": {
+      "source": "PhysOrg",
+      "title": "Colorful fish reveal how species stay distinct despite interbreeding",
+      "published": "2026-11-13T17:20:06+00:00",
+      "first_seen": "2026-11-14T05:13:53.781533+10:00",
+      "category": "archaeology"
+    },
+    "e54ea357091c2903": {
+      "source": "PhysOrg",
+      "title": "Evolution found another way to build a primate brain",
+      "published": "2026-11-13T19:00:09+00:00",
+      "first_seen": "2026-11-14T05:13:53.781533+10:00",
+      "category": "archaeology"
+    },
+    "7c6d3fe2e523fadb": {
+      "source": "Marca",
+      "title": "Terzic tira de De Marcos para encarar la visita de este s\u00e1bado a Osasuna",
+      "published": "2026-11-06T14:05:14+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "a446b5273855efb5": {
+      "source": "Marca",
+      "title": "LaLiga adelanta al 2 de diciembre el Bar\u00e7a-Atl\u00e9tico y el Real Sociedad-Real Madrid",
+      "published": "2026-11-06T15:53:39+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "15bfed0ca07be0eb": {
+      "source": "Marca",
+      "title": "Horarios de la jornada 14 en Primera: Real Madrid-Alav\u00e9s en s\u00e1bado y Depor-Bar\u00e7a el domingo",
+      "published": "2026-11-06T15:54:23+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "df77a2b9cc34042d": {
+      "source": "Kicker",
+      "title": "Schock in Heidenheim: F\u00f6hrenbach f\u00e4llt nach Schienbeinbruch lange aus",
+      "published": "2026-11-13T12:53:19+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "a6ed23f2792891f3": {
+      "source": "Kicker",
+      "title": "Reaktion auf Kritik: BVB verl\u00e4ngert Rheinmetall-Vertrag nicht",
+      "published": "2026-11-13T12:53:57+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "2bd2346345d81ce5": {
+      "source": "Kicker",
+      "title": "Frey-Nachfolge gekl\u00e4rt: Hintermaier und Elsner \u00fcbernehmen die NLZ-Leitung beim FCN",
+      "published": "2026-11-13T12:56:38+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "707e4922af9defb1": {
+      "source": "Kicker",
+      "title": "Wer steigt auf? Wer steigt ab? Der Tabellenrechner zur 2. Liga",
+      "published": "2026-11-13T12:58:58+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "73bcebb20fc57612": {
+      "source": "Kicker",
+      "title": "Hecking best\u00e4tigt: Wolfsburger \"Leistungszentrum f\u00fcr die Frauen kommt\"",
+      "published": "2026-11-13T13:05:02+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "f4472175527418fb": {
+      "source": "Kicker",
+      "title": "Wer ist eigentlich Tom Ritzy H\u00fclsmann?",
+      "published": "2026-11-13T14:05:56+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "657045cd3a72cd29": {
+      "source": "Kicker",
+      "title": "\"Immer schon sehr bescheiden\": Modric schw\u00e4rmt von Kane",
+      "published": "2026-11-13T14:33:54+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "d48471c07bffb5b6": {
+      "source": "Kicker",
+      "title": "\"Jede Serie geht irgendwann zu Ende\": So will Lerch die Bayern stoppen",
+      "published": "2026-11-13T14:53:23+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "ee62603bcb121dde": {
+      "source": "Kicker",
+      "title": "Edeltechniker mit Option Gr\u00e4tsche: Roggow will zweite Chance bei 96 nutzen",
+      "published": "2026-11-13T15:59:19+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "99b37fa599da06ef": {
+      "source": "Kicker",
+      "title": "Klublegende, Pechvogel - Helfer in der Not? Wie M\u00fcnster mit Scherder nach R\u00fcckkehr plant",
+      "published": "2026-11-13T16:00:21+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "37a536aa5bcb7195": {
+      "source": "Kicker",
+      "title": "Alle mit der 7 und ein leeres Zimmer 201: Portugal ehrt Cristiano Ronaldo",
+      "published": "2026-11-13T16:39:28+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "1ecfa6f15698d632": {
+      "source": "Kicker",
+      "title": "Kramer und H\u00f6wedes schw\u00e4rmen von Klopp: \"Kann mich identifizieren\"",
+      "published": "2026-11-13T16:47:01+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "402c9c48c7dadda7": {
+      "source": "Kicker",
+      "title": "LIVE!-Blog zum Serbien-Spiel: Brisanz, Nummer und das fehlende St\u00fcrmertor",
+      "published": "2026-11-13T17:00:00+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "4746698a67383d4e": {
+      "source": "Kicker",
+      "title": "Unter Tr\u00e4nen: Pochettino verabschiedet sich vom US-Team",
+      "published": "2026-11-13T17:05:24+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "0b5d5df62fbe33c6": {
+      "source": "Kicker",
+      "title": "FIFA gibt Datum f\u00fcr Ticket-Vorverkauf der Frauen-WM bekannt",
+      "published": "2026-11-13T17:38:31+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "52afdac41ae96734": {
+      "source": "Kicker",
+      "title": "LIVE! DFB-Gegner im Duell: Niederlande empfangen Griechenland",
+      "published": "2026-11-13T18:42:30+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "6e024ef73be9cb52": {
+      "source": "Kicker",
+      "title": "Damar clever und zweimal im Pech: Deutsche U 21 unterliegt Belgien",
+      "published": "2026-11-13T18:57:52+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "3a04e9d1199ebd1e": {
+      "source": "Kicker",
+      "title": "Deutsche Meisterin mit Potsdam: Olympiasiegerin Naeher macht Schluss",
+      "published": "2026-11-13T19:04:52+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
+    },
+    "0a6e37c0ae1797e1": {
+      "source": "Kicker",
+      "title": "LIVE! DFB-Elf unter Zugzwang: Klopp setzt auf Mittelst\u00e4dt und Thiaw - Deb\u00fct f\u00fcr Gruda",
+      "published": "2026-11-13T19:05:09+00:00",
+      "first_seen": "2026-11-14T05:13:58.650961+10:00",
+      "category": "football"
     }
   }
 }

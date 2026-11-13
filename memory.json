@@ -2091,27 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-11-13T10:22:11.299388+00:00",
   "article_store": {
-    "6b8d48fdb1d9be60": {
-      "source": "Al Jazeera",
-      "title": "Court grants ex-Malaysian PM Najib Razak house arrest after $12m royal pard",
-      "published": "2026-11-06T09:01:40+00:00",
-      "first_seen": "2026-11-06T20:26:06.929559+10:00",
-      "category": "breaking"
-    },
-    "f80f08f56de4ae37": {
-      "source": "BBC News",
-      "title": "Two boys charged over Halloween party stabbings",
-      "published": "2026-11-06T09:40:28+00:00",
-      "first_seen": "2026-11-06T20:26:06.929559+10:00",
-      "category": "breaking"
-    },
-    "4deb340df3a24346": {
-      "source": "BBC News",
-      "title": "RT\u00c9 buildings evacuated after bomb threat email",
-      "published": "2026-11-06T10:16:02+00:00",
-      "first_seen": "2026-11-06T20:26:06.929559+10:00",
-      "category": "breaking"
-    },
     "7fc6c9e2a16bf710": {
       "source": "Al Jazeera",
       "title": "\u2018We are here\u2019: Kurdish club Amedspor shakes up Turkish football",
@@ -21017,6 +20996,593 @@
       "published": "2026-11-13T09:59:20+00:00",
       "first_seen": "2026-11-13T20:22:35.216589+10:00",
       "category": "breaking"
+    },
+    "d007186a5091f2bc": {
+      "source": "BBC News",
+      "title": "My physical deformity left me feeling invisible - but one surgeon saw me",
+      "published": "2026-11-13T06:22:12+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "c4a970144003cc63": {
+      "source": "BBC News",
+      "title": "Boy died from multiple injuries in Cyprus hotel fall",
+      "published": "2026-11-13T10:05:50+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "0cb25a6d39d539f8": {
+      "source": "Al Jazeera",
+      "title": "Russia and Ukraine report overnight attacks amid US diplomatic push",
+      "published": "2026-11-13T10:11:38+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "37b42f3551c02a64": {
+      "source": "BBC News",
+      "title": "Man charged over multiple sex assaults at university",
+      "published": "2026-11-13T10:14:02+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "6b35801dd744fd3b": {
+      "source": "BBC News",
+      "title": "Watch: 'I feel it's a sign of what's to come' - office workers on Microsoft disruption",
+      "published": "2026-11-13T10:16:29+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "5d90762660f61d6e": {
+      "source": "Al Jazeera",
+      "title": "Why is Trump saying \u2018no deal necessary\u2019 with Iran as he sidelines JD Vance?",
+      "published": "2026-11-13T10:26:22+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "078c6f379a86f18b": {
+      "source": "Al Jazeera",
+      "title": "Henry and Young shine as New Zealand thrash India by 244 runs",
+      "published": "2026-11-13T10:26:37+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "693138603d035d6d": {
+      "source": "BBC News",
+      "title": "Water firm pleads guilty after four killed in blast",
+      "published": "2026-11-13T10:44:00+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "8ec3be04a5be1a15": {
+      "source": "Al Jazeera",
+      "title": "Iran threatens unlimited response over Strait of Hormuz after US attack",
+      "published": "2026-11-13T10:54:25+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "3287365332cedde1": {
+      "source": "Al Jazeera",
+      "title": "El Salvador deploys armed robots to fight gangs in Haiti",
+      "published": "2026-11-13T10:57:20+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "d64ff284a8d3087e": {
+      "source": "Al Jazeera",
+      "title": "Live: Microsoft struggles to restore services as outage hits global users",
+      "published": "2026-11-13T11:18:01+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "6210ea378d03aedd": {
+      "source": "BBC News",
+      "title": "Rosal\u00eda scoops historic third best album award at Latin Grammys",
+      "published": "2026-11-13T11:38:54+00:00",
+      "first_seen": "2026-11-13T21:52:00.280337+10:00",
+      "category": "breaking"
+    },
+    "907a82dfc4ce560d": {
+      "source": "ABC News",
+      "title": "Coal protest to go ahead on harbour after court rejects police objections",
+      "published": "2026-11-13T05:29:20+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "b0c3c5222988cbb4": {
+      "source": "ABC News",
+      "title": "Emergency services called to fatal workplace incident in Adelaide",
+      "published": "2026-11-13T05:45:32+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "ceaf9485aca3a8ce": {
+      "source": "ABC News",
+      "title": "AI data centres to self-administer funds in Tasmanian community deal",
+      "published": "2026-11-13T05:58:27+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "421dea737b18d582": {
+      "source": "ABC News",
+      "title": "Lamarre-Condon pressed on 'lies' in fiery end to cross-examination",
+      "published": "2026-11-13T05:59:19+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "ce25ea6e50a16a6e": {
+      "source": "ABC News",
+      "title": "Chief minister says 'we don't have to' consult elders on new build",
+      "published": "2026-11-13T05:59:57+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "12ec14c390d85975": {
+      "source": "ABC News",
+      "title": "'They absolutely destroy a cherry': Lorikeets wipe out Perth orchard",
+      "published": "2026-11-13T06:03:32+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "2bbda3f94ebb5c9e": {
+      "source": "ABC News",
+      "title": "Locusts wreaking havoc across South Australia's pastoral land",
+      "published": "2026-11-13T06:11:36+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "637e8d15e5989b4f": {
+      "source": "ABC News",
+      "title": "Tasmanian premier apologises for 'outcome' of Christmas post",
+      "published": "2026-11-13T06:12:17+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "d8bd35ec07383059": {
+      "source": "ABC News",
+      "title": "Ex-NSW Liberal MP guilty of raping 13yo boy",
+      "published": "2026-11-13T06:15:59+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "f6873f9b7098ac73": {
+      "source": "ABC News",
+      "title": "'Embarrassing' state of Indigenous rights must be addressed, UN expert says",
+      "published": "2026-11-13T06:37:06+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "c33fac1122e34df6": {
+      "source": "ABC News",
+      "title": "Teen sentenced for 'vicious' attack on woman sleeping rough",
+      "published": "2026-11-13T06:37:47+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "6944c40a8d8a82a5": {
+      "source": "ABC News",
+      "title": "How the Microsoft outage is affecting Australia",
+      "published": "2026-11-13T06:41:57+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "627823c390d1a8c2": {
+      "source": "ABC News",
+      "title": "Hung jury in trial of man accused of Busselton 'love triangle' murder",
+      "published": "2026-11-13T06:43:34+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "7a094173d65e774e": {
+      "source": "ABC News",
+      "title": "Man who burned shoebox of tax records fined for resulting bushfire",
+      "published": "2026-11-13T06:53:27+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "8dacfbd7b3528179": {
+      "source": "ABC News",
+      "title": "Australia's next fast bowling star blows England away on ODI debut",
+      "published": "2026-11-13T06:59:08+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "58f982d88d3f81ed": {
+      "source": "ABC News",
+      "title": "Accused killer allegedly used phone while he said he was sleeping, jury hears",
+      "published": "2026-11-13T07:15:39+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "5f0aa3f53168a27f": {
+      "source": "ABC News",
+      "title": "Teens committed to trial over alleged murder of Sunshine Coast soccer coach",
+      "published": "2026-11-13T07:27:14+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "665964d174697652": {
+      "source": "SMH",
+      "title": "Into the Woods review: What happens after happily ever after",
+      "published": "2026-11-13T08:02:26+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "3a4e2bd30f60f70d": {
+      "source": "SMH",
+      "title": "\u2018He was a ruthless manipulator\u2019: Floreat murderer\u2019s daughter addresses inquest",
+      "published": "2026-11-13T08:09:11+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "caf97996c5d40e10": {
+      "source": "The Age",
+      "title": "\u2018He was a ruthless manipulator\u2019: Floreat murderer\u2019s daughter addresses inquest",
+      "published": "2026-11-13T08:09:11+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "3a4e2bd30f60f70d"
+    },
+    "a55ae20dcba760ef": {
+      "source": "SMH",
+      "title": "Hall of shame: Jensen Huang joins the list of CEOs brought down by affairs",
+      "published": "2026-11-13T08:10:00+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "c483c59097103f91": {
+      "source": "The Age",
+      "title": "Hall of shame: Jensen Huang joins the list of CEOs brought down by affairs",
+      "published": "2026-11-13T08:10:00+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "a55ae20dcba760ef"
+    },
+    "c3301ba1e6ecd1c0": {
+      "source": "SMH",
+      "title": "Generation of Australian cricketers at war as sandpaper scars ripped open",
+      "published": "2026-11-13T08:14:45+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "4ec91306cc365f6f": {
+      "source": "The Age",
+      "title": "Generation of Australian cricketers at war as sandpaper scars ripped open",
+      "published": "2026-11-13T08:14:45+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "c3301ba1e6ecd1c0"
+    },
+    "c3ef97a39a7578cd": {
+      "source": "SMH",
+      "title": "William's mum speaks about son's miracle survival in the bush",
+      "published": "2026-11-13T08:16:34+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "4366cb9ad6b8de9a": {
+      "source": "The Age",
+      "title": "William's mum speaks about son's miracle survival in the bush",
+      "published": "2026-11-13T08:16:34+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "c3ef97a39a7578cd"
+    },
+    "2731a27eaf4b5f6c": {
+      "source": "SMH",
+      "title": "The soon-to-be Wallaby who turned Scotland down three times",
+      "published": "2026-11-13T08:20:00+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "acfde59ea977981a": {
+      "source": "The Age",
+      "title": "The soon-to-be Wallaby who turned Scotland down three times",
+      "published": "2026-11-13T08:20:00+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "2731a27eaf4b5f6c"
+    },
+    "a0e0e63326faaf2d": {
+      "source": "SMH",
+      "title": "Queensland homeless park shut down by government",
+      "published": "2026-11-13T08:37:00+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "c2f82594ac86b467": {
+      "source": "The Age",
+      "title": "Queensland homeless park shut down by government",
+      "published": "2026-11-13T08:37:00+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "a0e0e63326faaf2d"
+    },
+    "642729e03fe28b17": {
+      "source": "SMH",
+      "title": "Seven takeaways from one of Australian sport\u2019s most memorable press conferences",
+      "published": "2026-11-13T08:38:27+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "822e0c194ca498aa": {
+      "source": "The Age",
+      "title": "Seven takeaways from one of Australian sport\u2019s most memorable press conferences",
+      "published": "2026-11-13T08:38:27+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "642729e03fe28b17"
+    },
+    "b95f68e464d50600": {
+      "source": "SMH",
+      "title": "They sang about honouring their club\u2019s name then ordered strippers \u2018asap\u2019",
+      "published": "2026-11-13T08:42:57+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "0b2f9e0ca42b9daf": {
+      "source": "The Age",
+      "title": "They sang about honouring their club\u2019s name then ordered strippers \u2018asap\u2019",
+      "published": "2026-11-13T08:42:57+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "b95f68e464d50600"
+    },
+    "d7be7fe9c358e401": {
+      "source": "SMH",
+      "title": "Five of the best Sydney homes with facades we love",
+      "published": "2026-11-13T08:56:12+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "0fa6d0216c454678": {
+      "source": "The Age",
+      "title": "Five of the best Sydney homes with facades we love",
+      "published": "2026-11-13T08:56:12+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "d7be7fe9c358e401"
+    },
+    "9bdf782f4c747983": {
+      "source": "The Age",
+      "title": "Liberals would be irresponsible to preference Labor",
+      "published": "2026-11-13T09:00:00+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "1b58c5f29eca18c2": {
+      "source": "ABC News",
+      "title": "Prisoner who bolted from brother's funeral caught after months on the run",
+      "published": "2026-11-13T09:50:47+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "7f11dc9e44ac51c8": {
+      "source": "ABC News",
+      "title": "Floreat gunman's daughter condemns 'entitled' father intent on control",
+      "published": "2026-11-13T10:06:02+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "a6cd1ab000c6116d": {
+      "source": "SMH",
+      "title": "Wife of Perth double murderer breaks her silence",
+      "published": "2026-11-13T10:38:04+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "59987bcd5a5930c3": {
+      "source": "The Age",
+      "title": "Wife of Perth double murderer breaks her silence",
+      "published": "2026-11-13T10:38:04+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "a6cd1ab000c6116d"
+    },
+    "8349e83f5c68f523": {
+      "source": "SMH",
+      "title": "'Mystery medley' won by 'classy' Petric",
+      "published": "2026-11-13T11:18:31+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "c3ff427f4a44f6a5": {
+      "source": "The Age",
+      "title": "'Mystery medley' won by 'classy' Petric",
+      "published": "2026-11-13T11:18:31+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "8349e83f5c68f523"
+    },
+    "52891078391a2e60": {
+      "source": "ABC News",
+      "title": "Spectacular try helps England to Wheelchair Rugby League World Cup glory",
+      "published": "2026-11-13T11:21:43+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "d474d3a645b82487": {
+      "source": "SMH",
+      "title": "Short throws shade after 400m blitz",
+      "published": "2026-11-13T11:24:28+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "b0c619ec29179037": {
+      "source": "The Age",
+      "title": "Short throws shade after 400m blitz",
+      "published": "2026-11-13T11:24:28+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "d474d3a645b82487"
+    },
+    "0c928eb17925050f": {
+      "source": "SMH",
+      "title": "Albanese and Bowen caught in hot mic gaffe",
+      "published": "2026-11-13T11:42:23+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia"
+    },
+    "a1313c775911ad1f": {
+      "source": "The Age",
+      "title": "Albanese and Bowen caught in hot mic gaffe",
+      "published": "2026-11-13T11:42:23+00:00",
+      "first_seen": "2026-11-13T21:52:01.188717+10:00",
+      "category": "australia",
+      "duplicate_of": "0c928eb17925050f"
+    },
+    "9f740ea270954579": {
+      "source": "Nature",
+      "title": "Found: a protein that drives ageing without unleashing inflammation",
+      "published": "2026-11-12T00:00:00+00:00",
+      "first_seen": "2026-11-13T21:52:03.924513+10:00",
+      "category": "archaeology"
+    },
+    "ec04269f2a215777": {
+      "source": "Nature",
+      "title": "Accept all changes",
+      "published": "2026-11-13T00:00:00+00:00",
+      "first_seen": "2026-11-13T21:52:03.924513+10:00",
+      "category": "archaeology"
+    },
+    "77b7b2feb058ce0d": {
+      "source": "Kicker",
+      "title": "Im Test gegen Split: Vuskovic feiert nach 1467 Tagen HSV-Comeback vor 50.000 Fans",
+      "published": "2026-11-13T07:09:34+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "86784499afe94847": {
+      "source": "Kicker",
+      "title": "Englands emotionale Palmer-Debatte: \"Das ist eine L\u00fcge\"",
+      "published": "2026-11-13T07:25:29+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "79275291df7b695c": {
+      "source": "Kicker",
+      "title": "L\u00f6w: \"Uns fehlt auf manchen Positionen Qualit\u00e4t f\u00fcr Titel\"",
+      "published": "2026-11-13T07:35:00+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "2727c864927c5b2d": {
+      "source": "Kicker",
+      "title": "L\u00f6w: \"Klopp schafft es, dass die Nation wieder mitfiebert\"",
+      "published": "2026-11-13T07:38:22+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "9400f94a690a5611": {
+      "source": "Kicker",
+      "title": "Zwei Siege k\u00f6nnten zu wenig sein: So kommt Deutschland ins Viertelfinale",
+      "published": "2026-11-13T07:53:07+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "3dffe5537db91715": {
+      "source": "Kicker",
+      "title": "Liga-Pr\u00e4sidium m\u00f6chte \"ordnungspolitische Voraussetzung\" verankern",
+      "published": "2026-11-13T07:57:00+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "665d7cf3c5764836": {
+      "source": "Kicker",
+      "title": "Upamecano von Frankreichs Nationalmannschaft abgereist",
+      "published": "2026-11-13T08:02:45+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "b115ff56963601f3": {
+      "source": "Kicker",
+      "title": "De la Fuente deutlich: \"Wer diese Leistung nicht sch\u00e4tzt, ist dumm\"",
+      "published": "2026-11-13T08:02:51+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "fc6c7b4a0d944c0d": {
+      "source": "Kicker",
+      "title": "Jovic spektakul\u00e4r: Die sch\u00f6nsten Bundesliga-Tore von Serben",
+      "published": "2026-11-13T08:47:08+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "b17acb419756caf5": {
+      "source": "Kicker",
+      "title": "R\u00fcckschlag f\u00fcr Infantino: Gericht in New York weist FIFA-Antr\u00e4ge ab",
+      "published": "2026-11-13T09:02:24+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "bf35d926ae1847c8": {
+      "source": "Kicker",
+      "title": "N\u00e4chster R\u00fcckschlag f\u00fcr Zwickau: Kapit\u00e4n Startsev f\u00e4llt mehrere Monate aus",
+      "published": "2026-11-13T09:19:26+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "ade354986d20511f": {
+      "source": "Kicker",
+      "title": "LIVE!-Blog zum Serbien-Spiel: Brisante Konstellation - F\u00fcllkrug tr\u00e4gt die 9",
+      "published": "2026-11-13T09:23:00+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "736e8bedd66b089b": {
+      "source": "Kicker",
+      "title": "Topspiel im Norden: Erobert Oldenburg bei der SV D/A die Tabellenspitze?",
+      "published": "2026-11-13T09:49:09+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "5c11a2ebd43cc60b": {
+      "source": "Kicker",
+      "title": "Krisenduell in Buchbach - Vilzing nach Trainerwechsel in Bayreuth zu Gast",
+      "published": "2026-11-13T09:55:03+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "1601b041c3e2ad7e": {
+      "source": "Kicker",
+      "title": "TV oder Stream: Wer \u00fcbertr\u00e4gt TSV 1860 M\u00fcnchen gegen SpVgg Unterhaching live?",
+      "published": "2026-11-13T09:57:02+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "9dca862b38703039": {
+      "source": "Kicker",
+      "title": "Kane: \"Solche Momente muss man einfach genie\u00dfen\"",
+      "published": "2026-11-13T09:59:48+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "309f371125ded87a": {
+      "source": "Kicker",
+      "title": "Prass fehlt \u00d6sterreich gegen Irland - Rangnick nominiert Stuttgarts Spalt nach",
+      "published": "2026-11-13T10:05:00+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "1436acfc5eb1346d": {
+      "source": "Kicker",
+      "title": "Daumenverletzung bei Backhaus - doch keine Panik in Freiburg",
+      "published": "2026-11-13T10:26:13+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "c35d9a5af60968a9": {
+      "source": "Kicker",
+      "title": "Spannende Spielerei im Sturm: Eure DFB-Wunschelf gegen Serbien",
+      "published": "2026-11-13T11:07:28+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
+    },
+    "9732f0ede8ff3e32": {
+      "source": "Kicker",
+      "title": "Auf dem Sprung: Die Frage, die sich bei Shiogai aufdr\u00e4ngt",
+      "published": "2026-11-13T11:35:00+00:00",
+      "first_seen": "2026-11-13T21:52:09.197886+10:00",
+      "category": "football"
     }
   }
 }

@@ -2089,15 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-13T02:22:58.353693+00:00",
+  "last_gdelt_attempt": "2026-11-13T07:02:00.904180+00:00",
   "article_store": {
-    "45065205d34f05bf": {
-      "source": "Al Jazeera",
-      "title": "Gaza turns discarded cooking pots into seawalls",
-      "published": "2026-11-06T02:03:47+00:00",
-      "first_seen": "2026-11-06T12:58:17.353395+10:00",
-      "category": "breaking"
-    },
     "eda6e4f5a8747928": {
       "source": "BBC News",
       "title": "Weekly quiz: How did Rice Krispies lose their snap, crackle and pop?",
@@ -21469,6 +21462,153 @@
       "published": "2026-11-12T23:27:12+00:00",
       "first_seen": "2026-11-13T12:23:30.797103+10:00",
       "category": "football"
+    },
+    "b79bde1f825feed5": {
+      "source": "BBC News",
+      "title": "How could the Nvidia CEO\u2019s affair threaten US national security?",
+      "published": "2026-11-13T02:15:59+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "dceaf5145f4c736b": {
+      "source": "BBC News",
+      "title": "Will the Eurovision Song Contest succeed in Asia?",
+      "published": "2026-11-13T02:24:11+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "ed1890d3f8068856": {
+      "source": "Al Jazeera",
+      "title": "Trump moots toppling Cuba authorities before leaving office",
+      "published": "2026-11-13T02:33:28+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "a8ef2daf9b102f31": {
+      "source": "Al Jazeera",
+      "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
+      "published": "2026-11-13T02:35:21+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "3cc319725f969969": {
+      "source": "Al Jazeera",
+      "title": "Chris Van Hollen launches bid to lead Democrats in US Senate",
+      "published": "2026-11-13T02:42:41+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "a475cc13dfb4e21f": {
+      "source": "Al Jazeera",
+      "title": "Spanish court suspends far-right group over alleged hate crimes",
+      "published": "2026-11-13T02:52:25+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "e21665fb75e16490": {
+      "source": "Al Jazeera",
+      "title": "Gaza surgeon films aftermath of Israeli strike",
+      "published": "2026-11-13T03:11:43+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "90c276bf58f4acf3": {
+      "source": "Al Jazeera",
+      "title": "Iran says it targeted US radar site in Bahrain",
+      "published": "2026-11-13T03:17:27+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "7cf3020dd18f6cdc": {
+      "source": "Al Jazeera",
+      "title": "Mississippi elects first black senator in nearly 150 years",
+      "published": "2026-11-13T03:21:25+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "85a9ab8c07422ee6": {
+      "source": "Al Jazeera",
+      "title": "US envoys shuttle between Putin and Zelenskyy",
+      "published": "2026-11-13T04:12:01+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "0aa548d912242d69": {
+      "source": "Al Jazeera",
+      "title": "US Senator Chris Van Hollen seeks to lead Democrats: Who is he?",
+      "published": "2026-11-13T04:28:45+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "6710eac614b870f5": {
+      "source": "BBC News",
+      "title": "The Papers: 'Nvidia chief quits' and 'Six women say they too were preyed on by Brand'",
+      "published": "2026-11-13T04:36:28+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "6a5c76e4075f7c5a": {
+      "source": "Al Jazeera",
+      "title": "Talarico appeals to Trump\u2019s legacy in bid for bipartisan reforms",
+      "published": "2026-11-13T04:36:45+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "e41df7d729152a78": {
+      "source": "Al Jazeera",
+      "title": "From ocean legend to undersea reef: Why has the SS United States been sunk?",
+      "published": "2026-11-13T04:39:33+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "dcd580040ea1d930": {
+      "source": "Al Jazeera",
+      "title": "Iranophobia: Netanyahu\u2019s bid to transform fear into political survival",
+      "published": "2026-11-13T04:48:40+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "92794b0640d7b541": {
+      "source": "Al Jazeera",
+      "title": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
+      "published": "2026-11-13T04:51:56+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "91fbff0febc1798d": {
+      "source": "Al Jazeera",
+      "title": "Pope Leo meets clergy abuse survivors in Peru amid calls for justice",
+      "published": "2026-11-13T05:05:50+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "d11f986453267222": {
+      "source": "Al Jazeera",
+      "title": "Burkina Faso\u2019s rival armed groups turn on each other as state loses ground",
+      "published": "2026-11-13T05:23:31+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "b6f732fa85644143": {
+      "source": "Al Jazeera",
+      "title": "Harry Kane breaks caps record as England reach Nations League knockouts",
+      "published": "2026-11-13T05:38:36+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "f88858869089d7e4": {
+      "source": "BBC News",
+      "title": "Firms help migrants pose as artists and tech experts for 'Global Talent' visas, BBC finds",
+      "published": "2026-11-13T06:00:44+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
+    },
+    "faecb9dd07722c6f": {
+      "source": "Al Jazeera",
+      "title": "Australia captain Pat Cummins denies involvement in \u2018Sandpapergate\u2019 scandal",
+      "published": "2026-11-13T06:13:11+00:00",
+      "first_seen": "2026-11-13T17:02:22.454651+10:00",
+      "category": "breaking"
     }
   }
 }

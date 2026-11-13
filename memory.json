@@ -2091,535 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-11-13T16:39:31.487285+00:00",
   "article_store": {
-    "eb10c854364ce68c": {
-      "source": "BBC News",
-      "title": "'A beautiful story' as Bellingham brothers called up",
-      "published": "2026-11-06T14:16:34+00:00",
-      "first_seen": "2026-11-07T03:10:42.706752+10:00",
-      "category": "breaking"
-    },
-    "2b82a95dfc9cbcfc": {
-      "source": "BBC News",
-      "title": "Judge blocks construction of Trump's massive arch after federal agency approval",
-      "published": "2026-11-06T15:30:42+00:00",
-      "first_seen": "2026-11-07T03:10:42.706752+10:00",
-      "category": "breaking"
-    },
-    "738959d2ca645a5c": {
-      "source": "Al Jazeera",
-      "title": "European troops prepare for possible post-ceasefire deployment to Ukraine",
-      "published": "2026-11-06T16:04:19+00:00",
-      "first_seen": "2026-11-07T03:10:42.706752+10:00",
-      "category": "breaking"
-    },
-    "03f22b40656ebf83": {
-      "source": "Al Jazeera",
-      "title": "Millions fleeing Sudan\u2019s war risk losing shelter as funds run low, UN warns",
-      "published": "2026-11-06T16:10:51+00:00",
-      "first_seen": "2026-11-07T03:10:42.706752+10:00",
-      "category": "breaking"
-    },
-    "875d03c67e5576f1": {
-      "source": "Al Jazeera",
-      "title": "What did the Republicans lose in the US midterms?",
-      "published": "2026-11-06T16:11:34+00:00",
-      "first_seen": "2026-11-07T03:10:42.706752+10:00",
-      "category": "breaking"
-    },
-    "e0f5f22962d0afa6": {
-      "source": "BBC News",
-      "title": "Spate of bomb threats poses serious challenge to airline industry",
-      "published": "2026-11-06T16:18:44+00:00",
-      "first_seen": "2026-11-07T03:10:42.706752+10:00",
-      "category": "breaking"
-    },
-    "747c83d5e1fc3896": {
-      "source": "Al Jazeera",
-      "title": "Jerusalem Daily: Arab parties back Eisenkot against Netanyahu",
-      "published": "2026-11-06T16:21:57+00:00",
-      "first_seen": "2026-11-07T03:10:42.706752+10:00",
-      "category": "breaking"
-    },
-    "ff5d07cbf1bbd7e8": {
-      "source": "Al Jazeera",
-      "title": "Taiwan to close representative office in Papua New Guinea, blames China",
-      "published": "2026-11-06T16:40:39+00:00",
-      "first_seen": "2026-11-07T03:10:42.706752+10:00",
-      "category": "breaking"
-    },
-    "6140f3885c040cd9": {
-      "source": "Al Jazeera",
-      "title": "Paraguay resumes Pena impeachment proceedings as financial crisis deepens",
-      "published": "2026-11-06T16:58:56+00:00",
-      "first_seen": "2026-11-07T03:10:42.706752+10:00",
-      "category": "breaking"
-    },
-    "ba3f2290fa6fd534": {
-      "source": "SMH",
-      "title": "Former Cronulla Sharks star knocked out in first round",
-      "published": "2026-11-06T08:57:21+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "a17ce61bd22d6cb4": {
-      "source": "The Age",
-      "title": "Former Cronulla Sharks star knocked out in first round",
-      "published": "2026-11-06T08:57:21+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "ba3f2290fa6fd534"
-    },
-    "fcd9bde39a1b3263": {
-      "source": "SMH",
-      "title": "Police hunt man over grisly act at Logan funeral home",
-      "published": "2026-11-06T09:17:27+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "4d150d6158c4e4c6": {
-      "source": "The Age",
-      "title": "Police hunt man over grisly act at Logan funeral home",
-      "published": "2026-11-06T09:17:27+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "fcd9bde39a1b3263"
-    },
-    "4d9e9c60d6f37733": {
-      "source": "SMH",
-      "title": "'Absolute chaos' as referee misses towel",
-      "published": "2026-11-06T10:01:39+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "81c8a833d0d956c8": {
-      "source": "The Age",
-      "title": "'Absolute chaos' as referee misses towel",
-      "published": "2026-11-06T10:01:39+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "4d9e9c60d6f37733"
-    },
-    "4f155c4a77a5eca2": {
-      "source": "SMH",
-      "title": "Father faces court over five-week-old baby son\u2019s death",
-      "published": "2026-11-06T10:36:09+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "9cfa1a59d2787aea": {
-      "source": "The Age",
-      "title": "Father faces court over five-week-old baby son\u2019s death",
-      "published": "2026-11-06T10:36:09+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "4f155c4a77a5eca2"
-    },
-    "3f6d52aca820afc3": {
-      "source": "SMH",
-      "title": "Eels board set to clear Addo-Carr",
-      "published": "2026-11-06T10:42:10+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "a7619f5594e07899": {
-      "source": "The Age",
-      "title": "Eels board set to clear Addo-Carr",
-      "published": "2026-11-06T10:42:10+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "3f6d52aca820afc3"
-    },
-    "3f437923420262a6": {
-      "source": "SMH",
-      "title": "The half-Australian senator who could be the next US president",
-      "published": "2026-11-06T11:06:49+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "c4140286d89926ef": {
-      "source": "The Age",
-      "title": "The half-Australian senator who could be the next US president",
-      "published": "2026-11-06T11:06:49+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "3f437923420262a6"
-    },
-    "6bd40f27ff69b4d1": {
-      "source": "ABC News",
-      "title": "Three detainees scale Banksia Hill Detention Centre roof",
-      "published": "2026-11-06T11:23:30+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "2f16b36f86379783": {
-      "source": "SMH",
-      "title": "Nelson knocks Gallen out, jumps into the crowd",
-      "published": "2026-11-06T12:06:17+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "a4a43e63f6e4d6c4": {
-      "source": "The Age",
-      "title": "Nelson knocks Gallen out, jumps into the crowd",
-      "published": "2026-11-06T12:06:17+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "2f16b36f86379783"
-    },
-    "85d04fc4dfaedc92": {
-      "source": "SMH",
-      "title": "Man dead after stabbing in Melbourne CBD",
-      "published": "2026-11-06T12:21:47+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "a686802f22777a50": {
-      "source": "The Age",
-      "title": "Man dead after stabbing in Melbourne CBD",
-      "published": "2026-11-06T12:21:47+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "85d04fc4dfaedc92"
-    },
-    "a4d91106486d2587": {
-      "source": "SMH",
-      "title": "Test your general knowledge with the Good Weekend quiz",
-      "published": "2026-11-06T12:59:00+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "e9d64ea6178a55af": {
-      "source": "The Age",
-      "title": "Test your general knowledge with the Good Weekend quiz",
-      "published": "2026-11-06T12:59:00+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "a4d91106486d2587"
-    },
-    "25ca346bcb73024f": {
-      "source": "SMH",
-      "title": "Star forward benched, Suaalii on wing for Wallabies\u2019 clash with England",
-      "published": "2026-11-06T14:21:05+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "0b0935b9c9cba714": {
-      "source": "The Age",
-      "title": "Star forward benched, Suaalii on wing for Wallabies\u2019 clash with England",
-      "published": "2026-11-06T14:21:05+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "25ca346bcb73024f"
-    },
-    "f09568d36d092eee": {
-      "source": "ABC News",
-      "title": "Bomb threats spread to European newsrooms after wave of passenger jet scares",
-      "published": "2026-11-06T14:58:42+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "b079d075c06ea72f": {
-      "source": "SMH",
-      "title": "Meghan\u2019s father Thomas Markle charged with possessing child sexual abuse material",
-      "published": "2026-11-06T16:21:28+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "d819005d54b63ec3": {
-      "source": "The Age",
-      "title": "Meghan\u2019s father Thomas Markle charged with possessing child sexual abuse material",
-      "published": "2026-11-06T16:21:28+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia",
-      "duplicate_of": "b079d075c06ea72f"
-    },
-    "22c92926ce7d6044": {
-      "source": "ABC News",
-      "title": "Meghan Markle's father charged with possessing child pornography",
-      "published": "2026-11-06T16:29:10+00:00",
-      "first_seen": "2026-11-07T03:10:44.315649+10:00",
-      "category": "australia"
-    },
-    "fad935a30511882c": {
-      "source": "Nature",
-      "title": "Daily briefing: Toothbrush zaps bacteria to clear plaque",
-      "published": "2026-11-05T00:00:00+00:00",
-      "first_seen": "2026-11-07T03:10:46.857602+10:00",
-      "category": "archaeology"
-    },
-    "2ba5ebdaf7f28420": {
-      "source": "Nature",
-      "title": "Medicinal plants, lessons from mushrooms and the power of smell: Books in brief",
-      "published": "2026-11-06T00:00:00+00:00",
-      "first_seen": "2026-11-07T03:10:46.857602+10:00",
-      "category": "archaeology"
-    },
-    "3df36a7101410e4c": {
-      "source": "Nature",
-      "title": "Cholera bacterium\u2019s good deed: inspiring a glue with rare properties",
-      "published": "2026-11-06T00:00:00+00:00",
-      "first_seen": "2026-11-07T03:10:46.857602+10:00",
-      "category": "archaeology"
-    },
-    "ba7df1d45f6bce08": {
-      "source": "Nature",
-      "title": "Briefing Chat: Meet the snakes that cartwheel away from trouble",
-      "published": "2026-11-06T00:00:00+00:00",
-      "first_seen": "2026-11-07T03:10:46.857602+10:00",
-      "category": "archaeology"
-    },
-    "070907e7e781af8d": {
-      "source": "Nature",
-      "title": "Preprint platform offers to pay researchers to review papers, but questions remain",
-      "published": "2026-11-06T00:00:00+00:00",
-      "first_seen": "2026-11-07T03:10:46.857602+10:00",
-      "category": "archaeology"
-    },
-    "4e1f4da2fd78a4ac": {
-      "source": "Nature",
-      "title": "\u2018Mathematics is more than a mechanical process\u2019 \u2014 why I think the field will survive OpenAI\u2019s disruption",
-      "published": "2026-11-06T00:00:00+00:00",
-      "first_seen": "2026-11-07T03:10:46.857602+10:00",
-      "category": "archaeology"
-    },
-    "1278765d937874a6": {
-      "source": "Nature",
-      "title": "ESC (DC)<sup>2</sup>",
-      "published": "2026-11-06T00:00:00+00:00",
-      "first_seen": "2026-11-07T03:10:46.857602+10:00",
-      "category": "archaeology"
-    },
-    "5dc86fff6d3a16b2": {
-      "source": "Nature",
-      "title": "The palaeo cave art that hid in plain sight for 26,000 years",
-      "published": "2026-11-06T00:00:00+00:00",
-      "first_seen": "2026-11-07T03:10:46.857602+10:00",
-      "category": "archaeology"
-    },
-    "1fdc550fcede66ae": {
-      "source": "PhysOrg",
-      "title": "Why bandicoots and bilbies evolved such different snouts",
-      "published": "2026-11-06T14:00:01+00:00",
-      "first_seen": "2026-11-07T03:10:46.857602+10:00",
-      "category": "archaeology"
-    },
-    "564512d7c71f6d52": {
-      "source": "PhysOrg",
-      "title": "Evolutionary history and genetic basis of spruce diversification revealed",
-      "published": "2026-11-06T17:00:01+00:00",
-      "first_seen": "2026-11-07T03:10:46.857602+10:00",
-      "category": "archaeology"
-    },
-    "4acc51fc47a0695a": {
-      "source": "Marca",
-      "title": "Makaay: \"No s\u00e9 de c\u00f3mo ficharon a Aubameyang o Gim\u00e9nez, pero el Deportivo pertenece a Primera\"",
-      "published": "2026-11-06T09:30:12+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "97e20eda1c9c5685": {
-      "source": "Marca",
-      "title": "LaLiga denuncia insultos a Oscar Puente y Pedro S\u00e1nchez en Getafe, Santander y Elche",
-      "published": "2026-11-06T10:32:10+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "d712740958b28cb3": {
-      "source": "Marca",
-      "title": "Javier Aguirre: \"Mbapp\u00e9 tiene un uno contra uno indefendible\"",
-      "published": "2026-11-06T12:48:38+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "c2c9033517175b6a": {
-      "source": "Marca",
-      "title": "La bandera del Tenerife ondear\u00e1 a media asta en Mestalla en memoria de Jes\u00fas de Miguel",
-      "published": "2026-11-06T13:22:12+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "8cd60d95b8ca3936": {
-      "source": "Marca",
-      "title": "Funes no teme por su cargo: \"Me siento arropado por el club\"",
-      "published": "2026-11-06T13:55:28+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "7c6d3fe2e523fadb": {
-      "source": "Marca",
-      "title": "Terzic tira de De Marcos para encarar la visita de este s\u00e1bado a Osasuna",
-      "published": "2026-11-06T14:05:14+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "676a864c5f3decb6": {
-      "source": "Kicker",
-      "title": "\"Nicht zu viel erwarten\": Ilic k\u00f6nnte bei Union zur\u00fcckkehren",
-      "published": "2026-11-06T14:31:32+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "48437caa8b94f988": {
-      "source": "Kicker",
-      "title": "Emden im Herbst-Tief: L\u00fcbecks gerissene Serie als neue Chance?",
-      "published": "2026-11-06T14:31:42+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "002f2c1288e68be0": {
-      "source": "Kicker",
-      "title": "Einen Monat ohne Sieg: Ansbach nimmt in Illertissen neuen Anlauf",
-      "published": "2026-11-06T14:39:22+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "656dee8be3a5f1b9": {
-      "source": "Kicker",
-      "title": "\"Auf Schalke ist niemand vom Druck gel\u00e4hmt - am wenigsten der Trainer\"",
-      "published": "2026-11-06T14:41:07+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "3bb48b7068c80788": {
-      "source": "Kicker",
-      "title": "Schicker blickt zur\u00fcck: \"Letzten Wochen waren nicht einfach\"",
-      "published": "2026-11-06T14:54:43+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "47ca29a96d641020": {
-      "source": "Kicker",
-      "title": "U 20: Wolf nominiert Bulut und Alfa-Ruprecht - Sechs Neulinge dabei",
-      "published": "2026-11-06T15:00:50+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "dd489f76372b414d": {
-      "source": "Kicker",
-      "title": "Tuchel feiert Kane f\u00fcr Ballon d'Or: \"Dass wir das miterleben d\u00fcrfen...\"",
-      "published": "2026-11-06T15:02:56+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "2f75a865afb22c22": {
-      "source": "Kicker",
-      "title": "Gosens und El Faouzi zur\u00fcck - Schl\u00fcsselspieler Ljubicic?",
-      "published": "2026-11-06T15:18:09+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "a7f68562daf139ff": {
-      "source": "Kicker",
-      "title": "Regionalliga-Reform: Drittliga-Manager wehren sich erneut gegen f\u00fcnften Abstiegsplatz",
-      "published": "2026-11-06T15:28:39+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "56991f4ec73cc7c6": {
-      "source": "Kicker",
-      "title": "\"NLZ-Paradebeispiel\": Nebel verl\u00e4ngert in Mainz",
-      "published": "2026-11-06T15:36:17+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "855b7ca8c433d29f": {
-      "source": "Kicker",
-      "title": "Nachbarduell in Hamburg: Die Top 11 der ewigen Bundesliga-Tabelle",
-      "published": "2026-11-06T15:44:26+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "3ef86dfe40104e99": {
-      "source": "Kicker",
-      "title": "\"Das hat etwas mit mir gemacht\": Schmidt gr\u00fcbelte \"Monate\" \u00fcber sein Ende",
-      "published": "2026-11-06T15:48:08+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "a446b5273855efb5": {
-      "source": "Marca",
-      "title": "LaLiga adelanta al 2 de diciembre el Bar\u00e7a-Atl\u00e9tico y el Real Sociedad-Real Madrid",
-      "published": "2026-11-06T15:53:39+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "15bfed0ca07be0eb": {
-      "source": "Marca",
-      "title": "Horarios de la jornada 14 en Primera: Real Madrid-Alav\u00e9s en s\u00e1bado y Depor-Bar\u00e7a el domingo",
-      "published": "2026-11-06T15:54:23+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "40035d5288d09546": {
-      "source": "Kicker",
-      "title": "LIVE! Kinsombi ersetzt Cigerci - Vier Wechsel bei Dresden",
-      "published": "2026-11-06T16:00:00+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "1035d6322ce16bab": {
-      "source": "Kicker",
-      "title": "Nach starkem Start v\u00f6llig aufgel\u00f6st: Schalker U 23 kassiert Klatsche gegen Gladbach II",
-      "published": "2026-11-06T16:01:00+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "986a74d398cae174": {
-      "source": "Kicker",
-      "title": "Fischer: \"Ich bin halt langweilig\"",
-      "published": "2026-11-06T16:12:03+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "7917e1bfbd11b94a": {
-      "source": "Kicker",
-      "title": "Vogt bedroht: Heidenheim geht nach Hassbotschaft gegen Anh\u00e4nger vor",
-      "published": "2026-11-06T16:21:35+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "affac4c80c11ecb3": {
-      "source": "Kicker",
-      "title": "Die Wade: Fragezeichen hinter Nusa",
-      "published": "2026-11-06T16:43:10+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "c3ce4384a6a73d63": {
-      "source": "Kicker",
-      "title": "Smits Vorhaben: \"Muss ein bisschen mehr Egoist sein\"",
-      "published": "2026-11-06T16:48:35+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "feff202d08a29006": {
-      "source": "Kicker",
-      "title": "LIVE! Viktoria K\u00f6ln empf\u00e4ngt den 1. FC Saarbr\u00fccken als Tabellenf\u00fchrer zum Topspiel",
-      "published": "2026-11-06T17:00:22+00:00",
-      "first_seen": "2026-11-07T03:10:52.335133+10:00",
-      "category": "football"
-    },
-    "97d3f162ae511a73": {
-      "source": "Al Jazeera",
-      "title": "US prosecutor who led Trump-backed election probe exits Justice Department",
-      "published": "2026-11-06T17:02:19+00:00",
-      "first_seen": "2026-11-07T03:45:09.240325+10:00",
-      "category": "breaking"
-    },
-    "b18212a21f6c8541": {
-      "source": "Al Jazeera",
-      "title": "US city votes to divest from Israel",
-      "published": "2026-11-06T17:40:13+00:00",
-      "first_seen": "2026-11-07T03:45:09.240325+10:00",
-      "category": "breaking"
-    },
-    "716f6923291076d0": {
-      "source": "Al Jazeera",
-      "title": "How Paraguay\u2019s Ueno collapse is only its latest banking crisis",
-      "published": "2026-11-06T17:42:22+00:00",
-      "first_seen": "2026-11-07T03:45:09.240325+10:00",
-      "category": "breaking"
-    },
     "1d2f4ee0d1050f42": {
       "source": "BBC News",
       "title": "Four midterms takeaways for 2028 White House race",
@@ -21568,6 +21039,83 @@
       "title": "Police investigating David Walliams over alleged serious sexual offences",
       "published": "2026-11-13T16:29:30+00:00",
       "first_seen": "2026-11-14T02:39:55.468101+10:00",
+      "category": "breaking"
+    },
+    "3254a3add877412a": {
+      "source": "BBC News",
+      "title": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
+      "published": "2026-11-13T08:20:28+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
+      "category": "breaking"
+    },
+    "f4aab3e216f34e92": {
+      "source": "BBC News",
+      "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
+      "published": "2026-11-13T15:42:52+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
+      "category": "breaking"
+    },
+    "a423a00e9d845690": {
+      "source": "Al Jazeera",
+      "title": "US Treasury warns against rate hikes during US-Iran war energy \u2018shock\u2019",
+      "published": "2026-11-13T16:22:33+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
+      "category": "breaking"
+    },
+    "64687ddf2926f90e": {
+      "source": "Al Jazeera",
+      "title": "Sixth victim confirmed in DC condo-related shooting in US, police say",
+      "published": "2026-11-13T16:31:50+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
+      "category": "breaking"
+    },
+    "a21ae7772c0eacbc": {
+      "source": "Al Jazeera",
+      "title": "Jerusalem Daily: Baby dies from cold in Gaza",
+      "published": "2026-11-13T16:34:24+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
+      "category": "breaking"
+    },
+    "e3130f190e2ea915": {
+      "source": "BBC News",
+      "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+      "published": "2026-11-13T16:40:31+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
+      "category": "breaking"
+    },
+    "98dd0c8c74a50a5a": {
+      "source": "Al Jazeera",
+      "title": "Car bombings in Russia kill military officer, injure ex-Ukraine PM adviser",
+      "published": "2026-11-13T16:44:56+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
+      "category": "breaking"
+    },
+    "ab04cf6d7e234b98": {
+      "source": "BBC News",
+      "title": "Man jailed for grooming at least 70 girls online",
+      "published": "2026-11-13T17:10:27+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
+      "category": "breaking"
+    },
+    "e3094e64db0b0422": {
+      "source": "Al Jazeera",
+      "title": "The fight over Canadian steelworker jobs",
+      "published": "2026-11-13T17:10:43+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
+      "category": "breaking"
+    },
+    "f953851b9bc063b7": {
+      "source": "BBC News",
+      "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
+      "published": "2026-11-13T17:38:19+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
+      "category": "breaking"
+    },
+    "1f816e0da34359dd": {
+      "source": "Al Jazeera",
+      "title": "No emails, no problem? Workers joke about Microsoft outage",
+      "published": "2026-11-13T17:55:05+00:00",
+      "first_seen": "2026-11-14T04:18:10.185230+10:00",
       "category": "breaking"
     }
   }

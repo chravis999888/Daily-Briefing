@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-14T19:37:18.093714+00:00",
+  "last_gdelt_attempt": "2026-11-14T21:58:42.772675+00:00",
   "article_store": {
     "8c7c9a2d63ae341a": {
       "source": "Al Jazeera",
@@ -21085,6 +21085,564 @@
       "published": "2026-11-14T20:47:02+00:00",
       "first_seen": "2026-11-15T06:52:24.740353+10:00",
       "category": "breaking"
+    },
+    "2690d08037a4812b": {
+      "source": "BBC News",
+      "title": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
+      "published": "2026-11-14T18:00:10+00:00",
+      "first_seen": "2026-11-15T07:59:02.366563+10:00",
+      "category": "breaking"
+    },
+    "4fee786cb2988cbb": {
+      "source": "BBC News",
+      "title": "Philippines takes the crown in first Eurovision Song Contest Asia",
+      "published": "2026-11-14T18:31:55+00:00",
+      "first_seen": "2026-11-15T07:59:02.366563+10:00",
+      "category": "breaking"
+    },
+    "3cdeed454ec88cb2": {
+      "source": "Al Jazeera",
+      "title": "US envoy Kushner says he aims to broker Europe-Russia talks on Ukraine",
+      "published": "2026-11-14T21:10:26+00:00",
+      "first_seen": "2026-11-15T07:59:02.366563+10:00",
+      "category": "breaking"
+    },
+    "ca8c879133309a69": {
+      "source": "Al Jazeera",
+      "title": "US flights resume after ageing technology blamed for outage",
+      "published": "2026-11-14T21:36:19+00:00",
+      "first_seen": "2026-11-15T07:59:02.366563+10:00",
+      "category": "breaking"
+    },
+    "8478d5e73b9bfc55": {
+      "source": "SMH",
+      "title": "Alex gave me $1000 cash after I met him on Facebook Marketplace. An hour later he asked me if he\u2019d paid me",
+      "published": "2026-11-14T18:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "8115f26936c62672": {
+      "source": "SMH",
+      "title": "At a \u2018rustic luxury\u2019 island resort in Canada, even the wildlife show is first class",
+      "published": "2026-11-14T18:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "b46c182484b2a634": {
+      "source": "SMH",
+      "title": "Scorpio: Your hard work is paying off",
+      "published": "2026-11-14T18:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "56d68bf877ae3ef3": {
+      "source": "The Age",
+      "title": "Alex gave me $1000 cash after I met him on Facebook Marketplace. An hour later he asked me if he\u2019d paid me",
+      "published": "2026-11-14T18:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "8478d5e73b9bfc55"
+    },
+    "e29a0f4a5401b6e7": {
+      "source": "The Age",
+      "title": "At a \u2018rustic luxury\u2019 island resort in Canada, even the wildlife show is first class",
+      "published": "2026-11-14T18:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "8115f26936c62672"
+    },
+    "af1e5cf18e97b44f": {
+      "source": "SMH",
+      "title": "We want to know if a recession is coming. It\u2019s the wrong question",
+      "published": "2026-11-14T18:01:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "14ad4fce26217e8a": {
+      "source": "The Age",
+      "title": "We want to know if a recession is coming. It\u2019s the wrong question",
+      "published": "2026-11-14T18:01:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "af1e5cf18e97b44f"
+    },
+    "60916cc44cbbb3bc": {
+      "source": "SMH",
+      "title": "I\u2019m worried our super could get hacked. Is my money safer in the bank?",
+      "published": "2026-11-14T18:05:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "50b3efc82494baa5": {
+      "source": "The Age",
+      "title": "I\u2019m worried our super could get hacked. Is my money safer in the bank?",
+      "published": "2026-11-14T18:05:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "60916cc44cbbb3bc"
+    },
+    "78c1b86a2837cd2d": {
+      "source": "ABC News",
+      "title": "Two rappers went into youth detention. What they heard surprised them",
+      "published": "2026-11-14T18:30:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "a81cc93dfa635499": {
+      "source": "ABC News",
+      "title": "ABC Wordage quiz: Sort out these body parts",
+      "published": "2026-11-14T18:30:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "d0b01648edbedea4": {
+      "source": "ABC News",
+      "title": "Artists relish flying the flag for WA's biggest remote community",
+      "published": "2026-11-14T18:30:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "6530a427465862a7": {
+      "source": "SMH",
+      "title": "While the past haunts Australian cricket, its future is piling on runs in the Sheffield Shield",
+      "published": "2026-11-14T18:30:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "e876300f7e43cd75": {
+      "source": "The Age",
+      "title": "Two Americans, two journeys, but how many roads?",
+      "published": "2026-11-14T18:30:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "a8f600271934e194": {
+      "source": "The Age",
+      "title": "While the past haunts Australian cricket, its future is piling on runs in the Sheffield Shield",
+      "published": "2026-11-14T18:30:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "6530a427465862a7"
+    },
+    "3b8e05a26def6e7f": {
+      "source": "ABC News",
+      "title": "US officials say copper wire replacement caused national ground stop",
+      "published": "2026-11-14T18:40:57+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "7efd2f185ee0cbd3": {
+      "source": "ABC News",
+      "title": "Don't just take the cheapest and other expert tips to find the best solar installer",
+      "published": "2026-11-14T18:48:55+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "ac587fd8c69293dd": {
+      "source": "ABC News",
+      "title": "Albanese caught between climate ambition and political reality at COP31",
+      "published": "2026-11-14T18:50:21+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "3b5b9102a6dc61fc": {
+      "source": "SMH",
+      "title": "Salt air, still water: A week of five-star indulgence in Cairns",
+      "published": "2026-11-14T19:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "a88b3ea4fd9e1325": {
+      "source": "SMH",
+      "title": "Community rallies to stop closure of long-standing Brisbane daycare centre",
+      "published": "2026-11-14T19:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "1497352a46d466c5": {
+      "source": "The Age",
+      "title": "Salt air, still water: A week of five-star indulgence in Cairns",
+      "published": "2026-11-14T19:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "3b5b9102a6dc61fc"
+    },
+    "3ccb75255f3220f2": {
+      "source": "The Age",
+      "title": "Community rallies to stop closure of long-standing Brisbane daycare centre",
+      "published": "2026-11-14T19:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "a88b3ea4fd9e1325"
+    },
+    "fa9442c4e21eeaaa": {
+      "source": "ABC News",
+      "title": "Sex, spies and Silicon Valley: Nvidia scandal highlights risks for big tech",
+      "published": "2026-11-14T19:01:02+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "e113a2c13be9d8c0": {
+      "source": "ABC News",
+      "title": "Experts say Australia appears 'willing to tolerate' rheumatic heart disease",
+      "published": "2026-11-14T19:01:48+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "14c3ff0023a2fcd5": {
+      "source": "ABC News",
+      "title": "Open-source AI like 'a Nazi coach', UN-backed anti-terror group says",
+      "published": "2026-11-14T20:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "6fad946ea1d80000": {
+      "source": "SMH",
+      "title": "How a late father\u2019s early lessons and a mother\u2019s constant presence shaped an AFL draft hopeful",
+      "published": "2026-11-14T20:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "c3caa625588af2ec": {
+      "source": "The Age",
+      "title": "How a late father\u2019s early lessons and a mother\u2019s constant presence shaped an AFL draft hopeful",
+      "published": "2026-11-14T20:00:00+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "6fad946ea1d80000"
+    },
+    "6615430afa0c832e": {
+      "source": "ABC News",
+      "title": "Questions remain whether Victoria's election is tackling the big issues",
+      "published": "2026-11-14T20:06:58+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "b063983523b3d99a": {
+      "source": "ABC News",
+      "title": "Hoffman delivers best Alpine World Cup finish in 27 years",
+      "published": "2026-11-14T20:08:42+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "229c6d4fd00eb503": {
+      "source": "SMH",
+      "title": "An old copper wire in the bush: why the US had to shut down its airspace",
+      "published": "2026-11-14T20:16:35+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "aa8eec7dae5dbe0b": {
+      "source": "The Age",
+      "title": "An old copper wire in the bush: why the US had to shut down its airspace",
+      "published": "2026-11-14T20:16:35+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "229c6d4fd00eb503"
+    },
+    "fca9bcbb4b10e826": {
+      "source": "ABC News",
+      "title": "Bondi terror attack hero Ahmed Al Ahmed one year on",
+      "published": "2026-11-14T20:18:45+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "3a9c6672ca2b65a8": {
+      "source": "SMH",
+      "title": "Man found dead on street in suspected stabbing",
+      "published": "2026-11-14T20:21:32+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "871f1715cc23cebf": {
+      "source": "The Age",
+      "title": "Man found dead on street in suspected stabbing",
+      "published": "2026-11-14T20:21:32+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "3a9c6672ca2b65a8"
+    },
+    "8eea640a4de41871": {
+      "source": "SMH",
+      "title": "More than 5000 US flights grounded following nationwide stoppage",
+      "published": "2026-11-14T20:25:58+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "779f83d95d2a0be7": {
+      "source": "The Age",
+      "title": "More than 5000 US flights grounded following nationwide stoppage",
+      "published": "2026-11-14T20:25:58+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "8eea640a4de41871"
+    },
+    "0d58766a934f4cdd": {
+      "source": "ABC News",
+      "title": "Philippines wins Eurovision Asia, making history",
+      "published": "2026-11-14T20:27:14+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "c016eb9e937869df": {
+      "source": "ABC News",
+      "title": "All Blacks suffer 73-year first in defeat to Wales",
+      "published": "2026-11-14T20:35:19+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "b16c9096246dc0cf": {
+      "source": "ABC News",
+      "title": "Ocean that once covered Flinders Ranges preserved Earth's earliest life",
+      "published": "2026-11-14T20:36:15+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "6becbf25f7127ff1": {
+      "source": "SMH",
+      "title": "Sydney cafe set alight in alleged arson attack",
+      "published": "2026-11-14T20:36:37+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "48c7cc5246a6f156": {
+      "source": "The Age",
+      "title": "Sydney cafe set alight in alleged arson attack",
+      "published": "2026-11-14T20:36:37+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "6becbf25f7127ff1"
+    },
+    "4fe4f684e0e65c78": {
+      "source": "SMH",
+      "title": "Two dead in horror crash in NSW Southern Highlands",
+      "published": "2026-11-14T20:37:51+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "4a6d46e5b06f62f5": {
+      "source": "The Age",
+      "title": "Two dead in horror crash in NSW Southern Highlands",
+      "published": "2026-11-14T20:37:51+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "4fe4f684e0e65c78"
+    },
+    "52f3982eef4f2eee": {
+      "source": "SMH",
+      "title": "Carpenter's stunning assist leads Chelsea to victory",
+      "published": "2026-11-14T20:40:59+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "0552f51626b46c18": {
+      "source": "The Age",
+      "title": "Carpenter's stunning assist leads Chelsea to victory",
+      "published": "2026-11-14T20:40:59+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "52f3982eef4f2eee"
+    },
+    "28aa70210f4d4b26": {
+      "source": "SMH",
+      "title": "Ukrainian president unveils new plan for peace",
+      "published": "2026-11-14T20:52:05+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "c46f096ea932716b": {
+      "source": "The Age",
+      "title": "Ukrainian president unveils new plan for peace",
+      "published": "2026-11-14T20:52:05+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "28aa70210f4d4b26"
+    },
+    "81e6ec36c4b985d1": {
+      "source": "SMH",
+      "title": "Australian travellers prepare for delays after US groundings",
+      "published": "2026-11-14T20:57:56+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "8f01441f0bb359e5": {
+      "source": "The Age",
+      "title": "Australian travellers prepare for delays after US groundings",
+      "published": "2026-11-14T20:57:56+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "81e6ec36c4b985d1"
+    },
+    "98a17a58d69af5a4": {
+      "source": "ABC News",
+      "title": "Nurse offers 'out of the blue' to have surrogate baby for colleague",
+      "published": "2026-11-14T21:04:15+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "f6dff5a186dff9f5": {
+      "source": "ABC News",
+      "title": "The Brisbane buildings made from sandstone touched by dinosaurs",
+      "published": "2026-11-14T21:04:54+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "c4d9bb28895ef221": {
+      "source": "ABC News",
+      "title": "Young Victorian voters torn between disillusionment, optimism",
+      "published": "2026-11-14T21:06:42+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "2aca93df3efda7a9": {
+      "source": "ABC News",
+      "title": "A slowing economy could mean higher youth unemployment, economist warns",
+      "published": "2026-11-14T21:18:23+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "d23e0debfe87efca": {
+      "source": "SMH",
+      "title": "Dozens rescued from water after cruise ship sinks",
+      "published": "2026-11-14T21:22:35+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "a091620229739bbb": {
+      "source": "The Age",
+      "title": "Dozens rescued from water after cruise ship sinks",
+      "published": "2026-11-14T21:22:35+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "d23e0debfe87efca"
+    },
+    "2712ff873c092d79": {
+      "source": "SMH",
+      "title": "CA responds to Warner's 'cover up' claims",
+      "published": "2026-11-14T21:27:39+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "55b3419b8c0955ed": {
+      "source": "The Age",
+      "title": "CA responds to Warner's 'cover up' claims",
+      "published": "2026-11-14T21:27:39+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "2712ff873c092d79"
+    },
+    "2c07e7af6d83a401": {
+      "source": "ABC News",
+      "title": "Carpenter leads Chelsea to victory against Manchester City",
+      "published": "2026-11-14T21:29:32+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "d71f6e4eded42af5": {
+      "source": "SMH",
+      "title": "Wales stun NZ, break 73 year streak",
+      "published": "2026-11-14T21:32:26+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia"
+    },
+    "af778855d02aa948": {
+      "source": "The Age",
+      "title": "Wales stun NZ, break 73 year streak",
+      "published": "2026-11-14T21:32:26+00:00",
+      "first_seen": "2026-11-15T07:59:02.845444+10:00",
+      "category": "australia",
+      "duplicate_of": "d71f6e4eded42af5"
+    },
+    "008172de301c2ba7": {
+      "source": "ScienceDaily",
+      "title": "This 150-million-year-old bird had dinosaur teeth and a strange secret",
+      "published": "2026-10-24T02:42:19+00:00",
+      "first_seen": "2026-11-15T07:59:05.613966+10:00",
+      "category": "archaeology"
+    },
+    "6421a9c00a5acf3f": {
+      "source": "ScienceDaily",
+      "title": "75,000-year-old Neanderthal may have been killed by a spear aimed at the heart",
+      "published": "2026-10-31T11:05:20+00:00",
+      "first_seen": "2026-11-15T07:59:05.613966+10:00",
+      "category": "archaeology"
+    },
+    "d481c538bfaef38b": {
+      "source": "Kicker",
+      "title": "Offenbach patzt in Fulda und verpasst Ann\u00e4herung zur Spitze",
+      "published": "2026-11-14T16:36:46+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
+    },
+    "6eaf8551479a7b53": {
+      "source": "Kicker",
+      "title": "Zumpano trifft direkt nach Wiederanpfiff: Deutsche U 18 siegt in der T\u00fcrkei",
+      "published": "2026-11-14T16:44:10+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
+    },
+    "2366420df9c39d99": {
+      "source": "Kicker",
+      "title": "Amadis Seitfallzieher als kr\u00f6nender Schlusspunkt: VfB L\u00fcbeck bezwingt Norderstedt klar",
+      "published": "2026-11-14T17:30:00+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
+    },
+    "90412443b6ed6f9f": {
+      "source": "Kicker",
+      "title": "Flensburg zur\u00fcck in der Spur und vor\u00fcbergehend auch an der Spitze",
+      "published": "2026-11-14T18:11:16+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
+    },
+    "c440c26e62b38193": {
+      "source": "Kicker",
+      "title": "\u00dcberraschung bei St. Pauli bei der Wahl zum neuen Aufsichtsrat",
+      "published": "2026-11-14T18:32:09+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
+    },
+    "824dcbcaa6d675e4": {
+      "source": "Kicker",
+      "title": "Baumgart hofft auf neue Chance: \"Ich k\u00f6nnte wieder\"",
+      "published": "2026-11-14T18:33:23+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
+    },
+    "fde7454a11e28867": {
+      "source": "Kicker",
+      "title": "Herthas Finanzen: Besser, aber noch nicht gut",
+      "published": "2026-11-14T18:53:21+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
+    },
+    "fcb1bbaa342d1df3": {
+      "source": "Kicker",
+      "title": "Wieder fit: Mbapp\u00e9 kann gegen die T\u00fcrkei spielen",
+      "published": "2026-11-14T19:44:11+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
+    },
+    "1dec4b3f75b7d01f": {
+      "source": "Kicker",
+      "title": "Sp\u00e4te Niederlage: Deutsche U 19 verspielt zwei F\u00fchrungen gegen Portugal",
+      "published": "2026-11-14T20:00:42+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
+    },
+    "c57ebdf3aa1cf439": {
+      "source": "Kicker",
+      "title": "Kritik an Trainer Lerch: Lattwein redet sich in Rage",
+      "published": "2026-11-14T20:28:01+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
+    },
+    "94a46c273c854b58": {
+      "source": "Kicker",
+      "title": "Ges\u00e4nge f\u00fcr CR7, Pfiffe f\u00fcr die Selecao: Portugal unterliegt D\u00e4nemark deutlich",
+      "published": "2026-11-14T21:50:21+00:00",
+      "first_seen": "2026-11-15T07:59:09.065359+10:00",
+      "category": "football"
     }
   }
 }

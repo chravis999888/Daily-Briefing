@@ -2091,13 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-11-15T00:32:46.404306+00:00",
   "article_store": {
-    "6f7ef4430d44ae2a": {
-      "source": "Al Jazeera",
-      "title": "Canary Islands\u2019 El Hierro declares emergency amid migrant, refugee influx",
-      "published": "2026-11-08T01:37:55+00:00",
-      "first_seen": "2026-11-08T11:57:07.347956+10:00",
-      "category": "breaking"
-    },
     "0b44e4b9f67b0e5b": {
       "source": "Al Jazeera",
       "title": "US launches task force to disrupt Iran\u2019s land-based supply routes",
@@ -21333,6 +21326,20 @@
       "published": "2026-11-14T23:29:17+00:00",
       "first_seen": "2026-11-15T11:43:06.596103+10:00",
       "category": "football"
+    },
+    "abb6604cf0664c0e": {
+      "source": "Al Jazeera",
+      "title": "Thailand\u2019s elderly kept in cages",
+      "published": "2026-11-15T01:32:08+00:00",
+      "first_seen": "2026-11-15T12:02:05.711534+10:00",
+      "category": "breaking"
+    },
+    "8d4d13c082bf68db": {
+      "source": "Al Jazeera",
+      "title": "Netanyahu sends plea to Eisenkot for unity government",
+      "published": "2026-11-15T01:33:11+00:00",
+      "first_seen": "2026-11-15T12:02:05.711534+10:00",
+      "category": "breaking"
     }
   }
 }

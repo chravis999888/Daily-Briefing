@@ -2089,148 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-15T07:22:36.824888+00:00",
+  "last_gdelt_attempt": "2026-11-15T09:44:27.641654+00:00",
   "article_store": {
-    "267c69122cfd80e7": {
-      "source": "BBC News",
-      "title": "Town crier crowned one of the world's loudest women",
-      "published": "2026-11-04T05:56:31+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "ec8784d366804a3d": {
-      "source": "BBC News",
-      "title": "'We have our own fair playing field': 1Xtra launches first ever UK rap chart",
-      "published": "2026-11-06T12:37:58+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "15dcc117e2e9b7cf": {
-      "source": "Al Jazeera",
-      "title": "Earthquake hits central Japan, injuring more than 20 people",
-      "published": "2026-11-08T04:20:57+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "128ea2158d184264": {
-      "source": "Al Jazeera",
-      "title": "Drone attack on Colombian army base kills three soldiers and wounds 16",
-      "published": "2026-11-08T04:56:37+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "59c1609fb8921cd1": {
-      "source": "Al Jazeera",
-      "title": "Plane clips truck during emergency landing on busy Florida road",
-      "published": "2026-11-08T04:59:02+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "a868bf6c03859df4": {
-      "source": "Al Jazeera",
-      "title": "Haitians cheer El Salvador\u2019s Bukele amid gang war",
-      "published": "2026-11-08T05:09:39+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "0a76649e9761ccdf": {
-      "source": "Al Jazeera",
-      "title": "There is reason to hope that the Democrats might deliver this time",
-      "published": "2026-11-08T06:39:33+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "b794d7ce6ae37bde": {
-      "source": "Al Jazeera",
-      "title": "Is unconditional support for Israel becoming a liability for Republicans?",
-      "published": "2026-11-08T06:52:14+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "5e175f27a12ad7cf": {
-      "source": "Al Jazeera",
-      "title": "Photos: Heavy rains leave tens of thousands without shelter in Gaza",
-      "published": "2026-11-08T06:55:24+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "5c200f7f1dc7f274": {
-      "source": "Al Jazeera",
-      "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh, Eastern province",
-      "published": "2026-11-08T07:40:07+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "517708830ae42368": {
-      "source": "Al Jazeera",
-      "title": "As AI data centres guzzle energy, can we harness their wasted heat?",
-      "published": "2026-11-08T08:17:12+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "79e44a99e97acfdf": {
-      "source": "Al Jazeera",
-      "title": "Mapping how France\u2019s protest wave spread across Europe",
-      "published": "2026-11-08T08:18:38+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "4e09dd6d44b79814": {
-      "source": "Al Jazeera",
-      "title": "US military attacks cargo ship in the Gulf of Oman",
-      "published": "2026-11-08T08:24:37+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "9b5a381b7c76440f": {
-      "source": "Al Jazeera",
-      "title": "Hossam Hassan sacked as Egypt head coach over ex-wife scandal",
-      "published": "2026-11-08T08:42:16+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "aa9fb7c8bc168d33": {
-      "source": "Al Jazeera",
-      "title": "The anti-Netanyahu: Can Gadi Eisenkot give the world a different Israel?",
-      "published": "2026-11-08T08:47:36+00:00",
-      "first_seen": "2026-11-08T19:19:42.756982+10:00",
-      "category": "breaking"
-    },
-    "501ddf3ecb96e05b": {
-      "source": "Al Jazeera",
-      "title": "\u2018Don\u2019t bring your camera\u2019: Filmmakers face extortion in Lagos",
-      "published": "2026-11-08T08:56:04+00:00",
-      "first_seen": "2026-11-08T19:43:24.868374+10:00",
-      "category": "breaking"
-    },
-    "a006614f9ebe3b12": {
-      "source": "Al Jazeera",
-      "title": "Khawaja denies throwing \u2018anyone under the bus\u2019 over Sandpapergate scandal",
-      "published": "2026-11-08T08:57:45+00:00",
-      "first_seen": "2026-11-08T19:43:24.868374+10:00",
-      "category": "breaking"
-    },
-    "7ad41c3f6786a4a0": {
-      "source": "Al Jazeera",
-      "title": "Rent-a-grandchild: Businesses offering companions to elderly grow in India",
-      "published": "2026-11-08T08:57:49+00:00",
-      "first_seen": "2026-11-08T19:43:24.868374+10:00",
-      "category": "breaking"
-    },
-    "6935444fd3ff7716": {
-      "source": "Al Jazeera",
-      "title": "Former Palestinian detainees at mercy of Israel amid perpetual detention",
-      "published": "2026-11-08T09:09:59+00:00",
-      "first_seen": "2026-11-08T19:43:24.868374+10:00",
-      "category": "breaking"
-    },
-    "6729df2677d63618": {
-      "source": "BBC News",
-      "title": "How the deadly shooting in Krakow unfolded",
-      "published": "2026-11-08T09:29:24+00:00",
-      "first_seen": "2026-11-08T19:43:24.868374+10:00",
-      "category": "breaking"
-    },
     "79a929825c3219b2": {
       "source": "BBC News",
       "title": "Hampshire woman, 101, gets Ohio birthday card in mayoral mix-up",
@@ -21501,6 +21361,20 @@
       "published": "2026-11-15T08:00:27+00:00",
       "first_seen": "2026-11-15T18:50:21.611098+10:00",
       "category": "football"
+    },
+    "61e858b6561773fa": {
+      "source": "Al Jazeera",
+      "title": "India pulled 500m people out of poverty. Many of them still barely survive",
+      "published": "2026-11-15T08:49:47+00:00",
+      "first_seen": "2026-11-15T19:44:45.088967+10:00",
+      "category": "breaking"
+    },
+    "2733683ba5f17e3b": {
+      "source": "Al Jazeera",
+      "title": "What forced the US to ground all planes? A router switch, we now know",
+      "published": "2026-11-15T09:17:49+00:00",
+      "first_seen": "2026-11-15T19:44:45.088967+10:00",
+      "category": "breaking"
     }
   }
 }

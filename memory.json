@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-16T04:50:06.765232+00:00",
+  "last_gdelt_attempt": "2026-11-16T07:01:34.660995+00:00",
   "article_store": {
     "3cc05c74e0447a30": {
       "source": "Al Jazeera",
@@ -20892,6 +20892,76 @@
       "published": "2026-11-15T23:19:08+00:00",
       "first_seen": "2026-11-16T14:50:33.648826+10:00",
       "category": "football"
+    },
+    "c205c4ca4caca511": {
+      "source": "BBC News",
+      "title": "How did England cling on against Spain and what did Tuchel do differently?",
+      "published": "2026-11-16T00:02:22+00:00",
+      "first_seen": "2026-11-16T17:01:55.163554+10:00",
+      "category": "breaking"
+    },
+    "d2b825d0bd77f6b8": {
+      "source": "Al Jazeera",
+      "title": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
+      "published": "2026-11-16T04:46:49+00:00",
+      "first_seen": "2026-11-16T17:01:55.163554+10:00",
+      "category": "breaking"
+    },
+    "9dad6580412c3641": {
+      "source": "Al Jazeera",
+      "title": "Iraqi armed group denies involvement in oil smuggling, calls probe a \u2018lie\u2019",
+      "published": "2026-11-16T04:53:42+00:00",
+      "first_seen": "2026-11-16T17:01:55.163554+10:00",
+      "category": "breaking"
+    },
+    "a08aca71dd59291d": {
+      "source": "Al Jazeera",
+      "title": "Widow of Haiti\u2019s slain leader Moise to contest presidential vote",
+      "published": "2026-11-16T05:38:52+00:00",
+      "first_seen": "2026-11-16T17:01:55.163554+10:00",
+      "category": "breaking"
+    },
+    "da3e8be7adcb6f62": {
+      "source": "Al Jazeera",
+      "title": "US and rivals spar over next UN boss as race lurches towards deadline",
+      "published": "2026-11-16T05:57:54+00:00",
+      "first_seen": "2026-11-16T17:01:55.163554+10:00",
+      "category": "breaking"
+    },
+    "b3bc704ffe4f20c6": {
+      "source": "BBC News",
+      "title": "'I'd throw up in the car park': How school anxiety is harming children's futures",
+      "published": "2026-11-16T06:01:33+00:00",
+      "first_seen": "2026-11-16T17:01:55.163554+10:00",
+      "category": "breaking"
+    },
+    "61fff4aea7246824": {
+      "source": "BBC News",
+      "title": "'It felt like I was dying': Why some teenagers don't go to school",
+      "published": "2026-11-16T06:02:44+00:00",
+      "first_seen": "2026-11-16T17:01:55.163554+10:00",
+      "category": "breaking"
+    },
+    "331478d7fba26d9c": {
+      "source": "BBC News",
+      "title": "Workers should get paid time off to train for crises, say peers",
+      "published": "2026-11-16T06:04:24+00:00",
+      "first_seen": "2026-11-16T17:01:55.163554+10:00",
+      "category": "breaking"
+    },
+    "869dcbb5815c9868": {
+      "source": "BBC News",
+      "title": "Gas starts flowing from Jackdaw after government green light",
+      "published": "2026-11-16T06:24:08+00:00",
+      "first_seen": "2026-11-16T17:01:55.163554+10:00",
+      "category": "breaking"
+    },
+    "3aaf7056fc6c7b29": {
+      "source": "BBC News",
+      "title": "UK lost more than it gained from Brexit, Burnham to say ahead of EU summit",
+      "published": "2026-11-16T06:56:15+00:00",
+      "first_seen": "2026-11-16T17:01:55.163554+10:00",
+      "category": "breaking"
     }
   }
 }

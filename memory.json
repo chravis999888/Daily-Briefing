@@ -2091,139 +2091,6 @@
   },
   "last_gdelt_attempt": "2026-11-16T17:18:31.216682+00:00",
   "article_store": {
-    "6bf4cd2a96514bbd": {
-      "source": "BBC News",
-      "title": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
-      "published": "2026-11-09T14:50:35+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "1612b62157c8e746": {
-      "source": "Al Jazeera",
-      "title": "Los Angeles mayoral race points to growing sway of democratic socialists",
-      "published": "2026-11-09T15:05:22+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "2b99a8fbe0ef29fc": {
-      "source": "Al Jazeera",
-      "title": "IRGC strikes three tankers near Hormuz over \u2018US links\u2019",
-      "published": "2026-11-09T15:10:20+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "584e3403f49226f6": {
-      "source": "BBC News",
-      "title": "Watch: Moment judge sentences Brand in court",
-      "published": "2026-11-09T15:18:04+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "d91b7aa007bacbd9": {
-      "source": "BBC News",
-      "title": "Ground Force and Homes Under the Hammer star Tommy Walsh dies aged 69",
-      "published": "2026-11-09T15:27:00+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "219d1d4ff9c1dcec": {
-      "source": "Al Jazeera",
-      "title": "Senegal human rights group demands government action after deadly sinking",
-      "published": "2026-11-09T15:30:09+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "eaf3c5a51faac9bc": {
-      "source": "Al Jazeera",
-      "title": "Trump says Iran is sealed off. But can new US task force stop weapons flow?",
-      "published": "2026-11-09T15:31:37+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "c5c7ae78b0e8330a": {
-      "source": "Al Jazeera",
-      "title": "More than 50,000 displaced by deadly Ethiopia border clashes",
-      "published": "2026-11-09T15:55:27+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "5f5199e1bee684f5": {
-      "source": "Al Jazeera",
-      "title": "Nvidia shares slump amid investigation into CEO Jensen Huang",
-      "published": "2026-11-09T16:00:10+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "cd98d010ad0f99f9": {
-      "source": "Al Jazeera",
-      "title": "Man uses excavator to destroy Chinese government building",
-      "published": "2026-11-09T16:15:04+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "3ef4b5048ade78e8": {
-      "source": "Al Jazeera",
-      "title": "Israel\u2019s Shin Bet finds no evidence of foreign election meddling: Report",
-      "published": "2026-11-09T16:18:28+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "5cdffa7d5ccb416f": {
-      "source": "Al Jazeera",
-      "title": "France accuses Iran of cyberattack on supermarket fridges",
-      "published": "2026-11-09T16:33:33+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "ce0cfa4122c224f1": {
-      "source": "BBC News",
-      "title": "Poundland unable to buy new stock as fears over collapse grow",
-      "published": "2026-11-09T16:46:40+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "9e40fa0a5d628b00": {
-      "source": "Al Jazeera",
-      "title": "Al Jazeera tries skateboarding at Youth Olympics",
-      "published": "2026-11-09T16:48:34+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "378762c45f75e88a": {
-      "source": "BBC News",
-      "title": "France accuses Iran of supermarket fridge hacking",
-      "published": "2026-11-09T16:55:07+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "2e1ab1557898d9bb": {
-      "source": "BBC News",
-      "title": "Men recruited to French gang as children to kill give rare insight into drug underworld",
-      "published": "2026-11-09T16:59:46+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "0780cdd3f8ee8ea9": {
-      "source": "BBC News",
-      "title": "Civil servant who secretly held five jobs found guilty of fraud",
-      "published": "2026-11-09T17:17:16+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "517770c4da176e2b": {
-      "source": "Al Jazeera",
-      "title": "Israeli tourists spark outrage over video pushing tour guide into sea",
-      "published": "2026-11-09T17:17:39+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
-    "d920cff797a140e5": {
-      "source": "BBC News",
-      "title": "Russell Brand sentenced to 10-and-a-half years in prison for rape and sexual assault",
-      "published": "2026-11-09T17:31:08+00:00",
-      "first_seen": "2026-11-10T03:44:05.682905+10:00",
-      "category": "breaking"
-    },
     "3393cc40aeb8ebf7": {
       "source": "BBC News",
       "title": "Electrical items caused fatal fire, inquest hears",
@@ -20854,6 +20721,97 @@
       "title": "Lindsay Clancy to face retrial next year for deaths of her three children",
       "published": "2026-11-16T17:00:46+00:00",
       "first_seen": "2026-11-17T03:18:56.490882+10:00",
+      "category": "breaking"
+    },
+    "72a6c1de192874d5": {
+      "source": "BBC News",
+      "title": "The Scouse actor reaching new heights in Liverpool drama This City Is Ours",
+      "published": "2026-11-16T12:12:39+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "58988305f6e2e213": {
+      "source": "Al Jazeera",
+      "title": "Jerusalem Daily: Eisenkot wants Netanyahu out",
+      "published": "2026-11-16T16:56:46+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "3768223217db8f89": {
+      "source": "Al Jazeera",
+      "title": "Israeli forces demolish the homes of two Palestinian prisoners",
+      "published": "2026-11-16T16:56:54+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "dcc12d0755fc3478": {
+      "source": "Al Jazeera",
+      "title": "Iran braces for natural gas shortages during winter energy imbalance",
+      "published": "2026-11-16T16:58:46+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "e70d9a6a676fc71f": {
+      "source": "Al Jazeera",
+      "title": "Trump denies responsibility for FAA nationwide ground stop",
+      "published": "2026-11-16T17:08:10+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "41cc28fc0481750d": {
+      "source": "Al Jazeera",
+      "title": "LIVE: Germany vs Netherlands \u2013 UEFA Nations League",
+      "published": "2026-11-16T17:15:12+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "a5493df6b84f58db": {
+      "source": "Al Jazeera",
+      "title": "Iraq deploys army to stronghold of Iran-backed Kataib Hezbollah",
+      "published": "2026-11-16T17:18:14+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "4b6cc1e3f95b6f55": {
+      "source": "BBC News",
+      "title": "As new Bond, Pattinson takes on one of film's most high-profile roles",
+      "published": "2026-11-16T17:18:54+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "de1202e6ef247ff2": {
+      "source": "Al Jazeera",
+      "title": "Silicon Valley insiders urge Nvidia to restore Jensen Huang\u2019s CEO role",
+      "published": "2026-11-16T17:24:26+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "05848712581a105c": {
+      "source": "Al Jazeera",
+      "title": "Israeli court upholds detention of Palestinian land activist Ghassan Najjar",
+      "published": "2026-11-16T17:49:16+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "c4c4401710d38aaf": {
+      "source": "Al Jazeera",
+      "title": "Cargo ship capsizes off Bulgaria\u2019s Black Sea coast",
+      "published": "2026-11-16T17:54:31+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "2fd3896e3a884445": {
+      "source": "Al Jazeera",
+      "title": "British actor Robert Pattinson named as new James Bond",
+      "published": "2026-11-16T18:13:14+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
+      "category": "breaking"
+    },
+    "27a2d906930cfbc8": {
+      "source": "Al Jazeera",
+      "title": "Abdul El-Sayed\u2019s victory is a blow to the politics of Islamophobia",
+      "published": "2026-11-16T18:38:16+00:00",
+      "first_seen": "2026-11-17T04:46:02.094606+10:00",
       "category": "breaking"
     }
   }

@@ -2089,253 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-17T07:37:46.806086+00:00",
+  "last_gdelt_attempt": "2026-11-17T13:43:12.505335+00:00",
   "article_store": {
-    "63d295a0453110ab": {
-      "source": "BBC News",
-      "title": "Divorced after five days: 'My sham husband made me believe he loved me'",
-      "published": "2026-11-10T06:13:46+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "c1f7912eaae49529": {
-      "source": "BBC News",
-      "title": "Meet Stephanie Case - the first woman to run 100 miles in Antarctica",
-      "published": "2026-11-10T06:20:04+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "6cfcda2fdd3473f1": {
-      "source": "Al Jazeera",
-      "title": "Palestine Weekly: West Bank on fire \u2013 and Gaza\u2019s tents under water",
-      "published": "2026-11-10T06:37:13+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "8b3a7be30b028255": {
-      "source": "Al Jazeera",
-      "title": "Why adults are buying toys",
-      "published": "2026-11-10T06:38:57+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "d82da17630bffac3": {
-      "source": "Al Jazeera",
-      "title": "Australia tightens AI oversight rules after OpenAI government breach",
-      "published": "2026-11-10T07:05:11+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "47dc68f80d75a7f0": {
-      "source": "Al Jazeera",
-      "title": "US moves aircraft from second UK base over \u2018threat from Iran\u2019",
-      "published": "2026-11-10T08:08:24+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "3869a4605ef44664": {
-      "source": "Al Jazeera",
-      "title": "What powers does Netanyahu have as Israel\u2019s interim PM?",
-      "published": "2026-11-10T08:38:11+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "30b45508b039ec64": {
-      "source": "Al Jazeera",
-      "title": "California voters reject billionaire tax",
-      "published": "2026-11-10T08:38:26+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "6a37241f389f29bd": {
-      "source": "Al Jazeera",
-      "title": "UFC CEO Dana White takes the White House podium during Washington visit",
-      "published": "2026-11-10T08:49:25+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "1c097c9713d9b161": {
-      "source": "Al Jazeera",
-      "title": "Are your supplements fake?",
-      "published": "2026-11-10T09:09:09+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "c95056dc4dbc835c": {
-      "source": "BBC News",
-      "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
-      "published": "2026-11-10T09:23:55+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "23666c3ce4f7a7f8": {
-      "source": "Al Jazeera",
-      "title": "Three workers die at Tata\u2019s iPhone parts plant in India\u2019s Tamil Nadu",
-      "published": "2026-11-10T09:29:54+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "c9d81694cf22662a": {
-      "source": "Al Jazeera",
-      "title": "Nvidia spy scandal fuels debate over chip exports to China",
-      "published": "2026-11-10T09:42:04+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "daa665d3dc906766": {
-      "source": "Al Jazeera",
-      "title": "What is Hasina\u2019s game plan as she seeks a passport to return to Bangladesh?",
-      "published": "2026-11-10T09:46:43+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "729ac217b1eedcd3": {
-      "source": "BBC News",
-      "title": "Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash",
-      "published": "2026-11-10T09:57:49+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "0e65a026eb0b8639": {
-      "source": "Al Jazeera",
-      "title": "Pakistan TV anchor allegedly shot dead at home by her husband",
-      "published": "2026-11-10T10:10:32+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "2e10c66b71fed0fe": {
-      "source": "BBC News",
-      "title": "Meghan joins Harry in Brussels in first public appearance since father's arrest",
-      "published": "2026-11-10T10:30:32+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "966524862c93344b": {
-      "source": "BBC News",
-      "title": "Edinburgh Academy pupils suffered decades of 'dreadful abuse'",
-      "published": "2026-11-10T10:33:31+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "153204975daea1bf": {
-      "source": "BBC News",
-      "title": "US military aircraft leave second UK base",
-      "published": "2026-11-10T10:37:35+00:00",
-      "first_seen": "2026-11-10T20:38:17.531161+10:00",
-      "category": "breaking"
-    },
-    "6dd1130a05de1be2": {
-      "source": "BBC News",
-      "title": "Cast your vote for BBC Women's Footballer of the Year 2026",
-      "published": "2026-11-10T06:24:50+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "157c646593080bb3": {
-      "source": "BBC News",
-      "title": "Watch: Man smashes Chinese government building with excavator",
-      "published": "2026-11-10T09:37:15+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "913981ee8c85c13c": {
-      "source": "Al Jazeera",
-      "title": "UK author M John Harrison\u2019s End of Everything wins Booker Prize",
-      "published": "2026-11-10T10:22:35+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "97e46ac868b9cd1a": {
-      "source": "Al Jazeera",
-      "title": "Humanoid robot takes on Antarctic ultra-marathon\u2026 and fails",
-      "published": "2026-11-10T10:30:35+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "fb787cd5b4a08519": {
-      "source": "Al Jazeera",
-      "title": "France summons Iran\u2019s ambassador over supermarket fridge \u2018sabotage\u2019",
-      "published": "2026-11-10T10:51:02+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "0637fd77db316c45": {
-      "source": "Al Jazeera",
-      "title": "Moroccan trio make African Player of Year shortlist as Salah absent",
-      "published": "2026-11-10T11:05:20+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "e02a39eb80e05a30": {
-      "source": "Al Jazeera",
-      "title": "Who moves first in Iran-US diplomacy?",
-      "published": "2026-11-10T11:14:16+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "3d0469fe835ddc02": {
-      "source": "Al Jazeera",
-      "title": "Malaysian court clears former PM Najib Razak for house arrest transfer",
-      "published": "2026-11-10T11:17:36+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "27ad6b26a63d9bb8": {
-      "source": "BBC News",
-      "title": "Sales of tinned food and bottled water  jump after 'Be Ready' campaign launch",
-      "published": "2026-11-10T11:43:06+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "54bc21719ae25f74": {
-      "source": "BBC News",
-      "title": "Met Police investigate several reports on Russell Brand following his conviction",
-      "published": "2026-11-10T11:44:31+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "669abb99a99725b2": {
-      "source": "Al Jazeera",
-      "title": "Trump says Israel, Gulf allies must repay Iran war cost: What does it mean?",
-      "published": "2026-11-10T11:52:34+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "797b64c68328ee9d": {
-      "source": "BBC News",
-      "title": "Watch: Meghan's first public appearance since father arrested",
-      "published": "2026-11-10T11:57:14+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "5427bb838e5b0e6f": {
-      "source": "Al Jazeera",
-      "title": "Ohio State suspends fraternity after video shows two people on fire",
-      "published": "2026-11-10T12:07:13+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "76cb5fa6d8b3bb91": {
-      "source": "Al Jazeera",
-      "title": "GCC agrees to set up advanced military command headquarters in Kuwait",
-      "published": "2026-11-10T12:09:54+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "a5c1e4d216530967": {
-      "source": "BBC News",
-      "title": "Israel's new parliament to be sworn in as leaders compete to form government",
-      "published": "2026-11-10T12:25:48+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
-    "12593add9ede4203": {
-      "source": "BBC News",
-      "title": "How did Mildenhall become crucial to the US Air Force?",
-      "published": "2026-11-10T12:44:12+00:00",
-      "first_seen": "2026-11-10T22:53:02.269426+10:00",
-      "category": "breaking"
-    },
     "dde46fb18363f2e6": {
       "source": "BBC News",
       "title": "Football Manager introduces wheelchair-using boss in boost to video game representation",
@@ -20855,6 +20610,230 @@
       "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
       "published": "2026-11-17T08:12:06+00:00",
       "first_seen": "2026-11-17T18:42:27.786512+10:00",
+      "category": "breaking"
+    },
+    "aa840b6fdd19036a": {
+      "source": "BBC News",
+      "title": "BBC launches programme for children forced from school by bandits and poverty in West Africa",
+      "published": "2026-11-17T00:08:19+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "e37a4cb6b368a2c7": {
+      "source": "BBC News",
+      "title": "BBC tracks down businessman at centre of council scandal",
+      "published": "2026-11-17T06:20:16+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "d91b9a9f9823b2c3": {
+      "source": "BBC News",
+      "title": "The Briton scouted while watching a friend, now on the brink of the NFL",
+      "published": "2026-11-17T06:43:42+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "4d8e53aaa2053f33": {
+      "source": "Al Jazeera",
+      "title": "Afghanistan women defy Taliban ban to pursue their ambitions in secret",
+      "published": "2026-11-17T09:53:31+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "89987e98d030addb": {
+      "source": "BBC News",
+      "title": "Woman who accuses Russell Brand of rape says prison message 'upsetting'",
+      "published": "2026-11-17T10:11:00+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "6124541e9df8ab1b": {
+      "source": "Al Jazeera",
+      "title": "US President Trump arrives in Manila ahead of ASEAN summit",
+      "published": "2026-11-17T10:13:12+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "9f5c56ac22921a0e": {
+      "source": "BBC News",
+      "title": "Will President Trump meet Kim Jong Un in China?",
+      "published": "2026-11-17T10:13:27+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "876fbbb7b005c1bc": {
+      "source": "Al Jazeera",
+      "title": "Why are five EU countries reviving plans to deport migrants to Rwanda?",
+      "published": "2026-11-17T10:22:52+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "cafdef69cef3f420": {
+      "source": "Al Jazeera",
+      "title": "Fomula One champion Fernando Alonso to race at Dakar Rally 2027",
+      "published": "2026-11-17T10:42:42+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "d12f7fa1da8f56f0": {
+      "source": "Al Jazeera",
+      "title": "Who is behind Habibi UK, an X account that targeted critics of Israel?",
+      "published": "2026-11-17T10:53:42+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "5e52480aa7816bc2": {
+      "source": "Al Jazeera",
+      "title": "Bangladesh police clash with garment workers amid protests over wages",
+      "published": "2026-11-17T11:06:12+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "f31344f6428de074": {
+      "source": "Al Jazeera",
+      "title": "Is Pakistan about to carve out new provinces? Inside the controversial plan",
+      "published": "2026-11-17T11:17:07+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "59001e8c61f14359": {
+      "source": "Al Jazeera",
+      "title": "Vessels on fire after naval mine hit in Hormuz Strait, Iran says",
+      "published": "2026-11-17T11:19:04+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "0825fbc336892774": {
+      "source": "BBC News",
+      "title": "Watch: What's in the Milburn review?",
+      "published": "2026-11-17T11:30:06+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "d3c44b06f47319a4": {
+      "source": "BBC News",
+      "title": "At a glance: Key proposals from Milburn's Neets report",
+      "published": "2026-11-17T11:31:40+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "5c111ea6db926767": {
+      "source": "Al Jazeera",
+      "title": "Ukrainian breaks world record for deepest competitive freedive",
+      "published": "2026-11-17T11:37:13+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "383e92f5f27f9562": {
+      "source": "Al Jazeera",
+      "title": "Rebeca Grynspan could be the UN\u2019s first woman boss, if she can sway Trump",
+      "published": "2026-11-17T11:49:39+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "03d8018d72b5151f": {
+      "source": "Al Jazeera",
+      "title": "India vs Pakistan live: SAFF Championship final",
+      "published": "2026-11-17T12:00:00+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "fff511ac817e891d": {
+      "source": "Al Jazeera",
+      "title": "Mozambique\u2019s opposition leader stands trial over deadly 2024 protests",
+      "published": "2026-11-17T12:10:53+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "f1b71069a2cb4bf4": {
+      "source": "Al Jazeera",
+      "title": "Trump addresses Quad leaders at first summit since 2024",
+      "published": "2026-11-17T12:25:33+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "62cc1bc1a9a600f9": {
+      "source": "Al Jazeera",
+      "title": "Is the US-Israel war on Iran turning into a \u2018frozen conflict\u2019?",
+      "published": "2026-11-17T12:33:51+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "240f2e8bd498b455": {
+      "source": "Al Jazeera",
+      "title": "How is US Senate majority leader chosen?",
+      "published": "2026-11-17T12:38:39+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "5b03668b72a320df": {
+      "source": "Al Jazeera",
+      "title": "Iranians fear more civilian infrastructure could be targeted in new US war",
+      "published": "2026-11-17T12:50:12+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "ebc3d6ac24adc105": {
+      "source": "Al Jazeera",
+      "title": "Brazil defeat Singapore 7-0 as Vinicius scores first-half hat-trick",
+      "published": "2026-11-17T12:54:04+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "26c8ffc003abe951": {
+      "source": "BBC News",
+      "title": "Trump lands in Asia ahead of talks with Russian and Chinese presidents",
+      "published": "2026-11-17T12:54:32+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "14e693c49f5f3a31": {
+      "source": "Al Jazeera",
+      "title": "Usman Nurmagomedov released from UAE prison after hotel brawl arrest",
+      "published": "2026-11-17T12:55:07+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "38d8f9a840697731": {
+      "source": "BBC News",
+      "title": "Speed camera fault may have allowed drivers to escape fines",
+      "published": "2026-11-17T13:03:30+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "b139aa95acb8e027": {
+      "source": "Al Jazeera",
+      "title": "Why do governments switch off the internet?",
+      "published": "2026-11-17T13:03:39+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "ca49000cc2841e4e": {
+      "source": "Al Jazeera",
+      "title": "Infantino\u2019s FIFA challenger Diallo claims to have support beyond Europe",
+      "published": "2026-11-17T13:09:31+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "40eecc5b10757dd4": {
+      "source": "BBC News",
+      "title": "UK sanctions firms over Israeli West Bank settlements",
+      "published": "2026-11-17T13:10:06+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "d92750cd95c04acf": {
+      "source": "BBC News",
+      "title": "Batman to James Bond: The clues about what to expect from Robert Pattinson's 007",
+      "published": "2026-11-17T13:15:38+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
+      "category": "breaking"
+    },
+    "463e547bacae8014": {
+      "source": "BBC News",
+      "title": "Why Milburn's Neets reforms will only save \u00a3200m a year by 2036",
+      "published": "2026-11-17T13:15:59+00:00",
+      "first_seen": "2026-11-17T23:43:42.084284+10:00",
       "category": "breaking"
     }
   }

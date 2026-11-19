@@ -2089,218 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-19T08:11:27.051202+00:00",
+  "last_gdelt_attempt": "2026-11-19T10:36:10.814535+00:00",
   "article_store": {
-    "5c55e8281dd54208": {
-      "source": "BBC News",
-      "title": "Survivor pulled from rubble of deadly building collapse in New York",
-      "published": "2026-11-12T02:33:12+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "5667e859e6b309cf": {
-      "source": "Al Jazeera",
-      "title": "Amnesty says UN, South Sudan officials failed to prevent village massacre",
-      "published": "2026-11-12T04:00:24+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "623751c481771489": {
-      "source": "BBC News",
-      "title": "Media industry could be forced to improve safeguards after Walliams allegations",
-      "published": "2026-11-12T04:01:50+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "45db3369827d679a": {
-      "source": "Al Jazeera",
-      "title": "Iran\u2019s chief negotiator tells Al Jazeera \u2018ball in US court\u2019",
-      "published": "2026-11-12T04:19:55+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "9d5b135d51e6e77f": {
-      "source": "Al Jazeera",
-      "title": "Bolivia arrests former judge on suspicion of drug trafficking",
-      "published": "2026-11-12T04:40:25+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "348ab95ba612e5d3": {
-      "source": "Al Jazeera",
-      "title": "Fighting intensifies in Yemen as Houthis deny targeting Mecca",
-      "published": "2026-11-12T04:41:17+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "43672f7cf8aae1cb": {
-      "source": "Al Jazeera",
-      "title": "More than 300 migrants rescued off Spain\u2019s Canary Islands",
-      "published": "2026-11-12T05:04:25+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "5ac21c9b8dd83e8d": {
-      "source": "Al Jazeera",
-      "title": "French guard collapses as Macron rushes to help",
-      "published": "2026-11-12T05:11:15+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "23f617fbcabba0cb": {
-      "source": "BBC News",
-      "title": "Man arrested after sexual assaults at University of Huddersfield",
-      "published": "2026-11-12T06:13:44+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "38f025f64caf1814": {
-      "source": "Al Jazeera",
-      "title": "From Pong to GTA VI: Play your way through 50 years of video games",
-      "published": "2026-11-12T06:17:48+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "4580fba0b7432386": {
-      "source": "Al Jazeera",
-      "title": "It is time for a change of leadership in the Democratic Party in the US",
-      "published": "2026-11-12T06:26:01+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "7c0bbfd655b70bec": {
-      "source": "Al Jazeera",
-      "title": "Sheikh Hasina must return to Bangladesh to face her sentence",
-      "published": "2026-11-12T06:37:06+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "f1335337d1b62efd": {
-      "source": "Al Jazeera",
-      "title": "Indonesia vice president resigns amid dispute over eligibility",
-      "published": "2026-11-12T06:38:01+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "554dbe9998f0e4df": {
-      "source": "Al Jazeera",
-      "title": "Netanyahu\u2019s legacy: Personality politics reshapes Israeli democracy",
-      "published": "2026-11-12T06:49:45+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "68de82384ab49451": {
-      "source": "Al Jazeera",
-      "title": "Pope Leo welcomed by millions in his second \u2018homeland\u2019 of Peru",
-      "published": "2026-11-12T07:37:42+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "8f8a13430d90cc53": {
-      "source": "Al Jazeera",
-      "title": "Iran open to deal if US \u2018refrains from excessive demands\u2019, says Ghalibaf",
-      "published": "2026-11-12T07:38:05+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "f074029439bf683b": {
-      "source": "BBC News",
-      "title": "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
-      "published": "2026-11-12T07:59:33+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "af12ad15220a5a71": {
-      "source": "Al Jazeera",
-      "title": "Photos: Protesters clash with police after housing cost rallies in Spain",
-      "published": "2026-11-12T08:01:29+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "5968731e3530a6cc": {
-      "source": "Al Jazeera",
-      "title": "Mississippi elects first Black Senator since 1874",
-      "published": "2026-11-12T08:12:40+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "f7e25abf3a7d31b0": {
-      "source": "BBC News",
-      "title": "Watch: 'Life-changing moment' boy turns on Tourette syndrome device to help stop tics",
-      "published": "2026-11-12T08:27:02+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "19edae332e945183": {
-      "source": "Al Jazeera",
-      "title": "Xi Jinping says Taiwan \u2018reunification\u2019 with China must happen",
-      "published": "2026-11-12T08:34:45+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "3d1b1518d76109d5": {
-      "source": "Al Jazeera",
-      "title": "Ten police officers, 18 fighters killed in northwest Pakistan attack",
-      "published": "2026-11-12T08:35:20+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "7e9137389afafe55": {
-      "source": "Al Jazeera",
-      "title": "India bypasses own rules to buy Israeli phone-hacking tech",
-      "published": "2026-11-12T08:40:08+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "8fbc71d19e2ee03c": {
-      "source": "Al Jazeera",
-      "title": "US envoys arrive in Moscow for Russia-Ukraine talks with Putin",
-      "published": "2026-11-12T09:01:24+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "47cbfa2882875f25": {
-      "source": "BBC News",
-      "title": "Cold health alerts begin as surge of Arctic air sees temperatures plummet",
-      "published": "2026-11-12T09:01:52+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "a15402b552fd37d3": {
-      "source": "BBC News",
-      "title": "Was Delhi pollution data during Diwali misleading?",
-      "published": "2026-11-12T09:01:56+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "4796cf193e48d9b4": {
-      "source": "Al Jazeera",
-      "title": "From the UK to the Gulf, are US overseas bases becoming liabilities?",
-      "published": "2026-11-12T09:38:00+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "d497c571510e0024": {
-      "source": "BBC News",
-      "title": "Oil spill closes 18 beaches across Kent",
-      "published": "2026-11-12T09:38:36+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "f3c5272ca1471829": {
-      "source": "BBC News",
-      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-      "published": "2026-11-12T09:43:11+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
-    "dd2e720e9d97f4ca": {
-      "source": "BBC News",
-      "title": "Democrat Scott Colom makes history as Mississippi elects first black senator for 150 years",
-      "published": "2026-11-12T10:02:32+00:00",
-      "first_seen": "2026-11-12T20:04:08.482909+10:00",
-      "category": "breaking"
-    },
     "228ba8d03cc84cbc": {
       "source": "BBC News",
       "title": "Why did a day off for Finland's embassy in Australia go viral?",
@@ -20756,6 +20546,41 @@
       "published": "2026-11-19T08:54:01+00:00",
       "first_seen": "2026-11-19T19:54:00.604461+10:00",
       "category": "football"
+    },
+    "2562c9bfb050d95c": {
+      "source": "BBC News",
+      "title": "Parents live in fear paedophile nursery worker harmed their children",
+      "published": "2026-11-19T06:12:41+00:00",
+      "first_seen": "2026-11-19T20:36:39.461706+10:00",
+      "category": "breaking"
+    },
+    "cc4395e2f36829bd": {
+      "source": "BBC News",
+      "title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
+      "published": "2026-11-19T09:02:52+00:00",
+      "first_seen": "2026-11-19T20:36:39.461706+10:00",
+      "category": "breaking"
+    },
+    "10f2ecd7b4fcbd73": {
+      "source": "Al Jazeera",
+      "title": "Malaysian weightlifting champion Roslin loses arm after motorbike crash",
+      "published": "2026-11-19T09:56:07+00:00",
+      "first_seen": "2026-11-19T20:36:39.461706+10:00",
+      "category": "breaking"
+    },
+    "5cd1db34216682d3": {
+      "source": "Al Jazeera",
+      "title": "Trump calls for nuclear arms reduction at APEC summit",
+      "published": "2026-11-19T10:03:27+00:00",
+      "first_seen": "2026-11-19T20:36:39.461706+10:00",
+      "category": "breaking"
+    },
+    "9a06e7c05b5c8125": {
+      "source": "Al Jazeera",
+      "title": "\u2018Displacement by design\u2019: Trump\u2019s Gaza peace plan a failure, aid groups say",
+      "published": "2026-11-19T10:05:33+00:00",
+      "first_seen": "2026-11-19T20:36:39.461706+10:00",
+      "category": "breaking"
     }
   }
 }

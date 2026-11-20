@@ -2089,225 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-20T13:25:11.039160+00:00",
+  "last_gdelt_attempt": "2026-11-20T17:26:02.216974+00:00",
   "article_store": {
-    "22a6a841b63b7e54": {
-      "source": "BBC News",
-      "title": "Whatever happened to the $300,000 diamond that went missing in F1 crash?",
-      "published": "2026-11-13T06:12:20+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "803535c4dcf7caf3": {
-      "source": "BBC News",
-      "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
-      "published": "2026-11-13T11:43:27+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "97a30dc29e82cf30": {
-      "source": "Al Jazeera",
-      "title": "UN watchdog calls on Iran to reopen nuclear facilities to inspection",
-      "published": "2026-11-13T11:51:57+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "70a33fa7266e2dba": {
-      "source": "Al Jazeera",
-      "title": "India cancels visa of Norwegian journalist who questioned Modi",
-      "published": "2026-11-13T11:54:08+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "7bac7af5833ddd10": {
-      "source": "Al Jazeera",
-      "title": "Pakistan military reports it killed 74 \u2018terrorists\u2019 during raids",
-      "published": "2026-11-13T11:59:34+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "9c7ae3f290390ec3": {
-      "source": "Al Jazeera",
-      "title": "Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?",
-      "published": "2026-11-13T12:06:56+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "a85a26a7a39e46b3": {
-      "source": "BBC News",
-      "title": "More women make allegations against Russell Brand",
-      "published": "2026-11-13T12:14:17+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "86b839e6246c0190": {
-      "source": "BBC News",
-      "title": "How a sex scandal at Nvidia is putting pressure on the White House",
-      "published": "2026-11-13T12:22:30+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "25fd78c9282a0a96": {
-      "source": "Al Jazeera",
-      "title": "Mauricio Pochettino announced as new Manchester United manager",
-      "published": "2026-11-13T12:39:34+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "387ae1f5b3c2481f": {
-      "source": "Al Jazeera",
-      "title": "You haven\u2019t got mail: Global Microsoft outage disrupts services",
-      "published": "2026-11-13T12:40:11+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "b877fad2b7067111": {
-      "source": "Al Jazeera",
-      "title": "France slams Israel\u2019s \u2018demagogic\u2019 ban on opposition leader Melenchon",
-      "published": "2026-11-13T12:57:08+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "cb030c7b25b2b78c": {
-      "source": "Al Jazeera",
-      "title": "Delhi overtakes Lahore as world\u2019s most polluted city",
-      "published": "2026-11-13T13:11:08+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "c2fa4e9e37734ee9": {
-      "source": "BBC News",
-      "title": "Russia hit by second car bomb in as many days as peace talks continue",
-      "published": "2026-11-13T13:11:23+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "cf3be4a265465cc1": {
-      "source": "Al Jazeera",
-      "title": "Kenyan building collapse near Nairobi kills six people",
-      "published": "2026-11-13T13:11:24+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "fee78a579adae1d1": {
-      "source": "Al Jazeera",
-      "title": "UK accused of \u2018silencing\u2019 pro-Palestine voices through entry bans",
-      "published": "2026-11-13T13:19:26+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "a4430a7a60d8eb6a": {
-      "source": "Al Jazeera",
-      "title": "Nvidia scandal: What\u2019s next for the US tech company?",
-      "published": "2026-11-13T13:36:19+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "2a8794aee63287e1": {
-      "source": "BBC News",
-      "title": "NHS, schools and police forces hit by Microsoft outage",
-      "published": "2026-11-13T13:41:25+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "a79021e992369507": {
-      "source": "Al Jazeera",
-      "title": "China warns against fresh US chip curbs",
-      "published": "2026-11-13T13:42:49+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "83bd036dd5f21a40": {
-      "source": "Al Jazeera",
-      "title": "Ukraine claims record 3,000 Russian casualties in one day as war drags on",
-      "published": "2026-11-13T14:15:52+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "99d289121605715a": {
-      "source": "Al Jazeera",
-      "title": "Can Netanyahu launch a strike on Iran before he leaves?",
-      "published": "2026-11-13T14:16:20+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "18637cdd50fed895": {
-      "source": "Al Jazeera",
-      "title": "Portugal vs Denmark: UEFA Nations League \u2013 predictions, how to watch, teams",
-      "published": "2026-11-13T14:18:25+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "f6adeac4b87c2399": {
-      "source": "BBC News",
-      "title": "Reform and Tory spokesmen in angry clash over immigration at Piddington",
-      "published": "2026-11-13T14:34:21+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "19063ece95e031a3": {
-      "source": "BBC News",
-      "title": "'Hardest challenge of my life' - Owain Wyn Evans completes Children in Need ride",
-      "published": "2026-11-13T14:38:39+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "8421ff07a309a8a8": {
-      "source": "BBC News",
-      "title": "Watch: BBC undercover reporter is offered fake art and awards for talent visa",
-      "published": "2026-11-13T14:45:19+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "fe7437669760068d": {
-      "source": "Al Jazeera",
-      "title": "Will Democrats try to strip US-Israel initiative from Pentagon funding?",
-      "published": "2026-11-13T15:02:16+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "13422bd7d17cd707": {
-      "source": "Al Jazeera",
-      "title": "Europe seeks seat at Ukraine peace talks but lacks unified voice",
-      "published": "2026-11-13T15:43:39+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "d54288936ea56dd2": {
-      "source": "BBC News",
-      "title": "Courts, spies and MPs: How the Microsoft outage has been felt around the world",
-      "published": "2026-11-13T15:44:48+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "9ece6a28d13756cc": {
-      "source": "Al Jazeera",
-      "title": "Turkiye and Qatar sign mutual defence agreement",
-      "published": "2026-11-13T15:49:51+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "c6abb98df0496535": {
-      "source": "BBC News",
-      "title": "Former Hamas bodyguard guilty of UK knife attack",
-      "published": "2026-11-13T15:51:24+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "08f463dd74bf31e7": {
-      "source": "Al Jazeera",
-      "title": "Truck and bus crash in India\u2019s Assam state kills at least 24 people",
-      "published": "2026-11-13T16:01:45+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
-    "b4f470e27ab0d0ad": {
-      "source": "BBC News",
-      "title": "Police investigating David Walliams over alleged serious sexual offences",
-      "published": "2026-11-13T16:29:30+00:00",
-      "first_seen": "2026-11-14T02:39:55.468101+10:00",
-      "category": "breaking"
-    },
     "3254a3add877412a": {
       "source": "BBC News",
       "title": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
@@ -20079,6 +19862,209 @@
       "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
       "published": "2026-11-20T12:56:48+00:00",
       "first_seen": "2026-11-20T23:25:34.675651+10:00",
+      "category": "breaking"
+    },
+    "1038f5c218577b34": {
+      "source": "BBC News",
+      "title": "Percy Jackson returns as teen stars adapt to life in the limelight",
+      "published": "2026-11-20T10:43:35+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "de2f2f84001b6b59": {
+      "source": "Al Jazeera",
+      "title": "Iraqi forces deploy to Jurf al-Sakhar after deal with Iran-backed group",
+      "published": "2026-11-20T13:17:00+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "a3a3c584148bb69e": {
+      "source": "Al Jazeera",
+      "title": "Poland hit by at least one Russian missile, says Polish govt",
+      "published": "2026-11-20T13:23:53+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "cf696d9f8833e15b": {
+      "source": "Al Jazeera",
+      "title": "Myanmar, China object to landmark ICJ ruling on Rohingya genocide",
+      "published": "2026-11-20T13:41:49+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "0b5a024c5ccb28d2": {
+      "source": "Al Jazeera",
+      "title": "Trump, Putin, Xi pledge to increase global petrol supplies \u2013 but how?",
+      "published": "2026-11-20T13:42:56+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "88527438e50d439c": {
+      "source": "Al Jazeera",
+      "title": "Spain court grants bail to pro-Palestinian activist James \u2018Fergie\u2019 Chambers",
+      "published": "2026-11-20T13:45:14+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "bc2f3fdae215828a": {
+      "source": "Al Jazeera",
+      "title": "UK says new deal will \u2018rebuild bridges\u2019 with EU: What\u2019s in it?",
+      "published": "2026-11-20T13:59:17+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "6d5a62b1a2e6701b": {
+      "source": "Al Jazeera",
+      "title": "Xi\u2019s greatest power is what he chooses not to do",
+      "published": "2026-11-20T14:03:08+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "029a10b68d9432cf": {
+      "source": "Al Jazeera",
+      "title": "Outages in US cause worry, despite official attempts to downplay concerns",
+      "published": "2026-11-20T14:34:04+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "36f21263a80e8482": {
+      "source": "Al Jazeera",
+      "title": "Hot potato: Can Japan resist Trump pressure to import food staple?",
+      "published": "2026-11-20T14:38:25+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "62dd5cd3836a5f89": {
+      "source": "Al Jazeera",
+      "title": "Saudi coalition and Houthis exchange threats to bomb key ports",
+      "published": "2026-11-20T14:48:04+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "427b0806fdaa0605": {
+      "source": "Al Jazeera",
+      "title": "Blood Gold: The Munduruku\u2019s fight for survival in the Brazilian Amazon",
+      "published": "2026-11-20T15:00:00+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "a8ca822f64d01439": {
+      "source": "BBC News",
+      "title": "What we know about the latest Russian missile strikes on Ukraine",
+      "published": "2026-11-20T15:14:01+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "20f5ad8f335c037d": {
+      "source": "Al Jazeera",
+      "title": "Poland condemns Russian \u2018provocation\u2019 after airspace violations",
+      "published": "2026-11-20T15:18:26+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "3bcead108a8ee928": {
+      "source": "Al Jazeera",
+      "title": "Jerusalem Daily: Palestinians return home to ruins",
+      "published": "2026-11-20T15:42:04+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "9f6e3abe801be467": {
+      "source": "Al Jazeera",
+      "title": "Kansas hosts become guests as Algeria repays World Cup welcome",
+      "published": "2026-11-20T15:49:06+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "cbc8f170eac16476": {
+      "source": "Al Jazeera",
+      "title": "One third of attacks on children worldwide recorded in Palestine",
+      "published": "2026-11-20T15:50:28+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "d813f4ae134497f4": {
+      "source": "Al Jazeera",
+      "title": "\u2018Expel invaders\u2019: The dangerous promises of Spain\u2019s far-right Vox party",
+      "published": "2026-11-20T16:05:31+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "c87c1eb950482d83": {
+      "source": "BBC News",
+      "title": "What is the EU-UK youth experience scheme and when will it start?",
+      "published": "2026-11-20T16:07:55+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "5a4fa4bad9dc0ee8": {
+      "source": "Al Jazeera",
+      "title": "US Senate passes bill to speed up energy project approvals",
+      "published": "2026-11-20T16:10:12+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "b86eaaac4fbf421f": {
+      "source": "Al Jazeera",
+      "title": "Qatar and Germany deepen strategic ties during emir\u2019s Berlin visit",
+      "published": "2026-11-20T16:13:57+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "b83cad020abaa1b8": {
+      "source": "BBC News",
+      "title": "Burnham gets his first taste of EU dealmaking and seems hungry for more",
+      "published": "2026-11-20T16:19:08+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "bb98b992ff44e74b": {
+      "source": "BBC News",
+      "title": "Anthropic shares fall a day after blockbuster opening",
+      "published": "2026-11-20T16:27:47+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "3131ac9918d8d514": {
+      "source": "BBC News",
+      "title": "'What happens in GTA 6 stays in GTA 6': Police across US warn fans about taking the game to their real lives",
+      "published": "2026-11-20T16:29:18+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "3c45a1f7c1cff226": {
+      "source": "BBC News",
+      "title": "Daniel Thomas jailed for 15 months for slashing dinghy",
+      "published": "2026-11-20T16:39:49+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "945cf39554ca6a34": {
+      "source": "Al Jazeera",
+      "title": "10 years after divisive Brexit referendum, UK weighs a \u2018Breturn\u2019 to the EU",
+      "published": "2026-11-20T16:40:35+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "8e08ea4300fb5d5a": {
+      "source": "BBC News",
+      "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
+      "published": "2026-11-20T16:41:52+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "4be5e2499c7bd8e7": {
+      "source": "BBC News",
+      "title": "Cost of living protests sweep across Europe",
+      "published": "2026-11-20T16:45:34+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
+      "category": "breaking"
+    },
+    "e3e3482647ff64ed": {
+      "source": "BBC News",
+      "title": "US man found guilty of British woman's murder",
+      "published": "2026-11-20T17:21:29+00:00",
+      "first_seen": "2026-11-21T03:26:27.598050+10:00",
       "category": "breaking"
     }
   }

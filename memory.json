@@ -2089,155 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-20T03:38:28.391707+00:00",
+  "last_gdelt_attempt": "2026-11-20T08:06:39.563288+00:00",
   "article_store": {
-    "b79bde1f825feed5": {
-      "source": "BBC News",
-      "title": "How could the Nvidia CEO\u2019s affair threaten US national security?",
-      "published": "2026-11-13T02:15:59+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "dceaf5145f4c736b": {
-      "source": "BBC News",
-      "title": "Will the Eurovision Song Contest succeed in Asia?",
-      "published": "2026-11-13T02:24:11+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "ed1890d3f8068856": {
-      "source": "Al Jazeera",
-      "title": "Trump moots toppling Cuba authorities before leaving office",
-      "published": "2026-11-13T02:33:28+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "a8ef2daf9b102f31": {
-      "source": "Al Jazeera",
-      "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
-      "published": "2026-11-13T02:35:21+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "3cc319725f969969": {
-      "source": "Al Jazeera",
-      "title": "Chris Van Hollen launches bid to lead Democrats in US Senate",
-      "published": "2026-11-13T02:42:41+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "a475cc13dfb4e21f": {
-      "source": "Al Jazeera",
-      "title": "Spanish court suspends far-right group over alleged hate crimes",
-      "published": "2026-11-13T02:52:25+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "e21665fb75e16490": {
-      "source": "Al Jazeera",
-      "title": "Gaza surgeon films aftermath of Israeli strike",
-      "published": "2026-11-13T03:11:43+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "90c276bf58f4acf3": {
-      "source": "Al Jazeera",
-      "title": "Iran says it targeted US radar site in Bahrain",
-      "published": "2026-11-13T03:17:27+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "7cf3020dd18f6cdc": {
-      "source": "Al Jazeera",
-      "title": "Mississippi elects first black senator in nearly 150 years",
-      "published": "2026-11-13T03:21:25+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "85a9ab8c07422ee6": {
-      "source": "Al Jazeera",
-      "title": "US envoys shuttle between Putin and Zelenskyy",
-      "published": "2026-11-13T04:12:01+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "0aa548d912242d69": {
-      "source": "Al Jazeera",
-      "title": "US Senator Chris Van Hollen seeks to lead Democrats: Who is he?",
-      "published": "2026-11-13T04:28:45+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "6710eac614b870f5": {
-      "source": "BBC News",
-      "title": "The Papers: 'Nvidia chief quits' and 'Six women say they too were preyed on by Brand'",
-      "published": "2026-11-13T04:36:28+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "6a5c76e4075f7c5a": {
-      "source": "Al Jazeera",
-      "title": "Talarico appeals to Trump\u2019s legacy in bid for bipartisan reforms",
-      "published": "2026-11-13T04:36:45+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "e41df7d729152a78": {
-      "source": "Al Jazeera",
-      "title": "From ocean legend to undersea reef: Why has the SS United States been sunk?",
-      "published": "2026-11-13T04:39:33+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "dcd580040ea1d930": {
-      "source": "Al Jazeera",
-      "title": "Iranophobia: Netanyahu\u2019s bid to transform fear into political survival",
-      "published": "2026-11-13T04:48:40+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "92794b0640d7b541": {
-      "source": "Al Jazeera",
-      "title": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
-      "published": "2026-11-13T04:51:56+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "91fbff0febc1798d": {
-      "source": "Al Jazeera",
-      "title": "Pope Leo meets clergy abuse survivors in Peru amid calls for justice",
-      "published": "2026-11-13T05:05:50+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "d11f986453267222": {
-      "source": "Al Jazeera",
-      "title": "Burkina Faso\u2019s rival armed groups turn on each other as state loses ground",
-      "published": "2026-11-13T05:23:31+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "b6f732fa85644143": {
-      "source": "Al Jazeera",
-      "title": "Harry Kane breaks caps record as England reach Nations League knockouts",
-      "published": "2026-11-13T05:38:36+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "f88858869089d7e4": {
-      "source": "BBC News",
-      "title": "Firms help migrants pose as artists and tech experts for 'Global Talent' visas, BBC finds",
-      "published": "2026-11-13T06:00:44+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
-    "faecb9dd07722c6f": {
-      "source": "Al Jazeera",
-      "title": "Australia captain Pat Cummins denies involvement in \u2018Sandpapergate\u2019 scandal",
-      "published": "2026-11-13T06:13:11+00:00",
-      "first_seen": "2026-11-13T17:02:22.454651+10:00",
-      "category": "breaking"
-    },
     "06ff779b6ccb5a30": {
       "source": "BBC News",
       "title": "Where does record-breaking Kane rank among all-time England greats?",
@@ -20058,6 +19911,182 @@
       "title": "Asia\u2019s stock markets dive as Anthropic debut fails to allay AI bubble fears",
       "published": "2026-11-20T02:54:22+00:00",
       "first_seen": "2026-11-20T13:38:51.998259+10:00",
+      "category": "breaking"
+    },
+    "5db3dcd93c57f4f7": {
+      "source": "BBC News",
+      "title": "How did Anthropic's stock market debut unfold?",
+      "published": "2026-11-19T23:52:25+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "9c68be2fbc0c2999": {
+      "source": "BBC News",
+      "title": "New Hunger Games cast say joining the franchise is 'nerve-racking'",
+      "published": "2026-11-20T01:11:57+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "c098c8dea679626b": {
+      "source": "BBC News",
+      "title": "GTA 6 breaks records as estimated sales top $2.3bn",
+      "published": "2026-11-20T02:54:40+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "d945153354bb0721": {
+      "source": "Al Jazeera",
+      "title": "Lula visits ailing Chief Raoni as Brazil recognises Indigenous land",
+      "published": "2026-11-20T03:24:49+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "eb70222520d797b2": {
+      "source": "Al Jazeera",
+      "title": "Thousands protest Colombia\u2019s tax plans amid row over US military role",
+      "published": "2026-11-20T03:26:23+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "e4591ff360d52e99": {
+      "source": "Al Jazeera",
+      "title": "Canada\u2019s beloved Tim Hortons brews ire over \u2018excessive\u2019 Israeli data deal",
+      "published": "2026-11-20T04:05:17+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking",
+      "duplicate_of": "4a7b72cc2c7e095e"
+    },
+    "2ae430c4d56a3949": {
+      "source": "Al Jazeera",
+      "title": "Kushner: Trump open to NATO-like security guarantees for Ukraine",
+      "published": "2026-11-20T04:44:53+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "edb5819d479ad2e6": {
+      "source": "Al Jazeera",
+      "title": "Contaminated petrol leaves Yemeni drivers struggling to make ends meet",
+      "published": "2026-11-20T05:00:16+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "2c21c1606720c371": {
+      "source": "Al Jazeera",
+      "title": "Gaza Civil Defence struggles to rescue lives as vehicles break down",
+      "published": "2026-11-20T05:01:40+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "eca15f8d67defe7e": {
+      "source": "Al Jazeera",
+      "title": "Tears of joy, prayers for return home: Rohingya react to genocide ruling",
+      "published": "2026-11-20T05:36:21+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "983ed7ff955c1d82": {
+      "source": "Al Jazeera",
+      "title": "Trump bows to pressure, replaces US cyber security director",
+      "published": "2026-11-20T05:48:35+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "50e29ab8b1b82a19": {
+      "source": "BBC News",
+      "title": "Mysterious Mercury is about to get a visitor - after spacecraft's eight-year epic voyage",
+      "published": "2026-11-20T05:59:56+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "cd1e7a08eb8f0939": {
+      "source": "BBC News",
+      "title": "Mouldy, infested housing for vulnerable people sold as ethical investments abroad",
+      "published": "2026-11-20T06:00:33+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "3cdfdf7db22f105d": {
+      "source": "Al Jazeera",
+      "title": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
+      "published": "2026-11-20T06:03:03+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "88f4886751f6f303": {
+      "source": "Al Jazeera",
+      "title": "Tashima says Balogun red card row at World Cup prompted FIFA presidency bid",
+      "published": "2026-11-20T06:15:06+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "673a2c41e4f07a82": {
+      "source": "Al Jazeera",
+      "title": "\u2018We don\u2019t want our future decided by the military\u2019: Young Germans protest",
+      "published": "2026-11-20T06:20:26+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "f52d1e7b38911bd0": {
+      "source": "BBC News",
+      "title": "The art of protection - inside an F1 helmet factory",
+      "published": "2026-11-20T06:29:04+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "184c9e9803e020c1": {
+      "source": "BBC News",
+      "title": "UK braces for coldest night of autumn so far with temperature of -10C forecast",
+      "published": "2026-11-20T06:56:58+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "b55bf332a78d6777": {
+      "source": "Al Jazeera",
+      "title": "Sandpapergate: Australian gov\u2019t demands CA to ensure transparency in forum",
+      "published": "2026-11-20T07:04:27+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "9cedbe3abd7f73c4": {
+      "source": "Al Jazeera",
+      "title": "EU and Britain to agree steps towards relations reset",
+      "published": "2026-11-20T07:12:43+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "08f7dc47b021ce66": {
+      "source": "Al Jazeera",
+      "title": "The Gambia stood up for the Rohingya, now the world must act",
+      "published": "2026-11-20T07:20:53+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "f1aa3ed3f5ab988c": {
+      "source": "Al Jazeera",
+      "title": "Lionel Messi of Inter Miami tops Major League Soccer salaries",
+      "published": "2026-11-20T07:37:55+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "b028fb2df147bd70": {
+      "source": "BBC News",
+      "title": "Tinned goods and long-life milk boost retail sales after 'Be Ready' campaign launch",
+      "published": "2026-11-20T07:44:29+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "288e765f3c55699f": {
+      "source": "BBC News",
+      "title": "Three Kyiv bridges hit during major Russian missile attack",
+      "published": "2026-11-20T08:04:31+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
+      "category": "breaking"
+    },
+    "ece19722b022bed1": {
+      "source": "BBC News",
+      "title": "Calls for law change after Joanne Young rape case",
+      "published": "2026-11-20T08:05:23+00:00",
+      "first_seen": "2026-11-20T18:07:05.779450+10:00",
       "category": "breaking"
     }
   }

@@ -2089,120 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-21T17:05:36.478925+00:00",
+  "last_gdelt_attempt": "2026-11-21T20:11:20.882295+00:00",
   "article_store": {
-    "29c6a7ee7d441000": {
-      "source": "Al Jazeera",
-      "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
-      "published": "2026-11-14T16:13:43+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "51f4089fb9d5f724": {
-      "source": "Al Jazeera",
-      "title": "Italy fines Meta $880m over photo privacy",
-      "published": "2026-11-14T16:16:15+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "1592c97aca71e716": {
-      "source": "BBC News",
-      "title": "Milder weather coming before more cold health alerts take effect",
-      "published": "2026-11-14T16:31:30+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "e0ab0d32c6df9334": {
-      "source": "BBC News",
-      "title": "Wales stun New Zealand to end 73-year losing streak",
-      "published": "2026-11-14T16:38:04+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "d4ef77392209e031": {
-      "source": "Al Jazeera",
-      "title": "Portugal vs Denmark LIVE: UEFA Nations League",
-      "published": "2026-11-14T16:45:00+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "39f5f3535d23cd1d": {
-      "source": "Al Jazeera",
-      "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
-      "published": "2026-11-14T16:53:39+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "36acf237ec95d084": {
-      "source": "BBC News",
-      "title": "Thousands turn out in Edinburgh to protest against AI data centres",
-      "published": "2026-11-14T17:20:33+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "4cd99a97f84d4eb8": {
-      "source": "Al Jazeera",
-      "title": "Rising costs and arrests fuel protests in Central African Republic",
-      "published": "2026-11-14T17:50:28+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "823a88703cf7bca6": {
-      "source": "Al Jazeera",
-      "title": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
-      "published": "2026-11-14T18:02:53+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "3883c6948f3d7d30": {
-      "source": "BBC News",
-      "title": "Philippines wins first Eurovision Song Contest Asia",
-      "published": "2026-11-14T18:17:58+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "a2e4f8948c514022": {
-      "source": "BBC News",
-      "title": "Italy fines Meta \u20ac805m over accessing users' photos",
-      "published": "2026-11-14T18:28:06+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "d5e0f119197e3012": {
-      "source": "Al Jazeera",
-      "title": "US blames outdated technology for nationwide flight disruption",
-      "published": "2026-11-14T18:32:40+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "f5075f87c00ba4a9": {
-      "source": "BBC News",
-      "title": "How Mississippi's new senator won in Trump's heartland and what he will do next",
-      "published": "2026-11-14T18:51:30+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "5bfebd58b9443dca": {
-      "source": "BBC News",
-      "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
-      "published": "2026-11-14T19:12:25+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "b501c61ac4020b67": {
-      "source": "Al Jazeera",
-      "title": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
-      "published": "2026-11-14T19:20:11+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
-    "ab761f4d74d7b5e9": {
-      "source": "Al Jazeera",
-      "title": "Tens of thousands march in latest Portugal housing protests",
-      "published": "2026-11-14T19:27:55+00:00",
-      "first_seen": "2026-11-15T05:37:38.641208+10:00",
-      "category": "breaking"
-    },
     "de0479195094af4a": {
       "source": "Al Jazeera",
       "title": "More than 100,000 rally across France in new Yellow Vest protests",
@@ -20104,6 +19992,111 @@
       "published": "2026-11-21T17:00:34+00:00",
       "first_seen": "2026-11-22T03:06:06.474592+10:00",
       "category": "football"
+    },
+    "afe88abc650fb78f": {
+      "source": "BBC News",
+      "title": "British man swims through Strait of Hormuz to highlight environmental impact of war",
+      "published": "2026-11-21T16:12:31+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "2d04213683871589": {
+      "source": "Al Jazeera",
+      "title": "Russian strike kills two, wounds 60, in Zelenskyy\u2019s hometown",
+      "published": "2026-11-21T17:20:03+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "50d36603b70b38ee": {
+      "source": "Al Jazeera",
+      "title": "Chelsea beaten 4-1 by Leeds to suffer third loss in four in Premier League",
+      "published": "2026-11-21T17:21:37+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "1db86784e6da3623": {
+      "source": "Al Jazeera",
+      "title": "Liverpool vs Manchester United: Premier League \u2013 teams, prediction, lineups",
+      "published": "2026-11-21T17:28:51+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "98d53eeacb1b1f09": {
+      "source": "Al Jazeera",
+      "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
+      "published": "2026-11-21T17:54:19+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "92cd666f9f567f85": {
+      "source": "Al Jazeera",
+      "title": "UK police drag man from protest over \u2018Pallet Sign Acton\u2019 shirt",
+      "published": "2026-11-21T17:57:27+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "4369b94f32d9bf93": {
+      "source": "Al Jazeera",
+      "title": "Trump says he wants \u2018permanent\u2019 deal to stop Iran getting nuclear weapons",
+      "published": "2026-11-21T18:05:51+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "8e4997960c82db73": {
+      "source": "Al Jazeera",
+      "title": "Could Brexit be reversed?",
+      "published": "2026-11-21T18:18:11+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "6e576cb868e6df87": {
+      "source": "Al Jazeera",
+      "title": "FBI national crime database suffers suspected breach: Reports",
+      "published": "2026-11-21T18:19:10+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "b88fc17e001e85b6": {
+      "source": "Al Jazeera",
+      "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+      "published": "2026-11-21T18:42:38+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "0afef7db4686ed93": {
+      "source": "BBC News",
+      "title": "Russia-bound ship attacked in Gulf of Finland",
+      "published": "2026-11-21T19:20:22+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "b2aa50f6fe477d4b": {
+      "source": "BBC News",
+      "title": "UK should only rejoin EU if it innovates on technology, Blair warns",
+      "published": "2026-11-21T19:33:49+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "7c78892695780f1d": {
+      "source": "BBC News",
+      "title": "Spitting Image co-creator Peter Fluck dies aged 85",
+      "published": "2026-11-21T19:43:19+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "26596350bfdc958d": {
+      "source": "BBC News",
+      "title": "Village votes to 'leave UK' over migrant plan",
+      "published": "2026-11-21T19:51:08+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
+    },
+    "b42e12c546cd3bf5": {
+      "source": "Al Jazeera",
+      "title": "Noni Madueke salvages draw for Arsenal at Newcastle United as Raya injured",
+      "published": "2026-11-21T19:53:00+00:00",
+      "first_seen": "2026-11-22T06:11:44.391142+10:00",
+      "category": "breaking"
     }
   }
 }

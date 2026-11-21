@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-21T01:05:08.190406+00:00",
+  "last_gdelt_attempt": "2026-11-21T03:20:54.134771+00:00",
   "article_store": {
     "db67b4f4eacea579": {
       "source": "BBC News",
@@ -20137,6 +20137,69 @@
       "published": "2026-11-20T23:32:10+00:00",
       "first_seen": "2026-11-21T11:05:35.114484+10:00",
       "category": "football"
+    },
+    "de72547796e942f7": {
+      "source": "Al Jazeera",
+      "title": "Can Mauricio Pochettino save Man United from Premier League relegation?",
+      "published": "2026-11-21T00:55:01+00:00",
+      "first_seen": "2026-11-21T13:21:15.791646+10:00",
+      "category": "breaking"
+    },
+    "1aa5844ca4683317": {
+      "source": "BBC News",
+      "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
+      "published": "2026-11-21T01:02:39+00:00",
+      "first_seen": "2026-11-21T13:21:15.791646+10:00",
+      "category": "breaking"
+    },
+    "e44d4cc4c5f21be1": {
+      "source": "BBC News",
+      "title": "The Papers: 'Closest ties since Brexit' and 'Grand Theft EU'",
+      "published": "2026-11-21T01:07:01+00:00",
+      "first_seen": "2026-11-21T13:21:15.791646+10:00",
+      "category": "breaking"
+    },
+    "90b15a12e96ddd77": {
+      "source": "Al Jazeera",
+      "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
+      "published": "2026-11-21T01:12:48+00:00",
+      "first_seen": "2026-11-21T13:21:15.791646+10:00",
+      "category": "breaking"
+    },
+    "99347d27e107a870": {
+      "source": "BBC News",
+      "title": "Villagers to vote on 'leaving UK' over plans to house migrants at RAF base",
+      "published": "2026-11-21T01:34:51+00:00",
+      "first_seen": "2026-11-21T13:21:15.791646+10:00",
+      "category": "breaking"
+    },
+    "46838297e1b268be": {
+      "source": "Al Jazeera",
+      "title": "Can Africa\u2019s new credit rating agency change how the continent is assessed?",
+      "published": "2026-11-21T01:36:10+00:00",
+      "first_seen": "2026-11-21T13:21:15.791646+10:00",
+      "category": "breaking"
+    },
+    "7bee7955d06596be": {
+      "source": "Al Jazeera",
+      "title": "COP31 deal stalls as nations struggle to agree on climate plan",
+      "published": "2026-11-21T01:44:09+00:00",
+      "first_seen": "2026-11-21T13:21:15.791646+10:00",
+      "category": "breaking"
+    },
+    "0eb9a7e30c63a8a6": {
+      "source": "Al Jazeera",
+      "title": "Trump calls for Nvidia to reinstate \u2018brilliant\u2019 Jensen Huang",
+      "published": "2026-11-21T01:49:07+00:00",
+      "first_seen": "2026-11-21T13:21:15.791646+10:00",
+      "category": "breaking"
+    },
+    "ff2040ce466c93b6": {
+      "source": "Al Jazeera",
+      "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
+      "published": "2026-11-21T02:49:16+00:00",
+      "first_seen": "2026-11-21T13:21:15.791646+10:00",
+      "category": "breaking"
     }
   }
 }

@@ -2089,64 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-22T23:43:06.807825+00:00",
+  "last_gdelt_attempt": "2026-11-23T02:14:11.054138+00:00",
   "article_store": {
-    "aa8939f323e053fa": {
-      "source": "Al Jazeera",
-      "title": "England stun Spain to end La Roja\u2019s 43-game unbeaten run",
-      "published": "2026-11-15T22:40:01+00:00",
-      "first_seen": "2026-11-16T10:33:34.772292+10:00",
-      "category": "breaking"
-    },
-    "d2671b80729f34c1": {
-      "source": "BBC News",
-      "title": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
-      "published": "2026-11-15T22:57:27+00:00",
-      "first_seen": "2026-11-16T10:33:34.772292+10:00",
-      "category": "breaking"
-    },
-    "c9a373e9c733915a": {
-      "source": "Al Jazeera",
-      "title": "Brawl erupts in Brazil\u2019s Women\u2019s League final",
-      "published": "2026-11-15T23:46:37+00:00",
-      "first_seen": "2026-11-16T10:33:34.772292+10:00",
-      "category": "breaking"
-    },
-    "b64d8e389e35b44c": {
-      "source": "BBC News",
-      "title": "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
-      "published": "2026-11-15T23:52:10+00:00",
-      "first_seen": "2026-11-16T10:33:34.772292+10:00",
-      "category": "breaking"
-    },
-    "9a6dd8868652714b": {
-      "source": "Al Jazeera",
-      "title": "Iran war live: Tehran warns it may strike first before another US attack",
-      "published": "2026-11-16T00:00:00+00:00",
-      "first_seen": "2026-11-16T10:33:34.772292+10:00",
-      "category": "breaking"
-    },
-    "23cd7840c68a848a": {
-      "source": "Al Jazeera",
-      "title": "Eisenkot says Netanyahu can\u2019t remain Israel PM amid alleged vote meddling",
-      "published": "2026-11-16T00:01:45+00:00",
-      "first_seen": "2026-11-16T10:33:34.772292+10:00",
-      "category": "breaking"
-    },
-    "f97d15a5dd76e453": {
-      "source": "Al Jazeera",
-      "title": "Zambia\u2019s copper boom attracts billions in investment, but who benefits?",
-      "published": "2026-11-16T00:04:28+00:00",
-      "first_seen": "2026-11-16T10:33:34.772292+10:00",
-      "category": "breaking"
-    },
-    "a6efe39121583848": {
-      "source": "Al Jazeera",
-      "title": "Czechs rally against gov\u2019t threat to media independence",
-      "published": "2026-11-16T00:26:32+00:00",
-      "first_seen": "2026-11-16T10:33:34.772292+10:00",
-      "category": "breaking"
-    },
     "3eeef42e37e62984": {
       "source": "BBC News",
       "title": "60 minutes of perfection, 30 minutes of chaos - an England win for the ages",
@@ -19853,6 +19797,634 @@
       "published": "2026-11-22T23:22:59+00:00",
       "first_seen": "2026-11-23T09:43:27.735954+10:00",
       "category": "breaking"
+    },
+    "77ea94995dc52567": {
+      "source": "Al Jazeera",
+      "title": "Lion on the loose in Turkiye sparks fear among residents",
+      "published": "2026-11-22T23:40:48+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "2cc503b3ce688ad6": {
+      "source": "Al Jazeera",
+      "title": "Mystery of the red stream in Turkiye",
+      "published": "2026-11-22T23:57:58+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "c60435f0a8e629e4": {
+      "source": "Al Jazeera",
+      "title": "Iran war live: Tankers set ablaze in Hormuz as IRGC warns of unrest threat",
+      "published": "2026-11-22T23:59:22+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "68381f78beeb7f14": {
+      "source": "Al Jazeera",
+      "title": "Cameroon\u2019s ex-rebels caught between hiding and broken promises",
+      "published": "2026-11-23T00:03:30+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "2a56997e3b55295e": {
+      "source": "BBC News",
+      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+      "published": "2026-11-23T00:08:00+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "88506ad090139691": {
+      "source": "Al Jazeera",
+      "title": "Asian stock markets tumble as AI bubble fears mount",
+      "published": "2026-11-23T00:18:03+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "b30040bfa497715d": {
+      "source": "BBC News",
+      "title": "What is going on with Poundland?",
+      "published": "2026-11-23T00:22:27+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "4ddeb0f3bd5e75fd": {
+      "source": "Al Jazeera",
+      "title": "WHO chief calls for peace amid heavy fighting in Ebola-hit DR Congo region",
+      "published": "2026-11-23T00:39:51+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "1d4017b1248ba709": {
+      "source": "BBC News",
+      "title": "Will it snow this week? Mild Atlantic air collides with cold air across the UK",
+      "published": "2026-11-23T00:40:36+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "7c584365b9809f5e": {
+      "source": "BBC News",
+      "title": "Can AI spot breast cancer earlier? NHS launches world's largest trial to find out",
+      "published": "2026-11-23T00:49:22+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "95abd8a1869bac7d": {
+      "source": "BBC News",
+      "title": "Energy bills will soar - here's how you can ease the pain",
+      "published": "2026-11-23T01:05:07+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "d6e0e19bfe909f8a": {
+      "source": "BBC News",
+      "title": "Would you go on holiday with your ex's kids and their mum? How to make blended families work",
+      "published": "2026-11-23T01:09:04+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "4221c3a1682df224": {
+      "source": "Al Jazeera",
+      "title": "Israeli forces continue house demolitions in southern Lebanon",
+      "published": "2026-11-23T01:43:29+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "44f336840b6d2d1f": {
+      "source": "Al Jazeera",
+      "title": "Libya\u2019s military says \u2018fully prepared\u2019 after Benghazi attacks",
+      "published": "2026-11-23T01:51:32+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "4a78beca74d536d0": {
+      "source": "Al Jazeera",
+      "title": "Poland says Russia tried to assassinate Ukrainian rapper twice",
+      "published": "2026-11-23T01:53:23+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "707a25044cd6cd9f": {
+      "source": "BBC News",
+      "title": "Manchester Co-op Live evacuated after suspected tear gas incident",
+      "published": "2026-11-23T02:07:29+00:00",
+      "first_seen": "2026-11-23T12:14:33.020774+10:00",
+      "category": "breaking"
+    },
+    "499175ec553e601e": {
+      "source": "ABC News",
+      "title": "Democrats clinch their largest House majority since 1992",
+      "published": "2026-11-22T21:41:34+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "6d7581196eda3e92": {
+      "source": "ABC News",
+      "title": "Molly Meldrum, the 'most important person in pop', dies aged 83",
+      "published": "2026-11-22T21:53:23+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "91323e5af1def3f9": {
+      "source": "ABC News",
+      "title": "Sam Neill's final Australian role is as a mouthy magpie",
+      "published": "2026-11-22T22:00:41+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "5721ffebb74b1a36": {
+      "source": "ABC News",
+      "title": "Family 'saddened' it took an ABC query to end two-year wait for a safer home",
+      "published": "2026-11-22T22:00:42+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "cd3427da42fa98c2": {
+      "source": "ABC News",
+      "title": "Missing 7-year-old boy found safe and well in Alice Springs",
+      "published": "2026-11-22T22:01:07+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "0e3c74d3009e3b2b": {
+      "source": "ABC News",
+      "title": "Live: Family says Meldrum 'deeply loved' and shaped the sound of Australia",
+      "published": "2026-11-22T22:07:20+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "50f259292df777c5": {
+      "source": "ABC News",
+      "title": "Hydrogen energy company cuts staff two months after $49m federal grant",
+      "published": "2026-11-22T22:43:15+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "2c8089a661f5ada0": {
+      "source": "ABC News",
+      "title": "Flinders Island officer was 'ambushed' by man with stolen shotgun, police say",
+      "published": "2026-11-22T23:14:55+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "f69bb1d35b789f1b": {
+      "source": "ABC News",
+      "title": "Bob Katter throws support behind independents ahead of Victorian election",
+      "published": "2026-11-22T23:35:23+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "e7f36bc146eac6b9": {
+      "source": "ABC News",
+      "title": "Molly was the original gatekeeper whose taste in music shaped our own",
+      "published": "2026-11-22T23:38:15+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "1cc9bb9af50f3398": {
+      "source": "ABC News",
+      "title": "Live: Community safety in election focus after violent weekend in Melbourne",
+      "published": "2026-11-22T23:39:11+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "793ce98bcc580004": {
+      "source": "ABC News",
+      "title": "PBS medicines to cost no more than $25 until end of decade",
+      "published": "2026-11-22T23:43:41+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "1c3b8108a2b7f6ae": {
+      "source": "ABC News",
+      "title": "SA Health denies using blackout as smokescreen for apology and backflip",
+      "published": "2026-11-22T23:53:28+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "21dfdec74246732d": {
+      "source": "ABC News",
+      "title": "Climate talks crash a sign of anger with oil lobby, scientist says",
+      "published": "2026-11-23T00:18:49+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "67b2f1a4b4519fd4": {
+      "source": "ABC News",
+      "title": "State funeral for 'life force' of Australian music Molly Meldrum",
+      "published": "2026-11-23T00:19:24+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "d536a308dd39a6e7": {
+      "source": "ABC News",
+      "title": "Wet season warning of deadly mosquito virus in remote WA",
+      "published": "2026-11-23T00:22:04+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "ea4ee8a38ff18ce4": {
+      "source": "SMH",
+      "title": "\u2018More Box Hills\u2019: Councils warn levy changes would create suburbs without footpaths",
+      "published": "2026-11-23T00:30:00+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "b4aa3fc0f6bea9f6": {
+      "source": "SMH",
+      "title": "Devilish question: The mascot scaring away junior rugby league players in western Sydney",
+      "published": "2026-11-23T00:30:00+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "50126b137e1405cf": {
+      "source": "The Age",
+      "title": "\u2018More Box Hills\u2019: Councils warn levy changes would create suburbs without footpaths",
+      "published": "2026-11-23T00:30:00+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "ea4ee8a38ff18ce4"
+    },
+    "baa190935722f6c6": {
+      "source": "The Age",
+      "title": "Devilish question: The mascot scaring away junior rugby league players in western Sydney",
+      "published": "2026-11-23T00:30:00+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "b4aa3fc0f6bea9f6"
+    },
+    "e0be62385b6061d8": {
+      "source": "SMH",
+      "title": "Life after the HSC: what these Year 12s think",
+      "published": "2026-11-23T00:36:44+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "bb73f4b089d2e304": {
+      "source": "The Age",
+      "title": "Life after the HSC: what these Year 12s think",
+      "published": "2026-11-23T00:36:44+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "e0be62385b6061d8"
+    },
+    "60054aceb5e98038": {
+      "source": "SMH",
+      "title": "US Army set to detonate ageing explosives despite risk of toxic fallout",
+      "published": "2026-11-23T00:38:13+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "4fb1557772073b54": {
+      "source": "The Age",
+      "title": "US Army set to detonate ageing explosives despite risk of toxic fallout",
+      "published": "2026-11-23T00:38:13+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "60054aceb5e98038"
+    },
+    "5641e71611a25568": {
+      "source": "SMH",
+      "title": "Former elite soldier fights rape case, claiming snoring woman gave \u2018advanced consent\u2019",
+      "published": "2026-11-23T00:40:24+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "e886ed3658daad07": {
+      "source": "The Age",
+      "title": "Former elite soldier fights rape case, claiming snoring woman gave \u2018advanced consent\u2019",
+      "published": "2026-11-23T00:40:24+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "5641e71611a25568"
+    },
+    "f07068d04703d1b6": {
+      "source": "ABC News",
+      "title": "Drone strikes kill four in Khartoum and damage UN building",
+      "published": "2026-11-23T00:46:35+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "56f018157bee610d": {
+      "source": "ABC News",
+      "title": "Sam Wood's new lawyer says he wants to propose justice mediation",
+      "published": "2026-11-23T00:47:06+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "17310b7278326724": {
+      "source": "SMH",
+      "title": "Kiss facing selection headaches after Wallabies subs shine in Wales win",
+      "published": "2026-11-23T00:50:35+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "4f98960f0c68c942": {
+      "source": "The Age",
+      "title": "Kiss facing selection headaches after Wallabies subs shine in Wales win",
+      "published": "2026-11-23T00:50:35+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "17310b7278326724"
+    },
+    "a89f4d0aa05498ee": {
+      "source": "SMH",
+      "title": "Investor with smart bidding tactic nabs four Clovelly homes for $6m",
+      "published": "2026-11-23T00:52:46+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "bf33f60a7464d540": {
+      "source": "The Age",
+      "title": "Investor with smart bidding tactic nabs four Clovelly homes for $6m",
+      "published": "2026-11-23T00:52:46+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "a89f4d0aa05498ee"
+    },
+    "3e0e56dc81addb03": {
+      "source": "SMH",
+      "title": "The AFL has an equalisation problem. This is what it has to do next",
+      "published": "2026-11-23T01:00:30+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "0f594b89fce4d351": {
+      "source": "The Age",
+      "title": "The AFL has an equalisation problem. This is what it has to do next",
+      "published": "2026-11-23T01:00:30+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "3e0e56dc81addb03"
+    },
+    "f454113c60cb008d": {
+      "source": "SMH",
+      "title": "Bloodbath: Wall Street\u2019s nightmare might be coming true",
+      "published": "2026-11-23T01:00:56+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "6169bba5587a5376": {
+      "source": "The Age",
+      "title": "Bloodbath: Wall Street\u2019s nightmare might be coming true",
+      "published": "2026-11-23T01:00:56+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "f454113c60cb008d"
+    },
+    "cecd0df0898fd400": {
+      "source": "SMH",
+      "title": "'Chaos': Meninga opens up on huge staff turnover",
+      "published": "2026-11-23T01:22:31+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "bb6f75177a7171f7": {
+      "source": "The Age",
+      "title": "'Chaos': Meninga opens up on huge staff turnover",
+      "published": "2026-11-23T01:22:31+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "cecd0df0898fd400"
+    },
+    "aad2979a671dbddf": {
+      "source": "SMH",
+      "title": "Alex Greenwich retracts request for Fred Nile state funeral after backlash",
+      "published": "2026-11-23T01:22:45+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "65c349d58ea10978": {
+      "source": "The Age",
+      "title": "Alex Greenwich retracts request for Fred Nile state funeral after backlash",
+      "published": "2026-11-23T01:22:45+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "aad2979a671dbddf"
+    },
+    "b1440948d905da5f": {
+      "source": "SMH",
+      "title": "Platina unveils twin gold discoveries in WA Eastern Goldfields",
+      "published": "2026-11-23T01:24:05+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "5e8802ad6a6ac789": {
+      "source": "The Age",
+      "title": "Platina unveils twin gold discoveries in WA Eastern Goldfields",
+      "published": "2026-11-23T01:24:05+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "b1440948d905da5f"
+    },
+    "a4f9aa3d26a59f71": {
+      "source": "SMH",
+      "title": "Brisbane family home sparks nine-way bidding war",
+      "published": "2026-11-23T01:33:11+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "2f452af05840cb3f": {
+      "source": "The Age",
+      "title": "Brisbane family home sparks nine-way bidding war",
+      "published": "2026-11-23T01:33:11+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "a4f9aa3d26a59f71"
+    },
+    "f6419b56387bd539": {
+      "source": "SMH",
+      "title": "Gateway hits 16.5g/t gold as WA Yandal discovery gathers pace",
+      "published": "2026-11-23T01:42:00+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "e7335eb04349a1d3": {
+      "source": "The Age",
+      "title": "Gateway hits 16.5g/t gold as WA Yandal discovery gathers pace",
+      "published": "2026-11-23T01:42:00+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "f6419b56387bd539"
+    },
+    "97cffb00cc4af8c0": {
+      "source": "ABC News",
+      "title": "WA government promises to make coercive control criminal offence",
+      "published": "2026-11-23T02:03:35+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "9f2ecbe07c873985": {
+      "source": "SMH",
+      "title": "Iron Bear reveals US$2.6B upside in Canadian iron ore giant",
+      "published": "2026-11-23T02:05:26+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "d3e9a4e2a65980d3": {
+      "source": "The Age",
+      "title": "Iron Bear reveals US$2.6B upside in Canadian iron ore giant",
+      "published": "2026-11-23T02:05:26+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "9f2ecbe07c873985"
+    },
+    "13b8a7b38a503e2f": {
+      "source": "SMH",
+      "title": "Perth finally land their marquee man as PNG\u2019s next target plays golf with PM",
+      "published": "2026-11-23T02:06:24+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "9ce8f37fc881a849": {
+      "source": "The Age",
+      "title": "Perth finally land their marquee man as PNG\u2019s next target plays golf with PM",
+      "published": "2026-11-23T02:06:24+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "13b8a7b38a503e2f"
+    },
+    "286e3cedffcc0383": {
+      "source": "SMH",
+      "title": "Beau Lamarre-Condon trial live updates: Defence barrister tells court \u2018love makes fools of us all\u2019 during closing address",
+      "published": "2026-11-23T02:06:47+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "3caafb2dd0815b9c": {
+      "source": "The Age",
+      "title": "Beau Lamarre-Condon trial live updates: Defence barrister tells court \u2018love makes fools of us all\u2019 during closing address",
+      "published": "2026-11-23T02:06:47+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "286e3cedffcc0383"
+    },
+    "5d1b395a1092e713": {
+      "source": "SMH",
+      "title": "Wood\u2019s major move following prison phone call",
+      "published": "2026-11-23T02:06:49+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia"
+    },
+    "596485970f6f5c8e": {
+      "source": "The Age",
+      "title": "Wood\u2019s major move following prison phone call",
+      "published": "2026-11-23T02:06:49+00:00",
+      "first_seen": "2026-11-23T12:14:33.481671+10:00",
+      "category": "australia",
+      "duplicate_of": "5d1b395a1092e713"
+    },
+    "270f813b923d9e68": {
+      "source": "ScienceDaily",
+      "title": "New evidence suggests spinosaurus spent most of its life underwater",
+      "published": "2026-10-25T11:52:54+00:00",
+      "first_seen": "2026-11-23T12:14:36.260338+10:00",
+      "category": "archaeology"
+    },
+    "4155c9fb03177fbf": {
+      "source": "ScienceDaily",
+      "title": "Ancient ape fossil in Egypt could rewrite the story of human origins",
+      "published": "2026-11-01T10:32:46+00:00",
+      "first_seen": "2026-11-23T12:14:36.260338+10:00",
+      "category": "archaeology"
+    },
+    "71cd7feb7afdbddd": {
+      "source": "Kicker",
+      "title": "Atalanta - Inter: Tor zum 3:4 durch de Ketelaere in der 80. Minute",
+      "published": "2026-11-22T21:28:59+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "ec7db95b622af28a": {
+      "source": "Kicker",
+      "title": "MAR - MAN: Elfmeter in der 78. Minute",
+      "published": "2026-11-22T21:29:50+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "ce2cb0a46f028ecb": {
+      "source": "Kicker",
+      "title": "Marseille - Le Mans: Tor zum 2:2 durch Colas in der 84. Minute",
+      "published": "2026-11-22T21:34:17+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "e2eeec74506b3cfc": {
+      "source": "Kicker",
+      "title": "Atalanta - Inter: Tor zum 4:4 durch Kessi\u00e9 in der 90.+1 Minute",
+      "published": "2026-11-22T21:39:40+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "2f2b8249e3b787b6": {
+      "source": "Kicker",
+      "title": "Atalanta - Inter: Tor zum 4:4 durch Kessi\u00e9 in der 90.+1 Minute",
+      "published": "2026-11-22T21:40:07+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football",
+      "duplicate_of": "e2eeec74506b3cfc"
+    },
+    "911bc19208973963": {
+      "source": "Kicker",
+      "title": "Marseille - Le Mans: Tor zum 2:3 durch Vercruysse in der 90.+5 Minute",
+      "published": "2026-11-22T21:44:51+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "5eda4ae3ea0fda2f": {
+      "source": "Kicker",
+      "title": "Getafe - Atl\u00e9tico de Madrid: Rote Karte f\u00fcr in der 90. Minute",
+      "published": "2026-11-22T21:56:27+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "e93887fe9337f299": {
+      "source": "Kicker",
+      "title": "\"F\u00fcr solche Werte stehe ich nicht\": Breitenreiters harsche Kritik an MSV und Schiedsrichter",
+      "published": "2026-11-22T21:57:02+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "e7f78882cdc5025e": {
+      "source": "Kicker",
+      "title": "Getafe - Atl. Madrid: Tor zum 0:3 durch Grimaldo in der 90.+2 Minute",
+      "published": "2026-11-22T21:57:56+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "966a2ada7efcde73": {
+      "source": "Kicker",
+      "title": "Hirsch \u00fcber Streit mit Breitenreiter: \"Das ist mir v\u00f6llig egal\"",
+      "published": "2026-11-22T22:32:46+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "2309195971a6fc3b": {
+      "source": "Kicker",
+      "title": "Dreierpack Esposito: Wildes 4:4 zwischen Atalanta und Inter",
+      "published": "2026-11-22T22:34:15+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "017def421aa66dfc": {
+      "source": "Kicker",
+      "title": "Distanzkracher, Patzer, Elfmeter: Atletico gibt sich keine Bl\u00f6\u00dfe",
+      "published": "2026-11-22T22:37:00+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "ea612c60fc515ea9": {
+      "source": "Kicker",
+      "title": "Brennende Sitze und zerst\u00f6rte Sanit\u00e4ranlage in Bremen",
+      "published": "2026-11-22T22:55:00+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
+    },
+    "612b754e6d4be1e4": {
+      "source": "Kicker",
+      "title": "Trainerstreit und Platzverweis: Duisburg gewinnt in \u00dcberzahl gegen Hansa",
+      "published": "2026-11-22T23:13:31+00:00",
+      "first_seen": "2026-11-23T12:14:40.177074+10:00",
+      "category": "football"
     }
   }
 }

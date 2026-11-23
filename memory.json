@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-23T07:59:15.611347+00:00",
+  "last_gdelt_attempt": "2026-11-23T13:23:15.916993+00:00",
   "article_store": {
     "f4395e8256869db7": {
       "source": "BBC News",
@@ -19873,6 +19873,203 @@
       "title": "Taliban deploys police to protect Afghanistan\u2019s vanishing forests",
       "published": "2026-11-23T07:47:32+00:00",
       "first_seen": "2026-11-23T17:59:41.697719+10:00",
+      "category": "breaking"
+    },
+    "56073dcdb712a959": {
+      "source": "BBC News",
+      "title": "Five takeaways from the failed climate talks COP31",
+      "published": "2026-11-23T06:33:50+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "bd194ba18928c3ab": {
+      "source": "BBC News",
+      "title": "Watch: Coughing, confusion and boos as Co-op Live concert cancelled",
+      "published": "2026-11-23T08:03:49+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "1feaef85738675d1": {
+      "source": "Al Jazeera",
+      "title": "Widowed amid war and displacement: Sudanese mothers struggle to survive",
+      "published": "2026-11-23T08:53:10+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "e0b871c192589d49": {
+      "source": "Al Jazeera",
+      "title": "Artificial superintelligence \u2018arriving\u2019, warns top Meta executive",
+      "published": "2026-11-23T09:08:07+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "f14756321113548f": {
+      "source": "BBC News",
+      "title": "Watch: Who is taking part in France's recent street protests?",
+      "published": "2026-11-23T09:25:52+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "d2d8970beda1d00b": {
+      "source": "Al Jazeera",
+      "title": "\u2018Environmental crimes\u2019: Israel blamed for toxic pollution in 99% of Gaza",
+      "published": "2026-11-23T09:30:16+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "2573c175d851450e": {
+      "source": "Al Jazeera",
+      "title": "Zelenskyy says Ukraine behind attacks on Russian ships near Libya",
+      "published": "2026-11-23T09:33:46+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking",
+      "duplicate_of": "6e3cc82c463e7615"
+    },
+    "0b12a2088bbb86cf": {
+      "source": "Al Jazeera",
+      "title": "Gaza turned into \u2018toxic wasteland\u2019 by Israel\u2019s war, says new report",
+      "published": "2026-11-23T09:33:59+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "6afd80b74c9234c5": {
+      "source": "Al Jazeera",
+      "title": "At least 15 killed in Ukraine\u2019s Kyiv region as Russia intensifies attacks",
+      "published": "2026-11-23T09:34:25+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "fcbff21cf2de2e00": {
+      "source": "Al Jazeera",
+      "title": "Thousands displaced after deadly storm hits Brazil town",
+      "published": "2026-11-23T09:45:25+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "15fc2c9a6166ffb1": {
+      "source": "BBC News",
+      "title": "Tyson Fury reveals schizophrenia diagnosis",
+      "published": "2026-11-23T09:53:52+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "49dd569045e02bad": {
+      "source": "Al Jazeera",
+      "title": "Occupied West Bank \u2018military zones\u2019 become de facto Israeli settler land",
+      "published": "2026-11-23T10:20:58+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "ef35ec2042e6daf8": {
+      "source": "Al Jazeera",
+      "title": "Why is Bangladesh\u2019s Grameen Bank under attack?",
+      "published": "2026-11-23T10:22:34+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "8ac3f5b040341ca7": {
+      "source": "BBC News",
+      "title": "Watch: What we know about Co-op Live 'major incident'",
+      "published": "2026-11-23T10:46:28+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "a33f652e8cbdcb6d": {
+      "source": "Al Jazeera",
+      "title": "CAS decision on Senegal\u2019s AFCON 2025 title appeal on Tuesday",
+      "published": "2026-11-23T10:55:05+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "f3b9ee837a401924": {
+      "source": "Al Jazeera",
+      "title": "Lebanese families return to ruins after Israeli attacks in south",
+      "published": "2026-11-23T10:57:20+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "2665f0e28999430b": {
+      "source": "Al Jazeera",
+      "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
+      "published": "2026-11-23T11:10:12+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "7b93f44f5ba367dd": {
+      "source": "Al Jazeera",
+      "title": "COP31: What next after UN climate talks collapse",
+      "published": "2026-11-23T11:19:08+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "abd87581214c1ffa": {
+      "source": "BBC News",
+      "title": "Ukraine shares video of strikes on Russian ships off Libya",
+      "published": "2026-11-23T11:34:10+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "84560bcb3af5a3d6": {
+      "source": "Al Jazeera",
+      "title": "Former Icelandic PM says world\u2019s great powers are flexing their muscles",
+      "published": "2026-11-23T11:34:59+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "e0337e1861226ed6": {
+      "source": "BBC News",
+      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+      "published": "2026-11-23T11:57:33+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "121eb076d5f022e2": {
+      "source": "Al Jazeera",
+      "title": "Inside the talks between student protest leaders and Macron\u2019s government",
+      "published": "2026-11-23T11:58:09+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "d097c76dbe541206": {
+      "source": "Al Jazeera",
+      "title": "Search continues for dozens missing after Indonesia candy factory fire",
+      "published": "2026-11-23T12:23:19+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "0170ef61b9de6926": {
+      "source": "Al Jazeera",
+      "title": "Iran threatens response to any attack amid naval blockade",
+      "published": "2026-11-23T12:25:24+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "c82d96d6e68cf0c1": {
+      "source": "Al Jazeera",
+      "title": "How the US, China and Russia are competing for Africa\u2019s mineral wealth",
+      "published": "2026-11-23T12:34:54+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "07fe583dc47733d1": {
+      "source": "Al Jazeera",
+      "title": "Argentina footballer Paredes collapses during post-match interview",
+      "published": "2026-11-23T12:40:21+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "beb1e9ec1ad81338": {
+      "source": "Al Jazeera",
+      "title": "Iran says it will use \u2018all available means\u2019 to counter US blockade",
+      "published": "2026-11-23T13:04:11+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
+      "category": "breaking"
+    },
+    "5e5ad82b5440a973": {
+      "source": "BBC News",
+      "title": "'People were screaming in pain' during Co-op Live evacuation",
+      "published": "2026-11-23T13:22:35+00:00",
+      "first_seen": "2026-11-23T23:23:42.770215+10:00",
       "category": "breaking"
     }
   }

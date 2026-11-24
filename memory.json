@@ -2089,57 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-24T01:04:54.400030+00:00",
+  "last_gdelt_attempt": "2026-11-24T04:54:52.899620+00:00",
   "article_store": {
-    "a3b4fa5530d37f06": {
-      "source": "BBC News",
-      "title": "New Zealand tricks and annual leave - the lengths fans are going to for GTA 6",
-      "published": "2026-11-17T01:04:45+00:00",
-      "first_seen": "2026-11-17T13:02:19.465698+10:00",
-      "category": "breaking"
-    },
-    "6020be35dc28a1b0": {
-      "source": "Al Jazeera",
-      "title": "EU countries announce migrant deportation centre in Rwanda",
-      "published": "2026-11-17T01:12:28+00:00",
-      "first_seen": "2026-11-17T13:02:19.465698+10:00",
-      "category": "breaking"
-    },
-    "ce136a9e1e649e88": {
-      "source": "Al Jazeera",
-      "title": "Irish court jails man for life over Dublin knife attack that sparked riots",
-      "published": "2026-11-17T01:19:56+00:00",
-      "first_seen": "2026-11-17T13:02:19.465698+10:00",
-      "category": "breaking"
-    },
-    "9a380c14b4c6dd6d": {
-      "source": "BBC News",
-      "title": "Failed asylum seekers face removal without five-day notice period",
-      "published": "2026-11-17T01:24:49+00:00",
-      "first_seen": "2026-11-17T13:02:19.465698+10:00",
-      "category": "breaking"
-    },
-    "36feee1bc04641b4": {
-      "source": "BBC News",
-      "title": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
-      "published": "2026-11-17T01:26:01+00:00",
-      "first_seen": "2026-11-17T13:02:19.465698+10:00",
-      "category": "breaking"
-    },
-    "2d716aaec9c1c164": {
-      "source": "Al Jazeera",
-      "title": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
-      "published": "2026-11-17T01:38:13+00:00",
-      "first_seen": "2026-11-17T13:02:19.465698+10:00",
-      "category": "breaking"
-    },
-    "b7a0f64035496476": {
-      "source": "BBC News",
-      "title": "The Papers:  'No savings for a decade' and 'The name's Pattinson'",
-      "published": "2026-11-17T01:48:58+00:00",
-      "first_seen": "2026-11-17T13:02:19.465698+10:00",
-      "category": "breaking"
-    },
     "a65c4463897a4f5a": {
       "source": "BBC News",
       "title": "China is hosting the world's leaders in its AI wonderland. Here's what they won't see",
@@ -20011,6 +19962,34 @@
       "published": "2026-11-23T22:45:23+00:00",
       "first_seen": "2026-11-24T12:44:42.691579+10:00",
       "category": "football"
+    },
+    "4deb70d613a15c59": {
+      "source": "BBC News",
+      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+      "published": "2026-11-24T02:15:59+00:00",
+      "first_seen": "2026-11-24T14:55:13.790769+10:00",
+      "category": "breaking"
+    },
+    "887ff98f2113ff68": {
+      "source": "Al Jazeera",
+      "title": "UN chief calls for world to agree on AI oversight within a year",
+      "published": "2026-11-24T02:27:19+00:00",
+      "first_seen": "2026-11-24T14:55:13.790769+10:00",
+      "category": "breaking"
+    },
+    "33082d5286f8dc43": {
+      "source": "Al Jazeera",
+      "title": "Excavator threatens sacred alpine lake in the Himalayas",
+      "published": "2026-11-24T02:35:27+00:00",
+      "first_seen": "2026-11-24T14:55:13.790769+10:00",
+      "category": "breaking"
+    },
+    "12dec7562149ae1b": {
+      "source": "Al Jazeera",
+      "title": "Mexico to try \u2018El Chapo Isidro\u2019 despite US extradition request",
+      "published": "2026-11-24T03:20:55+00:00",
+      "first_seen": "2026-11-24T14:55:13.790769+10:00",
+      "category": "breaking"
     }
   }
 }

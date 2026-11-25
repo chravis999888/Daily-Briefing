@@ -2089,7 +2089,7 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-25T21:03:51.502469+00:00",
+  "last_gdelt_attempt": "2026-11-25T23:42:29.624873+00:00",
   "article_store": {
     "b20948bb29663262": {
       "source": "Al Jazeera",
@@ -19778,6 +19778,62 @@
       "published": "2026-11-25T20:47:08+00:00",
       "first_seen": "2026-11-26T07:04:16.506953+10:00",
       "category": "football"
+    },
+    "0d355ca44a82251a": {
+      "source": "Al Jazeera",
+      "title": "Winter rains threaten 1,000 Gaza shelter sites, councils warn",
+      "published": "2026-11-25T21:03:51+00:00",
+      "first_seen": "2026-11-26T09:42:53.285449+10:00",
+      "category": "breaking"
+    },
+    "a81f18df2e510846": {
+      "source": "Al Jazeera",
+      "title": "Man United denied at Sporting as referee overshadows Fernandes double",
+      "published": "2026-11-25T22:15:59+00:00",
+      "first_seen": "2026-11-26T09:42:53.285449+10:00",
+      "category": "breaking"
+    },
+    "bc3c7750bea2ec16": {
+      "source": "BBC News",
+      "title": "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
+      "published": "2026-11-25T22:16:14+00:00",
+      "first_seen": "2026-11-26T09:42:53.285449+10:00",
+      "category": "breaking"
+    },
+    "8ac00ea2108a3308": {
+      "source": "BBC News",
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "published": "2026-11-25T22:18:06+00:00",
+      "first_seen": "2026-11-26T09:42:53.285449+10:00",
+      "category": "breaking"
+    },
+    "ff3888f91e6e9530": {
+      "source": "BBC News",
+      "title": "Duran Duran guitarist Andy Taylor dies aged 65",
+      "published": "2026-11-25T22:19:38+00:00",
+      "first_seen": "2026-11-26T09:42:53.285449+10:00",
+      "category": "breaking"
+    },
+    "81c954d54f2e55ff": {
+      "source": "Al Jazeera",
+      "title": "Malen and Roma deny injury-hit PSG in Champions League draw",
+      "published": "2026-11-25T22:41:46+00:00",
+      "first_seen": "2026-11-26T09:42:53.285449+10:00",
+      "category": "breaking"
+    },
+    "3fc11f3d9355edd6": {
+      "source": "Al Jazeera",
+      "title": "Deadly truck fire is latest of Egypt\u2019s transport disasters",
+      "published": "2026-11-25T22:48:47+00:00",
+      "first_seen": "2026-11-26T09:42:53.285449+10:00",
+      "category": "breaking"
+    },
+    "be39a21d8c717b29": {
+      "source": "Al Jazeera",
+      "title": "King tides and big waves batter coastal California",
+      "published": "2026-11-25T23:20:03+00:00",
+      "first_seen": "2026-11-26T09:42:53.285449+10:00",
+      "category": "breaking"
     }
   }
 }

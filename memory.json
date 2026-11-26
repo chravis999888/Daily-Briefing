@@ -2089,218 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-26T03:56:49.126279+00:00",
+  "last_gdelt_attempt": "2026-11-26T09:02:07.056461+00:00",
   "article_store": {
-    "5d868413ab261972": {
-      "source": "BBC News",
-      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-      "published": "2026-11-18T23:04:06+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "49c8a8bd607f7789": {
-      "source": "BBC News",
-      "title": "Why has Waymo pulled all its driverless cars from US freeways?",
-      "published": "2026-11-18T23:47:46+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "266dd20b86fa4115": {
-      "source": "BBC News",
-      "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-      "published": "2026-11-19T00:49:19+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "f9cbf15b535b820e": {
-      "source": "BBC News",
-      "title": "Who are the investors ready to jump on Anthropic?",
-      "published": "2026-11-19T01:22:38+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "779eae4775c70854": {
-      "source": "BBC News",
-      "title": "'Feudal' leasehold system set to be scrapped in England and Wales",
-      "published": "2026-11-19T02:02:23+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "0d33fe5b8bf7593d": {
-      "source": "Al Jazeera",
-      "title": "Google\u2019s driverless car hits a roadblock",
-      "published": "2026-11-19T02:57:56+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "4ff4c870a4d1aafb": {
-      "source": "BBC News",
-      "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-      "published": "2026-11-19T02:59:06+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "137082b8954a2835": {
-      "source": "Al Jazeera",
-      "title": "China\u2019s Xi greets Putin and Trump at APEC before historic summit",
-      "published": "2026-11-19T03:01:27+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "dbf8b9f63e926089": {
-      "source": "Al Jazeera",
-      "title": "APEC Live: Trump-Xi-Putin meeting to focus on Ukraine, Iran, AI",
-      "published": "2026-11-19T03:30:26+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "ef3bb59c7d5d3e67": {
-      "source": "Al Jazeera",
-      "title": "Miami court convicts US-Haitian pastor over 2021 assassination of president",
-      "published": "2026-11-19T03:58:10+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "a513a14ba10b6a26": {
-      "source": "BBC News",
-      "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
-      "published": "2026-11-19T04:42:52+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "9153d6ddcd4cb5b0": {
-      "source": "Al Jazeera",
-      "title": "Is this ancient Swahili town at risk from Kenya\u2019s energy boom",
-      "published": "2026-11-19T04:44:24+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "f4cbbd27051e61ff": {
-      "source": "Al Jazeera",
-      "title": "Elon Musk says he feels \u2018pretty foolish\u2019 about US midterm spending",
-      "published": "2026-11-19T04:46:18+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "c33eb1dc4d7ed993": {
-      "source": "Al Jazeera",
-      "title": "Trump makes third Supreme Court bid to end Venezuelan migrant protections",
-      "published": "2026-11-19T04:46:59+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "41a781950e28d2ca": {
-      "source": "Al Jazeera",
-      "title": "Trump wants to talk nuclear with Putin and Xi",
-      "published": "2026-11-19T04:50:28+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "2fd0b2ef2b25a1db": {
-      "source": "Al Jazeera",
-      "title": "Far from Trump-Putin meeting, Europe to count cost of Ukraine\u2019s defence",
-      "published": "2026-11-19T04:58:36+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "2004c0db07b9f436": {
-      "source": "Al Jazeera",
-      "title": "ICJ to rule on Rohingya genocide case against Myanmar: What\u2019s at stake?",
-      "published": "2026-11-19T05:13:13+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "9fdebbbbed6c3612": {
-      "source": "BBC News",
-      "title": "The Papers: 'I'd rejoin the Army to fight Russia' and 'Boiling point'",
-      "published": "2026-11-19T05:54:25+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "98ed32a778aa62ad": {
-      "source": "Al Jazeera",
-      "title": "Ecuadorian footballer gets eight-year ban for throwing rock at referee",
-      "published": "2026-11-19T06:06:23+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "54a417adda52abd1": {
-      "source": "Al Jazeera",
-      "title": "The Xi-Putin-Trump summit will not be a \u2018new Yalta\u2019",
-      "published": "2026-11-19T06:07:05+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "6556f185504bc1a3": {
-      "source": "Al Jazeera",
-      "title": "Grand Theft Auto VI launches to rave reviews after 13-year wait",
-      "published": "2026-11-19T06:08:47+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "8beb47f187e825c2": {
-      "source": "Al Jazeera",
-      "title": "Could Trump, Putin and Xi end the nuclear age?",
-      "published": "2026-11-19T06:15:55+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "144691ed7165ddee": {
-      "source": "Al Jazeera",
-      "title": "\u2018It\u2019s my friend\u2019: Moment Trump greets Putin at China summit",
-      "published": "2026-11-19T06:44:59+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "1729a1ad9fab0f37": {
-      "source": "BBC News",
-      "title": "Trump says he and Putin have a 'great relationship' at meeting",
-      "published": "2026-11-19T06:52:54+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "0ecee6bb90bbc0a5": {
-      "source": "Al Jazeera",
-      "title": "Netanyahu\u2019s last stand and the dangerous politics of survival",
-      "published": "2026-11-19T06:58:44+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "402991fc47e77505": {
-      "source": "Al Jazeera",
-      "title": "\u2018Too early\u2019 to determine impact of US blockade on Iran, with Tehran defiant",
-      "published": "2026-11-19T07:08:57+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "ca1d8168a34f27bc": {
-      "source": "BBC News",
-      "title": "Crimean Bridge attacked again, Russia says",
-      "published": "2026-11-19T07:32:06+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "c1892ad4d8af59e5": {
-      "source": "Al Jazeera",
-      "title": "Charting the world\u2019s biggest IPOs as Anthropic overtakes SpaceX",
-      "published": "2026-11-19T07:36:08+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "453dd8220e3a3347": {
-      "source": "Al Jazeera",
-      "title": "Gaza Syndrome: Why Israeli soldiers\u2019 trauma erases Palestinian victims",
-      "published": "2026-11-19T07:51:03+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
-    "e765172122689cdb": {
-      "source": "Al Jazeera",
-      "title": "Why is Pete Hegseth strengthening US military ties with Venezuela?",
-      "published": "2026-11-19T07:52:30+00:00",
-      "first_seen": "2026-11-19T18:11:50.293631+10:00",
-      "category": "breaking"
-    },
     "2853c84f040a2e32": {
       "source": "BBC News",
       "title": "Anglo Saxon 'sand body' among new Sutton Hoo finds",
@@ -19927,6 +19717,181 @@
       "published": "2026-11-26T00:09:21+00:00",
       "first_seen": "2026-11-26T13:57:18.630291+10:00",
       "category": "football"
+    },
+    "32d93d839d092e4c": {
+      "source": "Al Jazeera",
+      "title": "Brazil blasts \u2018unacceptable\u2019 new US tariff proposals",
+      "published": "2026-11-26T04:47:47+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "485c46936d21444c": {
+      "source": "Al Jazeera",
+      "title": "Six killed, including children, in plane crash off Mississippi coast",
+      "published": "2026-11-26T04:48:42+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "bb1a7c8cd0313a55": {
+      "source": "BBC News",
+      "title": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
+      "published": "2026-11-26T05:00:24+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "bda37d1b518cfbc7": {
+      "source": "BBC News",
+      "title": "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
+      "published": "2026-11-26T05:00:27+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "85e438696ed0fdf9": {
+      "source": "Al Jazeera",
+      "title": "Puerto Rico\u2019s Supreme Court cancels major power contract",
+      "published": "2026-11-26T05:09:55+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "85bf9a1189c142bd": {
+      "source": "BBC News",
+      "title": "I regret surviving the e-bike fire that killed my family",
+      "published": "2026-11-26T05:47:25+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "ee943db493ce3d16": {
+      "source": "Al Jazeera",
+      "title": "South Korea\u2019s central bank hikes interest rates amid AI chip boom",
+      "published": "2026-11-26T05:49:40+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "eb2c47c4f2dabcbd": {
+      "source": "BBC News",
+      "title": "Desperate appeals from women on death row in Iran after protests",
+      "published": "2026-11-26T06:01:58+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "4a041e1b8991afdc": {
+      "source": "Al Jazeera",
+      "title": "ICC judge Kimberly Prost tries war crimes. She\u2019s a target of US sanctions",
+      "published": "2026-11-26T06:07:35+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "fe3ed57c0c0663b5": {
+      "source": "Al Jazeera",
+      "title": "Sri Lanka mass grave revives quest for answers to forgotten Muslim massacre",
+      "published": "2026-11-26T06:10:52+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "7ea37a9061fead47": {
+      "source": "Al Jazeera",
+      "title": "How Silicon Valley became central to Israel\u2019s war on Palestinians",
+      "published": "2026-11-26T06:12:53+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "11021f4bba26fe07": {
+      "source": "Al Jazeera",
+      "title": "Gaza meningitis cases surge as collapsing infrastructure fuels health fears",
+      "published": "2026-11-26T06:14:15+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "f3199bafd5189373": {
+      "source": "Al Jazeera",
+      "title": "Jannik Sinner ruled out of 2027 Australian Open after knee surgery",
+      "published": "2026-11-26T06:32:48+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "1eb609910b986f0a": {
+      "source": "Al Jazeera",
+      "title": "Who really wants Pedro Sanchez out of power?",
+      "published": "2026-11-26T06:36:25+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "2a2ca9a34f0a8bb7": {
+      "source": "Al Jazeera",
+      "title": "The world must choose between nuclear abolition and nuclear catastrophe",
+      "published": "2026-11-26T06:53:05+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "2f23c282532c1df9": {
+      "source": "Al Jazeera",
+      "title": "War and drought threaten livelihoods of Sudan\u2019s farmers",
+      "published": "2026-11-26T06:56:34+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "2117f0bf9de9da4b": {
+      "source": "Al Jazeera",
+      "title": "French navy intercepts suspected drug-smuggling semi-submersible",
+      "published": "2026-11-26T07:15:39+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "a7d3ba3abaa41461": {
+      "source": "Al Jazeera",
+      "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
+      "published": "2026-11-26T07:38:00+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "1556d3830e2b3a4f": {
+      "source": "Al Jazeera",
+      "title": "DR Congo Ebola cases surpass 12,000 as fighting disrupts response in east",
+      "published": "2026-11-26T07:41:30+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "7d493f67818aa08d": {
+      "source": "Al Jazeera",
+      "title": "Photos: Rallies around the world denounce violence against women",
+      "published": "2026-11-26T07:43:14+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "8fe8536a06d042b8": {
+      "source": "BBC News",
+      "title": "Government preparing to publish more Mandelson papers",
+      "published": "2026-11-26T08:06:32+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "dd56eae0ca202e84": {
+      "source": "Al Jazeera",
+      "title": "Rescuers recover bodies after flood at illegal Indonesia gold mine",
+      "published": "2026-11-26T08:23:51+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "f5c942c6a0c549c0": {
+      "source": "Al Jazeera",
+      "title": "Ms Rachel on Gaza: \u2018everybody should speak out\u2019",
+      "published": "2026-11-26T08:29:53+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "d4104ee490d692b5": {
+      "source": "Al Jazeera",
+      "title": "Thanksgiving and National Day of Mourning: What is the history?",
+      "published": "2026-11-26T08:33:51+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
+    },
+    "baaedc42eab4ded1": {
+      "source": "Al Jazeera",
+      "title": "Explosion occurs at oil facility in Thailand\u2019s Bangkok",
+      "published": "2026-11-26T08:49:20+00:00",
+      "first_seen": "2026-11-26T19:02:28.100016+10:00",
+      "category": "breaking"
     }
   }
 }

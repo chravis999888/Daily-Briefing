@@ -2089,679 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-27T17:50:32.149551+00:00",
+  "last_gdelt_attempt": "2026-11-27T21:44:41.270127+00:00",
   "article_store": {
-    "91e91433d425cbb8": {
-      "source": "BBC News",
-      "title": "Pair charged over RAF Fairford plot to face trial next November",
-      "published": "2026-11-20T13:23:45+00:00",
-      "first_seen": "2026-11-21T04:19:14.036183+10:00",
-      "category": "breaking"
-    },
-    "7a9ed7f72387cba8": {
-      "source": "BBC News",
-      "title": "Two men dead after glider crashes into Loch Leven",
-      "published": "2026-11-20T16:54:52+00:00",
-      "first_seen": "2026-11-21T04:19:14.036183+10:00",
-      "category": "breaking"
-    },
-    "1f17bfc1ef9d6076": {
-      "source": "BBC News",
-      "title": "Mum's fatal BBL an accident - but risk of more deaths",
-      "published": "2026-11-20T17:04:38+00:00",
-      "first_seen": "2026-11-21T04:19:14.036183+10:00",
-      "category": "breaking"
-    },
-    "78e1e22f7041430d": {
-      "source": "Al Jazeera",
-      "title": "UK far-right activist \u2018Danny Tommo\u2019 jailed for slashing migrant boat",
-      "published": "2026-11-20T17:05:32+00:00",
-      "first_seen": "2026-11-21T04:19:14.036183+10:00",
-      "category": "breaking"
-    },
-    "127f12e2d0722477": {
-      "source": "Al Jazeera",
-      "title": "Top US Democrat warns Trump admin against destroying records",
-      "published": "2026-11-20T17:05:42+00:00",
-      "first_seen": "2026-11-21T04:19:14.036183+10:00",
-      "category": "breaking"
-    },
-    "de00b96a235ae869": {
-      "source": "Al Jazeera",
-      "title": "Qatar\u2019s emir calls for diplomacy to end regional conflicts",
-      "published": "2026-11-20T17:18:58+00:00",
-      "first_seen": "2026-11-21T04:19:14.036183+10:00",
-      "category": "breaking"
-    },
-    "aa248bbf5430d030": {
-      "source": "Al Jazeera",
-      "title": "Protests held across Europe over wages, services, high living costs",
-      "published": "2026-11-20T17:32:32+00:00",
-      "first_seen": "2026-11-21T04:19:14.036183+10:00",
-      "category": "breaking"
-    },
-    "73f7cc09bff06076": {
-      "source": "Al Jazeera",
-      "title": "US tech sell-off continues as Anthropic tumbles after mega IPO",
-      "published": "2026-11-20T17:44:18+00:00",
-      "first_seen": "2026-11-21T04:19:14.036183+10:00",
-      "category": "breaking"
-    },
-    "eafdbe500f925f8b": {
-      "source": "Al Jazeera",
-      "title": "Mamdani unveils plan to close New York\u2019s Rikers Island by 2032",
-      "published": "2026-11-20T17:54:55+00:00",
-      "first_seen": "2026-11-21T04:19:14.036183+10:00",
-      "category": "breaking"
-    },
-    "07f8970009db5859": {
-      "source": "ABC News",
-      "title": "Myanmar calls international court ruling on Rohingya genocide 'unfair'",
-      "published": "2026-11-20T09:54:10+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "d973769344a833c8": {
-      "source": "ABC News",
-      "title": "Teen shot dead by police was not 'just a terrorist', mother tells inquest",
-      "published": "2026-11-20T10:48:15+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "425fe7e53a2510ce": {
-      "source": "ABC News",
-      "title": "Russia pummels Ukraine after Putin vowed revenge, killing eight",
-      "published": "2026-11-20T11:58:17+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "fd342f28bdde54d8": {
-      "source": "ABC News",
-      "title": "Key takeaways from UK-EU summit: Idea of Britain rejoining still on table",
-      "published": "2026-11-20T14:04:59+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "40d19e143f9c17f8": {
-      "source": "ABC News",
-      "title": "Trying to get your head around Sandpapergate? We're here to help",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "69746dc1163e1e09": {
-      "source": "ABC News",
-      "title": "'Deciding who comes here' is harder than it sounds",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "8537ce37f784f96e": {
-      "source": "ABC News",
-      "title": "Australians told to prepare for more disruption after spate of tech outages",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "2d67572c96124c4a": {
-      "source": "ABC News",
-      "title": "Slowing economy and rising AI create new generation of unemployed",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "a372da35e9494302": {
-      "source": "ABC News",
-      "title": "Xi, Putin and Trump walked into a room and one walked out the biggest winner",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "a1b87d4e0dde74e4": {
-      "source": "SMH",
-      "title": "How a priceless Faberge egg ended up permanently living at sea",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "77f55b11b33064c7": {
-      "source": "SMH",
-      "title": "Summer is coming. Here\u2019s what you should know about sharks",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "49e35daf0ec2d296": {
-      "source": "SMH",
-      "title": "Is it wrong to leave a secret message for the next guest on the hotel-room mirror?",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "e3ab98e51b5ec649": {
-      "source": "SMH",
-      "title": "A fear of heights is natural. Here\u2019s how to know when yours is actually a phobia",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "82ebc4ac64b69d5a": {
-      "source": "SMH",
-      "title": "Hiring freeze, graduate cuts and offshoring: How AI is hitting the jobs market",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "824472a0f637d667": {
-      "source": "SMH",
-      "title": "\u2018You hold hope and fear at the same time\u2019: Living in the limbo of incurable cancer",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "3ecdfdaa3372dd12": {
-      "source": "SMH",
-      "title": "Sam started an Instagram to document his Perth build. Then came the delays",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "6b86b35c4f497c1c": {
-      "source": "SMH",
-      "title": "Midwives fear upcoming rule change will push more women to unqualified doulas",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "849fccc9394443e0": {
-      "source": "SMH",
-      "title": "The unusual pre-game routine that has helped the Demons to a preliminary final",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "c0507b119bfcac78": {
-      "source": "SMH",
-      "title": "We take the aisle and window seats \u2013 and we don\u2019t swap with middle passengers",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "851cd35cd98be883": {
-      "source": "SMH",
-      "title": "Everything I ate en route to Kenya",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "a1cfd164f1e47771": {
-      "source": "SMH",
-      "title": "Secret briefings reveal warnings about Labor\u2019s \u2018ruthless\u2019 data centre pursuit",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "ada86179fc7b9216": {
-      "source": "SMH",
-      "title": "\u2018It\u2019s galvanised our group\u2019: How the Swans AFLW team soared above club turmoil",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "9798911d2a661957": {
-      "source": "SMH",
-      "title": "Rock star sells Point Piper apartment after years-long campaign",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "549e179fb3b300e1": {
-      "source": "SMH",
-      "title": "Ex-Rockpool chefs transform 80-year-old Newcastle institution into Italian restaurant",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "8fda88f6c4c7b8ec": {
-      "source": "SMH",
-      "title": "Helen Goh\u2019s ultimate Christmas mince pies",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "277fe58eb3a9ea25": {
-      "source": "SMH",
-      "title": "Falling apart at the seams: Inside cricket\u2019s state of emergency",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "1b6ae91b7d90080d": {
-      "source": "SMH",
-      "title": "\u2018Vibes have definitely shifted\u2019: The perfect storm that changed how America sees big tech",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "2fc1d85e84d33cd1": {
-      "source": "The Age",
-      "title": "How a priceless Faberge egg ended up permanently living at sea",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "a1b87d4e0dde74e4"
-    },
-    "8721b9d476d679b7": {
-      "source": "The Age",
-      "title": "Summer is coming. Here\u2019s what you should know about sharks",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "77f55b11b33064c7"
-    },
-    "d15781352eec8f0d": {
-      "source": "The Age",
-      "title": "Is it wrong to leave a secret message for the next guest on the hotel-room mirror?",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "49e35daf0ec2d296"
-    },
-    "a6ee62e678fc5c9c": {
-      "source": "The Age",
-      "title": "A fear of heights is natural. Here\u2019s how to know when yours is actually a phobia",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "e3ab98e51b5ec649"
-    },
-    "ba104c2f6f87b246": {
-      "source": "The Age",
-      "title": "Hiring freeze, graduate cuts and offshoring: How AI is hitting the jobs market",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "82ebc4ac64b69d5a"
-    },
-    "fd2d890f24e67620": {
-      "source": "The Age",
-      "title": "\u2018You hold hope and fear at the same time\u2019: Living in the limbo of incurable cancer",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "824472a0f637d667"
-    },
-    "2bdb1155cb40be3f": {
-      "source": "The Age",
-      "title": "Sam started an Instagram to document his Perth build. Then came the delays",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "3ecdfdaa3372dd12"
-    },
-    "07d900c3f0e53efd": {
-      "source": "The Age",
-      "title": "Midwives fear upcoming rule change will push more women to unqualified doulas",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "6b86b35c4f497c1c"
-    },
-    "589b6ac6ba883034": {
-      "source": "The Age",
-      "title": "The unusual pre-game routine that has helped the Demons to a preliminary final",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "849fccc9394443e0"
-    },
-    "f326ed9b568e4d5b": {
-      "source": "The Age",
-      "title": "We take the aisle and window seats \u2013 and we don\u2019t swap with middle passengers",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "c0507b119bfcac78"
-    },
-    "513b254abb0ad3ea": {
-      "source": "The Age",
-      "title": "Everything I ate en route to Kenya",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "851cd35cd98be883"
-    },
-    "307dfbe490873805": {
-      "source": "The Age",
-      "title": "Secret briefings reveal warnings about Labor\u2019s \u2018ruthless\u2019 data centre pursuit",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "a1cfd164f1e47771"
-    },
-    "b3d31ab773c44cd1": {
-      "source": "The Age",
-      "title": "\u2018It\u2019s galvanised our group\u2019: How the Swans AFLW team soared above club turmoil",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "ada86179fc7b9216"
-    },
-    "d60d3904d0a8c140": {
-      "source": "The Age",
-      "title": "Rock star sells Point Piper apartment after years-long campaign",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "9798911d2a661957"
-    },
-    "6c9c882908ae0981": {
-      "source": "The Age",
-      "title": "Ex-Rockpool chefs transform 80-year-old Newcastle institution into Italian restaurant",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "549e179fb3b300e1"
-    },
-    "d76e7a9e2361c470": {
-      "source": "The Age",
-      "title": "Helen Goh\u2019s ultimate Christmas mince pies",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "8fda88f6c4c7b8ec"
-    },
-    "85e91aef4d4b296d": {
-      "source": "The Age",
-      "title": "Falling apart at the seams: Inside cricket\u2019s state of emergency",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "277fe58eb3a9ea25"
-    },
-    "b8ce45257fc7deeb": {
-      "source": "The Age",
-      "title": "\u2018Vibes have definitely shifted\u2019: The perfect storm that changed how America sees big tech",
-      "published": "2026-11-20T18:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "1b6ae91b7d90080d"
-    },
-    "6369c296c0a57b21": {
-      "source": "SMH",
-      "title": "The retirement question most of us never ask \u2013 until it\u2019s too late",
-      "published": "2026-11-20T18:01:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "ac30425460d1ed8b": {
-      "source": "The Age",
-      "title": "The retirement question most of us never ask \u2013 until it\u2019s too late",
-      "published": "2026-11-20T18:01:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "6369c296c0a57b21"
-    },
-    "03838ba2cfcaf76a": {
-      "source": "SMH",
-      "title": "Women are retiring with $51,000 less in super. Here\u2019s how to fight back",
-      "published": "2026-11-20T18:15:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia"
-    },
-    "c394dcbc12fa26bc": {
-      "source": "The Age",
-      "title": "Women are retiring with $51,000 less in super. Here\u2019s how to fight back",
-      "published": "2026-11-20T18:15:00+00:00",
-      "first_seen": "2026-11-21T04:19:15.070984+10:00",
-      "category": "australia",
-      "duplicate_of": "03838ba2cfcaf76a"
-    },
-    "564fd3dd3f7e32b6": {
-      "source": "Nature",
-      "title": "How AI is affecting science careers",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "f1b6ab30be30cbcf": {
-      "source": "Nature",
-      "title": "Briefing Chat: Voyager 1 is now one \u2018light day\u2019 from Earth \u2014 setting a cosmic record",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "f22d2b6ba2ba688a": {
-      "source": "Nature",
-      "title": "Fraud helps little fire ants to survive and conquer",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "0b02b5b3152165a1": {
-      "source": "Nature",
-      "title": "\u2018I had felt overconfident\u2019: senior scientists reveal mistakes that aided discovery",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "7814dba73bf56f58": {
-      "source": "Nature",
-      "title": "\u2018Incredibly frustrating\u2019: prestigious fellowship applications close in just 21 hours",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "dd02bddba616b201": {
-      "source": "Nature",
-      "title": "US science academy urges journals to fix errors more quickly",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "a3b01941433ddf58": {
-      "source": "Nature",
-      "title": "Author Correction: SARS-CoV-2 mRNA vaccines sensitize tumours to immune checkpoint blockade",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "5b7abde8b5e9cd8d": {
-      "source": "Nature",
-      "title": "Ruminations on a last movement",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "97c684ec5efa1747": {
-      "source": "Nature",
-      "title": "Claude, find me a planet: amateur astronomers are using AI with mixed results",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "98f4376c7d48d432": {
-      "source": "Nature",
-      "title": "How to turn impostor syndrome into a superpower",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "4bc4f8357f6319f1": {
-      "source": "Nature",
-      "title": "These gaps in weather data affect forecasts everywhere: plugging them is not charity",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "eb701a03e4dfe761": {
-      "source": "ScienceDaily",
-      "title": "A 3-million-year-old child just made human evolution far more complicated",
-      "published": "2026-11-20T03:17:52+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "943aa775be33bc14": {
-      "source": "New Scientist",
-      "title": "Unexpected stone tools from Israel raise questions about cultural evolution",
-      "published": "2026-11-20T12:00:00+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "0b8d54db0805f626": {
-      "source": "PhysOrg",
-      "title": "Study reveals hidden evolutionary diversity in endangered white pines",
-      "published": "2026-11-20T13:20:09+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "dbab571285ced454": {
-      "source": "PhysOrg",
-      "title": "Killer whales became fearsome predators long before scientists thought",
-      "published": "2026-11-20T17:00:02+00:00",
-      "first_seen": "2026-11-21T04:19:17.394437+10:00",
-      "category": "archaeology"
-    },
-    "8a627b790177c291": {
-      "source": "Kicker",
-      "title": "Bayern II und Gladbach II betroffen: Erste Absagen im Fu\u00dfballherbst",
-      "published": "2026-11-20T14:07:06+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "7dabb194d9ccbdb2": {
-      "source": "Kicker",
-      "title": "Blessin setzt Nicolas auf die Bank: Batz beginnt gegen den BVB",
-      "published": "2026-11-20T14:27:02+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "1582e8a6f28a7e58": {
-      "source": "Kicker",
-      "title": "Baum klagt nicht \u00fcber Ausf\u00e4lle: \"Bringt ein paar Chancen mit sich\"",
-      "published": "2026-11-20T14:27:06+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "f9bc06df0adc3374": {
-      "source": "Kicker",
-      "title": "Mit Maza gegen Paderborn: Comeback-Quintett sorgt f\u00fcr H\u00e4rtef\u00e4lle",
-      "published": "2026-11-20T14:39:22+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "11772ea5aa659169": {
-      "source": "Kicker",
-      "title": "\"Geht nicht mehr um romantische Geschichte\": Kehrt Vuskovic in den HSV-Kader zur\u00fcck?",
-      "published": "2026-11-20T14:43:38+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "e866b61b9e208fe7": {
-      "source": "Kicker",
-      "title": "Warum Neuer gerade in Brasilien weilt",
-      "published": "2026-11-20T14:55:17+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "dc3b5b87420c4f03": {
-      "source": "Kicker",
-      "title": "Das ist auf der JHV des FC Bayern zu erwarten",
-      "published": "2026-11-20T15:18:53+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "0df2fbbdbadc5c83": {
-      "source": "Kicker",
-      "title": "Pyro-Show vor dem Nordderby: Fans heizen HSV ein",
-      "published": "2026-11-20T15:24:52+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "9916954f6b092725": {
-      "source": "Kicker",
-      "title": "\"Ein herber R\u00fcckschlag\": Baur fehlt Celtic Glasgow monatelang",
-      "published": "2026-11-20T15:40:54+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "6d2f6cc0407e6fc2": {
-      "source": "Kicker",
-      "title": "Nach unerw\u00fcnschtem Drohnen-Besuch: Pochettino kl\u00e4rt die Kapit\u00e4nsfrage",
-      "published": "2026-11-20T15:44:14+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "432d40047d89b0cf": {
-      "source": "Kicker",
-      "title": "LIVE! Flutlichtpartie in Emden: Schlie\u00dft der Bremer SV zum rettenden Ufer auf?",
-      "published": "2026-11-20T15:47:16+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "70d791f83d80674e": {
-      "source": "Kicker",
-      "title": "LIVE! Erfurt will Altglienicke absch\u00fctteln - Pflichtaufgabe f\u00fcr Lok - Zwickauer Wende?",
-      "published": "2026-11-20T15:58:22+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "4b12a392ff9b9375": {
-      "source": "Kicker",
-      "title": "\"Gegen die Werte, die wir leben\": Wolfsburg suspendiert Lattwein f\u00fcr ein Spiel",
-      "published": "2026-11-20T15:58:27+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "0f0c7650abdee386": {
-      "source": "Kicker",
-      "title": "LIVE! Nach Spielausfall in der Vorwoche: Kehrt Mannheim beim OFC zur\u00fcck an die Spitze?",
-      "published": "2026-11-20T16:05:14+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "056fcafc61bd9f7b": {
-      "source": "Kicker",
-      "title": "LIVE! Gegen formstarke Augsburger: Buchbach schielt auf Platz 2 - Legt Illertissen nach?",
-      "published": "2026-11-20T16:10:56+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "2e9005146ebd6ad8": {
-      "source": "Kicker",
-      "title": "LIVE! Bekommen Wattenscheid und Wiedenbr\u00fcck die Kurve? - BVB II empf\u00e4ngt das Schlusslicht",
-      "published": "2026-11-20T16:16:09+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "d69ce2be224776cb": {
-      "source": "Kicker",
-      "title": "LIVE! Herrliche Darmst\u00e4dter Tore drehen das Spiel - Bayern-Leihgabe Chavez trifft",
-      "published": "2026-11-20T16:35:59+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "f3b88087410fa34e": {
-      "source": "Kicker",
-      "title": "Polzin trifft auf Freund Thioune: \"F\u00fcr uns beide etwas Besonderes\"",
-      "published": "2026-11-20T17:32:43+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "4f8cbca1a93c745a": {
-      "source": "Kicker",
-      "title": "Gl\u00fcckw\u00fcnsche am Morgen, Freistellung am Nachmittag",
-      "published": "2026-11-20T17:46:29+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
-    "ca44a151606029fc": {
-      "source": "Kicker",
-      "title": "LIVE! Schlusslicht Havelse empf\u00e4ngt den formstarken Spitzenreiter Viktoria",
-      "published": "2026-11-20T19:50:00+00:00",
-      "first_seen": "2026-11-21T04:19:21.518695+10:00",
-      "category": "football"
-    },
     "d31858d692c7675a": {
       "source": "BBC News",
       "title": "Man jailed for murder of woman drowned in Thames",
@@ -20029,6 +19358,139 @@
       "published": "2026-11-27T17:00:42+00:00",
       "first_seen": "2026-11-28T03:51:04.141880+10:00",
       "category": "football"
+    },
+    "f029fd2418990471": {
+      "source": "Al Jazeera",
+      "title": "Why India\u2019s captain wants saliva back in cricket",
+      "published": "2026-11-27T17:39:57+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "1fffafdb6850689c": {
+      "source": "Al Jazeera",
+      "title": "Mecca pact allies condemn \u2018heinous\u2019 Houthi attacks on Saudi Arabia",
+      "published": "2026-11-27T17:41:24+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "f176d32166e6d2ef": {
+      "source": "Al Jazeera",
+      "title": "Kyiv offers Black Sea ceasefire to protect grain exports",
+      "published": "2026-11-27T17:44:33+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "7e1e0a9b2b870075": {
+      "source": "Al Jazeera",
+      "title": "Spanish rescuers treat migrants as hundreds arrive in Canary Islands",
+      "published": "2026-11-27T17:44:50+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "ab07217ec622a157": {
+      "source": "BBC News",
+      "title": "'Calculating predator' who blackmailed girls into self-harm jailed for 14 and a half years",
+      "published": "2026-11-27T17:47:14+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "856e14f5933490ee": {
+      "source": "Al Jazeera",
+      "title": "Mexico files complaint with US over DEA tip line on alleged drug dealers",
+      "published": "2026-11-27T17:58:36+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "829096a468f719c9": {
+      "source": "BBC News",
+      "title": "Chicken Shop Date: The perfect end or a disappointing send-off?",
+      "published": "2026-11-27T18:02:25+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "542fb10155fc58fd": {
+      "source": "BBC News",
+      "title": "New satellite data shows how fast some African cities are sinking",
+      "published": "2026-11-27T19:03:18+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "6cb4ab7665efdea0": {
+      "source": "Al Jazeera",
+      "title": "Israel kills four in Gaza as Hamas chief al-Hayya\u2019s son survives strike",
+      "published": "2026-11-27T19:53:25+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "67a122a3f23a2b52": {
+      "source": "Al Jazeera",
+      "title": "Is Iraq facing renewed instability?",
+      "published": "2026-11-27T19:56:35+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "272b12d5b290b593": {
+      "source": "Al Jazeera",
+      "title": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
+      "published": "2026-11-27T20:10:30+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "6803048e6e69cc40": {
+      "source": "Al Jazeera",
+      "title": "Hamas chief\u2019s last surviving son escapes Israeli strike in Gaza",
+      "published": "2026-11-27T20:18:45+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "4bd8ea061c135e7e": {
+      "source": "Al Jazeera",
+      "title": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
+      "published": "2026-11-27T20:39:57+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "eadaf135872f6871": {
+      "source": "Al Jazeera",
+      "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
+      "published": "2026-11-27T20:40:51+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "c25d71b886e1c823": {
+      "source": "BBC News",
+      "title": "Millions lose access to benefits and pensions services after 'cyber incident'",
+      "published": "2026-11-27T20:42:44+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "c24535d6211bf91a": {
+      "source": "Al Jazeera",
+      "title": "Venezuela to repeal law that bans opposition figures from office",
+      "published": "2026-11-27T20:44:03+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "8d9e362a37078a84": {
+      "source": "Al Jazeera",
+      "title": "Why are families going hungry in northern Yemen even where food is on sale?",
+      "published": "2026-11-27T21:11:27+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "787df9d0d9399296": {
+      "source": "BBC News",
+      "title": "Charity in Capt Tom's name bids to be struck off",
+      "published": "2026-11-27T21:26:30+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
+    },
+    "21d8bca4dce98adf": {
+      "source": "BBC News",
+      "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+      "published": "2026-11-27T21:40:01+00:00",
+      "first_seen": "2026-11-28T07:45:02.407000+10:00",
+      "category": "breaking"
     }
   }
 }

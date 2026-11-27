@@ -2089,43 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-27T02:19:42.203839+00:00",
+  "last_gdelt_attempt": "2026-11-27T04:24:19.423762+00:00",
   "article_store": {
-    "0b91abafbfcadaf8": {
-      "source": "BBC News",
-      "title": "Airbnb's divisive new house rules come into force",
-      "published": "2026-11-20T00:12:28+00:00",
-      "first_seen": "2026-11-20T13:38:51.998259+10:00",
-      "category": "breaking"
-    },
-    "fb32873037d8aca3": {
-      "source": "Al Jazeera",
-      "title": "Meta rethinks 2030 climate goals as AI data centres drive emissions up",
-      "published": "2026-11-20T01:29:28+00:00",
-      "first_seen": "2026-11-20T13:38:51.998259+10:00",
-      "category": "breaking"
-    },
-    "d65e7360300d7087": {
-      "source": "Al Jazeera",
-      "title": "Trump nominee refuses to call Jan 6 an \u2018attack\u2019 at Senate hearing",
-      "published": "2026-11-20T02:25:33+00:00",
-      "first_seen": "2026-11-20T13:38:51.998259+10:00",
-      "category": "breaking"
-    },
-    "753389cc89961bd7": {
-      "source": "Al Jazeera",
-      "title": "Beloved hippo Fiona dies days after swallowing visitor\u2019s hat",
-      "published": "2026-11-20T02:51:44+00:00",
-      "first_seen": "2026-11-20T13:38:51.998259+10:00",
-      "category": "breaking"
-    },
-    "ea341f03026720e8": {
-      "source": "Al Jazeera",
-      "title": "Asia\u2019s stock markets dive as Anthropic debut fails to allay AI bubble fears",
-      "published": "2026-11-20T02:54:22+00:00",
-      "first_seen": "2026-11-20T13:38:51.998259+10:00",
-      "category": "breaking"
-    },
     "5db3dcd93c57f4f7": {
       "source": "BBC News",
       "title": "How did Anthropic's stock market debut unfold?",
@@ -19472,6 +19437,48 @@
       "title": "Trump says the US has \u2018close to 50%\u2019 of world\u2019s oil",
       "published": "2026-11-27T01:44:02+00:00",
       "first_seen": "2026-11-27T12:20:06.324586+10:00",
+      "category": "breaking"
+    },
+    "22b662a37464cef1": {
+      "source": "BBC News",
+      "title": "Roofs torn off and streets under water as severe weather hits US on Thanksgiving",
+      "published": "2026-11-26T19:26:16+00:00",
+      "first_seen": "2026-11-27T14:24:44.766030+10:00",
+      "category": "breaking"
+    },
+    "103d3589ce276202": {
+      "source": "Al Jazeera",
+      "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to \u2018pull back\u2019",
+      "published": "2026-11-27T02:14:25+00:00",
+      "first_seen": "2026-11-27T14:24:44.766030+10:00",
+      "category": "breaking"
+    },
+    "1752588abd94c038": {
+      "source": "Al Jazeera",
+      "title": "Spain and Morocco under-17 stars target World Cup 2030",
+      "published": "2026-11-27T02:58:48+00:00",
+      "first_seen": "2026-11-27T14:24:44.766030+10:00",
+      "category": "breaking"
+    },
+    "bb9b1913a5e15500": {
+      "source": "Al Jazeera",
+      "title": "Asian stock markets rise after earlier tech rout",
+      "published": "2026-11-27T03:42:16+00:00",
+      "first_seen": "2026-11-27T14:24:44.766030+10:00",
+      "category": "breaking"
+    },
+    "38e09cde56051e32": {
+      "source": "Al Jazeera",
+      "title": "Trump downplays Russia, China support for Iran during talks with US troops",
+      "published": "2026-11-27T03:49:08+00:00",
+      "first_seen": "2026-11-27T14:24:44.766030+10:00",
+      "category": "breaking"
+    },
+    "532f9831d8c26d73": {
+      "source": "Al Jazeera",
+      "title": "At least 13 Niger soldiers killed in Sanam armed attack",
+      "published": "2026-11-27T04:06:52+00:00",
+      "first_seen": "2026-11-27T14:24:44.766030+10:00",
       "category": "breaking"
     }
   }

@@ -2089,797 +2089,8 @@
       }
     ]
   },
-  "last_gdelt_attempt": "2026-11-27T21:44:41.270127+00:00",
+  "last_gdelt_attempt": "2026-11-28T01:06:21.195912+00:00",
   "article_store": {
-    "9d73609ebc4d9e40": {
-      "source": "BBC News",
-      "title": "Burnham rejects calls for devolution of powers in letter to Welsh FM",
-      "published": "2026-11-20T19:41:30+00:00",
-      "first_seen": "2026-11-21T09:14:42.357734+10:00",
-      "category": "breaking"
-    },
-    "f3ef5e4966e06de8": {
-      "source": "BBC News",
-      "title": "What new UK-EU deal could mean for future post-Brexit relations",
-      "published": "2026-11-20T21:43:22+00:00",
-      "first_seen": "2026-11-21T09:14:42.357734+10:00",
-      "category": "breaking"
-    },
-    "3a2a08725f018e30": {
-      "source": "BBC News",
-      "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-      "published": "2026-11-20T21:57:07+00:00",
-      "first_seen": "2026-11-21T09:14:42.357734+10:00",
-      "category": "breaking"
-    },
-    "66dfa9350d39c900": {
-      "source": "Al Jazeera",
-      "title": "US lawmakers push for tougher AI chip rules amid China export crackdown",
-      "published": "2026-11-20T22:15:07+00:00",
-      "first_seen": "2026-11-21T09:14:42.357734+10:00",
-      "category": "breaking"
-    },
-    "722df5013ca6d709": {
-      "source": "BBC News",
-      "title": "French police officers sentenced for beating of music producer Michel Zecler",
-      "published": "2026-11-20T22:37:09+00:00",
-      "first_seen": "2026-11-21T09:14:42.357734+10:00",
-      "category": "breaking"
-    },
-    "70d1dd5c556861e2": {
-      "source": "Al Jazeera",
-      "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
-      "published": "2026-11-20T23:06:41+00:00",
-      "first_seen": "2026-11-21T09:14:42.357734+10:00",
-      "category": "breaking"
-    },
-    "39508776be079e41": {
-      "source": "BBC News",
-      "title": "Dead pets were meant to be cremated - then their bodies appeared on a livestream",
-      "published": "2026-11-20T23:20:33+00:00",
-      "first_seen": "2026-11-21T11:05:30.848663+10:00",
-      "category": "breaking"
-    },
-    "198ce2ed004ebd8b": {
-      "source": "Al Jazeera",
-      "title": "Rahul Gandhi backs strong India-Israel ties despite Gaza war",
-      "published": "2026-11-20T23:20:50+00:00",
-      "first_seen": "2026-11-21T11:05:30.848663+10:00",
-      "category": "breaking"
-    },
-    "f83bb02cab652286": {
-      "source": "Al Jazeera",
-      "title": "Overturned boat carrying mourners to funeral kills at least four in Nigeria",
-      "published": "2026-11-20T23:36:36+00:00",
-      "first_seen": "2026-11-21T11:05:30.848663+10:00",
-      "category": "breaking"
-    },
-    "6a5522861bf1e7a1": {
-      "source": "Al Jazeera",
-      "title": "Iran war live: Saudi-led coalition downs Houthi missiles",
-      "published": "2026-11-21T00:00:06+00:00",
-      "first_seen": "2026-11-21T11:05:30.848663+10:00",
-      "category": "breaking"
-    },
-    "3df0760b00a421e2": {
-      "source": "BBC News",
-      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
-      "published": "2026-11-21T00:01:39+00:00",
-      "first_seen": "2026-11-21T11:05:30.848663+10:00",
-      "category": "breaking"
-    },
-    "43472aac8b8b3698": {
-      "source": "BBC News",
-      "title": "Sales of baby sleeping bag halted by Next after new mum raises alarm",
-      "published": "2026-11-21T00:02:09+00:00",
-      "first_seen": "2026-11-21T11:05:30.848663+10:00",
-      "category": "breaking"
-    },
-    "ce011ce670be6c84": {
-      "source": "BBC News",
-      "title": "Who will be Robert Pattinson's 'Bond girl' - and does the role need to change?",
-      "published": "2026-11-21T00:03:16+00:00",
-      "first_seen": "2026-11-21T11:05:30.848663+10:00",
-      "category": "breaking"
-    },
-    "2fa41ae859b1bdef": {
-      "source": "BBC News",
-      "title": "Can AI really help spot Black Friday deals? We put it to the test",
-      "published": "2026-11-21T00:06:11+00:00",
-      "first_seen": "2026-11-21T11:05:30.848663+10:00",
-      "category": "breaking"
-    },
-    "de684a091faaf420": {
-      "source": "BBC News",
-      "title": "Phoebe Bridgers banned phones at her gigs, so fans are using art to remember them",
-      "published": "2026-11-21T00:08:19+00:00",
-      "first_seen": "2026-11-21T11:05:30.848663+10:00",
-      "category": "breaking"
-    },
-    "85a25f44f1e1abb1": {
-      "source": "ABC News",
-      "title": "Trump vows 'tremendous tax' on companies building data centres abroad",
-      "published": "2026-11-20T20:27:15+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "1945101aa8510579": {
-      "source": "ABC News",
-      "title": "How a dodgy visa scheme put a NSW premier's secret partner behind bars",
-      "published": "2026-11-20T20:30:48+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "40b1226c9e474bc1": {
-      "source": "ABC News",
-      "title": "Seat by seat, these are the major election issues in regional Victoria",
-      "published": "2026-11-20T20:46:42+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "2d4dc2171067946b": {
-      "source": "SMH",
-      "title": "Australia and China agree to annual AI talks to manage risks",
-      "published": "2026-11-20T20:57:37+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "61e7f7e482cac0aa": {
-      "source": "The Age",
-      "title": "Australia and China agree to annual AI talks to manage risks",
-      "published": "2026-11-20T20:57:37+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "2d4dc2171067946b"
-    },
-    "6899efb8274329b9": {
-      "source": "SMH",
-      "title": "Five arrested after 660kg cocaine seized in Brazil with links to Australia",
-      "published": "2026-11-20T20:57:41+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "e36190fd357ef902": {
-      "source": "The Age",
-      "title": "Five arrested after 660kg cocaine seized in Brazil with links to Australia",
-      "published": "2026-11-20T20:57:41+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "6899efb8274329b9"
-    },
-    "ff04969c523ec3fd": {
-      "source": "ABC News",
-      "title": "Widow's campaign against gambling after husband 'lost in a web of lies'",
-      "published": "2026-11-20T21:03:16+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "0352e3e2dfe46d77": {
-      "source": "ABC News",
-      "title": "Canberra United star on 'reclaiming the narrative' as she marks 200 games",
-      "published": "2026-11-20T21:09:14+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "64e1805a60c9ba88": {
-      "source": "ABC News",
-      "title": "One Nation lands $25k donation from Tasmanian salmon company",
-      "published": "2026-11-20T21:19:08+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "e0a4c477e8c7cacb": {
-      "source": "SMH",
-      "title": "Trump talks down Quad AI plan, will penalise US companies that build data centres overseas",
-      "published": "2026-11-20T21:20:42+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "02abc2e81dd4d1d2": {
-      "source": "The Age",
-      "title": "Trump talks down Quad AI plan, will penalise US companies that build data centres overseas",
-      "published": "2026-11-20T21:20:42+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "e0a4c477e8c7cacb"
-    },
-    "57258585bec33e9f": {
-      "source": "ABC News",
-      "title": "Calls to fund Indigenous disaster response ahead of more flooding",
-      "published": "2026-11-20T21:29:22+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "88fc0b035917f7ac": {
-      "source": "SMH",
-      "title": "\u2018He\u2019s a great leader\u2019: Hazlewood breaks silence with Cummins defence",
-      "published": "2026-11-20T21:31:18+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "60e46c663c9bea74": {
-      "source": "The Age",
-      "title": "\u2018He\u2019s a great leader\u2019: Hazlewood breaks silence with Cummins defence",
-      "published": "2026-11-20T21:31:18+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "88fc0b035917f7ac"
-    },
-    "14b795d3e12bcc04": {
-      "source": "SMH",
-      "title": "Aussie investors miss out on Anthropic",
-      "published": "2026-11-20T21:47:53+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "e4195c8ff4d903ff": {
-      "source": "The Age",
-      "title": "Aussie investors miss out on Anthropic",
-      "published": "2026-11-20T21:47:53+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "14b795d3e12bcc04"
-    },
-    "e2f1f5f84d77c6c5": {
-      "source": "ABC News",
-      "title": "Farmers warned to pay up or potentially lose drivers licences",
-      "published": "2026-11-20T21:57:45+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "65dfc77fadc32746": {
-      "source": "SMH",
-      "title": "\u2018I can\u2019t survive like this\u2019: The moment Shaun Tan\u2019s life changed completely",
-      "published": "2026-11-20T22:00:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "5ec07bcc944385e7": {
-      "source": "SMH",
-      "title": "James Bond has finally been cast. Now it\u2019s time to pick the villains",
-      "published": "2026-11-20T22:00:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "027bf2637f7c2b0e": {
-      "source": "The Age",
-      "title": "\u2018I can\u2019t survive like this\u2019: The moment Shaun Tan\u2019s life changed completely",
-      "published": "2026-11-20T22:00:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "65dfc77fadc32746"
-    },
-    "0751daa27509defb": {
-      "source": "The Age",
-      "title": "James Bond has finally been cast. Now it\u2019s time to pick the villains",
-      "published": "2026-11-20T22:00:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "5ec07bcc944385e7"
-    },
-    "1bef314001a98972": {
-      "source": "SMH",
-      "title": "Boy, 3, dies after being struck by ute at NSW holiday park",
-      "published": "2026-11-20T22:07:43+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "e4d49f54b308349f": {
-      "source": "The Age",
-      "title": "Boy, 3, dies after being struck by ute at NSW holiday park",
-      "published": "2026-11-20T22:07:43+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "1bef314001a98972"
-    },
-    "1e3b449983448d88": {
-      "source": "ABC News",
-      "title": "The key takeaways from 2026 AFL Draft",
-      "published": "2026-11-20T22:11:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "ff4ca5a92c7dfb7f": {
-      "source": "SMH",
-      "title": "Cricket Australia to back Cummins",
-      "published": "2026-11-20T22:22:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "a206bfc7cd154a70": {
-      "source": "The Age",
-      "title": "Cricket Australia to back Cummins",
-      "published": "2026-11-20T22:22:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "ff4ca5a92c7dfb7f"
-    },
-    "bdda1ac9ba25a4c9": {
-      "source": "SMH",
-      "title": "One fix to the Nations Championship could make it bigger than the World Cup",
-      "published": "2026-11-20T22:30:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "0923e57a9aa891e0": {
-      "source": "The Age",
-      "title": "One fix to the Nations Championship could make it bigger than the World Cup",
-      "published": "2026-11-20T22:30:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "bdda1ac9ba25a4c9"
-    },
-    "4c82ae8956bc565e": {
-      "source": "ABC News",
-      "title": "Young mother rated 'high risk' in months before her death, inquest hears",
-      "published": "2026-11-20T22:33:41+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "56ce9aef3177de31": {
-      "source": "SMH",
-      "title": "Sydney at risk of losing Origin game",
-      "published": "2026-11-20T22:57:30+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "284412d1a8c28429": {
-      "source": "The Age",
-      "title": "Sydney at risk of losing Origin game",
-      "published": "2026-11-20T22:57:30+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "56ce9aef3177de31"
-    },
-    "a18d8a1474632fae": {
-      "source": "ABC News",
-      "title": "Farmer hopes MND trial could give her more time with family",
-      "published": "2026-11-20T22:59:07+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "85671cc27f8bb129": {
-      "source": "ABC News",
-      "title": "The 'covert' work married women did when banned from the public service",
-      "published": "2026-11-20T23:00:17+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "2fd592eac4d42b1a": {
-      "source": "ABC News",
-      "title": "A 28-day stay in a Darwin hostel helped a family escape homelessness",
-      "published": "2026-11-20T23:18:07+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "688f9e926de8967f": {
-      "source": "ABC News",
-      "title": "Hazlewood backs Cummins as sandpaper saga continues",
-      "published": "2026-11-20T23:20:08+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "b133399bc59c9a80": {
-      "source": "ABC News",
-      "title": "Secret police recording of parent murderer released",
-      "published": "2026-11-20T23:30:21+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "9744d0a227fe0d82": {
-      "source": "ABC News",
-      "title": "Hatching a plan to ensure Australia's native turtles survive and thrive",
-      "published": "2026-11-20T23:32:49+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "848648ef43ddc787": {
-      "source": "SMH",
-      "title": "China\u2019s BYD banned from selling \u2018copycat Land Rover\u2019 in Europe",
-      "published": "2026-11-20T23:39:56+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "19b174cab503a6d6": {
-      "source": "The Age",
-      "title": "China\u2019s BYD banned from selling \u2018copycat Land Rover\u2019 in Europe",
-      "published": "2026-11-20T23:39:56+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "848648ef43ddc787"
-    },
-    "ff04e9f8f2c44c47": {
-      "source": "ABC News",
-      "title": "Petition against AI cameras at junior basketball attracts 13,000 signatures",
-      "published": "2026-11-20T23:49:05+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "bfbee72e6f5e682e": {
-      "source": "ABC News",
-      "title": "Man convicted of starting deadly 2025 LA Palisades Fire",
-      "published": "2026-11-20T23:53:06+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "f96894929d30ab71": {
-      "source": "SMH",
-      "title": "Trump vows to stop data centres being built overseas",
-      "published": "2026-11-21T00:02:03+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "23ba86c39abbbea2": {
-      "source": "The Age",
-      "title": "Trump vows to stop data centres being built overseas",
-      "published": "2026-11-21T00:02:03+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "f96894929d30ab71"
-    },
-    "3025a988514a3ca1": {
-      "source": "SMH",
-      "title": "My Fair Lady has arrived, and it\u2019s an abso-bloomin\u2019-lutely loverly treat",
-      "published": "2026-11-21T00:03:50+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "57c470ebb4186f46": {
-      "source": "The Age",
-      "title": "My Fair Lady has arrived, and it\u2019s an abso-bloomin\u2019-lutely loverly treat",
-      "published": "2026-11-21T00:03:50+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "3025a988514a3ca1"
-    },
-    "9297c73731ac8afa": {
-      "source": "ABC News",
-      "title": "At 192cm tall, Tiny Tim could be a national cattle record breaker",
-      "published": "2026-11-21T00:04:22+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "887f3c203a1a1a76": {
-      "source": "SMH",
-      "title": "The Age photos of the week, November 21, 2026",
-      "published": "2026-11-21T00:18:56+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "034d793ac41a611f": {
-      "source": "The Age",
-      "title": "The Age photos of the week, November 21, 2026",
-      "published": "2026-11-21T00:18:56+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "887f3c203a1a1a76"
-    },
-    "27c1a9e39a35a3fa": {
-      "source": "SMH",
-      "title": "Rider on unregistered minibike seriously injured in crash",
-      "published": "2026-11-21T00:26:08+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "50e5725b5ce217b6": {
-      "source": "The Age",
-      "title": "Rider on unregistered minibike seriously injured in crash",
-      "published": "2026-11-21T00:26:08+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "27c1a9e39a35a3fa"
-    },
-    "c946ed5dcb3fb7b8": {
-      "source": "ABC News",
-      "title": "From Marxism to extremism: A Perth teen\u2019s descent into radicalisation",
-      "published": "2026-11-21T00:36:10+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "69a6117fcc357a8f": {
-      "source": "SMH",
-      "title": "Electric race car bursts into flames",
-      "published": "2026-11-21T00:56:32+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "6845652edf02edd8": {
-      "source": "The Age",
-      "title": "Electric race car bursts into flames",
-      "published": "2026-11-21T00:56:32+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "69a6117fcc357a8f"
-    },
-    "abc1130f4fa43bfa": {
-      "source": "SMH",
-      "title": "Car hits large group of people in Brisbane CBD after running red light",
-      "published": "2026-11-21T00:57:30+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "77635292758c2a6f": {
-      "source": "The Age",
-      "title": "Car hits large group of people in Brisbane CBD after running red light",
-      "published": "2026-11-21T00:57:30+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "abc1130f4fa43bfa"
-    },
-    "423965e37338aa7b": {
-      "source": "SMH",
-      "title": "Three cities, three nights: NRL\u2019s global round concept revealed",
-      "published": "2026-11-21T01:00:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia"
-    },
-    "0cc232e8def61a24": {
-      "source": "The Age",
-      "title": "Three cities, three nights: NRL\u2019s global round concept revealed",
-      "published": "2026-11-21T01:00:00+00:00",
-      "first_seen": "2026-11-21T11:05:31.095522+10:00",
-      "category": "australia",
-      "duplicate_of": "423965e37338aa7b"
-    },
-    "8cbc5e7f2766ed41": {
-      "source": "ScienceDaily",
-      "title": "The asteroid killed the dinosaurs. Why did crocodiles survive?",
-      "published": "2026-10-30T11:34:16+00:00",
-      "first_seen": "2026-11-21T11:05:32.637578+10:00",
-      "category": "archaeology"
-    },
-    "e54ea357091c2903": {
-      "source": "PhysOrg",
-      "title": "Evolution found another way to build a primate brain",
-      "published": "2026-11-13T19:00:09+00:00",
-      "first_seen": "2026-11-21T11:05:32.637578+10:00",
-      "category": "archaeology"
-    },
-    "a50e1dc6f9e15ecd": {
-      "source": "PhysOrg",
-      "title": "A newly discovered South African dinosaur was a heavyweight even as a youngster",
-      "published": "2026-11-13T20:20:04+00:00",
-      "first_seen": "2026-11-21T11:05:32.637578+10:00",
-      "category": "archaeology"
-    },
-    "19fe2dd5cfc5b6d4": {
-      "source": "Nature",
-      "title": "Net zero emissions won\u2019t reverse climate change \u2014 some nations look to \u2018net negative\u2019",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T11:05:32.637578+10:00",
-      "category": "archaeology"
-    },
-    "d14f4134996d05ef": {
-      "source": "Nature",
-      "title": "Mathematician says he and AI solved Riemann hypothesis \u2014 the field\u2019s biggest outstanding challenge",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T11:05:32.637578+10:00",
-      "category": "archaeology"
-    },
-    "c6663c6c83ac18ba": {
-      "source": "Nature",
-      "title": "Sleuth finds \u2018impossible proteins\u2019 in hundreds of research papers",
-      "published": "2026-11-20T00:00:00+00:00",
-      "first_seen": "2026-11-21T11:05:32.637578+10:00",
-      "category": "archaeology"
-    },
-    "7c6d3fe2e523fadb": {
-      "source": "Marca",
-      "title": "Terzic tira de De Marcos para encarar la visita de este s\u00e1bado a Osasuna",
-      "published": "2026-11-06T14:05:14+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "a446b5273855efb5": {
-      "source": "Marca",
-      "title": "LaLiga adelanta al 2 de diciembre el Bar\u00e7a-Atl\u00e9tico y el Real Sociedad-Real Madrid",
-      "published": "2026-11-06T15:53:39+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "15bfed0ca07be0eb": {
-      "source": "Marca",
-      "title": "Horarios de la jornada 14 en Primera: Real Madrid-Alav\u00e9s en s\u00e1bado y Depor-Bar\u00e7a el domingo",
-      "published": "2026-11-06T15:54:23+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "a6d66992817df1f9": {
-      "source": "Marca",
-      "title": "Alineaciones probables del Valencia - Real Madrid",
-      "published": "2026-11-06T17:12:22+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "2c81763c22ad631f": {
-      "source": "Marca",
-      "title": "M\u00e1laga - Racing de Santander | Ganar es m\u00e1s que una obligaci\u00f3n: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
-      "published": "2026-11-06T17:45:17+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "e6ebe2599fc8a1e5": {
-      "source": "Marca",
-      "title": "La enfermer\u00eda se mueve en La Rosaleda: tres altas contra el Racing",
-      "published": "2026-11-06T17:52:57+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "db6a36dd49a282ef": {
-      "source": "Marca",
-      "title": "El Betis anuncia la Junta General de Accionistas para el 10 de diciembre",
-      "published": "2026-11-06T18:36:41+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "4023639cb1a85036": {
-      "source": "Marca",
-      "title": "Eder Sarabia: \u201cTenemos recursos de sobra y estamos preparados para poder ganar\u201d",
-      "published": "2026-11-06T19:37:41+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "e56dd74dc51bfd15": {
-      "source": "Marca",
-      "title": "Osasuna- Athletic| Osasuna desaf\u00eda lo que dice la historia: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
-      "published": "2026-11-06T19:50:11+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "a913f33258f452b1": {
-      "source": "Marca",
-      "title": "A qu\u00e9 hora es el Espanyol - Deportivo: horario y d\u00f3nde ver hoy en TV y online el partido de LaLiga EA Sports",
-      "published": "2026-11-06T20:26:39+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "7c17673f110754a4": {
-      "source": "Marca",
-      "title": "Espanyol - Deportivo | Eder Sarabia, \u2018ausente\u2019 en el inicio de su proyecto: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
-      "published": "2026-11-06T20:27:34+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "6830f4021787e008": {
-      "source": "Kicker",
-      "title": "F\u00fchrungsst\u00e4rke als Argument: S\u00fcdamerikaner st\u00fctzen Infantino",
-      "published": "2026-11-20T20:24:13+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "ad410c14ed77b0f3": {
-      "source": "Kicker",
-      "title": "Dortmunder Nachwuchs zu stark: Lotte beendet die Hinrunde mit nur sieben Punkten",
-      "published": "2026-11-20T20:34:43+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "35a573a4e51d9c9a": {
-      "source": "Kicker",
-      "title": "Sorgen in der Offensive werden gr\u00f6\u00dfer: Kane und Olise verletzt raus",
-      "published": "2026-11-20T20:41:08+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "0f8375fc1d1a56be": {
-      "source": "Kicker",
-      "title": "Dank Doppelpacker Kleiner: Bremer SV dreht Spiel in Emden sp\u00e4t",
-      "published": "2026-11-20T21:02:19+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "7a4ea3fa19ac60e0": {
-      "source": "Kicker",
-      "title": "Reimann gibt Grodowski Tipps: \"N\u00e4chstes Mal flach schie\u00dfen\"",
-      "published": "2026-11-20T21:05:23+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "656d2f89c7ead3b3": {
-      "source": "Kicker",
-      "title": "Vorw\u00fcrfe \u00fcber Vorw\u00fcrfe: Schlammschlacht zwischen Mudryk und Shevchenko",
-      "published": "2026-11-20T21:06:53+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "4abf0e774e3dbbd6": {
-      "source": "Kicker",
-      "title": "Troyes - Le Havre: Tor zum 2:1 durch Mille in der 69. Minute",
-      "published": "2026-11-20T21:17:50+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "7cf4ce73def0df08": {
-      "source": "Kicker",
-      "title": "Schmidt wird deutlich: \"Bringt nix, die Dinge sch\u00f6nzureden\"",
-      "published": "2026-11-20T21:25:40+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "1b59cf8988d22615": {
-      "source": "Kicker",
-      "title": "Bilbao - Espanyol: Tor zum 0:1 durch Fernandez in der 66. Minute",
-      "published": "2026-11-20T21:31:01+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "520c7980ed20c087": {
-      "source": "Kicker",
-      "title": "Dreierpacker Otto: \"Muss erst mit meiner Frau sprechen, wo der Ball hin darf\"",
-      "published": "2026-11-20T21:31:34+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "578eeb34f0780ae2": {
-      "source": "Kicker",
-      "title": "Troyes - Le Havre: Rote Karte f\u00fcr Koffi in der 89. Minute",
-      "published": "2026-11-20T21:38:01+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "31a92731bc6d6334": {
-      "source": "Kicker",
-      "title": "Wildes Remis in Magdeburg: Zwickau trifft f\u00fcnfmal - zweimal ins eigene Tor",
-      "published": "2026-11-20T21:43:27+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "32ddfb646c1fe68a": {
-      "source": "Kicker",
-      "title": "Troyes - Le Havre: Tor zum 3:1 durch Ripart in der 90.+8 Minute",
-      "published": "2026-11-20T21:45:33+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "c677c504036f69de": {
-      "source": "Kicker",
-      "title": "Herber R\u00fcckschlag f\u00fcr die Bayern: Kane erleidet Syndesmoseriss",
-      "published": "2026-11-20T22:09:32+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "87812d988edf277b": {
-      "source": "Kicker",
-      "title": "\"Kann mir nicht vorstellen, dass irgendein Verein Musiala unter diesen Voraussetzungen kaufen wird\"",
-      "published": "2026-11-20T22:33:00+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "766d985d04d1b58c": {
-      "source": "Kicker",
-      "title": "El Mala zwischen den Welten: \"Da h\u00e4ttest du dich feiern lassen k\u00f6nnen\"",
-      "published": "2026-11-20T23:11:17+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "e53caa9c8e87947e": {
-      "source": "Kicker",
-      "title": "FC Bayern atmet auf: Leichte Entwarnung bei Olise",
-      "published": "2026-11-20T23:17:25+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "c281d5498fda9ef7": {
-      "source": "Kicker",
-      "title": "Kompany: \"Haben andere Jungs, die die Mannschaft jetzt tragen m\u00fcssen\"",
-      "published": "2026-11-20T23:22:17+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "036d9ed475ce563f": {
-      "source": "Kicker",
-      "title": "Bayerns schwarzer Freitag: Die Hintergr\u00fcnde zu Rummenigge und Musiala",
-      "published": "2026-11-20T23:30:03+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
-    "10b5d4265c478f4a": {
-      "source": "Kicker",
-      "title": "Nach harter Rummenigge-Kritik: Kompany stellt sich vor Musiala",
-      "published": "2026-11-20T23:32:10+00:00",
-      "first_seen": "2026-11-21T11:05:35.114484+10:00",
-      "category": "football"
-    },
     "de72547796e942f7": {
       "source": "Al Jazeera",
       "title": "Can Mauricio Pochettino save Man United from Premier League relegation?",
@@ -19365,6 +18576,746 @@
       "published": "2026-11-27T22:22:02+00:00",
       "first_seen": "2026-11-28T08:50:24.943059+10:00",
       "category": "breaking"
+    },
+    "c80bf3944354e200": {
+      "source": "Al Jazeera",
+      "title": "Kenyan cult leader guilty of manslaughter more than 123 starvation deaths",
+      "published": "2026-11-27T22:33:17+00:00",
+      "first_seen": "2026-11-28T11:06:43.397632+10:00",
+      "category": "breaking"
+    },
+    "09dbcf13b3317449": {
+      "source": "Al Jazeera",
+      "title": "Will Taiwan vote to revive nuclear power \u2013 and why does that matter for AI?",
+      "published": "2026-11-27T23:09:04+00:00",
+      "first_seen": "2026-11-28T11:06:43.397632+10:00",
+      "category": "breaking"
+    },
+    "831e07c5acfbe6c6": {
+      "source": "Al Jazeera",
+      "title": "US disables ship attempting to breach Iran blockade",
+      "published": "2026-11-27T23:55:16+00:00",
+      "first_seen": "2026-11-28T11:06:43.397632+10:00",
+      "category": "breaking"
+    },
+    "b7afc187649781fc": {
+      "source": "Al Jazeera",
+      "title": "At least eight found dead on migrant boat off Spain\u2019s Canary Islands",
+      "published": "2026-11-27T23:57:03+00:00",
+      "first_seen": "2026-11-28T11:06:43.397632+10:00",
+      "category": "breaking"
+    },
+    "c0637495e5521872": {
+      "source": "Al Jazeera",
+      "title": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
+      "published": "2026-11-28T00:00:00+00:00",
+      "first_seen": "2026-11-28T11:06:43.397632+10:00",
+      "category": "breaking"
+    },
+    "cafa590a37697eaa": {
+      "source": "Al Jazeera",
+      "title": "Francesca Albanese seeks apology from Costa Rica after entry ban",
+      "published": "2026-11-28T00:12:20+00:00",
+      "first_seen": "2026-11-28T11:06:43.397632+10:00",
+      "category": "breaking"
+    },
+    "d2ec871c005eb450": {
+      "source": "BBC News",
+      "title": "The Papers: 'Catherine on cancer fight' and 'Benefits and pensions chaos'",
+      "published": "2026-11-28T00:38:55+00:00",
+      "first_seen": "2026-11-28T11:06:43.397632+10:00",
+      "category": "breaking"
+    },
+    "5ed2dc58d4b6804d": {
+      "source": "BBC News",
+      "title": "Should I get a flu vaccine now?",
+      "published": "2026-11-28T01:03:11+00:00",
+      "first_seen": "2026-11-28T11:06:43.397632+10:00",
+      "category": "breaking"
+    },
+    "e294b6029cc848e3": {
+      "source": "ABC News",
+      "title": "How a 'healthy' schoolies week ended with a 15yo on life support",
+      "published": "2026-11-27T21:00:15+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "605e697d15964c4e": {
+      "source": "ABC News",
+      "title": "Hope for Christmas beetles after warm winter, wet spring",
+      "published": "2026-11-27T21:00:27+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "8b162a748002c709": {
+      "source": "ABC News",
+      "title": "F1 driver runs over mechanic's foot in Qatar",
+      "published": "2026-11-27T21:28:19+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "fe3c9648e493d26e": {
+      "source": "ABC News",
+      "title": "Rain not enough to extinguish Flinders Island bushfire",
+      "published": "2026-11-27T21:45:59+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "1ccb24c94facff81": {
+      "source": "ABC News",
+      "title": "'Everything is on the table' as inquiry into military sexual violence kicks off",
+      "published": "2026-11-27T21:54:01+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "8dbeb33f73a788f2": {
+      "source": "ABC News",
+      "title": "Tasmania's cave explorers still finding new worlds underground",
+      "published": "2026-11-27T21:58:56+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "6db7e92ad3d1ae18": {
+      "source": "SMH",
+      "title": "Apocalypse hangs over Sydney in new sci-fi film commissioned by the Powerhouse",
+      "published": "2026-11-27T22:00:00+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "194e2bec980a7da5": {
+      "source": "The Age",
+      "title": "Apocalypse hangs over Sydney in new sci-fi film commissioned by the Powerhouse",
+      "published": "2026-11-27T22:00:00+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "6db7e92ad3d1ae18"
+    },
+    "dfe84866d2c24fa2": {
+      "source": "SMH",
+      "title": "Harry Styles is back in Melbourne. Does his show live up to the hype?",
+      "published": "2026-11-27T22:04:26+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "657868da901bd8ac": {
+      "source": "The Age",
+      "title": "Harry Styles is back in Melbourne. Does his show live up to the hype?",
+      "published": "2026-11-27T22:04:26+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "dfe84866d2c24fa2"
+    },
+    "9bfbea8eb5c227a8": {
+      "source": "ABC News",
+      "title": "'Play the game': Whistleblower details building sector's dark underbelly",
+      "published": "2026-11-27T22:28:45+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "de09e598e02ef7b1": {
+      "source": "SMH",
+      "title": "Lyon\u2019s replacement revealed as bolter gets nod for Tests against New Zealand",
+      "published": "2026-11-27T22:30:00+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "1c6c8d1fb84d6cdb": {
+      "source": "The Age",
+      "title": "Lyon\u2019s replacement revealed as bolter gets nod for Tests against New Zealand",
+      "published": "2026-11-27T22:30:00+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "de09e598e02ef7b1"
+    },
+    "8f7c0e313e577b50": {
+      "source": "ABC News",
+      "title": "Walker wins Australia's first medal of World Cup season",
+      "published": "2026-11-27T22:33:51+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "6be1d2041662c0fc": {
+      "source": "ABC News",
+      "title": "Aboriginal community captured in \u2018timeless, beautiful\u2019 tintype portraits",
+      "published": "2026-11-27T22:34:19+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "62b7a77dea9029c0": {
+      "source": "SMH",
+      "title": "The Wallabies have less than a year to sort themselves out for the World Cup. It can be done",
+      "published": "2026-11-27T22:45:23+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "c822a2e23cc581cc": {
+      "source": "The Age",
+      "title": "The Wallabies have less than a year to sort themselves out for the World Cup. It can be done",
+      "published": "2026-11-27T22:45:23+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "62b7a77dea9029c0"
+    },
+    "830296eac86815ef": {
+      "source": "SMH",
+      "title": "Caught between killers: An epidemic on one side, terrorists on the other",
+      "published": "2026-11-27T22:49:16+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "e8a8acb4df28d68f": {
+      "source": "The Age",
+      "title": "Caught between killers: An epidemic on one side, terrorists on the other",
+      "published": "2026-11-27T22:49:16+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "830296eac86815ef"
+    },
+    "a235e58993734283": {
+      "source": "SMH",
+      "title": "Jess Wilson votes with son Patrick in tow",
+      "published": "2026-11-27T22:52:15+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "31f70ce47aa38f92": {
+      "source": "The Age",
+      "title": "Jess Wilson votes with son Patrick in tow",
+      "published": "2026-11-27T22:52:15+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "a235e58993734283"
+    },
+    "085d6923f8d7483a": {
+      "source": "SMH",
+      "title": "Lyon gets Labuschagne's wicket in strange fashion",
+      "published": "2026-11-27T22:54:11+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "135b9c1a528e3223": {
+      "source": "The Age",
+      "title": "Lyon gets Labuschagne's wicket in strange fashion",
+      "published": "2026-11-27T22:54:11+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "085d6923f8d7483a"
+    },
+    "b6071622addf4ac7": {
+      "source": "ABC News",
+      "title": "Nathan Lyon axed as Australia names Test squad",
+      "published": "2026-11-27T22:55:21+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "bbcaac4999968b42": {
+      "source": "SMH",
+      "title": "Victorian election 2026 LIVE updates: Jess Wilson, Ben Carroll cast votes; Greens leader Ellen Sandell blames Labor for One Nation\u2019s rise",
+      "published": "2026-11-27T22:58:41+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "003810f0a9d144c6": {
+      "source": "The Age",
+      "title": "Victorian election 2026 LIVE updates: Jess Wilson, Ben Carroll cast votes; Greens leader Ellen Sandell blames Labor for One Nation\u2019s rise",
+      "published": "2026-11-27T22:58:41+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "bbcaac4999968b42"
+    },
+    "51b34a10793e0b29": {
+      "source": "ABC News",
+      "title": "High-heel skipping and handbag throwing: Perth's queer sports history uncovered",
+      "published": "2026-11-27T23:00:00+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "279c887265f5aae9": {
+      "source": "ABC News",
+      "title": "Farmers do not miss dusty old days as they embrace harvest technology",
+      "published": "2026-11-27T23:00:01+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "587b47297d4bf3fc": {
+      "source": "ABC News",
+      "title": "Bomb scare email distribution blasted as 'irresponsible' by criminologist",
+      "published": "2026-11-27T23:09:13+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "ea1835591806b7ed": {
+      "source": "ABC News",
+      "title": "Police link substance release to robbery attempts at concert",
+      "published": "2026-11-27T23:10:41+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "204956f3b87d8742": {
+      "source": "SMH",
+      "title": "Ben Carroll arriving to vote",
+      "published": "2026-11-27T23:13:35+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "1c3cb3d117b24ebf": {
+      "source": "The Age",
+      "title": "Ben Carroll arriving to vote",
+      "published": "2026-11-27T23:13:35+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "204956f3b87d8742"
+    },
+    "c98a5b1566c09dd3": {
+      "source": "ABC News",
+      "title": "Unoccupied house collapses in Mornington Peninsula landslide",
+      "published": "2026-11-27T23:17:29+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "c245528731a4b383": {
+      "source": "SMH",
+      "title": "Eddey stretches Roos lead in dying moments",
+      "published": "2026-11-27T23:28:24+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "8088c8e48808ebcf": {
+      "source": "The Age",
+      "title": "Eddey stretches Roos lead in dying moments",
+      "published": "2026-11-27T23:28:24+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "c245528731a4b383"
+    },
+    "c983c369211caa4c": {
+      "source": "ABC News",
+      "title": "Peter Cain resigns from Canberra Liberals",
+      "published": "2026-11-27T23:33:25+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "d4792898f1092ee4": {
+      "source": "ABC News",
+      "title": "With the Top End rocked by several strong quakes, we look at the risk",
+      "published": "2026-11-27T23:35:11+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "a2cd57934c59ede6": {
+      "source": "SMH",
+      "title": "Ireland in full control after Ramm fumble",
+      "published": "2026-11-27T23:37:48+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "1510e2df3086b80d": {
+      "source": "The Age",
+      "title": "Ireland in full control after Ramm fumble",
+      "published": "2026-11-27T23:37:48+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "a2cd57934c59ede6"
+    },
+    "33a7be5dcd123b8e": {
+      "source": "SMH",
+      "title": "Williams fires Wallabies to surprise lead",
+      "published": "2026-11-27T23:37:55+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "43790640694c951f": {
+      "source": "The Age",
+      "title": "Williams fires Wallabies to surprise lead",
+      "published": "2026-11-27T23:37:55+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "33a7be5dcd123b8e"
+    },
+    "32875eebc5a9ef49": {
+      "source": "SMH",
+      "title": "Thomas caps strong game with first Test try",
+      "published": "2026-11-27T23:38:17+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "a4162bcbab1bcd65": {
+      "source": "The Age",
+      "title": "Thomas caps strong game with first Test try",
+      "published": "2026-11-27T23:38:17+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "32875eebc5a9ef49"
+    },
+    "cc4783f9a3a1b41c": {
+      "source": "SMH",
+      "title": "Man, 19, charged after twins driving home from gym allegedly stabbed in road rage attack",
+      "published": "2026-11-27T23:43:02+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "020f41468bf053a1": {
+      "source": "The Age",
+      "title": "Man, 19, charged after twins driving home from gym allegedly stabbed in road rage attack",
+      "published": "2026-11-27T23:43:02+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "cc4783f9a3a1b41c"
+    },
+    "02da99076ff6ee38": {
+      "source": "ABC News",
+      "title": "Major WA dairy accused of polluting river with animal carcasses",
+      "published": "2026-11-27T23:58:17+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "d1528f09c52674b9": {
+      "source": "SMH",
+      "title": "All ball, no bite: Wallabies end season with heavy defeat to Ireland",
+      "published": "2026-11-28T00:13:06+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "8fadb684b45dccf5": {
+      "source": "The Age",
+      "title": "All ball, no bite: Wallabies end season with heavy defeat to Ireland",
+      "published": "2026-11-28T00:13:06+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "d1528f09c52674b9"
+    },
+    "383d740ef554bb0b": {
+      "source": "SMH",
+      "title": "Under a playground, through a trap door \u2026 police find vast marijuana bunker",
+      "published": "2026-11-28T00:27:41+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "b587cf47b64980b9": {
+      "source": "The Age",
+      "title": "Under a playground, through a trap door \u2026 police find vast marijuana bunker",
+      "published": "2026-11-28T00:27:41+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "383d740ef554bb0b"
+    },
+    "436464326358cf87": {
+      "source": "ABC News",
+      "title": "Mixed emotions as buffel grass not named weed of national significance",
+      "published": "2026-11-28T00:28:04+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "b263345ed442ab46": {
+      "source": "SMH",
+      "title": "Wallabies player ratings: How the men in gold performed in Irish mauling",
+      "published": "2026-11-28T00:30:22+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "a3a0b5c8ac0d46fa": {
+      "source": "The Age",
+      "title": "Wallabies player ratings: How the men in gold performed in Irish mauling",
+      "published": "2026-11-28T00:30:22+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "b263345ed442ab46"
+    },
+    "eebc4b58ada02c03": {
+      "source": "ABC News",
+      "title": "Police investigating death of 47yo man in remote NT town",
+      "published": "2026-11-28T00:32:39+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "be84b98a7f97972b": {
+      "source": "SMH",
+      "title": "Ringwood voter asks what Jesus would do",
+      "published": "2026-11-28T00:38:58+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "618d07edd1647d24": {
+      "source": "The Age",
+      "title": "Ringwood voter asks what Jesus would do",
+      "published": "2026-11-28T00:38:58+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "be84b98a7f97972b"
+    },
+    "d75121dcc4385ef3": {
+      "source": "SMH",
+      "title": "Baby bill shock: Tax office data-matching whacks tens of thousands",
+      "published": "2026-11-28T00:55:00+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia"
+    },
+    "2f47c2b2dcf5c61c": {
+      "source": "The Age",
+      "title": "Baby bill shock: Tax office data-matching whacks tens of thousands",
+      "published": "2026-11-28T00:55:00+00:00",
+      "first_seen": "2026-11-28T11:06:43.645491+10:00",
+      "category": "australia",
+      "duplicate_of": "d75121dcc4385ef3"
+    },
+    "8cbc5e7f2766ed41": {
+      "source": "ScienceDaily",
+      "title": "The asteroid killed the dinosaurs. Why did crocodiles survive?",
+      "published": "2026-10-30T11:34:16+00:00",
+      "first_seen": "2026-11-28T11:06:45.191144+10:00",
+      "category": "archaeology"
+    },
+    "eb701a03e4dfe761": {
+      "source": "ScienceDaily",
+      "title": "A 3-million-year-old child just made human evolution far more complicated",
+      "published": "2026-11-20T03:17:52+00:00",
+      "first_seen": "2026-11-28T11:06:45.191144+10:00",
+      "category": "archaeology"
+    },
+    "943aa775be33bc14": {
+      "source": "New Scientist",
+      "title": "Unexpected stone tools from Israel raise questions about cultural evolution",
+      "published": "2026-11-20T12:00:00+00:00",
+      "first_seen": "2026-11-28T11:06:45.191144+10:00",
+      "category": "archaeology"
+    },
+    "0b8d54db0805f626": {
+      "source": "PhysOrg",
+      "title": "Study reveals hidden evolutionary diversity in endangered white pines",
+      "published": "2026-11-20T13:20:09+00:00",
+      "first_seen": "2026-11-28T11:06:45.191144+10:00",
+      "category": "archaeology"
+    },
+    "dbab571285ced454": {
+      "source": "PhysOrg",
+      "title": "Killer whales became fearsome predators long before scientists thought",
+      "published": "2026-11-20T17:00:02+00:00",
+      "first_seen": "2026-11-28T11:06:45.191144+10:00",
+      "category": "archaeology"
+    },
+    "27a0ea4c4978b470": {
+      "source": "Nature",
+      "title": "Audio long read: The world\u2019s most precious brain samples \u2014 and what they teach us about being human",
+      "published": "2026-11-27T00:00:00+00:00",
+      "first_seen": "2026-11-28T11:06:45.191144+10:00",
+      "category": "archaeology"
+    },
+    "62585f6fa829a1c5": {
+      "source": "Nature",
+      "title": "Author Correction: Artificial intelligence-enabled clinical phenotyping of human brown fat",
+      "published": "2026-11-27T00:00:00+00:00",
+      "first_seen": "2026-11-28T11:06:45.191144+10:00",
+      "category": "archaeology"
+    },
+    "f210f514c2c12e92": {
+      "source": "Nature",
+      "title": "Want your research cited in patents? Publishing open access increases your chances",
+      "published": "2026-11-27T00:00:00+00:00",
+      "first_seen": "2026-11-28T11:06:45.191144+10:00",
+      "category": "archaeology"
+    },
+    "b7fd1fabd1263026": {
+      "source": "PhysOrg",
+      "title": "How mammals zigzagged their way to modern posture",
+      "published": "2026-11-27T19:00:01+00:00",
+      "first_seen": "2026-11-28T11:06:45.191144+10:00",
+      "category": "archaeology"
+    },
+    "136af5ba77a25c0d": {
+      "source": "PhysOrg",
+      "title": "Denisovan remains and an unknown archaic human lineage discovered in southern China",
+      "published": "2026-11-27T21:20:01+00:00",
+      "first_seen": "2026-11-28T11:06:45.191144+10:00",
+      "category": "archaeology"
+    },
+    "7c6d3fe2e523fadb": {
+      "source": "Marca",
+      "title": "Terzic tira de De Marcos para encarar la visita de este s\u00e1bado a Osasuna",
+      "published": "2026-11-06T14:05:14+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "a446b5273855efb5": {
+      "source": "Marca",
+      "title": "LaLiga adelanta al 2 de diciembre el Bar\u00e7a-Atl\u00e9tico y el Real Sociedad-Real Madrid",
+      "published": "2026-11-06T15:53:39+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "15bfed0ca07be0eb": {
+      "source": "Marca",
+      "title": "Horarios de la jornada 14 en Primera: Real Madrid-Alav\u00e9s en s\u00e1bado y Depor-Bar\u00e7a el domingo",
+      "published": "2026-11-06T15:54:23+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "a6d66992817df1f9": {
+      "source": "Marca",
+      "title": "Alineaciones probables del Valencia - Real Madrid",
+      "published": "2026-11-06T17:12:22+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "2c81763c22ad631f": {
+      "source": "Marca",
+      "title": "M\u00e1laga - Racing de Santander | Ganar es m\u00e1s que una obligaci\u00f3n: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
+      "published": "2026-11-06T17:45:17+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "e6ebe2599fc8a1e5": {
+      "source": "Marca",
+      "title": "La enfermer\u00eda se mueve en La Rosaleda: tres altas contra el Racing",
+      "published": "2026-11-06T17:52:57+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "db6a36dd49a282ef": {
+      "source": "Marca",
+      "title": "El Betis anuncia la Junta General de Accionistas para el 10 de diciembre",
+      "published": "2026-11-06T18:36:41+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "4023639cb1a85036": {
+      "source": "Marca",
+      "title": "Eder Sarabia: \u201cTenemos recursos de sobra y estamos preparados para poder ganar\u201d",
+      "published": "2026-11-06T19:37:41+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "e56dd74dc51bfd15": {
+      "source": "Marca",
+      "title": "Osasuna- Athletic| Osasuna desaf\u00eda lo que dice la historia: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
+      "published": "2026-11-06T19:50:11+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "a913f33258f452b1": {
+      "source": "Marca",
+      "title": "A qu\u00e9 hora es el Espanyol - Deportivo: horario y d\u00f3nde ver hoy en TV y online el partido de LaLiga EA Sports",
+      "published": "2026-11-06T20:26:39+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "7c17673f110754a4": {
+      "source": "Marca",
+      "title": "Espanyol - Deportivo | Eder Sarabia, \u2018ausente\u2019 en el inicio de su proyecto: previa, an\u00e1lisis, pron\u00f3stico y predicci\u00f3n",
+      "published": "2026-11-06T20:27:34+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "9c6cd163227fe7fe": {
+      "source": "Kicker",
+      "title": "N\u00fcskens positives Zwischenfazit: \"Solche Reisen schwei\u00dfen noch mal mehr zusammen\"",
+      "published": "2026-11-27T18:40:42+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "3b5310c73054bb4b": {
+      "source": "Kicker",
+      "title": "Zivzivadze und Sch\u00f6ppner beenden gegen N\u00fcrnberg Heidenheims Sieglos-Serie",
+      "published": "2026-11-27T19:41:14+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "b7c20190f031b760": {
+      "source": "Kicker",
+      "title": "Venedig - BOL: Tor in der 14. Minute",
+      "published": "2026-11-27T20:04:11+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "620fb855e4fc9be2": {
+      "source": "Kicker",
+      "title": "Trapp kann nur hinterherschauen: Brest trifft im Get\u00fcmmel zum 1:0",
+      "published": "2026-11-27T20:12:21+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "7b2ca079b559771e": {
+      "source": "Kicker",
+      "title": "Bonhof best\u00e4tigt Gespr\u00e4ch mit der Fanszene: \"Ein ehrlicher Schlagabtausch\"",
+      "published": "2026-11-27T20:18:08+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "2b9d14383b57e05b": {
+      "source": "Kicker",
+      "title": "Vorn eiskalt, hinten ein \u00fcberragender Otto: Erfurt zeigt beim BFC Meisterqualit\u00e4ten",
+      "published": "2026-11-27T20:46:03+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "1bd3235a6fd242e6": {
+      "source": "Kicker",
+      "title": "Levante - Santander: Tor zum 1:0 durch Romero in der 42. Minute",
+      "published": "2026-11-27T20:48:35+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "dfd98cf2f54f64b5": {
+      "source": "Kicker",
+      "title": "Schnatterer verhilft Heidenheim aus der Krise: \"Genau die Dinge, die mich antreiben\"",
+      "published": "2026-11-27T21:29:07+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "f9a121ba9151f930": {
+      "source": "Kicker",
+      "title": "Levante - Santander: Tor zum 1:1 durch Garcia in der 66. Minute",
+      "published": "2026-11-27T21:29:50+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "22c4342022bf3857": {
+      "source": "Kicker",
+      "title": "Levante - Santander: Tor zum 1:2 durch Zabiri in der 81. Minute",
+      "published": "2026-11-27T21:45:39+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "0913db45e5686d92": {
+      "source": "Kicker",
+      "title": "Hansas Co-Trainer Struckmeier: \"Der Plan ist, ein Feuerwerk abzubrennen\"",
+      "published": "2026-11-27T21:52:43+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "5945e9528574ac25": {
+      "source": "Kicker",
+      "title": "Glasner d\u00fcpiert Xabi Alonso: Chelsea-Krise h\u00e4lt auch in Nottingham an",
+      "published": "2026-11-27T21:55:11+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "9c9d9e6bb2b65c1e": {
+      "source": "Kicker",
+      "title": "Levante - Santander: Tor zum 1:3 durch Garcia in der 90.+5 Minute",
+      "published": "2026-11-27T21:58:15+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "0fe16fd8746229df": {
+      "source": "Kicker",
+      "title": "Klartext von Pochettino: \"Ich bin nicht nett\"",
+      "published": "2026-11-27T22:02:59+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "0cf4a633d8d6696b": {
+      "source": "Kicker",
+      "title": "F\u00fcllkrug: \"Jetzt kam es so, dass ich durchspielen durfte - toll!\"",
+      "published": "2026-11-27T22:44:27+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
+    },
+    "589a4acba0bfa280": {
+      "source": "Kicker",
+      "title": "Mohya kritisiert \"Nachl\u00e4ssigkeiten\" - und sieht \"total \u00e4rgerliches\" Remis",
+      "published": "2026-11-27T22:57:14+00:00",
+      "first_seen": "2026-11-28T11:06:48.586209+10:00",
+      "category": "football"
     }
   }
 }
